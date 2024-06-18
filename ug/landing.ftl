@@ -53,9 +53,19 @@ plan-matrix-feature-email-masks = ئېلخەت نىقابى بىلەن ھەقى�
 plan-matrix-feature-browser-extension = بارلىق تور بېكەتلەردە { -brand-name-relay } توركۆرگۈ كېڭەيتىلمىسىنى ئىشلەتكىلى بولىدۇ
 plan-matrix-feature-email-tracker-removal = ئېلخەت ئىزلىغۇچنى چىقىرىۋەت
 plan-matrix-feature-promo-email-blocking = بازارچىلىق ئېلخەتنى توسسۇن
+plan-matrix-feature-email-subdomain = { -brand-name-relay } ئېلخەت تور دائىرە ئىسمىنى ئىشلىتىپ خالىغان نىقاب قۇرىدۇ
+plan-matrix-feature-email-reply = ئېلخەتكە نامسىز جاۋاب قايتۇرىدۇ
+plan-matrix-feature-list-email-masks-unlimited = چەكسىز ئېلخەت نىقابى
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
+plan-matrix-feature-mobile-email-masks = ئېلخەت نىقابى
+plan-matrix-feature-mobile-browser-extension = توركۆرگۈ كېڭەيتمىسى
+plan-matrix-feature-mobile-email-tracker-removal = ئېلخەت ئىزلىغۇچنى چىقىرىۋەت
+plan-matrix-feature-mobile-promo-email-blocking = بازارچىلىق ئېلخەتنى توسسۇن
+plan-matrix-feature-mobile-email-subdomain = بىردىنبىر { -brand-name-relay } ئېلخەت تور دائىرە ئىسمى
+plan-matrix-feature-mobile-email-reply = ئېلخەتكە نامسىز جاۋاب قايتۇرىدۇ
+plan-matrix-feature-mobile-phone-mask = ھەقىقىي تېلېفون نومۇرىڭىزنى قوغدايدۇ
 
 # Plan Details
 
