@@ -14,12 +14,21 @@ bundle-banner-plan-modules-email-masking = ئېلخەت نىقابى
 bundle-banner-plan-modules-phone-masking = تېلېفون نىقابى
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = { -brand-name-mozilla-vpn } + { -brand-name-relay } غا ئېرىشىش
+# Variables:
+#   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
+bundle-feature-one = { $num_vpn_servers } دىن كۆپ مۇلازىمېتىر
+# Variables:
+#   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
+bundle-feature-two = { $num_vpn_countries } دىن كۆپ دۆلەت
+bundle-feature-three = تېز بىخەتەر تور
 
 ## HOW IT WORKS SECTION 
 
+how-it-works-section-title = { -brand-name-relay } ئېلخەت ۋە تېلېفون نىقابى ئىشلىتىش ئۇسۇلى نېمە
 
 # Item 1
 
+how-it-works-section-extension-headline = خالىغان جايدا { -brand-name-relay } ئېلخەت نىقابى ۋە تېلېفون نىقابى ئىشلەتكىلى بولىدۇ
 
 # Item 2
 
