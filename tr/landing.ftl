@@ -137,6 +137,7 @@ landing-reviews-show-previous-button = önceki incelemeyi göster
 landing-review-anonymous-user = { -brand-name-firefox } kullanıcısı { $user_id }
 landing-review-user-three-review = Bu uzantıyı seviyorum! Çok basit ama güçlü. Tarayıcıyla entegrasyonu da harika.
 landing-review-user-four-review-list-1 = İnternette gezinirken içiniz rahat olsun.
+landing-review-user-four-review-list-3 = Gelen kutusu verileriniz { -brand-name-firefox-relay } ile güvende.
 landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } harikalar yaratıyor, deneyin!!!
 
 ## HIGHLIGHTED FEATURES SECTION
@@ -172,10 +173,10 @@ waitlist-control-email-placeholder = kullanici@example.com
 waitlist-control-country-label-2 = Hangi ülke veya bölgede yaşıyorsunuz?
 waitlist-control-locale-label = Tercih ettiğiniz dili seçin.
 waitlist-submit-label-2 = Bekleme listesine katıl
+waitlist-privacy-policy-agree-2 = “{ waitlist-submit-label-2 }” düğmesine tıklayarak <a>Gizlilik İlkelerimizi</a> kabul etmiş olursunuz.
 waitlist-privacy-policy-use = Bilgileriniz yalnızca sizi { -brand-name-firefox-relay-premium }’un kullanılabilirliği hakkında bilgilendirmek için kullanılacaktır.
 waitlist-privacy-policy-use-phone = Bilgileriniz yalnızca telefon maskeleme özelliği bölgenizde kullanıma sunulduğunda sizi bilgilendirmek için kullanılacaktır.
 waitlist-privacy-policy-use-bundle = Bilgileriniz yalnızca sizi { -brand-name-relay } + { -brand-name-vpn } paketinin kullanılabilirliği hakkında bilgilendirmek için kullanılacaktır.
 waitlist-subscribe-success = Listeye eklendiniz! { -brand-name-firefox-relay-premium } bölgenize açılınca sizi e-postayla bilgilendireceğiz.
 waitlist-subscribe-error-connection = Sizi bekleme listesine eklerken bir hata oluştu. Lütfen bağlantınızı kontrol edip yeniden deneyin.
 waitlist-subscribe-error-unknown = Sizi bekleme listesine eklerken bir hata oluştu. Lütfen yeniden deneyin.
-
