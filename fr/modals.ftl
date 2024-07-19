@@ -45,5 +45,5 @@ modal-domain-register-success-title = Terminé !
 ## Updated mask deletion modal strings
 
 mask-deletion-header = Supprimer cet alias de messagerie ?
-mask-deletion-warning-no-recovery = Une fois que vous avez supprimé cet alias, il ne peut pas être récupéré. Vous ne recevrez plus les e-mails qui lui sont envoyés.
+mask-deletion-warning-no-recovery = Une fois cet alias supprimé, il ne peut pas être récupéré. Vous ne recevrez plus les e-mails qui lui sont envoyés.
 mask-deletion-warning-sign-ins = Si vous utilisez cet alias pour vous connecter à des comptes, vous devriez changer l’adresse e-mail de ces comptes avant de le supprimer.
