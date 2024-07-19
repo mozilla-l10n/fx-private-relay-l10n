@@ -6,7 +6,6 @@
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-tip = Astuce : pour créer un alias personnalisé à tout moment, inventez-en un à la volée. Si vous utilisez votre domaine { -brand-name-relay }, il fonctionnera, même si vous ne l’avez pas généré au préalable ici.
-
 modal-custom-alias-picker-heading-2 = Créer un nouvel alias personnalisé
 modal-custom-alias-picker-form-prefix-label-3 = Saisissez le texte qui doit précéder le symbole @ :
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
@@ -27,9 +26,7 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = Commencer à b
 error-state-valid-alt = Valide
 error-state-invalid-alt = Invalide
 close-button-label-alt = Fermer
-
 modal-delete-headline-2 = Supprimer définitivement cet alias de messagerie ?
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -40,7 +37,6 @@ modal-delete-warning-upgrade-2 =
     vous devriez mettre à jour votre identifiant avec une adresse e-mail différente avant de supprimer celle-ci.
 modal-delete-domain-address-warning-upgrade-2 = Si vous utilisez cet alias pour vous connecter à des sites qui vous intéressent, vous devrez mettre à jour votre identifiant de connexion avec une adresse e-mail différente avant de supprimer celle-ci. Si vous recréiez un alias supprimé, les courriers envoyés à l’alias d’origine continueraient de vous être transférés.
 modal-delete-confirmation-2 = Oui, je veux supprimer cet alias.
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Oui, je souhaite enregistrer <subdomain>{ $subdomain }</subdomain>
@@ -50,4 +46,4 @@ modal-domain-register-success-title = Terminé !
 
 mask-deletion-header = Supprimer cet alias de messagerie ?
 mask-deletion-warning-no-recovery = Une fois que vous avez supprimé cet alias, il ne peut pas être récupéré. Vous ne recevrez plus les e-mails qui lui sont envoyés.
-mask-deletion-warning-sign-ins = Si vous utilisez cet alias pour vous connecter à des comptes, vous devriez changer l’adresses e-mail de ces comptes avant de supprimer cet alias.
+mask-deletion-warning-sign-ins = Si vous utilisez cet alias pour vous connecter à des comptes, vous devriez changer l’adresse e-mail de ces comptes avant de le supprimer.
