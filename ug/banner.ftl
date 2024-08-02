@@ -6,9 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = بولدىلا
-
 banner-bounced-headline = { -brand-name-relay } ئېلخىتىڭىزنى يەتكۈزەلمىدى.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -27,10 +25,14 @@ banner-download-install-chrome-extension-headline = { -brand-name-google-chrome 
 banner-download-install-chrome-extension-copy-2 = { -brand-name-chrome } نىڭ { -brand-name-firefox-relay } كېڭەيتمىسى نىقاب ياساش ۋە ئىشلىتىشنى تېخىمۇ ئاسانلاشتۇرىدۇ.
 banner-download-install-chrome-extension-cta = { -brand-name-relay } كېڭەيتمىسىگە ئېرىشىڭ
 banner-upgrade-cta = { -brand-name-relay-premium } غا يۈكسەلت
-
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+banner-register-subdomain-copy-2 =
+    ئۆزىڭىزگە خاس تارماق تور دائىرە نامى بىلەن، سىز ئالدىن نىقاب قۇرمايلا ئېلخەتنى ئۇلاپ يوللىيالايسىز.
+    زاكاز قىلىش ئۈچۈن نىقابغا ئېھتىياجىڭىز بارمۇ؟
+    ئاشخانىغا «restaurant@yourdomain.{ $mozmail }» نى تەمىنلەڭ.
+    سىزنىڭ ئۆزىڭىزگە خاس تارماق تور دائىرە نامىڭىزنى ئىشلىتىدىغان ھەر قانداق ئېلخەت سىزگە ئۇلاپ يوللىنىدۇ.
 banner-pack-upgrade-cta = ھازىر يېڭىلا
-
-
 # Data Notification Banner:
 banner-label-data-notification-body-cta = تەپسىلاتى
 
@@ -40,6 +42,7 @@ banner-label-data-notification-body-cta = تەپسىلاتى
 ## Set domain banner
 
 banner-set-email-domain-headline-action-needed = مەشغۇلات زۆرۈر
+banner-set-email-domain-headline = بىردىنبىر { -brand-name-relay } ئېلخەت تور دائىرە ئىسمىنى بەلگىلەڭ
 banner-set-email-domain-input-placeholder-label = ئېلخەت دائىرە ئىزدە
 banner-set-email-domain-input-placeholder = سۆز ياكى ئىبارە ئىزدە
 banner-set-email-domain-input-search = ئىزدە
@@ -48,7 +51,6 @@ banner-set-email-domain-input-search = ئىزدە
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = دائىرە نامىڭىز
 banner-set-email-domain-learn-more = تەپسىلاتى
-
 modal-email-domain-good-news = خۇشخەۋەر!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available

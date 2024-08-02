@@ -84,6 +84,7 @@ plan-matrix-price-period-monthly = ئايلىق
 # Plan CTAs
 
 plan-matrix-sign-up = تىزىملىتىڭ
+plan-matrix-get-relay-cta = { -brand-name-relay }چۈشۈر
 plan-matrix-join-waitlist = كۈتۈش تىزىمىغا قوشۇلۇڭ
 
 # Item 1
@@ -124,8 +125,13 @@ highlighted-features-section-new-item = يېڭى!
 
 ## Premium promo page
 
+premium-promo-hero-cta = ھازىر يۈكسەلت
 
 ## The Premium waitlist page
 
 waitlist-control-required = زۆرۈر
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = yourname@example.com
+waitlist-control-country-label-2 = قايسى دۆلەت ياكى رايوندا ياشايسىز؟
+waitlist-control-locale-label = ياقتۇرىدىغان تىلىڭىزنى تاللاڭ.
 waitlist-submit-label-2 = كۈتۈش تىزىمىغا قوشۇلۇڭ

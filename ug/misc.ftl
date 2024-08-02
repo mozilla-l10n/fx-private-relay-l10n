@@ -45,7 +45,6 @@ tips-footer-link-support-tooltip = قوللاش بىلەن ئالاقىلىشى�
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = { $nr } كۆرسەتمە
 tips-toast-button-expand-label = تېخىمۇ كۆپ بىلدۈرگۈ
-
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = بازارچىلىق ئېلخەتنى توسسۇن
 popover-custom-alias-explainer-promotional-block-tooltip-trigger = تەپسىلاتى
@@ -53,8 +52,6 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = تەپسىل�
 ## Tip about using custom masks
 
 tips-custom-alias-heading-2 = خاس تارماق تور نامىڭىزنى ئىشلىتىپ نىقاب قۇرىدۇ
-
-## Tip about using custom masks
 
 ## Report of trackers removed from an email
 
@@ -94,7 +91,6 @@ contains-tracker-warning-title = يەنىلا بۇ ئۇلانمىنى كۆرەم
 contains-tracker-warning-description = ئاگاھلاندۇرۇش: بۇ ئۇلانمىنى چەكسىڭىز سىزگە مۇناسىۋەتلىك ئۇچۇر يوللىغۇچىغا قايتۇرۇلىدۇ
 contains-tracker-warning-view-link-cta = ھەئە، ئۇلانمىنى كۆرسەت
 contains-tracker-faq-section-title = ئېلخەت ئىزلىغۇچ ھەققىدە دائىم سورالغان سوئاللار
-
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = كۈن
@@ -122,9 +118,6 @@ survey-csat-answer-neutral = بىتەرەپ
 survey-csat-answer-satisfied = رازى
 survey-csat-answer-very-satisfied = بەك رازى
 
-## Deprecated (since January 2023)
-## Email wrapping (header and footer messages wrapped around forwarded emails)
-
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
@@ -140,19 +133,16 @@ manage-your-masks = نىقاب باشقۇرۇش
 
 first-time-user-email-welcome = { -brand-name-firefox-relay } غا خۇش كەپسىز
 first-time-user-email-hero-cta = باشقۇرۇش تاختىڭىزنى كۆرسىتىدۇ
+first-time-user-email-cta-dashboard-button = { -brand-name-relay }ئىشلىتىشنى ئۆگىنىۋېلىڭ
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = سىزگە بەرگەن ۋەدىمىز
-
 first-time-user-email-how-title = { -brand-name-relay } قانداق ئىشلەيدۇ
-
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } گە ئېرىشىڭ
-
 first-time-user-email-footer-text-legal = قانۇنلۇق
 first-time-user-email-footer-text-privacy = شەرت ۋە شەخسىيەت
 
 ## API error messages
 
 api-error-account-is-paused = ھېساباتىڭىز ۋاقىتلىق توختىتىلدى.
-
