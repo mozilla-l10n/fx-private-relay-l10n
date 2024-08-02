@@ -8,4 +8,4 @@ whatsnew-tab-new-label = خەۋەرلەر
 whatsnew-tab-archive-label = تارىخ
 whatsnew-footer-clear-all-label = ھەممىنى تازىلا
 whatsnew-footer-back-label = قايت
-
+whatsnew-feature-size-limit-heading = قوشۇمچە ھۆججەتنىڭ چوڭلۇقى ئارتتى

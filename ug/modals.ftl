@@ -11,12 +11,11 @@ modal-custom-alias-picker-form-prefix-placeholder-redesign = تېكىست كىر
 error-alias-picker-prefix-invalid-uppercase-letters = چوڭ ھەرپ يوق
 done-msg = تامام
 copy-mask = نىقابنى كۆچۈر
+popover-custom-alias-explainer-promotional-block-checkbox-label = بازارچىلىق ئېلخەتنى توسۇشنى باشلاڭ
 error-state-valid-alt = ئىناۋەتلىك
 error-state-invalid-alt = ئىناۋەتسىز
 close-button-label-alt = تاقا
-
 modal-delete-confirmation-2 = شۇنداق، مەن بۇ نىقابنى ئۆچۈرمەكچى.
-
 modal-domain-register-success-title = مۇۋەپپەقىيەتلىك!
 
 ## Updated mask deletion modal strings

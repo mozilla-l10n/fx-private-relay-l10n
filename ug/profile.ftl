@@ -16,13 +16,14 @@ profile-label-generate-new-alias-2 = يېڭى نىقاب ھاسىللاش
 profile-label-delete = ئۆچۈر
 profile-label-reset = ئەسلىگە قايتۇر
 profile-label-continue = داۋاملاشتۇر
-
 profile-label-copied = كۆچۈرۈلدى!
 profile-label-blocked = توسۇلغان
+profile-label-replies = جاۋاب
 profile-label-cancel = ۋاز كەچ
 profile-forwarded-note = ئەسكەرتىش:
 profile-stat-learn-more = تەپسىلاتى
 profile-stat-learn-more-close = تاقا
+profile-stat-label-blocked = ئېلخەت توسۇلدى
 profile-filter-search-placeholder-2 = نىقاب ئىزدە
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
@@ -31,6 +32,8 @@ profile-filter-search-placeholder-2 = نىقاب ئىزدە
 profile-promo-email-blocking-option-all = ھەممىسى
 # Block promotional emails sent to a speciic mask
 profile-promo-email-blocking-option-promotions = تەشۋىق
+# Allow/forward all emails sent to a speciic mask
+profile-promo-email-blocking-option-none = يوق
 # Deprecated
 profile-promo-email-blocking-label-none = ھەممىنى توس
 profile-promo-email-blocking-description-promotionals-locked-cta = ھازىر يۈكسەلت
