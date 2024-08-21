@@ -97,6 +97,12 @@ plan-matrix-join-waitlist = كۈتۈش تىزىمىغا قوشۇلۇڭ
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = چەكسىز ئېلخەت نىقابى قۇرىدۇ
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
+    ھەممەيلەن { $mask_limit } ئېلخەت نىقابىغا ھەقسىز ئېرىشەلەيدۇ. 
+    ئەمما { -brand-name-relay-premium } ئارقىلىق قانچىلىك ئېلخەت ساندۇقىڭىزنى ئەخلەت خەت، 
+    خاككېر ۋە باشقا ئىزلىغۇچىلاردىن قوغداشقا ئېھتىياجلىق بولسىڭىز شۇنچىلىك نىقاب ھاسىل قىلالايسىز.
 
 # Item 2
 
@@ -104,12 +110,15 @@ highlighted-features-section-masks-on-the-go-headline = خالىغان ۋاقى�
 
 # Item 3
 
+highlighted-features-section-replying-headline = ئېلخەت ۋە تېكىستكە ئاتسىز جاۋاب قايتۇرىدۇ
 
 # Item 4
 
+highlighted-features-section-block-promotions-headline = بازارچىلىق ئېلخەتنى توسىدۇ
 
 # Item 5
 
+highlighted-features-section-remove-trackers-headline = ئېلخەت ئىزلىغۇچنى چىقىرىۋەت
 
 ## REVIEWS SECTION
 
