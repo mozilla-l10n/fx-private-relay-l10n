@@ -123,6 +123,13 @@ survey-csat-answer-very-satisfied = بەك رازى
 
 relay-email-manage-this-mask = بۇ نىقابنى باشقۇرۇش
 relay-email-your-dashboard = باشقۇرۇش تاختىڭىز
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] 1 ئېلخەت ئىزلىغۇچى چىقىرىۋېتىلدى
+       *[other] { $number } ئېلخەت ئىزلىغۇچى چىقىرىۋېتىلدى
+    }
 
 ## Email sent to free users who try to reply
 

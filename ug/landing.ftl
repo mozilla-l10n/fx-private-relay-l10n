@@ -71,6 +71,7 @@ plan-matrix-feature-mobile-phone-mask = ھەقىقىي تېلېفون نومۇر
 
 plan-matrix-heading-price = باھاسى
 plan-matrix-feature-count-unlimited = چەكلىمىسىز
+plan-matrix-feature-included = ئىچىدە
 plan-matrix-price-free = ھەقسىز
 
 # Plan Price
