@@ -82,6 +82,11 @@ plan-matrix-price-free = ھەقسىز
 plan-matrix-price-monthly-calculated = { $monthly_price }/ئاي.
 plan-matrix-price-period-yearly = يىللىق
 plan-matrix-price-period-monthly = ئايلىق
+plan-matrix-price-period-yearly-footnote-1 = ھەر يىلى ھېسابات قىلىنىدۇ
+plan-matrix-price-period-monthly-footnote-1 = ھەر ئايدا ھېسابات قىلىنىدۇ
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
+plan-matrix-price-vpn-discount-promo = ئەسلى باھاسى { -brand-name-vpn } دىن <span>{ $savings } تېجەيدۇ</span>
 
 # Plan CTAs
 
@@ -91,9 +96,11 @@ plan-matrix-join-waitlist = كۈتۈش تىزىمىغا قوشۇلۇڭ
 
 # Item 1
 
+highlighted-features-section-unlimited-masks-headline = چەكسىز ئېلخەت نىقابى قۇرىدۇ
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = خالىغان ۋاقىت خالىغان جايدا نىقاب قۇرالايدۇ
 
 # Item 3
 
