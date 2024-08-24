@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
 
 hero-section-title = محفوظ فون تے ای میل ماسکنگ نال آپݨی سُن٘ڄاݨ دی حفاظت کرو
@@ -10,6 +11,9 @@ hero-section-body =
     نجی تاں جو تساں آپݨے نویں کھاتے وچ گمنام تھی تے سائن اپ تھی سڳو، سپیم ٹیکسٹ تے فضول کالاں ݙک سڳو تے
     آپݨے انباکس وچ صرف آپݨی پسند دیاں ای میل گھن سڳو۔
 hero-section-cta = شروع کرو
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = جین٘ویں جو ایندے وچ ݙٹھا ڳئے
 
 ## BUNDLE BANNER SECTION
 
@@ -54,8 +58,6 @@ plan-matrix-offer-title = حفاظت دی سطح چݨو، جہڑا تہاݙا ح
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = خاص
 plan-matrix-heading-plan-free = محدود ای میل حفاظت
 plan-matrix-heading-plan-premium = ای میل حفاظت
@@ -102,6 +104,8 @@ plan-matrix-price-period-yearly = سالانہ
 plan-matrix-price-period-monthly = ماہانہ
 plan-matrix-price-period-yearly-footnote-1 = ٻل سالانہ ہوندے
 plan-matrix-price-period-monthly-footnote-1 = ٻل ماہانہ ہوندے
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = ریگولر { -brand-name-vpn } قیمت تے <span>{ $savings } بچت کرو</span>
 
 # Plan CTAs
@@ -125,14 +129,14 @@ highlighted-features-section-replying-headline = گمنام دے طور تے ا�
 # Item 4
 
 highlighted-features-section-block-promotions-headline = مشہوری ای میلاں بلاک کرو
-highlighted-features-section-block-promotions-body = 
+highlighted-features-section-block-promotions-body =
     { -brand-name-relay-premium } دے نال، تساں پروموشنل ای میلز کوں اپݨے ان باکس تائیں پُڄݨ کنوں روک سڳدے ہو 
     جے تائیں رسیداں یا شپنگ دیاں معلومات جیہاں ای میل وصول تھیندیاں ہن۔
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = سارے ای میل ٹریکر ہٹاؤ
-highlighted-features-section-remove-trackers-body = 
+highlighted-features-section-remove-trackers-body =
     { -brand-name-relay } عام ای میل ٹریکراں کوں اڳوں بھیجی ڳئی ساریاں ای میلاں وچوں مٹا سڳدا ہے، 
     تہاکوں مشہوری کرݨ آلے لوکاں تے ٹریکراں کنوں لکاوݨ سانگے۔
 
@@ -171,10 +175,9 @@ landing-faq-cta = { -brand-name-firefox-relay } بارے ٻئے FAQs ݙیکھو
 ## Premium promo page
 
 premium-promo-hero-headline = { -brand-name-firefox-relay-premium } نال آپݨے انباکس دی حفاظت سوکھی بݨاؤ
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = { -brand-name-firefox-relay-premium } دے نال، تہاکوں لامحدود حسب ضرورت ای میل ماسک ملدے ہن جیڑھے صرف انہاں ای میلز کوں فارورڈ کریندے ہن جیڑھیاں تساں اپݨے حقیقی ای میل ایڈریس تے چاہندے او۔
 premium-promo-hero-cta = ہݨ اپ گریڈ کرو
+premium-promo-availability-warning-4 = { -brand-name-relay-premium } آسٹریا، بیلجیم، بلغاریہ، کینیڈا، کروشیا، قبرص،  چیک جمہوریہ، ڈنمارک، ایسٹونیا، فن لینڈ، فرانس، جرمنی، یونان، ہنگری،  آئرلینڈ، اٹلی، لٹویا، لتھوانیا، لکسمبرگ، ملائیشیا، مالٹا، نیدرلینڈز، نیوزی لینڈ، پولینڈ، پرتگال، رومانیہ، سنگاپور، سلوواکیہ، سلووینیا، اسپین، سویڈن، سوئٹزرلینڈ، برطانیہ، تے ریاستہائے متحدہ وِچ دستیاب ہے۔
 
 ## The Premium waitlist page
 
@@ -198,4 +201,3 @@ waitlist-privacy-policy-use-bundle = تہاݙی معلومات کوں صرف ت�
 waitlist-subscribe-success = تساں تندیر وچ شامل ہو، ہک واری تہاݙے علاقے وچ { -brand-name-firefox-relay-premium } دستیاب تھی ون٘ڄے، اساں تہاکوں ای میل کریسوں۔
 waitlist-subscribe-error-connection = تانگھ تندیر وچ تہاکوں شامل کرݨ وچ خرابی ہائی۔ سوہݨا، آپݨے نیٹ ورک دی پڑتال کرو تے ولدا کوشش کرو۔
 waitlist-subscribe-error-unknown = تہاکوں تانگھ تندیر وچ شامل کرݨ وچ خرابی ہائی۔ سوہݨا، ولدا کوشش کرو۔
-
