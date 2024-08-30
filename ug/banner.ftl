@@ -43,6 +43,8 @@ banner-label-data-notification-body-cta = تەپسىلاتى
 
 banner-set-email-domain-headline-action-needed = مەشغۇلات زۆرۈر
 banner-set-email-domain-headline = بىردىنبىر { -brand-name-relay } ئېلخەت تور دائىرە ئىسمىنى بەلگىلەڭ
+banner-set-email-domain-step-one-headline = ياقتۇرىدىغان { -brand-name-relay } ئېلخەت دائىرە ئىسمى تاللىنىدۇ
+banner-set-email-domain-step-one-body = بۇ ئېلخەت ئادرېسىڭىزدىكى @ بەلگىسىنىڭ كەينىدىكى قىسمى.
 banner-set-email-domain-input-placeholder-label = ئېلخەت دائىرە ئىزدە
 banner-set-email-domain-input-placeholder = سۆز ياكى ئىبارە ئىزدە
 banner-set-email-domain-input-search = ئىزدە
