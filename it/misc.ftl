@@ -45,7 +45,6 @@ tips-footer-link-support-tooltip = Contatta l’assistenza
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Suggerimento { $nr }
 tips-toast-button-expand-label = Ulteriori informazioni
-
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blocca email pubblicitarie
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Attiva il blocco delle email pubblicitarie su un alias per impedire alle email di marketing di raggiungere la tua casella di posta.
@@ -55,8 +54,6 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Altre informa
 
 tips-custom-alias-heading-2 = Crea alias utilizzando il tuo sottodominio personalizzato
 tips-custom-alias-content-2 = Tutto ciò che devi fare è inventare e condividere un alias univoco che utilizzi il tuo sottodominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
-
-## Tip about using custom masks
 
 ## Report of trackers removed from an email
 
@@ -106,7 +103,6 @@ contains-tracker-warning-title = Vuoi comunque visualizzare il link?
 contains-tracker-warning-description = Attenzione: facendo clic su questo link il mittente riceverà informazioni su di te
 contains-tracker-warning-view-link-cta = Sì, visualizza il link
 contains-tracker-faq-section-title = Domande frequenti sugli elementi traccianti nelle email
-
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -163,9 +159,6 @@ survey-csat-answer-very-satisfied = Molto soddisfatto
 # This is a link that the user can click to get to the two-minute survey.
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Grazie per il tuo feedback. Vorremmo scoprire in che modo possiamo migliorare { -brand-name-relay }. Saresti disposto a partecipare a un sondaggio di due minuti?
-
-## Deprecated (since January 2023)
-## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -237,7 +230,6 @@ what-can-you-do-with-relay-point-three = Impedisci allo spam di raggiungere la t
 what-can-you-do-with-relay-point-three-subpoint = Nella dashboard di { -brand-name-relay } puoi creare alias, etichettarli per indicare dove vengono utilizzati, attivare il blocco dello spam ed eliminare quelli che non vuoi più utilizzare.
 forwarded-email-hero-header = Hai ricevuto la tua prima email inoltrata!
 forwarded-email-hero-desc = Vedi questa intestazione? Apparirà in tutte le email inoltrate dagli alias { -brand-name-relay }.
-
 first-time-user-email-how-title = Come funziona { -brand-name-relay }
 first-time-user-email-how-item-1-header = Utilizza un alias { -brand-name-relay } invece del tuo indirizzo email reale, ovunque
 # Variables
@@ -253,11 +245,9 @@ first-time-user-email-how-item-3-header = Gestisci i tuoi alias dalla dashboard 
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Accedi</a> per creare nuovi alias, contrassegnare gli alias già esistenti ed eliminare quelli che ricevono spam.
 first-time-user-email-how-item-3-subhead-text = Accedi per creare nuovi alias, contrassegnare gli alias già esistenti ed eliminare quelli che ricevono spam.
-
 first-time-user-email-extra-protection-inbox-phone-title = Protezione aggiuntiva per la tua casella di posta e il tuo telefono
 first-time-user-email-extra-protection-inbox-phone-subhead = Aggiorna a { -brand-name-relay-premium } per ottenere alias di posta elettronica illimitati, oltre a un alias per per proteggere il tuo numero di telefono reale.
 first-time-user-email-extra-protection-cta = Ottieni { -brand-name-relay-premium }
-
 first-time-user-email-questions-title = Hai delle domande su { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website
@@ -279,14 +269,13 @@ first-time-user-email-footer-text-privacy = Termini di utilizzo e privacy
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Hai utilizzato tutti e { $free_tier_limit } gli alias di posta elettronica inclusi nel tuo account gratuito. Puoi riutilizzare un alias esistente, ma utilizzare un alias univoco per ciascun account è l’opzione più sicura.
 api-error-free-tier-no-subdomain-masks = Il tuo account gratuito non include sottodomini personalizzati per gli alias. Per creare alias personalizzati, aggiorna a { -brand-name-relay-premium }.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = Non è stato possibile creare “{ $unavailable_address }”. Riprova con un nome diverso per l’alias.
 api-error-need-subdomain = Seleziona un sottodominio prima di creare un indirizzo di posta personalizzato.
 api-error-account-is-paused = Il tuo account è temporaneamente sospeso.
-
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = “{ $duplicate_address }” esiste già. . Riprova con un nome diverso per l’alias.
 api-error-address-not-editable = Non è possibile modificare un campo esistente per l’indirizzo del dominio.
+api-error-account-is-inactive = L'account non è attivo.
