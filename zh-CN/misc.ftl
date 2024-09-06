@@ -45,7 +45,6 @@ tips-footer-link-support-tooltip = 联系用户支持
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = 提示 { $nr }
 tips-toast-button-expand-label = 详细了解
-
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = 屏蔽营销邮件
 popover-custom-alias-explainer-promotional-block-tooltip-2 = 启用马甲邮箱的“屏蔽营销邮件”功能，即会停止转发营销邮件至收件箱。
@@ -55,8 +54,6 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = 更多信息
 
 tips-custom-alias-heading-2 = 使用自定义子域名创建马甲
 tips-custom-alias-content-2 = 您需要做的就是用自定义子域名构造一个不重复的马甲邮箱。例如，下次网购时可以直接使用 “shop@customdomain.mozmail.com”，这个马甲即会自动生成。
-
-## Tip about using custom masks
 
 ## Report of trackers removed from an email
 
@@ -104,7 +101,6 @@ contains-tracker-warning-title = 仍要打开此链接吗？
 contains-tracker-warning-description = 警告：打开此链接后，与您关联的信息将被回传给发件人
 contains-tracker-warning-view-link-cta = 仍要打开
 contains-tracker-faq-section-title = 有关电子邮件跟踪器的常见问题
-
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -162,9 +158,6 @@ survey-csat-answer-very-satisfied = 非常满意
 # This is a link that the user can click to get to the two-minute survey.
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = 感谢您的反馈。我们想要了解如何为您改进 { -brand-name-relay }。您愿意花两分钟做个小调查吗？
-
-## Deprecated (since January 2023)
-## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -232,7 +225,6 @@ what-can-you-do-with-relay-point-three = 把垃圾邮件挡在收件箱外。如
 what-can-you-do-with-relay-point-three-subpoint = 在 { -brand-name-relay } 面板上您可以创建马甲、为它们添加标签以注明将其用于何处、开启垃圾邮件拦截以及删除不再需要的马甲。
 forwarded-email-hero-header = 您收到了第一封转发给您的邮件！
 forwarded-email-hero-desc = 看到开头那个标签了吗？所有由 { -brand-name-relay } 马甲邮箱转发的邮件上都会出现此标签。
-
 first-time-user-email-how-title = { -brand-name-relay } 如何工作
 first-time-user-email-how-item-1-header = 随时随地使用 { -brand-name-relay } 马甲邮箱，不必交出真实邮箱地址
 # Variables
@@ -248,11 +240,9 @@ first-time-user-email-how-item-3-header = 在 { -brand-name-relay } 面板管理
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>登录</a>以创建新马甲、标记马甲以及删除收到垃圾邮件的马甲。
 first-time-user-email-how-item-3-subhead-text = 登录以创建新马甲、为马甲添加标签，以及删除收到垃圾邮件的马甲。
-
 first-time-user-email-extra-protection-inbox-phone-title = 为您的收件箱和手机提供额外保护
 first-time-user-email-extra-protection-inbox-phone-subhead = 升级到 { -brand-name-relay-premium } 即可获得无限量马甲邮箱，还能使用虚拟手机号来保护您的真实手机号。
 first-time-user-email-extra-protection-cta = 获取 { -brand-name-relay-premium }
-
 first-time-user-email-questions-title = 有关于 { -brand-name-firefox-relay } 的问题？
 # Variables
 #   $url (string) - URL of the support team website
@@ -274,14 +264,13 @@ first-time-user-email-footer-text-privacy = 条款和隐私
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = 您已用尽免费账户所能创建的 { $free_tier_limit } 个马甲邮箱。您可以重复使用现有马甲，但为不同账户使用不同马甲最为安全。
 api-error-free-tier-no-subdomain-masks = 您的免费账户无法设置马甲的自定义子域名。如需创建自定义马甲，请升级到 { -brand-name-relay-premium }。
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = 无法创建“{ $unavailable_address }”。请尝试其他马甲名称。
 api-error-need-subdomain = 请在创建自定义电子邮件地址前先选择一个子域名。
 api-error-account-is-paused = 您的账户已暂停。
-
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = “{ $duplicate_address }”已存在。请尝试其他马甲名称。
 api-error-address-not-editable = 您不能编辑已有的域名地址字段。
+api-error-account-is-inactive = 您的账户无效。
