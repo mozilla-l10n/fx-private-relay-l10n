@@ -45,7 +45,6 @@ tips-footer-link-support-tooltip = Kontak dukungan
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Kiat { $nr }
 tips-toast-button-expand-label = Pelajari lebih lanjut
-
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blokir surel promosi
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Aktifkan Pemblokiran Surel Promosi pada topeng untuk menghentikan surel pemasaran masuk ke dalam kotak masuk Anda.
@@ -55,8 +54,6 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Informasi leb
 
 tips-custom-alias-heading-2 = Buat topeng dengan subdomain kustom Anda
 tips-custom-alias-content-2 = Yang perlu Anda lakukan hanyalah membuat dan membagikan topeng unik yang menggunakan subdomain kustom Anda — topeng akan dibuat secara otomatis. Misalnya, dengan menggunakan “shop@customdomain.mozmail.com” saat berbelanja secara daring.
-
-## Tip about using custom masks
 
 ## Report of trackers removed from an email
 
@@ -104,7 +101,6 @@ contains-tracker-warning-title = Apakah Anda masih ingin membuka tautannya?
 contains-tracker-warning-description = Peringatan: Mengklik tautan ini akan mengirim informasi tentang Anda ke pengirim
 contains-tracker-warning-view-link-cta = Ya, buka tautan
 contains-tracker-faq-section-title = Pertanyaan yang sering diajukan tentang pelacak surel
-
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -161,9 +157,6 @@ survey-csat-answer-very-satisfied = Sangat Puas
 # This is a link that the user can click to get to the two-minute survey.
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Terima kasih atas tanggapan Anda. Kami ingin mempelajari lebih lanjut tentang bagaimana kami dapat meningkatkan { -brand-name-relay } untuk Anda, apakah Anda bersedia mengikuti survei dua menit?
-
-## Deprecated (since January 2023)
-## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -234,7 +227,6 @@ what-can-you-do-with-relay-point-three = Blokir spam agar tidak masuk ke kotak m
 what-can-you-do-with-relay-point-three-subpoint = Di dasbor { -brand-name-relay }, Anda dapat membuat topeng, memberi label untuk mencatat di mana Anda menggunakannya, mengaktifkan pemblokiran spam, dan menghapus yang tidak Anda inginkan lagi.
 forwarded-email-hero-header = Anda mendapatkan surel pertama yang diteruskan!
 forwarded-email-hero-desc = Lihat tajuk itu? Ini akan muncul di semua surel yang diteruskan oleh topeng { -brand-name-relay }.
-
 first-time-user-email-how-title = Cara kerja { -brand-name-relay }
 first-time-user-email-how-item-1-header = Gunakan topeng { -brand-name-relay } alih-alih surel asli Anda, di mana saja
 # Variables
@@ -250,11 +242,9 @@ first-time-user-email-how-item-3-header = Kelola topeng Anda dari dasbor { -bran
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Masuk</a> untuk membuat topeng baru, memberi label topeng Anda, dan menghapus topeng yang mendapatkan spam.
 first-time-user-email-how-item-3-subhead-text = Masuk untuk membuat topeng baru, memberi label topeng Anda, dan menghapus topeng yang mendapatkan spam.
-
 first-time-user-email-extra-protection-inbox-phone-title = Perlindungan ekstra untuk kotak masuk dan ponsel Anda
 first-time-user-email-extra-protection-inbox-phone-subhead = Tingkatkan ke { -brand-name-relay-premium } untuk mendapatkan topeng surel tanpa batas — ditambah topeng telepon untuk melindungi nomor asli Anda.
 first-time-user-email-extra-protection-cta = Dapatkan { -brand-name-relay-premium }
-
 first-time-user-email-questions-title = Punya pertanyaan tentang { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website
@@ -276,10 +266,9 @@ first-time-user-email-footer-text-privacy = Ketentuan dan Privasi
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Anda telah menggunakan jatah semua topeng surel { $free_tier_limit } yang disertakan dengan akun gratis Anda. Anda dapat menggunakan kembali topeng yang ada, tetapi menggunakan topeng unik untuk setiap akun adalah opsi yang paling aman.
 api-error-free-tier-no-subdomain-masks = Akun gratis Anda tidak menyertakan subdomain khusus untuk topeng. Untuk membuat topeng khusus , tingkatkan ke { -brand-name-relay-premium }.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” tidak dapat dibuat. Silakan coba lagi dengan nama topeng yang berbeda.
 api-error-need-subdomain = Pilih subdomain sebelum membuat alamat surel khusus.
 api-error-account-is-paused = Akun Anda sedang dijeda.
-
+api-error-account-is-inactive = Akun Anda tidak aktif.
