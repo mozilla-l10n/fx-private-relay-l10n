@@ -278,3 +278,4 @@ api-error-account-is-paused = Sua conta está em temporariamente suspensa.
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = “{ $duplicate_address }” já existe. Tente novamente com outro nome de máscara.
 api-error-address-not-editable = Você não pode editar um campo de endereço de domínio existente.
+api-error-account-is-inactive = Sua conta não está ativa.
