@@ -283,3 +283,4 @@ api-error-account-is-paused = Your account is on pause.
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = “{ $duplicate_address }” already exists. Please try again with a different mask name.
 api-error-address-not-editable = You cannot edit an existing domain address field.
+api-error-account-is-inactive = Your account is not active.
