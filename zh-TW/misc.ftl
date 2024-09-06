@@ -45,7 +45,6 @@ tips-footer-link-support-tooltip = 聯絡支援團隊
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = 秘訣 { $nr }
 tips-toast-button-expand-label = 了解更多
-
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = 封鎖行銷郵件
 popover-custom-alias-explainer-promotional-block-tooltip-2 = 對轉寄信箱開啟「封鎖行銷郵件」功能，即可不讓行銷郵件進入收件匣。
@@ -55,8 +54,6 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = 更多資訊
 
 tips-custom-alias-heading-2 = 使用您的自訂子網域來建立轉寄信箱
 tips-custom-alias-content-2 = 您只要想一組獨特的名稱，即可建立專屬您的子網域轉寄信箱。例如在網購時改用「shop@customsubdomain.mozmail.com」就會自動產生。
-
-## Tip about using custom masks
 
 ## Report of trackers removed from an email
 
@@ -104,7 +101,6 @@ contains-tracker-warning-title = 您還想要檢視鏈結嗎？
 contains-tracker-warning-description = 警告：點擊此鏈結，會將您的資訊傳送回給寄件者
 contains-tracker-warning-view-link-cta = 好，檢視鏈結
 contains-tracker-faq-section-title = 關於電子郵件追蹤器的常見問題
-
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -161,9 +157,6 @@ survey-csat-answer-very-satisfied = 非常滿意
 # This is a link that the user can click to get to the two-minute survey.
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = 感謝您提供意見回饋，我們想更加了解要如何為您改進 { -brand-name-relay }，方便做個兩分鐘意見調查嗎？
-
-## Deprecated (since January 2023)
-## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -234,7 +227,6 @@ what-can-you-do-with-relay-point-three = 不讓垃圾信抵達您的收件匣，
 what-can-you-do-with-relay-point-three-subpoint = 您可以在 { -brand-name-relay } 儀表板建立轉寄信箱、為轉寄信箱加上標籤以記下在哪裡使用、開啟垃圾信封鎖功能，或是刪除任何不再需要的轉寄信箱。
 forwarded-email-hero-header = 您收到了第一封轉寄郵件！
 forwarded-email-hero-desc = 看到這個檔頭了嗎？所有透過 { -brand-name-relay } 轉寄的郵件當中都會顯示此標示。
-
 first-time-user-email-how-title = { -brand-name-relay } 的運作原理
 first-time-user-email-how-item-1-header = 隨時隨地都使用 { -brand-name-relay } 轉寄信箱，不使用您的實際信箱。
 # Variables
@@ -250,11 +242,9 @@ first-time-user-email-how-item-3-header = 在 { -brand-name-relay } 儀表板管
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>登入</a>後即可建立轉寄信箱、為您的轉寄信箱加上標籤，或刪除會收到垃圾信的轉寄信箱。
 first-time-user-email-how-item-3-subhead-text = 登入後即可建立轉寄信箱、為轉寄信箱加上標籤，或是刪除收到垃圾信的轉寄信箱。
-
 first-time-user-email-extra-protection-inbox-phone-title = 為您的信箱與手機門號再加一道保護
 first-time-user-email-extra-protection-inbox-phone-subhead = 升級到 { -brand-name-relay-premium } 即可獲得無限量的轉寄信箱，與能保護您實際手機號碼的轉接門號。
 first-time-user-email-extra-protection-cta = 下載 { -brand-name-relay-premium }
-
 first-time-user-email-questions-title = 有 { -brand-name-firefox-relay } 相關問題嗎？
 # Variables
 #   $url (string) - URL of the support team website
@@ -276,14 +266,13 @@ first-time-user-email-footer-text-privacy = 使用條款及隱私權
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = 您已經用完免費帳戶能夠建立的 { $free_tier_limit } 組免費轉寄信箱。您可以重複使用現有的轉寄信箱，但針對每個帳號都建立專屬轉寄信箱是最安全的作法。
 api-error-free-tier-no-subdomain-masks = 您的免費帳號無法針對轉寄信箱建立子網域。若要建立自訂轉寄信箱，請升級 { -brand-name-relay-premium }。
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = 無法建立「{ $unavailable_address }」，請改用其他名稱建立轉寄信箱。
 api-error-need-subdomain = 請先選擇子網域才能建立自訂轉寄信箱。
 api-error-account-is-paused = 您的帳號暫停中。
-
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = 「{ $duplicate_address }」已存在，請改用其他名稱建立轉寄信箱。
 api-error-address-not-editable = 您無法編輯現有的網域名稱欄位。
+api-error-account-is-inactive = 您的帳號尚未啟用。
