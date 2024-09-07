@@ -45,7 +45,6 @@ tips-footer-link-support-tooltip = Связаться с поддержкой
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Совет № { $nr }
 tips-toast-button-expand-label = Подробнее
-
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Блокировать рекламные письма
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Включите блокировку рекламных писем для псевдонима, чтобы такие электронные письма не попадали в ваш почтовый ящик.
@@ -55,8 +54,6 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Подроб�
 
 tips-custom-alias-heading-2 = Создание псевдонимов с помощью собственного поддомена
 tips-custom-alias-content-2 = Всё, что вам нужно сделать, — это придумать уникальный псевдоним с собственным поддоменом и воспользоваться им.  Создание произойдёт автоматически. Попробуйте, например, «shop@customdomain.mozmail.com» в следующий раз, когда будете делать покупки в Интернете.
-
-## Tip about using custom masks
 
 ## Report of trackers removed from an email
 
@@ -111,7 +108,6 @@ contains-tracker-warning-title = Вы все еще хотите просмот�
 contains-tracker-warning-description = Предупреждение: При щелчке по этой ссылке информация о вас будет отправлена обратно отправителю.
 contains-tracker-warning-view-link-cta = Да, просмотреть ссылку
 contains-tracker-faq-section-title = Часто задаваемые вопросы о трекерах электронной почты
-
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -171,9 +167,6 @@ survey-csat-answer-very-satisfied = Полностью удовлетворяе�
 # This is a link that the user can click to get to the two-minute survey.
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Спасибо за отзыв. Мы хотели бы узнать больше о том, как можем улучшить { -brand-name-relay } для вас. Не могли бы вы принять участие в двухминутном опросе?
-
-## Deprecated (since January 2023)
-## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -246,7 +239,6 @@ what-can-you-do-with-relay-point-three = Блокируйте попадание
 what-can-you-do-with-relay-point-three-subpoint = На панели управления { -brand-name-relay } вы можете создавать псевдонимы, помечать их, чтобы отметить, где вы их используете, включать блокировку спама и удалять те, которые вам больше не нужны.
 forwarded-email-hero-header = Вы получили первое перенаправленное письмо!
 forwarded-email-hero-desc = Видите этот заголовок? Он будет отображаться во всех электронных письмах, пересылаемых с помощью псевдонима { -brand-name-relay }.
-
 first-time-user-email-how-title = Как работает { -brand-name-relay }
 first-time-user-email-how-item-1-header = Используйте везде псевдоним { -brand-name-relay } вместо настоящего адреса электронной почты.
 # Variables
@@ -262,11 +254,9 @@ first-time-user-email-how-item-3-header = Управляйте своими пс
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Войдите</a>, чтобы создавать новые псевдонимы, помечать и удалять свои псевдонимы, на которые поступает спам.
 first-time-user-email-how-item-3-subhead-text = Войдите, чтобы создавать новые псевдонимы, помечать и удалять свои псевдонимы, на которые поступает спам.
-
 first-time-user-email-extra-protection-inbox-phone-title = Дополнительная защита для вашего ящика и телефона
 first-time-user-email-extra-protection-inbox-phone-subhead = Обновитесь до { -brand-name-relay-premium }, чтобы получить неограниченное количество псевдонимов электронной почты, а также псевдоним телефона для защиты вашего реального номера.
 first-time-user-email-extra-protection-cta = Получить { -brand-name-relay-premium }
-
 first-time-user-email-questions-title = Есть вопросы о { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website
@@ -288,14 +278,13 @@ first-time-user-email-footer-text-privacy = Условия и конфиденц
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Вы использовали все { $free_tier_limit } псевдонимов электронной почты, включённых в бесплатную учётную запись. Вы можете повторно использовать существующий псевдоним, но использование уникального псевдонима для каждой учётной записи является наиболее безопасным решением.
 api-error-free-tier-no-subdomain-masks = Ваша бесплатная учётная запись не включает настраиваемые поддомены для псевдонимов. Чтобы создавать собственные псевдонимы, перейдите на { -brand-name-relay-premium }.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = «{ $unavailable_address }» не может быть создан. Пожалуйста, попробуйте ещё раз с другим именем псевдонима.
 api-error-need-subdomain = Пожалуйста, выберите поддомен перед созданием собственного адреса электронной почты.
 api-error-account-is-paused = Ваш аккаунт приостановлен.
-
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = «{ $duplicate_address }» уже существует. Пожалуйста, попробуйте ещё раз с другим именем псевдонима.
 api-error-address-not-editable = Вы не можете редактировать поле адреса существующего домена.
+api-error-account-is-inactive = Ваш аккаунт неактивен.
