@@ -45,7 +45,6 @@ tips-footer-link-support-tooltip = Επικοινωνία με την υποστ
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Συμβουλή { $nr }
 tips-toast-button-expand-label = Μάθετε περισσότερα
-
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Φραγή διαφημιστικών email
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Ενεργοποιήστε τη Φραγή διαφημιστικών email σε μια μάσκα για να διακόψετε την αποστολή τους στα εισερχόμενά σας.
@@ -55,8 +54,6 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Περισσ�
 
 tips-custom-alias-heading-2 = Δημιουργία μασκών με τον προσαρμοσμένο υποτομέα σας
 tips-custom-alias-content-2 = Χρειάζεται μόνο να δημιουργήσετε και να μοιραστείτε μια μοναδική μάσκα που να χρησιμοποιεί τον προσαρμοσμένο υποτομέα σας — η μάσκα θα δημιουργηθεί αυτόματα. Δοκιμάστε για παράδειγμα το «katasthma@onomatomea.mozmail.com» την επόμενη φορά που θα κάνετε αγορές στο διαδίκτυο.
-
-## Tip about using custom masks
 
 ## Report of trackers removed from an email
 
@@ -109,7 +106,6 @@ contains-tracker-warning-title = Θέλετε ακόμα να δείτε τον 
 contains-tracker-warning-description = Προειδοποίηση: Εάν κάνετε κλικ σε αυτόν τον σύνδεσμο, οι πληροφορίες σας θα σταλούν στον αποστολέα
 contains-tracker-warning-view-link-cta = Ναι, εμφάνιση συνδέσμου
 contains-tracker-faq-section-title = Συχνές ερωτήσεις σχετικά με τους ιχνηλάτες email
-
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -166,9 +162,6 @@ survey-csat-answer-very-satisfied = Πολύ ικανοποιητική
 # This is a link that the user can click to get to the two-minute survey.
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Ευχαριστούμε για τα σχόλιά σας. Επιθυμούμε να μάθουμε περισσότερα σχετικά με το πώς μπορούμε να βελτιώσουμε το { -brand-name-relay } για εσάς, θα θέλατε να συμμετάσχετε σε μια έρευνα δύο λεπτών;
-
-## Deprecated (since January 2023)
-## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -240,7 +233,6 @@ what-can-you-do-with-relay-point-three = Αποκλείστε τα ανεπιθ�
 what-can-you-do-with-relay-point-three-subpoint = Στον πίνακα ελέγχου του { -brand-name-relay }, μπορείτε να δημιουργήσετε μάσκες, να τους προσθέσετε ετικέτες για να σημειώσετε πού τις χρησιμοποιείτε, να ενεργοποιήσετε τη φραγή ανεπιθύμητων μηνυμάτων και να διαγράψετε όσες μάσκες δεν χρειάζεστε πλέον.
 forwarded-email-hero-header = Λάβατε το πρώτο σας προωθημένο email!
 forwarded-email-hero-desc = Βλέπετε αυτήν την κεφαλίδα; Θα εμφανίζεται σε όλα τα email που προωθούνται από τις μάσκες του { -brand-name-relay }.
-
 first-time-user-email-how-title = Πώς λειτουργεί το { -brand-name-relay }
 first-time-user-email-how-item-1-header = Χρησιμοποιήστε μια μάσκα { -brand-name-relay } αντί για το πραγματικό σας email, παντού
 # Variables
@@ -256,11 +248,9 @@ first-time-user-email-how-item-3-header = Διαχειριστείτε τις μ
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Συνδεθείτε </a> για να δημιουργήσετε νέες μάσκες, να ορίσετε ετικέτες για τις μάσκες σας και να διαγράψετε μάσκες που λαμβάνουν ανεπιθύμητα μηνύματα.
 first-time-user-email-how-item-3-subhead-text = Συνδεθείτε για να δημιουργήσετε νέες μάσκες, να ορίσετε ετικέτες για τις μάσκες σας και να διαγράψετε μάσκες που λαμβάνουν ανεπιθύμητα μηνύματα.
-
 first-time-user-email-extra-protection-inbox-phone-title = Επιπλέον προστασία για τα εισερχόμενα και το τηλέφωνό σας
 first-time-user-email-extra-protection-inbox-phone-subhead = Κάντε αναβάθμιση στο { -brand-name-relay-premium } για απεριόριστες μάσκες email, καθώς και μία μάσκα τηλεφώνου για την προστασία του πραγματικού σας αριθμού.
 first-time-user-email-extra-protection-cta = Αποκτήστε το { -brand-name-relay-premium }
-
 first-time-user-email-questions-title = Έχετε απορίες για το { -brand-name-firefox-relay };
 # Variables
 #   $url (string) - URL of the support team website
@@ -282,14 +272,13 @@ first-time-user-email-footer-text-privacy = Όροι και απόρρητο
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Έχετε χρησιμοποιήσει και τις { $free_tier_limit } μάσκες email που περιλαμβάνονται στον δωρεάν λογαριασμό σας. Μπορείτε να επαναχρησιμοποιήσετε μια υπάρχουσα μάσκα, αλλά η χρήση μιας μοναδικής μάσκας για κάθε λογαριασμό είναι η πιο ασφαλής επιλογή.
 api-error-free-tier-no-subdomain-masks = Ο δωρεάν λογαριασμός σας δεν περιλαμβάνει προσαρμοσμένους υποτομείς για μάσκες. Για να δημιουργήσετε προσαρμοσμένες μάσκες, αναβαθμίστε στο { -brand-name-relay-premium }.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = Δεν ήταν δυνατή η δημιουργία του «{ $unavailable_address }». Παρακαλώ δοκιμάστε ξανά με άλλο όνομα μάσκας.
 api-error-need-subdomain = Παρακαλώ επιλέξτε έναν υποτομέα πριν από τη δημιουργία προσαρμοσμένης διεύθυνσης email.
 api-error-account-is-paused = Ο λογαριασμός σας έχει τεθεί σε παύση.
-
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = Το «{ $duplicate_address }» υπάρχει ήδη. Παρακαλούμε δοκιμάστε ξανά με ένα άλλο όνομα μάσκας.
 api-error-address-not-editable = Δεν μπορείτε να επεξεργαστείτε υπάρχον πεδίο διεύθυνσης τομέα.
+api-error-account-is-inactive = Ο λογαριασμός σας δεν είναι ενεργός.
