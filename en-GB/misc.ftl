@@ -45,7 +45,6 @@ tips-footer-link-support-tooltip = Contact support
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Tip { $nr }
 tips-toast-button-expand-label = Learn more
-
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Block promotional emails
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Enable Block Promotional Emails on a mask to stop marketing emails from reaching your inbox.
@@ -55,8 +54,6 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = More info
 
 tips-custom-alias-heading-2 = Creating masks using your custom subdomain
 tips-custom-alias-content-2 = All you need to do is make up and share a unique mask that uses your custom subdomain — the mask will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
-
-## Tip about using custom masks
 
 ## Report of trackers removed from an email
 
@@ -109,7 +106,6 @@ contains-tracker-warning-title = Would you still like to view the link?
 contains-tracker-warning-description = Warning: Clicking on this link will send information about you back to the sender
 contains-tracker-warning-view-link-cta = Yes, view link
 contains-tracker-faq-section-title = Frequently asked questions about email trackers
-
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -166,9 +162,6 @@ survey-csat-answer-very-satisfied = Very Satisfied
 # This is a link that the user can click to get to the two-minute survey.
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Thank you for your feedback. We would like to learn more about how we can improve { -brand-name-relay } for you, would you be willing to take a two-minute survey?
-
-## Deprecated (since January 2023)
-## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -240,7 +233,6 @@ what-can-you-do-with-relay-point-three = Block spam from reaching your inbox, an
 what-can-you-do-with-relay-point-three-subpoint = On the { -brand-name-relay } dashboard, you can create masks, label them to note where you use them, turn on spam blocking, and delete any you no longer want.
 forwarded-email-hero-header = You got your first forwarded email!
 forwarded-email-hero-desc = See that header? It will appear on all emails forwarded by { -brand-name-relay } masks.
-
 first-time-user-email-how-title = How { -brand-name-relay } works
 first-time-user-email-how-item-1-header = Use a { -brand-name-relay } mask instead of your real email, everywhere
 # Variables
@@ -256,11 +248,9 @@ first-time-user-email-how-item-3-header = Manage your masks from your { -brand-n
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Sign in</a> to create new masks, label your masks, and delete masks that get spam.
 first-time-user-email-how-item-3-subhead-text = Sign in to create new masks, label your masks, and delete masks that get spam.
-
 first-time-user-email-extra-protection-inbox-phone-title = Extra protection for your inbox and phone
 first-time-user-email-extra-protection-inbox-phone-subhead = Upgrade to { -brand-name-relay-premium } for unlimited email masks — plus a phone mask to protect your real number.
 first-time-user-email-extra-protection-cta = Get { -brand-name-relay-premium }
-
 first-time-user-email-questions-title = Questions about { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website
@@ -282,14 +272,13 @@ first-time-user-email-footer-text-privacy = Terms & Privacy
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = You’ve used all { $free_tier_limit } email masks included with your free account. You can reuse an existing mask, but using a unique mask for each account is the most secure option.
 api-error-free-tier-no-subdomain-masks = Your free account does not include custom subdomains for masks. To create custom masks, upgrade to { -brand-name-relay-premium }.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” could not be created. Please try again with a different mask name.
 api-error-need-subdomain = Please select a subdomain before creating a custom email address.
 api-error-account-is-paused = Your account is on pause.
-
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = “{ $duplicate_address }” already exists. Please try again with a different mask name.
 api-error-address-not-editable = You cannot edit an existing domain address field.
+api-error-account-is-inactive = Your account is not active.
