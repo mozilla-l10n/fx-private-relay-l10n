@@ -273,4 +273,4 @@ api-error-account-is-paused = 您的账户已暂停。
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = “{ $duplicate_address }”已存在。请尝试其他马甲名称。
 api-error-address-not-editable = 您不能编辑已有的域名地址字段。
-api-error-account-is-inactive = 您的账户无效。
+api-error-account-is-inactive = 您的账户尚未启用。
