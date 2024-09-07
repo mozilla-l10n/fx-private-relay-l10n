@@ -45,7 +45,6 @@ tips-footer-link-support-tooltip = Destek birimine ulaş
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = İpucu { $nr }
 tips-toast-button-expand-label = Daha fazla bilgi al
-
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Reklam e-postalarını engelleme
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Reklam e-postalarının gelen kutunuza ulaşmasını engellemek için maskelerinizden “Reklam e-postalarını engelle” seçeneğini etkinleştirebilirsiniz.
@@ -101,7 +100,6 @@ contains-tracker-description =
 contains-tracker-warning-title = Bağlantıyı yine de görüntülemek istiyor musunuz?
 contains-tracker-warning-view-link-cta = Evet, bağlantıyı göster
 contains-tracker-faq-section-title = E-posta takip kodlarıyla ilgili sık sorulan sorular
-
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -221,7 +219,6 @@ our-promise-header = Size söz veriyoruz
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } ile neler yapabilirsiniz?
 forwarded-email-hero-header = Yönlendirilen ilk e-postanızı aldınız!
 forwarded-email-hero-desc = Başlığı fark ettiniz mi? { -brand-name-relay } maskeleri ile yönlendirilen tüm e-postalarda bu başlık görünecektir.
-
 first-time-user-email-how-title = { -brand-name-relay } nasıl çalışır?
 first-time-user-email-how-item-1-header = İstediğiniz yerde gerçek e-postanız yerine { -brand-name-relay } maskesi kullanın
 # Variables
@@ -237,10 +234,8 @@ first-time-user-email-how-item-3-header = Maskelerinizi { -brand-name-relay } ko
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = Yeni maskeler oluşturmak, maskelerinizi etiketlemek ve spam gelen maskeleri silmek için <a href="{ $url }" { $attrs }>giriş yapın</a>.
 first-time-user-email-how-item-3-subhead-text = Yeni maskeler oluşturmak, maskelerinizi etiketlemek ve spam gelen maskeleri silmek için giriş yapın.
-
 first-time-user-email-extra-protection-inbox-phone-title = Gelen kutunuz ve telefonunuz için ekstra koruma
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } üyesi olun
-
 first-time-user-email-questions-title = { -brand-name-firefox-relay } ile ilgili sorularınız mı var?
 # Variables
 #   $url (string) - URL of the support team website
@@ -262,8 +257,8 @@ first-time-user-email-footer-text-privacy = Koşullar ve Gizlilik
 api-error-address-unavailable = “{ $unavailable_address }” oluşturulamadı. Lütfen farklı bir maske adıyla yeniden deneyin.
 api-error-need-subdomain = Özel bir e-posta adresi oluşturmadan önce lütfen bir alt alan adı seçin.
 api-error-account-is-paused = Hesabınız duraklatıldı.
-
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = “{ $duplicate_address }” zaten mevcut. Lütfen farklı bir maske adıyla yeniden deneyin.
 api-error-address-not-editable = Mevcut bir alan adı adresi alanını düzenleyemezsiniz.
+api-error-account-is-inactive = Hesabınız aktif değil.
