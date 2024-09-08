@@ -45,7 +45,6 @@ tips-footer-link-support-tooltip = Contactar assistentia
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Suggestion { $nr }
 tips-toast-button-expand-label = Pro saper plus
-
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blocar e-mails promotional
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Activa le blocage de e-mail promotional sur un masca pro impedir que le messages de campanias publicitari attinge tu cassa de entrata.
@@ -55,8 +54,6 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Pro saper plu
 
 tips-custom-alias-heading-2 = Creation de mascas de tu dominio personal
 tips-custom-alias-content-2 = Toto lo que tu debe facer es crear e compartir un unic masca que usa tu subdominio personal, le masca sera generate automaticamente. Per exemplo proba “shop@customsubdomain.mozmail.com” le proxime vice que tu compra online.
-
-## Tip about using custom masks
 
 ## Report of trackers removed from an email
 
@@ -109,7 +106,6 @@ contains-tracker-warning-title = Vole tu ancora vider le ligamine?
 contains-tracker-warning-description = ATTENTION: si tu clicca sur iste ligamine, tu inviara informationes re te, retro al expeditor
 contains-tracker-warning-view-link-cta = Si, vider ligamine
 contains-tracker-faq-section-title = Folio a questiones re traciatores de email
-
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -166,9 +162,6 @@ survey-csat-answer-very-satisfied = Absolutemente satisfacite
 # This is a link that the user can click to get to the two-minute survey.
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Gratias pro vostre commentario. A nos placerea saper plus re como nos poterea meliorar { -brand-name-relay } pro te, vole tu acceptar un questionario de duo minutas?
-
-## Deprecated (since January 2023)
-## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -240,7 +233,6 @@ what-can-you-do-with-relay-point-three = Impedi que le spam attinge tu cassa de 
 what-can-you-do-with-relay-point-three-subpoint = Sur le pannello de controlo de { -brand-name-relay }, tu pote crear mascas, etiquettar los pro notar ubi tu los usa. activar le blocada de spam, e deler toto lo que tu non vole plus.
 forwarded-email-hero-header = Tu ha recipite tu prime message de e-mail reexpedite!
 forwarded-email-hero-desc = Vide tu ille capite? Illo apparera sur tote le messages reexpedite per le mascas { -brand-name-relay }.
-
 first-time-user-email-how-title = Como functiona { -brand-name-relay }
 first-time-user-email-how-item-1-header = Usa un masca { -brand-name-relay } in vice que tu real email, ubique
 # Variables
@@ -256,11 +248,9 @@ first-time-user-email-how-item-3-header = Gere tu mascas ab le pannello de contr
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Accede</a> pro crear nove mascas, etiquettar tu mascas, e deler mascas que recipe spam.
 first-time-user-email-how-item-3-subhead-text = Accede pro crear nove mascas, etiquettar tu mascas, e deler mascas que recipe spam.
-
 first-time-user-email-extra-protection-inbox-phone-title = Protection extra pro tu cassa de entrata e tu telephono
 first-time-user-email-extra-protection-inbox-phone-subhead = Promove a { -brand-name-relay-premium } pro illimitate mascas email, plus un masca de telephono pro proteger tu numero real.
 first-time-user-email-extra-protection-cta = Abona te a { -brand-name-relay-premium }
-
 first-time-user-email-questions-title = Questiones re { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website
@@ -282,14 +272,13 @@ first-time-user-email-footer-text-privacy = Terminos & confidentialitate
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Tu ha usate tote le { $free_tier_limit } mascas email includite con tu conto gratuite. Tu pote reusar un masca existente, ma usar un unic masca pro cata conto es le option plus secur.
 api-error-free-tier-no-subdomain-masks = Tu conto gratuite non include sub-dominios personal pro le mascas. Pro crear mascas personalisate, promove a { -brand-name-relay-premium }.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” non pote esser create. Retenta con un differente nomine de masca.
 api-error-need-subdomain = Elige un sub-dominio ante crear un adresse email personalisate.
 api-error-account-is-paused = Tu conto es in pausa.
-
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = “{ $duplicate_address }” jam existe. Retenta con un differente nomine de masca.
 api-error-address-not-editable = Impossibile modificar un campo existente pro le adresse del dominio.
+api-error-account-is-inactive = T conto non es active.
