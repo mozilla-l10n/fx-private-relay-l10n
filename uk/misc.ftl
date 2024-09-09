@@ -287,3 +287,4 @@ api-error-account-is-paused = Ваш обліковий запис призуп�
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = “{ $duplicate_address }” вже існує. Повторіть спробу з іншою назвою маски.
 api-error-address-not-editable = Ви не можете редагувати наявне поле адреси домену.
+api-error-account-is-inactive = Ваш обліковий запис не активний.
