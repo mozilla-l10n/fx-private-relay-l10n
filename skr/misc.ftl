@@ -45,7 +45,6 @@ tips-footer-link-support-tooltip = سہارے نال رابطہ کرو
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = گُر { $nr }
 tips-toast-button-expand-label = ٻیا سِکھو
-
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = مشہوری ای میلاں بلاک کرو
 popover-custom-alias-explainer-promotional-block-tooltip-2 = مارکیٹنگ ای میلاں کوں آپݨے ان باکس تائیں پہنچݨ کنوں روکݨ کیتے ماسک تے پروموشنل ای میلاں بلاک کرݨ  فعال کرو۔
@@ -55,8 +54,6 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = ٻئی ڄاݨ
 
 tips-custom-alias-heading-2 = تہاݙی کسٹم سب ڈومین ورت تے ماسک تخلیق کریندا پئے
 tips-custom-alias-content-2 = تہاکوں صرف ہک نویکلا ماسک بݨاوݨ تے شیئر کرݨ دی ضرورت ہے جیڑھا تہاݙی حسب ضرورت ذیلی ڈومین استعمال کریندا ہے — ماسک آپوں ڄاݨ تیار تھی ویسے۔ مثال دے طور تے اڳلی واری جݙاں تساں آن لائن خریداری کرو تاں shop@customsubdomain.mozmail.com کوں ازماؤ۔
-
-## Tip about using custom masks
 
 ## Report of trackers removed from an email
 
@@ -108,7 +105,6 @@ contains-tracker-warning-title = بَھلا تُساں ہالی وی لنک ݙی
 contains-tracker-warning-description = چِتاوݨی: اِیں لِنک اُتے دباوݨ نال تُہاݙے بارے وِچ معلومات بھیڄݨ آلے کوں ولا بھیڄ ݙِتّیاں ویسِن
 contains-tracker-warning-view-link-cta = جیا، لنک ݙیکھو
 contains-tracker-faq-section-title = ای میل ٹریکراں بارے اہم سوالات
-
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -165,9 +161,6 @@ survey-csat-answer-very-satisfied = ݙاڈھا تسلی بخش
 # This is a link that the user can click to get to the two-minute survey.
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = تہاݙے تبصرے دا شکریہ، اساں ایں بارے ودھیک ڄاݨݨ چاہسو جو اساں تہاݙے کیتے { -brand-name-relay } کوں کیویں بہتر بݨا سڳدے ہیں، کیا تساں ݙو منٹ دا سروے کرݨ کیتے تیار ہوسو؟
-
-## Deprecated (since January 2023)
-## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -239,7 +232,6 @@ what-can-you-do-with-relay-point-three = سپیم کوں آپݨے اِن باک�
 what-can-you-do-with-relay-point-three-subpoint = { -brand-name-relay } ڈیش بورڈ اُتے، تُساں ماسک بݨا سڳدے ہِیوے، اِنّھاں اُتّے لیبل لاء تے نوٹ کر سڳدے ہِیوے جو تُساں اِنّھاں کوں کِتّھاں استعمال کرین٘دے ہِیوے، سپیم بلاکنگ کوں چالو کر سڳدے ہِیوے، اَتے جیکوں تُساں ٻِیا نِھیوے چاہن٘دے اُوکوں حذف کر سڳدے ہِیوے۔
 forwarded-email-hero-header = تساں آپݨی پہلی اڳوں تے بھیڄی ہوئی ای میل گھدی!
 forwarded-email-hero-desc = اُوہ ہیڈر ݙیکھو؟ اِیہ { -brand-name-relay } ماسک دے ذریعے اڳّوں بھیڄی ڳئی سبّھے ای میلاں اُتّے ظاہر تھیسی۔
-
 first-time-user-email-how-title = { -brand-name-relay } کین٘ویں کم کریندے
 first-time-user-email-how-item-1-header = ہر جاء تے آپݨے اصل ای میل دی بجائے { -brand-name-relay } ماسک ورتو۔
 # Variables
@@ -255,11 +247,9 @@ first-time-user-email-how-item-3-header = آپݨے { -brand-name-relay } ڈیش 
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = نویں ماسک بݨاوݨ، آپݨے ماسک لیبل کرݨ تے سپیم آلے ماسک مٹاوݨ کیتے <a href="{ $url }" { $attrs }>سائن ان تھیوو</a>۔
 first-time-user-email-how-item-3-subhead-text = نویں ماسک بݨاوݨ، آپݨے ماسک لیبل کرݨ تے سپیم آلے ماسک مٹاوݨ کیتے سائن ان تھیوو۔
-
 first-time-user-email-extra-protection-inbox-phone-title = تہاݙے انباکس تے فون کیتے وادھوں حفاظت
 first-time-user-email-extra-protection-inbox-phone-subhead = لا محدود ای میل ماسک کِیتے { -brand-name-relay-premium } اُتے اَپ گریڈ کرو — ٻِیا آپݨے اصلی نمبر دی راکھی کِیتے ہِک فون ماسک۔
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } گھنو
-
 first-time-user-email-questions-title = { -brand-name-firefox-relay } بارے سوالات
 # Variables
 #   $url (string) - URL of the support team website
@@ -281,14 +271,13 @@ first-time-user-email-footer-text-privacy = شرطاں تے رازداری
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = تساں اپݨے مفت اکاؤنٹ دے نال شامل تمام { $free_tier_limit } ای میل ماسک استعمال کر گھدے ہن۔ تساں موجودہ ماسک کوں دوبارہ استعمال کر سڳدے او، لیکن ہر اکاؤنٹ کیتے نویکلے ماسک دا استعمال سبھ توں محفوظ آپشن ہے۔
 api-error-free-tier-no-subdomain-masks = تہاݙے مفت کھاتے وچ ماسکاں کیتے مخصوص سب ڈومیناں شامل کائنی۔ مخصوص ماسک خلقݨ کیتے، { -brand-name-relay-premium } تے اپ گریڈ کرو۔
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” تخلیق کائنی تھی سڳا۔ سوہݨا، ٻئے ماسک ناں نال ولدا کوشش کرو۔
 api-error-need-subdomain = سوہݨا، کسٹم ای میل پتہ خلقݨ کنوں پہلے سب ڈومین چُݨو۔
 api-error-account-is-paused = تہاݙا کھاتہ معطل تھیا کھڑے۔
-
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = “{ $duplicate_address }” پہلے ہی موجود ہے۔ سوہݨا، محتلف ماسک ناں نال ولدا کوشش کرو۔
 api-error-address-not-editable = تساں موجودہ ڈومین پتہ خانے وچ تبدیلی نہوے کر سڳدے۔
+api-error-account-is-inactive = تہاݙا کھاتہ فعال کائنی۔
