@@ -46,6 +46,10 @@ banner-set-email-domain-headline = بىردىنبىر { -brand-name-relay } ئې
 banner-set-email-domain-step-one-headline = ياقتۇرىدىغان { -brand-name-relay } ئېلخەت دائىرە ئىسمى تاللىنىدۇ
 banner-set-email-domain-step-one-body = بۇ ئېلخەت ئادرېسىڭىزدىكى @ بەلگىسىنىڭ كەينىدىكى قىسمى.
 banner-set-email-domain-step-two-headline = ئۇنى ئىشلىتىپ خالىغان ۋاقىتتا ئىختىيارى { -brand-name-relay } نىقاب قۇرالايدۇ
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = @ بەلگىسىنىڭ ئالدىغا سۆز قوشۇلسىلا بولىدۇ. مال سېتىۋالغاندا، shop@yourdomain.{ $mozmail } شەكلىدە ئىشلىتىلىدۇ.
 banner-set-email-domain-input-placeholder-label = ئېلخەت دائىرە ئىزدە
 banner-set-email-domain-input-placeholder = سۆز ياكى ئىبارە ئىزدە
 banner-set-email-domain-input-search = ئىزدە
@@ -58,6 +62,7 @@ modal-email-domain-good-news = خۇشخەۋەر!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
 modal-email-domain-available = <p>{ $custom_domain_full }</p> نى ئىشلەتكىلى بولىدۇ
+modal-email-domain-available-body = بىردىنبىر { -brand-name-relay } ئېلخەت دائىرىسى تىزىملىتالايسىز. <p>بۇنى كېيىن ئۆزگەرتەلمەيسىز.</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = ھەئە، مەن { $subdomain } غا تىزىملاتماقچى
