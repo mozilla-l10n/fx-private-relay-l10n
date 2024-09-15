@@ -45,6 +45,7 @@ banner-set-email-domain-headline-action-needed = مەشغۇلات زۆرۈر
 banner-set-email-domain-headline = بىردىنبىر { -brand-name-relay } ئېلخەت تور دائىرە ئىسمىنى بەلگىلەڭ
 banner-set-email-domain-step-one-headline = ياقتۇرىدىغان { -brand-name-relay } ئېلخەت دائىرە ئىسمى تاللىنىدۇ
 banner-set-email-domain-step-one-body = بۇ ئېلخەت ئادرېسىڭىزدىكى @ بەلگىسىنىڭ كەينىدىكى قىسمى.
+banner-set-email-domain-step-two-headline = ئۇنى ئىشلىتىپ خالىغان ۋاقىتتا ئىختىيارى { -brand-name-relay } نىقاب قۇرالايدۇ
 banner-set-email-domain-input-placeholder-label = ئېلخەت دائىرە ئىزدە
 banner-set-email-domain-input-placeholder = سۆز ياكى ئىبارە ئىزدە
 banner-set-email-domain-input-search = ئىزدە
