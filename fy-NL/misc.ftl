@@ -45,7 +45,6 @@ tips-footer-link-support-tooltip = Kontakt opnimme
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Tip { $nr }
 tips-toast-button-expand-label = Mear ynfo
-
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Reklameberjochten blokkearje
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Skeakelje Reklameberjochten blokkearje yn foar in masker om foar te kommen dat marketingberjochten jo Postfek YN berikke.
@@ -55,8 +54,6 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Mear ynfo
 
 tips-custom-alias-heading-2 = Maskers meitsje mei jo oanpaste subdomein
 tips-custom-alias-content-2 = It iennige dat jo hoege te dwaan, is in unyk masker betinke en diele dy’t jo oanpaste domein brûkt – it masker wurdt automatysk oanmakke. Probearje bygelyks de folgjende kear dat jo online winkelje ‘winkel@oanpastsubdomein.mozmail.com’.
-
-## Tip about using custom masks
 
 ## Report of trackers removed from an email
 
@@ -108,7 +105,6 @@ contains-tracker-warning-title = Wolle jo de keppeling noch hieltyd besjen?
 contains-tracker-warning-description = Warskôging: as jo op de keppeling klikke, wurde gegevens oer jo weromstjoerd nei de ôfstjoerder
 contains-tracker-warning-view-link-cta = Ja, keppeling besjen
 contains-tracker-faq-section-title = Faak stelde fragen oer e-mailtrackers
-
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -165,9 +161,6 @@ survey-csat-answer-very-satisfied = Tige tefreden
 # This is a link that the user can click to get to the two-minute survey.
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Tank foar jo kommentaar. Wy wolle graach mear witte oer hoe’t wy { -brand-name-relay } foar jo ferbetterje kinne, soene jo in enkête fan twa minuten ynfolje wolle?
-
-## Deprecated (since January 2023)
-## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -239,7 +232,6 @@ what-can-you-do-with-relay-point-three = Foarkomme dat spam jo Postfek YN berikt
 what-can-you-do-with-relay-point-three-subpoint = Op it { -brand-name-relay }-dashboerd kinne jo maskers oanmeitsje, se labelje om oan te jaan wêr’t jo se brûke, spamblokkearring ynskeakelje en maskers fuortsmite dy’t jo net mear brûke wolle.
 forwarded-email-hero-header = Jo hawwe jo earste trochstjoerde e-mailberjocht ûntfongen!
 forwarded-email-hero-desc = Sjogge jo dy koptekst? Dizze ferskynt by alle e-mailberjochten dy’t troch { -brand-name-relay }-maskers trochstjoerd wurde.
-
 first-time-user-email-how-title = Hoe { -brand-name-relay } wurket
 first-time-user-email-how-item-1-header = Brûk oeral in { -brand-name-relay }-masker yn stee fan jo wiere e-mailadres
 # Variables
@@ -255,11 +247,9 @@ first-time-user-email-how-item-3-header = Behear jo maskers fan jo { -brand-name
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Meld jo oan</a> om nije maskers te meitsjen, jo maskers te labeljen en maskers dy’t spam ûntfange fuort te smiten.
 first-time-user-email-how-item-3-subhead-text = Meld jo oan om nije maskers te meitsjen, jo maskers te labeljen en maskers dy’t spam ûntfange fuort te smiten.
-
 first-time-user-email-extra-protection-inbox-phone-title = Ekstra beskerming foar jo Postfek YN en telefoan
 first-time-user-email-extra-protection-inbox-phone-subhead = Wurdearje op nei { -brand-name-relay-premium } foar ûnbeheinde e-mailmaskers – plus in telefoanmasker om jo wiere nûmer te beskermjen.
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } downloade
-
 first-time-user-email-questions-title = Fragen oer { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website
@@ -281,14 +271,13 @@ first-time-user-email-footer-text-privacy = Betingsten en privacy
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Jo hawwe alle { $free_tier_limit } e-mailmaskers brûkt by jo fergese account. Jo kinne in besteand masker opnij brûke, mar it brûken fan in unyk masker foar elke account is de feilichste opsje.
 api-error-free-tier-no-subdomain-masks = Jo fergese account omfettet gjin oanpaste subdomeinen foar maskers. Om oanpaste maskers te meitsjen, kinne jo nei { -brand-name-relay-premium } opwurdearje.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = ‘{ $unavailable_address }’ koe net oanmakke wurde. Probearje it nochris mei in oare maskernamme.
 api-error-need-subdomain = Selektearje in subdomein eardat jo in oanpast e-mailadres oanmeitsje.
 api-error-account-is-paused = Jo account is pauzearre!
-
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = ‘{ $duplicate_address }’ bestiet al. Probearje it nochris mei in oare maskernamme.
 api-error-address-not-editable = Jo kinne in besteand domeinadresfjild net bewurkje.
+api-error-account-is-inactive = Jo account is net aktyf.
