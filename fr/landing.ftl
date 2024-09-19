@@ -61,8 +61,6 @@ plan-matrix-offer-body = { -brand-name-firefox-relay } protège votre identité 
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Fonctionnalités
 plan-matrix-heading-plan-free = Protection limitée des e-mails
 plan-matrix-heading-plan-premium = Protection des e-mails
@@ -109,6 +107,8 @@ plan-matrix-price-period-yearly = Annuel
 plan-matrix-price-period-monthly = Mensuel
 plan-matrix-price-period-yearly-footnote-1 = Facturé annuellement
 plan-matrix-price-period-monthly-footnote-1 = Facturé mensuellement
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Économisez { $savings }</span> sur le prix habituel de { -brand-name-vpn }
 
 # Plan CTAs
@@ -120,14 +120,18 @@ plan-matrix-join-waitlist = Rejoindre la liste d’attente
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Créez un nombre illimité d’alias de messagerie
-highlighted-features-section-unlimited-masks-body = 
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
     Tout le monde dispose de { $mask_limit } alias de messagerie gratuits.
     Mais avec { -brand-name-relay-premium }, vous pouvez générer autant d’alias que nécessaire pour protéger votre boîte de réception contre les spammeurs, les pirates et les traqueurs en ligne.
 
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Créez instantanément des alias lors de vos déplacements
-highlighted-features-section-masks-on-the-go-body = 
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
     { -brand-name-relay-premium } vous propose un domaine de messagerie { -brand-name-relay } unique pour que vous puissiez instantanément
     créer de nouveaux alias où que vous soyez. Ajoutez simplement n’importe quel mot ou phrase avant le symbole @. Vous allez au restaurant ? Utilisez restaurant@votredomaine.{ $mozmail }.
     Vous faites des achats ? Essayez magasin@votredomaine.{ $mozmail }.
@@ -159,7 +163,7 @@ landing-reviews-rating = sur 5 ({ $review_count } avis)
 landing-reviews-show-next-button = afficher l’avis suivant
 landing-reviews-show-previous-button = afficher l’avis précédent
 landing-review-anonymous-user = utilisateur ou utilisatrice { $user_id } de { -brand-name-firefox }
-landing-review-user-one-review = Je remercie vraiment l’équipe { -brand-name-mozilla } d'être si créative et de simplifier l’anonymisation de mon adresse e-mail. C’est une super extension, je la recommande vivement aux personnes soucieuses de la protection de leur vie privée  !
+landing-review-user-one-review = Je remercie vraiment l’équipe { -brand-name-mozilla } d’être si créative et de simplifier l’anonymisation de mon adresse e-mail. C’est une super extension, je la recommande vivement aux personnes soucieuses de la protection de leur vie privée  !
 landing-review-user-two-review = Outil simple pour vous passer de votre identifiant de messagerie ou éviter le spam.
 landing-review-user-three-review = J’adore cette extension ! Très simple, mais puissante et l’intégration avec le navigateur est super.
 landing-review-user-four-review-list-1 = Permet de surfer sur Internet en toute tranquillité.
@@ -182,8 +186,6 @@ landing-faq-cta = Voir plus de questions fréquentes sur { -brand-name-firefox-r
 ## Premium promo page
 
 premium-promo-hero-headline = Simplifiez la protection de votre boîte de réception grâce à { -brand-name-firefox-relay-premium }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Avec { -brand-name-firefox-relay-premium }, vous obtenez un nombre illimité d’alias de messagerie personnalisés qui ne transmettent que les e-mails que vous désirez à votre véritable adresse e-mail.
 premium-promo-hero-cta = Mettre à niveau maintenant
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } est disponible en Allemagne, en Autriche, en Bulgarie, en Belgique, au Canada, en Croatie, à Chypre, au Danemark, en Espagne, en Estonie, aux États-Unis, en Finlande, en France, en Grèce, en Hongrie, en Irlande, en Italie, en Lettonie, en Lituanie, au Luxembourg, en Malaisie, à Malte, en Nouvelle-Zélande, aux Pays-Bas, en Pologne, au Portugal, en République tchèque, en Roumanie, au Royaume-Uni, à Singapour, en Slovaquie, en Slovénie, en Suède et en Suisse.
@@ -210,4 +212,3 @@ waitlist-privacy-policy-use-bundle = Vos informations ne seront utilisées que p
 waitlist-subscribe-success = Vous êtes sur la liste ! Une fois que { -brand-name-firefox-relay-premium } sera disponible pour votre région, nous vous enverrons un e-mail.
 waitlist-subscribe-error-connection = Une erreur s’est produite lors de votre ajout à la liste d’attente. Veuillez vérifier votre connexion, puis réessayer.
 waitlist-subscribe-error-unknown = Une erreur s’est produite lors de votre ajout à la liste d’attente. Veuillez réessayer.
-
