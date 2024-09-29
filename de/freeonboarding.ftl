@@ -43,6 +43,6 @@ profile-free-onboarding-addon-finish = Abschließen
 profile-free-onboarding-addon-headline = Verwenden Sie Ihre Masken überall
 profile-free-onboarding-addon-subheadline = Versuchen Sie, Ihre Masken überall zu verwenden, wo Sie eine E-Mail-Adressen benötigen
 profile-free-onboarding-addon-item-headline-1 = Sie funktionieren überall dort, wo Sie eine E-Mail-Adresse benötigen
-profile-free-onboarding-addon-item-description-1 = Überall, wo Sie eine E-Mail-Adresse eingeben müssen, können Sie eine E-Mail-Maske von { -brand-name-relay } verwenden. Sie können sogar neue Masken direkt aus Ihrem { -brand-name-firefox }-Passwort-Manager erstellen.
+profile-free-onboarding-addon-item-description-1 = Überall, wo Sie eine E-Mail-Adresse eingeben müssen, können Sie eine E-Mail-Maske von { -brand-name-relay } verwenden. Sie können sogar neue Masken direkt aus Ihrer { -brand-name-firefox }-Passwortverwaltung erstellen.
 profile-free-onboarding-addon-item-headline-2 = Mit der { -brand-name-relay }-Erweiterung geht das ganz einfach
 profile-free-onboarding-addon-item-description-2 = Immer wenn ein Feld für eine E-Mail-Adresse angezeigt wird, trägt die Browser-Erweiterung { -brand-name-firefox-relay } automatisch jede E-Mail-Maske ein, die Sie verwenden möchten. Sie müssen sich nicht jede Maske merken!
