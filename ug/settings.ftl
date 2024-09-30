@@ -10,6 +10,8 @@ settings-meta-contact-label = بىز بىلەن ئالاقىلىشىڭ
 settings-meta-help-label = ياردەم ۋە قوللاش
 settings-meta-help-tooltip = { -brand-name-relay } ئىشلىتىش ياردىمى
 settings-meta-status-label = مۇلازىمەت ھالىتى
+settings-meta-status-tooltip = بارلىق { -brand-name-relay } سىستېمىسىنىڭ نورمال ئىشلەۋاتقان ئىشلىمەيۋاتقانلىقىنى تەكشۈرىدۇ.
+settings-warning-collection-off-heading-3 = ئېلخەت نىقابىڭىزنىڭ ھېسابات ئىسمى ئىقتىدارى تاقالدى
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = شەخسىيەت
 settings-button-save-label = ساقلا
