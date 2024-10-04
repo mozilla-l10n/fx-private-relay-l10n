@@ -135,7 +135,7 @@ highlighted-features-section-masks-on-the-go-body = 订阅 { -brand-name-relay-p
 
 highlighted-features-section-replying-headline = 匿名回复邮件和短信
 highlighted-features-section-replying-body =
-    { -brand-name-relay-premium } 可让您使用马甲邮箱帐号来回复邮件，
+    { -brand-name-relay-premium } 可让您使用马甲邮箱账户来回复邮件，
     这样邮件的发送者就无法得知您的真实邮件地址。
     配合虚拟手机号，您还可以回复短信而不泄露真实电话号码。
 
