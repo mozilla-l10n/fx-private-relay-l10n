@@ -9,7 +9,6 @@ onboarding-headline-2 = Crea tu prime masca email
 onboarding-alias-tip-1-2 = Elige “Generar nove masca” pro crear tu prime masca.
 onboarding-alias-tip-2 = Usante le extension le { -brand-name-relay }, elige le icone { -brand-name-firefox-relay } quando illo appare in campos de e-mail.
 onboarding-alias-tip-3-2 = Usante le extension { -brand-name-relay }, clicca dextre sur le campos del formulario e elige “Generar nove masca.”
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Benvenite,</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = Masca de @{ $subdomain }
 profile-label-delete = Deler
 profile-label-upgrade-2 = Obtener mascas e-mail illimitate
 profile-label-custom-domain = Tu domino email { -brand-name-relay }
-# Deprecated
 profile-label-set-your-custom-domain = Configura tu domino email { -brand-name-relay } unic
 profile-label-reset = Reinitialisar
 profile-label-apply = Applicar
 profile-label-continue = Continuar
-
 # This string is followed by an email address
 profile-label-forward-emails = Reexpedir messages a:
-
 # This string is followed by date:
 profile-label-created = Create:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Clicca pro copiar
 profile-label-copied = Copiate!
 profile-label-blocked = Blocate
@@ -71,7 +67,7 @@ profile-stat-label-trackers-learn-more-part2-2 = Importante: le remotion de trac
 profile-filter-search-placeholder-2 = Cercar in mascas
 profile-filter-category-button-label = Filtrar le mascas visibile
 profile-filter-category-button-tooltip = Filtra mascas per subdominio e si illos actualmente bloca le emails arrivante.
-profile-filter-no-results = Nulle mascas concorda tu criterios de selection. <clear-button>Clarar tote le filtros.</clear-button>
+profile-filter-no-results = Nulle mascas corresponde a tu criterios de selection. <clear-button>Rader tote le filtros.</clear-button>
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-masks = Mascas con reexpedition active
 # Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
