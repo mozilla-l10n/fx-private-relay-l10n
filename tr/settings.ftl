@@ -25,3 +25,4 @@ setting-api-key-copied = Kopyalandı!
 setting-api-key-copied-alt = Kopyalamak için tıkla
 setting-tracker-removal-heading = E-posta takip kodlarını kaldır
 setting-tracker-removal-description = Yönlendirilen tüm e-postalardaki takip kodlarını kaldır.
+setting-tracker-removal-note = { -brand-name-firefox-relay } artık maskeleriniz aracılığıyla yönlendirilen e-postalardaki yaygın takip kodlarını kaldırabilir.
