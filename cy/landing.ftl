@@ -5,7 +5,7 @@
 
 ## HERO SECTION 
 
-hero-section-title = Diogelwch eich hunaniaeth trwy guddio rhif ffôn ac e-bost diogel
+hero-section-title = Diogelwch eich hunaniaeth gyda rhif ffôn ac e-bost diogel
 hero-section-body =
     Mae ein dulliau cuddio e-bost a rhifau ffôn diogel, hawdd eu defnyddio yn helpu i gadw eich hunaniaeth
     yn breifat fel y gallwch gofrestru ar gyfer cyfrifon newydd yn ddienw, atal negeseuon testun sbam a galwadau sothach, a
@@ -64,8 +64,6 @@ plan-matrix-offer-body = Mae { -brand-name-firefox-relay } yn diogelu eich hunan
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Nodweddion
 plan-matrix-heading-plan-free = Diogelwch e-bost cyfyngedig
 plan-matrix-heading-plan-premium = Diogelwch e-bost
@@ -112,6 +110,8 @@ plan-matrix-price-period-yearly = Blynyddol
 plan-matrix-price-period-monthly = Yn fisol
 plan-matrix-price-period-yearly-footnote-1 = Bilio blynyddol
 plan-matrix-price-period-monthly-footnote-1 = Bilio misol
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Arbedwch { $savings }</span> ar bris arferol { -brand-name-vpn }
 
 # Plan CTAs
@@ -123,7 +123,9 @@ plan-matrix-join-waitlist = Ymunwch â'r Rhestr Aros
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Crëwch e-byst arallenwau dirifedi
-highlighted-features-section-unlimited-masks-body = 
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
     Mae pawb yn cael { $mask_limit } o arallenwau e-bost am ddim.
     Ond gyda { -brand-name-relay-premium }, gallwch gynhyrchu cymaint o arallenwau ag sydd eu hangen arnoch i helpu i ddiogelu eich blwch derbyn e-bost
     rhag  sbamwyr, hacwyr, a thracwyr ar-lein.
@@ -131,7 +133,9 @@ highlighted-features-section-unlimited-masks-body =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Crëwch arallenwau e-bost ar daith, yn syth
-highlighted-features-section-masks-on-the-go-body = 
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
     Mae { -brand-name-relay-premium } yn cynnig parth e-bost { -brand-name-relay } unigryw i chi er mwyn i chi allu creu arallenwau newydd
     yn syth, ble bynnag yr ydych. Yn syml, ychwanegwch unrhyw air neu ymadrodd cyn y symbol @. Mewn bwyty? Defnyddiwch bwyty@eichparth.{ $mozmail }.
     Siopa? Rhowch gynnig ar siop@eichparth.{ $mozmail }.
@@ -139,7 +143,7 @@ highlighted-features-section-masks-on-the-go-body =
 # Item 3
 
 highlighted-features-section-replying-headline = Ateb e-byst a negeseuon testun yn ddienw
-highlighted-features-section-replying-body = 
+highlighted-features-section-replying-body =
     Mae { -brand-name-relay-premium } yn gadael i chi ateb e-byst oddi wrth eich
     cyfrif e-bost cudd, felly ni fydd anfonwyr byth yn gwybod eich cyfeiriad e-bost go iawn. Gyda chuddio rhif ffôn, gallwch ateb
     i negeseuon testun o'ch rhif ffôn wedi'i guddio i ddiogelu eich rhif go iawn.
@@ -189,8 +193,6 @@ landing-faq-cta = Gweld rhagor o gwestiynnau am { -brand-name-firefox-relay }
 ## Premium promo page
 
 premium-promo-hero-headline = Gwnewch diogelu eich blwch derbyn yn haws gyda { -brand-name-firefox-relay-premium }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Gyda { -brand-name-firefox-relay-premium }, byddwch yn cael arallenwau e-bost personol diderfyn sy'n anfon dim ond y negeseuon e-bost rydych chi eu heisiau ymlaen i'ch gwir gyfeiriad e-bost.
 premium-promo-hero-cta = Uwchraddiwch nawr
 premium-promo-availability-warning-4 = Mae { -brand-name-relay-premium } ar gael yn Awstria, Gwlad Belg, Canada, Cyprus, Estonia, y Ffindir, Ffrainc, yr Almaen, Gwlad Groeg, Iwerddon, yr Eidal, Latfia, Lithuania, Lwcsembwrg, Malaysia, Malta, yr Iseldiroedd, Seland Newydd, Portiwgal, Singapôr, Slofacia, Slofenia, Sbaen, Sweden, y Swistir, y Deyrnas Unedig, a'r Unol Daleithiau.
@@ -217,4 +219,3 @@ waitlist-privacy-policy-use-bundle = Dim ond i roi gwybod i chi am argaeledd pec
 waitlist-subscribe-success = Rydych chi ar y rhestr! Unwaith y bydd { -brand-name-firefox-relay-premium } ar gael ar gyfer eich ardal, byddwn yn anfon e-bost atoch.
 waitlist-subscribe-error-connection = Bu gwall wrth eich ychwanegu at y rhestr aros. Gwiriwch eich cysylltiad, yna ceisiwch eto.
 waitlist-subscribe-error-unknown = Bu gwall wrth eich ychwanegu at y rhestr aros. Ceisiwch eto, os gwelwch yn dda.
-
