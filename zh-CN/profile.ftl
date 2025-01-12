@@ -8,8 +8,7 @@
 onboarding-headline-2 = 创建您的第一个马甲邮箱
 onboarding-alias-tip-1-2 = 点击“生成新马甲”创建您的第一个马甲邮箱。
 onboarding-alias-tip-2 = 使用 { -brand-name-relay } 扩展，点击出现在电子邮件栏的 { -brand-name-firefox-relay } 图标。
-onboarding-alias-tip-3-2 = 使用 { -brand-name-relay } 扩展，鼠标右键表单栏并选择“生成新马甲”。
-
+onboarding-alias-tip-3-2 = 使用 { -brand-name-relay } 扩展，右键点击表单栏并选择“生成新马甲”。
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>欢迎，</span> { $email }！
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } 马甲
 profile-label-delete = 删除
 profile-label-upgrade-2 = 获得无限量马甲
 profile-label-custom-domain = 您的 { -brand-name-relay } 邮箱域名：
-# Deprecated
 profile-label-set-your-custom-domain = 设置您专属的 { -brand-name-relay } 邮箱域名
 profile-label-reset = 重置
 profile-label-apply = 应用
 profile-label-continue = 继续
-
 # This string is followed by an email address
 profile-label-forward-emails = 转发邮件至：
-
 # This string is followed by date:
 profile-label-created = 创建于：
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = 点击复制
 profile-label-copied = 已复制！
 profile-label-blocked = 拦截
