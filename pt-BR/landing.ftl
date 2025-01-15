@@ -61,8 +61,6 @@ plan-matrix-offer-body = O { -brand-name-firefox-relay } protege sua identidade 
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Recursos
 plan-matrix-heading-plan-free = Proteção limitada de email
 plan-matrix-heading-plan-premium = Proteção de email
@@ -109,6 +107,8 @@ plan-matrix-price-period-yearly = Anualmente
 plan-matrix-price-period-monthly = Mensalmente
 plan-matrix-price-period-yearly-footnote-1 = Cobrado anualmente
 plan-matrix-price-period-monthly-footnote-1 = Cobrado mensalmente
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Economize { $savings }</span> do preço normal do { -brand-name-vpn }
 
 # Plan CTAs
@@ -120,14 +120,18 @@ plan-matrix-join-waitlist = Entrar na lista de espera
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Crie máscaras de email ilimitadas
-highlighted-features-section-unlimited-masks-body = 
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
     Todos podem ter { $mask_limit } máscaras de email gratuitamente.
     Mas com o { -brand-name-relay-premium }, você pode gerar quantas máscaras precisar para ajudar a proteger sua caixa de entrada de email contra spam, hackers e rastreadores online.
 
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Crie máscaras instantaneamente em qualquer lugar
-highlighted-features-section-masks-on-the-go-body = 
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
     O { -brand-name-relay-premium } oferece um domínio de email exclusivo do { -brand-name-relay } para que você possa criar novas máscaras instantaneamente, onde quer que esteja. Basta adicionar qualquer palavra ou frase antes do símbolo @. Em um restaurante? Use nomedorestaurante@seudominio.{ $mozmail }.
     Fazendo compras? Experimente nomedaloja@seudominio.{ $mozmail }.
 
@@ -181,8 +185,6 @@ landing-faq-cta = Mais perguntas frequentes sobre o { -brand-name-firefox-relay 
 ## Premium promo page
 
 premium-promo-hero-headline = Facilite a proteção da sua caixa de entrada com o { -brand-name-firefox-relay-premium }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Com o { -brand-name-firefox-relay-premium }, você tem máscaras de email personalizadas ilimitadas que encaminham apenas os emails que você quer para seu endereço de email verdadeiro.
 premium-promo-hero-cta = Mude agora para a versão premium
 premium-promo-availability-warning-4 = O { -brand-name-relay-premium } está disponível na Áustria, Bulgária, Bélgica, Canadá, Croácia, Chipre, República Tcheca, Dinamarca, Estônia, Finlândia, França, Alemanha, Grécia, Hungria, Irlanda, Itália, Letônia, Lituânia, Luxemburgo, Malásia, Malta, Holanda, Nova Zelândia, Polônia, Portugal, Romênia, Cingapura, Eslováquia, Eslovênia, Espanha, Suécia, Suíça, Reino Unido e Estados Unidos.
@@ -202,11 +204,10 @@ waitlist-control-email-placeholder = seunome@example.com
 waitlist-control-country-label-2 = Em que país ou região você mora?
 waitlist-control-locale-label = Selecione um idioma.
 waitlist-submit-label-2 = Entrar na lista de espera
-waitlist-privacy-policy-agree-2 = Ao clicar em “{ waitlist-submit-label-2 }”, você concorda com nossa <a>política de privacidade</a>.
+waitlist-privacy-policy-agree-2 = Ao clicar em “{ waitlist-submit-label-2 }”, você declara que concorda com nossa <a>política de privacidade</a>.
 waitlist-privacy-policy-use = Suas informações só serão usadas para te notificar sobre a disponibilidade do { -brand-name-firefox-relay-premium }.
 waitlist-privacy-policy-use-phone = Suas informações só serão usadas para te notificar quando máscara de celular estiver disponível em sua região.
 waitlist-privacy-policy-use-bundle = Suas informações só serão usadas para te notificar sobre a disponibilidade do pacote { -brand-name-relay } + { -brand-name-vpn }.
 waitlist-subscribe-success = Você está na lista! Assim que o { -brand-name-firefox-relay-premium } estiver disponível em sua região, enviaremos um email.
 waitlist-subscribe-error-connection = Houve um erro ao adicionar você à lista de espera. Verifique sua conexão e tente novamente.
 waitlist-subscribe-error-unknown = Houve um erro ao adicionar você à lista de espera. Tente novamente.
-
