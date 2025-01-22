@@ -134,11 +134,16 @@ relay-email-trackers-removed =
 ## Email sent to free users who try to reply
 
 reply-not-sent-header = جاۋابىڭىز يوللانمىدى
+upgrade-to-reply-to-future-emails = جاۋاب يوللاش ئۈچۈن ھازىر يۈكسەلتىڭ
+upgrade-for-more-protection = تېخىمۇ ياخشى قوغداش ئۈچۈن يۈكسەلتىڭ
+upgrade-to-premium = { -brand-name-firefox-relay-premium } غا يۈكسەلتىڭ
 manage-your-masks = نىقاب باشقۇرۇش
 
 ## Email sent to first time free users
 
 first-time-user-email-welcome = { -brand-name-firefox-relay } غا خۇش كەپسىز
+first-time-user-email-preheader = ئېلخەت نىقابى كىملىكىڭىزنى قوغدايدۇ
+first-time-user-email-welcome-subhead = ئېلخەت ئادرېسىڭىزنى توردا سىزنى ئىزلاشقا ئىشلەتكىلى بولىدۇ — بىز سىزگە ياردەملىشىپ بۇنداق ئەھۋالنى ئاخىرلاشتۇرىمىز.
 first-time-user-email-hero-cta = باشقۇرۇش تاختىڭىزنى كۆرسىتىدۇ
 first-time-user-email-cta-dashboard-button = { -brand-name-relay }ئىشلىتىشنى ئۆگىنىۋېلىڭ
 
@@ -146,6 +151,7 @@ first-time-user-email-cta-dashboard-button = { -brand-name-relay }ئىشلىتى
 
 our-promise-header = سىزگە بەرگەن ۋەدىمىز
 first-time-user-email-how-title = { -brand-name-relay } قانداق ئىشلەيدۇ
+first-time-user-email-how-item-2-header = بارلىق ئېلخەتنى قوبۇللاش ساندۇقىڭىزغا ئۇلاپ يوللايمىز
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } گە ئېرىشىڭ
 first-time-user-email-footer-text-legal = قانۇنلۇق
 first-time-user-email-footer-text-privacy = شەرت ۋە شەخسىيەت
