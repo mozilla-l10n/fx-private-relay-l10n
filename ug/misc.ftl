@@ -152,6 +152,7 @@ first-time-user-email-cta-dashboard-button = { -brand-name-relay }ئىشلىتى
 our-promise-header = سىزگە بەرگەن ۋەدىمىز
 first-time-user-email-how-title = { -brand-name-relay } قانداق ئىشلەيدۇ
 first-time-user-email-how-item-2-header = بارلىق ئېلخەتنى قوبۇللاش ساندۇقىڭىزغا ئۇلاپ يوللايمىز
+first-time-user-email-how-item-2-subhead = يوللىغۇچى ھەقىقىي ئېلخەت ئادرېسىڭىزنى ھەرگىز كۆرەلمەيدۇ، سىز ئېلخەت ئادرېسىنى خالىغان ۋاقىتتا توسىيالايسىز.
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } گە ئېرىشىڭ
 first-time-user-email-footer-text-legal = قانۇنلۇق
 first-time-user-email-footer-text-privacy = شەرت ۋە شەخسىيەت
