@@ -45,7 +45,6 @@ tips-footer-link-support-tooltip = Ota yhteys tukeen
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Vinkki { $nr }
 tips-toast-button-expand-label = Lue lisää
-
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Estä mainossähköpostit
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Ota käyttöön "Estä mainossähköpostit" maskissa estääksesi markkinointisähköpostien saapumisen postilaatikkoosi.
@@ -54,8 +53,6 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Lisätietoja
 ## Tip about using custom masks
 
 tips-custom-alias-heading-2 = Maskien luominen mukautetun aliverkkotunnuksen avulla
-
-## Tip about using custom masks
 
 ## Report of trackers removed from an email
 
@@ -107,7 +104,6 @@ contains-tracker-warning-title = Haluatko silti nähdä linkin?
 contains-tracker-warning-description = Varoitus: Tämän linkin napsauttaminen lähettää tietoa sinusta lähettäjälle
 contains-tracker-warning-view-link-cta = Kyllä, näytä linkki
 contains-tracker-faq-section-title = Usein kysyttyjä kysymyksiä sähköpostiseuraimista
-
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = pv
@@ -139,9 +135,6 @@ survey-csat-answer-very-satisfied = Hyvin tyytyväinen
 # This is a link that the user can click to get to the two-minute survey.
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Kiitos palautteesta. Haluaisimme ymmärtää nykyistä paremmin, kuinka voimme parantaa { -brand-name-relay }-palvelua. Haluaisitko vastata kahden minuutin kyselyyn?
-
-## Deprecated (since January 2023)
-## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -194,7 +187,6 @@ what-can-you-do-with-relay-title = Mitä { -brand-name-firefox-relay } -palvelul
 what-can-you-do-with-relay-point-one = Vastaanota sähköpostia paljastamatta oikeaa sähköpostiosoitettasi lähettäjille
 forwarded-email-hero-header = Sait ensimmäisen edelleenlähetetyn sähköpostisi!
 forwarded-email-hero-desc = Näetkö otsakkeen? Se näkyy kaikissa { -brand-name-relay }-maskien välittämissä sähköpostiviesteissä.
-
 first-time-user-email-how-title = Miten { -brand-name-relay } toimii
 first-time-user-email-how-item-1-header = Käytä { -brand-name-relay }-maskia oikean sähköpostiosoitteesi sijaan kaikkialla
 # Variables
@@ -210,11 +202,9 @@ first-time-user-email-how-item-3-header = Hallitse maskeja { -brand-name-relay }
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Kirjaudu sisään</a> luodaksesi uusia maskeja, nimetäksesi maskeja ja poistaaksesi roskapostia saavia maskeja.
 first-time-user-email-how-item-3-subhead-text = Kirjaudu sisään luodaksesi uusia maskeja, nimetäksesi maskeja ja poistaaksesi roskapostia saavia maskeja.
-
 first-time-user-email-extra-protection-inbox-phone-title = Lisäsuojausta postilaatikollesi ja puhelimellesi
 first-time-user-email-extra-protection-inbox-phone-subhead = Päivitä { -brand-name-relay-premium }iin, niin saat rajattomasti sähköpostimaskeja – sekä oikeaa puhelinnumeroasi suojaavan maskin.
 first-time-user-email-extra-protection-cta = Hanki { -brand-name-relay-premium }
-
 first-time-user-email-questions-title = Onko sinulla kysymyksiä { -brand-name-firefox-relay } -palvelua koskien?
 # Variables
 #   $url (string) - URL of the support team website
@@ -236,10 +226,12 @@ first-time-user-email-footer-text-privacy = Ehdot ja tietosuoja
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Olet käyttänyt kaikki ilmaiseen tiliisi kuuluvat { $free_tier_limit } sähköpostimaskia. Voit käyttää olemassa olevaa maskia uudelleen, mutta yksilöllisen maskin käyttäminen jokaiselle tilille on kaikkein turvallisin vaihtoehto.
 api-error-free-tier-no-subdomain-masks = Ilmainen tilisi ei sisällä mukautettuja aliverkkotunnuksia maskeille. Jos haluat luoda mukautettuja maskeja, päivitä { -brand-name-relay-premium }iin.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = "{ $unavailable_address }" ei voitu luoda. Yritä uudelleen toisella maskin nimellä.
 api-error-need-subdomain = Valitse aliverkkotunnus ennen mukautetun sähköpostiosoitteen luomista.
 api-error-account-is-paused = Tilisi on keskeytetty.
-
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = "{ $duplicate_address }" on jo olemassa. Yritä uudelleen toisella maskin nimellä.
+api-error-account-is-inactive = Tilisi ei ole aktiivinen.
