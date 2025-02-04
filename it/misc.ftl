@@ -261,7 +261,7 @@ first-time-user-email-footer-text-1 = Hai ricevuto questa email automatica in qu
 first-time-user-email-footer-text-2-html = Per ulteriori informazioni, visita il sito di <a href="{ $url }" { $attrs }>supporto { -brand-name-mozilla }</a>.
 first-time-user-email-footer-text-2-text = Per ulteriori informazioni, visita il sito di supporto { -brand-name-mozilla }.
 first-time-user-email-footer-text-legal = Note legali
-first-time-user-email-footer-text-privacy = Termini di utilizzo e privacy
+first-time-user-email-footer-text-privacy = Condizioni di utilizzo e privacy
 
 ## API error messages
 

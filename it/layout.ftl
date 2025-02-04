@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } consente di creare facilmente alias di posta elettronica in grado di inoltrare messaggi al tuo indirizzo reale. In questo modo puoi proteggere i tuoi account da hacker e messaggi indesiderati.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (si apre in una nuova scheda)
 
@@ -21,7 +20,6 @@ nav-email-dashboard = Alias di posta elettronica
 nav-phone-dashboard = Alias per numeri di telefono
 label-open-menu = Apri menu
 avatar-tooltip = Profilo
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = FAQ
 nav-profile-sign-in = Accedi
@@ -54,14 +52,13 @@ nav-support = Guida e supporto
 nav-sign-out = Disconnetti
 nav-contact = Contatti
 nav-menu-mobile = Menu per dispositivi mobili
-
 fx-desktop-2 = { -brand-name-firefox } per desktop
 fx-mobile-2 = { -brand-name-firefox } per dispositivi mobili
 
 ## Footer
 
 nav-footer-privacy = Privacy
-nav-footer-relay-terms = Termini di utilizzo di { -brand-name-relay }
+nav-footer-relay-terms = Condizioni di utilizzo di { -brand-name-relay }
 nav-footer-legal = Note legali
 logo-mozilla-alt = { -brand-name-mozilla }
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser(capitalization: "uppercase") } per dis
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-
