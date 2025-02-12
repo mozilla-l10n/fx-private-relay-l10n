@@ -137,6 +137,7 @@ landing-reviews-rating = / 5 ({ $review_count } inceleme)
 landing-reviews-show-next-button = sonraki incelemeyi göster
 landing-reviews-show-previous-button = önceki incelemeyi göster
 landing-review-anonymous-user = { -brand-name-firefox } kullanıcısı { $user_id }
+landing-review-user-two-review = E-postanızı spam’den kurtarmak ve spam’i önlemek için basit bir araç.
 landing-review-user-three-review = Bu uzantıyı seviyorum! Çok basit ama güçlü. Tarayıcıyla entegrasyonu da harika.
 landing-review-user-four-review-list-1 = İnternette gezinirken içiniz rahat olsun.
 landing-review-user-four-review-list-3 = Gelen kutusu verileriniz { -brand-name-firefox-relay } ile güvende.
