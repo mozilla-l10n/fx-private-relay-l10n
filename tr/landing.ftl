@@ -95,6 +95,8 @@ plan-matrix-price-free = Ücretsiz
 plan-matrix-price-monthly-calculated = Aylık { $monthly_price }
 plan-matrix-price-period-yearly = Yıllık
 plan-matrix-price-period-monthly = Aylık
+plan-matrix-price-period-yearly-footnote-1 = Yıllık ödeme
+plan-matrix-price-period-monthly-footnote-1 = Aylık ödeme
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = Normal { -brand-name-vpn } fiyatından <span>{ $savings } tasarruf edin</span>
