@@ -64,6 +64,7 @@ plan-matrix-feature-email-masks = Gerçek e-posta adresinizi koruyan e-posta mas
 plan-matrix-feature-browser-extension = Her sitede { -brand-name-relay }’i kullanmanızı sağlayan tarayıcı uzantısı
 plan-matrix-feature-email-tracker-removal = E-posta takip kodlarını kaldırma
 plan-matrix-feature-promo-email-blocking = Reklam e-postalarını engelleme
+plan-matrix-feature-email-subdomain = Her yerde anında maske oluşturmak için { -brand-name-relay } e-posta alan adı
 plan-matrix-feature-email-reply = E-postaları anonim olarak yanıtlama
 plan-matrix-feature-phone-mask = Gerçek telefon numaranızı koruyan telefon maskesi
 plan-matrix-feature-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>‘den { -brand-name-vpn } koruması
