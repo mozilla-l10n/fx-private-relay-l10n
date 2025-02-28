@@ -223,7 +223,7 @@ what-can-you-do-with-relay-title = Mit tehet a { -brand-name-firefox-relay }jel?
 what-can-you-do-with-relay-point-one = Kapjon e-maileket anélkül, hogy felfedné a valódi e-mail-címét a feladóknak
 # Variables
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
-what-can-you-do-with-relay-point-one-subpoint-html = Inkább osszon meg egy e-mail-maszkot. Az e-mail-maszkok a postaládájába továbbítják a leveleket. Maszkokat közvetlenül a { -brand-name-firefox }ban hozhat létre, a <a { $attrs }>{ -brand-name-relay } kiegészítővel</a>, vagy a { -brand-name-relay } irányítópultján.
+what-can-you-do-with-relay-point-one-subpoint-html = Inkább osszon meg egy e-mail-maszkot. Az e-mail-maszkok a postaládájába továbbítják a leveleket. Maszkokat közvetlenül a { -brand-name-firefox(case: "inessive") } hozhat létre, a <a { $attrs }>{ -brand-name-relay } kiegészítővel</a>, vagy a { -brand-name-relay } irányítópultján.
 what-can-you-do-with-relay-point-two = Akadályozza meg a webhelyeket és a spammereket abban, hogy könnyen nyomon kövessék Önt
 what-can-you-do-with-relay-point-two-subpoint = Az e-mail-követők manapság mindenhol ott vannak. A { -brand-name-relay } e-mail-maszkok segítenek abban, hogy ne találják meg.
 what-can-you-do-with-relay-point-three = Blokkolja a levélszemetet, hogy ne érje el a postaládáját, sőt, kapcsolja ki teljesen a maszkokat
@@ -235,8 +235,8 @@ first-time-user-email-how-item-1-header = Használjon { -brand-name-relay } masz
 # Variables
 #   $url (string) - URL of add-on
 #   $attrs (string) - Inline attributes for the link
-first-time-user-email-how-item-1-subhead-html = Hozzon létre maszkokat közvetlenül a { -brand-name-firefox }ban, a <a href="{ $url }" { $attrs }>{ -brand-name-relay } kiegészítővel</a>, vagy a { -brand-name-relay } vezérlőpultján.
-first-time-user-email-how-item-1-subhead-text = Hozzon létre maszkokat közvetlenül a { -brand-name-firefox }ban, a { -brand-name-relay } kiegészítővel, vagy a { -brand-name-relay } irányítópultján.
+first-time-user-email-how-item-1-subhead-html = Hozzon létre maszkokat közvetlenül a { -brand-name-firefox(case: "inessive") }, a <a href="{ $url }" { $attrs }>{ -brand-name-relay } kiegészítővel</a>, vagy a { -brand-name-relay } vezérlőpultján.
+first-time-user-email-how-item-1-subhead-text = Hozzon létre maszkokat közvetlenül a { -brand-name-firefox(case: "inessive") }, a { -brand-name-relay } kiegészítővel, vagy a { -brand-name-relay } irányítópultján.
 first-time-user-email-how-item-2-header = Az összes e-mailt a postafiókjába továbbítjuk
 first-time-user-email-how-item-2-subhead = A feladók sosem fogják látni a valódi címét, és bármikor letilthatja a leveleket.
 first-time-user-email-how-item-3-header = Kezelje maszkjait a { -brand-name-relay } irányítópultjáról
