@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Crear tu primer correo enmascarado
 onboarding-alias-tip-1-2 = Selecciona “Generar nueva máscara” para crear tu primer correo enmascarado.
 onboarding-alias-tip-2 = Usando la extensión { -brand-name-relay }, selecciona el icono de { -brand-name-firefox-relay } cuando aparezca en los campos de correo electrónico.
 onboarding-alias-tip-3-2 = Con la extensión { -brand-name-relay }, haz clic con el botón derecho en los campos del formulario y selecciona "Generar nueva máscara".
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>¡Bienvenido,</span> { $email }!
@@ -30,16 +30,16 @@ profile-label-generate-new-alias-menu-random-2 = Correo enmascarado aleatorio
 profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } máscara
 profile-label-delete = Eliminar
 profile-label-upgrade-2 = Consigue correos enmascarados ilimitados
+profile-label-custom-domain = Tu dominio de correo electrónico { -brand-name-relay }:
+profile-label-set-your-custom-domain = Configura tu dominio de correo electrónico único { -brand-name-relay }
 profile-label-reset = Restablecer
 profile-label-apply = Aplicar
 profile-label-continue = Continuar
-
 # This string is followed by an email address
 profile-label-forward-emails = Reenviar correos electrónicos a:
-
 # This string is followed by date:
 profile-label-created = Creado:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Clic para copiar
 profile-label-copied = ¡Copiado!
 profile-label-blocked = Bloqueado
@@ -93,10 +93,19 @@ profile-promo-email-blocking-option-promotions = Promociones
 profile-promo-email-blocking-option-none = Ninguno
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } está bloqueando todos los correos enviados a esta máscara.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } intentará bloquear los correos electrónicos promocionales mientras sigue reenviando correos electrónicos como recibos e información de envío.
+# Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } no está bloqueando ningún correo para esta máscara.
+profile-promo-email-blocking-description-none-3 = Todos los correos electrónicos enviados a esta máscara se reenviarán a tu dirección real.
+# Deprecated
 profile-promo-email-blocking-label-promotionals = Bloquear promociones
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = Bloqueo de correos electrónicos promocionales
+# Deprecated
 profile-promo-email-blocking-label-none = Bloquear todo
+profile-promo-email-blocking-label-none-2 = Bloquear todos los correos electrónicos
+# Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = Reenviar todos los correos electrónicos
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (Solo { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Disponible para los suscriptores de { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-cta = Actualiza ahora
@@ -105,3 +114,10 @@ profile-promo-email-blocking-description-promotionals-locked-close = Cerrar
 
 ## 5 Mask Upsell (displayed on the profile page)
 
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Has utilizado todas las máscaras { $limit }. Puedes reutilizarlas, pero utilizar una máscara única para cada cuenta es la opción más segura.
+profile-maxed-aliases-with-phone-header = Maximiza la protección de tu correo electrónico y teléfono
+profile-maxed-aliases-without-phone-header = Maximiza la protección de tu correo electrónico { -brand-name-relay }
+profile-maxed-aliases-cta = Cambiate a { -brand-name-premium }
