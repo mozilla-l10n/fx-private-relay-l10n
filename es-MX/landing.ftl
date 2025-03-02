@@ -2,13 +2,20 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
 
 hero-section-title = Protege tu identidad con enmascaramiento seguro de correo electrónico y teléfono
 hero-section-cta = Comenzar
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = Como se ve en
 
 ## BUNDLE BANNER SECTION
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+bundle-banner-header-2 = Por tiempo limitado: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } por { $monthly_price } al mes
 bundle-banner-plan-header-2 = Tu plan de 1 año incluye:
 bundle-banner-plan-modules-email-masking = Enmascaramiento de correo electrónico
 bundle-banner-plan-modules-phone-masking = Enmascaramiento de teléfono
@@ -36,12 +43,13 @@ how-it-works-section-forward-headline = Te reenviaremos correos electrónicos, l
 
 # Item 3
 
+
 ## PRICING MATRIX SECTION
+
+plan-matrix-offer-title = Seleccione el nivel de protección adecuado para usted
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Características
 plan-matrix-heading-plan-free = Protección de correo electrónico limitada
 plan-matrix-heading-plan-premium = Protección de correo electrónico
@@ -85,6 +93,8 @@ plan-matrix-price-period-yearly = Anual
 plan-matrix-price-period-monthly = Mensual
 plan-matrix-price-period-yearly-footnote-1 = Facturado anualmente
 plan-matrix-price-period-monthly-footnote-1 = Facturado mensualmente
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Ahorra { $savings }</span> en el precio normal de { -brand-name-vpn }
 
 # Plan CTAs
@@ -138,6 +148,7 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } funciona 
 highlighted-features-section-title = Funciones seguras y simples para ayudar a proteger tu identidad
 highlighted-features-section-bottom-title = Protege tu identidad (y tu bandeja de entrada) con { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Comenzar
+highlighted-features-section-new-item = ¡Lo nuevo!
 
 ## FAQ SECTION
 
@@ -147,8 +158,6 @@ landing-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-rela
 ## Premium promo page
 
 premium-promo-hero-headline = Facilita la protección de tu bandeja de entrada con { -brand-name-firefox-relay-premium }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Con { -brand-name-firefox-relay-premium }, obtienes máscaras de correo electrónico personalizadas ilimitadas que reenvían solo los correos electrónicos que deseas a tu verdadera dirección de correo electrónico.
 premium-promo-hero-cta = Actualizar ahora
 
@@ -171,4 +180,3 @@ waitlist-privacy-policy-use-phone = Tu información solo se utilizará para noti
 waitlist-subscribe-success = ¡Estás en la lista! Una vez que { -brand-name-firefox-relay-premium } esté disponible para tu región, te enviaremos un correo.
 waitlist-subscribe-error-connection = Hubo un error al agregarte a la lista de espera. Por favor, revisa tu conexión y vuelve a intentarlo.
 waitlist-subscribe-error-unknown = Hubo un error al agregarte a la lista de espera. Por favor, inténtalo de nuevo.
-

@@ -94,6 +94,18 @@ trackerreport-load-error = Se produjo un error al generar el informe de eliminac
 
 ## Tracker warning page
 
+contains-tracker-title = Este enlace o imagen contiene un rastreador
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description =
+    Los rastreadores de correo electrónico son herramientas de vigilancia que las empresas incorporan en los correos electrónicos para rastrear su
+    comportamiento en línea. Para proteger su privacidad, eliminamos este rastreador del correo electrónico enviado
+    por <u>{ $sender }</u> el { $datetime }.
+contains-tracker-warning-title = ¿Aún quieres ver el enlace?
+contains-tracker-warning-description = Advertencia: al hacer clic en este enlace, se enviará información sobre ti al remitente.
+contains-tracker-warning-view-link-cta = Sí, ver enlace
+contains-tracker-faq-section-title = Preguntas frecuentes sobre rastreadores de correo electrónico
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -154,12 +166,41 @@ survey-csat-followup = Gracias por tus comentarios. Nos gustaría obtener más i
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
+relay-email-upgrade-for-more-protection = Actualiza para obtener más protección
+relay-email-manage-this-mask = Administrar esta máscara
+relay-email-your-dashboard = Tu panel de control
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = por <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = por <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = Reenviado desde <a href="{ $url }" { $attrs }>{ $email_address }</a>
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] 1 rastreador de correo electrónico eliminado
+       *[other] { $number } rastreadores de correo electrónico eliminados
+    }
 
 ## Email sent to free users who try to reply
 
 # Variables
 #   $sender (string) - the original sender's email address
+first-reply-forwarded = Hemos enviado esta respuesta a { $sender }. Pero en el futuro, sus respuestas no se enviarán.
+# Variables
+#   $sender (string) - the original sender's email address
 other-reply-not-forwarded-2 = Tu respuesta no se envió a { $sender }.
+replies-only-available-with-premium = Responder a los correos electrónicos reenviados desde su correo electrónico enmascarado solo está disponible con { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Las respuestas no están incluidas en tu cuenta gratuita.
 reply-not-sent-header = Tu respuesta no fue enviada
 upgrade-to-reply-to-future-emails = Actualiza ahora para enviar respuestas
@@ -169,6 +210,9 @@ manage-your-masks = Administra tus máscaras
 
 ## Email sent to first time free users
 
+first-time-user-email-welcome = Bienvenido a { -brand-name-firefox-relay }
+first-time-user-email-preheader = Enmascaramiento de correo electrónico para proteger tu identidad
+first-time-user-email-welcome-subhead = Su dirección de correo electrónico se puede utilizar para rastrearlo en línea; estamos aquí para ayudarlo a ponerle fin.
 first-time-user-email-hero-primary-text = Como usuario de { -brand-name-firefox }, obtienes 5 máscaras de correo electrónico gratis. Úselos para ocultar su dirección de correo electrónico real, proteger su identidad y reenviar sólo los correos electrónicos que desee a su bandeja de entrada.
 first-time-user-email-hero-secondary-text = Administra todas tus máscaras desde tu panel de control { -brand-name-relay }.
 first-time-user-email-hero-cta = Ver tu panel de control

@@ -23,6 +23,9 @@ error-alias-picker-prefix-invalid = No pudimos generar una máscara personalizad
 done-msg = Hecho
 copy-mask = Copiar máscara
 popover-custom-alias-explainer-promotional-block-checkbox-label = Comience a bloquear correos electrónicos promocionales
+error-state-valid-alt = Válido
+error-state-invalid-alt = Inválido
+close-button-label-alt = Cerrar
 modal-delete-headline-2 = ¿Eliminar permanentemente este correo enmascarado?
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
@@ -44,3 +47,6 @@ modal-domain-register-success-title = ¡Correcto!
 
 ## Updated mask deletion modal strings
 
+mask-deletion-header = ¿Eliminar esta máscara de correo electrónico?
+mask-deletion-warning-no-recovery = Una vez que elimines esta máscara, no podrás recuperarla. Ya no recibirá ningún correo electrónico que se le envíe.
+mask-deletion-warning-sign-ins = Si utiliza esta máscara para iniciar sesión en cualquier cuenta, debe cambiar los correos electrónicos de esa cuenta antes de eliminar esta máscara.

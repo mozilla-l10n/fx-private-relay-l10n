@@ -24,6 +24,7 @@ avatar-tooltip = Perfil
 nav-faq = Preguntas frecuentes
 nav-profile-sign-in = Iniciar sesión
 nav-profile-sign-up = Registrarse
+nav-profile-manage-account = Administra tu cuenta
 nav-profile-sign-out = Cerrar sesión
 nav-profile-sign-out-confirm = ¿Estás seguro de que quieres cerrar sesión?
 nav-profile-settings = Ajustes
@@ -36,6 +37,7 @@ nav-profile-contact = Contáctanos
 nav-profile-contact-tooltip = Comunícate con nosotros acerca de { -brand-name-relay-premium }
 # Deprecated
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } Avatar
+nav-profile-image-alt-v2 = avatar de la cuenta
 nav-duo-description = Cambiar paneles
 nav-duo-email-mask-alt = Máscaras de correo electrónico
 nav-duo-phone-mask-alt = Máscaras de teléfono
