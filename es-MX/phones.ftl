@@ -25,21 +25,6 @@ phone-onboarding-step2-sub-body = Este número de teléfono se conectará a su c
 phone-onboarding-step2-input-placeholder = Ingresa tu número telefónico
 phone-onboarding-step2-button-cta = Enviar código
 phone-onboarding-step2-invalid-number = { $phone_number } no es un número válido. Revisa y proporciona un número de teléfono real.
-# Variables:
-#   $phone_number (string) - The phone number to which a verification code was sent, e.g. +1 (415) 555-2671
-#   $remaining_minutes (number) - The number of minutes (to be added to $remaining_seconds) left before the verification code expires
-#   $remaining_seconds (number) - The number of seconds (to be added to $remaining_minutes) left before the verification code expires
-phone-onboarding-step3-body =
-    { $remaining_minutes ->
-        [0]
-            { $remaining_seconds ->
-                [1] { "" }
-                [one] { "" }
-               *[other] { "" }
-            }
-        [one] { "" }
-       *[other] { "" }
-    }
 phone-onboarding-step3-input-placeholder = Ingresa el código de 6 dígitos
 phone-onboarding-step3-button-cta = Confirmar mi número de teléfono
 phone-onboarding-step3-button-edit = Editar número de teléfono verdadero
