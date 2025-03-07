@@ -6,9 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Tutup
-
 banner-bounced-headline = { -brand-name-relay } tidak dapat mengirimkan surel Anda.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -27,10 +25,6 @@ banner-download-install-chrome-extension-headline = Coba { -brand-name-relay } u
 banner-download-install-chrome-extension-copy-2 = Ekstensi { -brand-name-firefox-relay } untuk { -brand-name-chrome } memudahkan pembuatan dan penggunaan topeng.
 banner-download-install-chrome-extension-cta = Dapatkan ekstensi { -brand-name-relay }
 banner-upgrade-cta = Beralih ke { -brand-name-relay-premium }
-
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
-
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 =
@@ -39,11 +33,11 @@ banner-register-subdomain-copy-2 =
     "restaurant@yourdomain.{ $mozmail }" ke restoran. Topeng apa pun yang menggunakan
     subdomain kustom akan diteruskan kepada anda.
 banner-pack-upgrade-cta = Beralih sekarang
-
-
+# Data Notification Banner:
 banner-label-data-notification-body-cta = Pelajari lebih lanjut
 
 # Relay Premium Promo A/B Test
+
 
 ## Set domain banner
 
@@ -64,7 +58,6 @@ banner-set-email-domain-input-search = Cari
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = domainanda
 banner-set-email-domain-learn-more = Pelajari lebih lanjut
-
 modal-email-domain-good-news = Kabar baik!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -84,7 +77,6 @@ modal-email-domain-success-headline-any-word = Buat topeng tanpa batas dengan me
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Belanja? Gunakan toko{ $custom_domain_full }.
-
 tooltip-email-domain-explanation-title = Tentang Domain Email { -brand-name-relay } unik Anda
 tooltip-email-domain-explanation-part-one = Fitur berharga dari akun { -brand-name-relay-premium } Anda ini memungkinkan Anda memilih domain surel { -brand-name-relay } unik yang dapat digunakan untuk membuat topeng { -brand-name-relay } khusus tanpa batas di mana saja.
 tooltip-email-domain-explanation-part-two = Tidak perlu masuk ke { -brand-name-relay } untuk membuat topeng baru; Cukup tambahkan kata atau frasa sebelum simbol @ dari domain surel { -brand-name-relay } Anda untuk membuat topeng baru secara instan di mana pun Anda berada.
@@ -105,10 +97,10 @@ holiday-promo-banner-code-usage = Gunakan kode <coupon>{ $couponCode }</coupon> 
 holiday-promo-banner-cta-button = Dapatkan { -brand-name-premium } selama 1 tahun
 holiday-promo-banner-promo-expiry = penawaran berakhir pada 31 Des 2023
 
-## 4-mask upsell banner 
+## 4-mask upsell banner
 
 upsell-banner-4-masks-button-close-label = Tutup
-upsell-banner-4-masks-us-heading = Dapatkan perlindungan email dan telepon yang maksimal
+upsell-banner-4-masks-us-heading = Dapatkan perlindungan surel dan telepon yang maksimal
 upsell-banner-4-masks-non-us-heading = Dapatkan perlindungan email maksimal
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } memberi Anda topeng telepon untuk melindungi nomor asli Anda, ditambah topeng email tanpa batas dan kemampuan untuk memblokir email promosi.
 upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } memberi Anda topeng surel tanpa batas, pemblokiran spam, domain surel { -brand-name-relay } khusus, dan kemampuan untuk membalas pesan yang diteruskan.
