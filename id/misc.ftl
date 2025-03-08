@@ -115,14 +115,14 @@ offer-countdown-timer-alt =
             }
         [1]
             { $remaining_hours ->
-                [0] 1 hari lagi
                 [1] 1 hari dan 1 jam lagi
+                [0] 1 hari lagi
                *[other] 1 hari dan { $remaining_hours } jam lagi
             }
        *[other]
             { $remaining_hours ->
-                [0] { $remaining_days } hari lagi
                 [1] { $remaining_days } hari dan 1 jam lagi
+                [0] { $remaining_days } hari lagi
                *[other] { $remaining_days } hari dan { $remaining_hours } jam lagi
             }
     }
@@ -271,4 +271,8 @@ api-error-free-tier-no-subdomain-masks = Akun gratis Anda tidak menyertakan subd
 api-error-address-unavailable = “{ $unavailable_address }” tidak dapat dibuat. Silakan coba lagi dengan nama topeng yang berbeda.
 api-error-need-subdomain = Pilih subdomain sebelum membuat alamat surel khusus.
 api-error-account-is-paused = Akun Anda sedang dijeda.
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = “{ $duplicate_address }” sudah ada. Silakan coba lagi dengan nama topeng yang berbeda.
+api-error-address-not-editable = Anda tidak dapat mengubah bidang alamat domain yang ada.
 api-error-account-is-inactive = Akun Anda tidak aktif.

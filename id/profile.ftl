@@ -9,7 +9,6 @@ onboarding-headline-2 = Buat topeng surel Anda yang pertama
 onboarding-alias-tip-1-2 = Pilih “Buat topeng baru” untuk membuat topeng surel Anda yang pertama.
 onboarding-alias-tip-2 = Dengan menggunakan ekstensi { -brand-name-relay }, pilih ikon { -brand-name-firefox-relay } ketika muncul di bidang surel.
 onboarding-alias-tip-3-2 = Dengan menggunakan ekstensi { -brand-name-relay }, klik kanan pada bidang formulir dan pilih "Buat Topeng Baru."
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Selamat datang,</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = Topeng @{ $subdomain }
 profile-label-delete = Hapus
 profile-label-upgrade-2 = Dapatkan topeng surel tak terbatas
 profile-label-custom-domain = Domain surel { -brand-name-relay } Anda:
-# Deprecated
 profile-label-set-your-custom-domain = Setel domain surel { -brand-name-relay } unik Anda
 profile-label-reset = Setel Ulang
 profile-label-apply = Terapkan
 profile-label-continue = Lanjutkan
-
 # This string is followed by an email address
 profile-label-forward-emails = Teruskan surel ke:
-
 # This string is followed by date:
 profile-label-created = Dibuat:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Klik untuk menyalin
 profile-label-copied = Tersalin!
 profile-label-blocked = Diblokir
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } tidak me
 profile-promo-email-blocking-description-none-3 = Semua surel yang dikirim ke topeng ini akan diteruskan ke alamat asli Anda.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Blokir promosi
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Memblokir surel promo
 # Deprecated
 profile-promo-email-blocking-label-none = Memblokir semua

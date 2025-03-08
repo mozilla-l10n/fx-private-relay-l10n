@@ -6,7 +6,6 @@
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-tip = Kiat: Untuk membuat topeng kustom kapan saja, buatlah di tempat. Jika Anda menggunakan domain { -brand-name-relay } Anda, itu akan berfungsi, meskipun Anda tidak membuatnya di sini terlebih dahulu.
-
 modal-custom-alias-picker-heading-2 = Buat topeng kustom baru
 modal-custom-alias-picker-form-prefix-label-3 = Masukkan teks sebelum simbol @:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
@@ -27,9 +26,7 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = Mulai blokir s
 error-state-valid-alt = Sah
 error-state-invalid-alt = Tidak sah
 close-button-label-alt = Tutup
-
 modal-delete-headline-2 = Hapus topeng surel ini secara permanen?
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -43,7 +40,6 @@ modal-delete-domain-address-warning-upgrade-2 =
     Anda harus memperbarui login Anda dengan alamat surel yang berbeda sebelum Anda menghapus yang ini.
     Jika Anda membuat ulang topeng yang dihapus, surel yang dikirim ke alias asli akan terus diteruskan.
 modal-delete-confirmation-2 = Ya, saya ingin menghapus topeng ini.
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ya, saya ingin mendaftarkan <subdomain>{ $subdomain }</subdomain>

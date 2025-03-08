@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } mempermudah pembuatan topeng surel yang meneruskan pesan ke kotak masuk asli Anda. Gunakan untuk melindungi akun daring Anda dari peretas dan pesan yang tidak diinginkan.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Buka di tab baru)
 
@@ -21,7 +20,6 @@ nav-email-dashboard = Topeng Email
 nav-phone-dashboard = Topeng Telepon
 label-open-menu = Buka menu
 avatar-tooltip = Profil
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Tanya Jawab
 nav-profile-sign-in = Masuk
@@ -54,7 +52,6 @@ nav-support = Bantuan dan Dukungan
 nav-sign-out = Keluar
 nav-contact = Hubungi Kami
 nav-menu-mobile = Menu Seluler
-
 fx-desktop-2 = { -brand-name-firefox } untuk Desktop
 fx-mobile-2 = { -brand-name-firefox } untuk Ponsel
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser } untuk Mobile
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-
