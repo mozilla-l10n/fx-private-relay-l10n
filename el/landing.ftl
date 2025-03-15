@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Προστασία της ταυτότητάς σας με ασφαλή απόκρυψη τηλεφώνου και email
 hero-section-body =
@@ -36,7 +36,7 @@ bundle-feature-one = Περισσότεροι από { $num_vpn_servers } δια
 bundle-feature-two = Περισσότερες από { $num_vpn_countries } χώρες
 bundle-feature-three = Γρήγορο και ασφαλές δίκτυο
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Πώς λειτουργεί η απόκρυψη email και τηλεφώνου του { -brand-name-relay }
 
@@ -221,6 +221,5 @@ waitlist-privacy-policy-use = Τα στοιχεία σας θα χρησιμοπ
 waitlist-privacy-policy-use-phone = Τα στοιχεία σας θα χρησιμοποιηθούν αποκλειστικά για να ειδοποιηθείτε όταν η απόκρυψη τηλεφώνουν είναι διαθέσιμη στην περιοχή σας.
 waitlist-privacy-policy-use-bundle = Τα στοιχεία σας θα χρησιμοποιηθούν αποκλειστικά για την ενημέρωσή σας σχετικά με τη διαθεσιμότητα του πακέτου { -brand-name-relay } + { -brand-name-vpn }.
 waitlist-subscribe-success = Είστε στη λίστα! Μόλις το { -brand-name-firefox-relay-premium } γίνει διαθέσιμο στην περιοχή σας, θα σας ειδοποιήσουμε μέσω email.
-waitlist-subscribe-error-connection = Προέκυψε σφάλμα κατά την προσθήκη σας στη λίστα αναμονής. Παρακαλώ ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.
-waitlist-subscribe-error-unknown = Προέκυψε σφάλμα κατά την προσθήκη σας στη λίστα αναμονής. Παρακαλώ δοκιμάστε ξανά.
-
+waitlist-subscribe-error-connection = Προέκυψε σφάλμα κατά την προσθήκη σας στη λίστα αναμονής. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.
+waitlist-subscribe-error-unknown = Προέκυψε σφάλμα κατά την προσθήκη σας στη λίστα αναμονής. Δοκιμάστε ξανά.

@@ -6,7 +6,6 @@
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-tip = Συμβουλή: Για να δημιουργήσετε μια προσαρμοσμένη μάσκα ανά πάσα στιγμή, επινοήστε την επιτόπου. Εάν χρησιμοποιήσετε τον τομέα σας στο { -brand-name-relay }, θα λειτουργήσει, ακόμα κι αν δεν τη δημιουργήσατε εκ των προτέρων.
-
 modal-custom-alias-picker-heading-2 = Δημιουργία νέας προσαρμοσμένης μάσκας
 modal-custom-alias-picker-form-prefix-label-3 = Εισαγάγετε το κείμενο που βρίσκεται πριν από το σύμβολο @:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
@@ -20,16 +19,14 @@ modal-custom-alias-picker-tip-redesign = Συμβουλή: Για να δημι�
 modal-custom-alias-picker-form-prefix-placeholder-redesign = Eισαγωγή κειμένου
 error-alias-picker-prefix-invalid-uppercase-letters = Όχι κεφαλαία γράμματα
 error-alias-picker-prefix-invalid-symbols = Όχι σύμβολα, εκτός από τελείες ή παύλες
-error-alias-picker-prefix-invalid = Δεν μπορέσαμε να δημιουργήσουμε μια προσαρμοσμένη μάσκα με αυτήν τη λέξη ή φράση. Παρακαλούμε δοκιμάστε με κάποια άλλη.
+error-alias-picker-prefix-invalid = Δεν ήταν δυνατή η δημιουργία προσαρμοσμένης μάσκας με αυτήν τη λέξη ή τη φράση. Δοκιμάστε με κάποια άλλη.
 done-msg = Τέλος
 copy-mask = Αντιγραφή μάσκας
 popover-custom-alias-explainer-promotional-block-checkbox-label = Έναρξη αποκλεισμού διαφημιστικών email
 error-state-valid-alt = Έγκυρο
 error-state-invalid-alt = Μη έγκυρο
 close-button-label-alt = Κλείσιμο
-
 modal-delete-headline-2 = Οριστική διαγραφή μάσκας email;
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -44,7 +41,6 @@ modal-delete-domain-address-warning-upgrade-2 =
     θα πρέπει να ενημερώσετε τη σύνδεσή σας με μια διαφορετική διεύθυνση email προτού διαγράψετε αυτήν.
     Αν δημιουργήσετε ξανά μια διαγραμμένη μάσκα, τα email που αποστέλλονται στην πρωτότυπη μάσκα θα συνεχίσουν να προωθούνται.
 modal-delete-confirmation-2 = Ναι, θέλω να διαγράψω αυτήν τη μάσκα.
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ναι, θέλω να καταχωρήσω το <subdomain>{ $subdomain }</subdomain>
