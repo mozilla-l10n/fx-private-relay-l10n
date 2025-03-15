@@ -60,7 +60,7 @@ faq-question-8-question = Ποια δεδομένα συλλέγει το { -bra
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-8-answer-3-html = Το { -brand-name-firefox-relay } συλλέγει τους ιστοτόπους στους οποίους έχετε χρησιμοποιήσει τις μάσκες email σας και ορίζει τα ονόματά τους ως ετικέτες των μασκών, ώστε να μπορείτε εύκολα να τις αναγνωρίζετε. Μπορείτε να απενεργοποιήσετε αυτήν τη λειτουργία  στην ενότητα «Απόρρητο» της σελίδας «Ρυθμίσεις». Παρακαλούμε σημειώστε ότι η απενεργοποίηση αυτής της ρύθμισης σημαίνει ότι δεν θα μπορείτε να δείτε πού χρησιμοποιήσατε κάθε μάσκα και τα ονόματα των λογαριασμών σας δεν θα συγχρονίζονται μεταξύ των συσκευών. Μπορείτε να μάθετε περισσότερα σχετικά με τα δεδομένα που συλλέγει το { -brand-name-firefox-relay } στη <a href="{ $url }" { $attrs }>Σημείωση απορρήτου</a>.
+faq-question-8-answer-3-html = Το { -brand-name-firefox-relay } συλλέγει τους ιστοτόπους στους οποίους έχετε χρησιμοποιήσει τις μάσκες email σας και ορίζει τα ονόματά τους ως ετικέτες των μασκών, ώστε να μπορείτε εύκολα να τις αναγνωρίζετε. Μπορείτε να απενεργοποιήσετε αυτήν τη λειτουργία στην ενότητα «Απόρρητο» της σελίδας «Ρυθμίσεις». Σημειώστε ότι αν απενεργοποιήσετε αυτήν τη ρύθμιση, δεν θα μπορείτε να δείτε πού χρησιμοποιήσατε κάθε μάσκα και τα ονόματα των λογαριασμών σας δεν θα συγχρονίζονται μεταξύ των συσκευών. Μπορείτε να μάθετε περισσότερα σχετικά με τα δεδομένα που συλλέγει το { -brand-name-firefox-relay } στη <a href="{ $url }" { $attrs }>Σημείωση απορρήτου</a>.
 faq-question-email-storage-question = Αποθηκεύει το { -brand-name-relay } τα email μου;
 faq-question-email-storage-answer = Στη σπάνια περίπτωση κατά την οποία η υπηρεσία είναι εκτός λειτουργίας, αποθηκεύουμε προσωρινά τα email σας μέχρι να μπορέσουμε να τα στείλουμε. Δεν θα τα αποθηκεύσουμε ποτέ για περισσότερο από τρεις ημέρες.
 faq-question-acceptable-use-question = Ποιες είναι οι αποδεκτές χρήσεις του { -brand-name-relay };
@@ -74,7 +74,7 @@ faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Απαιτών�
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Περιορίζοντας τον αριθμό των μασκών που μπορούν να δημιουργηθούν σε μία ημέρα
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-acceptable-use-answer-b-html = Παρακαλούμε διαβάστε τους <a href="{ $url }" { $attrs }>Όρους υπηρεσίας</a> μας για περισσότερες πληροφορίες.
+faq-question-acceptable-use-answer-b-html = Διαβάστε τους <a href="{ $url }" { $attrs }>Όρους υπηρεσίας</a> μας για περισσότερες πληροφορίες.
 faq-question-promotional-email-blocking-question = Τι είναι η φραγή διαφημιστικών email;
 faq-question-promotional-email-blocking-answer = Οι συνδρομητές του { -brand-name-relay-premium } μπορούν να ενεργοποιήσουν τη φραγή των διαφημιστικών email. Αυτή η λειτουργία θα προωθήσει σε εσάς τα σημαντικά email, όπως αποδείξεις, μηνύματα για επαναφορά κωδικών πρόσβασης και επιβεβαιώσεις, ενώ θα αποκλείει τα διαφημιστικά μηνύματα. Υπάρχει ένας μικρός κίνδυνος να αποκλειστεί κάποιο σημαντικό μήνυμα, επομένως σας συνιστούμε να μη χρησιμοποιείτε αυτήν τη λειτουργία για πολύ σημαντικά μέρη, όπως η τράπεζά σας. Εάν αποκλειστεί κάποιο email, δεν μπορεί να ανακτηθεί.
 faq-question-detect-promotional-question = Πώς ανιχνεύει το { -brand-name-relay } εάν ένα email είναι διαφημιστικό;
