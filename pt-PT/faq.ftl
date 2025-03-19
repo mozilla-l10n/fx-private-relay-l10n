@@ -36,4 +36,9 @@ faq-question-2-question-2 = Por que um site não aceita a minha máscara de e-ma
 faq-question-2-answer-v4 = Alguns sites podem não aceitar um endereço de e-mail que inclua um subdomínio (@subdomain.mozmail.com) e outros pararam de aceitar todos os endereços, exceto os das contas Gmail, Hotmail ou Yahoo.
 faq-question-1-question = E sobre o spam?
 faq-question-1-answer-a-2 = Enquanto o { -brand-name-relay } não filtra o spam, o nosso parceiro de e-mail Amazon SES bloqueia spam e malware. Se o { -brand-name-relay } encaminhar mensagens que não quer, pode atualizar as suas definições do { -brand-name-relay } para bloquear mensagens da máscara que as encaminha.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-2-html = Se se deparar com um problema mais geral de e-mail indesejado em todas as suas máscaras, por favor <a href="{ $url }" { $attrs }>reporte isto à nossa equipa</a> para que possamos considerar o ajuste dos limites de spam da SES para este serviço. Se reportar isto como spam, o seu fornecedor de correio eletrónico irá ver o { -brand-name-relay } como a fonte do spam e não o remetente original.
+faq-question-availability-question = Onde o { -brand-name-relay } está disponível?
 faq-question-browser-support-answer-2 = Sim, pode gerar máscaras { -brand-name-relay } noutros navegadores ou dispositivos móveis, simplesmente iniciando sessão no seu painel do { -brand-name-relay }.
