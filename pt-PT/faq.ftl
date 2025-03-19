@@ -64,3 +64,17 @@ faq-question-8-answer-3-html = O { -brand-name-firefox-relay } regista os sites 
 faq-question-email-storage-question = O { -brand-name-relay } armazena meus e-mails?
 faq-question-email-storage-answer = Na eventualidade de o serviço estar inativo, poderemos armazenar temporariamente os seus e-mails até que consigamos enviá-los. Nós nunca iremos armazenar os seus e-mails por mais de três dias.
 faq-question-acceptable-use-question = Quais são as utilizações aceitáveis do { -brand-name-relay }?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = O { -brand-name-firefox-relay } tem as mesmas <a href="{ $url }" { $attrs }>condições de utilização que todos os produtos da { -brand-name-mozilla }</a>. Nós temos uma política de tolerância zero quando se trata da utilização do { -brand-name-relay } para fins maliciosos tais como o spam, resultando no encerramento da conta de um utilizador. Nós adotamos medidas para impedir que os utilizadores violem as nossas condições ao:
+# Deprecated
+faq-question-acceptable-use-answer-measure-account = A necessitar de uma { -brand-name-firefox-account(capitalization: "uppercase") } com um endereço de e-mail verificado
+faq-question-acceptable-use-answer-measure-account-v2 = Ao requerer uma conta com um endereço de e-mail verificado
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Ao requerer pagamentos para um utilizador poder criar mais de cinco máscaras
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Limitação do número de máscaras que podem ser geradas num dia
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Consulte os nossos <a href="{ $url }" { $attrs }>Termos de serviço</a> para mais informações.
+faq-question-promotional-email-blocking-question = O que é o bloqueio de mensagens promocionais?
+faq-question-promotional-email-blocking-answer = Os subscritores do { -brand-name-relay-premium } podem ativar o bloqueio de mensagens promocionais. Esta funcionalidade irá reencaminhar os e-mails importantes, tais como recibos, redefinições de palavras-passe e confirmações, enquanto bloqueia as mensagens de marketing. Existe um pequeno risco de uma mensagem importante ser bloqueada, por isso recomendamos que não utilize esta funcionalidade para locais muito importantes como o seu banco. Se um e-mail for bloqueado, não poderá ser recuperado.
+faq-question-detect-promotional-question = Como é que o { -brand-name-relay } deteta se um e-mail é ou não promocional?
