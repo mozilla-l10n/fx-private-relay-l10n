@@ -49,3 +49,18 @@ faq-question-subdomain-characters-answer-v2 = Apenas pode utilizar letras ingles
 faq-question-browser-support-question = Posso utilizar o { -brand-name-relay } noutros navegadores ou no meu dispositivo móvel?
 faq-question-browser-support-answer-2 = Sim, pode gerar máscaras { -brand-name-relay } noutros navegadores ou dispositivos móveis, simplesmente iniciando sessão no seu painel do { -brand-name-relay }.
 faq-question-longevity-question = O que acontece se a Mozilla fechar o serviço { -brand-name-firefox-relay }?
+faq-question-longevity-answer-2 = Iremos notificá-lo antecipadamente sobre a necessidade de alterar o endereço de e-mail de quaisquer contas que estejam a utilizar as máscaras de e-mail do { -brand-name-relay }.
+faq-question-mozmail-question-2 = Porque é que as minhas máscaras de correio eletrónico começaram a utilizar o domínio “mozmail.com?”
+faq-question-mozmail-answer-2 = Realizámos a transição de “relay.firefox.com” para “mozmail.com” com o objetivo de possibilitar a obtenção de um subdomínio de e-mail personalizado, como por exemplo mask@yourdomain.mozmail.com. Os subdomínios de e-mail personalizados, disponíveis para os subscritores do { -brand-name-relay-premium }, facilitam a criação de máscaras de e-mail que são mais simples de recordar.
+faq-question-attachments-question = O { -brand-name-firefox-relay } encaminhará mensagens com anexos?
+faq-question-attachments-answer-v2 = Nós agora suportamos o encaminhamento de anexos. No entanto, existe um limite de { email-size-limit } para o encaminhamento de mensagens ao utilizar o { -brand-name-relay }. Quaisquer e-mails maiores que { email-size-limit } não serão encaminhados.
+faq-question-unsubscribe-domain-question-2 = O que acontece ao meu subdomínio personalizado se eu cancelar a subscrição do { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-answer-2 = Se mudar de versão do { -brand-name-relay-premium }, irá continuar a receber e-mails encaminhados através das suas máscaras de correio eletrónico personalizadas, mas deixará de poder criar novas máscaras utilizando esse subdomínio. Se tiver mais de cinco máscaras no total, não poderá criar mais nenhuma. Irá também perder a capacidade de responder às mensagens encaminhadas. Pode voltar a subscrever ao { -brand-name-relay-premium } e recuperar o acesso a estas funcionalidades.
+faq-question-8-question = Que tipo de dados o { -brand-name-firefox-relay } recolhe?
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-3-html = O { -brand-name-firefox-relay } regista os sites onde utilizou as suas máscaras de e-mail, associando-as a esses sites para facilitar a respetiva identificação. É possível desativar esta funcionalidade na sua página das Definições, na secção de Privacidade. Contudo, é importante salientar que, ao desativar esta opção, deixará de conseguir ver onde cada máscara foi utilizada, e os nomes das suas contas deixarão de ser sincronizados entre dispositivos. Para mais informações sobre os dados recolhidos pelo { -brand-name-firefox-relay }, consulte a nossa <a href="{ $url }" { $attrs }>Informação de Privacidade</a>.
+faq-question-email-storage-question = O { -brand-name-relay } armazena meus e-mails?
+faq-question-email-storage-answer = Na eventualidade de o serviço estar inativo, poderemos armazenar temporariamente os seus e-mails até que consigamos enviá-los. Nós nunca iremos armazenar os seus e-mails por mais de três dias.
+faq-question-acceptable-use-question = Quais são as utilizações aceitáveis do { -brand-name-relay }?
