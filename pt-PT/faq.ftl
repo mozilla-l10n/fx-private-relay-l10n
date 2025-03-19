@@ -41,4 +41,11 @@ faq-question-1-answer-a-2 = Enquanto o { -brand-name-relay } não filtra o spam,
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = Se se deparar com um problema mais geral de e-mail indesejado em todas as suas máscaras, por favor <a href="{ $url }" { $attrs }>reporte isto à nossa equipa</a> para que possamos considerar o ajuste dos limites de spam da SES para este serviço. Se reportar isto como spam, o seu fornecedor de correio eletrónico irá ver o { -brand-name-relay } como a fonte do spam e não o remetente original.
 faq-question-availability-question = Onde o { -brand-name-relay } está disponível?
+faq-question-availability-answer-v4 = O { -brand-name-relay } está disponível gratuitamente na maioria dos países. O { -brand-name-relay-premium } está disponível na Áustria, Bulgária, Bélgica, Canadá, Croácia, Chipre, República Checa, Dinamarca, Estónia, Finlândia, França, Alemanha, Grécia, Hungria, Irlanda, Itália, Letónia, Lituânia, Luxemburgo, Malásia, Malta, Holanda, Nova Zelândia, Polónia, Portugal, Roménia, Singapura, Eslováquia, Eslovénia, Espanha, Suécia, Suíça, Reino Unido e Estados Unidos.
+faq-question-4-question-2 = Posso responder a mensagens utilizando a minha máscara de e-mail do { -brand-name-relay }?
+faq-question-4-answer-v4 = Os utilizadores do { -brand-name-relay-premium } podem responder a um e-mail encaminhado no prazo de 3 meses após a receção do e-mail. Se adicionar um CC ou BCC ao responder a um e-mail, o seu endereço de e-mail original será exposto ao destinatário e os copiados no e-mail. Se não quiser que o seu endereço de e-mail original seja exposto, não adicione CC ou BCC ao responder.
+faq-question-subdomain-characters-question = Que caracteres posso utilizar para criar um subdomínio?
+faq-question-subdomain-characters-answer-v2 = Apenas pode utilizar letras inglesas minúsculas, números e hífenes para criar um subdomínio.
+faq-question-browser-support-question = Posso utilizar o { -brand-name-relay } noutros navegadores ou no meu dispositivo móvel?
 faq-question-browser-support-answer-2 = Sim, pode gerar máscaras { -brand-name-relay } noutros navegadores ou dispositivos móveis, simplesmente iniciando sessão no seu painel do { -brand-name-relay }.
+faq-question-longevity-question = O que acontece se a Mozilla fechar o serviço { -brand-name-firefox-relay }?
