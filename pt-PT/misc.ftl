@@ -118,22 +118,22 @@ offer-countdown-timer-alt =
             }
         [1]
             { $remaining_hours ->
-                [0] Resta 1 dia
                 [1] Resta 1 dia e 1 hora
+                [0] Resta 1 dia
                 [one] 1 dia e { $remaining_hours } horas remanescentes
                *[other] 1 dia e { $remaining_hours } horas remanescentes
             }
         [one]
             { $remaining_hours ->
-                [0] Resta { $remaining_days } dias
                 [1] Resta { $remaining_days } dias e 1 hora
+                [0] Resta { $remaining_days } dias
                 [one] Restam { $remaining_days } dias e { $remaining_hours } horas
                *[other] Restam { $remaining_days } dias e { $remaining_hours } horas
             }
        *[other]
             { $remaining_hours ->
-                [0] Resta { $remaining_days } dias
                 [1] Resta { $remaining_days } dias e 1 hora
+                [0] Resta { $remaining_days } dias
                 [one] Restam { $remaining_days } dias e { $remaining_hours } horas
                *[other] Restam { $remaining_days } dias e { $remaining_hours } horas
             }
@@ -256,7 +256,7 @@ first-time-user-email-how-item-3-header = Faça a gestão das suas máscaras a p
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Inicie sessão</a> para criar novas máscaras, etiquetar as suas máscaras e eliminar as máscaras que recebem spam.
 first-time-user-email-how-item-3-subhead-text = Inicie sessão para criar novas máscaras, etiquetar as suas máscaras e eliminar as máscaras que recebem spam.
 first-time-user-email-extra-protection-inbox-phone-title = Proteção adicional para a sua caixa de entrada e telefone
-first-time-user-email-extra-protection-inbox-phone-subhead = Atualize para o { -brand-name-relay-premium } para máscaras de e-mail ilimitadas — mais uma máscara de telefone para proteger o seu número real.
+first-time-user-email-extra-protection-inbox-phone-subhead = Atualize para o { -brand-name-relay-premium } para máscaras de e-mail ilimitadas — mais uma máscara telefónica para proteger o seu número real.
 first-time-user-email-extra-protection-cta = Obter o { -brand-name-relay-premium }
 first-time-user-email-questions-title = Questões sobre o { -brand-name-firefox-relay }?
 # Variables
@@ -284,4 +284,8 @@ api-error-free-tier-no-subdomain-masks = A sua conta gratuita não inclui subdom
 api-error-address-unavailable = “{ $unavailable_address }” não pôde ser criado. Por favor, tente novamente com um nome de máscara diferente.
 api-error-need-subdomain = Por favor, selecione um subdomínio antes de criar um endereço de e-mail personalizado.
 api-error-account-is-paused = A sua conta está em pausa.
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = “{ $duplicate_address }” já existe. Tente novamente com um nome de máscara diferente.
+api-error-address-not-editable = Não pode editar um campo de endereço de domínio existente.
 api-error-account-is-inactive = A sua conta não está ativa.

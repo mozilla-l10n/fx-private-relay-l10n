@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } facilita a criação de máscaras de correio eletrónico que encaminham as suas mensagens para a sua verdadeira caixa de entrada. Utilize-os para proteger as suas contas na Internet contra agentes maliciosos e mensagens indesejadas.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Abre num separador novo)
 
@@ -18,10 +17,9 @@ logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menu
 nav-home = Início
 nav-email-dashboard = Máscaras de e-mail
-nav-phone-dashboard = Máscaras de telefone
+nav-phone-dashboard = Máscaras telefónicas
 label-open-menu = Abrir menu
 avatar-tooltip = Perfil
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Perguntas frequentes
 nav-profile-sign-in = Iniciar sessão
@@ -42,7 +40,7 @@ nav-profile-image-alt = Avatar de { -brand-name-firefox-account(capitalization: 
 nav-profile-image-alt-v2 = avatar da conta
 nav-duo-description = Mudar painéis
 nav-duo-email-mask-alt = Máscaras de e-mail
-nav-duo-phone-mask-alt = Máscaras de telefone
+nav-duo-phone-mask-alt = Máscaras telefónicas
 
 ## Mobile menu text
 
@@ -54,7 +52,6 @@ nav-support = Ajuda e apoio
 nav-sign-out = Terminar sessão
 nav-contact = Contactar-nos
 nav-menu-mobile = Menu para dispositivos móveis
-
 fx-desktop-2 = { -brand-name-firefox } para PC
 fx-mobile-2 = { -brand-name-firefox } para dispositivos móveis
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser } para dispositivos móveis
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

@@ -39,7 +39,7 @@ how-it-works-section-title = Como funciona a máscara de e-mail e telefone do { 
 
 # Item 1
 
-how-it-works-section-extension-headline = Utilize as máscaras de e-mail e máscaras de telefone do { -brand-name-relay } em todo o lado
+how-it-works-section-extension-headline = Utilize as máscaras de e-mail e máscaras telefónicas do { -brand-name-relay } em todo o lado
 how-it-works-section-extension-body = Obtenha máscaras de e-mail seguras e aleatórias e um número de telefone mascarado único para utilizar sempre que um site, aplicação, loja ou endereço solicitar a sua informação.
 
 # Item 2
@@ -140,10 +140,10 @@ premium-promo-availability-warning-4 = O { -brand-name-relay-premium } está dis
 ## The Premium waitlist page
 
 waitlist-heading-2 = Junte-se à lista de espera do { -brand-name-relay-premium }
-waitlist-heading-phone = Junte-se à lista de espera da máscaras de telefone do { -brand-name-relay }
+waitlist-heading-phone = Junte-se à lista de espera de máscaras de telefónicas do { -brand-name-relay }
 waitlist-heading-bundle = Junte-se à lista de espera para o pacote { -brand-name-relay } + { -brand-name-vpn }
 waitlist-lead-2 = Iremos informar quando o { -brand-name-relay-premium } estiver disponível na sua região.
-waitlist-lead-phone = Iremos informar quando as máscaras de telefone estiverem disponíveis na sua região.
+waitlist-lead-phone = Iremos informar quando as máscaras telefónicas estiverem disponíveis na sua região.
 waitlist-lead-bundle = Iremos informar quando puder obter o { -brand-name-relay-premium } e a { -brand-name-mozilla-vpn } com um desconto na sua área.
 waitlist-control-required = Necessário
 waitlist-control-email-label = Qual é o seu endereço de correio eletrónico?
@@ -155,3 +155,7 @@ waitlist-submit-label-2 = Junte-se à lista de espera
 waitlist-privacy-policy-agree-2 = Ao clicar em “{ waitlist-submit-label-2 }”, concorda com a nossa <a>Política de privacidade</a>.
 waitlist-privacy-policy-use = A sua informação só será utilizada para lhe enviarmos uma notificação sobre a disponibilidade do { -brand-name-firefox-relay-premium }.
 waitlist-privacy-policy-use-phone = A sua informação só será utilizada para lhe enviarmos uma notificação quando as máscaras telefónicas estiverem disponíveis na sua região.
+waitlist-privacy-policy-use-bundle = A sua informação só será utilizada para notificarmos sobre a disponibilidade do pacote { -brand-name-relay } + { -brand-name-vpn }.
+waitlist-subscribe-success = Está na lista! Assim que o { -brand-name-firefox-relay-premium } ficar disponível para a sua região, iremos enviar-lhe um e-mail.
+waitlist-subscribe-error-connection = Ocorreu um erro ao adicioná-lo à lista de espera. Verifique a sua ligação e tente novamente.
+waitlist-subscribe-error-unknown = Ocorreu um erro ao adicioná-lo à lista de espera. Tente novamente.
