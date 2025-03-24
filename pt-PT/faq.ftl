@@ -78,3 +78,8 @@ faq-question-acceptable-use-answer-b-html = Consulte os nossos <a href="{ $url }
 faq-question-promotional-email-blocking-question = O que é o bloqueio de mensagens promocionais?
 faq-question-promotional-email-blocking-answer = Os subscritores do { -brand-name-relay-premium } podem ativar o bloqueio de mensagens promocionais. Esta funcionalidade irá reencaminhar os e-mails importantes, tais como recibos, redefinições de palavras-passe e confirmações, enquanto bloqueia as mensagens de marketing. Existe um pequeno risco de uma mensagem importante ser bloqueada, por isso recomendamos que não utilize esta funcionalidade para locais muito importantes como o seu banco. Se um e-mail for bloqueado, não poderá ser recuperado.
 faq-question-detect-promotional-question = Como é que o { -brand-name-relay } deteta se um e-mail é ou não promocional?
+faq-question-detect-promotional-answer = Muitos e-mails são enviados com metadados no “cabeçalho” para indicar que são de ferramentas automáticas baseadas em listas. O { -brand-name-firefox-relay } deteta estes dados de cabeçalho para que possa bloquear estas mensagens.
+faq-question-disable-trackerremoval-question = Posso parar de remover rastreadores de e-mail?
+faq-question-disable-trackerremoval-answer = Sim. Se está a enfrentar dificuldades com e-mails que aparecem danificados ou pretende deixar de eliminar rastreadores, é possível desativar esta funcionalidade nas definições.
+faq-question-bulk-trackerremoval-question = Posso remover rastreadores apenas de algumas das minhas máscaras de e-mail?
+faq-question-bulk-trackerremoval-answer = Apenas é possível ativar a eliminação de rastreadores a nível de conta — ou seja, ou remove os rastreadores de todos os seus e-mails, ou de nenhum.
