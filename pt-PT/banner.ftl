@@ -6,9 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Dispensar
-
 banner-bounced-headline = O { -brand-name-relay } não conseguiu entregar o seu e-mail.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -24,19 +22,15 @@ banner-download-install-chrome-extension-headline = Experimente o { -brand-name-
 banner-download-install-chrome-extension-copy-2 = A extensão { -brand-name-firefox-relay } para o { -brand-name-chrome } torna a criação e utilização de máscaras ainda mais fácil.
 banner-download-install-chrome-extension-cta = Obtenha a extensão { -brand-name-relay }
 banner-upgrade-cta = Atualizar para o { -brand-name-relay-premium }
-
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
-
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 = Com um subdomínio personalizado, pode partilhar máscaras que não necessitam de ser geradas antes de as utilizar. Precisa de um para uma reserva? Dê “restaurante@oseudomínio.{ $mozmail }” ao restaurante. Qualquer máscara que utilize o seu subdomínio personalizado será reencaminhada para si.
 banner-pack-upgrade-cta = Atualizar agora
-
-
+# Data Notification Banner:
 banner-label-data-notification-body-cta = Saber mais
 
 # Relay Premium Promo A/B Test
+
 
 ## Set domain banner
 
@@ -57,7 +51,6 @@ banner-set-email-domain-input-search = Pesquisar
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = oseudomínio
 banner-set-email-domain-learn-more = Saber mais
-
 modal-email-domain-good-news = Boas notícias!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -77,7 +70,6 @@ modal-email-domain-success-headline-any-word = Crie máscaras ilimitadas ao adic
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Compras? Utilize loja{ $custom_domain_full }.
-
 tooltip-email-domain-explanation-title = Sobre o seu domínio de e-mail { -brand-name-relay } único
 tooltip-email-domain-explanation-part-one = Esta valiosa funcionalidade da sua conta { -brand-name-relay-premium } permite-lhe escolher um domínio de e-mail { -brand-name-relay } único que pode utilizar para criar máscaras { -brand-name-relay } ilimitadas e personalizadas em qualquer sítio.
 tooltip-email-domain-explanation-part-two = Não é necessário iniciar sessão no { -brand-name-relay } para gerar uma nova máscara; Simplesmente adicione qualquer palavra ou frase antes do símbolo @ do seu domínio de e-mail { -brand-name-relay } para criar instantaneamente uma nova máscara em qualquer sítio que esteja.
@@ -98,11 +90,11 @@ holiday-promo-banner-code-usage = Utilize o código <coupon>{ $couponCode }</cou
 holiday-promo-banner-cta-button = Obtenha 1 ano de { -brand-name-premium }
 holiday-promo-banner-promo-expiry = a oferta termina a 31 de dezembro de 2023
 
-## 4-mask upsell banner 
+## 4-mask upsell banner
 
 upsell-banner-4-masks-button-close-label = Fechar
 upsell-banner-4-masks-us-heading = Obtenha a proteção máxima do e-mail e telefone
 upsell-banner-4-masks-non-us-heading = Obtenha a proteção máxima do e-mail
-upsell-banner-4-masks-us-description = O { -brand-name-relay-premium } oferece uma máscara de telefone para proteger o seu número real, além de máscaras de e-mail ilimitadas e a capacidade de bloquear mensagens promocionais.
+upsell-banner-4-masks-us-description = O { -brand-name-relay-premium } oferece uma máscara telefónica para proteger o seu número real, além de máscaras de e-mail ilimitadas e a capacidade de bloquear mensagens promocionais.
 upsell-banner-4-masks-non-us-description = O { -brand-name-relay-premium } oferece-lhe máscaras de e-mail ilimitadas, bloqueio de spam, um domínio de e-mail { -brand-name-relay } personalizado e a capacidade de responder a mensagens encaminhadas.
 upsell-banner-4-masks-us-cta = Atualizar para o { -brand-name-relay-premium }
