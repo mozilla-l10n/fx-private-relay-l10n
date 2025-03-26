@@ -116,6 +116,7 @@ plan-matrix-price-vpn-discount-promo = <span>Ušetrite { $savings }</span> z be�
 plan-matrix-sign-up = Zaregistrovať sa
 plan-matrix-get-relay-cta = Získať { -brand-name-relay }
 plan-matrix-join-waitlist = Pridať sa na zoznam čakateľov
+plan-matrix-your-plan = Váš plán
 
 # Item 1
 
