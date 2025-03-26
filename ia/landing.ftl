@@ -119,6 +119,7 @@ plan-matrix-price-vpn-discount-promo = <span>Sparnia { $savings }</span> sur le 
 plan-matrix-sign-up = Inscriber se
 plan-matrix-get-relay-cta = Obtener { -brand-name-relay }
 plan-matrix-join-waitlist = Inscriber te al lista de attender
+plan-matrix-your-plan = Tu plano
 
 # Item 1
 
