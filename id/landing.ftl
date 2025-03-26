@@ -119,6 +119,7 @@ plan-matrix-price-vpn-discount-promo = <span>Hemat { $savings }</span> dari harg
 plan-matrix-sign-up = Daftar
 plan-matrix-get-relay-cta = Dapatkan { -brand-name-relay }
 plan-matrix-join-waitlist = Gabung ke Daftar Tunggu
+plan-matrix-your-plan = Paket Anda
 
 # Item 1
 

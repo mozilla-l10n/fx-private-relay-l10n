@@ -119,6 +119,7 @@ plan-matrix-price-vpn-discount-promo = <span>{ $savings } megtakarítás</span> 
 plan-matrix-sign-up = Regisztráció
 plan-matrix-get-relay-cta = { -brand-name-relay } beszerzése
 plan-matrix-join-waitlist = Csatlakozás a várólistához
+plan-matrix-your-plan = Az Ön terve
 
 # Item 1
 

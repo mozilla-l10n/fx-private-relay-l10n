@@ -116,6 +116,7 @@ plan-matrix-price-vpn-discount-promo = 相比原价购入 { -brand-name-vpn } <s
 plan-matrix-sign-up = 注册
 plan-matrix-get-relay-cta = 获取 { -brand-name-relay }
 plan-matrix-join-waitlist = 加入预约名单
+plan-matrix-your-plan = 您的方案
 
 # Item 1
 

@@ -50,9 +50,14 @@ how-it-works-section-forward-body = Não se preocupe, os remetentes nunca saber�
 # Item 3
 
 how-it-works-section-manage-headline = Faça a gestão das suas máscaras a partir do seu painel { -brand-name-relay }
+how-it-works-section-manage-body = Inicie sessão no seu painel do { -brand-name-relay } para criar novas máscaras, etiquetar máscaras existentes e bloquear chamadas, mensagens de texto ou e-mails de máscaras que recebem demasiado spam.
 
 ## PRICING MATRIX SECTION
 
+plan-matrix-offer-title = Escolha o nível de proteção certo para si
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
+plan-matrix-offer-body = O { -brand-name-firefox-relay } protege a sua identidade e a sua caixa de entrada com máscaras de e-mail únicas. Adicione ainda mais segurança com a máscara { -brand-name-relay } e poupe { $payments } ao adicionar a proteção { -brand-name-vpn }.
 
 # Top Row Labels
 
@@ -60,9 +65,19 @@ plan-matrix-heading-features = Funcionalidades
 plan-matrix-heading-plan-free = Proteção de e-mail limitada
 plan-matrix-heading-plan-premium = Proteção de e-mail
 plan-matrix-heading-plan-phones = Proteção de e-mail e de telefone
+plan-matrix-heading-plan-bundle-2 = Adicionar a proteção da { -brand-name-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Máscaras de e-mail para proteger o seu endereço de e-mail real
+plan-matrix-feature-browser-extension = Extensão do navegador para utilizar o { -brand-name-relay } em qualquer site
+plan-matrix-feature-email-tracker-removal = Remover rastreadores de e-mail
+plan-matrix-feature-promo-email-blocking = Bloquear mensagens promocionais
+plan-matrix-feature-email-subdomain = Domínio de e-mail { -brand-name-relay } para criar máscaras em qualquer lugar
+plan-matrix-feature-email-reply = Responder a e-mails anonimamente
+plan-matrix-feature-phone-mask = Máscara de telefone para proteger o seu número de telefone real
+plan-matrix-feature-vpn = Proteção { -brand-name-vpn } da <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Máscaras de e-mail ilimitadas
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
@@ -70,6 +85,10 @@ plan-matrix-feature-mobile-email-masks = Máscaras de e-mail
 plan-matrix-feature-mobile-browser-extension = Extensão de navegador
 plan-matrix-feature-mobile-email-tracker-removal = Remover rastreadores de e-mail
 plan-matrix-feature-mobile-promo-email-blocking = Bloquear mensagens promocionais
+plan-matrix-feature-mobile-email-subdomain = Domínio de e-mail { -brand-name-relay } único
+plan-matrix-feature-mobile-email-reply = Responder a e-mails anonimamente
+plan-matrix-feature-mobile-phone-mask = Proteja o seu número de telefone real
+plan-matrix-feature-mobile-vpn = Acesso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -81,29 +100,52 @@ plan-matrix-price-free = Gratuito
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = { $monthly_price }/mês.
 plan-matrix-price-period-yearly = Anualmente
 plan-matrix-price-period-monthly = Mensal
+plan-matrix-price-period-yearly-footnote-1 = Cobrado anualmente
+plan-matrix-price-period-monthly-footnote-1 = Cobrado mensalmente
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
+plan-matrix-price-vpn-discount-promo = <span>Poupe { $writings }</span> com o preço normal da { -brand-name-vpn }
 
 # Plan CTAs
 
 plan-matrix-sign-up = Registo
 plan-matrix-get-relay-cta = Obter o { -brand-name-relay }
 plan-matrix-join-waitlist = Junte-se à lista de espera
+plan-matrix-your-plan = O seu plano
 
 # Item 1
 
+highlighted-features-section-unlimited-masks-headline = Crie máscaras de e-mail ilimitadas
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body = Todos recebem { $mask_limit } máscaras de e-mail gratuitamente.  Mas com o { -brand-name-relay-premium }, pode gerar quantas máscaras precisar para ajudar a proteger a sua caixa de entrada de e-mail contra spam, piratas e rastreadores na Internet.
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = Crie máscaras instantaneamente em qualquer lugar
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body = O { -brand-name-relay-premium } oferece um domínio de e-mail { -brand-name-relay } único para que possa criar instantaneamente novas máscaras em qualquer lugar que esteja. Basta adicionar qualquer palavra ou frase antes do símbolo @. Numa sala de estar? Utilizar website@yourdomain.{ $mozmail }.  Compras? Experimente a loja@oseudomínio.{ $mozmail }.
 
 # Item 3
 
+highlighted-features-section-replying-headline = Responder a emails e mensagens anonimamente
+highlighted-features-section-replying-body = O { -brand-name-relay-premium } permite que responda às mensagens da sua conta de e-mail mascarada, para que os remetentes nunca saibam o seu endereço de e-mail real. Com a máscara de telefone, pode responder a mensagens de texto do seu número de telefone mascarado para proteger o seu número real.
 
 # Item 4
 
+highlighted-features-section-block-promotions-headline = Bloquear mensagens promocionais
+highlighted-features-section-block-promotions-body = Com o { -brand-name-relay-premium }, pode bloquear as mensagens promocionais de chegarem à sua caixa de entrada, enquanto ainda recebe e-mails tais como recibos ou informações de envio.
 
 # Item 5
 
+highlighted-features-section-remove-trackers-headline = Remover rastreadores de e-mail
+highlighted-features-section-remove-trackers-body = O { -brand-name-relay } pode remover rastreadores de e-mail comuns de quaisquer e-mails encaminhados para si, ajudando-o a manter-se invisível para rastreadores e anunciantes.
 
 ## REVIEWS SECTION
 
@@ -117,6 +159,13 @@ landing-reviews-rating = de 5 ({ $review_count } comentários)
 landing-reviews-show-next-button = mostrar comentário seguinte
 landing-reviews-show-previous-button = mostrar comentário anterior
 landing-review-anonymous-user = utilizador { -brand-name-firefox } { $user_id }
+landing-review-user-one-review = Eu realmente aprecio a equipa da { -brand-name-mozilla } por ser tão criativa e simplificar a anonimização do meu endereço de email. Esta é uma ótima extensão, eu a recomendável fortemente para os interessados em privacidade!
+landing-review-user-two-review = Ferramenta simples para se livrar ou evitar o spam do seu ID de email.
+landing-review-user-three-review = Adoro esta extensão! Muito simples mas poderoso, e a integração com o navegador é maravilhosa.
+landing-review-user-four-review-list-1 = Dá tranquilidade ao navegar na Internet.
+landing-review-user-four-review-list-2 = Protege a identidade dos rastreadores através da geração de pseudónimos, nos quais o utilizador não deseja partilhar o endereço de e-mail real por várias razões.
+landing-review-user-four-review-list-3 = Os dados da caixa de entrada de email estão seguros nas mãos do { -brand-name-firefox-relay }.
+landing-review-user-four-review-list-4 = O { -brand-name-firefox-relay } faz maravilhas, experimente!
 
 ## HIGHLIGHTED FEATURES SECTION
 
