@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Suojaa henkilöyttäsi asettamalla puhelinnumerollesi ja sähköpostiosoitteellesi maski
 hero-section-body =
@@ -36,7 +36,7 @@ bundle-feature-one = Yli { $num_vpn_servers } palvelinta
 bundle-feature-two = Yli { $num_vpn_countries } maata
 bundle-feature-three = Nopea ja turvallinen verkko
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Miten { -brand-name-relay }n sähköposti- ja puhelinmaskit toimivat
 
@@ -64,8 +64,6 @@ plan-matrix-offer-body = { -brand-name-firefox-relay } suojaa henkilöyttäsi ja
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Ominaisuudet
 plan-matrix-heading-plan-free = Rajoitettu sähköpostisuojaus
 plan-matrix-heading-plan-premium = Sähköpostin suojaus
@@ -112,6 +110,8 @@ plan-matrix-price-period-yearly = Vuosittain
 plan-matrix-price-period-monthly = Kuukausittain
 plan-matrix-price-period-yearly-footnote-1 = Laskutetaan vuosittain
 plan-matrix-price-period-monthly-footnote-1 = Laskutetaan kuukausittain
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Säästä { $savings }</span> { -brand-name-vpn }:n normaalista hinnasta
 
 # Plan CTAs
@@ -123,7 +123,9 @@ plan-matrix-join-waitlist = Liity odotuslistalle
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Luo rajattomasti sähköpostimaskeja
-highlighted-features-section-unlimited-masks-body = 
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
     Kaikki saavat { $mask_limit } sähköpostimaskia ilmaiseksi.
     { -brand-name-relay-premium }illa voit luoda niin monta maskia kuin tarvitset sähköpostisi suojaamiseksi
     roskapostittajilta, hakkereilta ja seuraimilta.
@@ -131,7 +133,9 @@ highlighted-features-section-unlimited-masks-body =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Luo maskeja heti tarpeen vaatiessa
-highlighted-features-section-masks-on-the-go-body = 
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
     { -brand-name-relay-premium } antaa sinulle ainutlaatuisen { -brand-name-relay }-sähköpostiverkkotunnuksen, joten voit heti
     luoda uusia maskeja missä tahansa. Lisää mikä tahansa sana tai lause ennen @-symbolia. Ravintolassa? Käytä ravintola@omaverkkotunnus.{ $mozmail }.
     Ostoksilla? Kokeile kauppa@omaverkkotunnus.{ $mozmail }.
@@ -139,7 +143,7 @@ highlighted-features-section-masks-on-the-go-body =
 # Item 3
 
 highlighted-features-section-replying-headline = Vastaa sähköposteihin ja tekstiviesteihin anonyymisti
-highlighted-features-section-replying-body = 
+highlighted-features-section-replying-body =
     { -brand-name-relay-premium } antaa sinun vastata sähköposteihin
     peitetyllä sähköpostitilillä, joten lähettäjät eivät koskaan tiedä oikeaa sähköpostiosoitettasi. Puhelimen maskauksella voit vastata
     tekstiviesteihin peitetystä puhelinnumerosta todellisen numerosi suojaamiseksi.
@@ -147,14 +151,14 @@ highlighted-features-section-replying-body =
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Estä mainossähköpostit
-highlighted-features-section-block-promotions-body = 
+highlighted-features-section-block-promotions-body =
     { -brand-name-relay-premium }illa voit estää mainossähköpostien pääsyn postilaatikkoosi,
     mutta silti vastaanottaa sähköpostiviestejä, kuten kuitteja tai toimitustietoja.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Poista sähköpostin seuraimet
-highlighted-features-section-remove-trackers-body = 
+highlighted-features-section-remove-trackers-body =
     { -brand-name-relay } voi poistaa yleiset sähköpostiseuraimet kaikista sinulle lähetetyistä sähköposteista, mikä auttaa
     sinua pysymään näkymättömänä seurantaa ja mainontaa harjoittaville tahoille.
 
@@ -193,8 +197,6 @@ landing-faq-cta = Katso lisää usein kysyttyjä kysymyksiä { -brand-name-firef
 ## Premium promo page
 
 premium-promo-hero-headline = Tee postilaatikon suojaamisesta aiempaa helpompaa { -brand-name-firefox-relay-premium }illa
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = { -brand-name-firefox-relay-premium } tarjoaa rajoittamattoman määrän mukautettuja sähköpostimaskeja, jotka välittävät vain haluamasi sähköpostiviestit oikeaan sähköpostiosoitteeseesi.
 premium-promo-hero-cta = Päivitä nyt
 
@@ -220,4 +222,3 @@ waitlist-privacy-policy-use-bundle = Tietojasi käytetään vain { -brand-name-r
 waitlist-subscribe-success = Olet listalla! Kun { -brand-name-firefox-relay-premium } tulee saataville alueellasi, lähetämme sinulle sähköpostia.
 waitlist-subscribe-error-connection = Jonotuslistalle lisättäessä tapahtui virhe. Tarkista verkkoyhteytesi ja yritä sitten uudelleen.
 waitlist-subscribe-error-unknown = Jonotuslistalle lisättäessä tapahtui virhe. Yritä uudelleen.
-

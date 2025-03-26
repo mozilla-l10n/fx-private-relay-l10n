@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Güvenli telefon ve e-posta maskeleme ile kimliğinizi koruyun
 hero-section-body = Güvenli, kullanımı kolay e-posta ve telefon maskelerimiz kimliğinizi gizli tutmanıza yardımcı olur. Böylece yeni hesaplara anonim olarak kaydolabilir, spam iletileri ve gereksiz aramaları durdurabilir ve gelen kutunuza yalnızca istediğiniz e-postaların gelmesini sağlayabilirsiniz.
@@ -27,7 +27,7 @@ bundle-feature-one = { $num_vpn_servers }+ sunucu
 bundle-feature-two = { $num_vpn_countries }+ ülke
 bundle-feature-three = Hızlı ve güvenli ağ
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = { -brand-name-relay } e-posta ve telefon maskeleme nasıl çalışır?
 

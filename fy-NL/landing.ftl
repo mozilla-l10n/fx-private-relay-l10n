@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Beskermje jo identiteit mei feilige telefoan- en e-mailmaskearing
 hero-section-body =
@@ -36,7 +36,7 @@ bundle-feature-one = Mear as { $num_vpn_servers } servers
 bundle-feature-two = Mear as { $num_vpn_countries } lannen
 bundle-feature-three = Fluch en feilich netwurk
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Hoe e-mail- en telefoanmaskearing troch { -brand-name-relay } wurket
 
@@ -223,4 +223,3 @@ waitlist-privacy-policy-use-bundle = Jo gegevens wurde allinnich brûkt om jo te
 waitlist-subscribe-success = Jo steane op de list! Sa gau as { -brand-name-firefox-relay-premium } beskikber komt foar jo regio, stjoere wy jo in e-mailberjocht.
 waitlist-subscribe-error-connection = Der is in flater bard by it pleatsen op de wachtlist. Kontrolearje jo ferbining en probearje it opnij.
 waitlist-subscribe-error-unknown = Der is in flater bard by it pleatsen op de wachtlist. Probearje it nochris.
-

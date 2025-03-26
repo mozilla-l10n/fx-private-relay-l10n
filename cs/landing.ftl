@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Chránit svou identitu pomocí bezpečného maskování telefonu a e-mailu
 hero-section-body = Naše bezpečné a snadno použitelné e-mailové a telefonní masky pomáhají uchovat vaši identitu v bezpečí, takže si můžete anonymně zaregistrovat nové účty, zastavit SMS zprávy či nevyžádané hovory a do své doručené pošty dostávat pouze e-maily, které chcete.
@@ -33,7 +33,7 @@ bundle-feature-one = Více než { $num_vpn_servers } serverů
 bundle-feature-two = Více než { $num_vpn_countries } zemí
 bundle-feature-three = Rychlá a bezpečná síť
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Jak funguje maskování e-mailů a telefonů službou { -brand-name-relay }
 
@@ -61,8 +61,6 @@ plan-matrix-offer-body = Služba { -brand-name-firefox-relay } chrání vaši id
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Vlastnosti
 plan-matrix-heading-plan-free = Omezená ochrana e-mailu
 plan-matrix-heading-plan-premium = Ochrana e-mailu
@@ -109,6 +107,8 @@ plan-matrix-price-period-yearly = Ročně
 plan-matrix-price-period-monthly = Měsíčně
 plan-matrix-price-period-yearly-footnote-1 = Účtováno ročně
 plan-matrix-price-period-monthly-footnote-1 = Účtováno měsíčně
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Ušetřete { $savings }</span> z bežné ceny sítě { -brand-name-vpn }
 
 # Plan CTAs
@@ -120,19 +120,23 @@ plan-matrix-join-waitlist = Přidat se na čekací listinu
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Vytvářejte neomezený počet e-mailových masek
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
 highlighted-features-section-unlimited-masks-body = Každý dostane několik e-mailových masek zdarma (celkem { $mask_limit }). Ale pomocí { -brand-name-relay-premium } můžete vygenerovat tolik masek, kolik potřebujete, abyste ochránili svoji e-mailovou schránku před odesílateli nevyžádané pošty, hackery a sledováním pomocí sledovacích prvků.
 
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Okamžitě vytváření masek ať jste kdekoliv
-highlighted-features-section-masks-on-the-go-body = 
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
     Služba { -brand-name-relay-premium } vám poskytne jedinečnou e-mailovou doménu { -brand-name-relay }, takže můžete okamžitě vytvářet nové masky, ať jste kdekoli. Stačí přidat libovolné slovo nebo frázi před symbol @. Jste v restauraci? Použijte restaurace@vasedomena.{ $mozmail }.
     Nakupujete? Zkuste nakup@vasedomena.{ $mozmail }.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Odpovídejte na e-maily a textové zprávy anonymně
-highlighted-features-section-replying-body = 
+highlighted-features-section-replying-body =
     Služba { -brand-name-relay-premium } umožňuje odpovídat na e-maily od vašeho
     maskovaného e-mailového účtu, takže odesílatelé nikdy nepoznají vaši skutečnou e-mailovou adresu. Díky maskování telefonu můžete odpovídat na zprávy z maskovaného telefonního čísla, abyste ochránili své skutečné číslo.
 
@@ -186,8 +190,6 @@ landing-faq-cta = Zobrazit další časté dotazy k { -brand-name-firefox-relay(
 ## Premium promo page
 
 premium-promo-hero-headline = Usnadněte si ochranu své doručené pošty pomocí { -brand-name-firefox-relay-premium(case: "gen") }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Se službou { -brand-name-firefox-relay-premium } získáte neomezený počet vlastních e-mailových masek, které na vaši skutečnou e-mailovou adresu přeposílají pouze ty e-maily, které chcete.
 premium-promo-hero-cta = Upgradujte hned teď
 premium-promo-availability-warning-4 = Služba { -brand-name-relay-premium } je k dispozici v Rakousku, Bulharsku, Belgii, Kanadě, Chorvatsku, Kypru, České republice, Dánsku, Estonsku, Finsku, Francii, Německu, Řecku, Maďarsku, Irsku, Itálii, Lotyšsku, Litvě, Lucembursko, Malajsie, Malta, Nizozemsko, Nový Zéland, Polsko, Portugalsko, Rumunsko, Singapur, Slovensko, Slovinsko, Španělsko, Švédsko, Švýcarsko, Spojené království a Spojené státy americké.
@@ -220,4 +222,3 @@ waitlist-subscribe-success =
     }
 waitlist-subscribe-error-connection = Při pokusu o vaše přidání na čekací listinu došlo k chybě. Zkontrolujte prosím své připojení a zkuste to znovu.
 waitlist-subscribe-error-unknown = Při pokusu o vaše přidání na čekací listinu došlo k chybě. Zkuste to prosím znovu.
-

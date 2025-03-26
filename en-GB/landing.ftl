@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Protect your identity with secure phone and email masking
 hero-section-body =
@@ -36,7 +36,7 @@ bundle-feature-one = More than { $num_vpn_servers } servers
 bundle-feature-two = More than { $num_vpn_countries } countries
 bundle-feature-three = Fast and secure network
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = How { -brand-name-relay } email & phone masking works
 
@@ -223,4 +223,3 @@ waitlist-privacy-policy-use-bundle = Your information will only be used to notif
 waitlist-subscribe-success = You’re on the list! Once { -brand-name-firefox-relay-premium } becomes available for your region, we’ll email you.
 waitlist-subscribe-error-connection = There was an error adding you to the waiting list. Please check your connection, then try again.
 waitlist-subscribe-error-unknown = There was an error adding you to the waiting list. Please try again.
-

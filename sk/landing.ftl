@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Chráňte svoju identitu pomocou bezpečného maskovania telefónu a e‑mailu
 hero-section-body = Naše bezpečné a ľahko použiteľné e‑mailové a telefónne masky pomáhajú zachovať vašu identitu v bezpečí, takže si môžete anonymne zaregistrovať nové účty, zastaviť spamové SMSky a nevyžiadané hovory a do svojej doručenej pošty dostávať iba e‑maily, ktoré chcete.
@@ -33,7 +33,7 @@ bundle-feature-one = Viac ako { $num_vpn_servers } serverov
 bundle-feature-two = Viac ako { $num_vpn_countries } krajín
 bundle-feature-three = Rýchla a bezpečná sieť
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Ako funguje maskovanie e‑mailu a telefónu službou { -brand-name-relay }
 

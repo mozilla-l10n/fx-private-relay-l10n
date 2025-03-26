@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Protege tu identitate con securitate disguisante telephono e email
 hero-section-body =
@@ -36,7 +36,7 @@ bundle-feature-one = Plus que { $num_vpn_servers } servitores
 bundle-feature-two = Plus que { $num_vpn_countries } paises
 bundle-feature-three = Rete veloce e secur
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Como functiona le mascas email e pro telephono de { -brand-name-relay }
 
@@ -64,8 +64,6 @@ plan-matrix-offer-body = { -brand-name-firefox-relay } protege tu identitate e t
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Functiones
 plan-matrix-heading-plan-free = Protection de email limitate
 plan-matrix-heading-plan-premium = Protection email
@@ -112,6 +110,8 @@ plan-matrix-price-period-yearly = Annual
 plan-matrix-price-period-monthly = Mensual
 plan-matrix-price-period-yearly-footnote-1 = Facturate annualmente
 plan-matrix-price-period-monthly-footnote-1 = Facturate mensualmente
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Sparnia { $savings }</span> sur le precio regular de { -brand-name-vpn }
 
 # Plan CTAs
@@ -123,7 +123,9 @@ plan-matrix-join-waitlist = Inscriber te al lista de attender
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Crea illimitate mascas email
-highlighted-features-section-unlimited-masks-body = 
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
     Quicunque recipe { $mask_limit } mascas email gratuitemente. 
     Ma con { -brand-name-relay-premium }, tu pote generar quante mascas como te besonia pro adjutar te a proteger tu cassa de ingresso email 
     de spammatores, piratas informatic, e traciatores online.
@@ -131,7 +133,9 @@ highlighted-features-section-unlimited-masks-body =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Crea instantaneemente mascas al volo
-highlighted-features-section-masks-on-the-go-body = 
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
     { -brand-name-relay-premium } te da un domino email { -brand-name-relay } unic assi que tu pote instantaneemente 
     crear nove mascas ubique tu es. Simplemente adde ulle parola o expression ante le symbolo @. A un restaurante? Usa restaurante@yourdomain.{ $mozmail }.{ $mozmail }. 
     Compras? Prova boteca@yourdomain.{ $mozmail }.{ $mozmail }.
@@ -139,7 +143,7 @@ highlighted-features-section-masks-on-the-go-body =
 # Item 3
 
 highlighted-features-section-replying-headline = Responde anonymemente a emails e SMS
-highlighted-features-section-replying-body = 
+highlighted-features-section-replying-body =
     { -brand-name-relay-premium } te permitte de responder a emails per tu
     conto email mascate, assi expeditores jammais sapera tu real adresse email. Con le mascas pro telephono, tu pote replicar 
     al SMS ab tu numero de telephono disguisate pro proteger tu real numero.
@@ -147,14 +151,14 @@ highlighted-features-section-replying-body =
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blocar e-mails promotional
-highlighted-features-section-block-promotions-body = 
+highlighted-features-section-block-promotions-body =
     Con { -brand-name-relay-premium }, tu pote impedir al emails promotional de attinger tu 
     cassa de ingresso dum ancora tu recipe emails como quitantias o informationes de expedition.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Remover traciatores de emails
-highlighted-features-section-remove-trackers-body = 
+highlighted-features-section-remove-trackers-body =
     { -brand-name-relay } pote remover le commun traciatores de email de ulle emails inultrate pro te, adjutante 
     te a remaner invisibile a traciatores e publicitarios.
 
@@ -193,8 +197,6 @@ landing-faq-cta = Altere folios a questiones  re { -brand-name-firefox-relay }
 ## Premium promo page
 
 premium-promo-hero-headline = Rende plus facile proteger tu cassa de ingresso con { -brand-name-firefox-relay-premium }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Con { -brand-name-firefox-relay-premium }, tu obtene illimitate aliases e-mail personal que inultra solo le e-mails que tu vole a tu real adresse e-mail.
 premium-promo-hero-cta = Promover ora
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } es disponibile in Austria, Belgio, Bulgaria, Canada, Croatia, Cypro, Danmark, Espania, Estonia, Finlandia, Francia, Germania, Grecia, Hollanda, Hungaria, Irlanda, Italia, Latvia, Lituania, Luxemburg, Malaysia, Malta, Nove Zelanda, Polonia, Portugal, Regno Unite, Republica chec, Romania, Singapore, Slovachia, Slovenia, Statos Unite, Suissa, e Svedia.
@@ -221,4 +223,3 @@ waitlist-privacy-policy-use-bundle = Tu informationes sera solo usate pro allert
 waitlist-subscribe-success = Tu es in le lista! Un vice que { -brand-name-firefox-relay-premium } devenira disponibile pro tu region, nos te inviara un email.
 waitlist-subscribe-error-connection = Un error occurreva addente te al lista de attendentia. Per favor verifica tu connexion e reproba.
 waitlist-subscribe-error-unknown = Un error occurreva addente te al lista de attendentia. Reproba per favor.
-

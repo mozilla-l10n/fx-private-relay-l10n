@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = 使用虚拟手机号和马甲邮箱，保护您的身份信息
 hero-section-body = 我们安全易用的马甲邮箱和虚拟手机号可帮助您保护自己的身份隐私。使用此服务来匿名创建账户，免受垃圾短信和骚扰电话侵扰，让收件箱重归宁静。
@@ -33,7 +33,7 @@ bundle-feature-one = { $num_vpn_servers } 余台服务器
 bundle-feature-two = { $num_vpn_countries } 余个国家/地区
 bundle-feature-three = 快速且安全的网络
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = { -brand-name-relay } 马甲邮箱和虚拟手机号的使用方式
 

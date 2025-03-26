@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Lindungi identitas Anda dengan penyamaran ponsel dan surel yang aman
 hero-section-body =
@@ -36,7 +36,7 @@ bundle-feature-one = Lebih dari { $num_vpn_servers } server
 bundle-feature-two = Lebih dari { $num_vpn_countries } negara
 bundle-feature-three = Jaringan cepat dan aman
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Cara kerja penyamaran email & telepon { -brand-name-relay }
 
@@ -64,8 +64,6 @@ plan-matrix-offer-body = { -brand-name-firefox-relay } melindungi identitas dan 
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Fitur
 plan-matrix-heading-plan-free = Perlindungan surel terbatas
 plan-matrix-heading-plan-premium = Perlindungan surel
@@ -112,6 +110,8 @@ plan-matrix-price-period-yearly = Tahunan
 plan-matrix-price-period-monthly = Bulanan
 plan-matrix-price-period-yearly-footnote-1 = Ditagih tahunan
 plan-matrix-price-period-monthly-footnote-1 = Ditagih bulanan
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Hemat { $savings }</span> dari harga reguler { -brand-name-vpn }
 
 # Plan CTAs
@@ -123,7 +123,9 @@ plan-matrix-join-waitlist = Gabung ke Daftar Tunggu
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Buat topeng surel tak terbatas
-highlighted-features-section-unlimited-masks-body = 
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
     Semua orang mendapatkan topeng surel { $mask_limit } gratis.
     Namun dengan { -brand-name-relay-premium }, Anda dapat membuat topeng sebanyak yang dibutuhkan untuk membantu melindungi kotak masuk surel Anda
     dari spammer, peretas, dan pelacak daring.
@@ -131,7 +133,9 @@ highlighted-features-section-unlimited-masks-body =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Buat topeng secara instan saat bepergian
-highlighted-features-section-masks-on-the-go-body = 
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
     { -brand-name-relay-premium } memberi Anda domain email unik { -brand-name-relay } sehingga Anda dapat langsung
     buat topeng baru di mana pun Anda berada. Cukup tambahkan kata atau frasa sebelum simbol @. Di restoran? Gunakan restoran@domainanda.{ $mozmail }.
     Belanja? Coba shop@domainanda.{ $mozmail }.
@@ -139,7 +143,7 @@ highlighted-features-section-masks-on-the-go-body =
 # Item 3
 
 highlighted-features-section-replying-headline = Balas surel & teks secara anonim
-highlighted-features-section-replying-body = 
+highlighted-features-section-replying-body =
     { -brand-name-relay-premium } memungkinkan Anda membalas surel dari
     akun surel bertopeng, sehingga pengirim tidak akan pernah tahu alamat surel asli Anda. Dengan penyamaran ponsel, Anda dapat membalas
     ke teks dari nomor telepon bertopeng Anda untuk melindungi nomor asli Anda.
@@ -147,14 +151,14 @@ highlighted-features-section-replying-body =
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blokir surel promosi
-highlighted-features-section-block-promotions-body = 
+highlighted-features-section-block-promotions-body =
     Dengan { -brand-name-relay-premium }, Anda dapat memblokir surel promosi agar tidak mencapai
     kotak masuk, tetapi masih menerima surel seperti tanda terima atau informasi pengiriman.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Hapus pelacak surel
-highlighted-features-section-remove-trackers-body = 
+highlighted-features-section-remove-trackers-body =
     { -brand-name-relay } dapat menghapus pelacak surel umum dari surel yang diteruskan kepada Anda, membantu
     Anda tetap tidak terlihat oleh pelacak dan pengiklan.
 
@@ -193,8 +197,6 @@ landing-faq-cta = Lihat FAQ lainnya seputar { -brand-name-firefox-relay }
 ## Premium promo page
 
 premium-promo-hero-headline = Lindungi kotak masuk Anda lebih mudah dengan { -brand-name-firefox-relay-premium }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Dengan { -brand-name-firefox-relay-premium }, Anda mendapatkan topeng surel kustom tanpa batas yang hanya meneruskan surel yang Anda inginkan ke alamat surel Anda yang sebenarnya.
 premium-promo-hero-cta = Tingkatkan sekarang
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } tersedia di Austria, Bulgaria, Belgia, Kanada, Kroasia, Siprus, Republik Ceko, Denmark, Estonia, Finlandia, Prancis, Jerman, Yunani, Hongaria, Irlandia, Italia, Latvia, Lituania, Luksemburg, Malaysia, Malta, Belanda, Selandia Baru, Polandia, Portugal, Rumania, Singapura, Slovakia, Slovenia, Spanyol, Swedia, Swiss, Inggris Raya, dan Amerika Serikat.
@@ -221,4 +223,3 @@ waitlist-privacy-policy-use-bundle = Informasi Anda hanya akan digunakan untuk m
 waitlist-subscribe-success = Anda masuk ke dalam daftar! Setelah { -brand-name-firefox-relay-premium } tersedia untuk wilayah Anda, kami akan mengirim surel kepada Anda.
 waitlist-subscribe-error-connection = Terjadi kesalahan saat menambahkan Anda ke daftar tunggu. Periksa sambungan Anda, lalu coba lagi.
 waitlist-subscribe-error-unknown = Terjadi kesalahan saat menambahkan Anda ke daftar tunggu. Silakan coba lagi.
-

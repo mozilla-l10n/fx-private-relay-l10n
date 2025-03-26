@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = محفوظ فون تے ای میل ماسکنگ نال آپݨی سُن٘ڄاݨ دی حفاظت کرو
 hero-section-body =
@@ -33,7 +33,7 @@ bundle-feature-one = { $num_vpn_servers } کنوں ودھ سرور
 bundle-feature-two = { $num_vpn_countries } کنوں ودھ ملک
 bundle-feature-three = تکھا تے محفوظ نیٹ ورک
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = { -brand-name-relay } ای میل تے فون ماسک کین٘ویں کم کریندے
 

@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Bescherm uw identiteit met veilige telefoon- en e-mailmaskering
 hero-section-body =
@@ -36,7 +36,7 @@ bundle-feature-one = Meer dan { $num_vpn_servers } servers
 bundle-feature-two = Meer dan { $num_vpn_countries } landen
 bundle-feature-three = Snel en veilig netwerk
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Hoe e-mail- en telefoonmaskering door { -brand-name-relay } werkt
 
@@ -223,4 +223,3 @@ waitlist-privacy-policy-use-bundle = Uw gegevens worden alleen gebruikt om u te 
 waitlist-subscribe-success = U staat op de lijst! Zodra { -brand-name-firefox-relay-premium } beschikbaar komt voor uw regio, sturen we u een e-mailbericht.
 waitlist-subscribe-error-connection = Er is een fout opgetreden bij het plaatsen op de wachtlijst. Controleer uw verbinding en probeer het opnieuw.
 waitlist-subscribe-error-unknown = Er is een fout opgetreden bij het plaatsen op de wachtlijst. Probeer het nog eens.
-

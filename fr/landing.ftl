@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Protégez votre identité avec des alias de messagerie et de numéro de téléphone sécurisés
 hero-section-body = Nos alias de messagerie et de numéro de téléphone sécurisés et faciles à utiliser vous aident à conserver votre identité privée pour que vous puissiez créer de nouveaux comptes de manière anonyme, bloquer les spams et les appels indésirables, et que vous receviez uniquement les e-mails que vous souhaitez dans votre boîte de réception.
@@ -33,7 +33,7 @@ bundle-feature-one = Plus de { $num_vpn_servers } serveurs
 bundle-feature-two = Plus de { $num_vpn_countries } pays
 bundle-feature-three = Réseau rapide et sécurisé
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Fonctionnement des alias { -brand-name-relay } pour les e-mails et numéros de téléphone
 

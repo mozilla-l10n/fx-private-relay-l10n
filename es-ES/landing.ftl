@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Protege tu identidad con enmascaramiento seguro de correo electrónico y teléfono
 hero-section-body =
@@ -36,7 +36,7 @@ bundle-feature-one = Más de { $num_vpn_servers } servidores
 bundle-feature-two = Más de { $num_vpn_countries } países
 bundle-feature-three = Una red rápida y segura
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Cómo funciona el enmascaramiento de correo electrónico y teléfono de { -brand-name-relay }
 
@@ -64,8 +64,6 @@ plan-matrix-offer-body = { -brand-name-firefox-relay } protege tu identidad y tu
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Características
 plan-matrix-heading-plan-free = Protección de correo electrónico limitada
 plan-matrix-heading-plan-premium = Protección de correo electrónico
@@ -112,6 +110,8 @@ plan-matrix-price-period-yearly = Anualmente
 plan-matrix-price-period-monthly = Mensual
 plan-matrix-price-period-yearly-footnote-1 = Facturado anualmente
 plan-matrix-price-period-monthly-footnote-1 = Facturado mensualmente
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Ahorra { $savings }</span> en el precio habitual de { -brand-name-vpn }
 
 # Plan CTAs
@@ -123,7 +123,9 @@ plan-matrix-join-waitlist = Únete a la lista de espera
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Crea máscaras de correo electrónico ilimitadas
-highlighted-features-section-unlimited-masks-body = 
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
     Todo el mundo recibe { $mask_limit } máscaras de correo electrónico de forma gratuita.
     Pero con { -brand-name-relay-premium }, puedes generar tantas máscaras como necesites para ayudar a proteger tu bandeja de entrada
     de spammers, piratas informáticos y rastreadores en línea.
@@ -131,7 +133,9 @@ highlighted-features-section-unlimited-masks-body =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Crea máscaras instantáneamente
-highlighted-features-section-masks-on-the-go-body = 
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
     { -brand-name-relay-premium } te ofrece un dominio de correo electrónico exclusivo de { -brand-name-relay } para que puedas
     crear nuevas máscaras dondequiera que estés. Simplemente añade cualquier palabra o frase antes del símbolo @. ¿En un restaurante? Usa restaurante@tudominio.{ $mozmail }.
     ¿De compras? Prueba shop@tudominio.{ $mozmail }.
@@ -139,7 +143,7 @@ highlighted-features-section-masks-on-the-go-body =
 # Item 3
 
 highlighted-features-section-replying-headline = Responder a correos electrónicos y mensajes de texto de forma anónima
-highlighted-features-section-replying-body = 
+highlighted-features-section-replying-body =
     { -brand-name-relay-premium } te permite responder correos electrónicos de tu
     cuenta de correo electrónico enmascarada, por lo que los remitentes nunca sabrán tu dirección de correo electrónico real. Con el enmascaramiento del teléfono, puedes responder
     a mensajes de texto desde tu número de teléfono enmascarado para proteger tu número real.
@@ -147,14 +151,14 @@ highlighted-features-section-replying-body =
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Bloquear correos promocionales
-highlighted-features-section-block-promotions-body = 
+highlighted-features-section-block-promotions-body =
     Con { -brand-name-relay-premium }, puedes bloquear los correos electrónicos promocionales para que no lleguen a tu
     bandeja de entrada mientras sigues recibiendo otros correos electrónicos como recibos o seguimiento de compras.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Eliminar rastreadores de correo electrónico
-highlighted-features-section-remove-trackers-body = 
+highlighted-features-section-remove-trackers-body =
     { -brand-name-relay } puede eliminar rastreadores comunes del correo electrónico de los mensajes de correo electrónico que se te reenvían, ayudando 
     a mantenerte invisible para rastreadores y anunciantes.
 
@@ -193,8 +197,6 @@ landing-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-rela
 ## Premium promo page
 
 premium-promo-hero-headline = Simplifica la protección de tu bandeja de entrada con { -brand-name-firefox-relay-premium }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Con { -brand-name-firefox-relay-premium }, obtienes máscaras de correo electrónico personalizadas ilimitadas que reenvían solo los correos electrónicos que deseas a tu verdadera dirección de correo electrónico.
 premium-promo-hero-cta = Actualizar ahora
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } está disponible en Austria, Bulgaria, Bélgica, Canadá, Croacia, Chipre, República Checa, Dinamarca, Estonia, Finlandia, Francia, Alemania, Grecia, Hungría, Irlanda, Italia, Letonia, Lituania, Luxemburgo, Malasia, Malta, Países Bajos, Nueva Zelanda, Polonia, Portugal, Rumanía, Singapur, Eslovaquia, Eslovenia, España, Suecia, Suiza, Reino Unido y Estados Unidos.
@@ -221,4 +223,3 @@ waitlist-privacy-policy-use-bundle = Tu información será utilizada solo para a
 waitlist-subscribe-success = ¡Estás en la lista! Cuando { -brand-name-firefox-relay-premium } esté disponible para tu región, te enviaremos un correo.
 waitlist-subscribe-error-connection = Ha habido un error al añadirte a la lista de espera. Por favor, revisa tu conexión y vuelve a intentarlo.
 waitlist-subscribe-error-unknown = Ha habido un error al añadirte a la lista. Vuelve a intentarlo más tarde.
-

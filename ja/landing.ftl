@@ -2,19 +2,27 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## HERO SECTION 
+
+## HERO SECTION
+
 
 ## BUNDLE BANNER SECTION
 
-## HOW IT WORKS SECTION 
+
+## HOW IT WORKS SECTION
+
 
 # Item 1
 
+
 # Item 2
+
 
 # Item 3
 
+
 ## PRICING MATRIX SECTION
+
 
 # Top Row Labels
 
@@ -22,7 +30,9 @@ plan-matrix-heading-features = 機能
 
 # Feature Breakdowns
 
+
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
 
 # Plan Details
 
@@ -30,17 +40,24 @@ plan-matrix-price-free = 無料
 
 # Plan Price
 
+
 # Plan CTAs
+
 
 # Item 1
 
+
 # Item 2
+
 
 # Item 3
 
+
 # Item 4
 
+
 # Item 5
+
 
 ## REVIEWS SECTION
 
@@ -51,6 +68,7 @@ landing-reviews-logo-title = { -brand-name-firefox-browser }
 landing-reviews-rating = / 5 ({ $review_count } 件のレビュー)
 
 ## HIGHLIGHTED FEATURES SECTION
+
 
 ## FAQ SECTION
 
@@ -69,4 +87,3 @@ waitlist-control-email-label = メールアドレス
 waitlist-control-email-placeholder = yourname@example.com
 waitlist-control-locale-label = ご希望の言語を選択してください。
 waitlist-privacy-policy-use = あなたの個人情報は、{ -brand-name-firefox-relay-premium } の利用についての通知のみに使用されます。
-

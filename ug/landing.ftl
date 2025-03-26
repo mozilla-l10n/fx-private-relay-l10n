@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-cta = باشلاڭ
 
@@ -22,7 +22,7 @@ bundle-feature-one = { $num_vpn_servers } دىن كۆپ مۇلازىمېتىر
 bundle-feature-two = { $num_vpn_countries } دىن كۆپ دۆلەت
 bundle-feature-three = تېز بىخەتەر تور
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = { -brand-name-relay } ئېلخەت ۋە تېلېفون نىقابى ئىشلىتىش ئۇسۇلى نېمە
 

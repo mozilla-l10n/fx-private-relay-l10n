@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Proteja sua identidade com mascaramento seguro de celular e email
 hero-section-body = Nossas máscaras de email e celular, seguras e fáceis de usar, ajudam a manter a privacidade da sua identidade para que você possa se inscrever em novas contas anonimamente, impedir mensagens de spam e chamadas indesejadas e receber apenas os emails que quiser.
@@ -33,7 +33,7 @@ bundle-feature-one = Mais de { $num_vpn_servers } servidores
 bundle-feature-two = Mais de { $num_vpn_countries } países
 bundle-feature-three = Rede rápida e segura
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Como funciona o mascaramento de email e celular do { -brand-name-relay }
 

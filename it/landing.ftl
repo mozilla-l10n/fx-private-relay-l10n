@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Proteggi la tua identità con alias sicuri per numeri di telefono e posta elettronica
 hero-section-body =
@@ -35,7 +35,7 @@ bundle-feature-one = Più di { $num_vpn_servers } server
 bundle-feature-two = Più di { $num_vpn_countries } Paesi
 bundle-feature-three = Una rete sicura e veloce
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Come funzionano gli alias { -brand-name-relay } per numeri di telefono e posta elettronica
 
@@ -63,8 +63,6 @@ plan-matrix-offer-body = { -brand-name-firefox-relay } protegge la tua identità
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Funzionalità
 plan-matrix-heading-plan-free = Protezione email limitata
 plan-matrix-heading-plan-premium = Protezione email
@@ -111,6 +109,8 @@ plan-matrix-price-period-yearly = Annuale
 plan-matrix-price-period-monthly = Mensile
 plan-matrix-price-period-yearly-footnote-1 = Fatturazione annuale
 plan-matrix-price-period-monthly-footnote-1 = Fatturazione mensile
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Risparmia il { $savings }</span> sul prezzo normale di { -brand-name-vpn }
 
 # Plan CTAs
@@ -122,13 +122,17 @@ plan-matrix-join-waitlist = Iscriviti alla lista d’attesa
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Crea alias di posta elettronica illimitati
-highlighted-features-section-unlimited-masks-body = 
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
     Tutti hanno a disposizione gratuitamente { $mask_limit } alias di posta elettronica. 
     Ma con { -brand-name-relay-premium } puoi creare tutti gli alias di cui hai bisogno per proteggere la tua casella di posta da spam, hacker e tracciamento online.
 
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Crea alias al volo
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
 highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium } ti offre un dominio di posta elettronica { -brand-name-relay } univoco per creare al volo nuovi alias ovunque ti trovi. Devi semplicemente aggiungere una parola o una frase prima del simbolo @. Sei al ristorante? Utilizza ristorante@tuodominio.{ $mozmail }. Stai facendo acquisti? Prova con shop@tuodominio.{ $mozmail }.
 
 # Item 3
@@ -139,7 +143,7 @@ highlighted-features-section-replying-body = { -brand-name-relay-premium } ti co
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blocco delle email pubblicitarie
-highlighted-features-section-block-promotions-body = 
+highlighted-features-section-block-promotions-body =
     Con { -brand-name-relay-premium } puoi impedire alle email pubblicitarie di raggiungere la tua 
     casella di posta e al tempo stesso ricevere email essenziali come fatture o informazioni su una spedizione.
 
@@ -183,8 +187,6 @@ landing-faq-cta = Vedi altre domande frequenti su { -brand-name-firefox-relay }
 ## Premium promo page
 
 premium-promo-hero-headline = Proteggi la tua casella di posta più facilmente con { -brand-name-firefox-relay-premium }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Con { -brand-name-firefox-relay-premium } ottieni un numero illimitato di alias email personalizzati, con cui potrai inoltrare solo i messaggi che desideri al tuo indirizzo email reale.
 premium-promo-hero-cta = Aggiorna adesso
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } è disponibile in Austria, Bulgaria, Belgio, Canada, Croazia, Cipro, Repubblica Ceca, Danimarca, Estonia, Finlandia, Francia, Germania, Grecia, Ungheria, Irlanda, Italia, Lettonia, Lituania, Lussemburgo, Malesia, Malta, Paesi Bassi, Nuova Zelanda, Polonia, Portogallo, Romania, Singapore, Slovacchia, Slovenia, Spagna, Svezia, Svizzera, Regno Unito e Stati Uniti.
@@ -211,4 +213,3 @@ waitlist-privacy-policy-use-bundle = Le tue informazioni saranno utilizzate solo
 waitlist-subscribe-success = Sei iscritto alla lista. Non appena { -brand-name-firefox-relay-premium } sarà disponibile per il tuo Paese, ti invieremo un’email.
 waitlist-subscribe-error-connection = Si è verificato un errore durante l’aggiunta alla lista d’attesa. Verifica la connessione e riprova.
 waitlist-subscribe-error-unknown = Si è verificato un errore durante l’aggiunta alla lista d’attesa. Riprova.
-

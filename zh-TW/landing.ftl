@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = 透過安全的郵件轉寄信箱與虛擬電話轉接功能來保護您的身分資料
 hero-section-body = 我們安全、好用的轉寄信箱與手機轉接號碼，可幫助您保護身分隱私、匿名地註冊新帳號、停止收到垃圾信與垃圾電話，並且只在收件匣中收到想收的信件。
@@ -33,7 +33,7 @@ bundle-feature-one = 超過 { $num_vpn_servers } 組伺服器
 bundle-feature-two = 超過 { $num_vpn_countries } 個國家
 bundle-feature-three = 快速而安全的網路環境
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = { -brand-name-relay } 轉寄信箱與虛擬電話號碼的原理是什麼
 
@@ -61,8 +61,6 @@ plan-matrix-offer-body = { -brand-name-firefox-relay } 用獨特的轉寄信箱�
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = 功能
 plan-matrix-heading-plan-free = 有限量的信箱保護
 plan-matrix-heading-plan-premium = E-mail 保護
@@ -109,6 +107,8 @@ plan-matrix-price-period-yearly = 每年
 plan-matrix-price-period-monthly = 每月
 plan-matrix-price-period-yearly-footnote-1 = 每年收費
 plan-matrix-price-period-monthly-footnote-1 = 每月收費
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = 以 { -brand-name-vpn } 原價再<span>節省 { $savings }</span>
 
 # Plan CTAs
@@ -120,11 +120,15 @@ plan-matrix-join-waitlist = 加入排隊名單
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = 建立無限量的轉寄信箱
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
 highlighted-features-section-unlimited-masks-body = 人人都能免費獲得 { $mask_limit } 組轉寄信箱。但透過 { -brand-name-relay-premium }，您可以隨意產生無限組轉寄信箱來保護您的收件匣，不受垃圾郵件發送者、駭客、線上追蹤器侵害。
 
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = 隨時隨地自由建立轉寄信箱
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
 highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium } 讓您可以設定專屬 { -brand-name-relay } 郵件網域，讓您能隨時隨地建立轉寄信箱。只要在 @ 符號前加入任何文字或詞彙。想預約餐廳？可以使用 restaurant@yourdomain.{ $mozmail }。買東西？可以使用 shop@yourdomain.{ $mozmail }。
 
 # Item 3
@@ -177,8 +181,6 @@ landing-faq-cta = 了解 { -brand-name-firefox-relay } 的常見問題
 ## Premium promo page
 
 premium-promo-hero-headline = 使用 { -brand-name-firefox-relay-premium } 讓保護您的收件匣變得更簡單
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = 透過 { -brand-name-firefox-relay-premium }，您可以獲得無限的自訂轉寄信箱，只將您想要轉寄的郵件轉到您的實際電子郵件信箱。
 premium-promo-hero-cta = 立刻升級
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } 已在奧地利、保加利亞、比利時、加拿大、克羅埃西亞、賽普勒斯、捷克、丹麥、愛沙尼亞、芬蘭、法國、德國、希臘、匈牙利、愛爾蘭、義大利、拉脫維亞、立陶宛、盧森堡、馬來西亞、馬爾他、荷蘭、紐西蘭、波蘭、葡萄牙、羅馬尼亞、新加坡、斯洛伐克、斯洛維尼亞、西班牙、瑞典、瑞士、英國、美國等地推出。
@@ -205,4 +207,3 @@ waitlist-privacy-policy-use-bundle = 您提供的資訊，將只會在 { -brand-
 waitlist-subscribe-success = 登記好了！當 { -brand-name-firefox-relay-premium } 於您所在的地區推出時，我們就會發信通知。
 waitlist-subscribe-error-connection = 將您加入候補名單時遇到錯誤，請確認網路連線是否正常，然後再試一次。
 waitlist-subscribe-error-unknown = 將您加入候補名單時發生錯誤，請再試一次。
-

@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Защитите свою личность с помощью безопасного маскирования телефона и псевдонимов электронной почты
 hero-section-body =
@@ -36,7 +36,7 @@ bundle-feature-one = Более чем { $num_vpn_servers } серверов
 bundle-feature-two = Более чем в { $num_vpn_countries } странах
 bundle-feature-three = Быстрая и безопасная сеть
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Как работают { -brand-name-relay } псевдонимы электронной почты и маскирование телефона
 
@@ -218,4 +218,3 @@ waitlist-privacy-policy-use-bundle = Ваша информация будет и
 waitlist-subscribe-success = Вы в списке! Как только { -brand-name-firefox-relay-premium } станет доступным для вашего региона, ми уведомим вас об этом по электронной почте.
 waitlist-subscribe-error-connection = При добавлении вас в список ожидания произошла ошибка. Пожалуйста, проверьте своё соединение и попробуйте ещё раз.
 waitlist-subscribe-error-unknown = При добавлении вас в список ожидания произошла ошибка. Пожалуйста, попробуйте ещё раз.
-

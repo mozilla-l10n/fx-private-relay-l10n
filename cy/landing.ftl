@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Diogelwch eich hunaniaeth gyda rhif ffôn ac e-bost diogel
 hero-section-body =
@@ -36,7 +36,7 @@ bundle-feature-one = Mwy na { $num_vpn_servers } gweinydd
 bundle-feature-two = Mwy na { $num_vpn_countries } gwlad
 bundle-feature-three = Rhwydwaith cyflym a diogel
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Sut mae cuddio e-bost a ffôn { -brand-name-relay } yn gweithio
 

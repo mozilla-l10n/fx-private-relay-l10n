@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Skydda din identitet med säkra telefon- och e-postalias
 hero-section-body =
@@ -36,7 +36,7 @@ bundle-feature-one = Fler än { $num_vpn_servers } servrar
 bundle-feature-two = Fler än { $num_vpn_countries } länder
 bundle-feature-three = Snabbt och säkert nätverk
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Hur { -brand-name-relay } e-post- och telefonalias fungerar
 
@@ -64,8 +64,6 @@ plan-matrix-offer-body = { -brand-name-firefox-relay } skyddar din identitet och
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Funktioner
 plan-matrix-heading-plan-free = Begränsat e-postskydd
 plan-matrix-heading-plan-premium = E-postskydd
@@ -112,6 +110,8 @@ plan-matrix-price-period-yearly = Årlig
 plan-matrix-price-period-monthly = Månadsvis
 plan-matrix-price-period-yearly-footnote-1 = Faktureras årligen
 plan-matrix-price-period-monthly-footnote-1 = Faktureras månadsvis
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Spara { $savings }</span> på ordinarie { -brand-name-vpn } pris
 
 # Plan CTAs
@@ -123,7 +123,9 @@ plan-matrix-join-waitlist = Ställ dig i väntelistan
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Skapa obegränsat antal e-postalias
-highlighted-features-section-unlimited-masks-body = 
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
     Alla får { $mask_limit } e-postalias gratis.
     Men med { -brand-name-relay-premium } kan du generera så många alias du behöver för att skydda din inkorg
     från spammare, hackare och onlinespårare.
@@ -131,7 +133,9 @@ highlighted-features-section-unlimited-masks-body =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Skapa omedelbart alias när du är på språng
-highlighted-features-section-masks-on-the-go-body = 
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
     { -brand-name-relay-premium } ger dig en unik { -brand-name-relay } e-postdomän så att du omedelbart kan
     skapa nya alias var du än är. Lägg bara till valfritt ord eller fras före @-symbolen. Vid en restaurang? Använd restaurang@dindomän.{ $mozmail }.
     Handla? Testa handla@dindomän.{ $mozmail }.
@@ -139,7 +143,7 @@ highlighted-features-section-masks-on-the-go-body =
 # Item 3
 
 highlighted-features-section-replying-headline = Svara anonymt på mejl och sms
-highlighted-features-section-replying-body = 
+highlighted-features-section-replying-body =
     { -brand-name-relay-premium } låter dig svara på e-postmeddelanden från ditt
     maskerade e-postkonto, så att avsändare aldrig kommer att veta din riktiga e-postadress. Med telefonmaskering kan du svara
     på sms från ditt maskerade telefonnummer för att skydda ditt riktiga nummer.
@@ -147,14 +151,14 @@ highlighted-features-section-replying-body =
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blockera e-postreklam
-highlighted-features-section-block-promotions-body = 
+highlighted-features-section-block-promotions-body =
     Med { -brand-name-relay-premium } kan du blockera reklammeddelanden från att nå din
     inkorg medan du fortfarande får e-postmeddelanden som kvitton eller leveransinformation.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Ta bort e-postspårare
-highlighted-features-section-remove-trackers-body = 
+highlighted-features-section-remove-trackers-body =
     { -brand-name-relay } kan ta bort vanliga e-postspårare från alla e-postmeddelanden som vidarebefordras till dig, vilket hjälper
     dig att förbli osynlig för spårare och annonsörer.
 
@@ -193,8 +197,6 @@ landing-faq-cta = Se mer vanliga frågor om { -brand-name-firefox-relay }
 ## Premium promo page
 
 premium-promo-hero-headline = Gör det enklare att skydda din inkorg med { -brand-name-firefox-relay-premium }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Med { -brand-name-firefox-relay-premium } får du ett obegränsat antal anpassade e-postalias som bara vidarebefordrar de e-postmeddelanden du vill ha till din riktiga e-postadress.
 premium-promo-hero-cta = Uppgradera nu
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } är tillgängligt i Österrike, Bulgarien, Belgien, Kanada, Kroatien, Cypern, Tjeckien, Danmark, Estland, Finland, Frankrike, Tyskland, Grekland, Ungern, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, Nederländerna, Nya Zeeland, Polen, Portugal, Rumänien, Singapore, Slovakien, Slovenien, Spanien, Sverige, Schweiz, Storbritannien och USA.
@@ -221,4 +223,3 @@ waitlist-privacy-policy-use-bundle = Din information kommer endast att användas
 waitlist-subscribe-success = Du är på listan! När { -brand-name-firefox-relay-premium } blir tillgänglig för din region skickar vi ett e-postmeddelande till dig.
 waitlist-subscribe-error-connection = Det gick inte att lägga till dig på väntelistan. Kontrollera din anslutning och försök sedan igen.
 waitlist-subscribe-error-unknown = Det gick inte att lägga till dig på väntelistan. Var god försök igen.
-

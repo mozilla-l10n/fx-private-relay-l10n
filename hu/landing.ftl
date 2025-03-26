@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Védje személyazonosságát a biztonságos telefon- és e-mail-maszkolással
 hero-section-body =
@@ -36,7 +36,7 @@ bundle-feature-one = Több mint { $num_vpn_servers } kiszolgáló
 bundle-feature-two = Több mint { $num_vpn_countries } ország
 bundle-feature-three = Gyors és biztonságos hálózat
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Hogyan működik a { -brand-name-relay } e-mail- és telefonmaszkolása
 
@@ -64,8 +64,6 @@ plan-matrix-offer-body = A { -brand-name-firefox-relay } egyedi e-mail-maszkokka
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Funkciók
 plan-matrix-heading-plan-free = Korlátozott e-mail-védelem
 plan-matrix-heading-plan-premium = E-mail-védelem
@@ -112,6 +110,8 @@ plan-matrix-price-period-yearly = Évente
 plan-matrix-price-period-monthly = Havi
 plan-matrix-price-period-yearly-footnote-1 = Éves számlázás
 plan-matrix-price-period-monthly-footnote-1 = Havi számlázás
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>{ $savings } megtakarítás</span> a szokásos ({ -brand-name-vpn }) árhoz képest
 
 # Plan CTAs
@@ -123,7 +123,9 @@ plan-matrix-join-waitlist = Csatlakozás a várólistához
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Korlátlan számú e-mail-maszk létrehozása
-highlighted-features-section-unlimited-masks-body = 
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
     Mindenki ingyenesen kap { $mask_limit } e-mail-maszkot.
     A { -brand-name-relay-premium } segítségével azonban annyi maszkot hozhat létre, amennyire csak szüksége van a postaládája
     spammerektől, hackerektől és online nyomkövetőktől történő megvédéséhez.
@@ -131,7 +133,9 @@ highlighted-features-section-unlimited-masks-body =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Maszkok azonnali készítése útközben
-highlighted-features-section-masks-on-the-go-body = 
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
     A { -brand-name-relay-premium } egyedi { -brand-name-relay } e-mail-domaint biztosít Önnek, így azonnal
     létrehozhat új maszkokat, bárhol is legyen. Egyszerűen adjon hozzá bármilyen szót vagy kifejezést a @ szimbólum elé. Étteremben van? Használja az etterem@sajatdomain.{ $mozmail } címet.
     Bevásárlás? Próbálja ki a bolt@sajatdomain.{ $mozmail } címet.
@@ -139,7 +143,7 @@ highlighted-features-section-masks-on-the-go-body =
 # Item 3
 
 highlighted-features-section-replying-headline = Válaszoljon a levelekre és SMS-ekre névtelenül
-highlighted-features-section-replying-body = 
+highlighted-features-section-replying-body =
     A { -brand-name-relay-premium } lehetővé teszi, hogy válaszoljon az Ön által küldött e-mailekre
     a maszkolt e-mail-fiókjából, így a feladók soha nem tudják meg az Ön valódi e-mail-címét. A telefonmaszkolással
     válaszolhat a maszkolt telefonszámról érkező SMS-ekre, hogy megvédje a valódi számát.
@@ -147,7 +151,7 @@ highlighted-features-section-replying-body =
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blokkolja a promóciós leveleket
-highlighted-features-section-block-promotions-body = 
+highlighted-features-section-block-promotions-body =
     A { -brand-name-relay-premium } segítségével letilthatja a promóciós e-maileket, hogy ne jussanak el a postaládájába,
     miközben továbbra is megkapja a a nyugtákat vagy a szállítási információkat tartalmazó e-maileket.
 
@@ -191,8 +195,6 @@ landing-faq-cta = További GYIK a { -brand-name-firefox-relay }-jel kapcsolatban
 ## Premium promo page
 
 premium-promo-hero-headline = Tegye egyszerűbbé a postafiókja védelmét a { -brand-name-firefox-relay-premium } segítségével
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = A { -brand-name-firefox-relay-premium }mal korlátlan számú egyéni e-mail-maszkot kap, amelyek csak a kívánt e-maileket továbbítják a valódi e-mail-címére.
 premium-promo-hero-cta = Frissítsen most
 premium-promo-availability-warning-4 = A { -brand-name-relay-premium } Ausztriában, Bulgáriában, Belgiumban, Kanadában, Horvátországban, Cipruson, a Cseh Köztársaságban, Dániában, Észtországban, Finnországban, Franciaországban, Németországban, Görögországban, Magyarországon, Írországban, Olaszországban, Lettországban, Litvániában, Luxemburgban, Malajziában, Máltán, Hollandiában, Új-Zélandon, Lengyelországban, Portugáliában, Romániában, Szingapúrban, Szlovákiában, Szlovéniában, Spanyolországban, Svédországban, Svájcban, az Egyesült Királyságban és az Egyesült Államokban érhető el.
@@ -219,4 +221,3 @@ waitlist-privacy-policy-use-bundle = Adatait csak arra használjuk, hogy értes�
 waitlist-subscribe-success = Rajta van a listán. Amint a { -brand-name-firefox-relay-premium } elérhetővé válik az Ön régiójában, e-mailt küldünk Önnek.
 waitlist-subscribe-error-connection = Hiba történt a várólistára való felvétel során. Ellenőrizze az internetkapcsolatát, majd próbálja újra.
 waitlist-subscribe-error-unknown = Hiba történt a várólistára való felvétel során. Próbálja újra.
-

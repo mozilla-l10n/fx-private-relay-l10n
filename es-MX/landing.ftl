@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Protege tu identidad con enmascaramiento seguro de correo electrónico y teléfono
 hero-section-cta = Comenzar
@@ -29,7 +29,7 @@ bundle-feature-one = Más de { $num_vpn_servers } servidores
 bundle-feature-two = Más de { $num_vpn_countries } países
 bundle-feature-three = Una red rápida y segura
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Cómo funciona el enmascaramiento de correo electrónico y teléfono de { -brand-name-relay }
 

@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION 
+## HERO SECTION
 
 hero-section-title = Захистіть свою особистість надійним маскуванням телефону та електронної пошти
 hero-section-body =
@@ -36,7 +36,7 @@ bundle-feature-one = Понад { $num_vpn_servers } серверів
 bundle-feature-two = Понад { $num_vpn_countries } країн
 bundle-feature-three = Швидка та захищена мережа
 
-## HOW IT WORKS SECTION 
+## HOW IT WORKS SECTION
 
 how-it-works-section-title = Як працює маскування електронної пошти та номера телефону { -brand-name-relay }
 
@@ -64,8 +64,6 @@ plan-matrix-offer-body = { -brand-name-firefox-relay } захищає вашу �
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Можливості
 plan-matrix-heading-plan-free = Обмежений захист електронної пошти
 plan-matrix-heading-plan-premium = Захист електронної пошти
@@ -112,6 +110,8 @@ plan-matrix-price-period-yearly = Щороку
 plan-matrix-price-period-monthly = Щомісяця
 plan-matrix-price-period-yearly-footnote-1 = Щорічна оплата
 plan-matrix-price-period-monthly-footnote-1 = Щомісячна оплата
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Заощадьте { $savings }</span> від звичайної ціни за { -brand-name-vpn }
 
 # Plan CTAs
@@ -123,7 +123,9 @@ plan-matrix-join-waitlist = Долучитись до списку очікув�
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Створюйте необмежену кількість масок адрес електронної пошти
-highlighted-features-section-unlimited-masks-body = 
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
     Будь-хто отримує { $mask_limit } масок електронної пошти безплатно.
     Але за допомогою { -brand-name-relay-premium } ви можете згенерувати стільки масок, скільки потрібно, щоб захистити свою скриньку
     вхідних повідомлень від спамерів, хакерів і елементів онлайн-стеження.
@@ -131,7 +133,9 @@ highlighted-features-section-unlimited-masks-body =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Миттєво створюйте маски на ходу
-highlighted-features-section-masks-on-the-go-body = 
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
     { -brand-name-relay-premium } надає вам унікальний домен електронної пошти { -brand-name-relay }, щоб ви могли миттєво
     створювати нові маски, де б ви не були. Просто додайте будь-яке слово чи фразу перед символом @. В ресторані? Використовуйте
     restaurant@yourdomain.{ $mozmail }.  На шопінгу? Спробуйте shop@yourdomain.{ $mozmail }.
@@ -139,7 +143,7 @@ highlighted-features-section-masks-on-the-go-body =
 # Item 3
 
 highlighted-features-section-replying-headline = Відповідайте на електронні та текстові повідомлення анонімно
-highlighted-features-section-replying-body = 
+highlighted-features-section-replying-body =
     { -brand-name-relay-premium } дає змогу відповідати на електронні листи з вашого замаскованого облікового запису електронної
     пошти, тому відправники ніколи не дізнаються вашу справжню адресу електронної пошти. Завдяки маскуванню номера телефону
     ви можете відповідати на текстові повідомлення з вашого замаскованого номера телефону, щоб захистити ваш справжній номер.
@@ -147,7 +151,7 @@ highlighted-features-section-replying-body =
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Блокуйте промоційні листи
-highlighted-features-section-block-promotions-body = 
+highlighted-features-section-block-promotions-body =
     За допомогою { -brand-name-relay-premium } ви можете блокувати надходження промоційних листів до вашої теки «Вхідні», 
     водночас отримуючи електронні листи, як-от квитанції чи інформацію про доставлення.
 
@@ -191,8 +195,6 @@ landing-faq-cta = Перегляньте інші поширені запита�
 ## Premium promo page
 
 premium-promo-hero-headline = Спростіть захист своєї поштової скриньки за допомогою { -brand-name-firefox-relay-premium }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Передплативши { -brand-name-firefox-relay-premium } ви отримаєте необмежену кількість користувацьких масок адрес електронної пошти, які пересилають на вашу справжню адресу електронної пошти лише ті листи, які вам потрібні.
 premium-promo-hero-cta = Оновити зараз
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } доступний в Австрії, Болгарії, Бельгії, Канаді, Хорватії, Кіпрі, Чехії, Данії, Естонії, Фінляндії, Франції, Німеччині, Греції, Угорщині, Ірландії, Італії, Латвії, Литві, Люксембурзі, Малайзії, Мальті, Нідерландах, Новій Зеландії, Польщі, Португалії, Румунії, Сінгапурі, Словаччині, Словенії, Іспанії, Швеції, Швейцарії, Великій Британії та Сполучених Штатах.
@@ -219,4 +221,3 @@ waitlist-privacy-policy-use-bundle = Ваші дані використовув�
 waitlist-subscribe-success = Ви в списку! Щойно { -brand-name-firefox-relay-premium } стане доступним у вашому регіоні, ми надішлемо вам електронний лист.
 waitlist-subscribe-error-connection = Під час додавання вас до списку очікування сталася помилка. Перевірте з’єднання, а потім повторіть спробу.
 waitlist-subscribe-error-unknown = Під час додавання вас до списку очікування сталася помилка. Повторіть спробу.
-
