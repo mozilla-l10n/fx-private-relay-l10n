@@ -119,6 +119,7 @@ plan-matrix-price-vpn-discount-promo = <span>Εξοικονομήστε { $savin
 plan-matrix-sign-up = Εγγραφή
 plan-matrix-get-relay-cta = Λήψη του { -brand-name-relay }
 plan-matrix-join-waitlist = Εγγραφή στη λίστα αναμονής
+plan-matrix-your-plan = Το πρόγραμμά σας
 
 # Item 1
 
