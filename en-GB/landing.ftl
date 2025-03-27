@@ -119,6 +119,7 @@ plan-matrix-price-vpn-discount-promo = <span>Save { $savings }</span> on regular
 plan-matrix-sign-up = Sign Up
 plan-matrix-get-relay-cta = Get { -brand-name-relay }
 plan-matrix-join-waitlist = Join the Waiting List
+plan-matrix-your-plan = Your Plan
 
 # Item 1
 
