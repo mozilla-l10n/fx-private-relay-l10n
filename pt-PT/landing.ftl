@@ -55,9 +55,6 @@ how-it-works-section-manage-body = Inicie sessão no seu painel do { -brand-name
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Escolha o nível de proteção certo para si
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
-plan-matrix-offer-body = O { -brand-name-firefox-relay } protege a sua identidade e a sua caixa de entrada com máscaras de e-mail únicas. Adicione ainda mais segurança com a máscara { -brand-name-relay } e poupe { $payments } ao adicionar a proteção { -brand-name-vpn }.
 
 # Top Row Labels
 
@@ -109,7 +106,7 @@ plan-matrix-price-period-yearly-footnote-1 = Cobrado anualmente
 plan-matrix-price-period-monthly-footnote-1 = Cobrado mensalmente
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
-plan-matrix-price-vpn-discount-promo = <span>Poupe { $writings }</span> com o preço normal da { -brand-name-vpn }
+plan-matrix-price-vpn-discount-promo = <span>Poupe { $savings }</span> com o preço normal da { -brand-name-vpn }
 
 # Plan CTAs
 
