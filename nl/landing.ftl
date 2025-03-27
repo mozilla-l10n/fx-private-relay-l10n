@@ -119,6 +119,7 @@ plan-matrix-price-vpn-discount-promo = <span>Bespaar { $savings }</span> op de n
 plan-matrix-sign-up = Registreren
 plan-matrix-get-relay-cta = { -brand-name-relay } downloaden
 plan-matrix-join-waitlist = Op de wachtlijst plaatsen
+plan-matrix-your-plan = Uw abonnement
 
 # Item 1
 
