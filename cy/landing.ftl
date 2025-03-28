@@ -119,6 +119,7 @@ plan-matrix-price-vpn-discount-promo = <span>Arbedwch { $savings }</span> ar bri
 plan-matrix-sign-up = Cofrestru
 plan-matrix-get-relay-cta = Cael { -brand-name-relay }
 plan-matrix-join-waitlist = Ymunwch â'r Rhestr Aros
+plan-matrix-your-plan = Eich Cynllun
 
 # Item 1
 
