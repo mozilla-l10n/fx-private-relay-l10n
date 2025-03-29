@@ -27,7 +27,12 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } iletiler
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Bu sorunlardan herhangi birini yaşıyorsanız lütfen <a href="{ $url }" { $attrs }>destek sitemizi ziyaret edin</a>.
 faq-question-use-cases-question-2 = { -brand-name-relay } e-posta maskelerini ne zaman kullanmalıyım?
+faq-question-use-cases-answer-part1-2 = { -brand-name-relay } e-posta maskelerini normal e-posta adresinizi kullanacağınız çoğu yerde kullanabilirsiniz. Gelecekte e-posta alma konusunda fikrinizi değiştirebileceğiniz pazarlama/bilgilendirme e-postalarına kaydolurken maskelerinizi kullanmanızı öneririz.
 faq-question-2-question-2 = Bir site neden { -brand-name-relay } e-posta maskemi kabul etmiyor?
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v4 = Bazı siteler alt alan adı (@subdomain.mozmail.com) içeren e-posta adreslerini kabul etmeyebilir ve bazıları da Gmail, Hotmail veya Yahoo hesapları dışındaki tüm adresleri kabul etmeyi bırakmıştır.
 faq-question-1-question = Spam e-postalara ne olacak?
 faq-question-availability-question = { -brand-name-relay } hangi ülkelerde kullanılabilir?
 faq-question-availability-answer-v4 = { -brand-name-relay } çoğu ülkede ücretsizdir. { -brand-name-relay-premium } şu anda Avusturya, Bulgaristan, Belçika, Kanada, Hırvatistan, Kıbrıs, Çek Cumhuriyeti, Danimarka, Estonya, Finlandiya, Fransa, Almanya, Yunanistan, Macaristan, İrlanda, İtalya, Letonya, Litvanya, Lüksemburg, Malezya, Malta, Hollanda, Yeni Zelanda, Polonya, Portekiz, Romanya, Singapur, Slovakya, Slovenya, İspanya, İsveç, İsviçre, Birleşik Krallık ve ABD’de mevcuttur.
@@ -55,6 +60,7 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = Bir günde üretilebil
 faq-question-acceptable-use-answer-b-html = Daha fazla bilgi için lütfen <a href="{ $url }" { $attrs }>Hizmet Koşullarımızı</a> inceleyin.
 faq-question-promotional-email-blocking-question = Reklam e-postalarını engelleme nedir?
 faq-question-detect-promotional-question = { -brand-name-relay } bir e-postanın reklam amaçlı olup olmadığını nasıl tespit ediyor?
+faq-question-detect-promotional-answer = Birçok e-posta, liste tabanlı otomatik araçlardan geldiğini gösteren “üst bilgi” meta verileriyle gönderilir. { -brand-name-firefox-relay } bu üst bilgi verilerini algılayarak bu e-postaları engelleyebilir.
 faq-question-disable-trackerremoval-question = E-posta takip kodlarını kaldırmayı durdurabilir miyim?
 faq-question-disable-trackerremoval-answer = Evet. E-postaların bozuk görünmesiyle ilgili sorun yaşıyorsanız veya e-posta takip kodlarını kaldırmayı durdurmak istiyorsanız ayarlardan bu özelliği devre dışı bırakabilirsiniz.
 faq-question-bulk-trackerremoval-question = E-posta takip kodlarını sadece belirli e-posta maskelerimden kaldırabilir miyim?
