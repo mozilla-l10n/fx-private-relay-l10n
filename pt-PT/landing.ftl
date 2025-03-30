@@ -140,12 +140,14 @@ highlighted-features-section-replying-body = O { -brand-name-relay-premium } per
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Bloquear e-mails promocionais
-highlighted-features-section-block-promotions-body = Com o { -brand-name-relay-premium }, pode impedir que as mensagens promocionais cheguem à sua caixa de entrada, enquanto continua a receber e-mails tais como recibos ou informações de envio.
+highlighted-features-section-block-promotions-body =
+    Com o { -brand-name-relay-premium }, pode impedir que as mensagens promocionais cheguem à sua 
+    caixa de entrada, enquanto continua a receber e-mails tais como recibos ou informações de envio.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Remover rastreadores de e-mail
-highlighted-features-section-remove-trackers-body = O { -brand-name-relay } pode remover rastreadores de e-mail comuns de quaisquer e-mails encaminhados para si, ajudando-o a manter-se invisível para rastreadores e anunciantes.
+highlighted-features-section-remove-trackers-body = O { -brand-name-relay } pode remover rastreadores de e-mail comuns de quaisquer e-mails encaminhados para si, ajudando a que se mantenha invisível para rastreadores e anunciantes.
 
 ## REVIEWS SECTION
 
@@ -159,12 +161,12 @@ landing-reviews-rating = de 5 ({ $review_count } comentários)
 landing-reviews-show-next-button = mostrar comentário seguinte
 landing-reviews-show-previous-button = mostrar comentário anterior
 landing-review-anonymous-user = utilizador { -brand-name-firefox } { $user_id }
-landing-review-user-one-review = Eu realmente aprecio a equipa da { -brand-name-mozilla } por ser tão criativa e simplificar a anonimização do meu endereço de email. Esta é uma ótima extensão, eu a recomendável fortemente para os interessados em privacidade!
-landing-review-user-two-review = Ferramenta simples para se livrar ou evitar o spam do seu ID de email.
-landing-review-user-three-review = Adoro esta extensão! Muito simples mas poderoso, e a integração com o navegador é maravilhosa.
+landing-review-user-one-review = Eu realmente aprecio a equipa da { -brand-name-mozilla } por ser tão criativa e simplificar a anonimização do meu endereço de e-mail. Esta é uma ótima extensão, que recomendo fortemente para os interessados em privacidade!
+landing-review-user-two-review = Ferramenta simples para se livrar ou evitar o spam do seu ID de e-mail.
+landing-review-user-three-review = Adoro esta extensão! Muito simples mas poderosa e a integração com o navegador é fantástica.
 landing-review-user-four-review-list-1 = Dá tranquilidade ao navegar na Internet.
-landing-review-user-four-review-list-2 = Protege a identidade dos rastreadores através da geração de pseudónimos, nos quais o utilizador não deseja partilhar o endereço de e-mail real por várias razões.
-landing-review-user-four-review-list-3 = Os dados da caixa de entrada de email estão seguros nas mãos do { -brand-name-firefox-relay }.
+landing-review-user-four-review-list-2 = Protege a identidade, através da geração de pseudónimos, dos rastreadores com os quais o utilizador não deseja partilhar o endereço de e-mail real por vários motivos.
+landing-review-user-four-review-list-3 = Os dados da caixa de entrada de e-mail estão seguros nas mãos do { -brand-name-firefox-relay }.
 landing-review-user-four-review-list-4 = O { -brand-name-firefox-relay } faz maravilhas, experimente!
 
 ## HIGHLIGHTED FEATURES SECTION
