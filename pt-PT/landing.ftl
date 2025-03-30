@@ -55,6 +55,9 @@ how-it-works-section-manage-body = Inicie sessão no seu painel do { -brand-name
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Escolha o nível de proteção certo para si
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
+plan-matrix-offer-body = O { -brand-name-firefox-relay } protege a sua identidade e a sua caixa de entrada com máscaras de e-mail únicas. Adicione ainda mais segurança com a máscara do { -brand-name-relay } para o telemóvel e poupe { $savings } ao adicionar a proteção do { -brand-name-vpn }.
 
 # Top Row Labels
 
