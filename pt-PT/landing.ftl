@@ -72,10 +72,10 @@ plan-matrix-heading-plan-bundle-2 = Adicionar a proteção da { -brand-name-vpn 
 plan-matrix-feature-email-masks = Máscaras de e-mail para proteger o seu endereço de e-mail real
 plan-matrix-feature-browser-extension = Extensão do navegador para utilizar o { -brand-name-relay } em qualquer site
 plan-matrix-feature-email-tracker-removal = Remover rastreadores de e-mail
-plan-matrix-feature-promo-email-blocking = Bloquear mensagens promocionais
+plan-matrix-feature-promo-email-blocking = Bloquear e-mails promocionais
 plan-matrix-feature-email-subdomain = Domínio de e-mail { -brand-name-relay } para criar máscaras em qualquer lugar
 plan-matrix-feature-email-reply = Responder a e-mails anonimamente
-plan-matrix-feature-phone-mask = Máscara de telefone para proteger o seu número de telefone real
+plan-matrix-feature-phone-mask = Máscara telefónica para proteger o seu número de telefone real
 plan-matrix-feature-vpn = Proteção { -brand-name-vpn } da <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Máscaras de e-mail ilimitadas
 
@@ -123,24 +123,24 @@ plan-matrix-your-plan = O seu plano
 highlighted-features-section-unlimited-masks-headline = Crie máscaras de e-mail ilimitadas
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body = Todos recebem { $mask_limit } máscaras de e-mail gratuitamente.  Mas com o { -brand-name-relay-premium }, pode gerar quantas máscaras precisar para ajudar a proteger a sua caixa de entrada de e-mail contra spam, piratas e rastreadores na Internet.
+highlighted-features-section-unlimited-masks-body = Todos recebem { $mask_limit } máscaras de e-mail gratuitamente.  Mas com o { -brand-name-relay-premium }, pode gerar quantas máscaras precisar, para ajudar a proteger a sua caixa de entrada de e-mail contra spam, piratas e rastreadores na Internet.
 
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Crie máscaras instantaneamente em qualquer lugar
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body = O { -brand-name-relay-premium } oferece um domínio de e-mail { -brand-name-relay } único para que possa criar instantaneamente novas máscaras em qualquer lugar que esteja. Basta adicionar qualquer palavra ou frase antes do símbolo @. Numa sala de estar? Utilizar website@yourdomain.{ $mozmail }.  Compras? Experimente a loja@oseudomínio.{ $mozmail }.
+highlighted-features-section-masks-on-the-go-body = O { -brand-name-relay-premium } oferece um domínio de e-mail { -brand-name-relay } único para que possa criar instantaneamente novas máscaras onde quer que esteja. Basta adicionar qualquer palavra ou frase antes do símbolo @. Numa sala de estar? Utilizar site@oseudominio.{ $mozmail }.  Compras? Experimente a loja@oseudominio.{ $mozmail }.
 
 # Item 3
 
-highlighted-features-section-replying-headline = Responder a emails e mensagens anonimamente
-highlighted-features-section-replying-body = O { -brand-name-relay-premium } permite que responda às mensagens da sua conta de e-mail mascarada, para que os remetentes nunca saibam o seu endereço de e-mail real. Com a máscara de telefone, pode responder a mensagens de texto do seu número de telefone mascarado para proteger o seu número real.
+highlighted-features-section-replying-headline = Responder a e-mails e mensagens anonimamente
+highlighted-features-section-replying-body = O { -brand-name-relay-premium } permite que responda às mensagens da sua conta de e-mail mascarada, para que os remetentes nunca saibam o seu endereço de e-mail real. Com a máscara telefónica, pode responder a mensagens de texto do seu número de telefone mascarado para proteger o seu número real.
 
 # Item 4
 
-highlighted-features-section-block-promotions-headline = Bloquear mensagens promocionais
-highlighted-features-section-block-promotions-body = Com o { -brand-name-relay-premium }, pode bloquear as mensagens promocionais de chegarem à sua caixa de entrada, enquanto ainda recebe e-mails tais como recibos ou informações de envio.
+highlighted-features-section-block-promotions-headline = Bloquear e-mails promocionais
+highlighted-features-section-block-promotions-body = Com o { -brand-name-relay-premium }, pode impedir que as mensagens promocionais cheguem à sua caixa de entrada, enquanto continua a receber e-mails tais como recibos ou informações de envio.
 
 # Item 5
 
