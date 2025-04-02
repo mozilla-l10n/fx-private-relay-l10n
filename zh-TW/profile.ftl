@@ -9,7 +9,6 @@ onboarding-headline-2 = 建立您的第一組轉寄信箱
 onboarding-alias-tip-1-2 = 點擊「產生新轉寄信箱」來建立您的第一組轉寄信箱。
 onboarding-alias-tip-2 = 使用 { -brand-name-relay } 擴充套件，當郵件欄位顯示 { -brand-name-firefox-relay } 圖示時，選擇該圖示。
 onboarding-alias-tip-3-2 = 使用 { -brand-name-relay } 擴充套件，對表單欄位按右鍵，然後選擇「建立新轉寄信箱」。
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>歡迎，</span>{ $email }！
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } 轉寄信箱
 profile-label-delete = 刪除
 profile-label-upgrade-2 = 取得無限量轉寄信箱
 profile-label-custom-domain = 您的 { -brand-name-relay } 郵件網域：
-# Deprecated
 profile-label-set-your-custom-domain = 設定您的 { -brand-name-relay } 專屬郵件網域
 profile-label-reset = 重設
 profile-label-apply = 套用
 profile-label-continue = 繼續
-
 # This string is followed by an email address
 profile-label-forward-emails = 轉寄郵件到：
-
 # This string is followed by date:
 profile-label-created = 建立於：
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = 點擊複製
 profile-label-copied = 已複製！
 profile-label-blocked = 封鎖
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } 不會�
 profile-promo-email-blocking-description-none-3 = 所有寄到這個轉寄信箱的郵件，都會轉寄到您的實際信箱。
 # Deprecated
 profile-promo-email-blocking-label-promotionals = 封鎖行銷郵件
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = 封鎖行銷郵件
 # Deprecated
 profile-promo-email-blocking-label-none = 封鎖全部
@@ -127,4 +123,4 @@ profile-maxed-aliases-without-phone-header = 最大化您的 { -brand-name-relay
 profile-maxed-aliases-with-phone-description = 您的免費 { -brand-name-relay } 帳號中的 { $limit } 組轉寄信箱數量已達 { -brand-name-relay } 的上限。請升級到 { -brand-name-relay-premium } 即可獲得無限量轉寄信箱與手機號碼保護功能。
 profile-maxed-aliases-without-phone-description = 您的免費 { -brand-name-relay } 帳號中的 { $limit } 組轉寄信箱數量已達 { -brand-name-relay } 的上限。請升級到 { -brand-name-relay-premium } 即可獲得無限量轉寄信箱。
 profile-maxed-aliases-cta = 升級到 { -brand-name-premium }
-profile-label-set-your-custom-domain-free-user = 在  { -brand-name-premium } 使用您自己的郵件網域
+profile-label-set-your-custom-domain-free-user = 在  { -brand-name-premium } 版使用您自己的郵件網域

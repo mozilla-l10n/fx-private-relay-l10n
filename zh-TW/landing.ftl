@@ -135,7 +135,7 @@ highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium 
 # Item 3
 
 highlighted-features-section-replying-headline = 匿名回覆電子郵件與簡訊
-highlighted-features-section-replying-body = { -brand-name-relay-premium } 讓您可以直接從轉寄信箱回信，寄件者永遠無法知道您的實際信箱。您也可以直接回覆透過虛擬手機號碼轉接功能接收到的簡訊，以保護您的實際號碼。
+highlighted-features-section-replying-body = 您可以在 { -brand-name-relay-premium } 直接從轉寄信箱回信，寄件者永遠無法知道您的實際信箱。您也可以直接回覆透過虛擬手機號碼轉接功能接收到的簡訊，以保護您的實際號碼。
 
 # Item 4
 
