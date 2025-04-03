@@ -34,6 +34,7 @@ faq-question-2-question-2 = Bir site neden { -brand-name-relay } e-posta maskemi
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Bazı siteler alt alan adı (@subdomain.mozmail.com) içeren e-posta adreslerini kabul etmeyebilir ve bazıları da Gmail, Hotmail veya Yahoo hesapları dışındaki tüm adresleri kabul etmeyi bırakmıştır.
 faq-question-1-question = Spam e-postalara ne olacak?
+faq-question-1-answer-a-2 = { -brand-name-relay }’in spam filtresi yoktur ama e-posta ortağımız Amazon SES, spam mesajları ve kötü amaçlı yazılımları engeller. { -brand-name-relay } istemediğiniz mesajları size iletirse { -brand-name-relay } ayarlarınızı güncelleyerek onları ileten maskeyi engelleyebilirsiniz.
 faq-question-availability-question = { -brand-name-relay } hangi ülkelerde kullanılabilir?
 faq-question-availability-answer-v4 = { -brand-name-relay } çoğu ülkede ücretsizdir. { -brand-name-relay-premium } şu anda Avusturya, Bulgaristan, Belçika, Kanada, Hırvatistan, Kıbrıs, Çek Cumhuriyeti, Danimarka, Estonya, Finlandiya, Fransa, Almanya, Yunanistan, Macaristan, İrlanda, İtalya, Letonya, Litvanya, Lüksemburg, Malezya, Malta, Hollanda, Yeni Zelanda, Polonya, Portekiz, Romanya, Singapur, Slovakya, Slovenya, İspanya, İsveç, İsviçre, Birleşik Krallık ve ABD’de mevcuttur.
 faq-question-4-question-2 = { -brand-name-relay } e-posta maskemi kullanarak e-postalara cevap verebilir miyim?
