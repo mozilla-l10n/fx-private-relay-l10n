@@ -107,6 +107,7 @@ plan-matrix-price-vpn-discount-promo = Normal { -brand-name-vpn } fiyatından <s
 plan-matrix-sign-up = Kaydol
 plan-matrix-get-relay-cta = { -brand-name-relay }’i dene
 plan-matrix-join-waitlist = Bekleme listesine katıl
+plan-matrix-your-plan = Planınız
 
 # Item 1
 
