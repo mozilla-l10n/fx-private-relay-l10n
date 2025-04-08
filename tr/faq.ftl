@@ -61,6 +61,7 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = Bir günde üretilebil
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Daha fazla bilgi için lütfen <a href="{ $url }" { $attrs }>Hizmet Koşullarımızı</a> inceleyin.
 faq-question-promotional-email-blocking-question = Reklam e-postalarını engelleme nedir?
+faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } aboneleri reklam e-postalarını engellemeyi etkinleştirebilir. Bu özellik sayesinde faturalar, parola sıfırlamaları ve onaylar gibi önemli e-postalar size ulaşmaya devam ederken pazarlama iletileri engellenir. Ancak küçük bir ihtimalle de olsa önemli iletiler de engellenebilir. Bu yüzden çok önemli yerlerde (örn. bankanız) bu özelliği kullanmanızı önermiyoruz. Engellenen e-postalar sonradan kurtarılamaz.
 faq-question-detect-promotional-question = { -brand-name-relay } bir e-postanın reklam amaçlı olup olmadığını nasıl tespit ediyor?
 faq-question-detect-promotional-answer = Birçok e-posta, liste tabanlı otomatik araçlardan geldiğini gösteren “üst bilgi” meta verileriyle gönderilir. { -brand-name-firefox-relay } bu üst bilgi verilerini algılayarak bu e-postaları engelleyebilir.
 faq-question-disable-trackerremoval-question = E-posta takip kodlarını kaldırmayı durdurabilir miyim?

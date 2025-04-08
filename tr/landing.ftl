@@ -124,6 +124,7 @@ highlighted-features-section-replying-headline = E-postaları ve SMS’leri anon
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Reklam e-postalarını engelleme
+highlighted-features-section-block-promotions-body = { -brand-name-relay-premium } ile reklam e-postalarının gelen kutunuza ulaşmasını engellerken fatura, kargo bilgisi gibi e-postaların hâlâ size ulaşmasını sağlayabilirsiniz.
 
 # Item 5
 

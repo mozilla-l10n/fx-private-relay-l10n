@@ -98,6 +98,7 @@ contains-tracker-description =
     gözetim araçlarıdır. Gizliliğinizi korumak için bu takip kodunu { $datetime } tarihinde <u>{ $sender }</u> 
     tarafından gönderilen e-postadan kaldırdık.
 contains-tracker-warning-title = Bağlantıyı yine de görüntülemek istiyor musunuz?
+contains-tracker-warning-description = Uyarı: Bu bağlantıya tıkladığınızda karşı tarafa sizinle ilgili bilgiler gönderilecektir
 contains-tracker-warning-view-link-cta = Evet, bağlantıyı göster
 contains-tracker-faq-section-title = E-posta takip kodlarıyla ilgili sık sorulan sorular
 # Time remaining until Relay Premium's introductory pricing is no longer available.

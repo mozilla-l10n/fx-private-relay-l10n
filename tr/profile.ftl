@@ -8,7 +8,6 @@
 onboarding-headline-2 = İlk e-posta maskenizi oluşturun
 onboarding-alias-tip-1-2 = İlk e-posta maskenizi oluşturmak için “Yeni maske oluştur”u seçin.
 onboarding-alias-tip-3-2 = { -brand-name-relay } uzantısını kullanarak form alanlarına sağ tıklayıp “Yeni maske oluştur”u seçin.
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Merhaba</span> { $email }!
@@ -31,18 +30,15 @@ profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } maskesi
 profile-label-delete = Sil
 profile-label-upgrade-2 = Sınırsız e-posta maskesi alın
 profile-label-custom-domain = { -brand-name-relay } e-posta alan adınız:
-# Deprecated
 profile-label-set-your-custom-domain = Benzersiz { -brand-name-relay } e-posta alan adınızı ayarlayın
 profile-label-reset = Sıfırla
 profile-label-apply = Uygula
 profile-label-continue = İleri
-
 # This string is followed by an email address
 profile-label-forward-emails = Yönlendirilecek adres:
-
 # This string is followed by date:
 profile-label-created = Oluşturma:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Kopyalamak için tıkla
 profile-label-copied = Kopyalandı
 profile-label-blocked = engellendi
@@ -95,12 +91,13 @@ profile-promo-email-blocking-option-promotions = Reklamlar
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Hiçbiri
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } bu maskeye gönderilen tüm e-postaları engelliyor.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay }, fatura ve kargo bilgisi gibi e-postaları size iletirken reklam e-postalarını engellemeye çalışacaktır.
 # Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } bu maskeye gönderilen e-postaları engellemiyor.
 profile-promo-email-blocking-description-none-3 = Bu maskeye gönderilen tüm e-postalar gerçek adresinize yönlendirilecektir.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Reklamları engelle
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Reklam e-postaları engelleniyor
 # Deprecated
 profile-promo-email-blocking-label-none = Tümünü engelle
