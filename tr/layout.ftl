@@ -6,7 +6,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
-
+meta-description-2 = { -brand-name-firefox-relay }, iletilerinizi gelen kutunuza yönlendiren e-posta maskeleri oluşturmanızı kolaylaştırır. Hesaplarınızı hacker’lardan ve istenmeyen iletilerden korumak için bu maskeleri kullanabilirsiniz.
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Yeni sekmede açılır)
 
@@ -20,7 +20,6 @@ nav-email-dashboard = E-posta maskeleri
 nav-phone-dashboard = Telefon maskeleri
 label-open-menu = Menüyü aç
 avatar-tooltip = Profil
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = SSS
 nav-profile-sign-in = Giriş yap
@@ -53,7 +52,6 @@ nav-support = Yardım ve destek
 nav-sign-out = Çıkış yap
 nav-contact = Bize ulaşın
 nav-menu-mobile = Mobil menü
-
 fx-desktop-2 = Bilgisayarlar için { -brand-name-firefox }
 fx-mobile-2 = Mobil cihazlar için { -brand-name-firefox }
 
@@ -74,4 +72,3 @@ fx-mobile = Mobil cihazlar için { -brand-name-firefox-browser }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

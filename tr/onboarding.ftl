@@ -7,6 +7,7 @@
 
 multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium }’a hoş geldiniz
 multi-part-onboarding-premium-welcome-subheadline-2 = { -brand-name-premium } hesabınızı en iyi şekilde kullanabilmeniz için ilk ayarları yapalım.
+multi-part-onboarding-premium-welcome-feature-headline = { -brand-name-firefox-relay-premium } ile şunları yapabilirsiniz:
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Sınırsız e-posta maskesi
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Her site için benzersiz bir maskeyle gizliliğinizi ve güvenliğinizi artırın
 multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = İstediğiniz yerde anında maske oluşturun
@@ -39,7 +40,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = { -brand-name-relay } 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } uzantısı eklendi!
-
 multi-part-onboarding-premium-extension-button-dashboard = Kontrol paneline git
 multi-part-onboarding-skip = Atla, bunu daha sonra kuracağım
 multi-part-onboarding-skip-download-extension = Atla, uzantıyı daha sonra indireceğim
@@ -50,5 +50,4 @@ multi-part-onboarding-continue = İleri
 multi-part-onboarding-reply-headline = E-postalarınızı yanıtlayın
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } ile şunları yapabilirsiniz:
 multi-part-onboarding-premium-reply-description = E-postaları gerçek adresinizi paylaşmadan yanıtlayın
-
 multi-part-onboarding-step-counter = Adım { $step }/{ $max }.

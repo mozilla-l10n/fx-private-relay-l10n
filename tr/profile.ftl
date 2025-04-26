@@ -7,6 +7,7 @@
 
 onboarding-headline-2 = İlk e-posta maskenizi oluşturun
 onboarding-alias-tip-1-2 = İlk e-posta maskenizi oluşturmak için “Yeni maske oluştur”u seçin.
+onboarding-alias-tip-2 = { -brand-name-relay } uzantısını kullanırken e-posta alanlarında { -brand-name-firefox-relay } simgesi belirdiğinde ona tıklayın.
 onboarding-alias-tip-3-2 = { -brand-name-relay } uzantısını kullanarak form alanlarına sağ tıklayıp “Yeni maske oluştur”u seçin.
 # Variables:
 #   $email (string) - User email address
@@ -119,5 +120,7 @@ profile-promo-email-blocking-description-promotionals-locked-close = Kapat
 profile-maxed-aliases-tooltip = { $limit } maskenizin hepsini kullandınız. Bu maskeleri farklı yerlerde yeniden kullanabilirsiniz ama her hesap için ayrı bir maske kullanmak en güvenli seçenektir.
 profile-maxed-aliases-with-phone-header = E-posta ve telefon korumanızı en üst seviyeye çıkarın
 profile-maxed-aliases-without-phone-header = { -brand-name-relay } e-posta korumanızı en üst seviyeye çıkarın
+profile-maxed-aliases-with-phone-description = Ücretsiz { -brand-name-relay } hesabınızdaki { $limit } maske sınırınıza ulaştınız. Sınırsız e-posta maskesi ve telefon numaranızı koruma özelliği için { -brand-name-relay-premium }’a geçebilirsiniz.
+profile-maxed-aliases-without-phone-description = Ücretsiz { -brand-name-relay } hesabınızdaki { $limit } maske sınırınıza ulaştınız. Sınırsız e-posta maskesi için { -brand-name-relay-premium }’a geçebilirsiniz.
 profile-maxed-aliases-cta = { -brand-name-premium }’a yükseltin
 profile-label-set-your-custom-domain-free-user = { -brand-name-premium } ile kendi e-posta alan adınızı oluşturun
