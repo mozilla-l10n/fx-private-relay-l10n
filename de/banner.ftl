@@ -101,7 +101,9 @@ holiday-promo-banner-promo-expiry = Angebot endet am 31. Dezember 2023
 
 upsell-banner-4-masks-button-close-label = Schließen
 upsell-banner-4-masks-us-heading = Holen Sie sich den bestmöglichen Schutz für Ihre E-Mail-Adresse und Ihr Telefon
+upsell-banner-4-masks-us-heading-2 = Holen Sie sich den bestmöglichen für Ihre E-Mail-Adresse
 upsell-banner-4-masks-non-us-heading = Holen Sie sich den bestmöglichen für Ihre E-Mail-Adresse
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } bietet Ihnen eine Telefonnummer-Maske zum Schutz Ihrer echten Nummer – plus unbegrenzte E-Mail-Masken und die Möglichkeit, Werbe-E-Mails zu blockieren.
+upsell-banner-4-masks-us-description-2 = Schalten Sie unbegrenzt viele E-Mail-Masken frei, antworten Sie direkt darüber und erstellen Sie sofort neue Masken mit Ihrer eigenen { -brand-name-relay }-Subdomain – immer und überall.
 upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } bietet unbegrenzte E-Mail-Masken, Spam-Blocker, eine benutzerdefinierte { -brand-name-relay }-E-Mail-Domain und die Möglichkeit, auf weitergeleitete Nachrichten zu antworten.
 upsell-banner-4-masks-us-cta = Machen Sie das Upgrade auf { -brand-name-relay-premium }
