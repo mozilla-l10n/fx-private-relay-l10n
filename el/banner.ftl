@@ -6,9 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Απόρριψη
-
 banner-bounced-headline = Το { -brand-name-relay } δεν μπόρεσε να παραδώσει το email σας.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -27,10 +25,6 @@ banner-download-install-chrome-extension-headline = Δοκιμάστε το { -b
 banner-download-install-chrome-extension-copy-2 = Η επέκταση { -brand-name-firefox-relay } για το { -brand-name-chrome } κάνει ακόμα ευκολότερη τη χρήση μασκών.
 banner-download-install-chrome-extension-cta = Λήψη της επέκτασης { -brand-name-relay }
 banner-upgrade-cta = Αναβάθμιση στο { -brand-name-relay-premium }
-
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
-
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 =
@@ -39,11 +33,11 @@ banner-register-subdomain-copy-2 =
     «estiatorio@otomeassas.{ $mozmail }» στο εστιατόριο. Όλες οι μάσκες του
     προσαρμοσμένου υποτομέα σας θα προωθούνται σε εσάς.
 banner-pack-upgrade-cta = Αναβάθμιση τώρα
-
-
+# Data Notification Banner:
 banner-label-data-notification-body-cta = Μάθετε περισσότερα
 
 # Relay Premium Promo A/B Test
+
 
 ## Set domain banner
 
@@ -64,7 +58,6 @@ banner-set-email-domain-input-search = Αναζήτηση
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = otomeassas
 banner-set-email-domain-learn-more = Μάθετε περισσότερα
-
 modal-email-domain-good-news = Καλά νέα!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -84,7 +77,6 @@ modal-email-domain-success-headline-any-word = Δημιουργήστε απερ
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Κάνετε αγορές; Χρησιμοποιήστε το katasthma{ $custom_domain_full }.
-
 tooltip-email-domain-explanation-title = Σχετικά με τον μοναδικό τομέα email σας στο { -brand-name-relay }
 tooltip-email-domain-explanation-part-one = Με αυτήν την πολύτιμη λειτουργία του λογαριασμού σας στο { -brand-name-relay-premium }, μπορείτε να επιλέξτε έναν μοναδικό τομέα email στο { -brand-name-relay }, τον οποίο μπορείτε να χρησιμοποιήσετε για τη δημιουργία απεριόριστων, προσαρμοσμένων μασκών { -brand-name-relay } εν κινήσει.
 tooltip-email-domain-explanation-part-two = Δεν χρειάζεται να συνδεθείτε στο { -brand-name-relay } για να δημιουργήσετε μια νέα μάσκα. Προσθέστε απλώς οποιαδήποτε λέξη ή φράση πριν από το σύμβολο «@» του τομέα email σας στο { -brand-name-relay } για να δημιουργηθεί αμέσως μια νέα μάσκα, όπου κι αν βρίσκεστε.
@@ -105,7 +97,7 @@ holiday-promo-banner-code-usage = Χρησιμοποιήστε τον κωδικ
 holiday-promo-banner-cta-button = Αποκτήστε το { -brand-name-premium } για 1 έτος
 holiday-promo-banner-promo-expiry = Η προσφορά λήγει στις 31 Δεκεμβρίου 2023
 
-## 4-mask upsell banner 
+## 4-mask upsell banner
 
 upsell-banner-4-masks-button-close-label = Κλείσιμο
 upsell-banner-4-masks-us-heading = Λάβετε τη μέγιστη προστασία για email και τηλέφωνο

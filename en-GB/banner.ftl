@@ -6,9 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Dismiss
-
 banner-bounced-headline = { -brand-name-relay } couldn’t deliver your email.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -27,10 +25,6 @@ banner-download-install-chrome-extension-headline = Try { -brand-name-relay } fo
 banner-download-install-chrome-extension-copy-2 = The { -brand-name-firefox-relay } extension for { -brand-name-chrome } makes creating and using masks even easier.
 banner-download-install-chrome-extension-cta = Get the { -brand-name-relay } extension
 banner-upgrade-cta = Upgrade to { -brand-name-relay-premium }
-
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
-
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 =
@@ -39,11 +33,11 @@ banner-register-subdomain-copy-2 =
     “restaurant@yourdomain.{ $mozmail }” to the restaurant. Any mask using your
     custom subdomain will be forwarded to you.
 banner-pack-upgrade-cta = Upgrade Now
-
-
+# Data Notification Banner:
 banner-label-data-notification-body-cta = Learn More
 
 # Relay Premium Promo A/B Test
+
 
 ## Set domain banner
 
@@ -64,7 +58,6 @@ banner-set-email-domain-input-search = Search
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = yourdomain
 banner-set-email-domain-learn-more = Learn more
-
 modal-email-domain-good-news = Good news!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -84,7 +77,6 @@ modal-email-domain-success-headline-any-word = Create unlimited masks by adding 
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Shopping? Use store{ $custom_domain_full }.
-
 tooltip-email-domain-explanation-title = About your unique { -brand-name-relay } Email Domain
 tooltip-email-domain-explanation-part-one = This valuable feature of your { -brand-name-relay-premium } account lets you choose a unique { -brand-name-relay } email domain that you can use to create unlimited, custom { -brand-name-relay } masks on the go.
 tooltip-email-domain-explanation-part-two = There’s no need to sign into { -brand-name-relay } to generate a new mask; Simply add any word or phrase before the @ symbol of your { -brand-name-relay } email domain to instantly create a new mask anywhere you are.
@@ -105,7 +97,7 @@ holiday-promo-banner-code-usage = Use code <coupon>{ $couponCode }</coupon> at c
 holiday-promo-banner-cta-button = Get 1 year of { -brand-name-premium }
 holiday-promo-banner-promo-expiry = offer ends 31st Dec 2023
 
-## 4-mask upsell banner 
+## 4-mask upsell banner
 
 upsell-banner-4-masks-button-close-label = Close
 upsell-banner-4-masks-us-heading = Get maximum email and phone protection

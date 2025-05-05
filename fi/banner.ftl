@@ -6,9 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Hylkää
-
 banner-bounced-headline = { -brand-name-relay } ei voinut toimittaa sähköpostiasi.
-
 banner-download-firefox-headline = { -brand-name-relay } on entistä parempi { -brand-name-firefox }issa
 banner-download-firefox-copy-2 = { -brand-name-firefox-browser } ja sen { -brand-name-relay }-laajennus tekevät maskien luomisesta helpompaa kuin koskaan.
 banner-download-firefox-cta = Hanki { -brand-name-firefox }
@@ -19,16 +17,12 @@ banner-download-install-chrome-extension-headline = Kokeile { -brand-name-relay 
 banner-download-install-chrome-extension-copy-2 = { -brand-name-firefox-relay } -laajennus { -brand-name-chrome }lle tekee sähköpostimaskien luomisesta ja käyttämisestä entistäkin helpompaa.
 banner-download-install-chrome-extension-cta = Hanki { -brand-name-relay }-laajennus
 banner-upgrade-cta = Päivitä { -brand-name-relay-premium }iin
-
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
-
 banner-pack-upgrade-cta = Päivitä nyt
-
-
+# Data Notification Banner:
 banner-label-data-notification-body-cta = Lue lisää
 
 # Relay Premium Promo A/B Test
+
 
 ## Set domain banner
 
@@ -48,7 +42,6 @@ banner-set-email-domain-input-search = Hae
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = verkkotunnuksesi
 banner-set-email-domain-learn-more = Lue lisää
-
 modal-email-domain-good-news = Hyviä uutisia!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -68,7 +61,6 @@ modal-email-domain-success-headline-any-word = Luo rajattomasti maskeja lisääm
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Ostoksilla? Käytä kauppa{ $custom_domain_full }.
-
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
@@ -83,7 +75,7 @@ holiday-promo-banner-code-usage = Käytä koodia <coupon>{ $couponCode }</coupon
 holiday-promo-banner-cta-button = Hanki 1 vuosi { -brand-name-premium }ia
 holiday-promo-banner-promo-expiry = tarjous päättyy 31.12.2023
 
-## 4-mask upsell banner 
+## 4-mask upsell banner
 
 upsell-banner-4-masks-button-close-label = Sulje
 upsell-banner-4-masks-us-cta = Päivitä { -brand-name-relay-premium }iin

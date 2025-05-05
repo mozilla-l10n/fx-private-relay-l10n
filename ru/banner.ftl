@@ -6,9 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Пропустить
-
 banner-bounced-headline = { -brand-name-relay } не удалось доставить вашу электронную почту.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -27,10 +25,6 @@ banner-download-install-chrome-extension-headline = Попробуйте { -bran
 banner-download-install-chrome-extension-copy-2 = Расширение { -brand-name-firefox-relay } для { -brand-name-chrome } делает создание и использование псевдонимов ещё проще.
 banner-download-install-chrome-extension-cta = Получить расширение { -brand-name-relay }
 banner-upgrade-cta = Перейти на { -brand-name-relay-premium }
-
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
-
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 =
@@ -39,11 +33,11 @@ banner-register-subdomain-copy-2 =
     «restaurant@yourdomain.{ $mozmail }» для ресторана. Любой псевдоним с вашим
     собственным поддоменом принадлежит вам.
 banner-pack-upgrade-cta = Перейти сейчас
-
-
+# Data Notification Banner:
 banner-label-data-notification-body-cta = Подробнее
 
 # Relay Premium Promo A/B Test
+
 
 ## Set domain banner
 
@@ -64,7 +58,6 @@ banner-set-email-domain-input-search = Поиск
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = вашдомен
 banner-set-email-domain-learn-more = Узнать больше
-
 modal-email-domain-good-news = Хорошие новости!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -84,7 +77,6 @@ modal-email-domain-success-headline-any-word = Создавайте неогра
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Покупка товаров? Используйте магазин{ $custom_domain_full }.
-
 tooltip-email-domain-explanation-title = О вашем уникальном доменt электронной почты { -brand-name-relay }
 tooltip-email-domain-explanation-part-one = Эта ценная функция вашего аккаунта { -brand-name-relay-premium } позволяет вам выбрать уникальный домен электронной почты { -brand-name-relay }, который вы можете использовать для создания неограниченного количества пользовательских псевдонимов { -brand-name-relay } на ходу.
 tooltip-email-domain-explanation-part-two = Нет необходимости входить в { -brand-name-relay }, чтобы создать новый псевдоним; Просто добавьте любое слово или фразу перед символом @ вашего домена электронной почты { -brand-name-relay }, чтобы мгновенно создать новый псевдоним, где бы вы ни находились.
@@ -105,7 +97,7 @@ holiday-promo-banner-code-usage = Используйте код <coupon>{ $coupo
 holiday-promo-banner-cta-button = Получите 1 год подписки { -brand-name-premium }
 holiday-promo-banner-promo-expiry = предложение заканчивается 31 декабря 2023 г.
 
-## 4-mask upsell banner 
+## 4-mask upsell banner
 
 upsell-banner-4-masks-button-close-label = Закрыть
 upsell-banner-4-masks-us-heading = Получите максимальную защиту телефона и электронной почты

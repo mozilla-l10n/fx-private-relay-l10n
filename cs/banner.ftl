@@ -6,9 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Ne, děkuji
-
 banner-bounced-headline = Služba { -brand-name-relay } nemohla doručit váš e-mail.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -27,19 +25,15 @@ banner-download-install-chrome-extension-headline = Vyzkoušejte { -brand-name-r
 banner-download-install-chrome-extension-copy-2 = Rozšíření { -brand-name-firefox-relay } pro { -brand-name-chrome(case: "acc") } ještě více usnadňuje vytváření a používání masek.
 banner-download-install-chrome-extension-cta = Pořiďte si rozšíření { -brand-name-relay }
 banner-upgrade-cta = Upgradovat na { -brand-name-relay-premium }
-
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
-
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 = S vlastní subdoménou můžete sdílet masky, které není třeba před jejich použitím generovat. Potřebujete rezervovat stůl v restauraci? Použijte „restaurace@vaše-doména.{ $mozmail }“. Každá maska používající vaši vlastní subdoménu vám bude následně přeposlána.
 banner-pack-upgrade-cta = Upgradujte
-
-
+# Data Notification Banner:
 banner-label-data-notification-body-cta = Zjistit více
 
 # Relay Premium Promo A/B Test
+
 
 ## Set domain banner
 
@@ -60,7 +54,6 @@ banner-set-email-domain-input-search = Vyhledat
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = vaše-doména
 banner-set-email-domain-learn-more = Zjistěte více
-
 modal-email-domain-good-news = Dobré zprávy!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -80,7 +73,6 @@ modal-email-domain-success-headline-any-word = Vytvořte neomezené množství m
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Nakupování? Použijte obchod{ $custom_domain_full }.
-
 tooltip-email-domain-explanation-title = O vaší jedinečné e-mailové doméně { -brand-name-relay }
 tooltip-email-domain-explanation-part-one = Tato cenná funkce vašeho účtu { -brand-name-relay-premium } vám umožňuje vybrat si jedinečnou e-mailovou doménu { -brand-name-relay }, kterou můžete použít k vytváření neomezených vlastních masek { -brand-name-relay }, ať jste kdekoliv.
 tooltip-email-domain-explanation-part-two = Pro vygenerování nové masky se nemusíte přihlašovat do služby { -brand-name-relay }. Stačí přidat libovolné slovo nebo frázi před symbol @ vaší e-mailové domény služby { -brand-name-relay } a okamžitě vytvoříte novou masku, ať jste kdekoli.
@@ -101,7 +93,7 @@ holiday-promo-banner-code-usage = Při placení použijte kód <coupon>{ $coupon
 holiday-promo-banner-cta-button = Získat { -brand-name-premium } na 1 rok
 holiday-promo-banner-promo-expiry = nabídka končí 31. prosince 2023
 
-## 4-mask upsell banner 
+## 4-mask upsell banner
 
 upsell-banner-4-masks-button-close-label = Zavřít
 upsell-banner-4-masks-us-heading = Získejte maximální ochranu e-mailu a telefonu

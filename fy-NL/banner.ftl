@@ -6,9 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Slute
-
 banner-bounced-headline = { -brand-name-relay } kin jo e-mail net besoargje.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -27,10 +25,6 @@ banner-download-install-chrome-extension-headline = Probearje { -brand-name-rela
 banner-download-install-chrome-extension-copy-2 = De { -brand-name-firefox-relay }-útwreiding foar { -brand-name-chrome } makket it gebrûk fan maskers noch ienfâldiger.
 banner-download-install-chrome-extension-cta = De { -brand-name-relay }-útwreiding downloade
 banner-upgrade-cta = Opwurdearje nei { -brand-name-relay-premium }
-
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
-
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 =
@@ -39,11 +33,11 @@ banner-register-subdomain-copy-2 =
     ‘restaurant@jodomein.{ $mozmail }’ oan it restaurant. Elk masker dy’t jo oanpaste
     subdomein brûkt wurdt nei jo trochstjoerd.
 banner-pack-upgrade-cta = No opwurdearje
-
-
+# Data Notification Banner:
 banner-label-data-notification-body-cta = Mear ynfo
 
 # Relay Premium Promo A/B Test
+
 
 ## Set domain banner
 
@@ -64,7 +58,6 @@ banner-set-email-domain-input-search = Sykje
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = jodomein
 banner-set-email-domain-learn-more = Mear ynfo
-
 modal-email-domain-good-news = Goed nijs!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -84,7 +77,6 @@ modal-email-domain-success-headline-any-word = Meitsje ûnbeheind maskers oan tr
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Winkelje? Brûk winkel{ $custom_domain_full }.
-
 tooltip-email-domain-explanation-title = Oer jo unike { -brand-name-relay }-e-maildomein
 tooltip-email-domain-explanation-part-one = Mei dizze weardefolle funksje fan jo { -brand-name-relay-premium }-account kinne jo in unyk { -brand-name-relay }-e-maildomein kieze dat jo brûke kinne om ûnderweis ûnbeheinde, oanpaste { -brand-name-relay }-maskers oan te meitsjen.
 tooltip-email-domain-explanation-part-two = Jo hoege jo net oan te melden by { -brand-name-relay } om in nij masker oan te meitsjen; foegje gewoan in wurd of wurdgroep ta foar it @-symboal fan jo { -brand-name-relay }-e-maildomein om daliks in nij masker te meitsjen, wêr’t jo ek binne.
@@ -105,7 +97,7 @@ holiday-promo-banner-code-usage = Brûk koade <coupon>{ $couponCode }</coupon> b
 holiday-promo-banner-cta-button = Untfang 1 jier { -brand-name-premium }
 holiday-promo-banner-promo-expiry = oanbieding einiget op 31 desimber 2023
 
-## 4-mask upsell banner 
+## 4-mask upsell banner
 
 upsell-banner-4-masks-button-close-label = Slute
 upsell-banner-4-masks-us-heading = Untfang maksimale e-mail- en telefoanbeskerming

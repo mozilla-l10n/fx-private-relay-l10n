@@ -6,9 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Eltüntetés
-
 banner-bounced-headline = A { -brand-name-relay } nem tudta kézbesíteni a levelet.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -27,10 +25,6 @@ banner-download-install-chrome-extension-headline = Próbálja ki a { -brand-nam
 banner-download-install-chrome-extension-copy-2 = A { -brand-name-chrome }-hoz készült { -brand-name-firefox-relay } kiegészítő még könnyebbé teszi a maszkok létrehozását és használatát.
 banner-download-install-chrome-extension-cta = A { -brand-name-relay } kiegészítő beszerzése
 banner-upgrade-cta = Frissítés a { -brand-name-relay-premium }ra
-
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
-
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 =
@@ -39,11 +33,11 @@ banner-register-subdomain-copy-2 =
     „etterem@yourdomain.{ $mozmail }” címet az étteremnek. Minden olyan maszk, amely az
     egyéni aldomainját használja, továbbítva lesz Önnek.
 banner-pack-upgrade-cta = Frissítés most
-
-
+# Data Notification Banner:
 banner-label-data-notification-body-cta = További tudnivalók
 
 # Relay Premium Promo A/B Test
+
 
 ## Set domain banner
 
@@ -64,7 +58,6 @@ banner-set-email-domain-input-search = Keresés
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = sajatdomain
 banner-set-email-domain-learn-more = További tudnivalók
-
 modal-email-domain-good-news = Jó hírek!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -84,7 +77,6 @@ modal-email-domain-success-headline-any-word = Hozzon létre korlátlan számú 
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Bevásárlás? Használja a bolt{ $custom_domain_full } címet.
-
 tooltip-email-domain-explanation-title = Az Ön egyedi { -brand-name-relay } e-mail domainjének névjegye
 tooltip-email-domain-explanation-part-one = A { -brand-name-relay-premium } fiókjának ezen értékes funkciója lehetővé teszi, hogy egyedi { -brand-name-relay } e-mail-domaint válasszon, amellyel korlátlan számú egyéni { -brand-name-relay } maszkot hozhat létre útközben.
 tooltip-email-domain-explanation-part-two = Új maszk létrehozásához nem szükséges bejelentkezni a { -brand-name-relay }be; Egyszerűen adjon hozzá bármilyen szót vagy kifejezést { -brand-name-relay } e-mail-domainjének @ szimbóluma elé, hogy azonnal létrehozzon egy új maszkot, bárhol is legyen.
@@ -105,7 +97,7 @@ holiday-promo-banner-code-usage = Használja a <coupon>{ $couponCode }</coupon> 
 holiday-promo-banner-cta-button = Kapjon 1 év { -brand-name-premium }ot
 holiday-promo-banner-promo-expiry = Az ajánlat 2023. december 31-ig érvényes
 
-## 4-mask upsell banner 
+## 4-mask upsell banner
 
 upsell-banner-4-masks-button-close-label = Bezárás
 upsell-banner-4-masks-us-heading = Kapjon maximális védelmet a postafiókja és telefonja

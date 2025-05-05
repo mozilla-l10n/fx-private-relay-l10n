@@ -6,9 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Cau
-
 banner-bounced-headline = Nid yw { -brand-name-relay } wedi gallu anfon eich e-bost.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -27,10 +25,6 @@ banner-download-install-chrome-extension-headline = Rhowch gynnig ar { -brand-na
 banner-download-install-chrome-extension-copy-2 = Mae'r estyniad { -brand-name-firefox-relay } ar gyfer { -brand-name-chrome } yn gwneud creu a defnyddio arallenwau hyd yn oed yn haws.
 banner-download-install-chrome-extension-cta = Cael yr estyniad { -brand-name-relay }
 banner-upgrade-cta = Uwchraddiwch i { -brand-name-relay-premium }
-
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
-
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 =
@@ -39,11 +33,11 @@ banner-register-subdomain-copy-2 =
     “bwyty@eichparth.{ $mozmail }” i'r bwyty. Bydd unrhyw arallenw sy'n
     defnyddio'ch parth personol yn cael ei anfon ymlaen atoch chi.
 banner-pack-upgrade-cta = Uwchraddiwch Nawr
-
-
+# Data Notification Banner:
 banner-label-data-notification-body-cta = Dysgu Rhagor
 
 # Relay Premium Promo A/B Test
+
 
 ## Set domain banner
 
@@ -64,7 +58,6 @@ banner-set-email-domain-input-search = Chwilio
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = eichparth
 banner-set-email-domain-learn-more = Dysgu rhagor
-
 modal-email-domain-good-news = Newyddion da!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -84,7 +77,6 @@ modal-email-domain-success-headline-any-word = Crëwch arallenwau diddiwedd trwy
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Siopa? Defnyddiwch siop { $custom_domain_full }.
-
 tooltip-email-domain-explanation-title = Ynghylch eich Parth E-bost { -brand-name-relay } unigryw
 tooltip-email-domain-explanation-part-one = Mae'r nodwedd werthfawr hon o'ch cyfrif { -brand-name-relay-premium } yn gadael i chi ddewis parth e-bost { -brand-name-relay } unigryw y gallwch ei ddefnyddio i greu arallenwau { -brand-name-relay } anghyfyngedig ac unigryw ar yr ewch.
 tooltip-email-domain-explanation-part-two = Does dim angen mewngofnodi i { -brand-name-relay } i gynhyrchu arallenw newydd; Yn syml, ychwanegwch unrhyw air neu ymadrodd cyn symbol @ eich parth e-bost { -brand-name-relay } er mwyn creu arallenw ar unwaith, lle bynnag rydych chi.
@@ -105,7 +97,7 @@ holiday-promo-banner-code-usage = Defnyddiwch y cod <coupon>{ $couponCode }</cou
 holiday-promo-banner-cta-button = Cael 1 flwyddyn oddi ar bris { -brand-name-premium }
 holiday-promo-banner-promo-expiry = daw'r cynnig i ben Rhagfyr 31, 2023
 
-## 4-mask upsell banner 
+## 4-mask upsell banner
 
 upsell-banner-4-masks-button-close-label = Cau
 upsell-banner-4-masks-us-heading = Sicrhewch y diogelwch mwyaf posibl ar e-bost a'r ffôn

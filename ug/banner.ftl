@@ -79,7 +79,7 @@ holiday-promo-banner-code-usage = ھېساب بوغقاندا <coupon> { $coupon
 holiday-promo-banner-cta-button = 1 يىللىق { -brand-name-premium } ئېلىڭ
 holiday-promo-banner-promo-expiry = ئېتىبار 2023-يىلى 31-دېكابىر ئاخىرلىشىدۇ
 
-## 4-mask upsell banner 
+## 4-mask upsell banner
 
 upsell-banner-4-masks-button-close-label = تاقا
 upsell-banner-4-masks-us-heading = ئېلخەت ۋە تېلېفون ئۈچۈن ئالىي قوغداشقا ئېرىشىڭ

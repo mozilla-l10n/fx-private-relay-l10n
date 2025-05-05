@@ -6,9 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = 隐藏
-
 banner-bounced-headline = { -brand-name-relay } 无法发送您的邮件。
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -27,19 +25,15 @@ banner-download-install-chrome-extension-headline = 试试 { -brand-name-google-
 banner-download-install-chrome-extension-copy-2 = { -brand-name-chrome } 上的 { -brand-name-firefox-relay } 扩展，让创建和使用马甲邮箱更简单。
 banner-download-install-chrome-extension-cta = 下载 { -brand-name-relay } 扩展
 banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
-
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
-
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 = 借助自定义子域名功能，不需生成马甲也可直接转发邮件。要预订餐厅？用“restaurant@yourdomain.{ $mozmail }”这个邮箱地址就可以。任何使用您自定义子域名的邮件都会直接转发给您。
 banner-pack-upgrade-cta = 立即升级
-
-
+# Data Notification Banner:
 banner-label-data-notification-body-cta = 详细了解
 
 # Relay Premium Promo A/B Test
+
 
 ## Set domain banner
 
@@ -60,7 +54,6 @@ banner-set-email-domain-input-search = 搜索
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = 你的域名
 banner-set-email-domain-learn-more = 详细了解
-
 modal-email-domain-good-news = 很好！
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -80,7 +73,6 @@ modal-email-domain-success-headline-any-word = 随心为邮箱命名，马甲数
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = 例如购物时，可以使用 store{ $custom_domain_full }。
-
 tooltip-email-domain-explanation-title = 关于您专属的 { -brand-name-relay } 邮箱域名
 tooltip-email-domain-explanation-part-one = 您可以使用 { -brand-name-relay-premium } 账户的这项实用功能来选择一个专属的 { -brand-name-relay } 邮箱域名，用于随时随地创建自定义 { -brand-name-relay } 马甲，数量不设限。
 tooltip-email-domain-explanation-part-two = 无论在哪，都可以立即生成新马甲。只需随手在您 { -brand-name-relay } 邮箱域名的 @ 符号前添加字符即可，而不必事先登录 { -brand-name-relay }。
@@ -101,7 +93,7 @@ holiday-promo-banner-code-usage = 结账时使用折扣码 <coupon>{ $couponCode
 holiday-promo-banner-cta-button = 订阅 1 年 { -brand-name-premium }
 holiday-promo-banner-promo-expiry = 优惠至 2023 年 12 月 31 日
 
-## 4-mask upsell banner 
+## 4-mask upsell banner
 
 upsell-banner-4-masks-button-close-label = 关闭
 upsell-banner-4-masks-us-heading = 获得强大的邮箱和手机保护

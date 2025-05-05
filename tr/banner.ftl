@@ -6,9 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Kapat
-
 banner-bounced-headline = { -brand-name-relay } e-postanızı teslim edemedi.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -27,10 +25,7 @@ banner-download-install-chrome-extension-headline = { -brand-name-google-chrome 
 banner-download-install-chrome-extension-copy-2 = { -brand-name-chrome } için { -brand-name-firefox-relay } uzantısı maske oluşturmayı ve kullanmayı daha da kolaylaştırıyor.
 banner-download-install-chrome-extension-cta = { -brand-name-relay } uzantısını yükleyin
 banner-upgrade-cta = { -brand-name-relay-premium }’a yükseltin
-
 banner-pack-upgrade-cta = Şimdi yükselt
-
-
 # Data Notification Banner:
 banner-label-data-notification-body-cta = Daha fazla bilgi alın
 
@@ -56,7 +51,6 @@ banner-set-email-domain-input-search = Ara
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = alanadiniz
 banner-set-email-domain-learn-more = Daha fazla bilgi alın
-
 modal-email-domain-good-news = İyi bir haberimiz var!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -76,7 +70,6 @@ modal-email-domain-success-headline-any-word = İstediğiniz kelime veya cümley
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Alışveriş mi yapıyorsunuz? magazaadi{ $custom_domain_full } adresini kullanabilirsiniz.
-
 tooltip-email-domain-explanation-title = Benzersiz { -brand-name-relay } e-posta alan adınız hakkında
 tooltip-email-domain-explanation-title-free = Kendi { -brand-name-relay } e-posta alan adınızı alın
 # Variables:
@@ -94,7 +87,7 @@ holiday-promo-banner-code-usage = Ödeme sırasında <coupon>{ $couponCode }</co
 holiday-promo-banner-cta-button = 1 yıllık { -brand-name-premium } alın
 holiday-promo-banner-promo-expiry = teklif 31 Aralık 2023’te sona erecek
 
-## 4-mask upsell banner 
+## 4-mask upsell banner
 
 upsell-banner-4-masks-button-close-label = Kapat
 upsell-banner-4-masks-us-heading = E-posta ve telefon korumanızı en üst seviyeye çıkarın

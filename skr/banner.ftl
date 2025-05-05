@@ -6,9 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = فارغ کرو
-
 banner-bounced-headline = { -brand-name-relay } تہاݙا ای میل سپرد کائنی کر سڳا۔
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -27,10 +25,6 @@ banner-download-install-chrome-extension-headline = { -brand-name-google-chrome 
 banner-download-install-chrome-extension-copy-2 = { -brand-name-chrome } کیتے { -brand-name-firefox-relay } ایکسٹنشن ماسک بݨاوݨ تے ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 banner-download-install-chrome-extension-cta = { -brand-name-relay } ایکسٹنشن گھنو
 banner-upgrade-cta = { -brand-name-relay-premium } تے اپ گریڈ کرو
-
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
-
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 =
@@ -39,11 +33,11 @@ banner-register-subdomain-copy-2 =
     “restaurant@yourdomain۔ { $mozmail }” ریسٹورنٹ وِچ۔ کوئی وی ماسک استعمال کریندا پیا ہے تہاݙا
     حسب ضرورت ذیلی ڈومین تہاکوں بھیڄ ݙتا ویسے۔
 banner-pack-upgrade-cta = ہݨ اپ گریڈ کرو
-
-
+# Data Notification Banner:
 banner-label-data-notification-body-cta = ٻیا سِکھو
 
 # Relay Premium Promo A/B Test
+
 
 ## Set domain banner
 
@@ -64,7 +58,6 @@ banner-set-email-domain-input-search = ڳولو
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = تہاݙی ڈومین
 banner-set-email-domain-learn-more = ٻیا سِکھو
-
 modal-email-domain-good-news = خوشخبری!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -84,7 +77,6 @@ modal-email-domain-success-headline-any-word = کوئی لفظ یا ترکیب �
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = خریداری؟ { $custom_domain_full } سٹور ورتو۔
-
 tooltip-email-domain-explanation-title = تہاݙی نویکلی { -brand-name-relay } ای میل ڈومین بارے
 tooltip-email-domain-explanation-part-one = تُہاݙے { -brand-name-relay-premium } اکاؤنٹ دی اِیہ قیمتی خاصیتاں تُہاکوں ہِک منفرد { -brand-name-relay } ای میل ڈومین چُݨن ݙین٘دی ہِے جیکوں تُساں لا محدود، لوڑ مطابق { -brand-name-relay } ماسک بݨاوݨ کِیتے ٹُردے ویلے استعمال کر سڳدے ہِیوے۔
 tooltip-email-domain-explanation-part-two = نواں ماسک بݨاوݨ کِیتے { -brand-name-relay } وِچ سائن اِن کرݨ دی لوڑ کائنی۔ آپݨے { -brand-name-relay } ای میل ڈومین دے @ علامت کنوں پہلاں کُئی وی لوّظ یا جملہ شامل کرو تاں جو تُساں جِتّھاں وی ہؤو فوری طور تے ہِک نواں ماسک بݨاؤ۔
@@ -105,7 +97,7 @@ holiday-promo-banner-code-usage = چیک آؤٹ تے کوڈ <coupon> { $couponCo
 holiday-promo-banner-cta-button = { -brand-name-premium } دا 1 سال گھنو
 holiday-promo-banner-promo-expiry = پیشکش 31 دسمبر، 2023 کوں مُکدی پئی ہِے
 
-## 4-mask upsell banner 
+## 4-mask upsell banner
 
 upsell-banner-4-masks-button-close-label = بند کرو
 upsell-banner-4-masks-us-heading = ودھ کنوں ودھ ای میل تے فون حفاظت گھنو

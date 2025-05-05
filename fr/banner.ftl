@@ -6,9 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Fermer
-
 banner-bounced-headline = { -brand-name-relay } n’a pu délivrer votre e-mail.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -27,19 +25,15 @@ banner-download-install-chrome-extension-headline = Essayez { -brand-name-relay 
 banner-download-install-chrome-extension-copy-2 = L’extension { -brand-name-firefox-relay } pour { -brand-name-chrome } facilite la création et l’utilisation d’alias.
 banner-download-install-chrome-extension-cta = Installer l’extension { -brand-name-relay }
 banner-upgrade-cta = Passer à { -brand-name-relay-premium }
-
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
-
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 = Avec un sous-domaine personnalisé, vous pouvez partager des alias qui n’ont pas besoin d’être générés avant de les utiliser. Besoin d’un pour une réservation ? Donnez « restaurant@votredomaine.{ $mozmail } » au restaurant. Tout alias utilisant votre sous-domaine personnalisé vous sera transmis.
 banner-pack-upgrade-cta = Mettre à niveau maintenant
-
-
+# Data Notification Banner:
 banner-label-data-notification-body-cta = En savoir plus
 
 # Relay Premium Promo A/B Test
+
 
 ## Set domain banner
 
@@ -60,7 +54,6 @@ banner-set-email-domain-input-search = Rechercher
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = votredomaine
 banner-set-email-domain-learn-more = En savoir plus
-
 modal-email-domain-good-news = Bonne nouvelle !
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -80,7 +73,6 @@ modal-email-domain-success-headline-any-word = Créez un nombre illimité d’al
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Vous faites des achats ? Utilisez magasin{ $custom_domain_full }.
-
 tooltip-email-domain-explanation-title = À propos de votre domaine de messagerie { -brand-name-relay } unique
 tooltip-email-domain-explanation-part-one = Cette fonctionnalité intéressante de votre compte { -brand-name-relay-premium } vous permet de choisir un domaine de messagerie { -brand-name-relay } unique que vous pouvez utiliser pour créer un nombre illimité d’alias { -brand-name-relay } personnalisés à la volée.
 tooltip-email-domain-explanation-part-two = Vous n’avez pas besoin de vous connecter à { -brand-name-relay } pour générer un nouvel alias ; ajoutez simplement n’importe quel mot ou expression avant le symbole @ de votre domaine de messagerie { -brand-name-relay } pour créer instantanément un nouvel alias, où que vous soyez.
@@ -101,7 +93,7 @@ holiday-promo-banner-code-usage = Utilisez le code <coupon>{ $couponCode }</coup
 holiday-promo-banner-cta-button = Bénéficiez d’un an de { -brand-name-premium }
 holiday-promo-banner-promo-expiry = l’offre prend fin le 31 décembre 2023
 
-## 4-mask upsell banner 
+## 4-mask upsell banner
 
 upsell-banner-4-masks-button-close-label = Fermer
 upsell-banner-4-masks-us-heading = Obtenez une protection maximale de votre téléphone et de vos e-mails
