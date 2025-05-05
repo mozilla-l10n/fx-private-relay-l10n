@@ -101,7 +101,9 @@ holiday-promo-banner-promo-expiry = penawaran berakhir pada 31 Des 2023
 
 upsell-banner-4-masks-button-close-label = Tutup
 upsell-banner-4-masks-us-heading = Dapatkan perlindungan surel dan telepon yang maksimal
+upsell-banner-4-masks-us-heading-2 = Dapatkan perlindungan email maksimal
 upsell-banner-4-masks-non-us-heading = Dapatkan perlindungan email maksimal
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } memberi Anda topeng telepon untuk melindungi nomor asli Anda, ditambah topeng email tanpa batas dan kemampuan untuk memblokir email promosi.
+upsell-banner-4-masks-us-description-2 = Buka topeng surel tanpa batas, balas langsung dari mereka, dan buat yang baru secara instan dengan subdomain { -brand-name-relay } Anda sendiri — kapan saja, di mana saja.
 upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } memberi Anda topeng surel tanpa batas, pemblokiran spam, domain surel { -brand-name-relay } khusus, dan kemampuan untuk membalas pesan yang diteruskan.
 upsell-banner-4-masks-us-cta = Beralih ke { -brand-name-relay-premium }

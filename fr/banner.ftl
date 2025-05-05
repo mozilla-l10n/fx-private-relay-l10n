@@ -97,7 +97,9 @@ holiday-promo-banner-promo-expiry = l’offre prend fin le 31 décembre 2023
 
 upsell-banner-4-masks-button-close-label = Fermer
 upsell-banner-4-masks-us-heading = Obtenez une protection maximale de votre téléphone et de vos e-mails
+upsell-banner-4-masks-us-heading-2 = Obtenez une protection maximale de vos e-mails
 upsell-banner-4-masks-non-us-heading = Obtenez une protection maximale de vos e-mails
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } vous fournit un alias de téléphone pour protéger votre véritable numéro, ainsi qu’un nombre illimité d’alias de messagerie et la possibilité de bloquer les e-mails promotionnels.
+upsell-banner-4-masks-us-description-2 = Déverrouillez un nombre illimité d’alias de messagerie, répondez directement depuis cet alias et créez-en de nouveaux instantanément avec votre propre sous-domaine { -brand-name-relay }, partout, tout le temps.
 upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } vous offre un nombre illimité d’alias de messagerie, le blocage des messages indésirables, un domaine de messagerie { -brand-name-relay } personnalisé et la possibilité de répondre aux messages transférés.
 upsell-banner-4-masks-us-cta = Passer à { -brand-name-relay-premium }

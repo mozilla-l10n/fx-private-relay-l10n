@@ -97,7 +97,9 @@ holiday-promo-banner-promo-expiry = 優惠結束於 2023 年 12 月 31 日
 
 upsell-banner-4-masks-button-close-label = 關閉
 upsell-banner-4-masks-us-heading = 獲得最大程度的 E-mail 與手機號碼保護
+upsell-banner-4-masks-us-heading-2 = 獲得最大程度的 E-Mail 保護
 upsell-banner-4-masks-non-us-heading = 獲得最大程度的 E-Mail 保護
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } 提供您虛擬轉接門號，以幫助保護您實際的手機號碼，另外還有無限量的轉寄信箱來阻擋廣告郵件。
+upsell-banner-4-masks-us-description-2 = 隨時隨地使用您的 { -brand-name-relay } 子網域解鎖、直接使用轉寄信箱回覆或建立新轉寄信箱。
 upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } 提供您無限量轉寄信箱、垃圾郵件封鎖、自訂 { -brand-name-relay } 郵件網域以及能夠回覆轉寄郵件的功能。
 upsell-banner-4-masks-us-cta = 升級到 { -brand-name-relay-premium }
