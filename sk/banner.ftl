@@ -99,7 +99,9 @@ holiday-promo-banner-promo-expiry = ponuka končí 31. decembra 2023
 
 upsell-banner-4-masks-button-close-label = Zavrieť
 upsell-banner-4-masks-us-heading = Získajte maximálnu ochranu svojho e‑mailu a telefónu
+upsell-banner-4-masks-us-heading-2 = Získajte maximálnu ochranu svojho e‑mailu
 upsell-banner-4-masks-non-us-heading = Získajte maximálnu ochranu svojho e‑mailu
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } vám poskytuje masku telefónneho čísla na ochranu vášho skutočného čísla, plus neobmedzený počet e‑mailových masiek a možnosť blokovať marketingové e‑maily.
+upsell-banner-4-masks-us-description-2 = Odomknite neobmedzený počet masiek e‑mailov, odpovedajte priamo z nich a okamžite si vytvárajte nové s vlastnou subdoménou { -brand-name-relay } – kedykoľvek a kdekoľvek.
 upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } vám poskytuje neobmedzený počet e‑mailových masiek, blokovanie nevyžiadanej pošty, vlastnú e‑mailovú doménu služby { -brand-name-relay } a možnosť odpovedať na preposlané správy.
 upsell-banner-4-masks-us-cta = Inovujte na { -brand-name-relay-premium }
