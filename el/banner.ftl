@@ -101,7 +101,9 @@ holiday-promo-banner-promo-expiry = Η προσφορά λήγει στις 31 �
 
 upsell-banner-4-masks-button-close-label = Κλείσιμο
 upsell-banner-4-masks-us-heading = Λάβετε τη μέγιστη προστασία για email και τηλέφωνο
+upsell-banner-4-masks-us-heading-2 = Λάβετε τη μέγιστη προστασία για email
 upsell-banner-4-masks-non-us-heading = Λάβετε τη μέγιστη προστασία για email
 upsell-banner-4-masks-us-description = Το { -brand-name-relay-premium } σάς παρέχει μια μάσκα τηλεφώνου για να προστατεύσετε τον πραγματικό σας αριθμό, καθώς και απεριόριστες μάσκες email και τη δυνατότητα αποκλεισμού διαφημιστικών email.
+upsell-banner-4-masks-us-description-2 = Ξεκλειδώστε απεριόριστες μάσκες email, απαντήστε απευθείας από αυτές και δημιουργήστε άμεσα νέες με τον δικό σας υποτομέα { -brand-name-relay } — οποτεδήποτε, οπουδήποτε.
 upsell-banner-4-masks-non-us-description = Το { -brand-name-relay-premium } σάς παρέχει απεριόριστες μάσκες email, αποκλεισμό ανεπιθύμητων μηνυμάτων, έναν προσαρμοσμένο τομέα email { -brand-name-relay }, καθώς και τη δυνατότητα απάντησης σε προωθημένα μηνύματα.
 upsell-banner-4-masks-us-cta = Αναβάθμιση στο { -brand-name-relay-premium }
