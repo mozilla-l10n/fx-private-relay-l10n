@@ -97,6 +97,7 @@ holiday-promo-banner-promo-expiry = oferta termina em 31 de dezembro de 2023
 
 upsell-banner-4-masks-button-close-label = Fechar
 upsell-banner-4-masks-us-heading = Obtenha proteção máxima de email e celular
+upsell-banner-4-masks-us-heading-2 = Obtenha proteção máxima de email
 upsell-banner-4-masks-non-us-heading = Obtenha proteção máxima de email
 upsell-banner-4-masks-us-description = O { -brand-name-relay-premium } oferece uma máscara de celular para proteger seu número real, além de máscaras de email ilimitadas e a capacidade de bloquear emails promocionais.
 upsell-banner-4-masks-non-us-description = O { -brand-name-relay-premium } oferece máscaras de email ilimitadas, bloqueio de spam, um domínio de email personalizado do { -brand-name-relay } e a capacidade de responder a mensagens encaminhadas.
