@@ -101,7 +101,9 @@ holiday-promo-banner-promo-expiry = erbjudandet upphör 31 december 2023
 
 upsell-banner-4-masks-button-close-label = Stäng
 upsell-banner-4-masks-us-heading = Få maximalt e-post- och telefonskydd
+upsell-banner-4-masks-us-heading-2 = Få maximalt e-postskydd
 upsell-banner-4-masks-non-us-heading = Få maximalt e-postskydd
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } ger dig ett telefonalias för att skydda ditt riktiga nummer, plus obegränsade e-postalias och möjligheten att blockera reklammeddelanden.
+upsell-banner-4-masks-us-description-2 = Lås upp obegränsade e-postalias, svara direkt från dem och skapa nya direkt med din egen { -brand-name-relay }-underdomän — när som helst, var som helst.
 upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } ger dig obegränsade e-postalias, skräppostblockering, en anpassad { -brand-name-relay } e-postdomän och möjligheten att svara på vidarebefordrade meddelanden.
 upsell-banner-4-masks-us-cta = Uppgradera till { -brand-name-relay-premium }
