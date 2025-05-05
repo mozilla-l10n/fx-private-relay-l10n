@@ -97,6 +97,7 @@ holiday-promo-banner-promo-expiry = le offerta expira le 31 decembre 2023
 
 upsell-banner-4-masks-button-close-label = Clauder
 upsell-banner-4-masks-us-heading = Obtene la maxime protection de email e telephono
+upsell-banner-4-masks-us-heading-2 = Obtene la maxime protection de email
 upsell-banner-4-masks-non-us-heading = Obtene la maxime protection de email
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } te da un masca de telephono pro proteger tu real numero, plus illimitate mascas email e le capacitate de blocar emails promotional.
 upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } te da illimitate mascas email, blocada de spam, un dominio email personal de { -brand-name-relay } e le capacitate de responder al messages inultrate.
