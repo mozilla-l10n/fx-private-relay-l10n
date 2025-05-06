@@ -104,6 +104,6 @@ upsell-banner-4-masks-us-heading = Kapjon maximális védelmet a postafiókja é
 upsell-banner-4-masks-us-heading-2 = Kapjon maximális e-mail-védelmet
 upsell-banner-4-masks-non-us-heading = Kapjon maximális e-mail-védelmet
 upsell-banner-4-masks-us-description = A { -brand-name-relay-premium } telefonmaszkot nyújt, amely megvédi valós számát, valamint korlátlan számú e-mail-maszkot is ad, és lehetővé teszi a promóciós levelek blokkolását.
-upsell-banner-4-masks-us-description-2 = Szerezzen korlátlan számú e-mail-maszkot, válaszoljon közvetlenül belőlük, és azonnal hozzon létre újakat a saját { -brand-name-relay } aldomainjával – bármikor, bárhol.
+upsell-banner-4-masks-us-description-2 = Szerezzen korlátlan számú e-mail-maszkot, válaszoljon közvetlenül belőlük, és azonnal hozzon létre újakat a saját { -brand-name-relay } aldomainjével – bármikor, bárhol.
 upsell-banner-4-masks-non-us-description = A { -brand-name-relay-premium } korlátlan e-mail-maszkot, levélszemét-blokkolást, egyéni { -brand-name-relay } e-mail-domaint biztosít, és lehetőséget ad a továbbított üzenetek megválaszolására.
 upsell-banner-4-masks-us-cta = Frissítés a { -brand-name-relay-premium }ra
