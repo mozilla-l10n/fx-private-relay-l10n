@@ -100,5 +100,6 @@ upsell-banner-4-masks-us-heading = Obtenha proteção máxima de email e celular
 upsell-banner-4-masks-us-heading-2 = Obtenha proteção máxima de email
 upsell-banner-4-masks-non-us-heading = Obtenha proteção máxima de email
 upsell-banner-4-masks-us-description = O { -brand-name-relay-premium } oferece uma máscara de celular para proteger seu número real, além de máscaras de email ilimitadas e a capacidade de bloquear emails promocionais.
+upsell-banner-4-masks-us-description-2 = Libere número ilimitado de máscaras de email, responda diretamente por elas e crie novas imediatamente com seu próprio subdomínio do { -brand-name-relay }, quando quiser, em qualquer lugar.
 upsell-banner-4-masks-non-us-description = O { -brand-name-relay-premium } oferece máscaras de email ilimitadas, bloqueio de spam, um domínio de email personalizado do { -brand-name-relay } e a capacidade de responder a mensagens encaminhadas.
 upsell-banner-4-masks-us-cta = Mudar para o { -brand-name-relay-premium }
