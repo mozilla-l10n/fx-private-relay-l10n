@@ -101,7 +101,9 @@ holiday-promo-banner-promo-expiry = daw'r cynnig i ben Rhagfyr 31, 2023
 
 upsell-banner-4-masks-button-close-label = Cau
 upsell-banner-4-masks-us-heading = Sicrhewch y diogelwch mwyaf posibl ar e-bost a'r ffôn
+upsell-banner-4-masks-us-heading-2 = Cael y diogelwch e-bost mwyaf posibl
 upsell-banner-4-masks-non-us-heading = Cael y diogelwch e-bost mwyaf posibl
 upsell-banner-4-masks-us-description = Mae { -brand-name-relay-premium } yn rhoi rhif ffôn ffug er mwyn diogelu eich rhif go iawn, yn ogystal ag arallenwau e-bost diderfyn a'r gallu i rwystro e-byst hyrwyddo.
+upsell-banner-4-masks-us-description-2 = Datglowch arallenwau e-bost diderfyn, atebwch yn uniongyrchol oddi wrthyn nhw, a chreu rhai newydd yn syth gyda'ch is-barth { -brand-name-relay } eich hun - unrhyw bryd, unrhyw le.
 upsell-banner-4-masks-non-us-description = Mae { -brand-name-relay-premium } yn rhoi arallenwau e-bost diderfyn i chi, yn rhwystro sbam, parth e-bost { -brand-name-relay } cyfaddas, a'r gallu i ymateb i negeseuon wedi'u hanfon ymlaen
 upsell-banner-4-masks-us-cta = Uwchraddiwch i { -brand-name-relay-premium }
