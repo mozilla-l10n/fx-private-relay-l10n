@@ -100,6 +100,6 @@ upsell-banner-4-masks-us-heading = 获得强大的邮箱和手机保护
 upsell-banner-4-masks-us-heading-2 = 获得全套电子邮件保护
 upsell-banner-4-masks-non-us-heading = 获得全套电子邮件保护
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } 为您提供保护真实号码的虚拟号码和无限量的马甲邮箱并能屏蔽营销邮件。
-upsell-banner-4-masks-us-description-2 = 解锁无限的马甲邮箱您可以直接在马甲邮箱中回复也可以使用您自己的 { -brand-name-relay } 子域名随时随地创建新的马甲邮箱。
+upsell-banner-4-masks-us-description-2 = 解锁无限量马甲邮箱、直接通过马甲邮箱回复，并随时随地使用您自己的 { -brand-name-relay } 子域名创建新马甲邮箱。
 upsell-banner-4-masks-non-us-description = 订阅 { -brand-name-relay-premium } 即可获得无限量马甲邮箱、垃圾邮件拦截、自定义 { -brand-name-relay } 邮箱域名并可回复转发消息。
 upsell-banner-4-masks-us-cta = 升级为 { -brand-name-relay-premium }
