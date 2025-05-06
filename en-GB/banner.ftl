@@ -101,7 +101,9 @@ holiday-promo-banner-promo-expiry = offer ends 31st Dec 2023
 
 upsell-banner-4-masks-button-close-label = Close
 upsell-banner-4-masks-us-heading = Get maximum email and phone protection
+upsell-banner-4-masks-us-heading-2 = Get maximum email protection
 upsell-banner-4-masks-non-us-heading = Get maximum email protection
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } gives you a phone mask to protect your real number, plus unlimited email masks and the ability to block promotional emails.
+upsell-banner-4-masks-us-description-2 = Unlock unlimited email masks, reply directly from them, and create new ones instantly with your own { -brand-name-relay } subdomain — anytime, anywhere.
 upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } gives you unlimited email masks, spam blocking, a custom { -brand-name-relay } email domain, and the ability to reply to forwarded messages.
 upsell-banner-4-masks-us-cta = Upgrade to { -brand-name-relay-premium }
