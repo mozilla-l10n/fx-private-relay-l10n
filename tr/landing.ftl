@@ -14,6 +14,9 @@ hero-section-social-proof = Övgüyle bahsedenler
 
 ## BUNDLE BANNER SECTION
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+bundle-banner-header-2 = Kısa süreliğine: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } aylık { $monthly_price }
 bundle-banner-plan-header-2 = 1 yıllık planınız şunları içerir:
 bundle-banner-plan-modules-email-masking = E-posta maskeleme
 bundle-banner-plan-modules-phone-masking = Telefon maskeleme
