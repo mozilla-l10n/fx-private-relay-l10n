@@ -91,6 +91,7 @@ holiday-promo-banner-promo-expiry = teklif 31 Aralık 2023’te sona erecek
 
 upsell-banner-4-masks-button-close-label = Kapat
 upsell-banner-4-masks-us-heading = E-posta ve telefon korumanızı en üst seviyeye çıkarın
+upsell-banner-4-masks-us-heading-2 = En üst seviye e-posta korumasına kavuşun
 upsell-banner-4-masks-non-us-heading = En üst seviye e-posta korumasına kavuşun
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } gerçek telefon numaranızı koruyan bir telefon maskesinin yanı sıra sınırsız e-posta maskesi ve reklam e-postalarını engelleme özelliği de sunar.
 upsell-banner-4-masks-us-cta = { -brand-name-relay-premium }’a yükseltin
