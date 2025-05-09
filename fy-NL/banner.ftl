@@ -101,6 +101,7 @@ holiday-promo-banner-promo-expiry = oanbieding einiget op 31 desimber 2023
 
 upsell-banner-4-masks-button-close-label = Slute
 upsell-banner-4-masks-us-heading = Untfang maksimale e-mail- en telefoanbeskerming
+upsell-banner-4-masks-us-heading-2 = Untfang maksimale e-mailbeskerming
 upsell-banner-4-masks-non-us-heading = Untfang maksimale e-mailbeskerming
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } jout jo in telefoanmasker om jo wiere nûmer te beskermjen, plus ûnbeheinde e-mailmaskers en de mooglikheid om promosjonele e-mailberjochten te blokkearjen.
 upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } jout jo ûnbeheinde e-mailmaskers, spamblokkearring, in oanpast { -brand-name-relay }-e-maildomein, en de mooglikheid om te antwurdzjen op trochstjoerde berjochten.
