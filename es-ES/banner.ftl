@@ -101,7 +101,9 @@ holiday-promo-banner-promo-expiry = la oferta finaliza el 31 de diciembre de 202
 
 upsell-banner-4-masks-button-close-label = Cerrar
 upsell-banner-4-masks-us-heading = Obtén la máxima protección de tu correo electrónico y teléfono
+upsell-banner-4-masks-us-heading-2 = Obtén la máxima protección de tu correo electrónico
 upsell-banner-4-masks-non-us-heading = Obtén la máxima protección de tu correo electrónico
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } te proporciona una máscara de teléfono para proteger tu número real, además de máscaras de correo electrónico ilimitadas y la capacidad de bloquear correos electrónicos publicitarios.
+upsell-banner-4-masks-us-description-2 = Desbloquea máscaras de correo ilimitadas, responde directamente desde ellas y crea nuevas al instante con tu propio subdominio { -brand-name-relay }, cuando quieras y donde quieras.
 upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } te ofrece máscaras de correo electrónico ilimitadas, bloqueo de spam, un dominio de correo electrónico personalizado { -brand-name-relay } y la capacidad de responder a los mensajes reenviados.
 upsell-banner-4-masks-us-cta = Actualiza a { -brand-name-relay-premium }
