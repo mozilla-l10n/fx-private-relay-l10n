@@ -104,5 +104,6 @@ upsell-banner-4-masks-us-heading = Ontvang maximale e-mail- en telefoonbeschermi
 upsell-banner-4-masks-us-heading-2 = Ontvang maximale e-mailbescherming
 upsell-banner-4-masks-non-us-heading = Ontvang maximale e-mailbescherming
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } geeft u een telefoonmasker om uw echte nummer te beschermen, plus onbeperkte e-mailmaskers en de mogelijkheid om reclameberichten te blokkeren.
+upsell-banner-4-masks-us-description-2 = Ontgrendel onbeperkte e-mailmaskers, beantwoord rechtstreeks vanuit deze maskers en maak direct nieuwe aan met uw eigen { -brand-name-relay }-subdomein – altijd en overal.
 upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } geeft u onbeperkte e-mailmaskers, blokkeren van spam, een aangepast { -brand-name-relay }-e-maildomein en de mogelijkheid om doorgestuurde berichten te beantwoorden.
 upsell-banner-4-masks-us-cta = Upgraden naar { -brand-name-relay-premium }
