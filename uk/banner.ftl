@@ -101,7 +101,9 @@ holiday-promo-banner-promo-expiry = пропозиція діє до 31 груд
 
 upsell-banner-4-masks-button-close-label = Закрити
 upsell-banner-4-masks-us-heading = Отримайте максимальний захист електронної пошти та телефону
+upsell-banner-4-masks-us-heading-2 = Отримайте максимальний захист електронної пошти
 upsell-banner-4-masks-non-us-heading = Отримайте максимальний захист електронної пошти
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } надає вам маску телефону для захисту вашого справжнього номера, а також необмежену кількість масок електронної пошти та можливість блокувати рекламні електронні листи.
+upsell-banner-4-masks-us-description-2 = Розблокуйте необмежену кількість масок електронної пошти, відповідайте безпосередньо з них і миттєво створюйте нові за допомогою власного піддомену { -brand-name-relay } — будь-коли та будь-де.
 upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } надає вам необмежену кількість масок електронної пошти, блокування спаму, спеціальний домен електронної пошти { -brand-name-relay } і можливість відповідати на переслані повідомлення.
 upsell-banner-4-masks-us-cta = Оновити до { -brand-name-relay-premium }
