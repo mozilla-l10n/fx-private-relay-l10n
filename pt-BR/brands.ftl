@@ -27,8 +27,8 @@
 # Deprecated
 -brand-name-firefox-account =
     { $capitalization ->
-       *[lowercase] Conta Firefox
         [uppercase] Conta Firefox
+       *[lowercase] Conta Firefox
     }
 -brand-name-chrome = Chrome
 -brand-name-google-chrome = Google Chrome

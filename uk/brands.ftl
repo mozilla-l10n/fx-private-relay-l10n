@@ -16,35 +16,35 @@
 -brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser =
     { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Браузер Firefox
-                [lower] браузер Firefox
-            }
         [gen]
             { $capitalization ->
-               *[upper] Браузера Firefox
                 [lower] браузера Firefox
+               *[upper] Браузера Firefox
             }
         [dat]
             { $capitalization ->
-               *[upper] Браузеру Firefox
                 [lower] браузеру Firefox
+               *[upper] Браузеру Firefox
             }
         [acc]
             { $capitalization ->
-               *[upper] Браузер Firefox
                 [lower] браузер Firefox
+               *[upper] Браузер Firefox
             }
         [abl]
             { $capitalization ->
-               *[upper] Браузером Firefox
                 [lower] браузером Firefox
+               *[upper] Браузером Firefox
             }
         [loc]
             { $capitalization ->
-               *[upper] Браузері Firefox
                 [lower] браузері Firefox
+               *[upper] Браузері Firefox
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] браузер Firefox
+               *[upper] Браузер Firefox
             }
     }
 -brand-name-mozilla = Mozilla
@@ -59,35 +59,35 @@
 # Deprecated
 -brand-name-firefox-account =
     { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Обліковий запис Firefox
-                [lower] обліковий запис Firefox
-            }
         [gen]
             { $capitalization ->
-               *[upper] Облікового запису Firefox
                 [lower] облікового запису Firefox
+               *[upper] Облікового запису Firefox
             }
         [dat]
             { $capitalization ->
-               *[upper] Обліковому запису Firefox
                 [lower] обліковому запису Firefox
+               *[upper] Обліковому запису Firefox
             }
         [acc]
             { $capitalization ->
-               *[upper] Обліковий запис Firefox
                 [lower] обліковий запис Firefox
+               *[upper] Обліковий запис Firefox
             }
         [abl]
             { $capitalization ->
-               *[upper] Обліковим записом Firefox
                 [lower] обліковим записом Firefox
+               *[upper] Обліковим записом Firefox
             }
         [loc]
             { $capitalization ->
-               *[upper] Обліковому записі Firefox
                 [lower] обліковому записі Firefox
+               *[upper] Обліковому записі Firefox
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] обліковий запис Firefox
+               *[upper] Обліковий запис Firefox
             }
     }
 -brand-name-chrome = Chrome

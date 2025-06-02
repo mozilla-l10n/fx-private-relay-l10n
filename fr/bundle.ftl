@@ -33,6 +33,7 @@ whatsnew-feature-bundle-upgrade-cta = Mettre à niveau maintenant
 bundle-banner-header = { -brand-name-firefox-relay } avec <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 # String below is obsolete
 bundle-banner-body = Surfez, jouez, travaillez et streamez tout en préservant votre confidentialité sur Internet. Pour tous vos déplacements, lorsque vous utilisez le Wi-Fi public, ou quand vous avez tout simplement besoin de plus de sécurité en ligne, votre confidentialité sera toujours notre priorité.
+# String below is obsolete
 bundle-banner-plan-header = Abonnement de 1 an :
 # Variables:
 #   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
@@ -46,4 +47,3 @@ bundle-banner-dashboard-header = Nouveau : forfait d’abonnement { -brand-name
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 bundle-banner-dashboard-body = Mettez à niveau votre abonnement pour obtenir à la fois l’alias de numéro de téléphone de { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } pour { $monthly_price }/mois. Abonnez-vous maintenant pour bénéficier de { $savings } sur { -brand-name-mozilla-vpn } !
 bundle-banner-dashboard-upgrade-cta = Mettre à niveau maintenant
-

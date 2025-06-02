@@ -20,13 +20,14 @@
 -brand-name-mozilla-vpn = Mozilla VPN
 -brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
 -brand-name-firefox-lockwise = Firefox Lockwise
+# Deprecated
 -brand-name-firefox-monitor = Firefox Monitor
 -brand-name-pocket = Pocket
 # Deprecated
 -brand-name-firefox-account =
     { $capitalization ->
-       *[lowercase] Firefox アカウント
         [uppercase] Firefox アカウント
+       *[lowercase] Firefox アカウント
     }
 -brand-name-chrome = Chrome
 -brand-name-google-chrome = Google Chrome

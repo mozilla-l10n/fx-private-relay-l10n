@@ -16,8 +16,8 @@
 -brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser =
     { $capitalization ->
-       *[lowercase] navigateur Firefox
         [uppercase] Navigateur Firefox
+       *[lowercase] navigateur Firefox
     }
 -brand-name-mozilla = Mozilla
 -brand-name-vpn = VPN
@@ -31,8 +31,8 @@
 # Deprecated
 -brand-name-firefox-account =
     { $capitalization ->
-       *[lowercase] compte Firefox
         [uppercase] Compte Firefox
+       *[lowercase] compte Firefox
     }
 -brand-name-chrome = Chrome
 -brand-name-google-chrome = Google Chrome

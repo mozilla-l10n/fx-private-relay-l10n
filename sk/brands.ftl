@@ -10,12 +10,12 @@
 
 -brand-name-firefox =
     { $case ->
-       *[nom] Firefox
         [gen] Firefoxu
         [dat] Firefoxu
         [acc] Firefox
         [loc] Firefoxe
         [ins] Firefoxom
+       *[nom] Firefox
     }
     .gender = masculine
 -brand-name-firefox-relay = Firefox Relay
@@ -40,35 +40,35 @@
 # Deprecated
 -brand-name-firefox-account =
     { $case ->
-       *[nom]
-            { $capitalization ->
-               *[uppercase] Účet Firefox
-                [lowercase] účet Firefox
-            }
         [gen]
             { $capitalization ->
-               *[uppercase] Účtu Firefox
                 [lowercase] účtu Firefox
+               *[uppercase] Účtu Firefox
             }
         [dat]
             { $capitalization ->
-               *[uppercase] Účtu Firefox
                 [lowercase] účtu Firefox
+               *[uppercase] Účtu Firefox
             }
         [acc]
             { $capitalization ->
-               *[uppercase] Účet Firefox
                 [lowercase] účet Firefox
+               *[uppercase] Účet Firefox
             }
         [loc]
             { $capitalization ->
-               *[uppercase] Účte Firefox
                 [lowercase] účte Firefox
+               *[uppercase] Účte Firefox
             }
         [ins]
             { $capitalization ->
-               *[uppercase] Účtom Firefox
                 [lowercase] účtom Firefox
+               *[uppercase] Účtom Firefox
+            }
+       *[nom]
+            { $capitalization ->
+                [lowercase] účet Firefox
+               *[uppercase] Účet Firefox
             }
     }
 -brand-name-chrome = Chrome

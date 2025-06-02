@@ -27,8 +27,8 @@
 # Deprecated
 -brand-name-firefox-account =
     { $capitalization ->
-       *[lowercase] فائرفوکس کھاتہ
         [uppercase] فائرفوکس کھاتہ
+       *[lowercase] فائرفوکس کھاتہ
     }
 -brand-name-chrome = کروم
 -brand-name-google-chrome = گوگل کروم

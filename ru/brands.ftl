@@ -16,13 +16,13 @@
 -brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser =
     { $case ->
-       *[nominative] браузер Firefox
         [nominative_uppercase] Браузер Firefox
         [genitive] браузера Firefox
         [dative] браузеру Firefox
         [accusative] браузер Firefox
         [instrumental] браузером Firefox
         [prepositional] браузере Firefox
+       *[nominative] браузер Firefox
     }
 -brand-name-mozilla = Mozilla
 -brand-name-vpn = VPN
@@ -36,13 +36,13 @@
 # Deprecated
 -brand-name-firefox-account =
     { $case ->
-       *[nominative] аккаунт Firefox
         [nominative_uppercase] Аккаунт Firefox
         [genitive] аккаунта Firefox
         [dative] аккаунту Firefox
         [accusative] аккаунт Firefox
         [instrumental] аккаунтом Firefox
         [prepositional] аккаунте Firefox
+       *[nominative] аккаунт Firefox
     }
 -brand-name-chrome = Chrome
 -brand-name-google-chrome = Google Chrome

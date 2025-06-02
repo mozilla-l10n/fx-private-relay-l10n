@@ -16,15 +16,15 @@
 -brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser =
     { $case ->
-       *[nominative]
-            { $capitalization ->
-               *[uppercase] Φυλλομετρητής Firefox
-                [lowercase] φυλλομετρητής Firefox
-            }
         [genitive]
             { $capitalization ->
-               *[uppercase] Φυλλομετρητή Firefox
                 [lowercase] φυλλομετρητή Firefox
+               *[uppercase] Φυλλομετρητή Firefox
+            }
+       *[nominative]
+            { $capitalization ->
+                [lowercase] φυλλομετρητής Firefox
+               *[uppercase] Φυλλομετρητής Firefox
             }
     }
 -brand-name-mozilla = Mozilla
@@ -39,20 +39,20 @@
 # Deprecated
 -brand-name-firefox-account =
     { $case ->
-       *[nominative]
-            { $capitalization ->
-               *[lowercase] λογαριασμός Firefox
-                [uppercase] Λογαριασμός Firefox
-            }
         [genitive]
             { $capitalization ->
-               *[lowercase] λογαριασμού Firefox
                 [uppercase] Λογαριασμού Firefox
+               *[lowercase] λογαριασμού Firefox
             }
         [accusative]
             { $capitalization ->
-               *[lowercase] λογαριασμό Firefox
                 [uppercase] Λογαριασμό Firefox
+               *[lowercase] λογαριασμό Firefox
+            }
+       *[nominative]
+            { $capitalization ->
+                [uppercase] Λογαριασμός Firefox
+               *[lowercase] λογαριασμός Firefox
             }
     }
 -brand-name-chrome = Chrome
