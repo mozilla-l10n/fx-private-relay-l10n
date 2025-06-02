@@ -48,3 +48,56 @@ bundle-banner-dashboard-header = Introducing: { -brand-name-relay } + { -brand-n
 bundle-banner-dashboard-body = Upgrade your subscription to get both { -brand-name-relay-premium } Phone Masking + { -brand-name-mozilla-vpn } for { $monthly_price }/month. Upgrade now to get { $savings } off { -brand-name-mozilla-vpn }!
 bundle-banner-dashboard-upgrade-cta = Upgrade now
 
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+megabundle-banner-header = Protect your online privacy for { $monthly_price }/month
+megabundle-banner-header-tools = Get 3 tools for 1 unbeatable price
+megabundle-banner-plan-modules-vpn = { -brand-name-vpn }
+megabundle-banner-plan-modules-monitor = { -brand-name-monitor }
+megabundle-banner-plan-modules-relay = { -brand-name-relay }
+megabundle-banner-plan-body = Plan includes { -brand-name-vpn }, data broker protection, and unlimited email masks to prevent spam.
+megabundle-banner-cta = Get year-round protection
+
+#   $days_guarantee (string) - the number of days for a money back guarantee. Example: 30
+megabundle-banner-money-back-guarantee = { $days_guarantee }-day money-back guarantee.
+
+#   $billed (string) - the yearly cost (including currency symbol) for a given plan. Examples: $99, 99 €
+megabundle-banner-billed-annually = { $billed }/year, billed annually.
+
+plan-grid-title = Choose your level of protection
+plan-grid-body = 30-day money-back guarantee (first-time customers only)
+plan-grid-free-title = { -brand-name-relay }
+
+#   $mask_limit (string) number of email masks a user have with free account. Example: 5
+plan-grid-card-free-item-one = <b>{ $mask_limit } email masks</b> to protect your real email address
+plan-grid-card-free-item-two = <b>Browser extension</b> to use { -brand-name-relay } on any site
+plan-grid-card-free-item-three = <b>Remove email trackers</b>
+plan-grid-card-btn = Get Started
+plan-grid-premium-title = { -brand-name-relay-premium }
+plan-grid-premium-subtitle = Unlimited email protection
+plan-grid-card-premium-plus = Everything in { -brand-name-relay }
+plan-grid-card-premium-item-one = <b>Unlimited email masks</b> to protect your real email address
+plan-grid-card-premium-item-two = <b>Block promotional emails</b>
+plan-grid-card-premium-item-three = { -brand-name-relay } email domain to <b>create masks on-the-go</b>
+plan-grid-card-premium-item-four = <b>Reply anonymously</b> to emails
+plan-grid-phone-subtitle = Email and phone protection
+plan-grid-card-phone-plus = Everything in { -brand-name-relay-premium }
+plan-grid-card-phone-item-one = Phone mask to <b>protect your real phone number</b>
+plan-grid-megabundle-title = Privacy Protection Plan
+
+#   $discountPercentage (number) megabundle discount savings value. Example: 45
+plan-grid-megabundle-label = Best value, save { $discountPercentage }%
+plan-grid-megabundle-subtitle = 3 privacy tools, 1 price
+plan-grid-megabundle-vpn-title = { -brand-name-mozilla-vpn }
+plan-grid-megabundle-vpn-description = Online activity protection
+plan-grid-megabundle-monitor-title = { -brand-name-monitor-plus }
+plan-grid-megabundle-monitor-description = Data broker protection
+plan-grid-megabundle-relay-title = { -brand-name-relay-premium }
+plan-grid-megabundle-relay-description = Unlimited email masks for spam protection
+plan-grid-billed-monthly = Billed monthly
+
+#   $yearly_price (string) - the yearly cost (including currency symbol) for a given plan. Examples: $99, 99 €
+plan-matrix-price-yearly-calculated = { $yearly_price } billed yearly
+
+#   $price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-grid-megabundle-monthly = { $price }/mo
+plan-grid-megabundle-yearly = { $yearly_price } billed yearly
