@@ -239,3 +239,5 @@
        *[nom] Google Chrome
     }
     .gender = masculine
+-brand-name-monitor = Monitor
+-brand-name-monitor-plus = Monitor Plus
