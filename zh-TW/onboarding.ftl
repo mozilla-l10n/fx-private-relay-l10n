@@ -46,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = 新增 { -brand-name-r
 
 multi-part-onboarding-premium-extension-added = 已安裝 { -brand-name-relay } 擴充套件！
 multi-part-onboarding-premium-added-extension-body = 不用登入 { -brand-name-relay } 就能產生新的轉寄信箱，只要在網站要求您輸入電子郵件地址時，尋找畫面中的 Relay 圖示即可。
-
 multi-part-onboarding-premium-extension-button-dashboard = 前往儀錶板
 multi-part-onboarding-skip = 先跳過，之後再設定
 multi-part-onboarding-skip-download-extension = 先跳過，我之後再下載擴充套件
@@ -58,5 +57,4 @@ multi-part-onboarding-reply-headline = 回覆郵件
 onboarding-premium-title-detail = 透過 { -brand-name-firefox-relay-premium }，您可以：
 onboarding-premium-reply-description-2 = 需要回覆寄到轉寄信箱的郵件嗎？只要如往常一般方式回信，仍可透過轉寄信箱來保護您的地址。
 multi-part-onboarding-premium-reply-description = 不用給出實際信箱，就能回覆郵件
-
 multi-part-onboarding-step-counter = 第 { $step } 步，共 { $max } 步。

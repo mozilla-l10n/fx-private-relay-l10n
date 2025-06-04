@@ -6,7 +6,6 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (يېڭى بەتكۈچتە ئاچ)
 
@@ -20,7 +19,6 @@ nav-email-dashboard = ئېلخەت نىقابى
 nav-phone-dashboard = تېلېفون نىقابى
 label-open-menu = تىزىملىك ئاچ
 avatar-tooltip = تەرجىمىھال
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = كۆپ سورالغان سوئاللار
 nav-profile-sign-in = تىزىمغا كىرىڭ
@@ -53,7 +51,6 @@ nav-support = ياردەم ۋە قوللاش
 nav-sign-out = تىزىمدىن چىق
 nav-contact = بىز بىلەن ئالاقىلىشىڭ
 nav-menu-mobile = كۆچمە تىزىملىك
-
 fx-desktop-2 = { -brand-name-firefox } ئۈستەل نەشرى
 fx-mobile-2 = { -brand-name-firefox } كۆچمە نەشرى
 
@@ -74,4 +71,3 @@ fx-mobile = { -brand-name-firefox-browser } كۆچمە نەشرى
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

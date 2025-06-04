@@ -46,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Добавьте ра�
 
 multi-part-onboarding-premium-extension-added = Расширение { -brand-name-relay } добавлено!
 multi-part-onboarding-premium-added-extension-body = Вам больше не нужно входить в { -brand-name-relay }, чтобы создать новый псевдоним — просто найдите значок Relay, когда веб-сайты запросят ваш адрес электронной почты.
-
 multi-part-onboarding-premium-extension-button-dashboard = Перейти на панель управления
 multi-part-onboarding-skip = Пропустить, я настрою это позже
 multi-part-onboarding-skip-download-extension = Пропустить, я скачаю расширение позже
@@ -58,5 +57,4 @@ multi-part-onboarding-reply-headline = Отвечайте на электрон�
 onboarding-premium-title-detail = С { -brand-name-firefox-relay-premium } вы можете:
 onboarding-premium-reply-description-2 = Нужно ответить на электронные письма, отправленные на псевдоним? Просто отвечайте как обычно — псевдоним по-прежнему будет защищать ваш адрес электронной почты.
 multi-part-onboarding-premium-reply-description = Отвечайте на электронные письма, не сообщая свой настоящий адрес
-
 multi-part-onboarding-step-counter = Шаг { $step } из { $max }.

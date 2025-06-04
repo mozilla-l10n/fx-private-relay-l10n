@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } 可以轻松创建马甲邮箱，用它收邮件并转发至您的真实邮箱。可用马甲邮箱来保护您的账户，不受黑客和垃圾邮件的侵扰。
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = （在新标签页中打开）
 
@@ -21,7 +20,6 @@ nav-email-dashboard = 马甲邮箱
 nav-phone-dashboard = 虚拟手机号
 label-open-menu = 打开菜单
 avatar-tooltip = 个人资料
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = 常见问题
 nav-profile-sign-in = 登录
@@ -54,7 +52,6 @@ nav-support = 帮助和支持
 nav-sign-out = 退出
 nav-contact = 联系我们
 nav-menu-mobile = 移动菜单
-
 fx-desktop-2 = { -brand-name-firefox } 桌面版
 fx-mobile-2 = { -brand-name-firefox } 移动版
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser }移动版
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = Mae { -brand-name-firefox-relay } yn ei gwneud hi'n hawdd creu arallenwau e-bostio, arallenwau sy'n cael eu hanfon ymlaen i'ch blwch derbyn go iawn. Defnyddiwch hwn i ddiogelu eich cyfrifon ar-lein rhag hacwyr a negeseuon digroeso.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Yn agor mewn tab newydd)
 
@@ -21,7 +20,6 @@ nav-email-dashboard = Arallenwau E-byst
 nav-phone-dashboard = Cuddio Ffôn
 label-open-menu = Agor y ddewislen
 avatar-tooltip = Proffil
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Cwestiynau Cyffredin
 nav-profile-sign-in = Mewngofnodi
@@ -54,7 +52,6 @@ nav-support = Cymorth a Chefnogaeth
 nav-sign-out = Allgofnodi
 nav-contact = Cysylltwch â ni
 nav-menu-mobile = Dewislen Symudol
-
 fx-desktop-2 = { -brand-name-firefox } y Bwrdd Gwaith
 fx-mobile-2 = { -brand-name-firefox } Symudol
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser } Symudol
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

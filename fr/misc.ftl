@@ -117,14 +117,14 @@ offer-countdown-timer-alt =
             }
         [1]
             { $remaining_hours ->
-                [0] 1 jour restant
                 [1] 1 jour et 1 heure restante
+                [0] 1 jour restant
                *[other] 1 jour et { $remaining_hours } heures restantes
             }
        *[other]
             { $remaining_hours ->
-                [0] { $remaining_days } jours restants
                 [1] { $remaining_days } 3 jours et 1 heure restante
+                [0] { $remaining_days } jours restants
                *[other] { $remaining_days } jours et { $remaining_hours } heures restantes
             }
     }

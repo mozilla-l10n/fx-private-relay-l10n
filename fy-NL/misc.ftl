@@ -119,14 +119,14 @@ offer-countdown-timer-alt =
             }
         [1]
             { $remaining_hours ->
-                [0] noch 1 dei
                 [1] noch 1 dei en 1 oere
+                [0] noch 1 dei
                *[other] noch 1 dei en { $remaining_hours } oeren
             }
        *[other]
             { $remaining_hours ->
-                [0] noch { $remaining_days } dagen
                 [1] noch { $remaining_days } dagen en 1 oere
+                [0] noch { $remaining_days } dagen
                *[other] noch { $remaining_days } dagen en { $remaining_hours } oeren
             }
     }

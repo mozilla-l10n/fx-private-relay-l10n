@@ -6,7 +6,6 @@
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-tip = Tipp: Ha egyéni maszkot szeretne létrehozni, akkor találja ki helyben. Ha a { -brand-name-relay } domainjét használja, akkor működni fog, még akkor is, ha nem hozta itt létre.
-
 modal-custom-alias-picker-heading-2 = Új egyéni maszk létrehozása
 modal-custom-alias-picker-form-prefix-label-3 = Írja be a @ szimbólum előtti szöveget:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
@@ -27,9 +26,7 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = Kezdje el a pr
 error-state-valid-alt = Érvényes
 error-state-invalid-alt = Érvénytelen
 close-button-label-alt = Bezárás
-
 modal-delete-headline-2 = Véglegesen törli ezt az e-mail-maszkot?
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -43,7 +40,6 @@ modal-delete-domain-address-warning-upgrade-2 =
     akkor érdemes frissítenie a bejelentkezési adatait egy másik e-mail-címmel, mielőtt törölné ezt.
     Ha újra létrehozza a törölt maszkot, akkor az eredeti maszkra küldött levelek továbbra is továbbítva lesznek.
 modal-delete-confirmation-2 = Igen, törlöm ezt a maszkot.
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Igen, szeretném regisztrálni a következőt: <subdomain>{ $subdomain }</subdomain>.

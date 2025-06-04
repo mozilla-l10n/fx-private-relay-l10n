@@ -9,7 +9,6 @@ onboarding-headline-2 = Δημιουργήστε την πρώτη σας μάσ
 onboarding-alias-tip-1-2 = Επιλέξτε «Δημιουργία νέας μάσκας» για να δημιουργήσετε την πρώτη μάσκα email σας.
 onboarding-alias-tip-2 = Με την επέκταση { -brand-name-relay }, επιλέξτε το εικονίδιο του { -brand-name-firefox-relay } όταν εμφανιστεί σε πεδία email.
 onboarding-alias-tip-3-2 = Με την επέκταση { -brand-name-relay }, κάντε δεξί κλικ σε πεδία φορμών και επιλέξτε «Δημιουργία νέας μάσκας».
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Καλώς ορίσατε,</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = Μάσκα @{ $subdomain }
 profile-label-delete = Διαγραφή
 profile-label-upgrade-2 = Απόκτηση απεριόριστων μασκών email
 profile-label-custom-domain = Ο τομέας email σας στο { -brand-name-relay }:
-# Deprecated
 profile-label-set-your-custom-domain = Ορισμός μοναδικού τομέα email στο { -brand-name-relay }
 profile-label-reset = Επαναφορά
 profile-label-apply = Εφαρμογή
 profile-label-continue = Συνέχεια
-
 # This string is followed by an email address
 profile-label-forward-emails = Προώθηση email στο:
-
 # This string is followed by date:
 profile-label-created = Δημιουργία:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Κάντε κλικ για αντιγραφή
 profile-label-copied = Αντιγράφτηκε!
 profile-label-blocked = Αποκλεισμένα
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = Το { -brand-name-relay } δ�
 profile-promo-email-blocking-description-none-3 = Όλα τα email που αποστέλλονται σε αυτήν τη μάσκα θα προωθούνται στην πραγματική σας διεύθυνση.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Φραγή διαφημίσεων
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Αποκλεισμός διαφημιστικών email
 # Deprecated
 profile-promo-email-blocking-label-none = Φραγή όλων

@@ -9,7 +9,6 @@ onboarding-headline-2 = Jo earste e-mailmasker oanmeitsje
 onboarding-alias-tip-1-2 = Selektearje ‘Nij masker oanmeitsje’ om jo earste e-mailmasker oan te meitsjen
 onboarding-alias-tip-2 = Selektearje as jo de { -brand-name-relay }-útwreiding brûke it { -brand-name-firefox-relay }-piktogram wannear’t dit yn e-mailfjilden ferskynt.
 onboarding-alias-tip-3-2 = Klik as jo de { -brand-name-relay }-útwreiding brûke mei de rjochtermûsknop op formulierfjilden en selektearje ‘Nij masker oanmeitsje’.
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Wolkom,</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain }-masker
 profile-label-delete = Fuortsmite
 profile-label-upgrade-2 = Unbeheinde e-mailmaskers krije
 profile-label-custom-domain = Jo { -brand-name-relay }-e-maildomein:
-# Deprecated
 profile-label-set-your-custom-domain = Stel jo unike { -brand-name-relay }-e-maildomein yn
 profile-label-reset = Opnij inisjalisearje
 profile-label-apply = Tapasse
 profile-label-continue = Trochgean
-
 # This string is followed by an email address
 profile-label-forward-emails = E-mailberjochten trochstjoere nei:
-
 # This string is followed by date:
 profile-label-created = Makke:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Klikje om te kopiearjen
 profile-label-copied = Kopiearre!
 profile-label-blocked = Blokkearre
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } blokkear
 profile-promo-email-blocking-description-none-3 = Alle e-mailberjochten dy’t nei dit masker ferstjoerd wurde, wurde trochstjoerd nei jo echte adres.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Reklame blokkearje
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Advertinsjeberjochten wurde blokkearre
 # Deprecated
 profile-promo-email-blocking-label-none = Alles blokkearje

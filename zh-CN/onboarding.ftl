@@ -46,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = 添加 { -brand-name-r
 
 multi-part-onboarding-premium-extension-added = 已安装 { -brand-name-relay } 扩展！
 multi-part-onboarding-premium-added-extension-body = 在网站要求您提供邮箱地址时，点击 Relay 图标即可轻松生成新马甲，免去事先登录 { -brand-name-relay } 的麻烦。
-
 multi-part-onboarding-premium-extension-button-dashboard = 前往面板
 multi-part-onboarding-skip = 以后再完成设置
 multi-part-onboarding-skip-download-extension = 以后再下载
@@ -58,5 +57,4 @@ multi-part-onboarding-reply-headline = 回复邮件
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } 可享：
 onboarding-premium-reply-description-2 = 需回复发送给马甲邮箱的邮件？照常回复即可——您的真实邮箱地址依然受到保护。
 multi-part-onboarding-premium-reply-description = 无需暴露真实邮箱地址也能回复邮件
-
 multi-part-onboarding-step-counter = 第 { $step } / { $max } 步。

@@ -9,7 +9,6 @@ onboarding-headline-2 = Crea il tuo primo alias di posta elettronica
 onboarding-alias-tip-1-2 = Fai clic sul pulsante “Genera nuovo alias” per creare il tuo primo alias di posta elettronica.
 onboarding-alias-tip-2 = Con l’estensione { -brand-name-relay } installata, seleziona l’icona di { -brand-name-firefox-relay } quando appare nei campi email.
 onboarding-alias-tip-3-2 = Con l’estensione { -brand-name-relay } installata, fai clic con il tasto destro del mouse sui campi del modulo e seleziona “Genera nuovo alias”.
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Ciao,</span> { $email }.
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = Alias @{ $subdomain }
 profile-label-delete = Elimina
 profile-label-upgrade-2 = Ottieni alias di posta elettronica illimitati
 profile-label-custom-domain = Il tuo dominio di posta elettronica { -brand-name-relay }:
-# Deprecated
 profile-label-set-your-custom-domain = Imposta il tuo dominio di posta elettronica { -brand-name-relay } univoco
 profile-label-reset = Ripristina
 profile-label-apply = Applica
 profile-label-continue = Continua
-
 # This string is followed by an email address
 profile-label-forward-emails = Inoltra messaggi a:
-
 # This string is followed by date:
 profile-label-created = Data creazione:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Fai clic per copiare
 profile-label-copied = Copiato
 profile-label-blocked = Bloccati
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } non sta 
 profile-promo-email-blocking-description-none-3 = Tutte le email inviate a questo alias verranno inoltrate al tuo indirizzo reale.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Blocca le pubblicità
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Blocco email pubblicitarie
 # Deprecated
 profile-promo-email-blocking-label-none = Blocca tutto

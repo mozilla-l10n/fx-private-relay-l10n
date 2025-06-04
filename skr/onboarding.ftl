@@ -46,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = { -brand-name-relay } 
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } ایکسٹنشن شامل تھئی!
 multi-part-onboarding-premium-added-extension-body = ہُݨ تُہاکوں نواں ماسک بݨاوݨ کِیتے { -brand-name-relay } وِچ سائن اِن کرݨ دی لوڑ کائناں پوسی — جہڑیلے ویب سائٹ تُہاݙے ای میل پتے کِیتے پُچّھو تاں صرف رِیلے آئیکن کوں لبّھو۔
-
 multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے ون٘ڄو
 multi-part-onboarding-skip = چھوڑ ون٘ڄو، میں ایہ بعد وچ قائم کریساں
 multi-part-onboarding-skip-download-extension = چھوڑو، میں ایکسٹنشن بعد وچ ڈاؤن لوڈ کریساں
@@ -58,5 +57,4 @@ multi-part-onboarding-reply-headline = تہاݙی ای میلاں دا جواب
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } نال تساں کر سڳدے ہو:
 onboarding-premium-reply-description-2 = ماسک کوں بھیڄیاں ڳئیاں ای میلز دا جواب ݙیوݨ دی ضرورت ہے؟ بس معمول دے مطابق جواب ݙیو — تہاݙا ماسک ہݨ وی تہاݙے ای میل ایڈریس دی حفاظت کریسے۔
 multi-part-onboarding-premium-reply-description = آپݨاں اصل پتہ ݙسے بغیر ای میلاں دا جواب ݙیوو
-
 multi-part-onboarding-step-counter = { $max } دا { $step } قدم

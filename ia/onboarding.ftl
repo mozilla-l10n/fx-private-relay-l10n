@@ -46,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Adder le extension { -
 
 multi-part-onboarding-premium-extension-added = Extension { -brand-name-relay } addite!
 multi-part-onboarding-premium-added-extension-body = Tu non besoniara plus de acceder a { -brand-name-relay } pro generar un nove masca, justo cerca le icone de Relay quando le sitos web quere tu adresse email.
-
 multi-part-onboarding-premium-extension-button-dashboard = Va al pannello de controlo
 multi-part-onboarding-skip = Saltar, io lo definira plus tarde
 multi-part-onboarding-skip-download-extension = Saltar, io discargara plus tarde le extension
@@ -58,5 +57,4 @@ multi-part-onboarding-reply-headline = Replicar a tu e-mails
 onboarding-premium-title-detail = Con { -brand-name-firefox-relay-premium } tu pote:
 onboarding-premium-reply-description-2 = Besonia tu de responder a emails inviate a un masca? solo replica normalmente, tu masca ancora protegera tu adresse email.
 multi-part-onboarding-premium-reply-description = Responder a emails sin revelar tu real adresse
-
 multi-part-onboarding-step-counter = Passo { $step } de { $max }.

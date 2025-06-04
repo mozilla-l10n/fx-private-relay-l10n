@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } rende facile crear mascas de e-mail que reexpedi le messages a tu ver cassa de entrata. Usa los pro proteger tu contos in linea contra piratas informatic e messages indesirate.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Se aperi in un nove scheda)
 
@@ -21,7 +20,6 @@ nav-email-dashboard = Mascas email
 nav-phone-dashboard = Mascas de numero de telephono
 label-open-menu = Aperir le menu
 avatar-tooltip = Profilo
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Folio a questiones
 nav-profile-sign-in = Aperir session
@@ -54,7 +52,6 @@ nav-support = Adjuta e assistentia
 nav-sign-out = Clauder session
 nav-contact = Contactar nos
 nav-menu-mobile = Menu mobile
-
 fx-desktop-2 = { -brand-name-firefox } pro scriptorio
 fx-mobile-2 = { -brand-name-firefox } pro mobile
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser } pro mobile
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

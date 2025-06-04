@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } makes it easy to create email masks that forward your messages to your true inbox. Use them to protect your online accounts from hackers and unwanted messages.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Opens in a new tab)
 
@@ -21,7 +20,6 @@ nav-email-dashboard = Email Masks
 nav-phone-dashboard = Phone Masks
 label-open-menu = Open menu
 avatar-tooltip = Profile
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = FAQ
 nav-profile-sign-in = Sign In
@@ -54,7 +52,6 @@ nav-support = Help and Support
 nav-sign-out = Sign Out
 nav-contact = Contact Us
 nav-menu-mobile = Mobile Menu
-
 fx-desktop-2 = { -brand-name-firefox } for Desktop
 fx-mobile-2 = { -brand-name-firefox } for Mobile
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser } for Mobile
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

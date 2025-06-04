@@ -9,7 +9,6 @@ onboarding-headline-2 = آپݨاں پہلا ای میل ماسک بݨاؤ
 onboarding-alias-tip-1-2 = آپݨاں پہلا ای میل ماسک  خلقݨ کیتے "نواں ماسک جنریٹ کرو" چُݨو۔
 onboarding-alias-tip-2 = { -brand-name-relay } ایکسٹنشن ورتݨ نال { -brand-name-firefox-relay } آئیکان چݨو جہڑے ویلے ایہ ای میل خانے وچ ظاہر تھیوے۔
 onboarding-alias-tip-3-2 = { -brand-name-relay } ایکسٹنشن ورتیندے ہوئے،  فارم خانے وچ " نواں ماسک جنریٹ کرو" تے سڄا کلک کرو۔
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>ست بسم اللہ،</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } ماسک
 profile-label-delete = مٹاؤ
 profile-label-upgrade-2 = بے انت ای میل ماسک گھنو
 profile-label-custom-domain = تہاݙی { -brand-name-relay } ای میل ڈومین:
-# Deprecated
 profile-label-set-your-custom-domain = آپݨی نویکلی { -brand-name-relay } ای میل ڈومین بݨاؤ
 profile-label-reset = ولدا ٹھیک کرو
 profile-label-apply = لاگو کرو
 profile-label-continue = جاری
-
 # This string is followed by an email address
 profile-label-forward-emails = کوں ای میل اڳوں تے پٹھو:
-
 # This string is followed by date:
 profile-label-created = بݨیا:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = نقل کرݨ کیتے کلک کرو
 profile-label-copied = نقل تھی ڳیا!
 profile-label-blocked = بلاک تھی ڳیا
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = ایں ماسک  کیتے { -b
 profile-promo-email-blocking-description-none-3 = ایں ماسک تے بھیڄیاں ہوئیاں ای میلاں تہاݙے اصلی پتے تے بھیڄیاں ویسن۔
 # Deprecated
 profile-promo-email-blocking-label-promotionals = مشہوریاں بلاک کرو
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = مشہوری ای میلاں روک ݙتیاں ہن
 # Deprecated
 profile-promo-email-blocking-label-none = سارے بلاک کرو

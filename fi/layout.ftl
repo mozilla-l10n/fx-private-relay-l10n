@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } tekee helpoksi sähköpostimaskien luomisen, jotka välittävät viestit oikeaan postilaatikkoosi. Käytä maskeja suojataksesi verkkotilisi pahantahtoisilta tahoilta ja viesteiltä, joita et halua.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Avautuu uuteen välilehteen)
 
@@ -21,7 +20,6 @@ nav-email-dashboard = Sähköpostimaskit
 nav-phone-dashboard = Puhelinmaskit
 label-open-menu = Avaa valikko
 avatar-tooltip = Profiili
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = UKK
 nav-profile-sign-in = Kirjaudu sisään
@@ -54,7 +52,6 @@ nav-support = Ohjeet ja tuki
 nav-sign-out = Kirjaudu ulos
 nav-contact = Ota yhteyttä
 nav-menu-mobile = Mobiilivalikko
-
 fx-desktop-2 = { -brand-name-firefox } työpöydälle
 fx-mobile-2 = { -brand-name-firefox } mobiililaitteille
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser } mobiililaitteille
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

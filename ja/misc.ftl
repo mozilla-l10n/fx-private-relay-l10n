@@ -24,9 +24,6 @@ tips-footer-link-faq-tooltip = よくある質問とその答え
 ## Tip about using custom masks
 
 
-## Tip about using custom masks
-
-
 ## Report of trackers removed from an email
 
 trackerreport-faq-cta = { -brand-name-firefox-relay } に関するよくある質問をもっと見る
@@ -38,10 +35,6 @@ trackerreport-faq-cta = { -brand-name-firefox-relay } に関するよくある�
 
 
 ## CSAT survey
-
-
-## Deprecated (since January 2023)
-## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)

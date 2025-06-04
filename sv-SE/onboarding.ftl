@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = Välkommen till { -brand-name-relay-premium }
@@ -45,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Lägg till tillägget 
 
 multi-part-onboarding-premium-extension-added = Tillägget { -brand-name-relay } har lagts till!
 multi-part-onboarding-premium-added-extension-body = Du behöver inte längre logga in på { -brand-name-relay } för att skapa ett nytt alias — leta bara efter Relay-ikonen när webbplatser ber om din e-postadress.
-
 multi-part-onboarding-premium-extension-button-dashboard = Gå till översikten
 multi-part-onboarding-skip = Hoppa över, jag ställer in det här senare
 multi-part-onboarding-skip-download-extension = Hoppa över, jag laddar ner tillägget senare
@@ -57,8 +57,4 @@ multi-part-onboarding-reply-headline = Svara på dina mejl
 onboarding-premium-title-detail = Med { -brand-name-firefox-relay-premium } kan du:
 onboarding-premium-reply-description-2 = Behöver du svara på e-postmeddelanden som skickats till ett alias? Svara bara som vanligt — ditt alias kommer fortfarande att skydda din e-postadress.
 multi-part-onboarding-premium-reply-description = Svara på e-postmeddelanden utan att ge bort din riktiga adress
-
-# Variables:
-#   $step (number) - Which step the user currently is on
-#   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Steg { $step } av { $max }.

@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = O { -brand-name-firefox-relay } facilita criar máscaras de email, que encaminham mensagens para sua caixa de entrada real. Use para proteger suas contas online de hackers e mensagens indesejadas.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (abre em uma nova aba)
 
@@ -21,7 +20,6 @@ nav-email-dashboard = Máscaras de email
 nav-phone-dashboard = Máscaras de celular
 label-open-menu = Abrir menu
 avatar-tooltip = Perfil
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Perguntas frequentes
 nav-profile-sign-in = Entrar
@@ -54,7 +52,6 @@ nav-support = Ajuda e suporte
 nav-sign-out = Sair
 nav-contact = Fale conosco
 nav-menu-mobile = Menu de celular
-
 fx-desktop-2 = { -brand-name-firefox } para computador
 fx-mobile-2 = { -brand-name-firefox } para dispositivos móveis
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser } para dispositivos móveis
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

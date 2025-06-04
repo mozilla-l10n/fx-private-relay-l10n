@@ -25,14 +25,11 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = Reklam e-posta
 error-state-valid-alt = Geçerli
 error-state-invalid-alt = Geçersiz
 close-button-label-alt = Kapat
-
 modal-delete-headline-2 = Bu e-posta maskesini kalıcı olarak silmek istediğinizden emin misiniz?
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html = Bu maskeyi sildikten sonra asla geri alamazsınız. { -brand-name-firefox-relay } bundan sonra <strong>{ $email }</strong> adresine gönderilen e-postaları size yönlendirmeyecektir. Parola sıfırlama iletileri de buna dahildir.
 modal-delete-confirmation-2 = Evet, bu maskeyi silmek istiyorum.
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Evet, <subdomain>{ $subdomain }</subdomain> alt alan adını kaydetmek istiyorum

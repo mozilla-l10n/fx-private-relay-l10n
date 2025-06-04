@@ -9,7 +9,6 @@ onboarding-headline-2 = Uw eerste e-mailmasker aanmaken
 onboarding-alias-tip-1-2 = Selecteer ‘Nieuw masker aanmaken’ om uw eerste e-mailmasker aan te maken.
 onboarding-alias-tip-2 = Selecteer als u de { -brand-name-relay }-extensie gebruikt het { -brand-name-firefox-relay }-pictogram wanneer dit in e-mailvelden verschijnt.
 onboarding-alias-tip-3-2 = Klik als u de { -brand-name-relay }-extensie gebruikt met de rechtermuisknop op formuliervelden en selecteer ‘Nieuw masker aanmaken’.
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Welkom,</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain }-masker
 profile-label-delete = Verwijderen
 profile-label-upgrade-2 = Onbeperkte e-mailmaskers verkrijgen
 profile-label-custom-domain = Uw { -brand-name-relay }-e-maildomein:
-# Deprecated
 profile-label-set-your-custom-domain = Stel uw unieke { -brand-name-relay }-e-maildomein in
 profile-label-reset = Herinitialiseren
 profile-label-apply = Toepassen
 profile-label-continue = Doorgaan
-
 # This string is followed by an email address
 profile-label-forward-emails = E-mailberichten doorsturen naar:
-
 # This string is followed by date:
 profile-label-created = Gemaakt:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Klik om te kopiëren
 profile-label-copied = Gekopieerd!
 profile-label-blocked = Geblokkeerd
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } blokkeer
 profile-promo-email-blocking-description-none-3 = Alle e-mailberichten die naar dit masker worden verzonden, worden doorgestuurd naar uw echte adres.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Reclame blokkeren
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Advertentieberichten worden geblokkeerd
 # Deprecated
 profile-promo-email-blocking-label-none = Alles blokkeren

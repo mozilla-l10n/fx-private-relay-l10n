@@ -6,7 +6,6 @@
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-tip = 提示：您可以在需要时随手创建自定义马甲。如果您使用自己的 { -brand-name-relay } 域名，那么可以在输入邮箱地址时随手创建马甲，而不必预先在此处生成。
-
 modal-custom-alias-picker-heading-2 = 新建自定义马甲
 modal-custom-alias-picker-form-prefix-label-3 = 输入符号@前的文本：
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
@@ -27,16 +26,13 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = 开始屏蔽�
 error-state-valid-alt = 有效
 error-state-invalid-alt = 无效
 close-button-label-alt = 关闭
-
 modal-delete-headline-2 = 确定要永久删除此马甲邮箱吗？
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html = 马甲删除后就无法再恢复。{ -brand-name-firefox-relay } 将不再转发邮件至 <strong>{ $email }</strong>（包含让您重置密码的邮件）。
 modal-delete-warning-upgrade-2 = 若您使用此马甲邮箱注册账户登录重要的网站，则应在删除此马甲前先到该网站将电子邮件地址更改为其他地址。
 modal-delete-domain-address-warning-upgrade-2 = 若您在使用此马甲登录关心的网站，请务必在删除前换绑其他邮箱。若重新创建已删除的马甲，发送到原始马甲的电子邮件将继续转发。
 modal-delete-confirmation-2 = 是的，我要删除此马甲。
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = 是的，我要注册 <subdomain>{ $subdomain }</subdomain>

@@ -9,7 +9,6 @@ onboarding-headline-2 = Creu eich arallenw e-bost cyntaf
 onboarding-alias-tip-1-2 = Dewiswch “Cynhyrchu arallenw newydd” i greu eich arallenw cyntaf.
 onboarding-alias-tip-2 = Gan ddefnyddio'r estyniad { -brand-name-relay }, dewiswch yr eicon { -brand-name-firefox-relay } pan fydd yn ymddangos mewn meysydd e-bost.
 onboarding-alias-tip-3-2 = Gan ddefnyddio’r estyniad { -brand-name-relay }, de-gliciwch ar faes y  ffurflen a dewis “Cynhyrchu arallenw newydd.”
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Croeso,</span> { $email }
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = Arallenw @{ $subdomain }
 profile-label-delete = Dileu
 profile-label-upgrade-2 = Cael arallenwau diderfyn
 profile-label-custom-domain = Eich parth e-bost { -brand-name-relay }:
-# Deprecated
 profile-label-set-your-custom-domain = Gosodwch eich parth e-bost { -brand-name-relay } unigryw
 profile-label-reset = Ailosod
 profile-label-apply = Gosod
 profile-label-continue = Parhau
-
 # This string is followed by an email address
 profile-label-forward-emails = Anfon e-byst ymlaen at:
-
 # This string is followed by date:
 profile-label-created = Crëwyd:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Clicio i'w gopïo
 profile-label-copied = Copïwyd!
 profile-label-blocked = Rhwystrwyd
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = Nid yw { -brand-name-relay } y
 profile-promo-email-blocking-description-none-3 = Bydd pob e-bost sy'n cael ei anfon at yr arallenw hwn yn cael ei anfon ymlaen i'ch cyfeiriad go iawn.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Rhwystro'r hyrwyddiadau
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Yn rhwystro e-byst hyrwyddo
 # Deprecated
 profile-promo-email-blocking-label-none = Rhwystro'r cyfan

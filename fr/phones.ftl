@@ -36,7 +36,11 @@ phone-onboarding-step3-body =
                 [1] Veuillez saisir le code de vérification envoyé à <span>{ $phone_number }</span> d’ici <strong>{ $remaining_seconds } seconde</strong>.
                *[other] Veuillez saisir le code de vérification envoyé à <span>{ $phone_number }</span> d’ici <strong>{ $remaining_seconds } secondes</strong>.
             }
-       *[other] Veuillez saisir le code de vérification envoyé à <span>{ $phone_number }</span> d’ici <strong>{ $remaining_minutes }:{ NUMBER($remaining_seconds, minimumIntegerDigits: 2) } minutes</strong>.
+       *[other]
+            { $remaining_seconds ->
+                [1] Veuillez saisir le code de vérification envoyé à <span>{ $phone_number }</span> d’ici <strong>{ $remaining_minutes }:{ NUMBER($remaining_seconds, minimumIntegerDigits: 2) } minutes</strong>.
+               *[other] Veuillez saisir le code de vérification envoyé à <span>{ $phone_number }</span> d’ici <strong>{ $remaining_minutes }:{ NUMBER($remaining_seconds, minimumIntegerDigits: 2) } minutes</strong>.
+            }
     }
 phone-onboarding-step3-input-placeholder = Saisissez le code à 6 chiffres
 phone-onboarding-step3-button-cta = Confirmer mon numéro de téléphone

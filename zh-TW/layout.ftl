@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } 讓您可輕鬆建立轉寄信箱，使用該地址收信後再轉寄回您實際的信箱。可使用轉寄信箱來保護帳號，不受駭客與垃圾信件的騷擾。
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = （用新分頁開啟）
 
@@ -21,7 +20,6 @@ nav-email-dashboard = 轉寄信箱
 nav-phone-dashboard = 虛擬手機號碼轉接
 label-open-menu = 開啟選單
 avatar-tooltip = 個人資料
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = 常見問題
 nav-profile-sign-in = 登入
@@ -54,7 +52,6 @@ nav-support = 說明與技術支援
 nav-sign-out = 登出
 nav-contact = 聯絡我們
 nav-menu-mobile = 行動選單
-
 fx-desktop-2 = { -brand-name-firefox } 桌面版
 fx-mobile-2 = { -brand-name-firefox } 行動版
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser }行動版
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

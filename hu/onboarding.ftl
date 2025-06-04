@@ -46,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Adja hozzá a { -brand
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } kiegészítő hozzáadva!
 multi-part-onboarding-premium-added-extension-body = Többé nem kell bejelentkeznie a { -brand-name-relay } szolgáltatásba, hogy új maszkot hozzon létre – csak keresse a Relay ikont, amikor a webhelyek az Ön e-mail-címét kérik.
-
 multi-part-onboarding-premium-extension-button-dashboard = Ugrás a vezérlőpultra
 multi-part-onboarding-skip = Kihagyás, beállítás később
 multi-part-onboarding-skip-download-extension = Kihagyás, a kiegészítő letöltése később
@@ -58,5 +57,4 @@ multi-part-onboarding-reply-headline = Válaszoljon a leveleire
 onboarding-premium-title-detail = A { -brand-name-firefox-relay-premium }mal a következőket teheti:
 onboarding-premium-reply-description-2 = Válaszolnia kell a maszkra küldött levelekre? Csak válaszoljon a szokásos módon – a maszk továbbra is védi az e-mail-címét.
 multi-part-onboarding-premium-reply-description = Válaszolhat az e-mailekre anélkül, hogy megadná a valódi címét
-
 multi-part-onboarding-step-counter = { $step }. / { $max } lépés

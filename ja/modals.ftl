@@ -6,7 +6,6 @@
 ## Modal for generating a custom mask
 
 modal-delete-headline-2 = このメールマスクを完全に削除しますか？
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =

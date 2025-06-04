@@ -46,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Añade la extensión {
 
 multi-part-onboarding-premium-extension-added = Extensión { -brand-name-relay } instalada.
 multi-part-onboarding-premium-added-extension-body = Ya no necesitarás iniciar sesión en { -brand-name-relay } para generar una nueva máscara; solo busca el icono de Relay cuando los sitios web te soliciten tu dirección de correo electrónico.
-
 multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de control
 multi-part-onboarding-skip = Omitir, lo configuraré más tarde
 multi-part-onboarding-skip-download-extension = Omitir, descargaré la extensión más tarde
@@ -58,5 +57,4 @@ multi-part-onboarding-reply-headline = Responder a tus correos
 onboarding-premium-title-detail = Con { -brand-name-firefox-relay-premium } tú puedes:
 onboarding-premium-reply-description-2 = ¿Necesitas responder a los correos electrónicos enviados a una máscara? Simplemente responde como de costumbre: tu máscara seguirá protegiendo tu dirección de correo electrónico.
 multi-part-onboarding-premium-reply-description = Responde correos electrónicos sin revelar tu dirección real
-
 multi-part-onboarding-step-counter = Paso { $step } de { $max }.

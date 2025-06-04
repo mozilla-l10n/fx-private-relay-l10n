@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } ではメールアドレスを隠すためのマスクを簡単に作成し、真の受信トレイへメールを転送します。マスクの使用でハッカーや迷惑メールからオンラインアカウントを保護できます。
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (新しいタブで開く)
 
@@ -21,7 +20,6 @@ nav-email-dashboard = メールマスク
 nav-phone-dashboard = 電話番号マスク
 label-open-menu = メニューを開く
 avatar-tooltip = プロファイル
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = よくある質問
 nav-profile-sign-in = ログイン
@@ -54,7 +52,6 @@ nav-support = ヘルプとサポート
 nav-sign-out = ログアウト
 nav-contact = お問い合わせ
 nav-menu-mobile = モバイル版メニュー
-
 fx-desktop-2 = デスクトップ版 { -brand-name-firefox }
 fx-mobile-2 = モバイル版 { -brand-name-firefox }
 
@@ -74,4 +71,3 @@ fx-desktop = デスクトップ版 { -brand-name-firefox-browser }
 fx-mobile = モバイル版 { -brand-name-firefox-browser }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

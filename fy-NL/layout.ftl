@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } makket it maklik om e-mailmaskers te meitsjen, dy’t nei jo wiere Postfek Yn trochstjoerd wurde. Brûk it om jo online accounts te beskermjen tsjin hackers en net-winske berjochten.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Iepenet yn in nij ljepblêd)
 
@@ -21,7 +20,6 @@ nav-email-dashboard = E-mailmaskers
 nav-phone-dashboard = Telefoanmaskers
 label-open-menu = Menu iepenje
 avatar-tooltip = Profyl
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = FAQ
 nav-profile-sign-in = Oanmelde
@@ -54,7 +52,6 @@ nav-support = Help en stipe
 nav-sign-out = Ofmelde
 nav-contact = Kontakt
 nav-menu-mobile = Mobyl-menu
-
 fx-desktop-2 = { -brand-name-firefox } foar desktop
 fx-mobile-2 = { -brand-name-firefox } foar mobyl
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser } foar mobyl
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

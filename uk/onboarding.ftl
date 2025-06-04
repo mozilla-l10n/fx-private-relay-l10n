@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = Ласкаво просимо до { -brand-name-relay-premium }
@@ -45,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Додайте роз�
 
 multi-part-onboarding-premium-extension-added = Розширення { -brand-name-relay } додано!
 multi-part-onboarding-premium-added-extension-body = Вам більше не доведеться виконувати вхід у { -brand-name-relay }, щоб згенерувати нову маску – просто погляньте на піктограму Relay, коли вебсайти запитують вашу адресу е-пошти.
-
 multi-part-onboarding-premium-extension-button-dashboard = Перейти до панелі стану
 multi-part-onboarding-skip = Пропустити, я налаштую згодом
 multi-part-onboarding-skip-download-extension = Пропустити, я завантажу розширення згодом
@@ -57,8 +57,4 @@ multi-part-onboarding-reply-headline = Відповідати на ваші ел
 onboarding-premium-title-detail = За допомогою { -brand-name-firefox-relay-premium } ви можете:
 onboarding-premium-reply-description-2 = Потрібно відповісти на електронні листи, надіслані на маску? Просто відповідайте як зазвичай – ваша маска все одно захищатиме вашу справжню електронну адресу.
 multi-part-onboarding-premium-reply-description = Відповідайте на електронні листи, не повідомляючи своєї справжньої адреси
-
-# Variables:
-#   $step (number) - Which step the user currently is on
-#   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Крок { $step } із { $max }.

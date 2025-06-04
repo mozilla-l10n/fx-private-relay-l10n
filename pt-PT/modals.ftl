@@ -6,7 +6,6 @@
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-tip = Dica: para criar uma máscara personalizada a qualquer momento, construa-a no local. Se utilizar o seu domínio { -brand-name-relay }, este funcionará, mesmo que não o tenha gerado aqui primeiro.
-
 modal-custom-alias-picker-heading-2 = Criar uma nova máscara personalizada
 modal-custom-alias-picker-form-prefix-label-3 = Introduza o texto que vai antes do símbolo @:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
@@ -27,16 +26,13 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = Comece a bloqu
 error-state-valid-alt = Válido
 error-state-invalid-alt = Inválido
 close-button-label-alt = Fechar
-
 modal-delete-headline-2 = Eliminar de forma permanente esta máscara de e-mail?
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html = Depois de eliminar esta máscara, a mesma não pode ser recuperada. O { -brand-name-firefox-relay } não irá mais reencaminhar mensagens enviadas para <strong>{ $email }</strong>, incluindo mensagens que lhe permitem repor palavras-passe perdidas.
 modal-delete-warning-upgrade-2 = Se utiliza este endereço de e-mail virtual para iniciar sessão em sites do seu interesse, deve atualizar a sua credencial com um endereço de e-mail diferente antes de o eliminar.
 modal-delete-domain-address-warning-upgrade-2 = Se utiliza esta máscara para iniciar sessão em sites do seu interesse, deve atualizar a sua credencial com um endereço de e-mail diferente antes de a eliminar. Se recriar uma máscara eliminada, os e-mails enviados para a máscara original continuarão a ser reencaminhados.
 modal-delete-confirmation-2 = Sim, quero eliminar esta máscara.
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Sim, quero registar <subdomain>{ $subdomain }</subdomain>

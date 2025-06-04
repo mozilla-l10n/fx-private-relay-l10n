@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } облегчает создание псевдонимов электронной почты, письма с которых пересылаются в ваш настоящий почтовый ящик. Используйте их для защиты своих аккаунтов в Интернете от хакеров и нежелательных сообщений.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Открывается в новой вкладке)
 
@@ -21,7 +20,6 @@ nav-email-dashboard = Псевдонимы электронной почты
 nav-phone-dashboard = Псевдонимы телефона
 label-open-menu = Открыть меню
 avatar-tooltip = Профиль
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = ЧАВО
 nav-profile-sign-in = Войти
@@ -54,7 +52,6 @@ nav-support = Справка и поддержка
 nav-sign-out = Выйти
 nav-contact = Связаться с нами
 nav-menu-mobile = Мобильное меню
-
 fx-desktop-2 = { -brand-name-firefox } для компьютера
 fx-mobile-2 = { -brand-name-firefox } для мобильных устройств
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser(case: "nominative_uppercase") } для
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

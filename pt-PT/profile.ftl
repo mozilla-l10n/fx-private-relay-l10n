@@ -9,7 +9,6 @@ onboarding-headline-2 = Crie a sua primeira máscara de e-mail
 onboarding-alias-tip-1-2 = Selecione “Gerar nova máscara” para criar a sua primeira máscara de e-mail.
 onboarding-alias-tip-2 = Com a extensão { -brand-name-relay }, selecione o ícone do { -brand-name-firefox-relay } quando este aparecer nos campos de correio eletrónico.
 onboarding-alias-tip-3-2 = Utilizando a extensão { -brand-name-relay }, clique com o lado direito nos campos de formulário e selecione “Gerar nova máscara.”
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Bem-vindo(a),</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = Máscara @{ $subdomain }
 profile-label-delete = Eliminar
 profile-label-upgrade-2 = Obtenha máscaras de e-mail ilimitadas
 profile-label-custom-domain = O seu domínio de e-mail do { -brand-name-relay }:
-# Deprecated
 profile-label-set-your-custom-domain = Defina o seu domínio de e-mail { -brand-name-relay } único
 profile-label-reset = Redefinir
 profile-label-apply = Aplicar
 profile-label-continue = Continuar
-
 # This string is followed by an email address
 profile-label-forward-emails = Reencaminhar e-mails para:
-
 # This string is followed by date:
 profile-label-created = Criado:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Clique para copiar
 profile-label-copied = Copiado!
 profile-label-blocked = Bloqueado
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = O { -brand-name-relay } não e
 profile-promo-email-blocking-description-none-3 = Todos os e-mails enviados para esta máscara serão encaminhados para o seu endereço real.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Bloquear promoções
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = A bloquear e-mails de promoções
 # Deprecated
 profile-promo-email-blocking-label-none = Bloquear tudo

@@ -6,7 +6,6 @@
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-tip = صلاح: کئیں وی ویلے لوڑ مطابق ماسک بݨاوݨ کِیتے، اِیکو موقع تے ای بݨاؤ۔ ڄیکر تُساں آپݨاں { -brand-name-relay } ڈومین استعمال کرین٘دے ہِیوے، تاں اِیہ کَم کریسی، بھان٘ویں تُساں اِیکوں پہلاں اِتّھاں نہ بݨایا ہووے۔
-
 modal-custom-alias-picker-heading-2 = نواں کسٹم ماسک  بݨاؤ
 modal-custom-alias-picker-form-prefix-label-3 = اُوہ متن درج کرو جہڑی @ علامت کنوں پہلاں وین٘دا ہِے:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
@@ -27,9 +26,7 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = مشہوری �
 error-state-valid-alt = ٹھیک
 error-state-invalid-alt = غلط
 close-button-label-alt = بند کرو
-
 modal-delete-headline-2 = ایہ ای میل ماسک پکّا پکّا مٹاؤں؟
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -43,7 +40,6 @@ modal-delete-domain-address-warning-upgrade-2 =
     اینکوں حذف کرݨ کنوں پہلے تہاکوں اپݨے لاگ ان کوں مختلف ای میل ایڈریس دے نال اپ ڈیٹ کرݨا چاہیدا ہے۔
     جے تساں حذف شدہ ماسک کوں دوبارہ بݨیندے او، تاں اصل ماسک تے بھیڄیاں ڳئیاں ای میلز اڳوں تے بھیڄیاں ویندیاں رہسن۔
 modal-delete-confirmation-2 = جیا، میں ایہ ماسک مٹاوݨ چاہندا ہاں۔
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = جیا، میں  <subdomain>{ $subdomain }</subdomain> رجسٹر کرݨ چاہنداں ہاں

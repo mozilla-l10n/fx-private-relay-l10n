@@ -6,7 +6,6 @@
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-tip = Tip: Chcete-li kdykoli vytvořit vlastní masku, vytvořte si ji na místě. Pokud použijete svou doménu { -brand-name-relay }, bude fungovat, i když jste ji nevytvořili nejprve zde.
-
 modal-custom-alias-picker-heading-2 = Vytvoření nové vlastní masky
 modal-custom-alias-picker-form-prefix-label-3 = Zadejte text, který se nachází před symbolem @:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
@@ -27,9 +26,7 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = Začněte blok
 error-state-valid-alt = Platný
 error-state-invalid-alt = Neplatný
 close-button-label-alt = Zavřít
-
 modal-delete-headline-2 = Chcete tuto masku trvale smazat?
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -38,7 +35,6 @@ modal-delete-warning-recovery-2-html =
 modal-delete-warning-upgrade-2 = Pokud tuto e-mailovou masku používáte k přihlašování na stránkách, na kterých vám záleží, měli byste před jejím smazáním aktualizovat své přihlašovací údaje použitím jiné e-mailové adresy.
 modal-delete-domain-address-warning-upgrade-2 = Pokud tuto masku používáte k přihlašování na stránkách, na kterých vám záleží, měli byste před jejím smazáním aktualizovat své přihlašovací údaje použitím jiné e-mailové adresy. Jestliže smazanou masku znovu vytvoříte, budou e-maily zaslané na původní masku zase dál přeposílány.
 modal-delete-confirmation-2 = Ano, chci tuto masku smazat.
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ano, chci si zaregistrovat subdoménu <subdomain>{ $subdomain }</subdomain>

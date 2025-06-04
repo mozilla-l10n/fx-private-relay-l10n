@@ -98,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } 不会�
 profile-promo-email-blocking-description-none-3 = 发送到此马甲的所有电子邮件都将转发到您的真实邮箱。
 # Deprecated
 profile-promo-email-blocking-label-promotionals = 屏蔽营销邮件
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = 屏蔽营销邮件
 # Deprecated
 profile-promo-email-blocking-label-none = 屏蔽全部

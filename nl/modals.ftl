@@ -6,7 +6,6 @@
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-tip = Tip: als u op elk moment een aangepast masker wilt maken, verzin dat dan ter plekke. Als u uw { -brand-name-relay }-domein gebruikt, werkt het, zelfs als u het hier niet eerst heeft aangemaakt.
-
 modal-custom-alias-picker-heading-2 = Een nieuwe aangepast masker aanmaken
 modal-custom-alias-picker-form-prefix-label-3 = Voer de tekst in die voor het @-teken komt:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
@@ -27,9 +26,7 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = Starten met re
 error-state-valid-alt = Geldig
 error-state-invalid-alt = Ongeldig
 close-button-label-alt = Sluiten
-
 modal-delete-headline-2 = Dit masker definitief verwijderen?
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -43,7 +40,6 @@ modal-delete-domain-address-warning-upgrade-2 =
     dient u uw aanmelding bij te werken met een ander e-mailadres voordat u deze verwijdert.
     Als u een verwijderd masker opnieuw aanmaakt, worden e-mailberichten die naar het oorspronkelijke masker zijn verzonden nog steeds doorgestuurd.
 modal-delete-confirmation-2 = Ja, ik wil dit masker verwijderen.
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ja, ik wil <subdomain>{ $subdomain }</subdomain> registreren

@@ -24,9 +24,7 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = Aloita mainoss
 error-state-valid-alt = Kelvollinen
 error-state-invalid-alt = Virheellinen
 close-button-label-alt = Sulje
-
 modal-delete-headline-2 = Poistetaanko tämä sähköpostimaski pysyvästi?
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -40,7 +38,6 @@ modal-delete-domain-address-warning-upgrade-2 =
     sinun tulee päivittää kirjautumistietosi toiseen sähköpostiosoitteeseen ennen tämän maskin poistamista.
     Jos luot poistetun maskin uudelleen, alkuperäiseen maskiin lähetettyjen viestin edelleenlähetystä jatketaan.
 modal-delete-confirmation-2 = Kyllä, haluan poistaa tämän maskin.
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Kyllä, haluan rekisteröidä aliverkkotunnuksen <subdomain>{ $subdomain }</subdomain>

@@ -9,7 +9,6 @@ onboarding-headline-2 = Створіть свою першу маску адре
 onboarding-alias-tip-1-2 = Виберіть “Згенерувати нову маску”, щоб створити свою першу маску електронної адреси
 onboarding-alias-tip-2 = Використовуючи розширення { -brand-name-relay }, виберіть піктограму { -brand-name-firefox-relay }, коли вона з’явиться в полях електронної пошти.
 onboarding-alias-tip-3-2 = Використовуючи розширення { -brand-name-relay }, клацніть правою кнопкою миші на полі форми та виберіть “Згенерувати нову маску.”
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Вітаємо,</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = Маска @{ $subdomain }
 profile-label-delete = Видалити
 profile-label-upgrade-2 = Отримати необмежену кількість масок електронної пошти
 profile-label-custom-domain = Ваш домен електронної пошти { -brand-name-relay }:
-# Deprecated
 profile-label-set-your-custom-domain = Налаштуйте унікальний домен електронної пошти { -brand-name-relay }
 profile-label-reset = Скинути
 profile-label-apply = Застосувати
 profile-label-continue = Продовжити
-
 # This string is followed by an email address
 profile-label-forward-emails = Пересилати електронні листи на адресу:
-
 # This string is followed by date:
 profile-label-created = Створено:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Клацніть, щоб скопіювати
 profile-label-copied = Скопійовано!
 profile-label-blocked = Заблоковано
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } не б�
 profile-promo-email-blocking-description-none-3 = Усі електронні листи, надіслані на цю маску, будуть пересилатися на вашу справжню адресу.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Блокувати рекламні листи
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Блокування рекламних листів
 # Deprecated
 profile-promo-email-blocking-label-none = Блокувати всі

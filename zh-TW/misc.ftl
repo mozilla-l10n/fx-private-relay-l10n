@@ -115,14 +115,14 @@ offer-countdown-timer-alt =
             }
         [1]
             { $remaining_hours ->
-                [0] 剩下 1 天
                 [1] 剩下 1 天 1 小時
+                [0] 剩下 1 天
                *[other] 剩下 1 天 { $remaining_hours } 小時
             }
        *[other]
             { $remaining_hours ->
-                [0] 剩下 { $remaining_days } 天
                 [1] 剩下 { $remaining_days } 天 1 小時
+                [0] 剩下 { $remaining_days } 天
                *[other] 剩下 { $remaining_days } 天 { $remaining_hours } 小時
             }
     }

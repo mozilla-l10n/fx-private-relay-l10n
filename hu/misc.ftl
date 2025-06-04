@@ -117,14 +117,14 @@ offer-countdown-timer-alt =
             }
         [1]
             { $remaining_hours ->
-                [0] 1 nap van hátra
                 [1] 1 nap és 1 óra van hátra
+                [0] 1 nap van hátra
                *[other] 1 nap és { $remaining_hours } óra van hátra
             }
        *[other]
             { $remaining_hours ->
-                [0] { $remaining_days } nap van hátra
                 [1] { $remaining_days } nap és 1 óra van hátra
+                [0] { $remaining_days } nap van hátra
                *[other] { $remaining_days } nap és { $remaining_hours } óra van hátra
             }
     }

@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } uľahčuje vytváranie e‑mailových masiek, ktoré posielajú vaše správy do vašej skutočnej e‑mailovej schránky. Použite ich na ochranu svojich online účtov pred hackermi a nechcenými správami.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Otvorí sa na novej karte)
 
@@ -21,7 +20,6 @@ nav-email-dashboard = E‑mailové masky
 nav-phone-dashboard = Masky telefónnych čísiel
 label-open-menu = Otvoriť ponuku
 avatar-tooltip = Profil
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Často kladené otázky
 nav-profile-sign-in = Prihlásiť sa
@@ -54,7 +52,6 @@ nav-support = Pomoc a podpora
 nav-sign-out = Odhlásiť sa
 nav-contact = Kontaktujte nás
 nav-menu-mobile = Ponuka pre mobilné zariadenia
-
 fx-desktop-2 = { -brand-name-firefox } pre počítače
 fx-mobile-2 = { -brand-name-firefox } pre mobilné zariadenia
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser } pre mobilné zariadenia
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

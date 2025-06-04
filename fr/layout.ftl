@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } facilite la création d’alias de messagerie qui transfèrent les messages vers votre véritable boîte de réception. Utilisez-les pour protéger vos comptes en ligne contre les pirates et les messages indésirables.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (S’ouvre dans un nouvel onglet)
 
@@ -21,7 +20,6 @@ nav-email-dashboard = Alias de messagerie
 nav-phone-dashboard = Alias de numéro de téléphone
 label-open-menu = Ouvrir le menu
 avatar-tooltip = Profil
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Questions fréquentes
 nav-profile-sign-in = Connexion
@@ -54,7 +52,6 @@ nav-support = Aide et assistance
 nav-sign-out = Déconnexion
 nav-contact = Nous contacter
 nav-menu-mobile = Menu mobile
-
 fx-desktop-2 = { -brand-name-firefox } pour ordinateur
 fx-mobile-2 = { -brand-name-firefox } pour mobile
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser(capitalization: "uppercase") } pour mo
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

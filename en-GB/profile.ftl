@@ -9,7 +9,6 @@ onboarding-headline-2 = Create your first email mask
 onboarding-alias-tip-1-2 = Select “Generate new mask” to create your first email mask.
 onboarding-alias-tip-2 = Using the { -brand-name-relay } extension, select the { -brand-name-firefox-relay } icon when it appears in email fields.
 onboarding-alias-tip-3-2 = Using the { -brand-name-relay } extension, right-click on form fields and select “Generate new mask.”
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Welcome,</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } mask
 profile-label-delete = Delete
 profile-label-upgrade-2 = Get unlimited email masks
 profile-label-custom-domain = Your { -brand-name-relay } email domain:
-# Deprecated
 profile-label-set-your-custom-domain = Set your unique { -brand-name-relay } email domain
 profile-label-reset = Reset
 profile-label-apply = Apply
 profile-label-continue = Continue
-
 # This string is followed by an email address
 profile-label-forward-emails = Forward emails to:
-
 # This string is followed by date:
 profile-label-created = Created:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Click to copy
 profile-label-copied = Copied!
 profile-label-blocked = Blocked
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } is not b
 profile-promo-email-blocking-description-none-3 = All emails sent to this mask will be forwarded to your real address.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Block promotions
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Blocking promo emails
 # Deprecated
 profile-promo-email-blocking-label-none = Block all

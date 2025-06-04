@@ -119,14 +119,14 @@ offer-countdown-timer-alt =
             }
         [1]
             { $remaining_hours ->
-                [0] nog 1 dag
                 [1] nog 1 dag en 1 uur
+                [0] nog 1 dag
                *[other] nog 1 dag en { $remaining_hours } uur
             }
        *[other]
             { $remaining_hours ->
-                [0] nog { $remaining_days } dagen
                 [1] nog { $remaining_days } dagen en 1 uur
+                [0] nog { $remaining_days } dagen
                *[other] nog { $remaining_days } dagen en { $remaining_hours } uur
             }
     }

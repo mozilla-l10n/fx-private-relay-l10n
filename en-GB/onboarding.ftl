@@ -46,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Add { -brand-name-rela
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } extension added!
 multi-part-onboarding-premium-added-extension-body = You’ll no longer need to sign into { -brand-name-relay } to generate a new mask — just look for the Relay icon when web sites ask for your email address.
-
 multi-part-onboarding-premium-extension-button-dashboard = Go to Dashboard
 multi-part-onboarding-skip = Skip, I’ll set this up later
 multi-part-onboarding-skip-download-extension = Skip, I’ll download the extension later
@@ -58,5 +57,4 @@ multi-part-onboarding-reply-headline = Reply to your emails
 onboarding-premium-title-detail = With { -brand-name-firefox-relay-premium } you can:
 onboarding-premium-reply-description-2 = Need to reply to emails sent to a mask? Just reply as normal — your mask will still protect your email address.
 multi-part-onboarding-premium-reply-description = Reply to emails without giving away your real address
-
 multi-part-onboarding-step-counter = Step { $step } of { $max }.

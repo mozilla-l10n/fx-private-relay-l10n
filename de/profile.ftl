@@ -9,7 +9,6 @@ onboarding-headline-2 = Erstellen Sie Ihre erste E-Mail-Maske
 onboarding-alias-tip-1-2 = Wählen Sie „Neue Maske erzeugen“, um Ihre erste E-Mail-Maske zu erstellen
 onboarding-alias-tip-2 = Wähle mit der Erweiterung { -brand-name-relay } das Symbol { -brand-name-firefox-relay } aus, wenn es in E-Mail-Adressfeldern angezeigt wird.
 onboarding-alias-tip-3-2 = Klicken Sie mit der Erweiterung { -brand-name-relay } mit der rechten Maustaste auf Formularfelder und wählen Sie „Neue Maske erzeugen“.
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Willkommen</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain }-Maske
 profile-label-delete = Löschen
 profile-label-upgrade-2 = Unbegrenzt viele E-Mail-Masken erhalten
 profile-label-custom-domain = Ihre { -brand-name-relay }-E-Mail-Domain:
-# Deprecated
 profile-label-set-your-custom-domain = Legen Sie Ihre eindeutige { -brand-name-relay }-E-Mail-Domain fest
 profile-label-reset = Zurücksetzen
 profile-label-apply = Anwenden
 profile-label-continue = Weiter
-
 # This string is followed by an email address
 profile-label-forward-emails = E-Mails weiterleiten an:
-
 # This string is followed by date:
 profile-label-created = Erstellt:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Zum Kopieren anklicken
 profile-label-copied = Kopiert!
 profile-label-blocked = Blockiert
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } blockier
 profile-promo-email-blocking-description-none-3 = Alle an diese Maske gesendeten E-Mails werden an Ihre richtige Adresse weitergeleitet.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Werbung blockieren
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Werbe-E-Mails werden blockiert
 # Deprecated
 profile-promo-email-blocking-label-none = Alles blockieren

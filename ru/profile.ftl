@@ -9,7 +9,6 @@ onboarding-headline-2 = Создайте свой первый псевдони�
 onboarding-alias-tip-1-2 = Выберите «Создать новый псевдоним», чтобы создать свой первый псевдоним электронной почты.
 onboarding-alias-tip-2 = При использовании расширения { -brand-name-relay } выберите значок { -brand-name-firefox-relay }, когда он появится в поле для ввода электронной почты.
 onboarding-alias-tip-3-2 = При использовании расширения { -brand-name-relay } щёлкните правой кнопкой мыши по полю формы и выберите «Создать новый псевдоним».
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Добро пожаловать,</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = Псевдоним @{ $subdomai
 profile-label-delete = Удалить
 profile-label-upgrade-2 = Получите неограниченное число псевдонимов электронной почты
 profile-label-custom-domain = Ваш домен электронной почты { -brand-name-relay }:
-# Deprecated
 profile-label-set-your-custom-domain = Установите свой уникальный домен электронной почты { -brand-name-relay }
 profile-label-reset = Сбросить
 profile-label-apply = Применить
 profile-label-continue = Продолжить
-
 # This string is followed by an email address
 profile-label-forward-emails = Пересылать письма на:
-
 # This string is followed by date:
 profile-label-created = Создан:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Нажмите, чтобы скопировать
 profile-label-copied = Скопировано!
 profile-label-blocked = Заблокировано
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } не б�
 profile-promo-email-blocking-description-none-3 = Все электронные письма, отправленные на этот псевдоним, будут перенаправлены на ваш реальный адрес.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Блокировать рекламу
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Блокировка промо-рассылок
 # Deprecated
 profile-promo-email-blocking-label-none = Блокировать всё

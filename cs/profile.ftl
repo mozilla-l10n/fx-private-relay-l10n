@@ -9,7 +9,6 @@ onboarding-headline-2 = Vytvořte si svou první e-mailovou masku
 onboarding-alias-tip-1-2 = Klepnutím na tlačítko „Vygenerovat novou masku“ vytvořte svou masku.
 onboarding-alias-tip-2 = Za použití rozšíření { -brand-name-relay } klepněte na ikonu { -brand-name-firefox-relay(case: "gen") }, až se objeví v polích pro zadání e-mailové adresy.
 onboarding-alias-tip-3-2 = Za použití rozšíření { -brand-name-relay } klepněte pravým tlačítkem myši do formulářového pole a zvolte „Vygenerovat novou masku“.
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Vítejte,</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = Maska @{ $subdomain }
 profile-label-delete = Smazat
 profile-label-upgrade-2 = Získejte neomezený počet e-mailových masek
 profile-label-custom-domain = Vaše e-mailová doména { -brand-name-relay }:
-# Deprecated
 profile-label-set-your-custom-domain = Nastavte si jedinečnou e-mailovou doménu { -brand-name-relay }
 profile-label-reset = Obnovit
 profile-label-apply = Použít
 profile-label-continue = Pokračovat
-
 # This string is followed by an email address
 profile-label-forward-emails = Přeposílat e-maily na:
-
 # This string is followed by date:
 profile-label-created = Vytvořeno:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Klepnutím zkopírujete do schránky
 profile-label-copied = Zkopírováno!
 profile-label-blocked = Blokováno
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } neblokuj
 profile-promo-email-blocking-description-none-3 = Všechny e-maily zaslané na tuto masku budou přeposlány na vaši skutečnou adresu.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Blokovat reklamy
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Blokování reklamních e-mailů
 # Deprecated
 profile-promo-email-blocking-label-none = Blokovat vše

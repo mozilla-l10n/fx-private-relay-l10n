@@ -6,7 +6,6 @@
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-tip = Awgrym: I greu arallenw cyfaddas crewch un yn sydyn, ar unrhyw adeg. Os ydych chi'n defnyddio'ch parth { -brand-name-relay }, bydd yn gweithio, hyd yn oed os na wnaethoch chi ei gynhyrchu yma yn gyntaf.
-
 modal-custom-alias-picker-heading-2 = Crëwch arallenw personol newydd
 modal-custom-alias-picker-form-prefix-label-3 = Rhowch y testun sy'n mynd cyn y symbol @:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
@@ -27,9 +26,7 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = Cychwyn rhwyst
 error-state-valid-alt = Dilys
 error-state-invalid-alt = Annilys
 close-button-label-alt = Cau
-
 modal-delete-headline-2 = Dileu'r arallenw hwn yn barhaol?
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -43,7 +40,6 @@ modal-delete-domain-address-warning-upgrade-2 =
     dylech ddiweddaru'ch mewngofnod gyda chyfeiriad e-bost gwahanol cyn i chi ddileu'r un hwn.
     Os ydych chi'n ail-greu arallenw wedi'i ddileu, bydd e-byst a anfonwyd at yr arallenw arall yn parhau i gael eu hanfon ymlaen.
 modal-delete-confirmation-2 = Ydw, rwyf am ddileu'r arallenw hwn.
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ydw, rydw i eisiau cofrestru <subdomain>{ $subdomain }</subdomain>

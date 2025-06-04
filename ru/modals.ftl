@@ -6,7 +6,6 @@
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-tip = Совет: чтобы создать настраиваемый псевдоним в любое время, создайте его на месте. Если вы используете свой домен { -brand-name-relay }, псевдоним будет работать, даже если вы не создали его здесь заранее.
-
 modal-custom-alias-picker-heading-2 = Создайте новый собственный псевдоним
 modal-custom-alias-picker-form-prefix-label-3 = Введите текст перед символом @:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
@@ -27,9 +26,7 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = Начать �
 error-state-valid-alt = Действительный
 error-state-invalid-alt = Недействительный
 close-button-label-alt = Закрыть
-
 modal-delete-headline-2 = Удалить этот псевдоним электронной почты навсегда?
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -43,7 +40,6 @@ modal-delete-domain-address-warning-upgrade-2 =
     измените свой адрес электронной почты в соответствующих аккаунтах на другой перед тем, как удалить этот.
     Если вы заново создадите удалённый псевдоним, электронные письма, отправленные на него, будут по-прежнему пересылаться.
 modal-delete-confirmation-2 = Да, я хочу удалить этот псевдоним.
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Да, я хочу зарегистрировать <subdomain>{ $subdomain }</subdomain>

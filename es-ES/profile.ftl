@@ -9,7 +9,6 @@ onboarding-headline-2 = Crear tu primera máscara de correo electrónico
 onboarding-alias-tip-1-2 = Selecciona "Generar nueva máscara" para crear tu primera máscara de correo electrónico.
 onboarding-alias-tip-2 = Con la extensión { -brand-name-relay }, selecciona el icono de { -brand-name-firefox-relay } cuando aparezca en los campos de correo electrónico.
 onboarding-alias-tip-3-2 = Con la extensión { -brand-name-relay }, haz clic con el botón derecho en los campos del formulario y selecciona "Generar nueva máscara".
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>¡Bienvenido,</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = Máscara @{ $subdomain }
 profile-label-delete = Eliminar
 profile-label-upgrade-2 = Obtenga máscaras de correo ilimitadas
 profile-label-custom-domain = Tu dominio de correo electrónico { -brand-name-relay }:
-# Deprecated
 profile-label-set-your-custom-domain = Define tu dominio de correo electrónico único { -brand-name-relay }
 profile-label-reset = Restablecer
 profile-label-apply = Aplicar
 profile-label-continue = Continuar
-
 # This string is followed by an email address
 profile-label-forward-emails = Reenviar correos electrónicos a:
-
 # This string is followed by date:
 profile-label-created = Creado:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Haz clic para copiar
 profile-label-copied = ¡Copiado!
 profile-label-blocked = Bloqueado
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } no está
 profile-promo-email-blocking-description-none-3 = Todos los correos electrónicos enviados a esta máscara se reenviarán a tu dirección real.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Bloquear promociones
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Bloquear correos electrónicos promocionales
 # Deprecated
 profile-promo-email-blocking-label-none = Bloquear todo

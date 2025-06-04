@@ -46,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Přidat rozšíření 
 
 multi-part-onboarding-premium-extension-added = Rozšíření { -brand-name-relay } bylo přidáno!
 multi-part-onboarding-premium-added-extension-body = Chcete-li vygenerovat novou masku, již se nebudete muset přihlašovat do služby { -brand-name-relay } – když webové stránky požádají o vaši e-mailovou adresu, hledejte ikonu Relay.
-
 multi-part-onboarding-premium-extension-button-dashboard = Přejít na nástěnku
 multi-part-onboarding-skip = Přeskočit, nastavím později
 multi-part-onboarding-skip-download-extension = Přeskočit, rozšíření si stáhnu později
@@ -58,5 +57,4 @@ multi-part-onboarding-reply-headline = Odpovídejte na e-maily
 onboarding-premium-title-detail = S { -brand-name-firefox-relay-premium(case: "ins") } můžete:
 onboarding-premium-reply-description-2 = Potřebujete odpovídat na e-maily odeslané na masku? Odpovězte jako obvykle – vaše maska bude i nadále chránit vaši e-mailovou adresu.
 multi-part-onboarding-premium-reply-description = Odpovídejte na e-maily bez uvedení své skutečné adresy
-
 multi-part-onboarding-step-counter = { $step }. krok z { $max }.

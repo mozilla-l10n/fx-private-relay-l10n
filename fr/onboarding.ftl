@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = Bienvenue dans { -brand-name-relay-premium }
@@ -45,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Ajouter l’extension 
 
 multi-part-onboarding-premium-extension-added = Extension { -brand-name-relay } ajoutée !
 multi-part-onboarding-premium-added-extension-body = Vous n’aurez plus besoin de vous connecter à { -brand-name-relay } pour générer un nouvel alias : recherchez simplement l’icône Relay lorsque les sites web vous demandent votre adresse e-mail.
-
 multi-part-onboarding-premium-extension-button-dashboard = Accéder au tableau de bord
 multi-part-onboarding-skip = Ignorer, je configurerai ceci plus tard
 multi-part-onboarding-skip-download-extension = Ignorer, je téléchargerai l’extension plus tard
@@ -57,8 +57,4 @@ multi-part-onboarding-reply-headline = Répondre à vos e-mails
 onboarding-premium-title-detail = Avec { -brand-name-firefox-relay-premium }, vous pouvez :
 onboarding-premium-reply-description-2 = Besoin de répondre aux e-mails envoyés à un alias ? Répondez simplement comme d’habitude, votre alias protégera toujours votre adresse e-mail.
 multi-part-onboarding-premium-reply-description = Répondre aux e-mails sans révéler votre véritable adresse
-
-# Variables:
-#   $step (number) - Which step the user currently is on
-#   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Étape { $step } sur { $max }.

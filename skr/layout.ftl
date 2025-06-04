@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } تہاݙے اصلی ان باکس وچ تہاݙے سنیہے بھیڄݨ واسطے ہک ای میل دا ماسک بنݨیندا ہے۔ آپݨے انلائن کھاتے کوں ہیکر تے غیر ضروری سنہیے کولوں بچاون کیتے انہاں کوں استعمال کرو۔
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (نویں ٹیب وچ کھُلدے)
 
@@ -21,7 +20,6 @@ nav-email-dashboard = ای میل ماسکس
 nav-phone-dashboard = فون ماسکس
 label-open-menu = مینیو کھولو
 avatar-tooltip = پروفائل
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = عمومی سوالات
 nav-profile-sign-in = سائن ان
@@ -54,7 +52,6 @@ nav-support = مدد تے سہارا
 nav-sign-out = سائن آؤٹ
 nav-contact = ساݙے نال رابطہ کرو
 nav-menu-mobile = موبائل مینیو
-
 fx-desktop-2 = ڈیسک ٹاپ کیتے { -brand-name-firefox }
 fx-mobile-2 = موبائل کیتے { -brand-name-firefox }
 
@@ -75,4 +72,3 @@ fx-mobile = موبائل کیتے { -brand-name-firefox-browser }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

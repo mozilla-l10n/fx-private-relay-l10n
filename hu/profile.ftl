@@ -9,7 +9,6 @@ onboarding-headline-2 = Hozza létre az első e-mail-maszkját
 onboarding-alias-tip-1-2 = Válassza az „Új maszk előállítása” lehetőséget az első maszkja létrehozásához.
 onboarding-alias-tip-2 = Használja a { -brand-name-relay } kiegészítőt, válassza a { -brand-name-firefox-relay } ikont, ha megjelenik az e-mail mezőkben.
 onboarding-alias-tip-3-2 = Használja a { -brand-name-relay } kiegészítőt, kattintson jobb gombbal egy űrlapmezőre, és válassza az „Új maszk előállítása” lehetőséget.
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Üdvözöljük,</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } maszk
 profile-label-delete = Törlés
 profile-label-upgrade-2 = Korlátlan számú e-mail-maszk szerzése
 profile-label-custom-domain = A saját { -brand-name-relay } e-mail-domainje:
-# Deprecated
 profile-label-set-your-custom-domain = Állítsa be egyedi { -brand-name-relay } e-mail-domainjét
 profile-label-reset = Visszaállítás
 profile-label-apply = Alkalmaz
 profile-label-continue = Folytatás
-
 # This string is followed by an email address
 profile-label-forward-emails = Levelek továbbítása ide:
-
 # This string is followed by date:
 profile-label-created = Létrehozva:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Kattintson a másoláshoz
 profile-label-copied = Másolva!
 profile-label-blocked = Blokkolva
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = A { -brand-name-relay } nem bl
 profile-promo-email-blocking-description-none-3 = Az erre a maszkra küldött e-mailek a valódi címére lesznek továbbítva.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Promóciók blokkolása
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Promóciós e-mailek blokkolása
 # Deprecated
 profile-promo-email-blocking-label-none = Az összes blokkolása

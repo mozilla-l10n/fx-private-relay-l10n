@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = A { -brand-name-firefox-relay } megkönnyíti az e-mail-maszkok létrehozását, amelyek a valódi postafiókjába továbbítják az üzeneteit. Használja őket az online fiókjainak védelmére a hackerek és a nem kívánt üzenetek ellen.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Új lapon nyílik meg)
 
@@ -21,7 +20,6 @@ nav-email-dashboard = E-mail-maszkok
 nav-phone-dashboard = Telefonmaszkok
 label-open-menu = Menü megnyitása
 avatar-tooltip = Profil
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = GYIK
 nav-profile-sign-in = Bejelentkezés
@@ -54,7 +52,6 @@ nav-support = Súgó és támogatás
 nav-sign-out = Kijelentkezés
 nav-contact = Kapcsolat
 nav-menu-mobile = Mobilos menü
-
 fx-desktop-2 = { -brand-name-firefox } számítógépre
 fx-mobile-2 = { -brand-name-firefox } mobilra
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser } mobilra
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

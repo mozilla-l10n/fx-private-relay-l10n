@@ -9,7 +9,6 @@ onboarding-headline-2 = Créer votre premier alias de messagerie
 onboarding-alias-tip-1-2 = Sélectionnez « Générer un nouvel alias » pour créer votre premier alias de messagerie.
 onboarding-alias-tip-2 = À l’aide de l’extension { -brand-name-relay }, cliquez sur l’icône { -brand-name-firefox-relay } lorsqu’elle apparaît dans les champs d’adresse e-mail.
 onboarding-alias-tip-3-2 = À l’aide de l’extension { -brand-name-relay }, faites un clic droit sur les champs de formulaire et sélectionnez « Générer un nouvel alias ».
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Bienvenue,</span> { $email } !
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = Alias @{ $subdomain }
 profile-label-delete = Supprimer
 profile-label-upgrade-2 = Obtenir un nombre illimité d’alias de messagerie
 profile-label-custom-domain = Votre domaine de messagerie { -brand-name-relay } :
-# Deprecated
 profile-label-set-your-custom-domain = Définissez votre domaine de messagerie { -brand-name-relay } unique
 profile-label-reset = Réinitialiser
 profile-label-apply = Appliquer
 profile-label-continue = Continuer
-
 # This string is followed by an email address
 profile-label-forward-emails = Transférer les messages à :
-
 # This string is followed by date:
 profile-label-created = Date de création :
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Cliquer pour copier
 profile-label-copied = Copié !
 profile-label-blocked = Bloqués
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } ne bloqu
 profile-promo-email-blocking-description-none-3 = Tous les e-mails envoyés à cet alias seront transférés à votre véritable adresse.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Bloquer les e-mails promotionnels
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Blocage des e-mails promotionnels
 # Deprecated
 profile-promo-email-blocking-label-none = Tout bloquer

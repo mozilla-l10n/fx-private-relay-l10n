@@ -9,7 +9,6 @@ onboarding-headline-2 = Luo ensimmäinen sähköpostimaskisi
 onboarding-alias-tip-1-2 = Valitse "Luo uusi maski" luodaksesi ensimmäinen sähköpostimaskin.
 onboarding-alias-tip-2 = Käytä { -brand-name-relay }-laajennusta ja valitse { -brand-name-firefox-relay } -kuvake, kun se näkyy sähköpostikentissä.
 onboarding-alias-tip-3-2 = Käytä { -brand-name-relay }-laajennusta, napsauta hiiren kakkospainikkeella lomakekenttiä ja valitse "Luo uusi maski".
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Tervetuloa,</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain }-maski
 profile-label-delete = Poista
 profile-label-upgrade-2 = Hanki rajattomasti sähköpostimaskeja
 profile-label-custom-domain = { -brand-name-relay }-sähköpostiverkkotunnuksesi:
-# Deprecated
 profile-label-set-your-custom-domain = Aseta yksilöllinen { -brand-name-relay }-sähköpostiverkkotunnus
 profile-label-reset = Palauta
 profile-label-apply = Toteuta
 profile-label-continue = Jatka
-
 # This string is followed by an email address
 profile-label-forward-emails = Välitä sähköpostit osoitteeseen:
-
 # This string is followed by date:
 profile-label-created = Luotu:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Napsauta kopioidaksesi
 profile-label-copied = Kopioitu!
 profile-label-blocked = Estetty

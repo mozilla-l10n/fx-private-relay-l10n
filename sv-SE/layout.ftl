@@ -7,7 +7,6 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } gör det enkelt att skapa e-postalias som vidarebefordrar dina meddelanden till din riktiga inkorg. Använd dem för att skydda dina onlinekonton från hackare och oönskade meddelanden.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Öppnas i en ny flik)
 
@@ -21,7 +20,6 @@ nav-email-dashboard = E-postalias
 nav-phone-dashboard = Telefonalias
 label-open-menu = Öppna meny
 avatar-tooltip = Profil
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Vanliga frågor
 nav-profile-sign-in = Logga in
@@ -54,7 +52,6 @@ nav-support = Hjälp och support
 nav-sign-out = Logga ut
 nav-contact = Kontakta oss
 nav-menu-mobile = Meny för mobila enheter
-
 fx-desktop-2 = { -brand-name-firefox } för datorer
 fx-mobile-2 = { -brand-name-firefox } för mobil
 
@@ -75,4 +72,3 @@ fx-mobile = { -brand-name-firefox-browser } för mobiler
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-

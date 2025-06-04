@@ -6,7 +6,6 @@
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-tip = 小秘訣：隨時輸入一段文字即可建立自訂轉寄信箱。就算沒有在這邊先產生帳號，也可以直接使用自己的 { -brand-name-relay } 網域來隨機產生。
-
 modal-custom-alias-picker-heading-2 = 建立新自訂轉寄信箱
 modal-custom-alias-picker-form-prefix-label-3 = 輸入 @ 符號前面的文字：
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
@@ -27,16 +26,13 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = 開始封鎖�
 error-state-valid-alt = 有效
 error-state-invalid-alt = 無效
 close-button-label-alt = 關閉
-
 modal-delete-headline-2 = 確定要永久刪除這組轉寄信箱嗎？
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html = 刪除此轉寄信箱後就無法再復原。{ -brand-name-firefox-relay } 將不再轉寄郵件到 <strong>{ $email }</strong>（包含讓您可重設密碼的信件）。
 modal-delete-warning-upgrade-2 = 若您使用此轉寄信箱來註冊帳號登入重要網站，請務必在刪除此信箱前，先到該網站更改成其他電子郵件地址。
 modal-delete-domain-address-warning-upgrade-2 = 若您打算使用此轉寄信箱註冊重要網站的帳號，應該在刪除此信箱前，先將帳號更改為其他的信箱。若在刪除信箱後已原本名稱重新建立信箱，則還是會轉寄寄送到該原始信箱的郵件。
 modal-delete-confirmation-2 = 是的，我確定要刪除這組轉寄信箱。
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = 對，我想註冊 <subdomain>{ $subdomain }</subdomain>

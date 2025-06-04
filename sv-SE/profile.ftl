@@ -9,7 +9,6 @@ onboarding-headline-2 = Skapa ditt första e-postalias
 onboarding-alias-tip-1-2 = Välj "Generera nytt alias" för att skapa ditt första e-postalias.
 onboarding-alias-tip-2 = Använd tillägget { -brand-name-relay } och välj ikonen { -brand-name-firefox-relay } när den visas i e-postfälten.
 onboarding-alias-tip-3-2 = Använd tillägget { -brand-name-relay }, högerklicka på formulärfälten och välj "Generera nytt alias."
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span> Välkommen,</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } e-postalias
 profile-label-delete = Ta bort
 profile-label-upgrade-2 = Få obegränsade e-postalias
 profile-label-custom-domain = Din { -brand-name-relay } e-postdomän:
-# Deprecated
 profile-label-set-your-custom-domain = Ställ in din unika { -brand-name-relay } e-postdomän
 profile-label-reset = Återställ
 profile-label-apply = Tillämpa
 profile-label-continue = Fortsätt
-
 # This string is followed by an email address
 profile-label-forward-emails = Vidarebefordra e-post till:
-
 # This string is followed by date:
 profile-label-created = Skapad:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Klicka för att kopiera
 profile-label-copied = Kopierad!
 profile-label-blocked = Blockerad
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } blockera
 profile-promo-email-blocking-description-none-3 = Alla e-postmeddelanden som skickas till detta alias kommer att vidarebefordras till din riktiga adress.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Blockera reklam
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Blockera reklammeddelanden
 # Deprecated
 profile-promo-email-blocking-label-none = Blockera alla

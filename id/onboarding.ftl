@@ -46,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Tambahkan ekstensi { -
 
 multi-part-onboarding-premium-extension-added = Ekstensi { -brand-name-relay } ditambahkan!
 multi-part-onboarding-premium-added-extension-body = Anda tidak perlu lagi masuk ke { -brand-name-relay } untuk membuat topeng baru — cukup cari ikon Relay saat situs web meminta alamat surel Anda.
-
 multi-part-onboarding-premium-extension-button-dashboard = Buka Dasbor
 multi-part-onboarding-skip = Lewati, saya akan mengaturnya nanti
 multi-part-onboarding-skip-download-extension = Lewati, saya akan mengunduh ekstensi nanti
@@ -58,5 +57,4 @@ multi-part-onboarding-reply-headline = Balas ke surel Anda
 onboarding-premium-title-detail = Dengan { -brand-name-firefox-relay-premium } Anda dapat:
 onboarding-premium-reply-description-2 = Perlu membalas surel yang dikirim ke topeng? Cukup balas seperti biasa — topeng Anda akan tetap melindungi alamat surel Anda.
 multi-part-onboarding-premium-reply-description = Balas surel tanpa memberikan alamat asli Anda
-
 multi-part-onboarding-step-counter = Langkah { $step } dari { $max }

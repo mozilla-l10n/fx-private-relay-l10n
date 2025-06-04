@@ -6,7 +6,6 @@
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-tip = Tips: För att skapa ett anpassat alias när som helst, gör det på plats. Om du använder din { -brand-name-relay }-domän kommer det att fungera, även om du inte skapade det här först.
-
 modal-custom-alias-picker-heading-2 = Skapa ett nytt anpassat e-postalias
 modal-custom-alias-picker-form-prefix-label-3 = Skriv in texten som ska vara före @-symbolen:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
@@ -27,9 +26,7 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = Börja blocker
 error-state-valid-alt = Giltig
 error-state-invalid-alt = Ogiltig
 close-button-label-alt = Stäng
-
 modal-delete-headline-2 = Vill du radera detta e-postalias permanent?
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -43,7 +40,6 @@ modal-delete-domain-address-warning-upgrade-2 =
     bör du uppdatera din inloggning med en annan e-postadress innan du tar bort den här.
     Om du återskapar ett raderat alias kommer e-postmeddelanden som skickas till det ursprungliga alias att fortsätta att vidarebefordras.
 modal-delete-confirmation-2 = Ja, jag vill ta bort detta alias.
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ja, jag vill registrera <subdomain>{ $subdomain }</subdomain>

@@ -98,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } no está
 profile-promo-email-blocking-description-none-3 = Todos los correos electrónicos enviados a esta máscara se reenviarán a tu dirección real.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Bloquear promociones
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Bloqueo de correos electrónicos promocionales
 # Deprecated
 profile-promo-email-blocking-label-none = Bloquear todo

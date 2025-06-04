@@ -9,7 +9,6 @@ onboarding-headline-2 = Vytvorte si svoju prvú e‑mailovú masku
 onboarding-alias-tip-1-2 = Kliknutím na „Vytvoriť novú e‑mailovú masku“ vytvorte svoju prvú masku.
 onboarding-alias-tip-2 = Ak používate rozšírenie { -brand-name-relay }, kliknite na ikonu { -brand-name-firefox-relay }, ktorá sa zobrazí v poliach pre e‑mailovú adresu.
 onboarding-alias-tip-3-2 = Ak používate rozšírenie { -brand-name-relay }, kliknite pravým tlačidlom myši na polia formulára a vyberte možnosť „Vytvoriť novú e‑mailovú masku“.
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Vitajte,</span> { $email }!
@@ -32,18 +31,15 @@ profile-label-generate-new-alias-menu-custom-2 = Maska @{ $subdomain }
 profile-label-delete = Odstrániť
 profile-label-upgrade-2 = Získajte neobmedzené množstvo e‑mailových masiek
 profile-label-custom-domain = Vaša e‑mailová doména služby { -brand-name-relay }:
-# Deprecated
 profile-label-set-your-custom-domain = Nastavte svoju jedinečnú e‑mailovú doménu { -brand-name-relay }
 profile-label-reset = Obnoviť na predvolenú hodnotu
 profile-label-apply = Použiť
 profile-label-continue = Pokračovať
-
 # This string is followed by an email address
 profile-label-forward-emails = E‑maily preposielať na:
-
 # This string is followed by date:
 profile-label-created = Vytvorená:
-
+# This string is a label for a toggle (on/off) switch
 profile-label-click-to-copy = Kliknutím skopírujete
 profile-label-copied = Skopírovaný!
 profile-label-blocked = Zablokované
@@ -102,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } neblokuj
 profile-promo-email-blocking-description-none-3 = Všetky e‑maily odoslané na túto masku budú preposlané na vašu skutočnú adresu.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Blokovať marketingové
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Blokujú sa marketingové e‑maily
 # Deprecated
 profile-promo-email-blocking-label-none = Blokovať všetky

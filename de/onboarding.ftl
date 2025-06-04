@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = Willkommen bei { -brand-name-relay-premium }
@@ -45,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Holen Sie sich die { -
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay }-Erweiterung installiert!
 multi-part-onboarding-premium-added-extension-body = Sie müssen sich nicht mehr bei { -brand-name-relay } anmelden, um eine neue Maske zu erstellen – suchen Sie einfach nach dem Relay-Symbol, wenn Websites nach Ihrer E-Mail-Adresse fragen.
-
 multi-part-onboarding-premium-extension-button-dashboard = Zur Übersicht
 multi-part-onboarding-skip = Überspringen, ich richte das später ein
 multi-part-onboarding-skip-download-extension = Überspringen, ich lade die Erweiterung später herunter
@@ -57,8 +57,4 @@ multi-part-onboarding-reply-headline = Auf deine E-Mails antworten
 onboarding-premium-title-detail = Mit { -brand-name-firefox-relay-premium } kannst du:
 onboarding-premium-reply-description-2 = Müssen Sie auf E-Mails antworten, die an eine Maske gesendet wurden? Antworten Sie einfach wie gewohnt – Ihre Maske schützt Ihre E-Mail-Adresse weiterhin.
 multi-part-onboarding-premium-reply-description = Antworten Sie auf E-Mails, ohne Ihre echte Adresse preiszugeben:
-
-# Variables:
-#   $step (number) - Which step the user currently is on
-#   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Schritt { $step } von { $max }.

@@ -98,7 +98,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } non bloc
 profile-promo-email-blocking-description-none-3 = Tote le emails inviate a iste adresse essera reexpedite a tu adresse real.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Blocar promotiones
-# Let's the user know we are blocking promotional emails 
+# Let's the user know we are blocking promotional emails
 profile-promo-email-blocking-label-promotionals-2 = Blocante emails promotional
 # Deprecated
 profile-promo-email-blocking-label-none = Blocar tote

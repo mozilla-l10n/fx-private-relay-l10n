@@ -120,14 +120,14 @@ offer-countdown-timer-alt =
             }
         [1]
             { $remaining_hours ->
-                [0] 1 dag kvar
                 [1] 1 dag och 1 timme kvar
+                [0] 1 dag kvar
                *[annat] 1 dag och { $remaining_hours } timmar kvar
             }
        *[annat]
             { $remaining_hours ->
-                [0] { $remaining_days } dagar kvar
                 [1] { $remaining_days } dagar och 1 timme kvar
+                [0] { $remaining_days } dagar kvar
                *[annat] { $remaining_days } dagar och { $remaining_hours } timmar kvar
             }
     }
