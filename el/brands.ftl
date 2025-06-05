@@ -16,15 +16,15 @@
 -brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser =
     { $case ->
-        [genitive]
+        [gen]
             { $capitalization ->
-                [lowercase] φυλλομετρητή Firefox
-               *[uppercase] Φυλλομετρητή Firefox
+                [lowercase] προγράμματος περιήγησης Firefox
+               *[uppercase] Προγράμματος περιήγησης Firefox
             }
-       *[nominative]
+       *[nom]
             { $capitalization ->
-                [lowercase] φυλλομετρητής Firefox
-               *[uppercase] Φυλλομετρητής Firefox
+                [lowercase] πρόγραμμα περιήγησης Firefox
+               *[uppercase] Πρόγραμμα περιήγησης Firefox
             }
     }
 -brand-name-mozilla = Mozilla

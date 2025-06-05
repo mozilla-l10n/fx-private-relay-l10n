@@ -16,7 +16,7 @@ banner-bounced-copy =
     Λάβαμε «αναπήδηση» <em>{ $bounce_type }</em> από τον πάροχο ηλεκτρονικού ταχυδρομείου σας κατά την απόπειρα προώθησης των email σε εσάς. 
     Αυτό μπορεί να συμβεί εάν το { -brand-name-relay } δεν μπορέσει να συνδεθεί με τον πάροχο ηλεκτρονικού ταχυδρομείου σας ή εάν το γραμματοκιβώτιό σας είναι γεμάτο. Θα δοκιμάσουμε ξανά στις { $date }.
 banner-download-firefox-headline = Το { -brand-name-relay } είναι ακόμα καλύτερο στο { -brand-name-firefox }
-banner-download-firefox-copy-2 = Η επέκταση { -brand-name-relay } για τον { -brand-name-firefox-browser(case: "accusative", capitalization: "lowercase") } κάνει ακόμα ευκολότερη τη δημιουργία μασκών.
+banner-download-firefox-copy-2 = Η επέκταση του { -brand-name-relay } για το { -brand-name-firefox-browser(case: "nom", capitalization: "lowercase") } κάνει ακόμα ευκολότερη τη δημιουργία μασκών.
 banner-download-firefox-cta = Λήψη του { -brand-name-firefox }
 banner-download-install-extension-headline = Λήψη της επέκτασης { -brand-name-relay } για το { -brand-name-firefox }
 banner-download-install-extension-copy-2 = Η επέκταση { -brand-name-relay } για τον { -brand-name-firefox-browser(case: "accusative", capitalization: "lowercase") } κάνει ακόμα ευκολότερη τη χρήση μασκών email.
