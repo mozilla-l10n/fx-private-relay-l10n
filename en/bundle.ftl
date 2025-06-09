@@ -101,3 +101,13 @@ plan-matrix-price-yearly-calculated = { $yearly_price } billed yearly
 #   $price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-grid-megabundle-monthly = { $price }/mo
 plan-grid-megabundle-yearly = { $yearly_price } billed yearly
+
+whatsnew-megabundle-heading = Privacy and security, one supercharged plan
+
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+whatsnew-megabundle-snippet = For { $monthly_price }/month, save on { -brand-name-vpn }, { -brand-name-monitor }‘s data broker protection, and { -brand-name-relay }‘s unlimited email…
+whatsnew-megabundle-description = For { $monthly_price }/month, save on { -brand-name-vpn }, { -brand-name-monitor }‘s data broker protection, and { -brand-name-relay }‘s unlimited email masks.
+whatsnew-megabundle-cta = Get year-round protection
+whatsnew-megabundle-premium-snippet = For { $monthly_price }/month, combine { -brand-name-relay } with { -brand-name-vpn }‘s online activity protection and { -brand-name-monitor }‘s data…
+whatsnew-megabundle-premium-description = For { $monthly_price }/month, combine { -brand-name-relay } with { -brand-name-vpn }‘s online activity protection and { -brand-name-monitor }‘s protection from data brokers who sell your info online.
+whatsnew-megabundle-premium-cta = Upgrade my protection
