@@ -93,3 +93,11 @@ plan-matrix-price-yearly-calculated = { $yearly_price } facturés annuellement
 #   $price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-grid-megabundle-monthly = { $price }/mois
 plan-grid-megabundle-yearly = { $yearly_price } facturés annuellement
+whatsnew-megabundle-heading = Confidentialité et sécurité, un seul forfait suralimenté
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+whatsnew-megabundle-snippet = Pour { $monthly_price }/mois, économisez sur { -brand-name-vpn }, la protection contre le courtier de données de { -brand-name-monitor } et le courrier électronique illimité de { -brand-name-relay }…
+whatsnew-megabundle-description = Pour { $monthly_price }/mois, économisez sur { -brand-name-vpn }, la protection contre les courtiers de données de { -brand-name-monitor } et les alias de messagerie illimités de { -brand-name-relay }.
+whatsnew-megabundle-cta = Bénéficiez d’une protection toute l’année
+whatsnew-megabundle-premium-snippet = Pour { $monthly_price }/mois, combinez { -brand-name-relay } avec la protection de l’activité en ligne de { -brand-name-vpn } et les données de { -brand-name-monitor }…
+whatsnew-megabundle-premium-description = Pour { $monthly_price }/mois, combinez { -brand-name-relay } et la protection d’activité en ligne de { -brand-name-vpn } et la protection de { -brand-name-monitor } contre les courtiers de données qui vendent vos informations en ligne
+whatsnew-megabundle-premium-cta = Mettre à niveau ma protection
