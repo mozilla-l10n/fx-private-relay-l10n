@@ -43,3 +43,4 @@ faq-question-disable-trackerremoval-answer = Sì. Se o ai fastidis cun e-mails c
 faq-question-bulk-trackerremoval-question = Puedio gjavâ lis spiis nome su cualchidune des mês mascaris di e-mail?
 faq-question-bulk-trackerremoval-answer = Tu puedis ativâ la rimozion des spiis nome a nivel di account — lis spiis a vignaran gjavadis di dutis lis tôs e-mails o di nissune.
 faq-question-trackerremoval-breakage-question = Parcè lis e-mails che mi rivin a somein ruvinadis?
+faq-question-trackerremoval-breakage-answer-2 = Cualchi volte la rimozion des spiis e podarès ruvinâ l'aspiet des e-mails, parcè che lis spiis dispès a stan tes imagjins e tai colegaments. Se e ven gjavade une spie, la e-mail e somee come se e fos formatade in mût sbaliât parcè che a mancjin imagjins. Nol è pussibil risolvi chest probleme pes e-mail che tu âs za ricevût. Se chest ti impedìs di lei ben lis e-mails, disative la rimozion des spiis.
