@@ -39,3 +39,4 @@ faq-question-promotional-email-blocking-answer = I abonâts { -brand-name-relay-
 faq-question-detect-promotional-question = { -brand-name-relay } cemût capissial se une e-mail e je publicitarie o mancul?
 faq-question-detect-promotional-answer = Tantis e-mails a vegnin mandadis cun metadâts di “intestazion” che a indichin la divignince di imprescj automatizâts basâts su listis. { -brand-name-firefox-relay } al rileve i dâts di cheste intestazion cussì di podê blocâ chestis e-mails.
 faq-question-disable-trackerremoval-question = Puedio fermâ la rimozion des spiis da lis e-mails?
+faq-question-disable-trackerremoval-answer = Sì. Se o ai fastidis cun e-mails che a somein ruvinadis o magari tu desideris nome interompi la rimozion des spiis, tu puedis disativâ la funzion intes impostazions.
