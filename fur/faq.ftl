@@ -29,3 +29,11 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } al à 
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Al covente doprâ un { -brand-name-firefox-account } cuntune direzion e-mail verificade
 faq-question-acceptable-use-answer-measure-account-v2 = Al è obligatori doprâ un account cuntune direzion e-mail verificade
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Par creâ plui di cinc mascaris tu scugnis paiâ
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Il numar di mascaris che tu puedis gjenerâ in une zornade al è limitât
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Par vê plui informazions torne viôt lis nestris <a href="{ $url }" { $attrs }>cundizions di utilizazion dal servizi</a>.
+faq-question-promotional-email-blocking-question = Ce isal il bloc des e-mails promozionâls?
+faq-question-promotional-email-blocking-answer = I abonâts { -brand-name-relay-premium } a puedin ativâ il bloc des e-mails promozionâls (publicitariis). Cheste funzion e permet che ti vegnin mandadis indevant lis e-mails impuartantis come faturis, azeraments di passwords e confermis e tal stes timp blocâ i messaçs des promozions comerciâls. Al esist il risi, ancje se minim, che un messaç impuartant al vegni blocât. Par chest motîf ti conseìn di no doprâ cheste funzion par servizis essenziâls, come la tô bancje. Se une e-mail e ven blocade, nol sarà pussibil recuperâle.
+faq-question-detect-promotional-question = { -brand-name-relay } cemût capissial se une e-mail e je publicitarie o mancul?
