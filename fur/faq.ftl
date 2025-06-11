@@ -40,3 +40,4 @@ faq-question-detect-promotional-question = { -brand-name-relay } cemût capissia
 faq-question-detect-promotional-answer = Tantis e-mails a vegnin mandadis cun metadâts di “intestazion” che a indichin la divignince di imprescj automatizâts basâts su listis. { -brand-name-firefox-relay } al rileve i dâts di cheste intestazion cussì di podê blocâ chestis e-mails.
 faq-question-disable-trackerremoval-question = Puedio fermâ la rimozion des spiis da lis e-mails?
 faq-question-disable-trackerremoval-answer = Sì. Se o ai fastidis cun e-mails che a somein ruvinadis o magari tu desideris nome interompi la rimozion des spiis, tu puedis disativâ la funzion intes impostazions.
+faq-question-bulk-trackerremoval-question = Puedio gjavâ lis spiis nome su cualchidune des mês mascaris di e-mail?
