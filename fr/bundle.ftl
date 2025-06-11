@@ -53,7 +53,7 @@ megabundle-banner-header-tools = Obtenez 3 outils pour 1 prix imbattable
 megabundle-banner-plan-modules-vpn = { -brand-name-vpn }
 megabundle-banner-plan-modules-monitor = { -brand-name-monitor }
 megabundle-banner-plan-modules-relay = { -brand-name-relay }
-megabundle-banner-plan-body = Le forfait comprend { -brand-name-vpn }, la protection contre le courtier de données et un nombre illimité d’alias de messagerie pour éviter le spam.
+megabundle-banner-plan-body = Le forfait comprend { -brand-name-vpn }, la protection contre les courtiers en données et un nombre illimité d’alias de messagerie pour éviter le spam.
 megabundle-banner-cta = Bénéficiez d’une protection toute l’année
 #   $days_guarantee (string) - the number of days for a money back guarantee. Example: 30
 megabundle-banner-money-back-guarantee = Garantie satisfait ou remboursé de { $days_guarantee } jours.
@@ -77,23 +77,23 @@ plan-grid-card-premium-item-four = <b>Répondre anonymement</b> aux e-mails
 plan-grid-phone-subtitle = Protection e-mails et téléphone
 plan-grid-card-phone-plus = Tout ce que contient { -brand-name-relay-premium }
 plan-grid-card-phone-item-one = Alias de numéro de téléphone pour <b>protéger votre véritable numéro de téléphone</b>
-plan-grid-megabundle-title = Plan de protection de la vie privée
+plan-grid-megabundle-title = Forfait Protection de la vie privée
 #   $discountPercentage (number) megabundle discount savings value. Example: 45
 plan-grid-megabundle-label = Meilleur rapport qualité-prix, économisez { $discountPercentage } %
-plan-grid-megabundle-subtitle = 3 outils de protection de la vie privée, 1 prix
+plan-grid-megabundle-subtitle = 3 outils de protection de la vie privée, à prix unique
 plan-grid-megabundle-vpn-title = { -brand-name-mozilla-vpn }
 plan-grid-megabundle-vpn-description = Protection des activités en ligne
 plan-grid-megabundle-monitor-title = { -brand-name-monitor-plus }
 plan-grid-megabundle-monitor-description = Protection contre les courtiers de données
 plan-grid-megabundle-relay-title = { -brand-name-relay-premium }
-plan-grid-megabundle-relay-description = Un nombre illimité d’alias de messagerie pour la protection contre les messages indésirables
+plan-grid-megabundle-relay-description = Un nombre illimité d’alias de messagerie pour la protection contre le spam
 plan-grid-billed-monthly = Facturé mensuellement
 #   $yearly_price (string) - the yearly cost (including currency symbol) for a given plan. Examples: $99, 99 €
 plan-matrix-price-yearly-calculated = { $yearly_price } facturés annuellement
 #   $price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-grid-megabundle-monthly = { $price }/mois
 plan-grid-megabundle-yearly = { $yearly_price } facturés annuellement
-whatsnew-megabundle-heading = Confidentialité et sécurité, un seul forfait suralimenté
+whatsnew-megabundle-heading = Confidentialité et sécurité réunies dans un forfait ultra-performant
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 whatsnew-megabundle-snippet = Pour { $monthly_price }/mois, économisez sur { -brand-name-vpn }, la protection contre le courtier de données de { -brand-name-monitor } et le courrier électronique illimité de { -brand-name-relay }…
 whatsnew-megabundle-description = Pour { $monthly_price }/mois, économisez sur { -brand-name-vpn }, la protection contre les courtiers de données de { -brand-name-monitor } et les alias de messagerie illimités de { -brand-name-relay }.
