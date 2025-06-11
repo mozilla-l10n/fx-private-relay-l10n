@@ -49,7 +49,7 @@ bundle-banner-dashboard-body = Mettez à niveau votre abonnement pour obtenir à
 bundle-banner-dashboard-upgrade-cta = Mettre à niveau maintenant
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 megabundle-banner-header = Protégez votre vie privée en ligne pour { $monthly_price }/mois
-megabundle-banner-header-tools = Obtenez 3 outils pour 1 prix imbattable
+megabundle-banner-header-tools = Obtenez 3 outils à prix imbattable
 megabundle-banner-plan-modules-vpn = { -brand-name-vpn }
 megabundle-banner-plan-modules-monitor = { -brand-name-monitor }
 megabundle-banner-plan-modules-relay = { -brand-name-relay }
@@ -95,9 +95,9 @@ plan-grid-megabundle-monthly = { $price }/mois
 plan-grid-megabundle-yearly = { $yearly_price } facturés annuellement
 whatsnew-megabundle-heading = Confidentialité et sécurité réunies dans un forfait ultra-performant
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
-whatsnew-megabundle-snippet = Pour { $monthly_price }/mois, économisez sur { -brand-name-vpn }, la protection contre le courtier de données de { -brand-name-monitor } et le courrier électronique illimité de { -brand-name-relay }…
-whatsnew-megabundle-description = Pour { $monthly_price }/mois, économisez sur { -brand-name-vpn }, la protection contre les courtiers de données de { -brand-name-monitor } et les alias de messagerie illimités de { -brand-name-relay }.
+whatsnew-megabundle-snippet = Pour { $monthly_price }/mois, économisez sur { -brand-name-vpn }, la protection contre les courtiers en données { -brand-name-monitor } et un nombre illimité d’alias de messagerie…
+whatsnew-megabundle-description = Pour { $monthly_price }/mois, économisez sur { -brand-name-vpn }, la protection contre les courtiers en données { -brand-name-monitor } et un nombre illimité d’alias de messagerie { -brand-name-relay }.
 whatsnew-megabundle-cta = Bénéficiez d’une protection toute l’année
-whatsnew-megabundle-premium-snippet = Pour { $monthly_price }/mois, combinez { -brand-name-relay } avec la protection de l’activité en ligne de { -brand-name-vpn } et les données de { -brand-name-monitor }…
-whatsnew-megabundle-premium-description = Pour { $monthly_price }/mois, combinez { -brand-name-relay } et la protection d’activité en ligne de { -brand-name-vpn } et la protection de { -brand-name-monitor } contre les courtiers de données qui vendent vos informations en ligne
+whatsnew-megabundle-premium-snippet = Pour { $monthly_price }/mois, combinez { -brand-name-relay } et la protection de vos activités en ligne grâce à { -brand-name-vpn }, ainsi que la protection { -brand-name-monitor }…
+whatsnew-megabundle-premium-description = Pour { $monthly_price }/mois, combinez { -brand-name-relay } et la protection de vos activités en ligne grâce à { -brand-name-vpn }, ainsi que la protection { -brand-name-monitor } contre les courtiers en données qui vendent vos informations en ligne.
 whatsnew-megabundle-premium-cta = Mettre à niveau ma protection
