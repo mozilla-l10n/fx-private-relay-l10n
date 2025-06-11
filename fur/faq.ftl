@@ -42,3 +42,4 @@ faq-question-disable-trackerremoval-question = Puedio fermâ la rimozion des spi
 faq-question-disable-trackerremoval-answer = Sì. Se o ai fastidis cun e-mails che a somein ruvinadis o magari tu desideris nome interompi la rimozion des spiis, tu puedis disativâ la funzion intes impostazions.
 faq-question-bulk-trackerremoval-question = Puedio gjavâ lis spiis nome su cualchidune des mês mascaris di e-mail?
 faq-question-bulk-trackerremoval-answer = Tu puedis ativâ la rimozion des spiis nome a nivel di account — lis spiis a vignaran gjavadis di dutis lis tôs e-mails o di nissune.
+faq-question-trackerremoval-breakage-question = Parcè lis e-mails che mi rivin a somein ruvinadis?
