@@ -26,3 +26,6 @@ faq-question-acceptable-use-question = Cualis sono lis utilizazions acetabilis d
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } al à lis stessis <a href="{ $url }" { $attrs }>cundizions di utilizazion di ducj chei altris prodots { -brand-name-mozilla }</a>. O vin une politiche di politiche di intransigjence tal câs che { -brand-name-relay } al vegni doprât cun fins dolôs come chel di inviâ e-mails malvoludis (spam), si che duncje in chescj câs o sierarìn l’account. O cjapìn misuris par impedî ai utents di violâ lis nestris cundizions:
+# Deprecated
+faq-question-acceptable-use-answer-measure-account = Al covente doprâ un { -brand-name-firefox-account } cuntune direzion e-mail verificade
+faq-question-acceptable-use-answer-measure-account-v2 = Al è obligatori doprâ un account cuntune direzion e-mail verificade
