@@ -28,6 +28,13 @@ faq-question-missing-emails-answer-reason-delay = Al è pussibil che a { -brand-
 faq-question-missing-emails-answer-support-site-html = Se tu cjatis un di chescj problemis, <a href="{ $url }" { $attrs }>visite il nestri sît di supuart</a>.
 faq-question-use-cases-question-2 = Cuant varessio di doprâ lis mascaris di e-mails { -brand-name-relay }?
 faq-question-use-cases-answer-part1-2 = Tu puedis doprâ lis mascaris di e-mails { -brand-name-relay } te plui part des situazions normâls di utilizazion de direzion e-mail. O conseìn di doprâlis cuant che tu ti regjistris par e-mails promozionâls o di informazion, là che tu podaressis volê un control su la ricezion o mancul di messaçs futûrs.
+faq-question-use-cases-answer-part2-2 = No conseìn di doprâ lis mascaris par verificâ la proprie identitât, par e-mails une vore impuartantis o par chês dulà che tu âs di ricevi zontis. Par esempli, tu varessis di condividi la tô e-mail vere cu la tô bancje, il to miedi o il to avocat, stesse robe par ricevi biliets di avions o par concerts.
+faq-question-2-question-2 = Parcè un sît nol acete la mê mascare di e-mail { -brand-name-relay }?
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v4 = Al è pussibil che cualchi sît nol aceti une direzion e-mail che e inclût un sot-domini (@subdomain.mozmail.com) e altris no acetin direzions diviersis di Gmail, Hotmail o Yahoo
+faq-question-1-question = Ce sucedie ae pueste malvolude?
 faq-question-browser-support-question = Puedio doprâ { -brand-name-relay } su altris navigadôrs o sul gno dispositîf mobil?
 faq-question-browser-support-answer-2 = Sì, tu puedis gjenerâ mascaris { -brand-name-relay } su altris navigadôrs o dispositîfs mobii nome jentrant tal to cruscot { -brand-name-relay }.
 faq-question-longevity-question = Ce sucedial se Mozilla al interomp il servizi { -brand-name-firefox-relay }?
