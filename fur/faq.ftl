@@ -5,6 +5,15 @@
 
 ## FAQ Page
 
+faq-headline = Domandis fatis dispès
+# String used to display the attachment limit, e.g. 10 MB
+# Variables:
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
+faq-question-what-is-question-2 = Ce ise une mascare di pueste eletroniche { -brand-name-relay }?
+faq-question-what-is-answer-2 = Lis mascaris di e-mails a son direzions di e-mails mascaradis, o privadis, che a mandin indevant i messaçs ae tô vere direzion e-mail. Chestis mascaris ti permetin di condividi une direzion cun tierçs cence preocupazions: la tô vere direzion e-mail e restarà platade e a ricevarà i messaçs mandâts indevant dal servizi.
+faq-question-missing-emails-question-2 = No mi rivin i messaçs des mês mascaris
 faq-question-browser-support-question = Puedio doprâ { -brand-name-relay } su altris navigadôrs o sul gno dispositîf mobil?
 faq-question-browser-support-answer-2 = Sì, tu puedis gjenerâ mascaris { -brand-name-relay } su altris navigadôrs o dispositîfs mobii nome jentrant tal to cruscot { -brand-name-relay }.
 faq-question-longevity-question = Ce sucedial se Mozilla al interomp il servizi { -brand-name-firefox-relay }?
@@ -44,3 +53,4 @@ faq-question-bulk-trackerremoval-question = Puedio gjavâ lis spiis nome su cual
 faq-question-bulk-trackerremoval-answer = Tu puedis ativâ la rimozion des spiis nome a nivel di account — lis spiis a vignaran gjavadis di dutis lis tôs e-mails o di nissune.
 faq-question-trackerremoval-breakage-question = Parcè lis e-mails che mi rivin a somein ruvinadis?
 faq-question-trackerremoval-breakage-answer-2 = Cualchi volte la rimozion des spiis e podarès ruvinâ l'aspiet des e-mails, parcè che lis spiis dispès a stan tes imagjins e tai colegaments. Se e ven gjavade une spie, la e-mail e somee come se e fos formatade in mût sbaliât parcè che a mancjin imagjins. Nol è pussibil risolvi chest probleme pes e-mail che tu âs za ricevût. Se chest ti impedìs di lei ben lis e-mails, disative la rimozion des spiis.
+faq-question-define-tracker-question = Ce sono lis spiis des e-mails?

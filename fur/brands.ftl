@@ -13,3 +13,24 @@
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
 -brand-name-premium = Premium
+-brand-name-firefox-relay-premium = Firefox Relay Premium
+-brand-name-firefox-browser = navigadôr Firefox
+-brand-name-mozilla = Mozilla
+-brand-name-vpn = VPN
+-brand-name-mozilla-vpn = Mozilla VPN
+-brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
+-brand-name-firefox-lockwise = Firefox Lockwise
+# Deprecated
+-brand-name-firefox-monitor = Firefox Monitor
+-brand-name-mozilla-monitor = Mozilla Monitor
+-brand-name-pocket = Pocket
+# Deprecated
+-brand-name-firefox-account =
+    { $capitalization ->
+        [uppercase] Account Firefox
+       *[lowercase] account Firefox
+    }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
+-brand-name-monitor = Monitor
+-brand-name-monitor-plus = Monitor Plus
