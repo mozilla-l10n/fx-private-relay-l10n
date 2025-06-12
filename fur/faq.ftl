@@ -14,6 +14,20 @@ email-size-limit = { $size } { $unit }
 faq-question-what-is-question-2 = Ce ise une mascare di pueste eletroniche { -brand-name-relay }?
 faq-question-what-is-answer-2 = Lis mascaris di e-mails a son direzions di e-mails mascaradis, o privadis, che a mandin indevant i messaçs ae tô vere direzion e-mail. Chestis mascaris ti permetin di condividi une direzion cun tierçs cence preocupazions: la tô vere direzion e-mail e restarà platade e a ricevarà i messaçs mandâts indevant dal servizi.
 faq-question-missing-emails-question-2 = No mi rivin i messaçs des mês mascaris
+faq-question-missing-emails-answer-a-2 = Al è pussibil che no tu ricevis messaçs da lis mascaris par un pocjis di resons. Chescj motîfs a includin:
+faq-question-missing-emails-answer-reason-spam = I messaçs a finissin te pueste malvolude (spam)
+faq-question-missing-emails-answer-reason-blocked-2 = Il to furnidôr di pueste eletroniche al sta blocant la tô mascare
+faq-question-missing-emails-answer-reason-size = La e-mail mandade indevant e à une zonte plui grande di { email-size-limit }
+faq-question-missing-emails-answer-reason-not-accepted-2 = Il sît nol acete mascaris di e-mails
+faq-question-missing-emails-answer-reason-turned-off-2 = Al è pussibil che la mascare e vedi disativade la funzion par mandâ indevant i messaçs
+faq-question-missing-emails-answer-reason-delay = Al è pussibil che a { -brand-name-relay } i coventi plui timp dal solit par mandâ indevant i tiei messaçs
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-support-site-html = Se tu cjatis un di chescj problemis, <a href="{ $url }" { $attrs }>visite il nestri sît di supuart</a>.
+faq-question-use-cases-question-2 = Cuant varessio di doprâ lis mascaris di e-mails { -brand-name-relay }?
+faq-question-use-cases-answer-part1-2 = Tu puedis doprâ lis mascaris di e-mails { -brand-name-relay } te plui part des situazions normâls di utilizazion de direzion e-mail. O conseìn di doprâlis cuant che tu ti regjistris par e-mails promozionâls o di informazion, là che tu podaressis volê un control su la ricezion o mancul di messaçs futûrs.
 faq-question-browser-support-question = Puedio doprâ { -brand-name-relay } su altris navigadôrs o sul gno dispositîf mobil?
 faq-question-browser-support-answer-2 = Sì, tu puedis gjenerâ mascaris { -brand-name-relay } su altris navigadôrs o dispositîfs mobii nome jentrant tal to cruscot { -brand-name-relay }.
 faq-question-longevity-question = Ce sucedial se Mozilla al interomp il servizi { -brand-name-firefox-relay }?
