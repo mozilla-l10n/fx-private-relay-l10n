@@ -35,6 +35,7 @@ faq-question-2-question-2 = Parcè un sît nol acete la mê mascare di e-mail { 
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Al è pussibil che cualchi sît nol aceti une direzion e-mail che e inclût un sot-domini (@subdomain.mozmail.com) e altris no acetin direzions diviersis di Gmail, Hotmail o Yahoo
 faq-question-1-question = Ce sucedie ae pueste malvolude?
+faq-question-1-answer-a-2 = { -brand-name-relay } nol filtre la pueste malvolude (spam), ma il nestri soci pe pueste eletroniche Amazon SES al bloche spam e malware. Se { -brand-name-relay } al mande indevant i messaçs che no tu vuelis, tu puedis cambiâ lis impostazions di { -brand-name-relay } par blocâ i messaçs de mascare che ju mande indevant.
 faq-question-browser-support-question = Puedio doprâ { -brand-name-relay } su altris navigadôrs o sul gno dispositîf mobil?
 faq-question-browser-support-answer-2 = Sì, tu puedis gjenerâ mascaris { -brand-name-relay } su altris navigadôrs o dispositîfs mobii nome jentrant tal to cruscot { -brand-name-relay }.
 faq-question-longevity-question = Ce sucedial se Mozilla al interomp il servizi { -brand-name-firefox-relay }?
