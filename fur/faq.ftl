@@ -36,6 +36,11 @@ faq-question-2-question-2 = Parcè un sît nol acete la mê mascare di e-mail { 
 faq-question-2-answer-v4 = Al è pussibil che cualchi sît nol aceti une direzion e-mail che e inclût un sot-domini (@subdomain.mozmail.com) e altris no acetin direzions diviersis di Gmail, Hotmail o Yahoo
 faq-question-1-question = Ce sucedie ae pueste malvolude?
 faq-question-1-answer-a-2 = { -brand-name-relay } nol filtre la pueste malvolude (spam), ma il nestri soci pe pueste eletroniche Amazon SES al bloche spam e malware. Se { -brand-name-relay } al mande indevant i messaçs che no tu vuelis, tu puedis cambiâ lis impostazions di { -brand-name-relay } par blocâ i messaçs de mascare che ju mande indevant.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-2-html = Se tu cjatis un probleme difondût di pueste malvolude di dutis lis tôs mascaris, o conseìn di <a href="{ $url }" { $attrs }>segnalinusal</a> cussì che o podìn comedâ i parametris di Amazon SES par chest servizi. Evite di segnalâ chescj messaçs tant che pueste malvolude te tô casele di pueste, viodût che il to furnidôr di servizi e-mail al viodarà { -brand-name-relay } come sorzint dal spam e no il mitent origjinâl.
+faq-question-availability-question = Dulà isal disponibil { -brand-name-relay }?
 faq-question-browser-support-question = Puedio doprâ { -brand-name-relay } su altris navigadôrs o sul gno dispositîf mobil?
 faq-question-browser-support-answer-2 = Sì, tu puedis gjenerâ mascaris { -brand-name-relay } su altris navigadôrs o dispositîfs mobii nome jentrant tal to cruscot { -brand-name-relay }.
 faq-question-longevity-question = Ce sucedial se Mozilla al interomp il servizi { -brand-name-firefox-relay }?
