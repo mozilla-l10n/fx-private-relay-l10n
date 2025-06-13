@@ -41,6 +41,8 @@ faq-question-1-answer-a-2 = { -brand-name-relay } nol filtre la pueste malvolude
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = Se tu cjatis un probleme difondût di pueste malvolude di dutis lis tôs mascaris, o conseìn di <a href="{ $url }" { $attrs }>segnalinusal</a> cussì che o podìn comedâ i parametris di Amazon SES par chest servizi. Evite di segnalâ chescj messaçs tant che pueste malvolude te tô casele di pueste, viodût che il to furnidôr di servizi e-mail al viodarà { -brand-name-relay } come sorzint dal spam e no il mitent origjinâl.
 faq-question-availability-question = Dulà isal disponibil { -brand-name-relay }?
+faq-question-availability-answer-v4 = { -brand-name-relay } al è disponibil a gratis te plui part dai paîs dal mont. { -brand-name-relay-premium } al è disponibil in Austrie, Bulgarie, Belgjiche, Canadà, Cravuazie, Cipri, Republiche Ceche, Danimarche, Estonie, Finlandie, France, Gjermanie, Grecie, Ongjarie, Irlande, Italie, Letonie, Lituanie, Lussemburc, Malesie, Malte, Paîs Bas, Gnove Zelande, Polonie, Portugal, Romanie, Singapôr, Slovachie, Slovenie, Spagne, Svezie, Svuizare, Ream Unît e Stâts Unîts.
+faq-question-4-question-2 = Puedio rispuindi ai messaçs doprant la mê mascare { -brand-name-relay }?
 faq-question-browser-support-question = Puedio doprâ { -brand-name-relay } su altris navigadôrs o sul gno dispositîf mobil?
 faq-question-browser-support-answer-2 = Sì, tu puedis gjenerâ mascaris { -brand-name-relay } su altris navigadôrs o dispositîfs mobii nome jentrant tal to cruscot { -brand-name-relay }.
 faq-question-longevity-question = Ce sucedial se Mozilla al interomp il servizi { -brand-name-firefox-relay }?
