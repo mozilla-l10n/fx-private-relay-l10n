@@ -27,6 +27,8 @@ profile-free-onboarding-copy-mask-item-headline-2 = Oten la maiute, no il spam
 profile-free-onboarding-copy-mask-item-description-2 = Chel negozi in linie nol à bisugne de tô vere direzion e-mail par spedîti i prodots.
 profile-free-onboarding-copy-mask-how-forwarding-works = Scuvierç cemût che al funzione il mandâ indevant
 profile-free-onboarding-copy-mask-what-emails-to-block = Lis mascaris mandino indevant lis e-mails che no tu desideris ricevi? Tu puedis disativâ il mandâ indevant intun sôl passaç, evitant di ricevi e-mails malvoludis.
+profile-free-onboarding-copy-mask-paste-the-email = Tache la mascare di e-mail che tu âs a pene copiade
+profile-free-onboarding-copy-mask-try-out-email-forwarding = Prove il mandâ indevant des e-mails
 
 ## Step 3 Relay Extension Added
 
