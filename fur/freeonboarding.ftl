@@ -29,6 +29,20 @@ profile-free-onboarding-copy-mask-how-forwarding-works = Scuvierç cemût che al
 profile-free-onboarding-copy-mask-what-emails-to-block = Lis mascaris mandino indevant lis e-mails che no tu desideris ricevi? Tu puedis disativâ il mandâ indevant intun sôl passaç, evitant di ricevi e-mails malvoludis.
 profile-free-onboarding-copy-mask-paste-the-email = Tache la mascare di e-mail che tu âs a pene copiade
 profile-free-onboarding-copy-mask-try-out-email-forwarding = Prove il mandâ indevant des e-mails
+profile-free-onboarding-copy-mask-send-email = Mande e-mail
+profile-free-onboarding-copy-mask-nevermind = Nol impuarte
+profile-free-onboarding-copy-mask-continue = Continue
+profile-free-onboarding-copy-mask-placeholder-relay-email-mask = Mascare di e-mail { -brand-name-relay }
+profile-free-onboarding-copy-mask-check-inbox = Cumò controle i tiei messaçs in jentrade
+profile-free-onboarding-copy-mask-email-this-mask = No inviarìn altris e-mails a cheste mascare, no sta preocupâti.
 
 ## Step 3 Relay Extension Added
 
+profile-free-onboarding-addon-get-extension = Oten la estension { -brand-name-relay }
+profile-free-onboarding-addon-finish = Fin
+profile-free-onboarding-addon-headline = Dopre lis tôs mascaris dapardut
+profile-free-onboarding-addon-subheadline = Prove a doprâ lis tôs mascaris dapardut là che ti covente une e-mail
+profile-free-onboarding-addon-item-headline-1 = A funzionin dapardut là che ti covente une e-mail
+profile-free-onboarding-addon-item-description-1 = Dapardut là che ti covente di inserî une direzion di pueste eletroniche, tu puedis doprâ une mascare di e-mail { -brand-name-relay }. Adiriture tu puedis gjenerâ gnovis mascaris dret dal gjestôr di passwords di { -brand-name-firefox }.
+profile-free-onboarding-addon-item-headline-2 = La estension { -brand-name-relay } e rint dut plui facil
+profile-free-onboarding-addon-item-description-2 = Ogni volte che al ven visualizât il cjamp pe direzion e-mail, la estension dal navigadôr { -brand-name-firefox-relay } e compilarà in automatic dutis lis mascaris di e-mail che tu desideris doprâ. Nol covente che tu ti impensis di ogni mascare!
