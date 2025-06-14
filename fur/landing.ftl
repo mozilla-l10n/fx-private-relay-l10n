@@ -57,12 +57,23 @@ how-it-works-section-manage-body = Jentre tal cruscot di { -brand-name-relay } p
 
 ## PRICING MATRIX SECTION
 
+plan-matrix-offer-title = Sielç il to nivel di protezion plui adat
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
+plan-matrix-offer-body = { -brand-name-firefox-relay } al protêç la tô identitât e la tô casele di pueste cun mascaris univochis. Par  vê une sigurece ancjemò plui alte, zonte lis mascaris { -brand-name-relay } pai numars di telefon e sparagne il { $savings } zontant ancje la protezion { -brand-name-vpn }.
 
 # Top Row Labels
 
+plan-matrix-heading-features = Funzionalitâts
+plan-matrix-heading-plan-free = Protezion e-mail limitade
+plan-matrix-heading-plan-premium = Protezion e-mail
+plan-matrix-heading-plan-phones = Protezion e-mail e telefon
+plan-matrix-heading-plan-bundle-2 = Zonte la protezion { -brand-name-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Mascaris di e-mail par protezi la tô vere direzion di pueste eletroniche
+plan-matrix-feature-browser-extension = Estension dal navigadôr par doprâ { -brand-name-relay } su ducj i sîts
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
