@@ -74,15 +74,39 @@ plan-matrix-heading-plan-bundle-2 = Zonte la protezion { -brand-name-vpn }
 
 plan-matrix-feature-email-masks = Mascaris di e-mail par protezi la tô vere direzion di pueste eletroniche
 plan-matrix-feature-browser-extension = Estension dal navigadôr par doprâ { -brand-name-relay } su ducj i sîts
+plan-matrix-feature-email-tracker-removal = Rimozion spiis da lis e-mails
+plan-matrix-feature-promo-email-blocking = Bloc des e-mails publicitariis
+plan-matrix-feature-email-subdomain = Domini di pueste eletroniche { -brand-name-relay } par creâ mascaris in bote
+plan-matrix-feature-email-reply = Rispuint aes e-mails in mût anonim
+plan-matrix-feature-phone-mask = Mascaris par numars di telefon par protezi il to numar reâl
+plan-matrix-feature-vpn = Protezion { -brand-name-vpn } cun <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Mascaris di e-mail ilimitadis
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
+plan-matrix-feature-mobile-email-masks = Mascaris di pueste eletroniche
+plan-matrix-feature-mobile-browser-extension = Estension par navigadôr
+plan-matrix-feature-mobile-email-tracker-removal = Rimozion spiis da lis e-mails
+plan-matrix-feature-mobile-promo-email-blocking = Bloc des e-mails publicitariis
+plan-matrix-feature-mobile-email-subdomain = Domini di pueste eletroniche { -brand-name-relay } univoc
+plan-matrix-feature-mobile-email-reply = Rispuint aes e-mails in mût anonim
+plan-matrix-feature-mobile-phone-mask = Protêç il to numar di telefon reâl
+plan-matrix-feature-mobile-vpn = Acès a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
+plan-matrix-heading-price = Presit
+plan-matrix-feature-count-unlimited = Cence limits
+plan-matrix-feature-included = Includût
+plan-matrix-feature-not-included = No includût
+plan-matrix-price-free = Gratis
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = { $monthly_price } al mês
+plan-matrix-price-period-yearly = Anuâl
 
 # Plan CTAs
 
