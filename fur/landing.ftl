@@ -107,6 +107,9 @@ plan-matrix-price-free = Gratis
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly-calculated = { $monthly_price } al mês
 plan-matrix-price-period-yearly = Anuâl
+plan-matrix-price-period-monthly = Mensîl
+plan-matrix-price-period-yearly-footnote-1 = Faturazion ogni an
+plan-matrix-price-period-monthly-footnote-1 = Faturazion ogni mês
 
 # Plan CTAs
 
