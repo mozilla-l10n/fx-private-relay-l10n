@@ -109,7 +109,7 @@ plan-matrix-price-monthly-calculated = { $monthly_price }/mnd.
 plan-matrix-price-period-yearly = Jierliks
 plan-matrix-price-period-monthly = Moanliks
 plan-matrix-price-period-yearly-footnote-1 = Jierliks fakturearre
-plan-matrix-price-period-monthly-footnote-1 = Moanlikse fakturearre
+plan-matrix-price-period-monthly-footnote-1 = Moanliks fakturearre
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Besparje { $savings }</span> op de normale priis fan { -brand-name-vpn }

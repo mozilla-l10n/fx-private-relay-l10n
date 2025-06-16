@@ -156,3 +156,11 @@ highlighted-features-section-unlimited-masks-body =
 
 ## The Premium waitlist page
 
+waitlist-submit-label-2 = Iscriviti ae liste di spiete
+waitlist-privacy-policy-agree-2 = Fasint clic su “{ waitlist-submit-label-2 }”, tu acetis la nestre <a>Informative su la riservatece</a>.
+waitlist-privacy-policy-use = Lis tôs informazions a saran dopradis nome par visâti de disponibilitât di { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Lis tôs informazions a vignaran dopradis nome par visâti de disponibilitât te tô zone des mascaris pai numars di telefon.
+waitlist-privacy-policy-use-bundle = Lis tôs informazions a vignaran dopradis nome par visâti de disponibilitât dal pachet { -brand-name-relay } + { -brand-name-vpn }.
+waitlist-subscribe-success = Tu stâs te liste! A pene che { -brand-name-firefox-relay-premium } al devente disponibil te tô regjon, ti mandarìn une e-mail.
+waitlist-subscribe-error-connection = Al è vignût fûr un erôr tal zontâti ae liste di spiete. Controle la tô conession e torne prove.
+waitlist-subscribe-error-unknown = Al è vignût fûr un erôr tal zontâti ae liste di spiete. Torne prove.
