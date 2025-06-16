@@ -110,12 +110,20 @@ plan-matrix-price-period-yearly = Anuâl
 plan-matrix-price-period-monthly = Mensîl
 plan-matrix-price-period-yearly-footnote-1 = Faturazion ogni an
 plan-matrix-price-period-monthly-footnote-1 = Faturazion ogni mês
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
+plan-matrix-price-vpn-discount-promo = <span>Sparagne il { $savings }</span> sul presit normâl di { -brand-name-vpn }
 
 # Plan CTAs
 
+plan-matrix-sign-up = Regjistriti
+plan-matrix-get-relay-cta = Oten { -brand-name-relay }
+plan-matrix-join-waitlist = Iscriviti ae liste di spiete
+plan-matrix-your-plan = Il to plan
 
 # Item 1
 
+highlighted-features-section-unlimited-masks-headline = Cree cence limits mascaris di e-mail
 
 # Item 2
 
