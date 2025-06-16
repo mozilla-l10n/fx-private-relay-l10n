@@ -124,6 +124,11 @@ plan-matrix-your-plan = Il to plan
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Cree cence limits mascaris di e-mail
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
+    Ducj a otegnin a gratis { $mask_limit } mascaris di e-mail. 
+    Ma cun { -brand-name-relay-premium } tu puedis creâ dutis lis mascaris che tu vûs par protezi la tô casele di pueste dal spam, dai hackers e da lis spiis in rêt.
 
 # Item 2
 
