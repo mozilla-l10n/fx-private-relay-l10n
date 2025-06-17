@@ -145,12 +145,30 @@ highlighted-features-section-replying-body = { -brand-name-relay-premium } ti pe
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Bloc des e-mails publicitariis
+highlighted-features-section-block-promotions-body =
+    Cun { -brand-name-relay-premium } tu puedis impedî aes e-mails publicitariis di rivâ ae tô
+    casele di pueste e tal stes timp tu puedis ricevi e-mails impuartantis come faturis o informazions di spedizion.
 
 # Item 5
 
+highlighted-features-section-remove-trackers-headline = Rimozion spiis da lis e-mails
+highlighted-features-section-remove-trackers-body =
+    { -brand-name-relay } al pues gjavâ lis spiis plui comunis da lis e-mails che ti vegnin mandadis indevant, in mût di judâti
+    a restâ invisibil a chei che a cirin di stâti daûr e aes agjenziis publicitariis.
 
 ## REVIEWS SECTION
 
+landing-reviews-add-ons = Components adizionâi
+landing-reviews-logo-title = { -brand-name-firefox-browser(capitalization: "uppercase") }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Font: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = su 5 ({ $review_count } recensions)
+landing-reviews-show-next-button = Mostre recension sucessive
+landing-reviews-show-previous-button = Mostre recension prime
+landing-review-anonymous-user = Utent { -brand-name-firefox } { $user_id }
+landing-review-user-one-review = O presei une vore il grup di { -brand-name-mozilla } pe creativitât e par vê proponût un mût plui sempliç par fâ deventâ anonime la mê direzion e-mail. Cheste estension e je strabuine, le consei di cûr a cui che al è atent ae riservatece!
 
 ## HIGHLIGHTED FEATURES SECTION
 
