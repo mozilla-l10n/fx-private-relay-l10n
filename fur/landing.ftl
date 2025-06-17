@@ -140,9 +140,11 @@ highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium 
 # Item 3
 
 highlighted-features-section-replying-headline = Rispuint aes e-mails e ai SMS in mût anonim
+highlighted-features-section-replying-body = { -brand-name-relay-premium } ti permet di rispuindi aes e-mails de tô mascare di pueste eletroniche, impedint ai mitents di cognossi la tô vere direzion e-mail. Te stesse maniere, cu lis mascaris pai numars di telefon tu puedis rispuindi ai SMS dret de tô mascare par protezi il to numar reâl.
 
 # Item 4
 
+highlighted-features-section-block-promotions-headline = Bloc des e-mails publicitariis
 
 # Item 5
 
