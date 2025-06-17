@@ -20,12 +20,33 @@ error-premium-check-subdomain = Par selezionâ un sot-domini prime tu scugnis v�
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Il sot-domini @{ $unavailable_subdomain } nol è disponibil. Prove cuntun altri.
 error-settings-update = Al è vignût fûr un erôr tal inzornâ lis tôs impostazions, torne prove
+error-mask-create-failed = Impussibil creâ la mascare. Torne prove.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Impussibil inzornâ la mascare. Torne prove.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = Impussibil eliminâ la mascare { $mask }. Torne prove.
 
 ## Notifications component
 
+toast-button-close-label = Siere notifiche
 
 ## Tips and tricks at the bottom of the page
 
+tips-header-title = Jutori e sugjeriments
+tips-header-button-close-label = Scarte
+tips-footer-link-faq-label = FAQ
+tips-footer-link-faq-tooltip = Domandis fatis dispès
+tips-footer-link-support-label = Supuart
+tips-footer-link-support-tooltip = Contate la assistence
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Sugjeriment { $nr }
+tips-toast-button-expand-label = Altris informazions
+# Checkbox the user can click to adjust the block level of the new mask
+popover-custom-alias-explainer-promotional-block-checkbox = Bloche e-mails publicitariis
 
 ## Tip about using custom masks
 
