@@ -169,6 +169,7 @@ landing-reviews-show-next-button = Mostre recension sucessive
 landing-reviews-show-previous-button = Mostre recension prime
 landing-review-anonymous-user = Utent { -brand-name-firefox } { $user_id }
 landing-review-user-one-review = O presei une vore il grup di { -brand-name-mozilla } pe creativitât e par vê proponût un mût plui sempliç par fâ deventâ anonime la mê direzion e-mail. Cheste estension e je strabuine, le consei di cûr a cui che al è atent ae riservatece!
+landing-review-user-two-review = Un sempliç imprest par diliberâsi dal spam inviât al to ID di pueste eletroniche.
 
 ## HIGHLIGHTED FEATURES SECTION
 
