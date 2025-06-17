@@ -132,9 +132,14 @@ highlighted-features-section-unlimited-masks-body =
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = Cree mascaris in bote
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium } ti da un domini di pueste eletroniche { -brand-name-relay } univoc par creâ al svol gnovis mascaris dapardut là che tu ti cjatis. Tu âs nome di zontâ une peraule o une frase prime dal simbul @. Sêstu al ristorant? Dopre ristorant@todomini.{ $mozmail }. Stâstu fasint compris? Prove cun compris@todomini.{ $mozmail }.
 
 # Item 3
 
+highlighted-features-section-replying-headline = Rispuint aes e-mails e ai SMS in mût anonim
 
 # Item 4
 
