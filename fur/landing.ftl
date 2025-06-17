@@ -172,6 +172,9 @@ landing-review-user-one-review = O presei une vore il grup di { -brand-name-mozi
 landing-review-user-two-review = Un sempliç imprest par diliberâsi dal spam inviât al to ID di pueste eletroniche.
 landing-review-user-three-review = Mi plâs un grum cheste estension! Une vore semplice ma potente e la integrazion cul navigadôr e je maraveose.
 landing-review-user-four-review-list-1 = Al da serenitât dilunc la navigazion su internet.
+landing-review-user-four-review-list-2 = Al protêç la identitât di une persone da lis spiis midiant une gjenerazion di masaris cuant che, par varis motîfs, un nol vûl condividi la sô direzion e-mail.
+landing-review-user-four-review-list-3 = Il dâts de tô casele e-mail e je al sigûr tes mans di { -brand-name-firefox-relay }.
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } al fâs meracui, provilu!!!
 
 ## HIGHLIGHTED FEATURES SECTION
 
