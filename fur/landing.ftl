@@ -178,9 +178,15 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } al fâs m
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = Funzionalitâts siguris e semplicis par judâti a protezi la tô identitât
+highlighted-features-section-bottom-title = Protêç la tô identitât (e la tô casele di pueste) cun { -brand-name-firefox-relay }
+highlighted-features-section-bottom-cta = Scomence
+highlighted-features-section-new-item = Gnovis!
 
 ## FAQ SECTION
 
+landing-faq-headline = Domandis principâls su { -brand-name-firefox-relay }
+landing-faq-cta = Viôt altris domandis fatis dispès su { -brand-name-firefox-relay }
 
 ## Premium promo page
 
