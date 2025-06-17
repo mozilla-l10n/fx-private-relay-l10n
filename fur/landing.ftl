@@ -190,9 +190,16 @@ landing-faq-cta = Viôt altris domandis fatis dispès su { -brand-name-firefox-r
 
 ## Premium promo page
 
+premium-promo-hero-headline = Protêç la tô casele di pueste in mût facil cun { -brand-name-firefox-relay-premium }
+premium-promo-hero-body-3 = Cun { -brand-name-firefox-relay-premium } tu ricevis un numar ilimitât di mascaris di e-mail personalizadis, che ti mandaran indevant nome lis e-mails che tu desideris te tô vere direzion e-mail.
+premium-promo-hero-cta = Inzorne daurman
+premium-promo-availability-warning-4 = { -brand-name-relay-premium } al è disponibil in Austrie, Bulgarie, Belgjiche, Canadà, Cravuazie, Cipri, Republiche Ceche, Danimarche, Estonie, Finlandie, France, Gjermanie, Grecie, Ongjarie, Irlande, Italie, Letonie, Lituanie, Lussemburc, Malesie, Malte, Paîs Bas, Gnove Zelande, Polonie, Portugal, Romanie, Singapôr, Slovachie, Slovenie, Spagne, Svezie, Svuizare, Ream Unît e Stâts Unîts.
 
 ## The Premium waitlist page
 
+waitlist-heading-2 = Iscriviti ae liste di spiete par { -brand-name-relay-premium }
+waitlist-heading-phone = Iscriviti ae liste di spiete di { -brand-name-relay } pe funzion di mascare par numars di telefon
+waitlist-heading-bundle = Iscriviti ae liste di spiete pal pachet { -brand-name-relay } + { -brand-name-vpn }
 waitlist-submit-label-2 = Iscriviti ae liste di spiete
 waitlist-privacy-policy-agree-2 = Fasint clic su “{ waitlist-submit-label-2 }”, tu acetis la nestre <a>Informative su la riservatece</a>.
 waitlist-privacy-policy-use = Lis tôs informazions a saran dopradis nome par visâti de disponibilitât di { -brand-name-firefox-relay-premium }.
