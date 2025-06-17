@@ -33,12 +33,42 @@ nav-profile-help = Jutori e supuart
 nav-profile-help-tooltip = Ricêf assistence pe utilizazion di { -brand-name-relay }
 # This is only visible to Premium users.
 nav-profile-contact = Contatinus
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Contatinus in merit a { -brand-name-relay-premium }
+# Deprecated
+nav-profile-image-alt = Avatar di { -brand-name-firefox-account }
+nav-profile-image-alt-v2 = Avatar dal account
+nav-duo-description = Cambie cruscots
+nav-duo-email-mask-alt = Mascaris di e-mail
+nav-duo-phone-mask-alt = Mascaris par numars di telefon
 
 ## Mobile menu text
 
+menu-upgrade-button = Inzorne
+menu-toggle-open = Vierç menù
+menu-toggle-close = Siere menù
+nav-settings = Impostazions
+nav-support = Jutori e supuart
+nav-sign-out = Disconet
+nav-contact = Contatinus
+nav-menu-mobile = Menù par dispositîfs mobii
+fx-desktop-2 = { -brand-name-firefox } par scritori
+fx-mobile-2 = { -brand-name-firefox } par dispositîfs mobii
 
 ## Footer
 
+nav-footer-privacy = Riservatece
+nav-footer-relay-terms = Cundizions di utilizazion di { -brand-name-relay }
+nav-footer-legal = Notis legâls
+logo-mozilla-alt = { -brand-name-mozilla }
 
 ## Bento Menu
 
+bento-button-title = Aplicazions e servizis { -brand-name-firefox }
+fx-makes-tech = { -brand-name-firefox } e je une tecnologjie che si bat pe tô riservatece in rêt.
+made-by-mozilla = Fat di { -brand-name-mozilla }
+fx-desktop = { -brand-name-firefox-browser(capitalization: "uppercase") } par scritori
+fx-mobile = { -brand-name-firefox-browser(capitalization: "uppercase") } par dispositîfs mobii
+moz-monitor = { -brand-name-mozilla-monitor }
+fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }

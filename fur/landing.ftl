@@ -204,6 +204,11 @@ waitlist-lead-2 = Ti visarìn cuant che { -brand-name-relay-premium } al sarà d
 waitlist-lead-phone = Ti visarìn cuant che lis mascaris par numars di telefon a saran disponibilis te tô zone.
 waitlist-lead-bundle = Ti fasarìn savê cuant che tu podarâs comprâ { -brand-name-relay-premium } e { -brand-name-mozilla-vpn } adun a un presit scontât te tô zone.
 waitlist-control-required = Obligatori
+waitlist-control-email-label = Cuale ise la tô direzion e-mail?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = iltonon@example.com
+waitlist-control-country-label-2 = In ce paîs o regjon vivistu?
+waitlist-control-locale-label = Selezione la lenghe preferide.
 waitlist-submit-label-2 = Iscriviti ae liste di spiete
 waitlist-privacy-policy-agree-2 = Fasint clic su “{ waitlist-submit-label-2 }”, tu acetis la nestre <a>Informative su la riservatece</a>.
 waitlist-privacy-policy-use = Lis tôs informazions a saran dopradis nome par visâti de disponibilitât di { -brand-name-firefox-relay-premium }.
