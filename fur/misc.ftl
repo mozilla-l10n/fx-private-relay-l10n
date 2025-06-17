@@ -47,6 +47,8 @@ tips-switcher-label = Sugjeriment { $nr }
 tips-toast-button-expand-label = Altris informazions
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Bloche e-mails publicitariis
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Ative il bloc des e-mails publicitariis suntune mascare par evitâ che a rivedin te tô casele di pueste.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Altris informazions
 
 ## Tip about using custom masks
 
