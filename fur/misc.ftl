@@ -224,6 +224,31 @@ first-time-user-email-how-item-3-header = Gjestìs lis tôs mascaris dal cruscot
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Jentre</a> par creâ gnovis mascaris, segnâ chês che tu âs za e eliminâ chês che a ricevin pueste malvolude.
 first-time-user-email-how-item-3-subhead-text = Jentre par creâ gnovis mascaris, segnâ cun etichetis chês esistentis e eliminâ chês che a ricevin spam.
 first-time-user-email-extra-protection-inbox-phone-title = Protezion in plui pe tô casele di pueste e pal telefon
+first-time-user-email-extra-protection-inbox-phone-subhead = Inzorne a { -brand-name-relay-premium } par otignî un numar ilimitât di mascaris di e-mail — sore tu varâs une mascare di telefon par protezi il to vêr numar.
+first-time-user-email-extra-protection-cta = Oten { -brand-name-relay-premium }
+first-time-user-email-questions-title = Âstu domandis su { -brand-name-firefox-relay }?
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = Il nestri <a href="{ $url }" { $attrs }>grup di supuart</a> al è achì par judâti.
+first-time-user-email-questions-subhead-text = Il nestri grup di supuart al è achì par judâti.
+first-time-user-email-footer-text-1 = Tu âs ricevût cheste e-mail automatiche parcè che tu sês utent abonât a { -brand-name-firefox-relay } che al doprave { -brand-name-relay } pe prime volte. Se tu âs ricevût cheste e-mail par erôr, tu puedis biel che ignorâle.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = Par vê altris informazions, visite il sît di <a href="{ $url }" { $attrs }>supuart di { -brand-name-mozilla }</a>.
+first-time-user-email-footer-text-2-text = Par vê altris informazions, visite il sît di supuart di { -brand-name-mozilla }.
+first-time-user-email-footer-text-legal = Notis legâls
+first-time-user-email-footer-text-privacy = Cundizions di utilizazion e riservatece
 
 ## API error messages
 
+# Variables:
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+api-error-free-tier-limit = Tu âs doprât dutis { $free_tier_limit } lis mascaris di pueste eletroniche includudis tal to account gratuit. Tu puedis tornâ a doprâ une mascare esistente, ma doprâ une mascare univoche par ogni account e je la opzion plui sigure.
+api-error-free-tier-no-subdomain-masks = Il to account gratuit nol inclût sot-dominis personalizâts pes mascaris. Par creâ mascaris personalizadis, passe a { -brand-name-relay-premium }.
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = Nol è stât pussibil creâ “{ $unavailable_address }”. Torne prove cuntun altri non pe mascare.
+api-error-need-subdomain = Selezione un sot-domini prime di creâ une direzion di pueste personalizade.
+api-error-account-is-paused = Il to account al è sospindût in mût temporani.
