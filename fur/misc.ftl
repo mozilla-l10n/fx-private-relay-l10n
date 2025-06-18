@@ -53,9 +53,33 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Altris inform
 ## Tip about using custom masks
 
 tips-custom-alias-heading-2 = Cree mascaris doprant il to sot-domini personalizât
+tips-custom-alias-content-2 = Dut ce che ti covente fâ al è inventâti e condividi une mascare univoche che e dopri il to sot-domini personalizât — la mascare e vignarà gjenerade in automatic. Par esempli, la prossime volte che tu fasis compris in rêt, prove “compris@todomini.mozmail.com”.
 
 ## Report of trackers removed from an email
 
+trackerreport-title = { -brand-name-relay } — Rapuart su la rimozion des spiis
+trackerreport-meta-from-heading = Di
+trackerreport-meta-receivedat-heading = Ricevût di
+trackerreport-meta-count-heading = Totâl spiis
+trackerreport-trackers-heading = Spiis rilevadis
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Domini de spie
+trackerreport-trackers-count-heading = Numar di spiis
+trackerreport-trackers-none = Nissune spie rilevade in cheste e-mail.
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 spie
+       *[other] { $count } spiis
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 spie
+       *[other] { $count } spiis
+    }
 
 ## Tracker warning page
 
