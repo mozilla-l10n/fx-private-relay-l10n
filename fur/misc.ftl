@@ -121,16 +121,60 @@ offer-countdown-timer-seconds = Sec.
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = Suntune scjale di 1 a 10, cun cuale probabilitât laressistu a conseâ { -brand-name-relay } a un amì o a un coleghe?
+survey-option-very-likely = Une vore probabil
+survey-option-not-likely = Facil che no
+survey-option-dismiss = Siere
 
 ## CSAT survey
 
+survey-csat-question = Trop sodisfat sêstu de tô esperience cun { -brand-name-firefox-relay }?
+survey-csat-answer-very-dissatisfied = Une vore insodisfat(e)
+survey-csat-answer-dissatisfied = Insodisfat(e)
+survey-csat-answer-neutral = Indiferent(e)
+survey-csat-answer-satisfied = Sodisfat(e)
+survey-csat-answer-very-satisfied = Une vore sodisfat(e)
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Graciis pe tô opinion. O varessin gust di savê cemût che o podìn miorâti { -brand-name-relay }. Podaressistu partecipâ a un sondaç di doi minûts?
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
+relay-email-upgrade-for-more-protection = Inzorne daurman  par vê plui protezion
+relay-email-manage-this-mask = Gjestìs cheste mascare
+relay-email-your-dashboard = Il to cruscot
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = di <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = di <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = Mandade indenant di <a href="{ $url }" { $attrs }>{ $email_address }</a>
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] 1 spie di e-mail gjavade
+       *[other] { $number } spiis di e-mails gjavadis
+    }
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = O vin mandât cheste rispueste a { $sender }. Dut câs di cumò indevant, lis tôs rispuestis no vignaran inviadis.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded-2 = La tô rispueste no je stade inviade a { $sender }.
 
 ## Email sent to first time free users
 
