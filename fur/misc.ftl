@@ -196,6 +196,9 @@ first-time-user-email-cta-dashboard-button = Scuvierç cemût doprâ { -brand-na
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = La nestre promesse
+our-promise-content = Lis mascaris di e-mail { -brand-name-relay } a mandin indevant te tô casele di pueste ducj i messaçs inviâts a chê specifiche mascare, cence palesâ al mitent la tô vere direzion.
+what-can-you-do-with-relay-title = Ce puedio fâ cun { -brand-name-firefox-relay }?
+what-can-you-do-with-relay-point-one = Ricevi messaçs cence palesâ al mitent la tô vere direzion e-mail
 
 ## API error messages
 

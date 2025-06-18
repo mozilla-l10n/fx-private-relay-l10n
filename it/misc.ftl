@@ -80,7 +80,7 @@ trackerreport-tracker-count =
         [one] 1 elemento tracciante
        *[other] { $count } elementi traccianti
     }
-trackerreport-confidentiality-notice = Le informazioni sugli elementi traccianti e gli indirizzi dei mittenti mostrati in queste segnalazioni non vengono salvati da { -brand-name-firefox-relay } e sono contenute solo negli URL del rapporto. Non conserviamo il contenuto delle tue email.
+trackerreport-confidentiality-notice = Le informazioni sugli elementi traccianti e gli indirizzi dei mittenti mostrati in queste segnalazioni non vengono salvati da { -brand-name-firefox-relay } e sono contenuti solo negli URL del rapporto. Non conserviamo il contenuto delle tue email.
 trackerreport-removal-explainer-heading = Come funziona la rimozione degli elementi traccianti
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } adesso può rimuovere gli elementi traccianti più comuni dalle email inoltrate tramite gli alias di posta. Continuerai comunque a ricevere le tue email, ma gli elementi traccianti verranno rimossi dalle email inoltrate, così da poter ricevere messaggi senza essere tracciato. Attiva la rimozione degli elementi traccianti su tutti i tuoi alias contemporaneamente dalle impostazioni, anziché individualmente per ogni alias.
 trackerreport-trackers-explainer-heading = Informazioni sugli elementi traccianti nelle email
