@@ -47,3 +47,6 @@ modal-domain-register-success-title = Sucès!
 
 ## Updated mask deletion modal strings
 
+mask-deletion-header = Eliminâ cheste mascare di e-mail?
+mask-deletion-warning-no-recovery = Une volte eliminade cheste mascare, no tu rivarâs plui a recuperâle. No tu ricevarâs plui lis e-mails che a vignivin mandadis a cheste mascare.
+mask-deletion-warning-sign-ins = Se tu dopris cheste mascare par jentrâ in cualsisei account, tu varessis di cambiâ lis direzions e-mail in chei accounts prime di eliminâle.
