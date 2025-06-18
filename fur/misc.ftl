@@ -95,6 +95,29 @@ trackerreport-load-error = Al è vignût fûr un erôr tal gjenerâ il rapuart s
 ## Tracker warning page
 
 contains-tracker-title = Dentri di chest colegament o cheste imagjin e je contignude une spie
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description =
+    Lis spiis des e-mails a son struments di control che lis aziendis a incorporin tes e-mails par stâ daûr
+    al to compuartament in rêt. Par protezi la tô riservatece, o vin gjavade cheste spie de e-mail mandade
+    di <u>{ $sender }</u> al/ai { $datetime }.
+contains-tracker-warning-title = Desideristu distès visualizâ il colegament?
+contains-tracker-warning-description = Atenzion: fasint clic su chest colegament tu mandarâs al mitent informazions che ti rivuardin
+contains-tracker-warning-view-link-cta = Sì, visualize il colegament
+contains-tracker-faq-section-title = Domandis fatis dispès su lis spiis des e-mails
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = Dîs
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = Oris
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = Min.
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = Sec.
 
 ## Evergreen Survey (displayed on the profile page)
 
