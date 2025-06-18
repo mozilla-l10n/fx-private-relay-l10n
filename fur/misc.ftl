@@ -204,6 +204,9 @@ what-can-you-do-with-relay-point-one = Ricevi messaçs cence palesâ al mitent l
 what-can-you-do-with-relay-point-one-subpoint-html = Condivît une mascare invezit che la tô direzion e-mail. Lis mascaris di e-mail ti mandaran indevant i messaçs te tô casele di pueste. Tu puedis creâ mascaris di e-mail dret di { -brand-name-firefox }, cu la estension di <a{ $attrs }>{ -brand-name-relay }</a>, o tal cruscot di { -brand-name-relay }.
 what-can-you-do-with-relay-point-two = Impedìs ai sîts web e a chei che a pandin publicitât di stâti daûr e cognossiti cun facilitât
 what-can-you-do-with-relay-point-two-subpoint = In chescj dîs, lis spiis des e-mails a son dapardut. Lis mascaris di pueste eletroniche { -brand-name-relay } lis oblein a lâ a stime.
+what-can-you-do-with-relay-point-three = Impedìs al spam di rivâ te tô casele di pueste, o disative dal dut lis mascaris
+what-can-you-do-with-relay-point-three-subpoint = Tal cruscot di { -brand-name-relay } tu puedis creâ mascaris, dâur une etichete par indicâ dulà che a vegnin dopradis, ativâ il bloc dal spam e eliminâ chês che no tu vuelis plui doprâ.
+forwarded-email-hero-header = Tu âs ricevût la tô prime e-mail mandade indevant!
 
 ## API error messages
 
