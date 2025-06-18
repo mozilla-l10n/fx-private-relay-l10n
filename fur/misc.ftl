@@ -80,6 +80,8 @@ trackerreport-tracker-count =
         [one] 1 spie
        *[other] { $count } spiis
     }
+trackerreport-confidentiality-notice = Lis informazions su lis spiis e la direzion dai mitents mostradis in chestis segnalazions no vegnin salvadis di { -brand-name-firefox-relay } e a son contignudis nome tai URL dal rapuart. No salvìn lis tôs e-mails.
+trackerreport-removal-explainer-heading = Cemût che e funzione la rimozion des spiis
 
 ## Tracker warning page
 
