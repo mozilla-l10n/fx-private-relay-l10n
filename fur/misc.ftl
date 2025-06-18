@@ -207,6 +207,23 @@ what-can-you-do-with-relay-point-two-subpoint = In chescj dîs, lis spiis des e-
 what-can-you-do-with-relay-point-three = Impedìs al spam di rivâ te tô casele di pueste, o disative dal dut lis mascaris
 what-can-you-do-with-relay-point-three-subpoint = Tal cruscot di { -brand-name-relay } tu puedis creâ mascaris, dâur une etichete par indicâ dulà che a vegnin dopradis, ativâ il bloc dal spam e eliminâ chês che no tu vuelis plui doprâ.
 forwarded-email-hero-header = Tu âs ricevût la tô prime e-mail mandade indevant!
+forwarded-email-hero-desc = Viodistu cheste intestazion? E vignarà fûr in dutis lis e-mails mandadis indevant da lis mascaris { -brand-name-relay }.
+first-time-user-email-how-title = Cemût che al funzione { -brand-name-relay }
+first-time-user-email-how-item-1-header = Dopre une mascare { -brand-name-relay } invezit de tô vere e-mail, dapardut
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = Cree mascaris dret di { -brand-name-firefox } cul <a href="{ $url }" { $attrs }>component adizionâl { -brand-name-relay }</a> o tal cruscot di { -brand-name-relay }.
+first-time-user-email-how-item-1-subhead-text = Cree mascaris dret di { -brand-name-firefox } cul component adizionâl { -brand-name-relay } o tal cruscot di { -brand-name-relay }.
+first-time-user-email-how-item-2-header = Ti mandarìn indevant lis e-mails te tô casele di pueste
+first-time-user-email-how-item-2-subhead = I mitents no viodaran mai la tô vere direzion e tu podarâs blocâ lis e-mails in ogni moment.
+first-time-user-email-how-item-3-header = Gjestìs lis tôs mascaris dal cruscot di { -brand-name-relay }
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Jentre</a> par creâ gnovis mascaris, segnâ chês che tu âs za e eliminâ chês che a ricevin pueste malvolude.
+first-time-user-email-how-item-3-subhead-text = Jentre par creâ gnovis mascaris, segnâ cun etichetis chês esistentis e eliminâ chês che a ricevin spam.
+first-time-user-email-extra-protection-inbox-phone-title = Protezion in plui pe tô casele di pueste e pal telefon
 
 ## API error messages
 
