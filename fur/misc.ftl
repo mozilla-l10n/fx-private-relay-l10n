@@ -252,3 +252,8 @@ api-error-free-tier-no-subdomain-masks = Il to account gratuit nol inclût sot-d
 api-error-address-unavailable = Nol è stât pussibil creâ “{ $unavailable_address }”. Torne prove cuntun altri non pe mascare.
 api-error-need-subdomain = Selezione un sot-domini prime di creâ une direzion di pueste personalizade.
 api-error-account-is-paused = Il to account al è sospindût in mût temporani.
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = “{ $duplicate_address }” al esist za. Torne prove cuntun altri non pe mascare.
+api-error-address-not-editable = Nol è pussibil modificâ un cjamp esistent pe direzion dal domini.
+api-error-account-is-inactive = Il to account nol è atîf.
