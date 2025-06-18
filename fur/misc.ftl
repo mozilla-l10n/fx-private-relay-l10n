@@ -82,9 +82,19 @@ trackerreport-tracker-count =
     }
 trackerreport-confidentiality-notice = Lis informazions su lis spiis e la direzion dai mitents mostradis in chestis segnalazions no vegnin salvadis di { -brand-name-firefox-relay } e a son contignudis nome tai URL dal rapuart. No salvìn lis tôs e-mails.
 trackerreport-removal-explainer-heading = Cemût che e funzione la rimozion des spiis
+trackerreport-removal-explainer-content = Cumò, { -brand-name-firefox-relay } al pues gjavâ lis spiis plui comunis da lis e-mails mandadis indevant midiant lis mascaris di e-mail. Tu continuarâs distès a ricevi la tô pueste, ma lis spiis a vignaran gjavadis des e-mails mandadis indevant, cussì che tu podarâs ricevi messaçs cence sei spiât. Par ativâ la rimozion des spiis su dutis lis tôs mascaris intun colp sôl, ative la rimozion des spiis tes impostazions invezit che in maniere individuâl su ogni mascare.
+trackerreport-trackers-explainer-heading = Informazions su lis spiis tes e-mails
+trackerreport-trackers-explainer-content-part1 = Lis spiis des e-mails a son struments di control e publicitât che aromai a son comuns e che a invadis simpri di plui lis caselis di pueste. Al è pussibil doprâ chestis spiis par capî miôr il to compuartament in rêt, i tiei interès e la ativitât de tô casele di pueste.
+trackerreport-trackers-explainer-content-part2 = Une aziende o une organizazion e pues incorporâ une spie tes e-mails che ti vegnin mandadis, di solit platade dentri di une imagjin o di un colegament. Tal moment che la e-mail e ven vierte, il codiç dentri de spie al mande informazions ae aziende.
+trackerreport-breakage-warning-2 = Impuartant: la rimozion des spiis e pues comprometi l’aspiet des e-mails parcè che dispès lis spiis a son contignudis dentri di imagjins e colegaments. Nol è pussibil corezi o recuperâ lis e-mails za ricevudis.
+trackerreport-faq-heading = Domandis principâls su lis spiis tes e-mails
+trackerreport-faq-cta = Viôt altris domandis fatis dispès su { -brand-name-firefox-relay }
+trackerreport-loading = Daûr a cjariâ il rapuart su la rimozion des spiis…
+trackerreport-load-error = Al è vignût fûr un erôr tal gjenerâ il rapuart su la rimozion des spiis. Inzorne la pagjine par tornâ a provâ.
 
 ## Tracker warning page
 
+contains-tracker-title = Dentri di chest colegament o cheste imagjin e je contignude une spie
 
 ## Evergreen Survey (displayed on the profile page)
 
