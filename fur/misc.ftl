@@ -52,6 +52,7 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Altris inform
 
 ## Tip about using custom masks
 
+tips-custom-alias-heading-2 = Cree mascaris doprant il to sot-domini personalizât
 
 ## Report of trackers removed from an email
 
