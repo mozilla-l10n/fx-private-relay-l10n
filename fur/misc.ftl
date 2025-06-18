@@ -141,7 +141,7 @@ survey-csat-followup = Graciis pe tô opinion. O varessin gust di savê cemût c
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
-relay-email-upgrade-for-more-protection = Inzorne daurman  par vê plui protezion
+relay-email-upgrade-for-more-protection = Inzorne daurman par vê plui protezion
 relay-email-manage-this-mask = Gjestìs cheste mascare
 relay-email-your-dashboard = Il to cruscot
 # The byline for the premium email header that reads "by Firefox Relay Premium".
@@ -175,12 +175,27 @@ first-reply-forwarded = O vin mandât cheste rispueste a { $sender }. Dut câs d
 # Variables
 #   $sender (string) - the original sender's email address
 other-reply-not-forwarded-2 = La tô rispueste no je stade inviade a { $sender }.
+replies-only-available-with-premium = La pussibilitât di rispuindi aes e-mails mandadis indevant de tô mascare e je disponibile nome cun { -brand-name-firefox-relay-premium }.
+replies-not-included-in-free-account-header = La pussibilitât di rispuindi no je includude tal to account gratuit
+reply-not-sent-header = La tô rispueste no je stade inviade
+upgrade-to-reply-to-future-emails = Inzorne daurman par podê rispuindi
+upgrade-for-more-protection = Inzorne daurman par vê plui protezion
+upgrade-to-premium = Inzorne a { -brand-name-firefox-relay-premium }
+manage-your-masks = Gjestìs lis tôs mascaris
 
 ## Email sent to first time free users
 
+first-time-user-email-welcome = Benvignûts su { -brand-name-firefox-relay }
+first-time-user-email-preheader = Mascaris di e-mail par protezi la tô identitât
+first-time-user-email-welcome-subhead = La tô direzion e-mail e pues vignî doprade par spiâti in rêt — o sin chi par judâti a risolvi chest probleme.
+first-time-user-email-hero-primary-text = Tant che utent di { -brand-name-firefox }, tu  ricevis a gratis 5 mascaris di pueste eletroniche. Doprilis par platâ la tô vere direzion e-mail, protêç la tô identitât e par mandâ indevant te tô casele di pueste nome lis e-mails che tu desideris.
+first-time-user-email-hero-secondary-text = Gjestìs dutis lis tôs masaris dal to cruscot di { -brand-name-relay }.
+first-time-user-email-hero-cta = Visualize il to cruscot
+first-time-user-email-cta-dashboard-button = Scuvierç cemût doprâ { -brand-name-relay }
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
+our-promise-header = La nestre promesse
 
 ## API error messages
 
