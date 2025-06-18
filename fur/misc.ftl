@@ -199,6 +199,9 @@ our-promise-header = La nestre promesse
 our-promise-content = Lis mascaris di e-mail { -brand-name-relay } a mandin indevant te tô casele di pueste ducj i messaçs inviâts a chê specifiche mascare, cence palesâ al mitent la tô vere direzion.
 what-can-you-do-with-relay-title = Ce puedio fâ cun { -brand-name-firefox-relay }?
 what-can-you-do-with-relay-point-one = Ricevi messaçs cence palesâ al mitent la tô vere direzion e-mail
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Condivît une mascare invezit che la tô direzion e-mail. Lis mascaris di e-mail ti mandaran indevant i messaçs te tô casele di pueste. Tu puedis creâ mascaris di e-mail dret di { -brand-name-firefox }, cu la estension di <a{ $attrs }>{ -brand-name-relay }</a>, o tal cruscot di { -brand-name-relay }.
 
 ## API error messages
 
