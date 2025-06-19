@@ -53,6 +53,15 @@ profile-label-cancel = Anule
 profile-blocked-copy-2 = Selezionant il bloc par cheste mascare, { -brand-name-firefox-relay } al eliminarà i messaç prime che a podedin rivâ te tô casele di pueste.
 profile-forwarded-copy-2 = Selezionant il mandâ indevant par cheste mascare, { -brand-name-firefox-relay } al inviarà i messaçs ae tô casele di pueste.
 profile-forwarded-note = Note:
+profile-forwarded-note-copy = Pal moment i messaçs (includudis lis zontis) di dimensions plui grandis di { email-size-limit } no son supuartâts e no vignaran mandâts indevant.
+profile-replies-tooltip = Tu puedis rispuindi aes e-mails ricevudis midiant cheste mascare e { -brand-name-firefox-relay } al continuarà a protezi la tô vere direzion e-mail.
+profile-stat-learn-more = Plui informazions
+profile-stat-learn-more-close = Siere
+profile-stat-label-blocked = E-mails blocadis
+profile-stat-label-forwarded = E-mails mandadis indevant
+profile-stat-label-aliases-used-2 = Mascaris di e-mail dopradis
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Spiis gjavadis
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
