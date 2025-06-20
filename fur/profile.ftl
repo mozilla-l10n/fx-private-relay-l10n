@@ -63,6 +63,10 @@ profile-stat-label-aliases-used-2 = Mascaris di e-mail dopradis
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Spiis gjavadis
 profile-stat-label-trackers-learn-more-part1 = La ativazion de rimozion des spiis e gjavarà dutis lis spiis des e-mails mandadis indevant.
+profile-stat-label-trackers-learn-more-part2-2 = Impuartant: la rimozion des spiis e pues ruvinâ l’aspiet des e-mails parcè che dispès lis spiis a stan dentri di imagjins e colegaments.
+profile-filter-search-placeholder-2 = Cîr mascaris
+profile-filter-category-button-label = Filtre lis mascaris visibilis
+profile-filter-category-button-tooltip = Filtre lis mascaris in base al sot-domini e/o se a stan blocant la pueste in jentrade
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
