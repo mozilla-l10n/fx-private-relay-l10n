@@ -14,3 +14,4 @@ whatsnew-tab-archive-label = Cronologjie
 whatsnew-footer-clear-all-label = Nete dutf
 whatsnew-footer-back-label = Indaûr
 whatsnew-empty-message = Viôt di butâ un voli achì — o lavorìn simpri su gnovis e maraveosis funzionalitâts par rindi { -brand-name-relay } simpri miôr.
+whatsnew-feature-size-limit-heading = Plui spazi pes zontis
