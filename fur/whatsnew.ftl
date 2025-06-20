@@ -15,3 +15,15 @@ whatsnew-footer-clear-all-label = Nete dutf
 whatsnew-footer-back-label = Indaûr
 whatsnew-empty-message = Viôt di butâ un voli achì — o lavorìn simpri su gnovis e maraveosis funzionalitâts par rindi { -brand-name-relay } simpri miôr.
 whatsnew-feature-size-limit-heading = Plui spazi pes zontis
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-size-limit-snippet = Cun { -brand-name-firefox-relay } cumò tu puedis mandâ indevant e-mails fin a 25 MB…
+whatsnew-feature-size-limit-description = Cun { -brand-name-firefox-relay } cumò tu puedis mandâ indevant e-mails fin a 25 MB, ancje di zontis.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-size-limit-snippet-var = Cun { -brand-name-firefox-relay } cumò tu puedis mandâ indevant e-mails fin a { email-size-limit }…
+whatsnew-feature-size-limit-description-var = Cun { -brand-name-firefox-relay } cumò tu puedis mandâ indevant e-mails fin a { email-size-limit }, ancje di zontis.
+whatsnew-feature-sign-back-in-heading = Torne jentre cu lis tôs mascaris
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-sign-back-in-snippet = Par creâ une gnove mascare cuant che ti ven domandade la tô e-mail, vierç…
