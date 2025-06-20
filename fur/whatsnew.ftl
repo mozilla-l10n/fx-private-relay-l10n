@@ -27,3 +27,5 @@ whatsnew-feature-sign-back-in-heading = Torne jentre cu lis tôs mascaris
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = Par creâ une gnove mascare cuant che ti ven domandade la tô e-mail, vierç…
+whatsnew-feature-sign-back-in-description = Par jentrâ cuntune mascare za doprade, viert il menù contestuâl là che il sît ti domande la tô e-mail. Tu rivarâs a selezionâ la mascare e compilâ in automatic il cjamp de e-mail.
+whatsnew-feature-forward-some-heading = Bloc des e-mails publicitariis
