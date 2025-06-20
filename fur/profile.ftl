@@ -67,9 +67,44 @@ profile-stat-label-trackers-learn-more-part2-2 = Impuartant: la rimozion des spi
 profile-filter-search-placeholder-2 = Cîr mascaris
 profile-filter-category-button-label = Filtre lis mascaris visibilis
 profile-filter-category-button-tooltip = Filtre lis mascaris in base al sot-domini e/o se a stan blocant la pueste in jentrade
+profile-filter-no-results = Nissune mascare e corispuint ai criteris selezionâts. <clear-button>Nete ducj i filtris.</clear-button>
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Mascaris che a mandin indevant
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Mascaris cun bloc atîf
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Mascaris cun bloc des publicitâts atîf
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Mascaris casuâls
+# Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Mascaris personalizadis
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Stât de rimozion des spiis
+profile-indicator-tracker-removal-tooltip = In chest moment a vegnin gjavadis lis spiis des e-mails
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = Cualis e-mails desideristu blocâ?
+# Block all emails sent to a speciic mask
+profile-promo-email-blocking-option-all = Dutis
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Promozions
+# Allow/forward all emails sent to a speciic mask
+profile-promo-email-blocking-option-none = Nissune
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } al sta blocant dutis lis e-mails mandadis a cheste mascare.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } al cirarà di blocâ lis e-mails publicitariis, ma tal stes timp ti mandarà indevant lis e-mails essenziâls come faturis e informazions su spedizions.
+# Deprecated
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } nol sta blocant nissune e-mail par cheste mascare.
+profile-promo-email-blocking-description-none-3 = Dutis lis e-mails inviadis a cheste mascare a vignaran mandadis indevant ae tô vere direzion.
+# Deprecated
+profile-promo-email-blocking-label-promotionals = Bloche lis publicitâts
+# Let's the user know we are blocking promotional emails
+profile-promo-email-blocking-label-promotionals-2 = Bloc e-mails publicitariis
+# Deprecated
+profile-promo-email-blocking-label-none = Bloche dut
+profile-promo-email-blocking-label-none-2 = Bloc di dutis lis e-mails
+# Deprecated
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 
 ## 5 Mask Upsell (displayed on the profile page)
 
