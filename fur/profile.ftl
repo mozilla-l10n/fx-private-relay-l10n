@@ -105,6 +105,22 @@ profile-promo-email-blocking-label-none = Bloche dut
 profile-promo-email-blocking-label-none-2 = Bloc di dutis lis e-mails
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = Mandadis indevant dutis lis e-mails
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (nome par { -brand-name-premium })
+profile-promo-email-blocking-description-promotionals-locked-label = Disponibil pai abonâts { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-cta = Inzorne daurman
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Iscriviti ae liste di spiete par { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-close = Siere
 
 ## 5 Mask Upsell (displayed on the profile page)
 
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Tu âs doprât dutis { $limit } lis mascaris. Tu puedis tornâ a doprâlis, ma la opzion plui sigure e je chê di doprâ une mascare univoche par ogni account.
+profile-maxed-aliases-with-phone-header = Otimize la protezion de tô e-mail e dal to telefon
+profile-maxed-aliases-without-phone-header = Otimize la protezion de tô e-mail { -brand-name-relay }
+profile-maxed-aliases-with-phone-description = Tu sês rivât/rivade al limit di { $limit } mascaris dal to account gratuit { -brand-name-relay }. Passe a { -brand-name-relay-premium } par vê un numar ilimitât di mascaris di e-mail e la pussibilitât di protezi il to numar di telefon.
+profile-maxed-aliases-without-phone-description = Tu sês rivât/rivade al limit di { $limit } mascaris dal to account gratuit { -brand-name-relay }. Passe a { -brand-name-relay-premium } par vê un numar ilimitât di mascaris.
+profile-maxed-aliases-cta = Passe a { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Oten il to domini di e-mail personâl cun { -brand-name-premium }
