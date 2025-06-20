@@ -24,3 +24,9 @@ settings-api-key-description = Cheste e je la tô clâf API par { -brand-name-re
 settings-api-key-description-bolded = Doprile nome cun aplicazions che tu consideris afidabilis par acedi al to account { -brand-name-relay }.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Fâs clic par copiâ
+setting-api-key-copied = Copiât!
+setting-api-key-copied-alt = Fâs clic par copiâ
+setting-tracker-removal-heading = Gjave lis spiis des e-mails
+setting-tracker-removal-description = Gjave lis spiis di dutis lis e-mails mandadis indevant.
+setting-tracker-removal-note = Cumò { -brand-name-firefox-relay } al pues gjavâ lis spiis plui comunis da lis e-mails mandadis indevant midiant la tô mascare.
+setting-tracker-removal-warning-2 = Impuartant: la rimozion des spiis e pues comprometi l’aspiet des e-mails parcè che dispès lis spiis a son contignudis dentri di imagjins e colegaments. Nol è pussibil corezi o recuperâ lis e-mails za ricevudis.
