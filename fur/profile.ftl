@@ -62,6 +62,7 @@ profile-stat-label-forwarded = E-mails mandadis indevant
 profile-stat-label-aliases-used-2 = Mascaris di e-mail dopradis
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Spiis gjavadis
+profile-stat-label-trackers-learn-more-part1 = La ativazion de rimozion des spiis e gjavarà dutis lis spiis des e-mails mandadis indevant.
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 

@@ -55,6 +55,6 @@ multi-part-onboarding-continue = Continue
 
 multi-part-onboarding-reply-headline = Rispuindi aes tôs e-mails
 onboarding-premium-title-detail = Cun { -brand-name-firefox-relay-premium } tu puedis:
-onboarding-premium-reply-description-2 = Âstu di rispuindi a cualchi e-mail inviade a une mascare? Al baste rispuindi normâl — la tô mascare e continuarà a protezi la tô vere direzion e-mail.
+onboarding-premium-reply-description-2 = Âstu di rispuindi a cualchi e-mail inviade a une mascare? Ti baste rispuindi normâl — la tô mascare e continuarà a protezi la tô vere direzion.
 multi-part-onboarding-premium-reply-description = Rispuint aes e-mails cence palesâ la tô vere direzion
 multi-part-onboarding-step-counter = Passaç { $step } di { $max }.
