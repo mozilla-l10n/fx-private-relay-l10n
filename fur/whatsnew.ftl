@@ -49,3 +49,22 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Inzorne daurman par vê une protezion ancjemò plui grande…
+whatsnew-feature-premium-expansion-description = Inzorne daurman par vê une protezion ancjemò plui grande — cree un numar ilimitât di mascaris di e-mail, oten un sot-domini personalizât pes e-mails e tant altri!
+whatsnew-feature-tracker-removal-heading = Introduzion ae rimozion des spiis des e-mails
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-tracker-removal-snippet = Cumò { -brand-name-relay } al pues gjavâ da lis e-mails mandadis indevant lis spiis di e-mail plui comunis…
+whatsnew-feature-tracker-removal-description-2 = Cumò { -brand-name-relay } al pues gjavâ lis spiis plui comunis da lis e-mails che ti vegnin mandadis indevant, cussì di judâti a restâ invisibil aes aziendis publicitariis. Ative la opzion in “Impostazions”.
+whatsnew-feature-offer-countdown-heading = La nestre ufierte di promozion e finarà ca di pôc!
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# Try to keep this string short, not longer than the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Passe a { -brand-name-relay-premium } prime dai { $end_date } e gjolt di un numar ilimitât di mascaris…
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Passe a { -brand-name-relay-premium } prime dai { $end_date } e gjolt di un numar ilimitât di mascaris al nestri presit di promozion mensîl.
+whatsnew-feature-firefox-integration-heading = { -brand-name-relay } al è cumò disponibil tal gjestôr di passwords { -brand-name-firefox }
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = La protezion de tô e-mail e je deventade ancjemò plui semplice. Cumò tu puedis gjenerâ…
