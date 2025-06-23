@@ -68,3 +68,23 @@ whatsnew-feature-firefox-integration-heading = { -brand-name-relay } al è cumò
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-firefox-integration-snippet = La protezion de tô e-mail e je deventade ancjemò plui semplice. Cumò tu puedis gjenerâ…
+whatsnew-feature-firefox-integration-description = La protezion de tô e-mail e je deventade ancjemò plui semplice. Cumò tu puedis gjenerâ gnovis mascaris di e-mail { -brand-name-relay } dret dal gjestôr di passwords di { -brand-name-firefox } sul scritori.
+whatsnew-feature-mailing-list-heading = Un jutori pe protezion de tô riservatece
+# A preview of the full content of `whatsnew-feature-mailing-list-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-mailing-list-snippet = Nol è facil stâ daûr ai ultins conseis e sugjeriments in materie di riservatece e sigurece…
+whatsnew-feature-mailing-list-description = Nol è facil stâ daûr a ducj i conseis e sugjeriments in materie di riservatece e sigurece. Par cheste reson o vin creade une newsletter par judâti a rindi plui sigure la tô vite in rêt.
+whatsnew-feature-mailing-list-cta = Iscriviti ae newsletter
+whatsnew-feature-premium-expansion-eu-heading = Mascaris ilimitadis cumò disponibilis
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } al è cumò disponibil tal to paîs…
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } al è cumò disponibil tal to paîs. Protêç la tô casele di pueste cuntun numar ilimitât di mascaris e oten un domini di pueste eletroniche { -brand-name-relay } univoc par rindi la creazion di mascaris facile e sigure, dapardut là che tu ti cjatis.
+whatsnew-feature-premium-expansion-eu-cta = Oten { -brand-name-relay-premium }
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = Par chest periodi di fiestis, ricêf un scont dal 20% sul presit di 1 an di { -brand-name-relay-premium }.
+whatsnew-holiday-promo-2023-news-heading = Oten un scont dal 20% su { -brand-name-relay-premium }
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = Par chest periodi di fiestis, ricêf un scont dal 20% sul presit di 1 an di { -brand-name-relay-premium }. Inserìs il codiç promozionâl “HOLIDAY20” ae casse. La ufierte e finìs ai 31 di Dicembar dal 2023.
+whatsnew-holiday-promo-2023-cta = Oten 1 an di { -brand-name-relay-premium }
