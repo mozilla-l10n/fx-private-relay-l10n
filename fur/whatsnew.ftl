@@ -32,3 +32,20 @@ whatsnew-feature-forward-some-heading = Bloc des e-mails publicitariis
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } ti permet di blocâ nome lis e-mails publicitariis…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } ti permet di blocâ nome lis e-mails publicitariis mandadis a une mascare. Tu ricevarâs lis e-mails impuartantis come par esempli lis faturis, ma no lis e-mails di marketing.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-heading = Di “alias” a “mask”
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# Try to keep this string short, not longer than the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-snippet = Te version inglese cumò i “aliases” a vegnin clamâts “masks” par rindi { -brand-name-firefox-relay }…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-description = Te version inglese cumò i “aliases” a vegnin clamâts “masks” par rindi { -brand-name-firefox-relay } plui facil di doprâ e par vierzi la strade a gnovis funzions.
+whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } disponibil in Svezie
+whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } disponibil in Finlandie
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-snippet = Inzorne daurman par vê une protezion ancjemò plui grande…
