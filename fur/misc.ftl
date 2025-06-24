@@ -106,6 +106,32 @@ contains-tracker-warning-title = Desideristu distès visualizâ il colegament?
 contains-tracker-warning-description = Atenzion: fasint clic su chest colegament tu mandarâs al mitent informazions che ti rivuardin
 contains-tracker-warning-view-link-cta = Sì, visualize il colegament
 contains-tracker-faq-section-title = Domandis fatis dispès su lis spiis des e-mails
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [1] E mancje 1 ore
+                [0] { "" }
+               *[other] A mancjin { $remaining_hours } oris
+            }
+        [1]
+            { $remaining_hours ->
+                [1] A mancjin 1 dì e 1 ore
+                [0] Al mancje 1 dì
+               *[other] A mancjin 1 dì e { $remaining_hours } oris
+            }
+       *[other]
+            { $remaining_hours ->
+                [1] A mancjin { $remaining_days } dîs e 1 ore
+                [0] A mancijn { $remaining_days } dîs
+               *[other] A mancjin { $remaining_days } dîs e { $remaining_hours } oris
+            }
+    }
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = Dîs
