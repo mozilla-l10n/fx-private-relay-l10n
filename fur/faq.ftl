@@ -56,7 +56,7 @@ faq-question-attachments-question = { -brand-name-firefox-relay } mandaraial ind
 faq-question-attachments-answer-v2 = Cumò o supuartìn il mandâ indevant lis zontis. Dut câs, o vin un limit aes dimensions: { -brand-name-relay } nol mandarà indenant i messaçs plui grancj di { email-size-limit }.
 faq-question-unsubscribe-domain-question-2 = Ce sucedial al gno sot-domini personalizât se o disdeti l’abonament a { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer-2 = Se tu regredissis di { -brand-name-relay-premium }, tu continuarâs a ricevi e-mails mandadis indenant midiant lis tôs mascaris di pueste personalizadis, ma no tu podarâs plui creâ gnovis mascaris doprant chel sot-domini. Se tu âs plui di cinc mascaris in dut, no tu podarâs creânt altris. Tu pierdarâs ancje la pussibilitât di rispuindi ai messaçs mandâts indevant. Tu puedis tornâ a abonâti a { -brand-name-relay-premium } e otignî di gnûf l’acès a chestis funzions.
-faq-question-8-question = Ce dâts vegnino tirâts dongje di { -brand-name-firefox-relay }?
+faq-question-8-question = Ce dâts vegnino tirâts sù di { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
