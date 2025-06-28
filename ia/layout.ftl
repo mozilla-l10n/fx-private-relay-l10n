@@ -58,7 +58,7 @@ fx-mobile-2 = { -brand-name-firefox } pro mobile
 ## Footer
 
 nav-footer-privacy = Confidentialitate
-nav-footer-relay-terms = Terminos de uso de { -brand-name-relay }
+nav-footer-relay-terms = Conditiones de uso de { -brand-name-relay }
 nav-footer-legal = Juridic
 logo-mozilla-alt = { -brand-name-mozilla }
 
