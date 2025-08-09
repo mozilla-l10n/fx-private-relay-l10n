@@ -29,4 +29,4 @@ setting-api-key-copied-alt = 点击复制
 setting-tracker-removal-heading = 移除邮件跟踪器
 setting-tracker-removal-description = 从所有转发给您的邮件中移除邮件跟踪器。
 setting-tracker-removal-note = { -brand-name-firefox-relay } 现在可以从通过您的马甲转发的电子邮件中移除常见的跟踪器。
-setting-tracker-removal-warning-2 = 重要提示：移除跟踪器可能会导致您的邮件看起来不正常，因为跟踪器时常包含在图像和链接中。此类邮件无法修复。
+setting-tracker-removal-warning-2 = 重要提示：移除跟踪器可能会导致您的邮件无法正常显示，因为跟踪器时常包含在图像和链接中。此类邮件无法修复或回复。
