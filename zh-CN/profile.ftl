@@ -57,7 +57,7 @@ profile-forwarded-note-copy = 若邮件（含附件）大于 { email-size-limit 
 profile-replies-tooltip = 您可以回复通过此马甲收到的电子邮件，{ -brand-name-firefox-relay } 仍将继续保护您的真实电子邮件地址。
 profile-stat-learn-more = 详细了解
 profile-stat-learn-more-close = 关闭
-profile-stat-label-blocked = 封邮件已拦截
+profile-stat-label-blocked = 已拦截的邮件数
 profile-stat-label-forwarded = 封邮件已转发
 profile-stat-label-aliases-used-2 = 已用的马甲邮箱
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
