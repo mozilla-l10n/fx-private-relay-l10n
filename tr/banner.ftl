@@ -25,6 +25,9 @@ banner-download-install-chrome-extension-headline = { -brand-name-google-chrome 
 banner-download-install-chrome-extension-copy-2 = { -brand-name-chrome } için { -brand-name-firefox-relay } uzantısı maske oluşturmayı ve kullanmayı daha da kolaylaştırıyor.
 banner-download-install-chrome-extension-cta = { -brand-name-relay } uzantısını yükleyin
 banner-upgrade-cta = { -brand-name-relay-premium }’a yükseltin
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+banner-register-subdomain-copy-2 = Size özel alt alan adı sayesinde maskelerinizi önceden oluşturmanız gerekmez. Rezervasyon mu yapacaksınız? Restorana “restoran@alanadiniz.{ $mozmail }” adresini vermeniz yeterli. Özel alt alan adınızın kullanıldığı tüm maskeler otomatik olarak size yönlendirilecektir.
 banner-pack-upgrade-cta = Şimdi yükselt
 # Data Notification Banner:
 banner-label-data-notification-body-cta = Daha fazla bilgi alın
@@ -71,6 +74,8 @@ modal-email-domain-success-headline-any-word = İstediğiniz kelime veya cümley
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Alışveriş mi yapıyorsunuz? magazaadi{ $custom_domain_full } adresini kullanabilirsiniz.
 tooltip-email-domain-explanation-title = Benzersiz { -brand-name-relay } e-posta alan adınız hakkında
+tooltip-email-domain-explanation-part-one = Bu değerli { -brand-name-relay-premium } özelliği sayesinde benzersiz bir { -brand-name-relay } e-posta alan adı seçebilirsiniz. Böylece istediğiniz anda sınırsız ve size özel { -brand-name-relay } maskesi oluşturabilirsiniz.
+tooltip-email-domain-explanation-part-two = Yeni maske oluşturmak için { -brand-name-relay }’e giriş yapmanız gerekmez. Anında yeni bir maske oluşturmak için { -brand-name-relay } e-posta alan adınızdaki @ işaretinin önüne istediğiniz kelimeyi veya kelime öbeğini eklemeniz yeterli.
 tooltip-email-domain-explanation-title-free = Kendi { -brand-name-relay } e-posta alan adınızı alın
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -94,4 +99,5 @@ upsell-banner-4-masks-us-heading = E-posta ve telefon korumanızı en üst seviy
 upsell-banner-4-masks-us-heading-2 = En üst seviye e-posta korumasına kavuşun
 upsell-banner-4-masks-non-us-heading = En üst seviye e-posta korumasına kavuşun
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } gerçek telefon numaranızı koruyan bir telefon maskesinin yanı sıra sınırsız e-posta maskesi ve reklam e-postalarını engelleme özelliği de sunar.
+upsell-banner-4-masks-us-description-2 = { -brand-name-relay } alt alan adınızla istediğiniz zaman, istediğiniz yerde sınırsız e-posta maskesi oluşturabilir, e-postalara doğrudan yanıt verebilirsiniz.
 upsell-banner-4-masks-us-cta = { -brand-name-relay-premium }’a yükseltin

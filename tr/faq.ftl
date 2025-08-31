@@ -28,6 +28,7 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } iletiler
 faq-question-missing-emails-answer-support-site-html = Bu sorunlardan herhangi birini yaşıyorsanız lütfen <a href="{ $url }" { $attrs }>destek sitemizi ziyaret edin</a>.
 faq-question-use-cases-question-2 = { -brand-name-relay } e-posta maskelerini ne zaman kullanmalıyım?
 faq-question-use-cases-answer-part1-2 = { -brand-name-relay } e-posta maskelerini normal e-posta adresinizi kullanacağınız çoğu yerde kullanabilirsiniz. Gelecekte e-posta alma konusunda fikrinizi değiştirebileceğiniz pazarlama/bilgilendirme e-postalarına kaydolurken maskelerinizi kullanmanızı öneririz.
+faq-question-use-cases-answer-part2-2 = Kimliğinizin doğrulanması gereken durumlarda, çok önemli e-postalarda ve dosya gönderilmesi gereken durumlarda maske kullanmanızı önermiyoruz. Örneğin bankanızla, doktorunuzla, avukatınızla, bilet satın aldığınız firmalarla gerçek e-posta adresinizi paylaşmanızı öneriyoruz.
 faq-question-2-question-2 = Bir site neden { -brand-name-relay } e-posta maskemi kabul etmiyor?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
