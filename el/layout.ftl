@@ -36,7 +36,7 @@ nav-profile-contact = Επικοινωνία
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Επικοινωνία σχετικά με το { -brand-name-relay-premium }
 # Deprecated
-nav-profile-image-alt = Εικόνα { -brand-name-firefox-account(case: "genitive", capitalization: "lowercase") }
+nav-profile-image-alt = Εικόνα χρήστη { -brand-name-firefox-account(case: "genitive", capitalization: "lowercase") }
 nav-profile-image-alt-v2 = εικόνα λογαριασμού
 nav-duo-description = Εναλλαγή πινάκων
 nav-duo-email-mask-alt = Μάσκες email
