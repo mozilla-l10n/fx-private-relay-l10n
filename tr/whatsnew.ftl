@@ -13,7 +13,7 @@ whatsnew-tab-new-label = Haberler
 whatsnew-tab-archive-label = Geçmiş
 whatsnew-footer-clear-all-label = Tümünü temizle
 whatsnew-footer-back-label = Geri
-whatsnew-empty-message = Ara sıra buraya bakmayı unutmayın:{ -brand-name-relay }’i daha da geliştirmek için yeni özellikler üzerinde çalışmaya devam ediyoruz.
+whatsnew-empty-message = Ara sıra buraya bakmayı unutmayın: { -brand-name-relay }’i daha da geliştirmek için yeni özellikler üzerinde çalışmaya devam ediyoruz.
 whatsnew-feature-size-limit-heading = Ek boyutunda artış
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
