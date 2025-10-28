@@ -82,10 +82,10 @@ plan-grid-megabundle-title-2 = { -brand-name-relay-premium } + { -brand-name-vpn
 #   $discountPercentage (number) megabundle discount savings value. Example: 45
 plan-grid-megabundle-label = Meilleur rapport qualité-prix, économisez { $discountPercentage } %
 plan-grid-megabundle-subtitle = 3 outils de protection de la vie privée, à prix unique
-plan-grid-megabundle-subtitle-2 = Adresse e-mail, numéro de téléphone et protection de l’appareil
-plan-grid-megabundle-card-plus = Tout ce que vous avez actuellement
+plan-grid-megabundle-subtitle-2 = Protection de l’adresse e-mail, du numéro de téléphone et de l’appareil
+plan-grid-megabundle-card-plus = Vos avantages actuels
 plan-grid-card-megabundle-item-two = <b>Répondez aux SMS</b> avec votre alias de numéro de téléphone
-plan-grid-card-megabundle-item-three = <b>{ -brand-name-vpn } de protection</b> pour jusqu’à 5 appareils
+plan-grid-card-megabundle-item-three = <b>Protection { -brand-name-vpn }</b> pour un maximum de 5 appareils
 plan-grid-megabundle-vpn-title = { -brand-name-mozilla-vpn }
 plan-grid-megabundle-vpn-description = Protection des activités en ligne
 plan-grid-megabundle-monitor-title = { -brand-name-monitor-plus }
