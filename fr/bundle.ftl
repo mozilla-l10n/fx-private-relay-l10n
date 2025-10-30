@@ -87,7 +87,7 @@ plan-grid-megabundle-card-plus = Vos avantages actuels
 plan-grid-card-megabundle-item-two = <b>Répondez aux SMS</b> avec votre alias de numéro de téléphone
 plan-grid-card-megabundle-item-three = <b>Protection { -brand-name-vpn }</b> pour un maximum de 5 appareils
 #   $items (string) - number of devices for vpn protection
-plan-grid-card-megabundle-item-three-2 = <b>{ -brand-name-vpn } de protection</b> pour un maximum de { $items } appareils
+plan-grid-card-megabundle-item-three-2 = <b>Protection { -brand-name-vpn }</b> pour un maximum de { $items } appareils
 plan-grid-megabundle-vpn-title = { -brand-name-mozilla-vpn }
 plan-grid-megabundle-vpn-description = Protection des activités en ligne
 plan-grid-megabundle-monitor-title = { -brand-name-monitor-plus }
