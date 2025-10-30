@@ -19,6 +19,7 @@ settings-button-save-label = Kaydet
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API anahtarı
 settings-api-key-description = Bu sizin { -brand-name-relay } API anahtarınız. Bu anahtar, diğer uygulamaların { -brand-name-relay } hesabınıza otomatik olarak erişebilmesini sağlar.
+settings-api-key-description-bolded = Bu anahtarı yalnızca { -brand-name-relay } hesabınıza sizin adınıza erişmesi için güvendiğiniz uygulamalarla kullanın.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Kopyalamak için tıkla
 setting-api-key-copied = Kopyalandı!
@@ -26,3 +27,4 @@ setting-api-key-copied-alt = Kopyalamak için tıkla
 setting-tracker-removal-heading = E-posta takip kodlarını kaldır
 setting-tracker-removal-description = Yönlendirilen tüm e-postalardaki takip kodlarını kaldır.
 setting-tracker-removal-note = { -brand-name-firefox-relay } artık maskeleriniz aracılığıyla yönlendirilen e-postalardaki yaygın takip kodlarını kaldırabilir.
+setting-tracker-removal-warning-2 = Önemli: Takip kodları genellikle resimlerde ve bağlantılarda bulunduğu için takip kodlarını kaldırmanız e-postanızın düzgün görünmemesine neden olabilir. Bu şekilde aldığınız e-postalar düzeltilemez veya kurtarılamaz.
