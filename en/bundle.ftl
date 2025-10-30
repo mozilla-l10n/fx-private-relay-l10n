@@ -92,6 +92,9 @@ plan-grid-megabundle-subtitle-2 = Email, phone number, and device protection
 plan-grid-megabundle-card-plus = Everything you have now
 plan-grid-card-megabundle-item-two = <b>Reply to texts</b> with your phone mask
 plan-grid-card-megabundle-item-three = <b>{ -brand-name-vpn } protection</b> for up to 5 devices
+
+#   $items (string) - number of devices for vpn protection
+plan-grid-card-megabundle-item-three-2 = <b>{ -brand-name-vpn } protection</b> for up to { $items } devices
 plan-grid-megabundle-vpn-title = { -brand-name-mozilla-vpn }
 plan-grid-megabundle-vpn-description = Online activity protection
 plan-grid-megabundle-monitor-title = { -brand-name-monitor-plus }
