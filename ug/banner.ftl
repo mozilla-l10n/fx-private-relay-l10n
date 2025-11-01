@@ -68,6 +68,16 @@ modal-email-domain-available-body = بىردىنبىر { -brand-name-relay } ئ�
 modal-domain-register-confirmation-checkbox = ھەئە، مەن { $subdomain } غا تىزىملاتماقچى
 modal-email-domain-cancel = ۋاز كەچ
 modal-email-domain-register = تىزىملىتىڭ
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> ھازىر سىزنىڭ { -brand-name-relay } ئېلخەت دائىرە ئىسمىڭىز!
+modal-email-domain-success-headline-on-the-go = بۇنى ئىشلىتىپ ھەر ۋاقىت يېڭى { -brand-name-relay } نىقاب ھاسىل قىلغىلى بولىدۇ
+modal-email-domain-success-body-on-the-go = يېڭى نىقاب قۇرۇش ئۈچۈن { -brand-name-relay } غا تىزىمغا كىرىشنىڭ ھاجىتى يوق.
+modal-email-domain-success-headline-any-word = خالىغان سۆز ياكى ئىبارىنى قوشۇپ چەكسىز نىقاب قۇرغىلى بولىدۇ
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = سودا قىلامسىز؟ دۇكان{ $custom_domain_full } نى ئىشلىتىڭ.
+tooltip-email-domain-explanation-title = بىردىنبىر { -brand-name-relay } ئېلخەت تور دائىرە ئىسمى ھەققىدە
 
 ## 2023 Holiday promo
 
