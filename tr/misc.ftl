@@ -218,6 +218,7 @@ first-time-user-email-cta-dashboard-button = { -brand-name-relay }’i kullanmay
 
 our-promise-header = Size söz veriyoruz
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } ile neler yapabilirsiniz?
+what-can-you-do-with-relay-point-two = Web sitelerinin ve spam gönderenlerin kim olduğunuzu kolayca takip etmesini önleyin
 forwarded-email-hero-header = Yönlendirilen ilk e-postanızı aldınız!
 forwarded-email-hero-desc = Başlığı fark ettiniz mi? { -brand-name-relay } maskeleri ile yönlendirilen tüm e-postalarda bu başlık görünecektir.
 first-time-user-email-how-title = { -brand-name-relay } nasıl çalışır?
