@@ -27,6 +27,7 @@ error-mask-update-failed = A maszk adatait nem sikerült frissíteni. Próbálja
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = A(z) { $mask } maszk létrehozása nem sikerült. Próbálja újra.
+error-general = Hiba történt, próbálja újra később.
 
 ## Notifications component
 

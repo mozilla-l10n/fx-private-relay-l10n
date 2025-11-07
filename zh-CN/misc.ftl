@@ -27,6 +27,7 @@ error-mask-update-failed = 无法更新马甲数据，请重试。
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = 无法删除马甲 { $mask }，请重试。
+error-general = 出了点问题，请稍后再试。
 
 ## Notifications component
 

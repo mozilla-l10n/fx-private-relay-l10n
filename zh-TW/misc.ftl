@@ -27,6 +27,7 @@ error-mask-update-failed = 無法更新轉寄信箱資料，請再試一次。
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = 無法刪除轉寄信箱 { $mask }，請再試一次。
+error-general = 某些東西不對勁，請稍候再試一次。
 
 ## Notifications component
 

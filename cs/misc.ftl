@@ -27,6 +27,7 @@ error-mask-update-failed = Údaje masky se nepodařilo aktualizovat. Zkuste to p
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = Masku { $mask } se nepodařilo smazat. Zkuste to prosím znovu.
+error-general = Něco se pokazilo. Zkuste to prosím znovu později.
 
 ## Notifications component
 

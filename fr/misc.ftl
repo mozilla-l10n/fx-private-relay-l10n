@@ -27,6 +27,7 @@ error-mask-update-failed = Les informations de l’alias n’ont pas pu être mi
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = L’alias { $mask } n’a pas pu être supprimé. Veuillez réessayer.
+error-general = Une erreur est survenue. Merci de réessayer plus tard.
 
 ## Notifications component
 
