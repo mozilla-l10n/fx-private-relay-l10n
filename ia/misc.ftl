@@ -27,6 +27,7 @@ error-mask-update-failed = Le datos del masca non pote esser actualisate. Retent
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = Le masca { $mask } non pote esser delite. Retenta.
+error-general = Alco errate eveniva. Reproba plus tarde.
 
 ## Notifications component
 
