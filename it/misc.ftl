@@ -27,6 +27,7 @@ error-mask-update-failed = Impossibile aggiornare l’alias. Riprova.
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = Impossibile eliminare l’alias { $mask }. Riprova.
+error-general = Si è verificato un problema. Riprova più tardi.
 
 ## Notifications component
 
