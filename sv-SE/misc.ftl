@@ -27,6 +27,7 @@ error-mask-update-failed = Aliasdata kunde inte uppdateras. Var god försök ige
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = Alias { $mask } kunde inte raderas. Var god försök igen.
+error-general = Något gick fel. Försök igen senare.
 
 ## Notifications component
 
