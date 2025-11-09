@@ -27,6 +27,7 @@ error-mask-update-failed = Maske verisi güncellenemedi. Lütfen yeniden deneyin
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = { $mask } maskesi silinemedi. Lütfen yeniden deneyin.
+error-general = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
 
 ## Notifications component
 
