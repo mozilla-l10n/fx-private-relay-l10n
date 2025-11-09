@@ -27,6 +27,7 @@ error-mask-update-failed = Δεν ήταν δυνατή η ενημέρωση τ
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = Δεν ήταν δυνατή η διαγραφή της μάσκας «{ $mask }». Δοκιμάστε ξανά.
+error-general = Κάτι πήγε στραβά. Δοκιμάστε ξανά αργότερα.
 
 ## Notifications component
 
