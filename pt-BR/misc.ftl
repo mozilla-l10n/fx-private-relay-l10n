@@ -27,6 +27,7 @@ error-mask-update-failed = Não foi possível alterar os dados da máscara. Tent
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = A máscara { $mask } não pôde ser excluída. Tente novamente.
+error-general = Algo deu errado. Tente novamente mais tarde.
 
 ## Notifications component
 
