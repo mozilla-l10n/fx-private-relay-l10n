@@ -38,12 +38,12 @@ bundle-feature-three = Rhwydwaith cyflym a diogel
 
 ## HOW IT WORKS SECTION
 
-how-it-works-section-title = Sut mae cuddio e-bost a ffôn { -brand-name-relay } yn gweithio
+how-it-works-section-title = Sut mae cuddio e-bost a ffôn gyda { -brand-name-relay } yn gweithio
 
 # Item 1
 
-how-it-works-section-extension-headline = Defnyddiwch arallenwau e-byst { -brand-name-relay } a chuddio rhif ffôn ym mhob man
-how-it-works-section-extension-body = Sicrhewch arallenwau e-bost diogel ar hap a rhifau ffôn unigryw wedi'i guddio i'w defnyddio unrhyw bryd y bydd gwefan, ap, siop neu fwyty yn gofyn am eich manylion.
+how-it-works-section-extension-headline = Defnyddiwch arallenwau e-byst a chuddio'ch rhif ffôn gyda { -brand-name-relay } ym mhob man
+how-it-works-section-extension-body = Cael arallenwau e-bost diogel ar hap a rhifau ffôn cudd,  unigryw i'w defnyddio unrhyw bryd y bydd gwefan, ap, siop neu fwyty yn gofyn am eich manylion.
 
 # Item 2
 
@@ -65,10 +65,10 @@ plan-matrix-offer-body = Mae { -brand-name-firefox-relay } yn diogelu eich hunan
 # Top Row Labels
 
 plan-matrix-heading-features = Nodweddion
-plan-matrix-heading-plan-free = Diogelwch e-bost cyfyngedig
-plan-matrix-heading-plan-premium = Diogelwch e-bost
-plan-matrix-heading-plan-phones = Diogelwch e-bost a ffôn
-plan-matrix-heading-plan-bundle-2 = Ychwanegu diogelwch { -brand-name-vpn }
+plan-matrix-heading-plan-free = Diogelu e-bost cyfyngedig
+plan-matrix-heading-plan-premium = Diogelu e-bost
+plan-matrix-heading-plan-phones = Diogelu e-bost a ffôn
+plan-matrix-heading-plan-bundle-2 = Ychwanegu diogelu { -brand-name-vpn }
 
 # Feature Breakdowns
 
@@ -133,7 +133,7 @@ highlighted-features-section-unlimited-masks-body =
 
 # Item 2
 
-highlighted-features-section-masks-on-the-go-headline = Crëwch arallenwau e-bost ar daith, yn syth
+highlighted-features-section-masks-on-the-go-headline = Crëwch arallenwau e-bost wrth fynd, yn syth
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 highlighted-features-section-masks-on-the-go-body =
