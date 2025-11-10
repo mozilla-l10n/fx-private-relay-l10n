@@ -27,6 +27,7 @@ error-mask-update-failed = Nid oedd modd diweddaru data'r arallenw. Ceisiwch eto
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = Nid oedd modd dileu'r arallenw { $mask }. Ceisiwch eto, os gwelwch yn dda.
+error-general = Aeth rhywbeth o'i le. Ceisiwch eto yn nes ymlaen.
 
 ## Notifications component
 
