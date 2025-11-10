@@ -27,6 +27,7 @@ error-mask-update-failed = De maskergegevens kunnen niet worden bijgewerkt. Prob
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = Het masker { $mask } kan niet worden verwijderd. Probeer het opnieuw.
+error-general = Er is iets misgegaan. Probeer het later opnieuw.
 
 ## Notifications component
 
