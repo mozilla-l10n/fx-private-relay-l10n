@@ -27,6 +27,7 @@ error-mask-update-failed = De maskergegevens kinne net bywurke wurde. Probearje 
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = It masker { $mask } kin net oanmakke wurde. Probearje it opnij.
+error-general = Der is wat misgien. Probearje it letter opnij.
 
 ## Notifications component
 
