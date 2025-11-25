@@ -81,8 +81,13 @@ trackerreport-tracker-count =
         [one] 1 takip kodu
        *[other] { $count } takip kodu
     }
+trackerreport-confidentiality-notice = Bu raporlarda gösterilen takip ve kimden adresi bilgileri { -brand-name-firefox-relay } tarafından kaydedilmez ve yalnızca rapor URL’lerinde bulunur. E-postalarınızı kaydetmiyoruz.
 trackerreport-removal-explainer-heading = Takip kodu temizleme nasıl çalışıyor?
+trackerreport-removal-explainer-content = { -brand-name-firefox-relay } artık e-posta maskeleriniz üzerinden iletilen e-postalardaki sık kullanılan takip kodlarını kaldırabilir. E-postalarınızı almaya devam edeceksiniz ama e-postalarınızı izlenmeden alabilmeniz için e-postalarınızdaki takip kodları kaldırılacak. Takipçi kaldırmayı tüm maskelerinizde aynı anda etkinleştirmek için her maske için ayrı ayrı değil, ayarlardan takipçi temizlemeyi etkinleştirin.
 trackerreport-trackers-explainer-heading = E-posta takip kodları hakkında
+trackerreport-trackers-explainer-content-part1 = E-posta takip kodları, birçok gelen kutusunda karşımıza çıkan yaygın bir gözetim ve reklam aracıdır. Bu takip kodları; çevrimiçi davranışlarınız, ilgi alanlarınız ve e-posta işlemleriniz hakkında bilgi toplamak için kullanılabilir.
+trackerreport-trackers-explainer-content-part2 = Şirketler veya kuruluşlar size gönderdikleri e-postalara bir takip kodu gömer. Bu kod genellikle bir resmin veya bağlantının içine gizlenir. E-postayı açtığınız zaman takip kodu o şirkete veri gönderir.
+trackerreport-breakage-warning-2 = Önemli: Takip kodları genellikle resimlerde ve bağlantılarda bulunduğu için takip kodlarını kaldırmanız e-postanızın düzgün görünmemesine neden olabilir. Bu şekilde aldığınız e-postalar düzeltilemez veya kurtarılamaz.
 trackerreport-faq-heading = E-posta takip kodlarıyla ilgili sıkça sorulan sorular
 trackerreport-faq-cta = { -brand-name-firefox-relay } hakkındaki diğer SSS’lere bakın
 trackerreport-loading = Takip kodu kaldırma raporunuz yükleniyor…
@@ -218,8 +223,16 @@ first-time-user-email-cta-dashboard-button = { -brand-name-relay }’i kullanmay
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = Size söz veriyoruz
+our-promise-content = { -brand-name-relay } e-posta maskesi, o e-posta maskesine gönderdiğimiz iletileri e-posta gelen kutunuza iletir. Üstelik gerçek e-posta adresinizi gönderenden hiç kimseyle paylaşmaz.
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } ile neler yapabilirsiniz?
+what-can-you-do-with-relay-point-one = Gerçek e-posta adresinizi gönderenlerle paylaşmadan e-posta alın
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = E-posta maskesi paylaşmanız yeterli. E-posta maskeleri e-postaları gelen kutunuza iletecektir. Doğrudan { -brand-name-firefox } üzerinde, <a { $attrs }>{ -brand-name-relay } uzantımızı</a> kullanarak veya { -brand-name-relay } kontrol panelinizden maske oluşturabilirsiniz.
 what-can-you-do-with-relay-point-two = Web sitelerinin ve spam gönderenlerin kim olduğunuzu kolayca takip etmesini önleyin
+what-can-you-do-with-relay-point-two-subpoint = E-posta takipçileri bugünlerde her yerde. { -brand-name-relay } e-posta maskeleri, onları tahmin etmeye devam etmenize yardımcı olur.
+what-can-you-do-with-relay-point-three = Spam'in gelen kutunuza ulaşmasını engelleyin, hatta maskeleri tamamen kapatın
+what-can-you-do-with-relay-point-three-subpoint = { -brand-name-relay } panosunda maskeler oluşturabilir, onları nerede kullandığınızı belirtmek için etiketleyebilir, spam engellemeyi açabilir ve artık istemediğiniz maskeleri silebilirsiniz.
 forwarded-email-hero-header = Yönlendirilen ilk e-postanızı aldınız!
 forwarded-email-hero-desc = Başlığı fark ettiniz mi? { -brand-name-relay } maskeleri ile yönlendirilen tüm e-postalarda bu başlık görünecektir.
 first-time-user-email-how-title = { -brand-name-relay } nasıl çalışır?
@@ -238,6 +251,7 @@ first-time-user-email-how-item-3-header = Maskelerinizi { -brand-name-relay } ko
 first-time-user-email-how-item-3-subhead-html = Yeni maskeler oluşturmak, maskelerinizi etiketlemek ve spam gelen maskeleri silmek için <a href="{ $url }" { $attrs }>giriş yapın</a>.
 first-time-user-email-how-item-3-subhead-text = Yeni maskeler oluşturmak, maskelerinizi etiketlemek ve spam gelen maskeleri silmek için giriş yapın.
 first-time-user-email-extra-protection-inbox-phone-title = Gelen kutunuz ve telefonunuz için ekstra koruma
+first-time-user-email-extra-protection-inbox-phone-subhead = Sınırsız e-posta maskesi ve gerçek numaranızı koruyan bir telefon maskesi için { -brand-name-relay-premium } ücretine yükseltin.
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } üyesi olun
 first-time-user-email-questions-title = { -brand-name-firefox-relay } ile ilgili sorularınız mı var?
 # Variables
@@ -245,6 +259,7 @@ first-time-user-email-questions-title = { -brand-name-firefox-relay } ile ilgili
 #   $attrs (string) - In-line attributes for the link
 first-time-user-email-questions-subhead-html = <a href="{ $url }" { $attrs }>Destek ekibimiz</a> size yardımcı olabilir.
 first-time-user-email-questions-subhead-text = Destek ekibimiz size yardımcı olabilir.
+first-time-user-email-footer-text-1 = İlk defa { -brand-name-relay } kullanan { -brand-name-firefox-relay } abonesi olarak bu otomatik e-postayı aldınız. Hatalı olarak aldıysanız herhangi bir işlem yapmanız gerekmez.
 # Variables
 #   $url (string) - URL of the support team website
 #   $attrs (string) - In-line attributes for the link
@@ -255,6 +270,10 @@ first-time-user-email-footer-text-privacy = Koşullar ve Gizlilik
 
 ## API error messages
 
+# Variables:
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+api-error-free-tier-limit = Ücretsiz hesabınızdaki { $free_tier_limit } e-posta maskesinin tümünü kullandınız. Mevcut bir maskeyi yeniden kullanabilirsiniz ama her hesap için benzersiz bir maske kullanmak en güvenli seçenektir.
+api-error-free-tier-no-subdomain-masks = Ücretsiz hesabınız maskeler için özel alt alan adları içermiyor. Özel maskeler oluşturmak için { -brand-name-relay-premium } aboneliğine yükseltin.
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” oluşturulamadı. Lütfen farklı bir maske adıyla yeniden deneyin.

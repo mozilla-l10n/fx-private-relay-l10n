@@ -36,9 +36,14 @@ faq-question-2-question-2 = Bir site neden { -brand-name-relay } e-posta maskemi
 faq-question-2-answer-v4 = Bazı siteler alt alan adı (@subdomain.mozmail.com) içeren e-posta adreslerini kabul etmeyebilir ve bazıları da Gmail, Hotmail veya Yahoo hesapları dışındaki tüm adresleri kabul etmeyi bırakmıştır.
 faq-question-1-question = Spam e-postalara ne olacak?
 faq-question-1-answer-a-2 = { -brand-name-relay }’in spam filtresi yoktur ama e-posta ortağımız Amazon SES, spam mesajları ve kötü amaçlı yazılımları engeller. { -brand-name-relay } istemediğiniz mesajları size iletirse { -brand-name-relay } ayarlarınızı güncelleyerek onları ileten maskeyi engelleyebilirsiniz.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-2-html = Tüm maskelerinize ait istenmeyen istenmeyen e-postalarla ilgili bir sorun görürseniz bu hizmetin SES spam eşiklerini ayarlamamız için lütfen <a href="{ $url }" { $attrs }>bize rapor edin</a>. Bunları spam olarak bildirirseniz e-posta sağlayıcınız spam kaynağı olarak göndereni değil, { -brand-name-relay } adresini görür.
 faq-question-availability-question = { -brand-name-relay } hangi ülkelerde kullanılabilir?
 faq-question-availability-answer-v4 = { -brand-name-relay } çoğu ülkede ücretsizdir. { -brand-name-relay-premium } şu anda Avusturya, Bulgaristan, Belçika, Kanada, Hırvatistan, Kıbrıs, Çek Cumhuriyeti, Danimarka, Estonya, Finlandiya, Fransa, Almanya, Yunanistan, Macaristan, İrlanda, İtalya, Letonya, Litvanya, Lüksemburg, Malezya, Malta, Hollanda, Yeni Zelanda, Polonya, Portekiz, Romanya, Singapur, Slovakya, Slovenya, İspanya, İsveç, İsviçre, Birleşik Krallık ve ABD’de mevcuttur.
 faq-question-4-question-2 = { -brand-name-relay } e-posta maskemi kullanarak e-postalara cevap verebilir miyim?
+faq-question-4-answer-v4 = Yönlendirilen e-postaları e-postayı aldıktan sonraki 3 ay içinde { -brand-name-relay-premium } kullanıcısı yanıtlayabilir. Bir e-postayı yanıtlarken CC veya BCC eklerseniz alıcı ve e-postaya kopyalanan alıcılar orijinal e-posta adresinizi görebilir. Asıl e-posta adresinizin görünmesini istemiyorsanız yanıt yazarken CC veya BCC eklemeyin.
 faq-question-subdomain-characters-question = Alt alan adı oluştururken hangi karakterleri kullanabilirim?
 faq-question-subdomain-characters-answer-v2 = Alt alan adı oluştururken yalnızca küçük İngilizce harfleri, rakamları ve kısa çizgiyi kullanabilirsiniz.
 faq-question-browser-support-question = { -brand-name-relay }’i diğer tarayıcılarda veya mobil cihazımda kullanabilir miyim?
@@ -46,13 +51,22 @@ faq-question-browser-support-answer-2 = Evet, { -brand-name-relay } kontrol pane
 faq-question-longevity-question = Mozilla, { -brand-name-firefox-relay } hizmetini kapatırsa ne olacak?
 faq-question-longevity-answer-2 = { -brand-name-relay } e-posta maskesi kullanan tüm hesapların e-posta adresini değiştirmeniz gerektiğini size önceden bildireceğiz.
 faq-question-mozmail-question-2 = E-posta maskelerim neden “mozmail.com” alan adını kullanmaya başladı?
+faq-question-mozmail-answer-2 = Özel bir e-posta alt alan adı almayı mümkün kılmak için “relay.firefox.com”dan “mozmail.com”a geçiş yaptık. maske@alaniniz.mozmail.com. { -brand-name-relay-premium } abonelerinin yararlanabileceği özel e-posta alt alan adları, hatırlanması daha kolay e-posta maskeleri oluşturmanıza olanak tanır.
 faq-question-attachments-question = { -brand-name-firefox-relay } ekleri olan e-postaları iletir mi?
+faq-question-attachments-answer-v2 = Artık ek iletmeyi destekliyoruz. Ancak { -brand-name-relay } e-posta yönlendirmenin { email-size-limit } sınırı vardır. { email-size-limit } boyutundan büyük e-postalar yönlendirilmeyecektir.
 faq-question-unsubscribe-domain-question-2 = { -brand-name-relay-premium } aboneliğimi iptal edersem özel alt alan adıma ne olacak?
 faq-question-unsubscribe-domain-answer-2 = { -brand-name-relay-premium }’dan ücretsiz pakete geçerseniz özel e-posta maskelerinize gelen e-postaları almaya devam edersiniz ama artık bu alt alan adını kullanarak yeni maske oluşturamazsınız. Toplam beşten fazla maskeniz varsa başka maske de oluşturamazsınız. Ayrıca iletilen mesajları yanıtlama özelliğini artık kullanamazsınız. İstediğiniz zaman { -brand-name-relay-premium }’a tekrar abone olarak bu özelliklere yeniden erişebilirsiniz.
 faq-question-8-question = { -brand-name-firefox-relay } hangi verileri topluyor?
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-3-html = { -brand-name-firefox-relay }, e-posta maskelerinizi kullandığınız web sitelerini toplar ve kolayca tanıyabilmeniz için maskelerinizi bu web siteleriyle etiketler. Ayarlar sayfanızda Gizlilik kısmından bunu devre dışı bırakabilirsiniz. Ancak bu ayarı kapatırsanız maskelerin nerede kullanıldığını göremezsiniz ve artık cihazlar arasında hesap adlarınız eşitlenmeyecektir. { -brand-name-firefox-relay } tarafından toplanan veriler hakkında daha fazla bilgiyi <a href="{ $url }" { $attrs }>Gizlilik Bildirimimizden</a> öğrenebilirsiniz.
 faq-question-email-storage-question = { -brand-name-relay } e-postalarımı saklıyor mu?
 faq-question-email-storage-answer = Hizmetin çalışmadığı ender durumlarda e-postalarınızı gönderene kadar geçici olarak saklayabiliriz. E-postalarınızı asla üç günden fazla saklamayız.
 faq-question-acceptable-use-question = { -brand-name-relay }’in kabul edilebilir kullanım alanları nelerdir?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay }, <a href="{ $url }" { $attrs }>tüm { -brand-name-mozilla } ürünlerle aynı kullanım şartlarına</a> sahiptir. { -brand-name-relay } sitesinin spam (kullanıcının hesabı) iptal edilecek şekilde kötü amaçlı amaçlar için kullanılmasına sıfır tolerans politikamız vardır. Kullanıcıların koşullarımızı ihlal etmesini önlemek için aşağıdakileri yaparak önlem alıyoruz:
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Doğrulanmış bir e-posta adresine sahip bir { -brand-name-firefox-account(capitalization: "uppercase") } gereklidir
 faq-question-acceptable-use-answer-measure-account-v2 = Hesapların asıl e-posta adresinin doğrulanmasını zorunlu tutuyoruz

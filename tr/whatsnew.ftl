@@ -24,7 +24,15 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } artık e
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } artık ekler dahil olmak üzere { email-size-limit } boyutuna kadar…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } artık ekler dahil olmak üzere { email-size-limit } boyutuna kadar olan e-postaları yönlendirebiliyor.
 whatsnew-feature-sign-back-in-heading = Takma adlarınızla yeniden giriş yapın
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-sign-back-in-snippet = E-posta adresiniz sorulduğunda yeni takma ad oluşturmak için…
+whatsnew-feature-sign-back-in-description = Daha önce kullandığınız bir takma adla oturum açmak için sitenin e-postanızı istediği bağlam menüsünü açın. Takma adı seçebilecek ve e-posta alanını otomatik doldurabileceksiniz.
 whatsnew-feature-forward-some-heading = Reklam e-postalarını engelleme
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } yalnızca tanıtım e-postalarını engellemenize olanak tanır…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } yalnızca takma adlara gönderilen tanıtım e-postalarını engellemenize olanak tanır. Alındı onayı gibi e-postalar alacaksınız ama pazarlama e-postaları almayacaksınız.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Takma adlar artık maskeye dönüştü
@@ -38,10 +46,15 @@ whatsnew-feature-alias-to-mask-snippet = Bir değişiklik fark ettiniz mi? { -br
 whatsnew-feature-alias-to-mask-description = Bir değişiklik fark ettiniz mi? { -brand-name-firefox-relay }’in kullanımını kolaylaştırmak ve yeni özelliklerin kapılarını açmak için takma adlara artık “maske” adını veriyoruz.
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } İsveç’te kullanıma açıldı
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } Finlandiya’da kullanıma açıldı
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-snippet = Şimdi yükseltin, daha da fazla koruma…
+whatsnew-feature-premium-expansion-description = Hemen yükseltin ve daha da fazla korumaya kavuşun: Sınırsız e-posta maskesi oluşturun, özel bir e-posta alt alan adı edinin ve çok daha fazlasını yapın!
 whatsnew-feature-tracker-removal-heading = Karşınızda e-posta takip kodu kaldırma
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } artık yönlendirilen e-postalardaki sık karşılaşılan takip kodlarını kaldırabilir…
+whatsnew-feature-tracker-removal-description-2 = Artık { -brand-name-relay } size yönlendirilen e-postalardaki sık kullanılan e-posta takip kodlarını silerek reklamverenlere karşı görünmez kalmanızı sağlayabilir. “Ayarlar”da açın.
 whatsnew-feature-offer-countdown-heading = Tanıtım fiyatı teklifimiz yakında bitiyor!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.

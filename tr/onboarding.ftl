@@ -24,6 +24,10 @@ multi-part-onboarding-premium-welcome-subheadline = Artık gelen kutunuza gelen 
 multi-part-onboarding-premium-email-domain-headline = Benzersiz { -brand-name-relay } e-posta alan adınızı ayarlayın
 multi-part-onboarding-premium-email-domain-feature-headline = Kendinize ait bir { -brand-name-relay } e-posta alan adıyla şunları yapabilirsiniz:
 multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = İstediğiniz yerde anında maske oluşturun
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Tercih ettiğiniz { -brand-name-relay } e-posta alan adını seçin, ardından @ sembolünün önüne herhangi bir kelime veya kelime öbeği ekleyerek anında yeni maskeler oluşturun. <p>Alışveriş mi? dükkân@alan-adiniz.{ $mozmail }.</p>
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -35,11 +39,13 @@ multi-part-onboarding-premium-email-domain-added = E-posta alan adınız:
 multi-part-onboarding-premium-add-extension-headline = { -brand-name-relay } uzantısını ekleyin
 multi-part-onboarding-premium-add-extension-feature-headline = { -brand-name-relay } uzantısıyla şunları yapabilirsiniz:
 multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = İstediğiniz web sitesinden { -brand-name-relay } maskesi oluşturun
+multi-part-onboarding-premium-add-extension-feature-body = { -brand-name-relay } uzantısı, web siteleri e-posta adresinizi istediğinde anında yeni maskeler oluşturmanızı sağlar. { -brand-name-relay } simgesinin altından tıklamanız yeterli.
 multi-part-onboarding-premium-add-extension-feature-cta = { -brand-name-relay } uzantısını ekleyin
 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } uzantısı eklendi!
+multi-part-onboarding-premium-added-extension-body = Artık yeni maske oluşturmak için { -brand-name-relay } hesabına giriş yapmanız gerekmeyecek. Siteler e-posta adresinizi istediğinde Gönder simgesine bakmanız yeterli.
 multi-part-onboarding-premium-extension-button-dashboard = Kontrol paneline git
 multi-part-onboarding-skip = Atla, bunu daha sonra kuracağım
 multi-part-onboarding-skip-download-extension = Atla, uzantıyı daha sonra indireceğim
@@ -49,5 +55,6 @@ multi-part-onboarding-continue = İleri
 
 multi-part-onboarding-reply-headline = E-postalarınızı yanıtlayın
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } ile şunları yapabilirsiniz:
+onboarding-premium-reply-description-2 = Bir maskeye gönderilen e-postalara cevap vermeniz mi gerekiyor? Normal şekilde yanıt vermeniz yeterli: Maskeniz e-posta adresinizi korumaya devam edecek.
 multi-part-onboarding-premium-reply-description = E-postaları gerçek adresinizi paylaşmadan yanıtlayın
 multi-part-onboarding-step-counter = Adım { $step }/{ $max }.

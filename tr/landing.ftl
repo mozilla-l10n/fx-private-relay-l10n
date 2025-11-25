@@ -17,6 +17,9 @@ hero-section-social-proof = Övgüyle bahsedenler
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-banner-header-2 = Kısa süreliğine: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } aylık { $monthly_price }
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-3 = { -brand-name-mozilla-vpn }, oyun oynarken, internet bankacılığı yaparken veya işinizle ilgilenirken sizi izleme ve gözetimden korur. { $savings } indirim için { -brand-name-firefox-relay } ekleyin.
 bundle-banner-plan-header-2 = 1 yıllık planınız şunları içerir:
 bundle-banner-plan-modules-email-masking = E-posta maskeleme
 bundle-banner-plan-modules-phone-masking = Telefon maskeleme
@@ -52,6 +55,9 @@ how-it-works-section-manage-body = Yeni maskeler oluşturmak, mevcut maskeleri e
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Size en uygun koruma düzeyini seçin
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
+plan-matrix-offer-body = { -brand-name-firefox-relay } benzersiz e-posta maskeleriyle kimliğinizi ve gelen kutunuzu korur. { -brand-name-relay } telefon maskeleme ile güvenliği daha da artırın, { -brand-name-vpn } telefon maskeleme ile { $savings } telefondan tasarruf edin.
 
 # Top Row Labels
 
@@ -115,14 +121,21 @@ plan-matrix-your-plan = Planınız
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Sınırsız e-posta maskesi oluşturma
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body = Herkes ücretsiz { $mask_limit } e-posta maskesi alacak.  Ancak { -brand-name-relay-premium } ile istediğiniz kadar maske oluşturup e-posta gelen kutunuzu spamcılardan, hacker'lardan ve çevrimiçi takipçilerden koruyabilirsiniz.
 
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = İstediğiniz yerde anında maske oluşturma
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium } size benzersiz bir { -brand-name-relay } e-posta alan adı verir. Böylece nerede olursanız olun anında yeni maskeler oluşturabilirsiniz. @ simgesinden önce istediğiniz kelimeyi veya cümleyi eklemeniz yeterlidir. Restoranda mısınız? restoran@alan-adiniz.{ $mozmail }.  Alışveriş mi? dükkân@alanadiniz.{ $mozmail } deneyin.
 
 # Item 3
 
 highlighted-features-section-replying-headline = E-postaları ve SMS’leri anonim olarak yanıtlama
+highlighted-features-section-replying-body = { -brand-name-relay-premium }, e-postalara maskeli e-posta hesabınızdan yanıt vermenizi sağlar, böylece gönderenler asla gerçek e-posta adresinizi bilemez. Telefon maskeleme sayesinde gerçek numaranızı korumak için maskelediğiniz telefon numaranızdan gelen mesajları yanıtlayabilirsiniz.
 
 # Item 4
 
@@ -132,6 +145,7 @@ highlighted-features-section-block-promotions-body = { -brand-name-relay-premium
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = E-posta takip kodlarını kaldırma
+highlighted-features-section-remove-trackers-body = { -brand-name-relay }, size yönlendirilen e-postalardaki sık kullanılan e-posta takip kodlarını kaldırabilir, böylece e-posta takip kodlarını ve reklamverenleri göremez.
 
 ## REVIEWS SECTION
 
@@ -145,9 +159,11 @@ landing-reviews-rating = / 5 ({ $review_count } inceleme)
 landing-reviews-show-next-button = sonraki incelemeyi göster
 landing-reviews-show-previous-button = önceki incelemeyi göster
 landing-review-anonymous-user = { -brand-name-firefox } kullanıcısı { $user_id }
+landing-review-user-one-review = Yaratıcılıkları ve e-posta adresimi anonimleştirmeyi kolaylaştırdıkları için { -brand-name-mozilla } ekibine gerçekten teşekkür ediyorum. Bu harika bir eklenti. Gizliliğine önem verenlere şiddetle tavsiye ediyorum!
 landing-review-user-two-review = E-postanızı spam’den kurtarmak ve spam’i önlemek için basit bir araç.
 landing-review-user-three-review = Bu uzantıyı seviyorum! Çok basit ama güçlü. Tarayıcıyla entegrasyonu da harika.
 landing-review-user-four-review-list-1 = İnternette gezinirken içiniz rahat olsun.
+landing-review-user-four-review-list-2 = Çeşitli nedenlerden dolayı gerçek e-posta adresini paylaşmak istenmeyen takma adlar oluşturarak kimliğinizi takipçilerden korur.
 landing-review-user-four-review-list-3 = Gelen kutusu verileriniz { -brand-name-firefox-relay } ile güvende.
 landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } harikalar yaratıyor, deneyin!!!
 
@@ -166,6 +182,7 @@ landing-faq-cta = { -brand-name-firefox-relay } hakkındaki diğer SSS’lere ba
 ## Premium promo page
 
 premium-promo-hero-headline = { -brand-name-firefox-relay-premium } ile gelen kutunuzu koruyun
+premium-promo-hero-body-3 = { -brand-name-firefox-relay-premium } ile yalnızca istediğiniz e-postaları gerçek e-posta adresinize ileten sınırsız özel e-posta maskesine sahip oluyorsunuz.
 premium-promo-hero-cta = Şimdi yükseltin
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } hizmeti şu anda Avusturya, Bulgaristan, Belçika, Kanada, Hırvatistan, Kıbrıs, Çek Cumhuriyeti, Danimarka, Estonya, Finlandiya, Fransa, Almanya, Yunanistan, Macaristan, İrlanda, İtalya, Letonya, Litvanya, Lüksemburg, Malezya, Malta, Hollanda, Yeni Zelanda, Polonya, Portekiz, Romanya, Singapur, Slovakya, Slovenya, İspanya, İsveç, İsviçre, Birleşik Krallık ve ABD’de kullanılabilir.
 

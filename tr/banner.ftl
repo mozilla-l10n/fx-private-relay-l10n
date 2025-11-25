@@ -77,6 +77,7 @@ tooltip-email-domain-explanation-title = Benzersiz { -brand-name-relay } e-posta
 tooltip-email-domain-explanation-part-one = Bu değerli { -brand-name-relay-premium } özelliği sayesinde benzersiz bir { -brand-name-relay } e-posta alan adı seçebilirsiniz. Böylece istediğiniz anda sınırsız ve size özel { -brand-name-relay } maskesi oluşturabilirsiniz.
 tooltip-email-domain-explanation-part-two = Yeni maske oluşturmak için { -brand-name-relay }’e giriş yapmanız gerekmez. Anında yeni bir maske oluşturmak için { -brand-name-relay } e-posta alan adınızdaki @ işaretinin önüne istediğiniz kelimeyi veya kelime öbeğini eklemeniz yeterli.
 tooltip-email-domain-explanation-title-free = Kendi { -brand-name-relay } e-posta alan adınızı alın
+tooltip-email-domain-explanation-part-one-free = { -brand-name-premium } ile hareket halindeyken benzersiz { -brand-name-relay } e-posta alan adıyla sınırsız, özel { -brand-name-relay } maskesi oluşturabilirsiniz. Artık maskeleri burada oluşturmanız gerekmiyor.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
@@ -100,4 +101,5 @@ upsell-banner-4-masks-us-heading-2 = En üst seviye e-posta korumasına kavuşun
 upsell-banner-4-masks-non-us-heading = En üst seviye e-posta korumasına kavuşun
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } gerçek telefon numaranızı koruyan bir telefon maskesinin yanı sıra sınırsız e-posta maskesi ve reklam e-postalarını engelleme özelliği de sunar.
 upsell-banner-4-masks-us-description-2 = { -brand-name-relay } alt alan adınızla istediğiniz zaman, istediğiniz yerde sınırsız e-posta maskesi oluşturabilir, e-postalara doğrudan yanıt verebilirsiniz.
+upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } size sınırsız e-posta maskesi, spam engelleme, özel bir { -brand-name-relay } e-posta alan adı ve iletilen iletileri yanıtlama olanağı sunar.
 upsell-banner-4-masks-us-cta = { -brand-name-relay-premium }’a yükseltin

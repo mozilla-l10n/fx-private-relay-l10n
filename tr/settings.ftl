@@ -12,9 +12,11 @@ settings-meta-help-tooltip = { -brand-name-relay }’i kullanmayla ilgili yardı
 settings-meta-status-label = Hizmet durumu
 settings-meta-status-tooltip = Tüm { -brand-name-relay } sistemlerinin şu anda çalışır durumda olup olmadığını kontrol edin.
 settings-warning-collection-off-heading-3 = E-posta maskesi hesap adlarınız kapatıldı
+settings-warning-collection-off-description-3 = { -brand-name-relay } sitesinin şu anda e-posta maskelerinizi kullandığınız web sitelerini etiketlemesine izin verilmiyor. Bunu değiştirmek için “Gizlilik” altında e-posta maskeleri hesap adlarını etkinleştirin.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Gizlilik
 setting-label-collection-description-3 = E-posta maskeleri için hesap adlarını etkinleştir
+setting-label-collection-off-warning-3 = { -brand-name-firefox-relay }, e-posta maskelerinizi kullandığınız web sitelerini kaydedecek ve maskelerinizi kolayca tanıyabilmeniz için bu web siteleriyle etiketleyecektir. Bunu kapatırsanız maskeleri nerede kullandığınızı göremezsiniz ve artık cihazlarınız arasında hesap adlarınız eşitlenemez.
 settings-button-save-label = Kaydet
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API anahtarı
