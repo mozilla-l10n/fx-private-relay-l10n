@@ -315,7 +315,7 @@ first-time-user-email-footer-text-privacy = Podmínky a ochrana soukromí
 # Variables:
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Využili jste všech { $free_tier_limit } e-mailových masek, které jsou součástí vašeho bezplatného účtu. Můžete znovu použít stávající masku, ale použití jedinečné masky pro každý účet je nejbezpečnější možností.
-api-error-free-tier-no-subdomain-masks = Váš bezplatný účet nezahrnuje vlastní subdomény pro masky. Pokud chcete vlastní masky, aktualizujte na { -brand-name-relay-premium }.
+api-error-free-tier-no-subdomain-masks = Váš bezplatný účet nezahrnuje vlastní subdomény pro masky. Pokud chcete vlastní masky, upgradujte na { -brand-name-relay-premium }.
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” se nepodařilo vytvořit. Zkuste to znovu s jiným názvem masky.

@@ -44,7 +44,7 @@ nav-duo-phone-mask-alt = Masky telefonních čísel
 
 ## Mobile menu text
 
-menu-upgrade-button = Aktualizovat
+menu-upgrade-button = Upgradovat
 menu-toggle-open = Otevřít nabídku
 menu-toggle-close = Zavřít nabídku
 nav-settings = Nastavení
