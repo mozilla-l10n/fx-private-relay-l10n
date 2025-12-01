@@ -5,6 +5,7 @@
 vpn-relay-welcome-headline = Voici votre nouveau forfait de protection
 vpn-relay-welcome-subheadline = { -brand-name-firefox-relay } + { -brand-name-mozilla-vpn }
 vpn-relay-go-relay-body = Protégez votre boîte de réception et votre numéro de téléphone
+vpn-relay-go-relay-body-2 = Gardez votre identité privée
 vpn-relay-go-relay-cta = Utiliser { -brand-name-relay }
 vpn-relay-go-vpn-body = Protégez votre connexion et vos activités en ligne
 vpn-relay-go-vpn-cta = Télécharger { -brand-name-mozilla-vpn }
