@@ -4,10 +4,9 @@
 
 vpn-relay-welcome-headline = Welcome to your new protection plan
 vpn-relay-welcome-subheadline = { -brand-name-firefox-relay } + { -brand-name-mozilla-vpn }
-vpn-relay-go-relay-body = Protect your email inbox and your phone number
-vpn-relay-go-relay-body-2 = Keep your identity private
+vpn-relay-go-relay-body-3 = Keep your identity private.
+vpn-relay-go-vpn-body-2 = Protect your online activity.
 vpn-relay-go-relay-cta = Go to { -brand-name-relay }
-vpn-relay-go-vpn-body = Protect your connection and online activity
 vpn-relay-go-vpn-cta = Download { -brand-name-mozilla-vpn }
 
 ## VPN and Relay Bundle What's New Announcement
