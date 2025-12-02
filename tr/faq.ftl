@@ -60,7 +60,7 @@ faq-question-8-question = { -brand-name-firefox-relay } hangi verileri topluyor?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-8-answer-3-html = { -brand-name-firefox-relay }, e-posta maskelerinizi kullandığınız web sitelerini toplar ve kolayca tanıyabilmeniz için maskelerinizi bu web siteleriyle etiketler. Ayarlar sayfanızda Gizlilik kısmından bunu devre dışı bırakabilirsiniz. Ancak bu ayarı kapatırsanız maskelerin nerede kullanıldığını göremezsiniz ve artık cihazlar arasında hesap adlarınız eşitlenmeyecektir. { -brand-name-firefox-relay } tarafından toplanan veriler hakkında daha fazla bilgiyi <a href="{ $url }" { $attrs }>Gizlilik Bildirimimizden</a> öğrenebilirsiniz.
+faq-question-8-answer-3-html = { -brand-name-firefox-relay }, e-posta maskelerinizi kullandığınız siteleri toplar ve bu sitelere kolayca ayırt edebilmeniz için maskelerinizi bu  sitelerle etiketler. Ayarlar sayfanızda Gizlilik kısmından bunu devre dışı bırakabilirsiniz. Ancak bu ayarı kapatırsanız maskelerin nerede kullanıldığını göremezsiniz ve artık cihazlar arasında hesap adlarınız eşitlenmez. { -brand-name-firefox-relay } tarafından toplanan veriler hakkında daha fazla bilgiyi <a href="{ $url }" { $attrs }>Gizlilik Bildirimimizden</a> öğrenebilirsiniz.
 faq-question-email-storage-question = { -brand-name-relay } e-postalarımı saklıyor mu?
 faq-question-email-storage-answer = Hizmetin çalışmadığı ender durumlarda e-postalarınızı gönderene kadar geçici olarak saklayabiliriz. E-postalarınızı asla üç günden fazla saklamayız.
 faq-question-acceptable-use-question = { -brand-name-relay }’in kabul edilebilir kullanım alanları nelerdir?
