@@ -19,7 +19,7 @@ hero-section-social-proof = Övgüyle bahsedenler
 bundle-banner-header-2 = Kısa süreliğine: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } aylık { $monthly_price }
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
-bundle-banner-body-3 = { -brand-name-mozilla-vpn }, oyun oynarken, internet bankacılığı yaparken veya işinizle ilgilenirken sizi izleme ve gözetimden korur. { $savings } indirim için { -brand-name-firefox-relay } ekleyin.
+bundle-banner-body-3 = { -brand-name-mozilla-vpn }, oyun oynarken, bankacılık işlemlerinizi yaparken veya işinizle ilgilenirken sizi çevrimiçi takip ve gözetimden korur. { $savings } indirim için { -brand-name-firefox-relay } servisini de ekleyin.
 bundle-banner-plan-header-2 = 1 yıllık planınız şunları içerir:
 bundle-banner-plan-modules-email-masking = E-posta maskeleme
 bundle-banner-plan-modules-phone-masking = Telefon maskeleme
@@ -57,7 +57,7 @@ how-it-works-section-manage-body = Yeni maskeler oluşturmak, mevcut maskeleri e
 plan-matrix-offer-title = Size en uygun koruma düzeyini seçin
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
-plan-matrix-offer-body = { -brand-name-firefox-relay } benzersiz e-posta maskeleriyle kimliğinizi ve gelen kutunuzu korur. { -brand-name-relay } telefon maskeleme ile güvenliği daha da artırın, { -brand-name-vpn } telefon maskeleme ile { $savings } telefondan tasarruf edin.
+plan-matrix-offer-body = { -brand-name-firefox-relay } e-posta maskeleriyle kimliğinizi ve gelen kutunuzu korur. { -brand-name-relay } telefon maskeleme özelliğiyle güvenliği daha da artırın, { -brand-name-vpn } korumasını da ekleyerek { $savings } tasarruf edin.
 
 # Top Row Labels
 
@@ -123,14 +123,14 @@ plan-matrix-your-plan = Planınız
 highlighted-features-section-unlimited-masks-headline = Sınırsız e-posta maskesi oluşturma
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body = Herkes ücretsiz { $mask_limit } e-posta maskesi alacak.  Ancak { -brand-name-relay-premium } ile istediğiniz kadar maske oluşturup e-posta gelen kutunuzu spamcılardan, hacker'lardan ve çevrimiçi takipçilerden koruyabilirsiniz.
+highlighted-features-section-unlimited-masks-body = { $mask_limit } e-posta maskesi herkes için ücretsizdir. Ancak { -brand-name-relay-premium } ile istediğiniz kadar maske oluşturup e-posta gelen kutunuzu spam’den, hacker’lardan ve çevrimiçi takip kodlarından koruyabilirsiniz.
 
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = İstediğiniz yerde anında maske oluşturma
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium } size benzersiz bir { -brand-name-relay } e-posta alan adı verir. Böylece nerede olursanız olun anında yeni maskeler oluşturabilirsiniz. @ simgesinden önce istediğiniz kelimeyi veya cümleyi eklemeniz yeterlidir. Restoranda mısınız? restoran@alan-adiniz.{ $mozmail }.  Alışveriş mi? dükkân@alanadiniz.{ $mozmail } deneyin.
+highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium } size özel bir { -brand-name-relay } e-posta alan adı verir. Böylece nerede olursanız olun anında yeni maske oluşturabilirsiniz. @ simgesinden önce istediğiniz kelimeyi veya cümleyi eklemeniz yeterli. Restoranda mısınız? restoran@alanadiniz.{ $mozmail }.  Alışveriş mi yapıyorsunuz? magaza@alanadiniz.{ $mozmail } gibi adresler oluşturabilirsiniz.
 
 # Item 3
 

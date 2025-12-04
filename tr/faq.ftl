@@ -66,7 +66,7 @@ faq-question-email-storage-answer = Hizmetin çalışmadığı ender durumlarda 
 faq-question-acceptable-use-question = { -brand-name-relay }’in kabul edilebilir kullanım alanları nelerdir?
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
-faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay }, <a href="{ $url }" { $attrs }>tüm { -brand-name-mozilla } ürünlerle aynı kullanım şartlarına</a> sahiptir. { -brand-name-relay } sitesinin spam (kullanıcının hesabı) iptal edilecek şekilde kötü amaçlı amaçlar için kullanılmasına sıfır tolerans politikamız vardır. Kullanıcıların koşullarımızı ihlal etmesini önlemek için aşağıdakileri yaparak önlem alıyoruz:
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay }, <a href="{ $url }" { $attrs }>tüm { -brand-name-mozilla } ürünlerle aynı kullanım koşullarına</a> sahiptir. { -brand-name-relay } hizmetinin spam gibi kötü amaçlı amaçlar için kullanılmasına tolerans göstermiyoruz ve ilgili kullanıcı hesaplarını kapatıyoruz. Kullanıcıların koşullarımızı ihlal etmesini önlemek için aşağıdaki önlemleri alıyoruz:
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Doğrulanmış bir e-posta adresine sahip bir { -brand-name-firefox-account(capitalization: "uppercase") } gereklidir
 faq-question-acceptable-use-answer-measure-account-v2 = Hesapların asıl e-posta adresinin doğrulanmasını zorunlu tutuyoruz
