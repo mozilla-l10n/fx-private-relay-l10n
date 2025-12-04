@@ -27,6 +27,7 @@ error-mask-update-failed = Impussibil inzornâ la mascare. Torne prove.
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = Impussibil eliminâ la mascare { $mask }. Torne prove.
+error-general = Alc al è lât strucj. Torne prove plui indenant.
 
 ## Notifications component
 
