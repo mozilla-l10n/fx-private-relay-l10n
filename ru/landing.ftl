@@ -161,7 +161,7 @@ highlighted-features-section-remove-trackers-body = { -brand-name-relay } мож
 ## REVIEWS SECTION
 
 landing-reviews-add-ons = Дополнения
-landing-reviews-logo-title = { -brand-name-firefox-browser }
+landing-reviews-logo-title = { -brand-name-firefox-browser(case: "nominative_uppercase") }
 # Do not localize addons.mozilla.org
 landing-reviews-details-source = Источник: addons.mozilla.org
 # This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
