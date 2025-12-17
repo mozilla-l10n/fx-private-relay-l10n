@@ -135,7 +135,7 @@ highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium 
 # Item 3
 
 highlighted-features-section-replying-headline = E-postaları ve SMS’leri anonim olarak yanıtlama
-highlighted-features-section-replying-body = { -brand-name-relay-premium }, e-postalara maskeli e-posta hesabınızdan yanıt vermenizi sağlar, böylece gönderenler asla gerçek e-posta adresinizi bilemez. Telefon maskeleme sayesinde gerçek numaranızı korumak için maskelediğiniz telefon numaranızdan gelen mesajları yanıtlayabilirsiniz.
+highlighted-features-section-replying-body = { -brand-name-relay-premium } ile e-postalara maskeli e-posta hesabınızdan yanıt verebilirsiniz. Böylece gönderenler asla gerçek e-posta adresinizi bilemez. Telefon maskeleme ile de gelen kısa mesajları maskelediğiniz telefon numaranızdan yanıtlayabilirsiniz.
 
 # Item 4
 
@@ -145,7 +145,7 @@ highlighted-features-section-block-promotions-body = { -brand-name-relay-premium
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = E-posta takip kodlarını kaldırma
-highlighted-features-section-remove-trackers-body = { -brand-name-relay }, size yönlendirilen e-postalardaki sık kullanılan e-posta takip kodlarını kaldırabilir, böylece e-posta takip kodlarını ve reklamverenleri göremez.
+highlighted-features-section-remove-trackers-body = { -brand-name-relay } size yönlendirilen e-postalardaki sık kullanılan e-posta takip kodlarını kaldırabilir. Böylece takip kodları ve reklamverenler sizi takip edemez.
 
 ## REVIEWS SECTION
 
@@ -159,11 +159,11 @@ landing-reviews-rating = / 5 ({ $review_count } inceleme)
 landing-reviews-show-next-button = sonraki incelemeyi göster
 landing-reviews-show-previous-button = önceki incelemeyi göster
 landing-review-anonymous-user = { -brand-name-firefox } kullanıcısı { $user_id }
-landing-review-user-one-review = Yaratıcılıkları ve e-posta adresimi anonimleştirmeyi kolaylaştırdıkları için { -brand-name-mozilla } ekibine gerçekten teşekkür ediyorum. Bu harika bir eklenti. Gizliliğine önem verenlere şiddetle tavsiye ediyorum!
+landing-review-user-one-review = E-posta adresimi anonimleştirmeyi yaratıcı bir şekilde kolaylaştırdıkları için { -brand-name-mozilla } ekibine teşekkür ederim. Bu harika bir uzantı. Gizliliğine önem verenlere şiddetle tavsiye ediyorum!
 landing-review-user-two-review = E-postanızı spam’den kurtarmak ve spam’i önlemek için basit bir araç.
 landing-review-user-three-review = Bu uzantıyı seviyorum! Çok basit ama güçlü. Tarayıcıyla entegrasyonu da harika.
 landing-review-user-four-review-list-1 = İnternette gezinirken içiniz rahat olsun.
-landing-review-user-four-review-list-2 = Çeşitli nedenlerden dolayı gerçek e-posta adresini paylaşmak istenmeyen takma adlar oluşturarak kimliğinizi takipçilerden korur.
+landing-review-user-four-review-list-2 = Çeşitli nedenlerden dolayı gerçek e-posta adresini paylaşmak istemediğinizde maskelenmiş adresler oluşturarak kimliğinizi takip kodlarından koruyor.
 landing-review-user-four-review-list-3 = Gelen kutusu verileriniz { -brand-name-firefox-relay } ile güvende.
 landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } harikalar yaratıyor, deneyin!!!
 
@@ -182,7 +182,7 @@ landing-faq-cta = { -brand-name-firefox-relay } hakkındaki diğer SSS’lere ba
 ## Premium promo page
 
 premium-promo-hero-headline = { -brand-name-firefox-relay-premium } ile gelen kutunuzu koruyun
-premium-promo-hero-body-3 = { -brand-name-firefox-relay-premium } ile yalnızca istediğiniz e-postaları gerçek e-posta adresinize ileten sınırsız özel e-posta maskesine sahip oluyorsunuz.
+premium-promo-hero-body-3 = { -brand-name-firefox-relay-premium } ile yalnızca sizin istediğiniz e-postaları gerçek e-posta adresinize ileten sınırsız özel e-posta maskesine sahip olabilirsiniz.
 premium-promo-hero-cta = Şimdi yükseltin
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } hizmeti şu anda Avusturya, Bulgaristan, Belçika, Kanada, Hırvatistan, Kıbrıs, Çek Cumhuriyeti, Danimarka, Estonya, Finlandiya, Fransa, Almanya, Yunanistan, Macaristan, İrlanda, İtalya, Letonya, Litvanya, Lüksemburg, Malezya, Malta, Hollanda, Yeni Zelanda, Polonya, Portekiz, Romanya, Singapur, Slovakya, Slovenya, İspanya, İsveç, İsviçre, Birleşik Krallık ve ABD’de kullanılabilir.
 

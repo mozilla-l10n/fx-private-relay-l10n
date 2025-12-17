@@ -225,7 +225,7 @@ first-time-user-email-cta-dashboard-button = { -brand-name-relay }’i kullanmay
 our-promise-header = Size söz veriyoruz
 our-promise-content = { -brand-name-relay } e-posta maskesi, o e-posta maskesine gönderdiğimiz iletileri e-posta gelen kutunuza iletir. Üstelik gerçek e-posta adresinizi gönderenden hiç kimseyle paylaşmaz.
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } ile neler yapabilirsiniz?
-what-can-you-do-with-relay-point-one = Gerçek e-posta adresinizi gönderenlerle paylaşmadan e-posta alın
+what-can-you-do-with-relay-point-one = Gerçek e-posta adresinizi paylaşmadan e-posta alın
 # Variables
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
 what-can-you-do-with-relay-point-one-subpoint-html = E-posta maskesi paylaşmanız yeterli. E-posta maskeleri e-postaları gelen kutunuza iletecektir. Doğrudan { -brand-name-firefox } üzerinde, <a { $attrs }>{ -brand-name-relay } uzantımızı</a> kullanarak veya { -brand-name-relay } kontrol panelinizden maske oluşturabilirsiniz.
@@ -251,7 +251,7 @@ first-time-user-email-how-item-3-header = Maskelerinizi { -brand-name-relay } ko
 first-time-user-email-how-item-3-subhead-html = Yeni maskeler oluşturmak, maskelerinizi etiketlemek ve spam gelen maskeleri silmek için <a href="{ $url }" { $attrs }>giriş yapın</a>.
 first-time-user-email-how-item-3-subhead-text = Yeni maskeler oluşturmak, maskelerinizi etiketlemek ve spam gelen maskeleri silmek için giriş yapın.
 first-time-user-email-extra-protection-inbox-phone-title = Gelen kutunuz ve telefonunuz için ekstra koruma
-first-time-user-email-extra-protection-inbox-phone-subhead = Sınırsız e-posta maskesi ve gerçek numaranızı koruyan bir telefon maskesi için { -brand-name-relay-premium } ücretine yükseltin.
+first-time-user-email-extra-protection-inbox-phone-subhead = Sınırsız e-posta maskesi ve gerçek numaranızı koruyan bir telefon maskesi için { -brand-name-relay-premium } paketine geçin.
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } üyesi olun
 first-time-user-email-questions-title = { -brand-name-firefox-relay } ile ilgili sorularınız mı var?
 # Variables
