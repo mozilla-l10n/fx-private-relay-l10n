@@ -39,13 +39,13 @@ multi-part-onboarding-premium-email-domain-added = E-posta alan adınız:
 multi-part-onboarding-premium-add-extension-headline = { -brand-name-relay } uzantısını ekleyin
 multi-part-onboarding-premium-add-extension-feature-headline = { -brand-name-relay } uzantısıyla şunları yapabilirsiniz:
 multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = İstediğiniz web sitesinden { -brand-name-relay } maskesi oluşturun
-multi-part-onboarding-premium-add-extension-feature-body = { -brand-name-relay } uzantısı, web siteleri e-posta adresinizi istediğinde anında yeni maskeler oluşturmanızı sağlar. { -brand-name-relay } simgesinin altından tıklamanız yeterli.
+multi-part-onboarding-premium-add-extension-feature-body = { -brand-name-relay } uzantısı, e-posta adresinizi isteyen siteler için anında yeni maske oluşturmanızı sağlar. { -brand-name-relay } simgesine tıklamanız yeterli.
 multi-part-onboarding-premium-add-extension-feature-cta = { -brand-name-relay } uzantısını ekleyin
 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } uzantısı eklendi!
-multi-part-onboarding-premium-added-extension-body = Artık yeni maske oluşturmak için { -brand-name-relay } hesabına giriş yapmanız gerekmeyecek. Siteler e-posta adresinizi istediğinde Gönder simgesine bakmanız yeterli.
+multi-part-onboarding-premium-added-extension-body = Artık yeni maske oluşturmak için { -brand-name-relay } hesabına giriş yapmanız gerekmeyecek. Siteler e-posta adresinizi istediğinde Relay  simgesine bakmanız yeterli.
 multi-part-onboarding-premium-extension-button-dashboard = Kontrol paneline git
 multi-part-onboarding-skip = Atla, bunu daha sonra kuracağım
 multi-part-onboarding-skip-download-extension = Atla, uzantıyı daha sonra indireceğim

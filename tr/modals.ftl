@@ -30,7 +30,7 @@ modal-delete-headline-2 = Bu e-posta maskesini kalıcı olarak silmek istediğin
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html = Bu maskeyi sildikten sonra asla geri alamazsınız. { -brand-name-firefox-relay } bundan sonra <strong>{ $email }</strong> adresine gönderilen e-postaları size yönlendirmeyecektir. Parola sıfırlama iletileri de buna dahildir.
-modal-delete-warning-upgrade-2 = Değer verdiğiniz sitelere giriş yapmak için bu e-posta maskesini kullanırsanız, silmeden önce farklı bir e-posta adresiyle giriş bilgilerinizi güncellemelisiniz.
+modal-delete-warning-upgrade-2 = Önemli sitelere giriş yapmak için bu e-posta maskesini kullanıyorsanız bu maskeyi silmeden önce ilgili sitelerden e-posta adresinizi güncellemelisiniz.
 modal-delete-domain-address-warning-upgrade-2 = Değer verdiğiniz sitelere giriş yapmak için bu maskeyi kullanırsanız, silmeden önce farklı bir e-posta adresiyle giriş bilgilerinizi güncellemelisiniz. Silinmiş bir maskeyi yeniden oluşturursanız orijinal maskeye gönderilen e-postalar yönlendirilmeye devam eder.
 modal-delete-confirmation-2 = Evet, bu maskeyi silmek istiyorum.
 # Variables:

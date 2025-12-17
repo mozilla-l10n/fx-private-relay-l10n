@@ -48,8 +48,8 @@ whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium 
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } Finlandiya’da kullanıma açıldı
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-feature-premium-expansion-snippet = Şimdi yükseltin, daha da fazla koruma…
-whatsnew-feature-premium-expansion-description = Hemen yükseltin ve daha da fazla korumaya kavuşun: Sınırsız e-posta maskesi oluşturun, özel bir e-posta alt alan adı edinin ve çok daha fazlasını yapın!
+whatsnew-feature-premium-expansion-snippet = Hemen yükseltin, daha da fazla korumaya…
+whatsnew-feature-premium-expansion-description = Hemen yükseltin, daha da fazla korumaya kavuşun: Sınırsız e-posta maskesi oluşturma, size özel e-posta alt alan adı ve çok daha fazlası!
 whatsnew-feature-tracker-removal-heading = Karşınızda e-posta takip kodu kaldırma
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
