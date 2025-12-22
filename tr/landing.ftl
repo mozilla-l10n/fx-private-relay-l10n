@@ -163,7 +163,7 @@ landing-review-user-one-review = E-posta adresimi anonimleştirmeyi yaratıcı b
 landing-review-user-two-review = E-postanızı spam’den kurtarmak ve spam’i önlemek için basit bir araç.
 landing-review-user-three-review = Bu uzantıyı seviyorum! Çok basit ama güçlü. Tarayıcıyla entegrasyonu da harika.
 landing-review-user-four-review-list-1 = İnternette gezinirken içiniz rahat olsun.
-landing-review-user-four-review-list-2 = Çeşitli nedenlerden dolayı gerçek e-posta adresini paylaşmak istemediğinizde maskelenmiş adresler oluşturarak kimliğinizi takip kodlarından koruyor.
+landing-review-user-four-review-list-2 = Çeşitli nedenlerden dolayı gerçek e-posta adresinizi paylaşmak istemediğinizde maskelenmiş adresler oluşturarak kimliğinizi takip kodlarından koruyor.
 landing-review-user-four-review-list-3 = Gelen kutusu verileriniz { -brand-name-firefox-relay } ile güvende.
 landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } harikalar yaratıyor, deneyin!!!
 
