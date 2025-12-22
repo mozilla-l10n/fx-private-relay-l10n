@@ -59,7 +59,6 @@ fx-mobile-2 = موبائل کیتے { -brand-name-firefox }
 
 nav-footer-privacy = رازداری
 nav-footer-relay-terms = { -brand-name-relay } ٹرماں
-nav-footer-legal = قنونی
 logo-mozilla-alt = { -brand-name-mozilla }
 
 ## Bento Menu

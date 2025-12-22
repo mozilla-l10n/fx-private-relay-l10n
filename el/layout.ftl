@@ -59,7 +59,6 @@ fx-mobile-2 = { -brand-name-firefox } για κινητά
 
 nav-footer-privacy = Απόρρητο
 nav-footer-relay-terms = Όροι του { -brand-name-relay }
-nav-footer-legal = Νομικά
 logo-mozilla-alt = { -brand-name-mozilla }
 
 ## Bento Menu

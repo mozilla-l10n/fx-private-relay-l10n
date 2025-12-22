@@ -58,7 +58,6 @@ fx-mobile-2 = { -brand-name-firefox } كۆچمە نەشرى
 
 nav-footer-privacy = شەخسىيەت
 nav-footer-relay-terms = { -brand-name-relay } شەرتلىرى
-nav-footer-legal = قانۇنلۇق
 logo-mozilla-alt = { -brand-name-mozilla }
 
 ## Bento Menu

@@ -59,7 +59,6 @@ fx-mobile-2 = { -brand-name-firefox } mobilra
 
 nav-footer-privacy = Adatvédelem
 nav-footer-relay-terms = { -brand-name-relay } feltételei
-nav-footer-legal = Jogi információk
 logo-mozilla-alt = { -brand-name-mozilla }
 
 ## Bento Menu

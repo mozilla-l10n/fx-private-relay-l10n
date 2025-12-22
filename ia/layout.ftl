@@ -59,7 +59,6 @@ fx-mobile-2 = { -brand-name-firefox } pro mobile
 
 nav-footer-privacy = Confidentialitate
 nav-footer-relay-terms = Conditiones de uso de { -brand-name-relay }
-nav-footer-legal = Juridic
 logo-mozilla-alt = { -brand-name-mozilla }
 
 ## Bento Menu

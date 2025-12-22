@@ -59,7 +59,6 @@ fx-mobile-2 = { -brand-name-firefox } 行動版
 
 nav-footer-privacy = 隱私權
 nav-footer-relay-terms = { -brand-name-relay } 使用條款
-nav-footer-legal = 法律資訊
 logo-mozilla-alt = { -brand-name-mozilla }
 
 ## Bento Menu

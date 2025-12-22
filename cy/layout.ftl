@@ -59,7 +59,6 @@ fx-mobile-2 = { -brand-name-firefox } Symudol
 
 nav-footer-privacy = Preifatrwydd
 nav-footer-relay-terms = Amodau { -brand-name-relay }
-nav-footer-legal = Cyfreithiol
 logo-mozilla-alt = { -brand-name-mozilla }
 
 ## Bento Menu

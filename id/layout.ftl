@@ -59,7 +59,6 @@ fx-mobile-2 = { -brand-name-firefox } untuk Ponsel
 
 nav-footer-privacy = Privasi
 nav-footer-relay-terms = Ketentuan { -brand-name-relay }
-nav-footer-legal = Legal
 logo-mozilla-alt = { -brand-name-mozilla }
 
 ## Bento Menu
