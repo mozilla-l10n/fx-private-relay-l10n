@@ -81,9 +81,9 @@ trackerreport-tracker-count =
         [one] 1 takip kodu
        *[other] { $count } takip kodu
     }
-trackerreport-confidentiality-notice = Bu raporlarda gösterilen takip ve kimden adresi bilgileri { -brand-name-firefox-relay } tarafından kaydedilmez ve yalnızca rapor URL’lerinde bulunur. E-postalarınızı kaydetmiyoruz.
+trackerreport-confidentiality-notice = Bu raporlarda gösterilen takip kodu ve gönderen adresi bilgileri { -brand-name-firefox-relay } tarafından kaydedilmez, yalnızca rapor URL’lerinde bulunur. E-postalarınızı kaydetmiyoruz.
 trackerreport-removal-explainer-heading = Takip kodu temizleme nasıl çalışıyor?
-trackerreport-removal-explainer-content = { -brand-name-firefox-relay } artık e-posta maskeleriniz üzerinden iletilen e-postalardaki sık kullanılan takip kodlarını kaldırabilir. E-postalarınızı almaya devam edeceksiniz ama e-postalarınızı izlenmeden alabilmeniz için e-postalarınızdaki takip kodları kaldırılacak. Takipçi kaldırmayı tüm maskelerinizde aynı anda etkinleştirmek için her maske için ayrı ayrı değil, ayarlardan takipçi temizlemeyi etkinleştirin.
+trackerreport-removal-explainer-content = { -brand-name-firefox-relay } artık e-posta maskeleriniz üzerinden iletilen e-postalardaki sık kullanılan takip kodlarını kaldırabilir. E-postalarınız gelmeye devam edecek ama iletilen e-postalardaki takip kodları izlenmemeniz için kaldırılacak. Takip kodu kaldırmayı ayrı ayrı maskeler yerine bütün maskelerinde etkinleştirmek isterseniz ayarlardaki takip kodu kaldırma ayarını açabilirsiniz.
 trackerreport-trackers-explainer-heading = E-posta takip kodları hakkında
 trackerreport-trackers-explainer-content-part1 = E-posta takip kodları, birçok gelen kutusunda karşımıza çıkan yaygın bir gözetim ve reklam aracıdır. Bu takip kodları; çevrimiçi davranışlarınız, ilgi alanlarınız ve e-posta işlemleriniz hakkında bilgi toplamak için kullanılabilir.
 trackerreport-trackers-explainer-content-part2 = Şirketler veya kuruluşlar size gönderdikleri e-postalara bir takip kodu gömer. Bu kod genellikle bir resmin veya bağlantının içine gizlenir. E-postayı açtığınız zaman takip kodu o şirkete veri gönderir.
@@ -223,7 +223,7 @@ first-time-user-email-cta-dashboard-button = { -brand-name-relay }’i kullanmay
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = Size söz veriyoruz
-our-promise-content = { -brand-name-relay } e-posta maskesi, o e-posta maskesine gönderdiğimiz iletileri e-posta gelen kutunuza iletir. Üstelik gerçek e-posta adresinizi gönderenden hiç kimseyle paylaşmaz.
+our-promise-content = { -brand-name-relay } e-posta maskesi, gerçek e-posta adresinizi göndericilerle paylaşmadan, o maskeye gönderilen iletilerin hepsini e-posta gelen kutunuza iletir.
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } ile neler yapabilirsiniz?
 what-can-you-do-with-relay-point-one = Gerçek e-posta adresinizi paylaşmadan e-posta alın
 # Variables
