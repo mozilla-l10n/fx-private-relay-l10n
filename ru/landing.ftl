@@ -208,7 +208,7 @@ waitlist-lead-bundle = Мы сообщим вам, когда вы сможет�
 waitlist-control-required = Обязательно
 waitlist-control-email-label = Какой у вас адрес электронной почты?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
-waitlist-control-email-placeholder = yourname@example.com
+waitlist-control-email-placeholder = иван_иванов@домен.ru
 waitlist-control-country-label-2 = В какой стране или регионе вы живете?
 waitlist-control-locale-label = Выберите предпочитаемый язык.
 waitlist-submit-label-2 = Присоединяйтесь к списку ожидания

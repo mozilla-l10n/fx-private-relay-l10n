@@ -11,12 +11,12 @@ settings-meta-help-label = Справка и поддержка
 settings-meta-help-tooltip = Получите помощь по использованию { -brand-name-relay }
 settings-meta-status-label = Состояние службы
 settings-meta-status-tooltip = Проверьте, все ли системы { -brand-name-relay } сейчас работают.
-settings-warning-collection-off-heading-3 = Имена ваших учетных записей с псевдонимом электронной почты отключены
-settings-warning-collection-off-description-3 = { -brand-name-relay } в настоящее время не может помечать ваши псевдонимы электронной почты веб-сайтами, на которых вы их использовали. Чтобы изменить это, включите имена учетных записей для псевдонимов электронной почты в разделе «Конфиденциальность».
+settings-warning-collection-off-heading-3 = Имена ваших учётных записей с псевдонимом электронной почты отключены
+settings-warning-collection-off-description-3 = { -brand-name-relay } в настоящее время не может помечать ваши псевдонимы электронной почты веб-сайтами, на которых вы их использовали. Чтобы изменить это, включите имена учётных записей для псевдонимов электронной почты в разделе «Конфиденциальность».
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Приватность
-setting-label-collection-description-3 = Включить имена учетных записей для псевдонимов электронной почты
-setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } будет хранить веб-сайты, на которых вы использовали свои псевдонимы электронной почты, и помечать ваши псевдонимы этими веб-сайтами, чтобы вы могли легко их идентифицировать. Отключение этой функции означает, что вы не сможете видеть, где вы использовали каждый псевдоним, и имена ваших учетных записей больше не будут синхронизироваться между устройствами.
+setting-label-collection-description-3 = Включить имена учётных записей для псевдонимов электронной почты
+setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } будет хранить веб-сайты, на которых вы использовали свои псевдонимы электронной почты, и помечать ваши псевдонимы этими веб-сайтами, чтобы вы могли легко их идентифицировать. Отключение этой функции означает, что вы не сможете видеть, где вы использовали каждый псевдоним, и имена ваших учётных записей больше не будут синхронизироваться между устройствами.
 settings-button-save-label = Сохранить
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = Ключ API
