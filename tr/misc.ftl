@@ -230,9 +230,9 @@ what-can-you-do-with-relay-point-one = Gerçek e-posta adresinizi paylaşmadan e
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
 what-can-you-do-with-relay-point-one-subpoint-html = E-posta maskesi paylaşmanız yeterli. E-posta maskeleri e-postaları gelen kutunuza iletecektir. Doğrudan { -brand-name-firefox } üzerinde, <a { $attrs }>{ -brand-name-relay } uzantımızı</a> kullanarak veya { -brand-name-relay } kontrol panelinizden maske oluşturabilirsiniz.
 what-can-you-do-with-relay-point-two = Web sitelerinin ve spam gönderenlerin kim olduğunuzu kolayca takip etmesini önleyin
-what-can-you-do-with-relay-point-two-subpoint = E-posta takipçileri bugünlerde her yerde. { -brand-name-relay } e-posta maskeleri, onları tahmin etmeye devam etmenize yardımcı olur.
-what-can-you-do-with-relay-point-three = Spam'in gelen kutunuza ulaşmasını engelleyin, hatta maskeleri tamamen kapatın
-what-can-you-do-with-relay-point-three-subpoint = { -brand-name-relay } panosunda maskeler oluşturabilir, onları nerede kullandığınızı belirtmek için etiketleyebilir, spam engellemeyi açabilir ve artık istemediğiniz maskeleri silebilirsiniz.
+what-can-you-do-with-relay-point-two-subpoint = E-posta takip kodları artık her yerde. { -brand-name-relay } e-posta maskeleriyle bu kodları durdurabilirsiniz.
+what-can-you-do-with-relay-point-three = Spam’lerin gelen kutunuza ulaşmasını engelleyebilir, hatta maskeleri tamamen iptal edebilirsiniz
+what-can-you-do-with-relay-point-three-subpoint = { -brand-name-relay } paneli üzerinden maske oluşturabilir, onları nerede kullandığınızı gösteren etiketler ekleyebilir, spam engellemeyi açabilir ve artık istemediğiniz maskeleri silebilirsiniz.
 forwarded-email-hero-header = Yönlendirilen ilk e-postanızı aldınız!
 forwarded-email-hero-desc = Başlığı fark ettiniz mi? { -brand-name-relay } maskeleri ile yönlendirilen tüm e-postalarda bu başlık görünecektir.
 first-time-user-email-how-title = { -brand-name-relay } nasıl çalışır?
