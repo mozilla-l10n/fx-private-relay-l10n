@@ -74,7 +74,7 @@ faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Requirer le pag
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Limitar le numero de mascas que on pote generar in un die
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-acceptable-use-answer-b-html = Revide nostre <a href="{ $url }" { $attrs }>Terminos de servicio</a> pro altere informationes.
+faq-question-acceptable-use-answer-b-html = Revide nostre <a href="{ $url }" { $attrs }>conditiones de uso del servicio</a> pro altere informationes.
 faq-question-promotional-email-blocking-question = Que es le blocada de e-mail promotional?
 faq-question-promotional-email-blocking-answer = Le abonatos de { -brand-name-relay-premium } pote activar le blocada de e-mail promotional. Iste functionalitate te inultrera le e-mails importante, tal como quitantias, reinitialisationes e confirmationes de contrasigno, durante que ancora bloca le messages de marketing. Il ha un leve risco que un importante message pote ancora esser blocate, assi nos consilia que tu non usa iste functionalitate pro sitos multo importante como tu banca. Si un e-mail es blocate, illo non pote esser recovrate.
 faq-question-detect-promotional-question = Como face { -brand-name-relay } a disvelar si un e-mail es Promotional o non?
