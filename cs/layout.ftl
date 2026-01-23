@@ -68,6 +68,7 @@ fx-makes-tech = { -brand-name-firefox } je technologie, která bojuje za vaše s
 made-by-mozilla = Od { -brand-name-mozilla(case: "gen") }
 fx-desktop = { -brand-name-firefox-browser(capitalization: "upper") } pro počítače
 fx-mobile = { -brand-name-firefox-browser(capitalization: "upper") } pro mobily
+fx-solo = { -brand-name-solo }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
