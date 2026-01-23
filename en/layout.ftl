@@ -70,6 +70,7 @@ fx-makes-tech = { -brand-name-firefox } is tech that fights for your online priv
 made-by-mozilla = Made by { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } for Desktop
 fx-mobile = { -brand-name-firefox-browser } for Mobile
+fx-solo = { -brand-name-solo }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
