@@ -68,6 +68,7 @@ fx-makes-tech = { -brand-name-firefox } — это технологии, отс�
 made-by-mozilla = Создано { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser(case: "nominative_uppercase") } для компьютера
 fx-mobile = { -brand-name-firefox-browser(case: "nominative_uppercase") } для мобильных устройств
+fx-solo = { -brand-name-solo }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
