@@ -228,7 +228,7 @@ what-can-you-do-with-relay-title = { -brand-name-firefox-relay } ile neler yapab
 what-can-you-do-with-relay-point-one = Gerçek e-posta adresinizi paylaşmadan e-posta alın
 # Variables
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
-what-can-you-do-with-relay-point-one-subpoint-html = E-posta maskesi paylaşmanız yeterli. E-posta maskeleri e-postaları gelen kutunuza iletecektir. Doğrudan { -brand-name-firefox } üzerinde, <a { $attrs }>{ -brand-name-relay } uzantımızı</a> kullanarak veya { -brand-name-relay } kontrol panelinizden maske oluşturabilirsiniz.
+what-can-you-do-with-relay-point-one-subpoint-html = E-posta maskenizi paylaşmanız yeterli. E-posta maskeleri e-postaları gelen kutunuza iletecektir. <a { $attrs }>{ -brand-name-relay } uzantımızı</a> kullanarak doğrudan { -brand-name-firefox } üzerinden veya { -brand-name-relay } kontrol panelinizden maske oluşturabilirsiniz.
 what-can-you-do-with-relay-point-two = Web sitelerinin ve spam gönderenlerin kim olduğunuzu kolayca takip etmesini önleyin
 what-can-you-do-with-relay-point-two-subpoint = E-posta takip kodları artık her yerde. { -brand-name-relay } e-posta maskeleriyle bu kodları durdurabilirsiniz.
 what-can-you-do-with-relay-point-three = Spam’lerin gelen kutunuza ulaşmasını engelleyebilir, hatta maskeleri tamamen iptal edebilirsiniz
@@ -259,7 +259,7 @@ first-time-user-email-questions-title = { -brand-name-firefox-relay } ile ilgili
 #   $attrs (string) - In-line attributes for the link
 first-time-user-email-questions-subhead-html = <a href="{ $url }" { $attrs }>Destek ekibimiz</a> size yardımcı olabilir.
 first-time-user-email-questions-subhead-text = Destek ekibimiz size yardımcı olabilir.
-first-time-user-email-footer-text-1 = İlk defa { -brand-name-relay } kullanan { -brand-name-firefox-relay } abonesi olarak bu otomatik e-postayı aldınız. Hatalı olarak aldıysanız herhangi bir işlem yapmanız gerekmez.
+first-time-user-email-footer-text-1 = İlk defa { -brand-name-relay } kullanan bir { -brand-name-firefox-relay } abonesi olduğunuz için bu otomatik e-postayı aldınız. Hatalı olarak aldıysanız herhangi bir işlem yapmanız gerekmez.
 # Variables
 #   $url (string) - URL of the support team website
 #   $attrs (string) - In-line attributes for the link
@@ -272,8 +272,8 @@ first-time-user-email-footer-text-privacy = Koşullar ve Gizlilik
 
 # Variables:
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
-api-error-free-tier-limit = Ücretsiz hesabınızdaki { $free_tier_limit } e-posta maskesinin tümünü kullandınız. Mevcut bir maskeyi yeniden kullanabilirsiniz ama her hesap için benzersiz bir maske kullanmak en güvenli seçenektir.
-api-error-free-tier-no-subdomain-masks = Ücretsiz hesabınız maskeler için özel alt alan adları içermiyor. Özel maskeler oluşturmak için { -brand-name-relay-premium } aboneliğine yükseltin.
+api-error-free-tier-limit = Ücretsiz hesabınızdaki { $free_tier_limit } e-posta maskesinin hepsini kullandınız. Mevcut maskelerinizi istediğiniz kadar yeniden kullanabilirsiniz ama her hesap için benzersiz bir maske kullanmak en güvenli seçenektir.
+api-error-free-tier-no-subdomain-masks = Ücretsiz hesabınızda maskeler için özel alt alan adları kullanılamaz. Özel maske oluşturmak için { -brand-name-relay-premium } aboneliğine yükseltin.
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” oluşturulamadı. Lütfen farklı bir maske adıyla yeniden deneyin.

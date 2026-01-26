@@ -5,7 +5,7 @@
 
 ## Modal for generating a custom mask
 
-modal-custom-alias-picker-tip = İpucu: İstediğiniz zaman özel bir maske oluşturmak için hemen oluşturun. { -brand-name-relay } alan adınızı burada oluşturmasanız bile çalışır.
+modal-custom-alias-picker-tip = İpucu: Özel maskelerinize istediğiniz zaman kafanızdan uydurarak oluşturabilirsiniz. { -brand-name-relay } alan adınızı kullandığınızda, bu maskeleri önceden manuel olarak oluşturmasanız bile çalışırlar.
 modal-custom-alias-picker-heading-2 = Yeni özel maske oluştur
 modal-custom-alias-picker-form-prefix-label-3 = @ işaretinden önce gelecek metni yazın:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,

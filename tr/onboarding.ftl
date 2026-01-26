@@ -27,7 +27,7 @@ multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = İs
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
-multi-part-onboarding-premium-email-domain-feature-body = Tercih ettiğiniz { -brand-name-relay } e-posta alan adını seçin, ardından @ sembolünün önüne herhangi bir kelime veya kelime öbeği ekleyerek anında yeni maskeler oluşturun. <p>Alışveriş mi? dükkân@alan-adiniz.{ $mozmail }.</p>
+multi-part-onboarding-premium-email-domain-feature-body = Tercih ettiğiniz { -brand-name-relay } e-posta alan adını seçtikten sonra @ sembolünün önüne herhangi bir kelime veya kelime öbeği ekleyerek anında yeni maske oluşturabilirsiniz. <p>Örneğin alışveriş mi yapıyorsunuz? magazaadi@alanadiniz.{ $mozmail } yazmanız yeterli.</p>
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -55,6 +55,6 @@ multi-part-onboarding-continue = İleri
 
 multi-part-onboarding-reply-headline = E-postalarınızı yanıtlayın
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } ile şunları yapabilirsiniz:
-onboarding-premium-reply-description-2 = Bir maskeye gönderilen e-postalara cevap vermeniz mi gerekiyor? Normal şekilde yanıt vermeniz yeterli: Maskeniz e-posta adresinizi korumaya devam edecek.
+onboarding-premium-reply-description-2 = Bir maskeye gelen e-postalara cevap vermeniz mi gerekiyor? Normal şekilde yanıt vermeniz yeterli: Maskeniz e-posta adresinizi korumaya devam edecektir.
 multi-part-onboarding-premium-reply-description = E-postaları gerçek adresinizi paylaşmadan yanıtlayın
 multi-part-onboarding-step-counter = Adım { $step }/{ $max }.
