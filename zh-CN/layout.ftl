@@ -68,7 +68,6 @@ fx-makes-tech = { -brand-name-firefox } 用技术为您的隐私而战。
 made-by-mozilla = { -brand-name-mozilla } 出品
 fx-desktop = { -brand-name-firefox-browser }桌面版
 fx-mobile = { -brand-name-firefox-browser }移动版
-fx-solo = { -brand-name-solo }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }

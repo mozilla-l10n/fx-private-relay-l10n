@@ -68,7 +68,6 @@ fx-makes-tech = { -brand-name-firefox } 的各種技術，為您的線上隱私�
 made-by-mozilla = 由 { -brand-name-mozilla } 打造
 fx-desktop = { -brand-name-firefox-browser }桌面版
 fx-mobile = { -brand-name-firefox-browser }行動版
-fx-solo = { -brand-name-solo }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }

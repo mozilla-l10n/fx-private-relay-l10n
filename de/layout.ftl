@@ -68,7 +68,6 @@ fx-makes-tech = { -brand-name-firefox } ist eine Technologie, die für deine Pri
 made-by-mozilla = Entwickelt von { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } für Desktop
 fx-mobile = { -brand-name-firefox-browser } für Mobilgeräte
-fx-solo = { -brand-name-solo }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }

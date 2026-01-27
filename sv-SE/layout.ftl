@@ -68,7 +68,6 @@ fx-makes-tech = { -brand-name-firefox } är teknik som kämpar för din integrit
 made-by-mozilla = Skapad av { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } för datorer
 fx-mobile = { -brand-name-firefox-browser } för mobiler
-fx-solo = { -brand-name-solo }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
