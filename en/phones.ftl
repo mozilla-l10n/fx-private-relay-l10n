@@ -19,6 +19,8 @@ phone-onboarding-step1-period-toggle-monthly = Monthly
 phone-onboarding-step1-button-price = { $monthly_price } / month
 phone-onboarding-step1-button-price-note  = (Billed annually)
 phone-onboarding-step1-button-cta = Upgrade Now
+phone-onboarding-step1-button-cta-2 = Sign up
+phone-onboarding-step1-learn-more = Learn more
 
 phone-onboarding-step2-headline = Verify your true phone number
 phone-onboarding-step2-body = Provide the phone number where you’ll receive your texts and calls. We’ll send a 6-digit code to this number to verify it.
