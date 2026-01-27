@@ -68,6 +68,7 @@ fx-makes-tech = { -brand-name-firefox } çevrimiçi gizliliğiniz için savaşı
 made-by-mozilla = { -brand-name-mozilla } güvencesiyle
 fx-desktop = Bilgisayarlar için { -brand-name-firefox-browser }
 fx-mobile = Mobil cihazlar için { -brand-name-firefox-browser }
+fx-solo-ai = { -brand-name-solo-ai }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }

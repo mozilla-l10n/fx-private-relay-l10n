@@ -68,6 +68,7 @@ fx-makes-tech = { -brand-name-firefox } adalah teknologi yang berjuang untuk pri
 made-by-mozilla = Dibuat oleh { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } untuk Desktop
 fx-mobile = { -brand-name-firefox-browser } untuk Mobile
+fx-solo-ai = { -brand-name-solo-ai }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }

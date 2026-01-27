@@ -68,6 +68,7 @@ fx-makes-tech = A { -brand-name-firefox } olyan technológia, amely az Ön onlin
 made-by-mozilla = A { -brand-name-mozilla } készítette
 fx-desktop = { -brand-name-firefox-browser } asztali számítógépre
 fx-mobile = { -brand-name-firefox-browser } mobilra
+fx-solo-ai = { -brand-name-solo-ai }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
