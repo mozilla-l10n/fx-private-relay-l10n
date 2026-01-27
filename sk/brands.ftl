@@ -75,3 +75,4 @@
 -brand-name-google-chrome = Google Chrome
 -brand-name-monitor = Monitor
 -brand-name-monitor-plus = Monitor Plus
+-brand-name-solo = Solo
