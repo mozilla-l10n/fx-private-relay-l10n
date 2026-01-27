@@ -68,6 +68,7 @@ fx-makes-tech = { -brand-name-firefox } es un technologia que lucta pro tu confi
 made-by-mozilla = Producite per { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } pro scriptorio
 fx-mobile = { -brand-name-firefox-browser } pro mobile
+fx-solo-ai = { -brand-name-solo-ai }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
