@@ -68,6 +68,7 @@ fx-makes-tech = { -brand-name-firefox } is technology dy’t stridet foar jo onl
 made-by-mozilla = Makke troch { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } foar desktop
 fx-mobile = { -brand-name-firefox-browser } foar mobyl
+fx-solo-ai = { -brand-name-solo-ai }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
