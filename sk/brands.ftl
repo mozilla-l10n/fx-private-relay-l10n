@@ -76,3 +76,4 @@
 -brand-name-monitor = Monitor
 -brand-name-monitor-plus = Monitor Plus
 -brand-name-solo = Solo
+-brand-name-solo-ai = Solo AI
