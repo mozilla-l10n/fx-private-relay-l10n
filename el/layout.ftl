@@ -68,6 +68,7 @@ fx-makes-tech = Η τεχνολογία του { -brand-name-firefox } μάχε�
 made-by-mozilla = Από τη { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } για υπολογιστές
 fx-mobile = { -brand-name-firefox-browser } για κινητές συσκευές
+fx-solo-ai = { -brand-name-solo-ai }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
