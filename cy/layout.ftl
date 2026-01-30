@@ -68,6 +68,7 @@ fx-makes-tech = Mae { -brand-name-firefox } yn gwmni technoleg sy'n brwydro dros
 made-by-mozilla = Gwnaed gan { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } ar gyfer y Bwrdd Gwaith
 fx-mobile = { -brand-name-firefox-browser } Symudol
+fx-solo-ai = { -brand-name-solo-ai }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
