@@ -17,7 +17,7 @@ logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Nabídka
 nav-home = Domů
 nav-email-dashboard = E-mailové masky
-nav-phone-dashboard = Masky telefonních čísel
+nav-phone-dashboard = Telefonní masky
 label-open-menu = Otevřít nabídku
 avatar-tooltip = Profil
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
@@ -40,7 +40,7 @@ nav-profile-image-alt = Profilový obrázek - { -brand-name-firefox-account(capi
 nav-profile-image-alt-v2 = avatar účtu
 nav-duo-description = Přepnout nástěnku
 nav-duo-email-mask-alt = E-mailové masky
-nav-duo-phone-mask-alt = Masky telefonních čísel
+nav-duo-phone-mask-alt = Telefonní masky
 
 ## Mobile menu text
 
