@@ -22,7 +22,7 @@ bundle-banner-header-2 = Časově omezeno: { -brand-name-relay-premium } + { -br
 bundle-banner-body-3 = { -brand-name-mozilla-vpn } vás chrání před sledováním během hraní her, práce s online bankovnictvím nebo při práci. Přidejte si ji k { -brand-name-firefox-relay } a získejte tak slevu { $savings }.
 bundle-banner-plan-header-2 = Váš 1letý plán zahrnuje:
 bundle-banner-plan-modules-email-masking = Zamaskování e-mailové adresy
-bundle-banner-plan-modules-phone-masking = Zamaskování telefonního čísla
+bundle-banner-plan-modules-phone-masking = Maskování telefonu
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = Získejte { -brand-name-mozilla-vpn } + { -brand-name-relay }
 # Variables:
@@ -35,12 +35,12 @@ bundle-feature-three = Rychlá a bezpečná síť
 
 ## HOW IT WORKS SECTION
 
-how-it-works-section-title = Jak funguje maskování e-mailů a telefonů službou { -brand-name-relay }
+how-it-works-section-title = Jak funguje maskování e-mailu a telefonu službou { -brand-name-relay }
 
 # Item 1
 
-how-it-works-section-extension-headline = Používejte e-mailové masky a maskování telefonního čísla službou { -brand-name-relay } kdekoliv
-how-it-works-section-extension-body = Získejte bezpečné, náhodné e-mailové masky a jedinečné maskované telefonní číslo, které můžete použít, kdykoli vás web, aplikace, obchod nebo restaurace požádá o vaše informace.
+how-it-works-section-extension-headline = Používejte e-mailové masky a telefonní masky od služby { -brand-name-relay } kdekoliv
+how-it-works-section-extension-body = Získejte bezpečné, náhodné e-mailové masky a jedinečné maskované telefonní číslo, které můžete použít, kdykoli vás web, aplikace, obchod nebo restaurace požádá o vaše údaje.
 
 # Item 2
 
