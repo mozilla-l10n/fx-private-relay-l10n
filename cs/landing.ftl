@@ -57,7 +57,7 @@ how-it-works-section-manage-body = Přihlaste se do nástěnky služby { -brand-
 plan-matrix-offer-title = Vyberte si úroveň ochrany, která vám vyhovuje
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
-plan-matrix-offer-body = Služba { -brand-name-firefox-relay } chrání vaši identitu a schránku s doručenou poštou pomocí jedinečných e-mailových masek. Ještě větší bezpečnost získáte pomocí maskování telefonu službou { -brand-name-relay } a ušetříte { $savings } přidáním ochrany pomocí { -brand-name-vpn }.
+plan-matrix-offer-body = Služba { -brand-name-firefox-relay } chrání vaši identitu a poštovní schránku pomocí jedinečných e-mailových masek. Další úroveň bezpečnosti získáte maskováním telefonu službou { -brand-name-relay }, a ušetříte { $savings } přidáním ochrany pomocí sítě { -brand-name-vpn }.
 
 # Top Row Labels
 
@@ -138,8 +138,8 @@ highlighted-features-section-masks-on-the-go-body =
 
 highlighted-features-section-replying-headline = Odpovídejte na e-maily a textové zprávy anonymně
 highlighted-features-section-replying-body =
-    Služba { -brand-name-relay-premium } umožňuje odpovídat na e-maily od vašeho
-    maskovaného e-mailového účtu, takže odesílatelé nikdy nepoznají vaši skutečnou e-mailovou adresu. Díky maskování telefonu můžete odpovídat na zprávy z maskovaného telefonního čísla, abyste ochránili své skutečné číslo.
+    Služba { -brand-name-relay-premium } umožňuje odpovídat na e-maily pocházející od vašeho
+    zamaskovaného e-mailového účtu, takže odesílatelé se nikdy nedozví vaši skutečnou e-mailovou adresu. Díky maskování telefonu můžeteodpovídat na zprávy z maskovaného telefonního čísla, abyste ochránili své skutečné číslo.
 
 # Item 4
 
