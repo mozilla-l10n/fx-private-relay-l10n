@@ -102,6 +102,7 @@ plan-matrix-price-vpn-discount-promo = <span>Ahorra { $savings }</span> en el pr
 plan-matrix-sign-up = Registrarse
 plan-matrix-get-relay-cta = Obtener { -brand-name-relay }
 plan-matrix-join-waitlist = Únete a la lista de espera
+plan-matrix-your-plan = Tu plan
 
 # Item 1
 
@@ -164,7 +165,7 @@ premium-promo-hero-cta = Actualizar ahora
 ## The Premium waitlist page
 
 waitlist-heading-2 = Únete a la lista de espera de { -brand-name-relay-premium }
-waitlist-heading-phone = Únete a la lista de espera de enmascaramiento de teléfonos de { -brand-name-relay } 
+waitlist-heading-phone = Únete a la lista de espera de enmascaramiento de teléfonos de { -brand-name-relay }{ " " }
 waitlist-heading-bundle = Únete a la lista de espera para el paquete { -brand-name-relay } + { -brand-name-vpn }
 waitlist-lead-2 = Te informaremos cuando { -brand-name-relay-premium } esté disponible en tu área.
 waitlist-lead-phone = Te informaremos cuando el enmascaramiento de teléfonos esté disponible en tu área.
