@@ -5,7 +5,7 @@
 
 ## Modal for generating a custom mask
 
-modal-custom-alias-picker-tip = Tip: To create a custom mask anytime, make it up on the spot. If you use your { -brand-name-relay } domain, it’ll work, even if you didn’t generate it here first.
+modal-custom-alias-picker-tip = Tip: To create a custom mask at any time, make it up on the spot. If you use your { -brand-name-relay } domain, it’ll work, even if you didn’t generate it here first.
 modal-custom-alias-picker-heading-2 = Create a new custom mask
 modal-custom-alias-picker-form-prefix-label-3 = Enter the text that goes before the @ symbol:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
