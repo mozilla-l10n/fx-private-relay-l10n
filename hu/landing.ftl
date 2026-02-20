@@ -124,12 +124,6 @@ plan-matrix-your-plan = Az Ön csomagja
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Korlátlan számú e-mail-maszk létrehozása
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Mindenki ingyenesen kap { $mask_limit } e-mail-maszkot.
-    A { -brand-name-relay-premium } segítségével azonban annyi maszkot hozhat létre, amennyire csak szüksége van a postaládája
-    spammerektől, hackerektől és online nyomkövetőktől történő megvédéséhez.
 
 # Item 2
 

@@ -124,12 +124,6 @@ plan-matrix-your-plan = Your Plan
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Create unlimited email masks
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Everyone gets { $mask_limit } email masks for free. 
-    But with { -brand-name-relay-premium }, you can generate as many masks as you need to help protect your email inbox 
-    from spammers, hackers, and online trackers.
 
 # Item 2
 
@@ -205,7 +199,7 @@ premium-promo-availability-warning-4 = { -brand-name-relay-premium } is availabl
 ## The Premium waitlist page
 
 waitlist-heading-2 = Join the { -brand-name-relay-premium } waiting list
-waitlist-heading-phone = Join the { -brand-name-relay } phone masking waitlist 
+waitlist-heading-phone = Join the { -brand-name-relay } phone masking waitlist{ " " }
 waitlist-heading-bundle = Join the waitlist for the { -brand-name-relay } + { -brand-name-vpn } bundle
 waitlist-lead-2 = We’ll let you know when { -brand-name-relay-premium } is available in your area.
 waitlist-lead-phone = We’ll let you know when phone masking is available in your area.

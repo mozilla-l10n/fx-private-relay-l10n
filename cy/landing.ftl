@@ -124,12 +124,6 @@ plan-matrix-your-plan = Eich Cynllun
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Crëwch e-byst arallenwau dirifedi
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Mae pawb yn cael { $mask_limit } o arallenwau e-bost am ddim.
-    Ond gyda { -brand-name-relay-premium }, gallwch gynhyrchu cymaint o arallenwau ag sydd eu hangen arnoch i helpu i ddiogelu eich blwch derbyn e-bost
-    rhag  sbamwyr, hacwyr, a thracwyr ar-lein.
 
 # Item 2
 

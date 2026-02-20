@@ -124,12 +124,6 @@ plan-matrix-your-plan = Uw abonnement
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Maak onbeperkt e-mailmaskers aan
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Iedereen ontvangt gratis { $mask_limit } e-mailmaskers.
-    Maar met { -brand-name-relay-premium } kunt u zoveel maskers aanmaken als u nodig hebt om uw Postvak IN te beschermen
-    tegen spammers, hackers en online trackers.
 
 # Item 2
 

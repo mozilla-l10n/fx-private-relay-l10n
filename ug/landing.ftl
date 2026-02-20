@@ -97,12 +97,6 @@ plan-matrix-join-waitlist = كۈتۈش تىزىمىغا قوشۇلۇڭ
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = چەكسىز ئېلخەت نىقابى قۇرىدۇ
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    ھەممەيلەن { $mask_limit } ئېلخەت نىقابىغا ھەقسىز ئېرىشەلەيدۇ. 
-    ئەمما { -brand-name-relay-premium } ئارقىلىق قانچىلىك ئېلخەت ساندۇقىڭىزنى ئەخلەت خەت، 
-    خاككېر ۋە باشقا ئىزلىغۇچىلاردىن قوغداشقا ئېھتىياجلىق بولسىڭىز شۇنچىلىك نىقاب ھاسىل قىلالايسىز.
 
 # Item 2
 
@@ -137,9 +131,6 @@ landing-review-anonymous-user = { -brand-name-firefox } ئىشلەتكۈچى { $
 
 highlighted-features-section-bottom-cta = باشلاڭ
 highlighted-features-section-new-item = يېڭى!
-
-## FAQ SECTION
-
 
 ## Premium promo page
 

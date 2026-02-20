@@ -124,12 +124,6 @@ plan-matrix-your-plan = Tu plan
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Crea máscaras de correo electrónico ilimitadas
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Todo el mundo recibe { $mask_limit } máscaras de correo electrónico de forma gratuita.
-    Pero con { -brand-name-relay-premium }, puedes generar tantas máscaras como necesites para ayudar a proteger tu bandeja de entrada
-    de spammers, piratas informáticos y rastreadores en línea.
 
 # Item 2
 
@@ -205,7 +199,7 @@ premium-promo-availability-warning-4 = { -brand-name-relay-premium } está dispo
 ## The Premium waitlist page
 
 waitlist-heading-2 = Únete a la lista de espera de { -brand-name-relay-premium }
-waitlist-heading-phone = Únete a la lista de espera de enmascaramiento de teléfonos de { -brand-name-relay } 
+waitlist-heading-phone = Únete a la lista de espera de enmascaramiento de teléfonos de { -brand-name-relay }{ " " }
 waitlist-heading-bundle = Únete a la lista de espera para el paquete { -brand-name-relay } + { -brand-name-vpn }
 waitlist-lead-2 = Te informaremos cuando { -brand-name-relay-premium } esté disponible en tu área.
 waitlist-lead-phone = Te avisaremos cuando el enmascaramiento de teléfonos esté disponible en tu área.

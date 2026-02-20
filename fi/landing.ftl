@@ -123,12 +123,6 @@ plan-matrix-join-waitlist = Liity odotuslistalle
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Luo rajattomasti sähköpostimaskeja
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Kaikki saavat { $mask_limit } sähköpostimaskia ilmaiseksi.
-    { -brand-name-relay-premium }illa voit luoda niin monta maskia kuin tarvitset sähköpostisi suojaamiseksi
-    roskapostittajilta, hakkereilta ja seuraimilta.
 
 # Item 2
 

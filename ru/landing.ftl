@@ -124,12 +124,6 @@ plan-matrix-your-plan = Ваш план
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Создавайте неограниченное число псевдонимов электронной почты
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Все получают { $mask_limit } псевдонимов электронной почты бесплатно.
-    Но с помощью { -brand-name-relay-premium } вы можете создать столько псевдонимов, сколько вам нужно, чтобы защитить свой почтовый ящик
-    от спамеров, хакеров и онлайн-трекеров.
 
 # Item 2
 

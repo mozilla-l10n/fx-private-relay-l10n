@@ -124,12 +124,6 @@ plan-matrix-your-plan = Tu plano
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Crea illimitate mascas email
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Quicunque recipe { $mask_limit } mascas email gratuitemente. 
-    Ma con { -brand-name-relay-premium }, tu pote generar quante mascas como te besonia pro adjutar te a proteger tu cassa de ingresso email 
-    de spammatores, piratas informatic, e traciatores online.
 
 # Item 2
 

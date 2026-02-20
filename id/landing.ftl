@@ -124,12 +124,6 @@ plan-matrix-your-plan = Paket Anda
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Buat topeng surel tak terbatas
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Semua orang mendapatkan topeng surel { $mask_limit } gratis.
-    Namun dengan { -brand-name-relay-premium }, Anda dapat membuat topeng sebanyak yang dibutuhkan untuk membantu melindungi kotak masuk surel Anda
-    dari spammer, peretas, dan pelacak daring.
 
 # Item 2
 

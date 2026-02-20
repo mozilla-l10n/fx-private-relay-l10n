@@ -124,12 +124,6 @@ plan-matrix-your-plan = Din plan
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Skapa obegränsat antal e-postalias
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Alla får { $mask_limit } e-postalias gratis.
-    Men med { -brand-name-relay-premium } kan du generera så många alias du behöver för att skydda din inkorg
-    från spammare, hackare och onlinespårare.
 
 # Item 2
 

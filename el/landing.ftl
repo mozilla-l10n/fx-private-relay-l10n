@@ -124,12 +124,6 @@ plan-matrix-your-plan = Το πρόγραμμά σας
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Δημιουργία απεριόριστων μασκών email
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Όλοι λαμβάνουν { $mask_limit } δωρεάν μάσκες email. 
-    Αλλά με το { -brand-name-relay-premium }, μπορείτε να δημιουργήσετε όσες μάσκες χρειάζεστε για την προστασία των εισερχόμενων email σας 
-    από ανεπιθύμητα μηνύματα, χάκερ και ιχνηλάτες.
 
 # Item 2
 

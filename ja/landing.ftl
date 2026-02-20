@@ -3,24 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## HERO SECTION
-
-
-## BUNDLE BANNER SECTION
-
-
-## HOW IT WORKS SECTION
-
-
-# Item 1
-
-
-# Item 2
-
-
-# Item 3
-
-
 ## PRICING MATRIX SECTION
 
 
@@ -66,9 +48,6 @@ landing-reviews-logo-title = { -brand-name-firefox-browser }
 # This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
 # Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
 landing-reviews-rating = / 5 ({ $review_count } 件のレビュー)
-
-## HIGHLIGHTED FEATURES SECTION
-
 
 ## FAQ SECTION
 

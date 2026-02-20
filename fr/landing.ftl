@@ -10,7 +10,7 @@ hero-section-body = Nos alias de messagerie et de numéro de téléphone sécuri
 hero-section-cta = Démarrer
 # Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
 # Example: "As seen in FORBES magainze and LifeHacker website"
-hero-section-social-proof = Tel que vu dans 
+hero-section-social-proof = Tel que vu dans{ " " }
 
 ## BUNDLE BANNER SECTION
 
@@ -121,11 +121,6 @@ plan-matrix-your-plan = Votre forfait
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Créez un nombre illimité d’alias de messagerie
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Tout le monde dispose de { $mask_limit } alias de messagerie gratuits.
-    Mais avec { -brand-name-relay-premium }, vous pouvez générer autant d’alias que nécessaire pour protéger votre boîte de réception contre les spammeurs, les pirates et les traqueurs en ligne.
 
 # Item 2
 

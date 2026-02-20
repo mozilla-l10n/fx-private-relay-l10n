@@ -121,9 +121,6 @@ plan-matrix-your-plan = Planınız
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Sınırsız e-posta maskesi oluşturma
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body = { $mask_limit } e-posta maskesi herkes için ücretsizdir. Ancak { -brand-name-relay-premium } ile istediğiniz kadar maske oluşturup e-posta gelen kutunuzu spam’den, hacker’lardan ve çevrimiçi takip kodlarından koruyabilirsiniz.
 
 # Item 2
 

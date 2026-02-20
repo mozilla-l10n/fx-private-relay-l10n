@@ -121,9 +121,6 @@ plan-matrix-your-plan = Váš plán
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Vytvárajte neobmedzený počet e‑mailových masiek
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body = Každý dostane niekoľko e‑mailových masiek zadarmo (celkom { $mask_limit }). Avšak, pomocou { -brand-name-relay-premium } môžete vygenerovať toľko masiek, koľko potrebujete, aby ste ochránili svoju e‑mailovú schránku pred spamermi, hackermi a online sledovačmi.
 
 # Item 2
 
