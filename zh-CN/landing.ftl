@@ -121,6 +121,9 @@ plan-matrix-your-plan = 您的方案
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = 创建无限数量马甲
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body-2 = 人人皆可免费获得 { $mask_limit } 个马甲邮箱。  但使用 { -brand-name-relay-premium } 可以根据需要生成任意数量的马甲保护您的电子邮件免受垃圾邮件、黑客、数据外泄者和在线跟踪器的侵扰。
 
 # Item 2
 

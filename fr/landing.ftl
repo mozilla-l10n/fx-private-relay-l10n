@@ -121,6 +121,9 @@ plan-matrix-your-plan = Votre forfait
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Créez un nombre illimité d’alias de messagerie
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body-2 = Tout le monde reçoit { $mask_limit } d’alias de messagerie gratuits.  Mais avec { -brand-name-relay-premium }, vous pouvez générer autant d’alias que nécessaire pour protéger votre messagerie contre les spammeurs, les pirates, les fuites de données et les traqueurs en ligne.
 
 # Item 2
 
