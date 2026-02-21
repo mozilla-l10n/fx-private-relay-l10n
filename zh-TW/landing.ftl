@@ -123,7 +123,7 @@ plan-matrix-your-plan = 您的方案
 highlighted-features-section-unlimited-masks-headline = 建立無限量的轉寄信箱
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body-2 = 所有人都可以免費獲得 { $mask_limit } 組轉寄信箱。  但透過 { -brand-name-relay-premium }您可以產生無限量的轉寄信箱來保護您的信箱不受垃圾郵件製造者、駭客、資料外洩事件、網路追踪器的騷擾。
+highlighted-features-section-unlimited-masks-body-2 = 人人都能免費獲得 { $mask_limit } 組轉寄信箱。但透過 { -brand-name-relay-premium }，您可以隨意產生無限組轉寄信箱來保護您的信箱，不受垃圾郵件發送者、駭客、資料外洩事件、線上追蹤器侵害。
 
 # Item 2
 
