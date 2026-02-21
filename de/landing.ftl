@@ -124,6 +124,12 @@ plan-matrix-your-plan = Ihr Plan
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Unbegrenzt viele E-Mail-Masken erstellen
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body-2 =
+    Jeder erhält kostenlos { $mask_limit } E-Mail-Masken.
+    Aber mit { -brand-name-relay-premium } können Sie so viele Masken erzeugen, wie Sie zum Schutz Ihrer E-Mail-Adresse 
+    vor Spammern, Hackern und Online-Trackern benötigen.
 
 # Item 2
 
