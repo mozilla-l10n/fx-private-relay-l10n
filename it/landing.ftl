@@ -123,6 +123,11 @@ plan-matrix-your-plan = Il tuo piano
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Crea alias di posta elettronica illimitati
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body-2 =
+    Tutti hanno a disposizione gratuitamente { $mask_limit } alias di posta elettronica. 
+    Ma con { -brand-name-relay-premium } puoi creare tutti gli alias di cui hai bisogno per proteggere la tua casella di posta da spam, hacker, violazioni di dati e tracciamento online.
 
 # Item 2
 
