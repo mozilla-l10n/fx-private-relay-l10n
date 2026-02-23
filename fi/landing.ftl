@@ -127,34 +127,18 @@ highlighted-features-section-unlimited-masks-headline = Luo rajattomasti sähkö
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Luo maskeja heti tarpeen vaatiessa
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body =
-    { -brand-name-relay-premium } antaa sinulle ainutlaatuisen { -brand-name-relay }-sähköpostiverkkotunnuksen, joten voit heti
-    luoda uusia maskeja missä tahansa. Lisää mikä tahansa sana tai lause ennen @-symbolia. Ravintolassa? Käytä ravintola@omaverkkotunnus.{ $mozmail }.
-    Ostoksilla? Kokeile kauppa@omaverkkotunnus.{ $mozmail }.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Vastaa sähköposteihin ja tekstiviesteihin anonyymisti
-highlighted-features-section-replying-body =
-    { -brand-name-relay-premium } antaa sinun vastata sähköposteihin
-    peitetyllä sähköpostitilillä, joten lähettäjät eivät koskaan tiedä oikeaa sähköpostiosoitettasi. Puhelimen maskauksella voit vastata
-    tekstiviesteihin peitetystä puhelinnumerosta todellisen numerosi suojaamiseksi.
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Estä mainossähköpostit
-highlighted-features-section-block-promotions-body =
-    { -brand-name-relay-premium }illa voit estää mainossähköpostien pääsyn postilaatikkoosi,
-    mutta silti vastaanottaa sähköpostiviestejä, kuten kuitteja tai toimitustietoja.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Poista sähköpostin seuraimet
-highlighted-features-section-remove-trackers-body =
-    { -brand-name-relay } voi poistaa yleiset sähköpostiseuraimet kaikista sinulle lähetetyistä sähköposteista, mikä auttaa
-    sinua pysymään näkymättömänä seurantaa ja mainontaa harjoittaville tahoille.
 
 ## REVIEWS SECTION
 

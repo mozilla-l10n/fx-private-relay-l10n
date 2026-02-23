@@ -128,26 +128,18 @@ highlighted-features-section-unlimited-masks-body-2 = Todos recebem { $mask_limi
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Crie máscaras instantaneamente em qualquer lugar
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body = O { -brand-name-relay-premium } oferece um domínio de e-mail { -brand-name-relay } único para que possa criar instantaneamente novas máscaras onde quer que esteja. Basta adicionar qualquer palavra ou frase antes do símbolo @. Numa sala de estar? Utilizar site@oseudominio.{ $mozmail }.  Compras? Experimente a loja@oseudominio.{ $mozmail }.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Responder a e-mails e mensagens anonimamente
-highlighted-features-section-replying-body = O { -brand-name-relay-premium } permite que responda às mensagens da sua conta de e-mail mascarada, para que os remetentes nunca saibam o seu endereço de e-mail real. Com a máscara telefónica, pode responder a mensagens de texto do seu número de telefone mascarado para proteger o seu número real.
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Bloquear e-mails promocionais
-highlighted-features-section-block-promotions-body =
-    Com o { -brand-name-relay-premium }, pode impedir que as mensagens promocionais cheguem à sua 
-    caixa de entrada, enquanto continua a receber e-mails tais como recibos ou informações de envio.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Remover rastreadores de e-mail
-highlighted-features-section-remove-trackers-body = O { -brand-name-relay } pode remover rastreadores de e-mail comuns de quaisquer e-mails encaminhados para si, ajudando a que se mantenha invisível para rastreadores e anunciantes.
 
 ## REVIEWS SECTION
 

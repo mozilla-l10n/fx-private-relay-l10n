@@ -128,28 +128,18 @@ highlighted-features-section-unlimited-masks-headline = Cree cence limits mascar
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Cree mascaris in bote
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium } ti da un domini di pueste eletroniche { -brand-name-relay } univoc par creâ al svol gnovis mascaris dapardut là che tu ti cjatis. Tu âs nome di zontâ une peraule o une frase prime dal simbul @. Sêstu al ristorant? Dopre ristorant@todomini.{ $mozmail }. Stâstu fasint compris? Prove cun compris@todomini.{ $mozmail }.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Rispuint aes e-mails e ai SMS in mût anonim
-highlighted-features-section-replying-body = { -brand-name-relay-premium } ti permet di rispuindi aes e-mails de tô mascare di pueste eletroniche, impedint ai mitents di cognossi la tô vere direzion e-mail. Te stesse maniere, cu lis mascaris pai numars di telefon tu puedis rispuindi ai SMS dret de tô mascare par protezi il to numar reâl.
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Bloc des e-mails publicitariis
-highlighted-features-section-block-promotions-body =
-    Cun { -brand-name-relay-premium } tu puedis impedî aes e-mails publicitariis di rivâ ae tô
-    casele di pueste e tal stes timp tu puedis ricevi e-mails impuartantis come faturis o informazions di spedizion.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Rimozion spiis da lis e-mails
-highlighted-features-section-remove-trackers-body =
-    { -brand-name-relay } al pues gjavâ lis spiis plui comunis da lis e-mails che ti vegnin mandadis indevant, in mût di judâti
-    a restâ invisibil a chei che a cirin di stâti daûr e aes agjenziis publicitariis.
 
 ## REVIEWS SECTION
 

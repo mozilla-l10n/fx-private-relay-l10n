@@ -134,34 +134,18 @@ highlighted-features-section-unlimited-masks-body-2 =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Maak onderweg direct maskers
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body =
-    { -brand-name-relay-premium } geeft u een uniek { -brand-name-relay }-e-maildomein, zodat u direct
-    nieuwe maskers kunt aanmaken, waar u ook bent. Voeg gewoon een woord of woordgroep toe voor het @-teken. In een restaurant? Gebruik restaurant@uwdomein.{ $mozmail }.
-    Aan het winkelen? Probeer winkel@uwdomein.{ $mozmail }.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Beantwoord anoniem e-mailberichten en sms’jes
-highlighted-features-section-replying-body =
-    Met { -brand-name-relay-premium } kunt u reageren op e-mailberichten vanuit uw
-    gemaskeerde e-mailaccount, zodat afzenders nooit uw echte e-mailadres zullen kennen. Met telefoonmaskering kunt u antwoorden
-    op sms’jes vanaf uw gemaskeerde telefoonnummer, om uw echte nummer te beschermen.
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Reclameberichten blokkeren
-highlighted-features-section-block-promotions-body =
-    Met { -brand-name-relay-premium } kunt u reclameberichten blokkeren voordat ze uw Postvak IN bereiken,
-    terwijl u nog steeds e-mailberichten zoals ontvangstbewijzen of verzendinformatie kunt ontvangen.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = E-mailtrackers verwijderen
-highlighted-features-section-remove-trackers-body =
-    { -brand-name-relay } kan veelgebruikte e-mailtrackers verwijderen uit e-mailberichten die naar u zijn doorgestuurd,
-    waardoor het u helpt onzichtbaar te blijven voor trackers en adverteerders.
 
 ## REVIEWS SECTION
 

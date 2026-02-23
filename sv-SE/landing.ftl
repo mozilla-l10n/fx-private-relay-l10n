@@ -134,34 +134,18 @@ highlighted-features-section-unlimited-masks-body-2 =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Skapa omedelbart alias när du är på språng
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body =
-    { -brand-name-relay-premium } ger dig en unik { -brand-name-relay } e-postdomän så att du omedelbart kan
-    skapa nya alias var du än är. Lägg bara till valfritt ord eller fras före @-symbolen. Vid en restaurang? Använd restaurang@dindomän.{ $mozmail }.
-    Handla? Testa handla@dindomän.{ $mozmail }.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Svara anonymt på mejl och sms
-highlighted-features-section-replying-body =
-    { -brand-name-relay-premium } låter dig svara på e-postmeddelanden från ditt
-    maskerade e-postkonto, så att avsändare aldrig kommer att veta din riktiga e-postadress. Med telefonmaskering kan du svara
-    på sms från ditt maskerade telefonnummer för att skydda ditt riktiga nummer.
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blockera e-postreklam
-highlighted-features-section-block-promotions-body =
-    Med { -brand-name-relay-premium } kan du blockera reklammeddelanden från att nå din
-    inkorg medan du fortfarande får e-postmeddelanden som kvitton eller leveransinformation.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Ta bort e-postspårare
-highlighted-features-section-remove-trackers-body =
-    { -brand-name-relay } kan ta bort vanliga e-postspårare från alla e-postmeddelanden som vidarebefordras till dig, vilket hjälper
-    dig att förbli osynlig för spårare och annonsörer.
 
 ## REVIEWS SECTION
 

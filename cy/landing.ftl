@@ -134,30 +134,18 @@ highlighted-features-section-unlimited-masks-body-2 =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Crëwch arallenwau e-bost wrth fynd, yn syth
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body =
-    Mae { -brand-name-relay-premium } yn cynnig parth e-bost { -brand-name-relay } unigryw i chi er mwyn i chi allu creu arallenwau newydd
-    yn syth, ble bynnag yr ydych. Yn syml, ychwanegwch unrhyw air neu ymadrodd cyn y symbol @. Mewn bwyty? Defnyddiwch bwyty@eichparth.{ $mozmail }.
-    Siopa? Rhowch gynnig ar siop@eichparth.{ $mozmail }.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Ateb e-byst a negeseuon testun yn ddienw
-highlighted-features-section-replying-body =
-    Mae { -brand-name-relay-premium } yn gadael i chi ateb e-byst oddi wrth eich
-    cyfrif e-bost cudd, felly ni fydd anfonwyr byth yn gwybod eich cyfeiriad e-bost go iawn. Gyda chuddio rhif ffôn, gallwch ateb
-    i negeseuon testun o'ch rhif ffôn wedi'i guddio i ddiogelu eich rhif go iawn.
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Rhwystro e-byst hyrwyddo
-highlighted-features-section-block-promotions-body = Gyda { -brand-name-relay-premium }, gallwch rwystro e-byst hyrwyddo rhag cyrraedd eich blwch derbyn tra'n parhau i ganiatáu i chi dderbyn e-byst fel derbynebau neu fanylion cludo.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Dileu tracwyr e-bost
-highlighted-features-section-remove-trackers-body = Nawr gall { -brand-name-relay } dynnu tracwyr e-bost cyffredin o e-byst sy'n cael eu hanfon atoch, gan eich helpu i aros yn anweledig i hysbysebwyr.
 
 ## REVIEWS SECTION
 

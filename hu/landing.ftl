@@ -131,32 +131,18 @@ highlighted-features-section-unlimited-masks-body-2 = Mindenki kap ingyen { $mas
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Maszkok azonnali készítése útközben
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body =
-    A { -brand-name-relay-premium } egyedi { -brand-name-relay } e-mail-domaint biztosít Önnek, így azonnal
-    létrehozhat új maszkokat, bárhol is legyen. Egyszerűen adjon hozzá bármilyen szót vagy kifejezést a @ szimbólum elé. Étteremben van? Használja az etterem@sajatdomain.{ $mozmail } címet.
-    Bevásárlás? Próbálja ki a bolt@sajatdomain.{ $mozmail } címet.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Válaszoljon a levelekre és SMS-ekre névtelenül
-highlighted-features-section-replying-body =
-    A { -brand-name-relay-premium } lehetővé teszi, hogy válaszoljon az Ön által küldött e-mailekre
-    a maszkolt e-mail-fiókjából, így a feladók soha nem tudják meg az Ön valódi e-mail-címét. A telefonmaszkolással
-    válaszolhat a maszkolt telefonszámról érkező SMS-ekre, hogy megvédje a valódi számát.
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blokkolja a promóciós leveleket
-highlighted-features-section-block-promotions-body =
-    A { -brand-name-relay-premium } segítségével letilthatja a promóciós e-maileket, hogy ne jussanak el a postaládájába,
-    miközben továbbra is megkapja a a nyugtákat vagy a szállítási információkat tartalmazó e-maileket.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = E-mail-követők eltávolítása
-highlighted-features-section-remove-trackers-body = A { -brand-name-relay } el tudja távolítani a gyakori e-mail-követőket az Ön számára továbbított e-mailekből, így Ön láthatatlan marad a követők és a hirdetők számára.
 
 ## REVIEWS SECTION
 
