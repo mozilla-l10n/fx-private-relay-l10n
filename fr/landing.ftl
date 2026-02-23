@@ -132,7 +132,10 @@ highlighted-features-section-unlimited-masks-body-2 =
 highlighted-features-section-masks-on-the-go-headline = Créez instantanément des alias lors de vos déplacements
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body-2 = { -brand-name-relay-premium } vous propose un domaine de messagerie { -brand-name-relay } unique pour que vous puissiez instantanément
+highlighted-features-section-masks-on-the-go-body-2 =
+    { -brand-name-relay-premium } vous propose un domaine de messagerie { -brand-name-relay } unique pour que vous puissiez instantanément
+    créer de nouveaux alias où que vous soyez. Ajoutez simplement n’importe quel mot ou phrase avant le symbole @. Vous allez au restaurant ? Utilisez restaurant@votredomaine.{ $mozmail }.
+    Vous faites des achats ? Essayez magasin@votredomaine.{ $mozmail }.
 
 # Item 3
 
