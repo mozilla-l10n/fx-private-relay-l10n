@@ -128,18 +128,24 @@ highlighted-features-section-unlimited-masks-body-2 = Herkes ücretsiz { $mask_l
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = İstediğiniz yerde anında maske oluşturma
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body-2 = { -brand-name-relay-premium } size özel bir { -brand-name-relay } e-posta alan adı verir. Böylece nerede olursanız olun anında yeni maske oluşturabilirsiniz. @ simgesinden önce istediğiniz kelimeyi veya cümleyi eklemeniz yeterli. Restoranda mısınız? restoran@alanadiniz.{ $mozmail }.  Alışveriş mi yapıyorsunuz? magaza@alanadiniz.{ $mozmail } gibi adresler oluşturabilirsiniz.
 
 # Item 3
 
 highlighted-features-section-replying-headline = E-postaları ve SMS’leri anonim olarak yanıtlama
+highlighted-features-section-replying-body-2 = { -brand-name-relay-premium } ile e-postalara maskeli e-posta hesabınızdan yanıt verebilirsiniz. Böylece gönderenler asla gerçek e-posta adresinizi bilemez. Telefon maskeleme ile de gelen kısa mesajları maskelediğiniz telefon numaranızdan yanıtlayabilirsiniz.
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Reklam e-postalarını engelleme
+highlighted-features-section-block-promotions-body-2 = { -brand-name-relay-premium } ile reklam e-postalarının gelen kutunuza ulaşmasını engellerken fatura, kargo bilgisi gibi e-postaların hâlâ size ulaşmasını sağlayabilirsiniz.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = E-posta takip kodlarını kaldırma
+highlighted-features-section-remove-trackers-body-2 = { -brand-name-relay } size yönlendirilen e-postalardaki sık kullanılan e-posta takip kodlarını kaldırabilir. Böylece takip kodları ve reklamverenler sizi takip edemez.
 
 ## REVIEWS SECTION
 

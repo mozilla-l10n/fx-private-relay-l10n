@@ -128,18 +128,24 @@ highlighted-features-section-unlimited-masks-body-2 = Každý dostane { $mask_li
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Okamžitě vytváření masek ať jste kdekoliv
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body-2 = Služba { -brand-name-relay-premium } vám poskytne jedinečnou e-mailovou doménu { -brand-name-relay }, takže můžete okamžitě vytvářet nové masky, ať jste kdekoli. Stačí přidat libovolné slovo nebo frázi před symbol @. Jste v restauraci? Použijte restaurace@vasedomena.{ $mozmail }.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Odpovídejte na e-maily a textové zprávy anonymně
+highlighted-features-section-replying-body-2 = Služba { -brand-name-relay-premium } umožňuje odpovídat na e-maily pocházející od vašeho
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blokování reklamních e-mailů
+highlighted-features-section-block-promotions-body-2 = Se službou { -brand-name-relay-premium } můžete blokovat doručování reklamních e-mailů do vaší e-mailové schránky, přičemž ostatní e-maily jako třeba pokladní doklady nebo informace o doručení zásilky stále dostanete.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Odstraňování sledovacích prvků z e-mailů
+highlighted-features-section-remove-trackers-body-2 = { -brand-name-relay } umí z přeposlaných e-mailů odstranit běžné sledovací prvky, díky čemuž zůstanete pro inzerenty neviditelní.
 
 ## REVIEWS SECTION
 

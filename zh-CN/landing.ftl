@@ -128,18 +128,24 @@ highlighted-features-section-unlimited-masks-body-2 = 人人皆可免费获得 {
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = 随时随地创建马甲
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body-2 = 订阅 { -brand-name-relay-premium } 后，您可以使用专属的 { -brand-name-relay } 邮箱域名来随时创建新马甲。只需在 @ 符号前添加字符就能生成马甲。要预订餐厅？可以用 canting@<你的域名>.{ $mozmail }。要购物？那就用 shop@<你的域名>.{ $mozmail }。
 
 # Item 3
 
 highlighted-features-section-replying-headline = 匿名回复邮件和短信
+highlighted-features-section-replying-body-2 = { -brand-name-relay-premium } 可让您使用马甲邮箱账户来回复邮件，
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = 屏蔽营销邮件
+highlighted-features-section-block-promotions-body-2 = 使用 { -brand-name-relay-premium } 可屏蔽营销邮件，
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = 移除邮件跟踪器
+highlighted-features-section-remove-trackers-body-2 = 现在 { -brand-name-relay } 可以从转发给您的电子邮件中去除常见的跟踪器，
 
 ## REVIEWS SECTION
 

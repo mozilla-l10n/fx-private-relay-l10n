@@ -131,18 +131,24 @@ highlighted-features-section-unlimited-masks-body-2 = Setiap orang mendapatkan {
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Buat topeng secara instan saat bepergian
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body-2 = { -brand-name-relay-premium } memberi Anda domain email unik { -brand-name-relay } sehingga Anda dapat langsung
 
 # Item 3
 
 highlighted-features-section-replying-headline = Balas surel & teks secara anonim
+highlighted-features-section-replying-body-2 = { -brand-name-relay-premium } memungkinkan Anda membalas surel dari
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blokir surel promosi
+highlighted-features-section-block-promotions-body-2 = Dengan { -brand-name-relay-premium }, Anda dapat memblokir surel promosi agar tidak mencapai
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Hapus pelacak surel
+highlighted-features-section-remove-trackers-body-2 = { -brand-name-relay } dapat menghapus pelacak surel umum dari surel yang diteruskan kepada Anda, membantu
 
 ## REVIEWS SECTION
 

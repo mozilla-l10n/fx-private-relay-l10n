@@ -128,18 +128,24 @@ highlighted-features-section-unlimited-masks-body-2 = 人人都能免費獲得 {
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = 隨時隨地自由建立轉寄信箱
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body-2 = { -brand-name-relay-premium } 讓您可以設定專屬 { -brand-name-relay } 郵件網域，讓您能隨時隨地建立轉寄信箱。只要在 @ 符號前加入任何文字或詞彙。想預約餐廳？可以使用 restaurant@yourdomain.{ $mozmail }。買東西？可以使用 shop@yourdomain.{ $mozmail }。
 
 # Item 3
 
 highlighted-features-section-replying-headline = 匿名回覆電子郵件與簡訊
+highlighted-features-section-replying-body-2 = { -brand-name-relay-premium } 讓您可以直接從轉寄信箱回信，寄件者永遠無法知道您的實際信箱。您也可以直接回覆透過虛擬手機號碼轉接功能接收到的簡訊，以保護您的實際號碼。
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = 封鎖行銷郵件
+highlighted-features-section-block-promotions-body-2 = 透過 { -brand-name-relay-premium }，您可以封鎖行銷郵件，同時確保收據、訂單出貨通知等重要郵件能夠直達信件匣。
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = 移除郵件追蹤器
+highlighted-features-section-remove-trackers-body-2 = { -brand-name-relay } 可移除轉寄郵件當中常見的追蹤器，幫助您不被追蹤器與廣告商追蹤。
 
 ## REVIEWS SECTION
 
