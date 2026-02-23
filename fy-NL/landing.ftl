@@ -124,6 +124,12 @@ plan-matrix-your-plan = Jo abonnemint
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Meitsje ûnbeheinde e-mailmaskers oan
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body-2 =
+    Elkenien ûntfangt fergees { $mask_limit } e-mailmaskers.
+    Mar mei { -brand-name-relay-premium } kinne jo safolle maskers oanmeitsje as jo nedich hawwe om jo e-mail te beskermjen
+    tsjin spammers, hackers, datalekken en online trackers.
 
 # Item 2
 
