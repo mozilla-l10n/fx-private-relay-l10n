@@ -132,18 +132,26 @@ highlighted-features-section-unlimited-masks-body-2 =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Crea alias al volo
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body-2 = { -brand-name-relay-premium } ti offre un dominio di posta elettronica { -brand-name-relay } univoco per creare al volo nuovi alias ovunque ti trovi. Devi semplicemente aggiungere una parola o una frase prima del simbolo @. Sei al ristorante? Utilizza ristorante@tuodominio.{ $mozmail }. Stai facendo acquisti? Prova con shop@tuodominio.{ $mozmail }.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Rispondi alle email e agli SMS in modo anonimo
+highlighted-features-section-replying-body-2 = { -brand-name-relay-premium } ti consente di rispondere alle email dal tuo alias di posta elettronica, impedendo ai mittenti di scoprire il tuo indirizzo email reale. Allo stesso modo, con gli alias per numeri di telefono puoi rispondere agli SMS direttamente dal tuo alias per proteggere il tuo numero reale.
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blocco delle email pubblicitarie
+highlighted-features-section-block-promotions-body-2 =
+    Con { -brand-name-relay-premium } puoi impedire alle email pubblicitarie di raggiungere la tua 
+    casella di posta e al tempo stesso ricevere email essenziali come fatture o informazioni su una spedizione.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Rimozione elementi traccianti dalle email
+highlighted-features-section-remove-trackers-body-2 = { -brand-name-relay } può rimuovere gli elementi traccianti più comuni dalle email che ti vengono inoltrate, aiutandoti a rimanere invisibile a soggetti che cercano di tracciarti e agli inserzionisti.
 
 ## REVIEWS SECTION
 
