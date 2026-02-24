@@ -138,14 +138,21 @@ highlighted-features-section-masks-on-the-go-headline = Skapa omedelbart alias n
 # Item 3
 
 highlighted-features-section-replying-headline = Svara anonymt på mejl och sms
+highlighted-features-section-replying-body-2 = { -brand-name-relay-premium } låter dig svara på e-postmeddelanden från ditt e-postkonto-alias, så att avsändare aldrig får veta din riktiga e-postadress. Med telefonalias kan du svara på sms från ditt telefonnummer-alias för att skydda ditt riktiga nummer.
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blockera e-postreklam
+highlighted-features-section-block-promotions-body-2 =
+    Med { -brand-name-relay-premium } kan du blockera reklammeddelanden från att nå din
+    inkorg medan du fortfarande får e-postmeddelanden som kvitton eller leveransinformation.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Ta bort e-postspårare
+highlighted-features-section-remove-trackers-body-2 =
+    { -brand-name-relay } kan ta bort vanliga e-postspårare från alla e-postmeddelanden som vidarebefordras till dig, vilket hjälper
+    dig att förbli osynlig för spårare och annonsörer.
 
 ## REVIEWS SECTION
 
