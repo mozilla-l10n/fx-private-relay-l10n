@@ -135,18 +135,34 @@ highlighted-features-section-unlimited-masks-body-2 =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Crea instantaneemente mascas al volo
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body-2 =
+    { -brand-name-relay-premium } te da un domino email { -brand-name-relay } unic assi que tu pote instantaneemente 
+    crear nove mascas ubique tu es. Simplemente adde alcun parola o expression ante le symbolo @. A un restaurante? Usa restaurante@yourdomain.{ $mozmail }.{ $mozmail }. 
+    Compras? Prova boteca@yourdomain.{ $mozmail }.{ $mozmail }.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Responde anonymemente a emails e SMS
+highlighted-features-section-replying-body-2 =
+    { -brand-name-relay-premium } te permitte de responder a emails per tu
+    conto email mascate, assi expeditores jammais sapera tu real adresse email. Con le mascas pro telephono, tu pote replicar 
+    al SMS ab tu numero de telephono disguisate pro proteger tu numero real.
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blocar e-mails promotional
+highlighted-features-section-block-promotions-body-2 =
+    Con { -brand-name-relay-premium }, tu pote impedir al e-mails promotional de attinger tu 
+    cassa de ingresso, dum ancora tu recipe e-mails como quitantias o informationes de expedition.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Remover traciatores de emails
+highlighted-features-section-remove-trackers-body-2 =
+    { -brand-name-relay } pote remover le traciatores de email commun ab qualcunque e-mails inviate in addition a te, adjutante 
+    te a remaner invisibile a traciatores e publicitarios.
 
 ## REVIEWS SECTION
 
