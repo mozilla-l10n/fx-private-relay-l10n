@@ -134,6 +134,12 @@ highlighted-features-section-unlimited-masks-body-2 =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Skapa omedelbart alias när du är på språng
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body-2 =
+    { -brand-name-relay-premium } ger dig en unik { -brand-name-relay } e-postdomän så att du direkt kan 
+    skapa nya alias var du än är. Lägg bara till ett ord eller en fras före @-symbolen. På en restaurang? Använd restaurang@dindomän.{ $mozmail }. 
+    Shopping? Testa handla@dindomän.{ $mozmail }.
 
 # Item 3
 
