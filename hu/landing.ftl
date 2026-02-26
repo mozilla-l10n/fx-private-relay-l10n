@@ -126,24 +126,32 @@ plan-matrix-your-plan = Az Ön csomagja
 highlighted-features-section-unlimited-masks-headline = Korlátlan számú e-mail-maszk létrehozása
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body-2 = Mindenki kap ingyen { $mask_limit } e-mail-maszkot.  A { -brand-name-relay-premium } segítségével azonban annyi maszkot állíthat elő, amennyire csak szüksége van, hogy megvédje e-mailjeit a spammerektől, a hackerektől, az adatvédelmi incidensektől és az online nyomkövetőktől.
+highlighted-features-section-unlimited-masks-body-2 = Mindenki ingyenesen kap { $mask_limit } e-mail-maszkot. A { -brand-name-relay-premium } segítségével azonban annyi maszkot hozhat létre, amennyire csak szüksége van a levelezése spammerektől, hackerektől, adatvédelmi incidensektől és online nyomkövetőktől történő megvédéséhez.
 
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Maszkok azonnali készítése útközben
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body-2 = A { -brand-name-relay-premium } egyedi { -brand-name-relay } e-mail-domaint biztosít Önnek, így azonnal
+highlighted-features-section-masks-on-the-go-body-2 =
+    A { -brand-name-relay-premium } egyedi { -brand-name-relay } e-mail-domaint biztosít Önnek, így azonnal
+    létrehozhat új maszkokat, bárhol is legyen. Egyszerűen adjon hozzá bármilyen szót vagy kifejezést a @ szimbólum elé. Étteremben van? Használja az etterem@sajatdomain.{ $mozmail } címet.
+    Bevásárlás? Próbálja ki a bolt@sajatdomain.{ $mozmail } címet.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Válaszoljon a levelekre és SMS-ekre névtelenül
-highlighted-features-section-replying-body-2 = A { -brand-name-relay-premium } lehetővé teszi, hogy válaszoljon az Ön által küldött e-mailekre
+highlighted-features-section-replying-body-2 =
+    A { -brand-name-relay-premium } lehetővé teszi, hogy válaszoljon az Ön által küldött e-mailekre
+    a maszkolt e-mail-fiókjából, így a feladók soha nem tudják meg az Ön valódi e-mail-címét. A telefonmaszkolással
+    válaszolhat a maszkolt telefonszámról érkező SMS-ekre, hogy megvédje a valódi számát.
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blokkolja a promóciós leveleket
-highlighted-features-section-block-promotions-body-2 = A { -brand-name-relay-premium } segítségével letilthatja a promóciós e-maileket, hogy ne jussanak el a postaládájába,
+highlighted-features-section-block-promotions-body-2 =
+    A { -brand-name-relay-premium } segítségével letilthatja a promóciós e-maileket, hogy ne jussanak el a postaládájába,
+    miközben továbbra is megkapja a a nyugtákat vagy a szállítási információkat tartalmazó e-maileket.
 
 # Item 5
 
