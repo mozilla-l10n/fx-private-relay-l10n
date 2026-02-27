@@ -134,6 +134,12 @@ highlighted-features-section-unlimited-masks-body-2 =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Crëwch arallenwau e-bost wrth fynd, yn syth
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body-2 =
+    Mae { -brand-name-relay-premium } yn rhoi parth e-bost { -brand-name-relay } unigryw i chi er mwyn i chi allu ar unwaith 
+    creu arallenwau newydd ble bynnag rydych chi. Yn syml, ychwanegwch unrhyw air neu ymadrodd cyn y symbol @. Mewn bwyty? Defnyddiwch bwyty@eichparth.{ $mozmail }. 
+    Siopa? Rhowch gynnig ar siop@eichparth.{ $mozmail }.
 
 # Item 3
 
