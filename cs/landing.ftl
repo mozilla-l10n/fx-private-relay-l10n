@@ -6,7 +6,7 @@
 ## HERO SECTION
 
 hero-section-title = Chránit svou identitu pomocí bezpečného maskování telefonu a e-mailu
-hero-section-body = Naše bezpečné a snadno použitelné e-mailové a telefonní masky pomáhají uchovat vaši identitu v bezpečí, takže si můžete anonymně zaregistrovat nové účty, zastavit SMS zprávy či nevyžádané hovory a do své doručené pošty dostávat pouze e-maily, které chcete.
+hero-section-body = Naše bezpečné a snadno použitelné e-mailové a telefonní masky pomáhají uchovávat vaši identitu v bezpečí, takže můžete na webech anonymně vytvářet nové účty, zastavit příjem nevyžádaných SMS zpráv či hovorů, a do své doručené pošty dostávat jen ty e-maily, o které stojíte.
 hero-section-cta = Začít
 # Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
 # Example: "As seen in FORBES magainze and LifeHacker website"
