@@ -134,18 +134,34 @@ highlighted-features-section-unlimited-masks-body-2 =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Crea máscaras instantáneamente
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body-2 =
+    { -brand-name-relay-premium } te ofrece un dominio de correo electrónico exclusivo de { -brand-name-relay } para que puedas
+    crear nuevas máscaras dondequiera que estés. Simplemente añade cualquier palabra o frase antes del símbolo @. ¿En un restaurante? Usa restaurante@tudominio.{ $mozmail }.
+    ¿De compras? Prueba shop@tudominio.{ $mozmail }.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Responder a correos electrónicos y mensajes de texto de forma anónima
+highlighted-features-section-replying-body-2 =
+    { -brand-name-relay-premium } te permite responder correos electrónicos de tu
+    cuenta de correo electrónico enmascarada, por lo que los remitentes nunca sabrán tu dirección de correo electrónico real. Con el enmascaramiento del teléfono, puedes responder
+    a mensajes de texto desde tu número de teléfono enmascarado para proteger tu número real.
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Bloquear correos promocionales
+highlighted-features-section-block-promotions-body-2 =
+    Con { -brand-name-relay-premium }, puedes bloquear los correos electrónicos promocionales para que no lleguen a tu
+    bandeja de entrada mientras sigues recibiendo otros correos electrónicos como recibos o seguimiento de compras.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Eliminar rastreadores de correo electrónico
+highlighted-features-section-remove-trackers-body-2 =
+    { -brand-name-relay } puede eliminar rastreadores comunes del correo electrónico de los mensajes de correo electrónico que se te reenvían, ayudando 
+    a mantenerte invisible para rastreadores y anunciantes.
 
 ## REVIEWS SECTION
 
