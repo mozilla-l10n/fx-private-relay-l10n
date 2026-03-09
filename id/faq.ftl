@@ -55,6 +55,8 @@ faq-question-mozmail-answer-2 = Kami beralih dari “relay.firefox.com” ke “
 faq-question-attachments-question = Apakah { -brand-name-firefox-relay } akan meneruskan surel dengan lampiran?
 faq-question-attachments-answer-v2 = Sekarang kami mendukung penerusan lampiran. Namun, ada batas { email-size-limit } untuk penerusan surel menggunakan { -brand-name-relay }. Surel apapun yang lebih besar dari { email-size-limit } tidak akan diteruskan.
 faq-question-unsubscribe-domain-question-2 = Apa yang terjadi pada subdomain kustom saya jika saya berhenti berlangganan dari { -brand-name-relay-premium }?
+#   $mask_limit (number) - Number of free email masks allowed
+faq-question-unsubscribe-domain-answer-3 = Jika Anda menurunkan versi dari { -brand-name-relay-premium }, Anda masih akan menerima surel yang diteruskan melalui topeng surel khusus Anda, tetapi Anda tidak lagi dapat membuat topeng baru menggunakan subdomain itu. Jika Anda memiliki lebih dari { $mask_limit } topeng, Anda tidak akan dapat membuat topeng lagi. Anda juga akan kehilangan kemampuan untuk membalas pesan yang diteruskan. Anda dapat berlangganan kembali { -brand-name-relay-premium } dan mendapatkan kembali akses ke fitur ini.
 faq-question-8-question = Data apa saja yang dikumpulkan oleh { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -69,6 +71,7 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } memili
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Memerlukan { -brand-name-firefox-account(kapitalisasi: "uppercase") } dengan alamat surel yang telah diverifikasi
 faq-question-acceptable-use-answer-measure-account-v2 = Membutuhkan akun dengan alamat surel terverifikasi
+faq-question-acceptable-use-answer-measure-unlimited-payment-3 = Memerlukan pembayaran bagi pengguna untuk membuat lebih dari { $mask_limit } topeng
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Pembatasan tingkat jumlah topeng yang dapat dihasilkan dalam satu hari
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

@@ -61,6 +61,8 @@ faq-question-mozmail-answer-2 = Přešli jsme z domény „relay.firefox.com“ 
 faq-question-attachments-question = Bude { -brand-name-firefox-relay } přeposílat e-maily s přílohami?
 faq-question-attachments-answer-v2 = Nyní podporujeme přeposílání příloh. Pro přeposílání e-mailů pomocí { -brand-name-relay(case: "gen") } je však stanoven limit { email-size-limit }. E-maily s velikostí větší než { email-size-limit } nebudou přeposlány.
 faq-question-unsubscribe-domain-question-2 = Co se stane s mou vlastní subdoménou, když se odhlásím z { -brand-name-relay-premium(case: "gen") }?
+#   $mask_limit (number) - Number of free email masks allowed
+faq-question-unsubscribe-domain-answer-3 = Pokud přejdete na nižší verzi z { -brand-name-relay-premium }, budete stále dostávat e-maily přeposílané přes své vlastní e-mailové masky, ale nebudete si moci pomocí této subdomény vytvářet nové masky. Pokud máte celkem více než { $mask_limit } masek, nebudete moci vytvořit další. Ztratíte také možnost odpovídat na přeposlané zprávy. Můžete se znovu přihlásit k předplatnému { -brand-name-relay-premium } a získat tak přístup k těmto funkcím.
 faq-question-8-question = Jaké údaje { -brand-name-firefox-relay } shromažďuje?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -75,6 +77,7 @@ faq-question-acceptable-use-answer-a-html = Pro službu { -brand-name-firefox-re
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Vyžadujeme { -brand-name-firefox-account(case: "acc") } s ověřenou e-mailovou adresou
 faq-question-acceptable-use-answer-measure-account-v2 = Vyžaduje se účet s ověřenou e-mailovou adresou
+faq-question-acceptable-use-answer-measure-unlimited-payment-3 = Za vytvoření více než { $mask_limit } masek je vyžadována platba
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Omezujeme počet masek, které lze vytvořit za jeden den
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
