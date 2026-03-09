@@ -55,6 +55,8 @@ faq-question-mozmail-answer-2 = Wir haben die Umstellung von „relay.firefox.co
 faq-question-attachments-question = Leitet { -brand-name-firefox-relay } E-Mails mit Anhang weiter?
 faq-question-attachments-answer-v2 = Wir unterstützen jetzt die Weiterleitung von Anhängen. Es gibt jedoch eine Begrenzung von { email-size-limit } für die E-Mail-Weiterleitung mit { -brand-name-relay }. Alle E-Mails, die größer als { email-size-limit } sind, werden nicht weitergeleitet.
 faq-question-unsubscribe-domain-question-2 = Was passiert mit meiner benutzerdefinierten Subdomain, wenn ich mich von { -brand-name-relay-premium } abmelde?
+#   $mask_limit (number) - Number of free email masks allowed
+faq-question-unsubscribe-domain-answer-3 = Wenn Sie von { -brand-name-relay-premium } herunterstufen, erhalten Sie weiterhin E-Mails, die über Ihre benutzerdefinierten E-Mail-Masken weitergeleitet wurden, aber Sie können keine neuen Masken mehr mit dieser Subdomain erstellen. Wenn Sie insgesamt mehr als { $mask_limit } Masken haben, können Sie keine weiteren Masken erstellen. Sie können auch weitergeleitete Nachrichten nicht mehr beantworten. Sie können { -brand-name-relay-premium } erneut abonnieren und erhalten wieder Zugriff auf diese Funktionen.
 faq-question-8-question = Welche Daten erhebt { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -69,6 +71,7 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } hat di
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = ein { -brand-name-firefox-account(capitalization: "uppercase") } mit einer verifizierten E-Mail-Adresse verlangen
 faq-question-acceptable-use-answer-measure-account-v2 = Es wird ein Konto mit einer verifizierten E-Mail-Adresse benötigt
+faq-question-acceptable-use-answer-measure-unlimited-payment-3 = die Erstellung von mehr als { $mask_limit } Masken nur gegen Bezahlung zulassen
 faq-question-acceptable-use-answer-measure-rate-limit-2 = die Anzahl von Masken begrenzen, die an einem Tag erzeugen werden können
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
