@@ -115,7 +115,7 @@ profile-promo-email-blocking-description-promotionals-locked-cta = Upgrade now
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Join the { -brand-name-relay-premium } waitlist
 profile-promo-email-blocking-description-promotionals-locked-close = Close
 
-## 5 Mask Upsell (displayed on the profile page)
+## Free Mask Limit Upsell (displayed on the profile page)
 
 # Mask limit has been reached. 
 # Variables:
