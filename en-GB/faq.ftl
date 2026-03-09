@@ -55,6 +55,8 @@ faq-question-mozmail-answer-2 = We made the switch from “relay.firefox.com” 
 faq-question-attachments-question = Will { -brand-name-firefox-relay } forward emails with attachments?
 faq-question-attachments-answer-v2 = We now support attachment forwarding. However, there is a { email-size-limit } limit for email forwarding using { -brand-name-relay }. Any emails larger than { email-size-limit } will not be forwarded.
 faq-question-unsubscribe-domain-question-2 = What happens to my custom subdomain if I unsubscribe from { -brand-name-relay-premium }?
+#   $mask_limit (number) - Number of free email masks allowed
+faq-question-unsubscribe-domain-answer-3 = If you downgrade from { -brand-name-relay-premium }, you’ll still receive emails forwarded through your custom email masks, but you’ll no longer be able to create new masks using that sub-domain. If you have more than { $mask_limit } masks in total, you will not be able to create any more. You’ll also lose the ability to reply to forwarded messages. You can resubscribe to { -brand-name-relay-premium } and regain access to these features.
 faq-question-8-question = What data does { -brand-name-firefox-relay } collect?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -69,6 +71,7 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } has th
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Requiring a { -brand-name-firefox-account(capitalization: "uppercase") } with a verified email address
 faq-question-acceptable-use-answer-measure-account-v2 = Requiring an account with a verified email address
+faq-question-acceptable-use-answer-measure-unlimited-payment-3 = Requiring payment for a user to create more than { $mask_limit } masks
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Rate-limiting the number of masks that can be generated in one day
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
