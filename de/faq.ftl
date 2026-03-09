@@ -55,7 +55,6 @@ faq-question-mozmail-answer-2 = Wir haben die Umstellung von „relay.firefox.co
 faq-question-attachments-question = Leitet { -brand-name-firefox-relay } E-Mails mit Anhang weiter?
 faq-question-attachments-answer-v2 = Wir unterstützen jetzt die Weiterleitung von Anhängen. Es gibt jedoch eine Begrenzung von { email-size-limit } für die E-Mail-Weiterleitung mit { -brand-name-relay }. Alle E-Mails, die größer als { email-size-limit } sind, werden nicht weitergeleitet.
 faq-question-unsubscribe-domain-question-2 = Was passiert mit meiner benutzerdefinierten Subdomain, wenn ich mich von { -brand-name-relay-premium } abmelde?
-faq-question-unsubscribe-domain-answer-2 = Wenn Sie ein Downgrade von { -brand-name-relay-premium } durchführen, erhalten Sie weiterhin E-Mails, die über Ihre benutzerdefinierten E-Mail-Masken weitergeleitet werden, aber Sie können mit dieser Subdomain keine neuen Masken mehr erstellen. Wenn Sie insgesamt mehr als fünf Masken haben, können Sie keine weiteren erstellen. Sie verlieren auch die Möglichkeit, auf weitergeleitete Nachrichten zu antworten. Sie können { -brand-name-relay-premium } erneut abonnieren und wieder auf diese Funktionen zugreifen.
 faq-question-8-question = Welche Daten erhebt { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -70,7 +69,6 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } hat di
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = ein { -brand-name-firefox-account(capitalization: "uppercase") } mit einer verifizierten E-Mail-Adresse verlangen
 faq-question-acceptable-use-answer-measure-account-v2 = Es wird ein Konto mit einer verifizierten E-Mail-Adresse benötigt
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = die Erstellung von mehr als fünf Masken nur gegen Bezahlung zulassen
 faq-question-acceptable-use-answer-measure-rate-limit-2 = die Anzahl von Masken begrenzen, die an einem Tag erzeugen werden können
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

@@ -271,7 +271,7 @@ first-time-user-email-footer-text-privacy = Koşullar ve Gizlilik
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 50
 api-error-free-tier-limit = Ücretsiz hesabınızdaki { $free_tier_limit } e-posta maskesinin hepsini kullandınız. Mevcut maskelerinizi istediğiniz kadar yeniden kullanabilirsiniz ama her hesap için benzersiz bir maske kullanmak en güvenli seçenektir.
 api-error-free-tier-no-subdomain-masks = Ücretsiz hesabınızda maskeler için özel alt alan adları kullanılamaz. Özel maske oluşturmak için { -brand-name-relay-premium } aboneliğine yükseltin.
 # Variables:

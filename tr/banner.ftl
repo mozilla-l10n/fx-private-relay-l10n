@@ -93,7 +93,7 @@ holiday-promo-banner-code-usage = Ödeme sırasında <coupon>{ $couponCode }</co
 holiday-promo-banner-cta-button = 1 yıllık { -brand-name-premium } alın
 holiday-promo-banner-promo-expiry = teklif 31 Aralık 2023’te sona erecek
 
-## 4-mask upsell banner
+## Mask limit upsell banner
 
 upsell-banner-4-masks-button-close-label = Kapat
 upsell-banner-4-masks-us-heading = E-posta ve telefon korumanızı en üst seviyeye çıkarın

@@ -271,7 +271,7 @@ first-time-user-email-footer-text-privacy = Cundizions di utilizazion e riservat
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 50
 api-error-free-tier-limit = Tu âs doprât dutis { $free_tier_limit } lis mascaris di pueste eletroniche includudis tal to account gratuit. Tu puedis tornâ a doprâ une mascare esistente, ma doprâ une mascare univoche par ogni account e je la opzion plui sigure.
 api-error-free-tier-no-subdomain-masks = Il to account gratuit nol inclût sot-dominis personalizâts pes mascaris. Par creâ mascaris personalizadis, passe a { -brand-name-relay-premium }.
 # Variables:

@@ -112,7 +112,7 @@ profile-promo-email-blocking-description-promotionals-locked-cta = Mettre à niv
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Rejoindre la liste d’attente de { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Fermer
 
-## 5 Mask Upsell (displayed on the profile page)
+## Free Mask Limit Upsell (displayed on the profile page)
 
 # Mask limit has been reached. 
 # Variables:

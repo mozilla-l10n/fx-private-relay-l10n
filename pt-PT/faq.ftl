@@ -55,7 +55,6 @@ faq-question-mozmail-answer-2 = Realizámos a transição de “relay.firefox.co
 faq-question-attachments-question = O { -brand-name-firefox-relay } encaminhará mensagens com anexos?
 faq-question-attachments-answer-v2 = Nós agora suportamos o encaminhamento de anexos. No entanto, existe um limite de { email-size-limit } para o encaminhamento de mensagens ao utilizar o { -brand-name-relay }. Quaisquer e-mails maiores que { email-size-limit } não serão encaminhados.
 faq-question-unsubscribe-domain-question-2 = O que acontece ao meu subdomínio personalizado se eu cancelar a subscrição do { -brand-name-relay-premium }?
-faq-question-unsubscribe-domain-answer-2 = Se mudar de versão do { -brand-name-relay-premium }, irá continuar a receber e-mails encaminhados através das suas máscaras de correio eletrónico personalizadas, mas deixará de poder criar novas máscaras utilizando esse subdomínio. Se tiver mais de cinco máscaras no total, não poderá criar mais nenhuma. Irá também perder a capacidade de responder às mensagens encaminhadas. Pode voltar a subscrever ao { -brand-name-relay-premium } e recuperar o acesso a estas funcionalidades.
 faq-question-8-question = Que tipo de dados o { -brand-name-firefox-relay } recolhe?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -70,7 +69,6 @@ faq-question-acceptable-use-answer-a-html = O { -brand-name-firefox-relay } tem 
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = A necessitar de uma { -brand-name-firefox-account(capitalization: "uppercase") } com um endereço de e-mail verificado
 faq-question-acceptable-use-answer-measure-account-v2 = Ao requerer uma conta com um endereço de e-mail verificado
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Ao requerer pagamentos para um utilizador poder criar mais de cinco máscaras
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Limitação do número de máscaras que podem ser geradas num dia
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

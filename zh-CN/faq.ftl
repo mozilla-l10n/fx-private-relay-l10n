@@ -55,7 +55,6 @@ faq-question-mozmail-answer-2 = 之所以从“relay.firefox.com”切换到“m
 faq-question-attachments-question = { -brand-name-firefox-relay } 可以转发含附件的电子邮件吗？
 faq-question-attachments-answer-v2 = 我们的 { -brand-name-relay } 现已支持附件转发功能，但有 { email-size-limit } 的大小限制。任何附件大于 { email-size-limit } 的邮件都不会被转发。
 faq-question-unsubscribe-domain-question-2 = 若取消订阅 { -brand-name-relay-premium }，我的自定义子域会怎样？
-faq-question-unsubscribe-domain-answer-2 = 若不再续订 { -brand-name-relay-premium }，您仍能收到之前自定义马甲邮箱转发的电子邮件，但无法再使用该子域名新建马甲。若已有五个以上马甲，则无法创建更多马甲。您也将无法回复转发的消息。重新订阅 { -brand-name-relay-premium } 才可重获这些功能的使用权。
 faq-question-8-question = { -brand-name-firefox-relay } 会收集哪些数据？
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -70,7 +69,6 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } 和所
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = 要求 { -brand-name-firefox-account }使用验证过的电子邮件地址
 faq-question-acceptable-use-answer-measure-account-v2 = 需要通过已验证的邮箱地址来申请账户
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = 要求用户付费才可创建五个以上马甲
 faq-question-acceptable-use-answer-measure-rate-limit-2 = 限制一天内可生成的马甲数量
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

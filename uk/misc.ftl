@@ -276,7 +276,7 @@ first-time-user-email-footer-text-privacy = Умови та приватніст
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 50
 api-error-free-tier-limit = Ви використали всі { $free_tier_limit } масок електронної пошти, доступні у вашому безплатному обліковому записі. Можна скористатися вже наявною маскою, але найбезпечнішим способом є використання унікальної маски для кожного облікового запису.
 api-error-free-tier-no-subdomain-masks = Ваш безплатний обліковий запис не включає власні піддомени для масок. Щоб створювати власні маски, передплатіть { -brand-name-relay-premium }.
 # Variables:

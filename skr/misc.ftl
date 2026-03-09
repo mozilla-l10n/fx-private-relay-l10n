@@ -268,7 +268,7 @@ first-time-user-email-footer-text-privacy = شرطاں تے رازداری
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 50
 api-error-free-tier-limit = تساں اپݨے مفت اکاؤنٹ دے نال شامل تمام { $free_tier_limit } ای میل ماسک استعمال کر گھدے ہن۔ تساں موجودہ ماسک کوں دوبارہ استعمال کر سڳدے او، لیکن ہر اکاؤنٹ کیتے نویکلے ماسک دا استعمال سبھ توں محفوظ آپشن ہے۔
 api-error-free-tier-no-subdomain-masks = تہاݙے مفت کھاتے وچ ماسکاں کیتے مخصوص سب ڈومیناں شامل کائنی۔ مخصوص ماسک خلقݨ کیتے، { -brand-name-relay-premium } تے اپ گریڈ کرو۔
 # Variables:

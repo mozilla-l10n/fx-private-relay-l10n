@@ -97,7 +97,7 @@ holiday-promo-banner-code-usage = Használja a <coupon>{ $couponCode }</coupon> 
 holiday-promo-banner-cta-button = Kapjon 1 év { -brand-name-premium }ot
 holiday-promo-banner-promo-expiry = Az ajánlat 2023. december 31-ig érvényes
 
-## 4-mask upsell banner
+## Mask limit upsell banner
 
 upsell-banner-4-masks-button-close-label = Bezárás
 upsell-banner-4-masks-us-heading = Kapjon maximális védelmet a postafiókja és telefonja

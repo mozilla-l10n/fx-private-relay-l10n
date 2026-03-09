@@ -281,7 +281,7 @@ first-time-user-email-footer-text-privacy = Podmienky a ochrana osobných údajo
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 50
 api-error-free-tier-limit = Použili ste všetky e‑mailové masky (celkom { $free_tier_limit }), ktoré sú súčasťou vášho bezplatného účtu. Môžete znova použiť existujúcu masku, ale použitie jedinečnej masky pre každý účet je najbezpečnejšia možnosť.
 api-error-free-tier-no-subdomain-masks = Váš bezplatný účet nezahŕňa vlastné subdomény pre masky. Ak chcete vytvoriť vlastné masky, inovujte na { -brand-name-relay-premium }.
 # Variables:

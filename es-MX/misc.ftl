@@ -269,7 +269,7 @@ first-time-user-email-footer-text-privacy = Términos y privacidad
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 50
 api-error-free-tier-limit = Has utilizado todas las máscaras de correo electrónico { $free_tier_limit } incluidas con tu cuenta gratuita. Puedes reutilizar una máscara existente, pero usar una máscara única para cada cuenta es la opción más segura.
 api-error-free-tier-no-subdomain-masks = Tu cuenta gratuita no incluye subdominios personalizados para máscaras. Para crear máscaras personalizadas, actualiza a { -brand-name-relay-premium }.
 # Variables:

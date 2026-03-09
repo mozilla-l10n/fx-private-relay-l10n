@@ -55,7 +55,6 @@ faq-question-mozmail-answer-2 = O vin fat il passaç di “relay.firefox.com” 
 faq-question-attachments-question = { -brand-name-firefox-relay } mandaraial indenant e-mails cun zontis?
 faq-question-attachments-answer-v2 = Cumò o supuartìn il mandâ indevant lis zontis. Dut câs, o vin un limit aes dimensions: { -brand-name-relay } nol mandarà indenant i messaçs plui grancj di { email-size-limit }.
 faq-question-unsubscribe-domain-question-2 = Ce sucedial al gno sot-domini personalizât se o disdeti l’abonament a { -brand-name-relay-premium }?
-faq-question-unsubscribe-domain-answer-2 = Se tu regredissis di { -brand-name-relay-premium }, tu continuarâs a ricevi e-mails mandadis indenant midiant lis tôs mascaris di pueste personalizadis, ma no tu podarâs plui creâ gnovis mascaris doprant chel sot-domini. Se tu âs plui di cinc mascaris in dut, no tu podarâs creânt altris. Tu pierdarâs ancje la pussibilitât di rispuindi ai messaçs mandâts indevant. Tu puedis tornâ a abonâti a { -brand-name-relay-premium } e otignî di gnûf l’acès a chestis funzions.
 faq-question-8-question = Ce dâts vegnino tirâts sù di { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -70,7 +69,6 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } al à 
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Al covente doprâ un { -brand-name-firefox-account } cuntune direzion e-mail verificade
 faq-question-acceptable-use-answer-measure-account-v2 = Al è obligatori doprâ un account cuntune direzion e-mail verificade
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Par creâ plui di cinc mascaris tu scugnis paiâ
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Il numar di mascaris che tu puedis gjenerâ in une zornade al è limitât
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

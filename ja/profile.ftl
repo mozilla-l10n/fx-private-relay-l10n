@@ -74,7 +74,7 @@ profile-promo-email-blocking-description-promotionals-locked-cta = 今すぐア�
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = { -brand-name-relay-premium } の順番待ちに登録する
 profile-promo-email-blocking-description-promotionals-locked-close = 閉じる
 
-## 5 Mask Upsell (displayed on the profile page)
+## Free Mask Limit Upsell (displayed on the profile page)
 
 profile-maxed-aliases-cta = { -brand-name-premium } にアップグレード
 profile-label-set-your-custom-domain-free-user = { -brand-name-premium } を購読して独自ドメインを取得

@@ -263,7 +263,7 @@ first-time-user-email-footer-text-privacy = Amodau a Phreifatrwydd
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 50
 api-error-free-tier-limit = Rydych wedi defnyddio pob un o'r { $free_tier_limit } arallenwau e-bost sydd wedi'u cynnwys yn eich cyfrif rhad ac am ddim. Gallwch ailddefnyddio arallenw sy'n bodoli eisoes, ond defnyddio arallenw unigryw ar gyfer pob cyfrif yw'r dewis mwyaf diogel.
 api-error-free-tier-no-subdomain-masks = Nid yw eich cyfrif rhad ac am ddim yn cynnwys is-barthau personol ar gyfer arallenwau. I greu arallenwau personol, uwchraddiwch i { -brand-name-relay-premium }.
 # Variables:

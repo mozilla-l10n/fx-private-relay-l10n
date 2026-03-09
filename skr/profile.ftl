@@ -112,7 +112,7 @@ profile-promo-email-blocking-description-promotionals-locked-cta = ہݨ اپ گ�
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = تانگھ تندیر { -brand-name-relay-premium } نال رلت کرو
 profile-promo-email-blocking-description-promotionals-locked-close = بند کرو
 
-## 5 Mask Upsell (displayed on the profile page)
+## Free Mask Limit Upsell (displayed on the profile page)
 
 # Mask limit has been reached. 
 # Variables:

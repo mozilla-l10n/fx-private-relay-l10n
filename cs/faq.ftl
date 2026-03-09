@@ -61,7 +61,6 @@ faq-question-mozmail-answer-2 = Přešli jsme z domény „relay.firefox.com“ 
 faq-question-attachments-question = Bude { -brand-name-firefox-relay } přeposílat e-maily s přílohami?
 faq-question-attachments-answer-v2 = Nyní podporujeme přeposílání příloh. Pro přeposílání e-mailů pomocí { -brand-name-relay(case: "gen") } je však stanoven limit { email-size-limit }. E-maily s velikostí větší než { email-size-limit } nebudou přeposlány.
 faq-question-unsubscribe-domain-question-2 = Co se stane s mou vlastní subdoménou, když se odhlásím z { -brand-name-relay-premium(case: "gen") }?
-faq-question-unsubscribe-domain-answer-2 = Pokud přejdete z placené varianty { -brand-name-relay-premium } zpět na neplacenou, budete nadále dostávat e-maily přeposílané prostřednictvím vlastních e-mailových masek, ale nebudete již moci vytvářet nové masky s použitím této subdomény. Jestliže máte celkově vytvořeno více než pět masek, nebudete moci vytvářet další. Ztratíte také možnost odpovídat na přeposlané zprávy. Můžete si ale znovu předplatit variantu { -brand-name-relay-premium(case: "acc") } a opět k těmto funkcím získat přístup.
 faq-question-8-question = Jaké údaje { -brand-name-firefox-relay } shromažďuje?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -76,7 +75,6 @@ faq-question-acceptable-use-answer-a-html = Pro službu { -brand-name-firefox-re
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Vyžadujeme { -brand-name-firefox-account(case: "acc") } s ověřenou e-mailovou adresou
 faq-question-acceptable-use-answer-measure-account-v2 = Vyžaduje se účet s ověřenou e-mailovou adresou
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Za vytvoření více než pěti masek požadujeme od uživatele platbu
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Omezujeme počet masek, které lze vytvořit za jeden den
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

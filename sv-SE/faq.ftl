@@ -55,7 +55,6 @@ faq-question-mozmail-answer-2 = Vi bytte från “relay.firefox.com” till “m
 faq-question-attachments-question = Kommer { -brand-name-firefox-relay } att vidarebefordra e-postmeddelanden med bilagor?
 faq-question-attachments-answer-v2 = Vi stöder nu vidarebefordran av bilagor. Det finns dock en gräns { email-size-limit } för vidarebefordran av e-post med { -brand-name-relay }. All e-post som är större än { email-size-limit } vidarebefordras inte.
 faq-question-unsubscribe-domain-question-2 = Vad händer med min anpassade underdomän om jag avslutar prenumerationen på { -brand-name-relay-premium }?
-faq-question-unsubscribe-domain-answer-2 = Om du nedgraderar från { -brand-name-relay-premium } får du fortfarande e-postmeddelanden som vidarebefordras via dina anpassade e-postalias, men du kan inte längre skapa nya alias med den underdomänen. Om du har mer än fem alias totalt kommer du inte att kunna skapa fler. Du förlorar också möjligheten att svara på vidarebefordrade meddelanden. Du kan återuppta prenumerationen på { -brand-name-relay-premium } och återfå åtkomst till dessa funktioner.
 faq-question-8-question = Vilka data samlar { -brand-name-firefox-relay } in?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -70,7 +69,6 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } har sa
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Kräver en { -brand-name-firefox-account(capitalization: "uppercase") } med en verifierad e-postadress
 faq-question-acceptable-use-answer-measure-account-v2 = Kräver ett konto med en verifierad e-postadress
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Kräver betalning för att en användare ska kunna skapa fler än fem alias
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Begränsa antalet alias som kan genereras på en dag
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

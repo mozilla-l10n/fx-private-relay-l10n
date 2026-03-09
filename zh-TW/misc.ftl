@@ -264,7 +264,7 @@ first-time-user-email-footer-text-privacy = 使用條款及隱私權
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 50
 api-error-free-tier-limit = 您已經用完免費帳戶能夠建立的 { $free_tier_limit } 組免費轉寄信箱。您可以重複使用現有的轉寄信箱，但針對每個帳號都建立專屬轉寄信箱是最安全的作法。
 api-error-free-tier-no-subdomain-masks = 您的免費帳號無法針對轉寄信箱建立子網域。若要建立自訂轉寄信箱，請升級 { -brand-name-relay-premium }。
 # Variables:

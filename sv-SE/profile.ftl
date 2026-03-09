@@ -112,7 +112,7 @@ profile-promo-email-blocking-description-promotionals-locked-cta = Uppgradera nu
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Ställ dig i väntelistan för { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Stäng
 
-## 5 Mask Upsell (displayed on the profile page)
+## Free Mask Limit Upsell (displayed on the profile page)
 
 # Mask limit has been reached. 
 # Variables:

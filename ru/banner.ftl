@@ -97,7 +97,7 @@ holiday-promo-banner-code-usage = Используйте код <coupon>{ $coupo
 holiday-promo-banner-cta-button = Получите 1 год подписки { -brand-name-premium }
 holiday-promo-banner-promo-expiry = предложение заканчивается 31 декабря 2023 г.
 
-## 4-mask upsell banner
+## Mask limit upsell banner
 
 upsell-banner-4-masks-button-close-label = Закрыть
 upsell-banner-4-masks-us-heading = Получите максимальную защиту телефона и электронной почты

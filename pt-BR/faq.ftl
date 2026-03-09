@@ -55,7 +55,6 @@ faq-question-mozmail-answer-2 = Mudamos de “relay.firefox.com” para “mozma
 faq-question-attachments-question = O { -brand-name-firefox-relay } encaminha emails com anexos?
 faq-question-attachments-answer-v2 = Agora oferecemos suporte ao encaminhamento de anexos. No entanto, há um limite de { email-size-limit } no encaminhamento de emails usando o { -brand-name-relay }. Quaisquer emails maiores que { email-size-limit } não são encaminhados.
 faq-question-unsubscribe-domain-question-2 = O que acontece com meu subdomínio personalizado se eu cancelar a assinatura do { -brand-name-relay-premium }?
-faq-question-unsubscribe-domain-answer-2 = Se você cancelar o { -brand-name-relay-premium }, ainda receberá emails encaminhados através de suas máscaras de email personalizadas, mas não poderá mais criar novas máscaras usando esse subdomínio. Se tiver mais de cinco máscaras no total, não poderá criar mais nenhuma. Também não poderá mais responder às mensagens encaminhadas. Você pode assinar novamente o { -brand-name-relay-premium } e recuperar o acesso a esses recursos.
 faq-question-8-question = Que dados o { -brand-name-firefox-relay } coleta?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -70,7 +69,6 @@ faq-question-acceptable-use-answer-a-html = O { -brand-name-firefox-relay } tem 
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Precisa ter uma { -brand-name-firefox-account(capitalization: "uppercase") } com um endereço de email validado
 faq-question-acceptable-use-answer-measure-account-v2 = É necessário uma conta com um endereço de email validado
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Precisa pagar para um usuário criar mais de cinco máscaras
 faq-question-acceptable-use-answer-measure-rate-limit-2 = É limitado o número de máscaras que podem ser geradas a cada dia
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

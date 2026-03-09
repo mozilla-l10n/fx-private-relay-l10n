@@ -55,7 +55,6 @@ faq-question-mozmail-answer-2 = Hicimos el cambio de “relay.firefox.com” a �
 faq-question-attachments-question = ¿Puede { -brand-name-firefox-relay } reenviar correos electrónicos con archivos adjuntos?
 faq-question-attachments-answer-v2 = Ahora admitimos el reenvío de archivos adjuntos. Sin embargo, existe un límite de { email-size-limit } para el reenvío de correo electrónico mediante { -brand-name-relay }. Los correos electrónicos que superen el { email-size-limit } no se reenviarán.
 faq-question-unsubscribe-domain-question-2 = ¿Qué pasa con mi subdominio personalizado si elimino mi suscripción de { -brand-name-relay-premium }?
-faq-question-unsubscribe-domain-answer-2 = Si eliminas tu suscripción de { -brand-name-relay-premium }, aún recibirás correos reenviados a través de tus máscaras de correo personalizadas, pero no podrás crear más máscaras usando ese subdominio. Si tienes más de cinco máscaras en total, no podrás crear más. También perderás la posibilidad de responder mensajes reenviados. Puedes volver a suscribirte a { -brand-name-relay-premium } y obtener de nuevo acceso a esas características.
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -70,7 +69,6 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } tiene 
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Se requiere una { -brand-name-firefox-account } con una dirección verificada de correo electrónico
 faq-question-acceptable-use-answer-measure-account-v2 = Requerir una cuenta con una dirección de correo electrónico verificada
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = La creación de más de cinco máscaras es un servicio de pago
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Limitación del número de máscaras que se puede crear cada día
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

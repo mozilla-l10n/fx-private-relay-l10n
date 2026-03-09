@@ -55,7 +55,6 @@ faq-question-mozmail-answer-2 = maske@alanadiniz.mozmail.com gibi kişiye özel 
 faq-question-attachments-question = { -brand-name-firefox-relay } ekleri olan e-postaları iletir mi?
 faq-question-attachments-answer-v2 = Ek dosyaları iletmeyi artık destekliyoruz. Ancak { -brand-name-relay } ile yönlendirilen e-postaların { email-size-limit } boyutu sınırı vardır. { email-size-limit } boyutundan büyük e-postalar yönlendirilmeyecektir.
 faq-question-unsubscribe-domain-question-2 = { -brand-name-relay-premium } aboneliğimi iptal edersem özel alt alan adıma ne olacak?
-faq-question-unsubscribe-domain-answer-2 = { -brand-name-relay-premium }’dan ücretsiz pakete geçerseniz özel e-posta maskelerinize gelen e-postaları almaya devam edersiniz ama artık bu alt alan adını kullanarak yeni maske oluşturamazsınız. Toplam beşten fazla maskeniz varsa başka maske de oluşturamazsınız. Ayrıca iletilen mesajları yanıtlama özelliğini artık kullanamazsınız. İstediğiniz zaman { -brand-name-relay-premium }’a tekrar abone olarak bu özelliklere yeniden erişebilirsiniz.
 faq-question-8-question = { -brand-name-firefox-relay } hangi verileri topluyor?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -70,7 +69,6 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay }, <a hr
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Doğrulanmış bir e-posta adresine sahip bir { -brand-name-firefox-account(capitalization: "uppercase") } gereklidir
 faq-question-acceptable-use-answer-measure-account-v2 = Hesapların asıl e-posta adresinin doğrulanmasını zorunlu tutuyoruz
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Bir kullanıcının beşten fazla maske oluşturması için ödeme yapmasını zorunlu tutuyoruz
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Bir günde üretilebilecek maske sayısını kısıtlıyoruz
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

@@ -55,7 +55,6 @@ faq-question-mozmail-answer-2 = Kami beralih dari “relay.firefox.com” ke “
 faq-question-attachments-question = Apakah { -brand-name-firefox-relay } akan meneruskan surel dengan lampiran?
 faq-question-attachments-answer-v2 = Sekarang kami mendukung penerusan lampiran. Namun, ada batas { email-size-limit } untuk penerusan surel menggunakan { -brand-name-relay }. Surel apapun yang lebih besar dari { email-size-limit } tidak akan diteruskan.
 faq-question-unsubscribe-domain-question-2 = Apa yang terjadi pada subdomain kustom saya jika saya berhenti berlangganan dari { -brand-name-relay-premium }?
-faq-question-unsubscribe-domain-answer-2 = Jika Anda berhenti berlangganan { -brand-name-relay-premium }, Anda masih akan menerima surel yang diteruskan melalui subdomain khusus, tetapi Anda tidak dapat lagi membuat topeng baru menggunakan subdomain tersebut. Jika Anda memiliki lebih dari lima topeng secara total, Anda tidak akan dapat membuat lagi. Anda juga tidak bisa membalas pesan yang diteruskan. Anda dapat berlangganan kembali ke { -brand-name-relay-premium } dan mengembalikan akses ke fitur-fitur tersebut.
 faq-question-8-question = Data apa saja yang dikumpulkan oleh { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -70,7 +69,6 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } memili
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Memerlukan { -brand-name-firefox-account(kapitalisasi: "uppercase") } dengan alamat surel yang telah diverifikasi
 faq-question-acceptable-use-answer-measure-account-v2 = Membutuhkan akun dengan alamat surel terverifikasi
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Membutuhkan pembayaran untuk membuat lebih dari lima topeng
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Pembatasan tingkat jumlah topeng yang dapat dihasilkan dalam satu hari
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

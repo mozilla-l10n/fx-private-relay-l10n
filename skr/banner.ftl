@@ -97,7 +97,7 @@ holiday-promo-banner-code-usage = چیک آؤٹ تے کوڈ <coupon> { $couponCo
 holiday-promo-banner-cta-button = { -brand-name-premium } دا 1 سال گھنو
 holiday-promo-banner-promo-expiry = پیشکش 31 دسمبر، 2023 کوں مُکدی پئی ہِے
 
-## 4-mask upsell banner
+## Mask limit upsell banner
 
 upsell-banner-4-masks-button-close-label = بند کرو
 upsell-banner-4-masks-us-heading = ودھ کنوں ودھ ای میل تے فون حفاظت گھنو

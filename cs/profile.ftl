@@ -112,7 +112,7 @@ profile-promo-email-blocking-description-promotionals-locked-cta = Upgradovat
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Přidat se na čekací listinu služby { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Zavřít
 
-## 5 Mask Upsell (displayed on the profile page)
+## Free Mask Limit Upsell (displayed on the profile page)
 
 # Mask limit has been reached. 
 # Variables:

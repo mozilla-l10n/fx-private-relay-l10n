@@ -55,7 +55,6 @@ faq-question-mozmail-answer-2 = We zijn overgestapt van ‘relay.firefox.com’ 
 faq-question-attachments-question = Stuurt { -brand-name-firefox-relay } e-mailberichten met bijlagen door?
 faq-question-attachments-answer-v2 = We ondersteunen nu het doorsturen van bijlagen. Er is echter een limiet van { email-size-limit } voor het doorsturen van e-mailberichten met { -brand-name-relay }. E-mailberichten die groter zijn dan { email-size-limit } worden niet doorgestuurd.
 faq-question-unsubscribe-domain-question-2 = Wat gebeurt er met mijn aangepaste subdomein als ik mijn abonnement bij { -brand-name-relay-premium } opzeg?
-faq-question-unsubscribe-domain-answer-2 = Als u downgradet van { -brand-name-relay-premium }, ontvangt u nog steeds e-mailberichten die worden doorgestuurd via uw aangepaste e-mailmaskers, maar kunt u geen nieuwe maskers meer maken met dat subdomein. Als u in totaal meer dan vijf maskers heeft, kunt u er geen meer maken. U verliest ook de mogelijkheid om doorgestuurde berichten te beantwoorden. U kunt zich opnieuw abonneren op { -brand-name-relay-premium } en weer toegang krijgen tot deze functies.
 faq-question-8-question = Welke gegevens verzamelt { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -70,7 +69,6 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } heeft 
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Een { -brand-name-firefox-account } met een geverifieerd e-mailadres te vereisen
 faq-question-acceptable-use-answer-measure-account-v2 = Een account met een geverifieerd e-mailadres vereisen
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Betaling te vragen als een gebruiker meer dan vijf maskers wil aanmaken
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Het aantal maskers dat op één dag kan worden aangemaakt te beperken
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

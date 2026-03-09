@@ -108,7 +108,7 @@ profile-promo-email-blocking-description-promotionals-locked-cta = Päivitä nyt
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Liity { -brand-name-relay-premium } -odotuslistalle
 profile-promo-email-blocking-description-promotionals-locked-close = Sulje
 
-## 5 Mask Upsell (displayed on the profile page)
+## Free Mask Limit Upsell (displayed on the profile page)
 
 profile-maxed-aliases-cta = Päivitä { -brand-name-premium }iin
 profile-label-set-your-custom-domain-free-user = Hanki oma sähköpostiverkkotunnus { -brand-name-premium }illa

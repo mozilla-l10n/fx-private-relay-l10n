@@ -264,7 +264,7 @@ first-time-user-email-footer-text-privacy = Ketentuan dan Privasi
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 50
 api-error-free-tier-limit = Anda telah menggunakan jatah semua topeng surel { $free_tier_limit } yang disertakan dengan akun gratis Anda. Anda dapat menggunakan kembali topeng yang ada, tetapi menggunakan topeng unik untuk setiap akun adalah opsi yang paling aman.
 api-error-free-tier-no-subdomain-masks = Akun gratis Anda tidak menyertakan subdomain khusus untuk topeng. Untuk membuat topeng khusus , tingkatkan ke { -brand-name-relay-premium }.
 # Variables:

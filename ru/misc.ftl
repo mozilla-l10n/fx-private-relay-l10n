@@ -276,7 +276,7 @@ first-time-user-email-footer-text-privacy = Условия и конфиденц
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 50
 api-error-free-tier-limit = Вы использовали все { $free_tier_limit } псевдонимов электронной почты, включённых в бесплатную учётную запись. Вы можете повторно использовать существующий псевдоним, но использование уникального псевдонима для каждой учётной записи является наиболее безопасным решением.
 api-error-free-tier-no-subdomain-masks = Ваша бесплатная учётная запись не включает настраиваемые поддомены для псевдонимов. Чтобы создавать собственные псевдонимы, перейдите на { -brand-name-relay-premium }.
 # Variables:

@@ -97,7 +97,7 @@ holiday-promo-banner-code-usage = Defnyddiwch y cod <coupon>{ $couponCode }</cou
 holiday-promo-banner-cta-button = Cael 1 flwyddyn oddi ar bris { -brand-name-premium }
 holiday-promo-banner-promo-expiry = daw'r cynnig i ben Rhagfyr 31, 2023
 
-## 4-mask upsell banner
+## Mask limit upsell banner
 
 upsell-banner-4-masks-button-close-label = Cau
 upsell-banner-4-masks-us-heading = Sicrhewch y diogelwch mwyaf posibl ar e-bost a'r ffôn

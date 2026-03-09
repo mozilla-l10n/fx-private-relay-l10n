@@ -223,7 +223,7 @@ first-time-user-email-footer-text-privacy = Ehdot ja tietosuoja
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 50
 api-error-free-tier-limit = Olet käyttänyt kaikki ilmaiseen tiliisi kuuluvat { $free_tier_limit } sähköpostimaskia. Voit käyttää olemassa olevaa maskia uudelleen, mutta yksilöllisen maskin käyttäminen jokaiselle tilille on kaikkein turvallisin vaihtoehto.
 api-error-free-tier-no-subdomain-masks = Ilmainen tilisi ei sisällä mukautettuja aliverkkotunnuksia maskeille. Jos haluat luoda mukautettuja maskeja, päivitä { -brand-name-relay-premium }iin.
 # Variables:

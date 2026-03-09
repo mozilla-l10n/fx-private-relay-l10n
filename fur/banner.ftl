@@ -97,7 +97,7 @@ holiday-promo-banner-code-usage = Dopre il codiç <coupon>{ $couponCode }</coupo
 holiday-promo-banner-cta-button = Oten 1 an di { -brand-name-premium }
 holiday-promo-banner-promo-expiry = la ufierte e finìs ai 31 di Dicembar dal 2023
 
-## 4-mask upsell banner
+## Mask limit upsell banner
 
 upsell-banner-4-masks-button-close-label = Siere
 upsell-banner-4-masks-us-heading = Oten la massime protezion pe pueste e pal telefon

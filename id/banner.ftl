@@ -97,7 +97,7 @@ holiday-promo-banner-code-usage = Gunakan kode <coupon>{ $couponCode }</coupon> 
 holiday-promo-banner-cta-button = Dapatkan { -brand-name-premium } selama 1 tahun
 holiday-promo-banner-promo-expiry = penawaran berakhir pada 31 Des 2023
 
-## 4-mask upsell banner
+## Mask limit upsell banner
 
 upsell-banner-4-masks-button-close-label = Tutup
 upsell-banner-4-masks-us-heading = Dapatkan perlindungan surel dan telepon yang maksimal

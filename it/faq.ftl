@@ -55,7 +55,6 @@ faq-question-mozmail-answer-2 = Abbiamo effettuato il passaggio da “relay.fire
 faq-question-attachments-question = Con { -brand-name-firefox-relay } si possono inoltrare email con allegati?
 faq-question-attachments-answer-v2 = Ora supportiamo anche l’inoltro degli allegati, tuttavia c’è un limite alle dimensioni: { -brand-name-relay } non inoltrerà i messaggi più grandi di { email-size-limit }.
 faq-question-unsubscribe-domain-question-2 = Che cosa succede al mio sottodominio personalizzato se disdico l’abbonamento a { -brand-name-relay-premium }?
-faq-question-unsubscribe-domain-answer-2 = Se esegui il downgrade da { -brand-name-relay-premium }, continuerai a ricevere email inoltrate tramite i tuoi alias personalizzati, ma non potrai più creare nuovi alias utilizzando quel sottodominio. Se hai più di cinque alias in totale, non potrai crearne altri. Perderai anche la possibilità di rispondere ai messaggi inoltrati. Puoi iscriverti nuovamente a { -brand-name-relay-premium } e riottenere l’accesso a queste funzioni.
 faq-question-8-question = Quali dati vengono raccolti da { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -70,7 +69,6 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } è sog
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = È obbligatorio utilizzare un { -brand-name-firefox-account } con un indirizzo email verificato
 faq-question-acceptable-use-answer-measure-account-v2 = È obbligatorio utilizzare un account con un indirizzo email verificato
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = La creazione di più di cinque alias è un servizio a pagamento
 faq-question-acceptable-use-answer-measure-rate-limit-2 = È possibile creare un numero limitato di alias ogni giorno
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

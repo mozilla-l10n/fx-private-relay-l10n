@@ -112,7 +112,7 @@ profile-promo-email-blocking-description-promotionals-locked-cta = Şimdi yükse
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = { -brand-name-relay-premium } bekleme listesine katılın
 profile-promo-email-blocking-description-promotionals-locked-close = Kapat
 
-## 5 Mask Upsell (displayed on the profile page)
+## Free Mask Limit Upsell (displayed on the profile page)
 
 # Mask limit has been reached. 
 # Variables:

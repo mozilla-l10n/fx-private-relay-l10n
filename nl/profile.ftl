@@ -112,7 +112,7 @@ profile-promo-email-blocking-description-promotionals-locked-cta = Nu upgraden
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Inschrijven voor de { -brand-name-relay-premium }-wachtlijst
 profile-promo-email-blocking-description-promotionals-locked-close = Sluiten
 
-## 5 Mask Upsell (displayed on the profile page)
+## Free Mask Limit Upsell (displayed on the profile page)
 
 # Mask limit has been reached. 
 # Variables:

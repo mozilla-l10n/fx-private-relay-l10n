@@ -55,7 +55,6 @@ faq-question-mozmail-answer-2 = Nous sommes passés de « relay.firefox.com »
 faq-question-attachments-question = { -brand-name-firefox-relay } transférera-t-il les e-mails avec pièces jointes ?
 faq-question-attachments-answer-v2 = Nous prenons désormais en charge le transfert de pièces jointes. Toutefois, il existe une limite de { email-size-limit } pour le transfert de messages par { -brand-name-relay }. Les courriers dont la taille excède { email-size-limit } ne seront pas transférés.
 faq-question-unsubscribe-domain-question-2 = Qu’adviendra-t-il de mon sous-domaine personnalisé si je me désabonne de { -brand-name-relay-premium } ?
-faq-question-unsubscribe-domain-answer-2 = Si vous vous désabonnez de { -brand-name-relay-premium }, vous continuerez à recevoir les e-mails transférés via vos alias de messagerie personnalisés, mais vous ne pourrez plus créer de nouveaux alias à l’aide de ce sous-domaine. Si vous avez plus de cinq alias au total, vous ne pourrez plus en créer. Vous perdrez également la possibilité de répondre aux messages transférés. Vous pouvez vous réabonner à { -brand-name-relay-premium } et accéder à nouveau à ces fonctionnalités.
 faq-question-8-question = Quelles données { -brand-name-firefox-relay } collecte-t-il ?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -70,7 +69,6 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } a les 
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = exigeant un { -brand-name-firefox-account } avec une adresse e-mail vérifiée
 faq-question-acceptable-use-answer-measure-account-v2 = exigeant la création d’un compte avec une adresse e-mail vérifiée
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = exigeant un paiement pour qu’un utilisateur ou une utilisatrice puisse créer plus de cinq alias
 faq-question-acceptable-use-answer-measure-rate-limit-2 = limitant le nombre d’alias qui peuvent être générés en une journée
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

@@ -270,7 +270,7 @@ first-time-user-email-footer-text-privacy = Villkor och sekretess
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 50
 api-error-free-tier-limit = Du har använt alla { $free_tier_limit } e-postalias som ingår i ditt gratiskonto. Du kan återanvända ett befintligt alias, men att använda ett unikt alias för varje konto är det säkraste alternativet.
 api-error-free-tier-no-subdomain-masks = Ditt gratiskonto inkluderar inte anpassade underdomäner för alias. För att skapa anpassade alias, uppgradera till { -brand-name-relay-premium }.
 # Variables:

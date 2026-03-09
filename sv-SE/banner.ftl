@@ -97,7 +97,7 @@ holiday-promo-banner-code-usage = Använd koden <coupon>{ $couponCode }</coupon>
 holiday-promo-banner-cta-button = Få 1 års { -brand-name-premium }
 holiday-promo-banner-promo-expiry = erbjudandet upphör 31 december 2023
 
-## 4-mask upsell banner
+## Mask limit upsell banner
 
 upsell-banner-4-masks-button-close-label = Stäng
 upsell-banner-4-masks-us-heading = Få maximalt e-post- och telefonskydd

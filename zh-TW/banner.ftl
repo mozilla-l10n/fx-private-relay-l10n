@@ -93,7 +93,7 @@ holiday-promo-banner-code-usage = 結帳時使用折扣碼 <coupon>{ $couponCode
 holiday-promo-banner-cta-button = 獲得 1 年的 { -brand-name-premium }
 holiday-promo-banner-promo-expiry = 優惠結束於 2023 年 12 月 31 日
 
-## 4-mask upsell banner
+## Mask limit upsell banner
 
 upsell-banner-4-masks-button-close-label = 關閉
 upsell-banner-4-masks-us-heading = 獲得最大程度的 E-mail 與手機號碼保護

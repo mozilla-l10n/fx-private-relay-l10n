@@ -55,7 +55,6 @@ faq-question-mozmail-answer-2 = Nos passava de “relay.firefox.com” a “mozm
 faq-question-attachments-question = Inultrara { -brand-name-firefox-relay } e-mails con annexos?
 faq-question-attachments-answer-v2 = Nos ora supporta le reexpedition de annexos. Totevia, il ha un limite de { email-size-limit } pro le reexpedition de e-mail per { -brand-name-relay }. Messages plus grande de { email-size-limit } non essera reexpedite.
 faq-question-unsubscribe-domain-question-2 = Que eveni a mi subdominio personal si io me remove del abonamento de { -brand-name-relay-premium }?
-faq-question-unsubscribe-domain-answer-2 = Si tu degrada de { -brand-name-relay-premium }, tu recipera ancora emails inultrate a transverso de tu mascas email personal, ma tu non plus potera crear nove mascas per ille subdominio. Si tu ha plus que cinque mascas in total, tu non potera crear ulle plus. Tu alsi perdera le capacitate de replica a messages inultrate. Tu pote re-abonar te a { -brand-name-relay-premium } e reganiar accesso a iste functionalitates.
 faq-question-8-question = Que datos collige { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -70,7 +69,6 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } ha le 
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Requirer un { -brand-name-firefox-account(capitalization: "uppercase") } con un adresse email verificate
 faq-question-acceptable-use-answer-measure-account-v2 = Il es obligatori usar un conto con un adresse email verificate
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Requirer le pagamento al usator pro crear plus que cinque mascas
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Limitar le numero de mascas que on pote generar in un die
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

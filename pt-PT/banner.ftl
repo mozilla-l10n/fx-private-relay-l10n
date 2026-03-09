@@ -90,7 +90,7 @@ holiday-promo-banner-code-usage = Utilize o código <coupon>{ $couponCode }</cou
 holiday-promo-banner-cta-button = Obtenha 1 ano de { -brand-name-premium }
 holiday-promo-banner-promo-expiry = a oferta termina a 31 de dezembro de 2023
 
-## 4-mask upsell banner
+## Mask limit upsell banner
 
 upsell-banner-4-masks-button-close-label = Fechar
 upsell-banner-4-masks-us-heading = Obtenha a proteção máxima do e-mail e telefone

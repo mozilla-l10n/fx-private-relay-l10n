@@ -93,7 +93,7 @@ holiday-promo-banner-code-usage = Usa le codice <coupon>{ $couponCode }</coupon>
 holiday-promo-banner-cta-button = Obtene 1 anno de { -brand-name-premium }
 holiday-promo-banner-promo-expiry = le offerta expira le 31 decembre 2023
 
-## 4-mask upsell banner
+## Mask limit upsell banner
 
 upsell-banner-4-masks-button-close-label = Clauder
 upsell-banner-4-masks-us-heading = Obtene la maxime protection de email e telephono

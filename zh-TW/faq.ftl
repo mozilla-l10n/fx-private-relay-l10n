@@ -55,7 +55,6 @@ faq-question-mozmail-answer-2 = 為了讓您可以自訂郵件子網域，我們
 faq-question-attachments-question = { -brand-name-firefox-relay } 會轉寄含有附件的郵件嗎？
 faq-question-attachments-answer-v2 = 我們現在也支援附件轉寄功能，但 { -brand-name-relay } 有郵件大小限制。{ -brand-name-relay } 不會轉寄超過 { email-size-limit } 的郵件。
 faq-question-unsubscribe-domain-question-2 = 如果我取消訂閱 { -brand-name-relay-premium }，我的自訂子網域會發生什麼事？
-faq-question-unsubscribe-domain-answer-2 = 若您從 { -brand-name-relay-premium } 降級回免費版，還是會收到透過自訂轉寄信箱轉寄的郵件，但無法再使用該子網域來建立新轉寄信箱。若您已有超過五組轉寄信箱，將無法再建立新的轉寄信箱。您也將無法再直接回覆收到的轉寄郵件。再次訂閱 { -brand-name-relay-premium } 即可重新獲得這些功能。
 faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -70,7 +69,6 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } 的<a 
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = 要求 { -brand-name-firefox-account(capitalization: "uppercase") } 使用驗證過的電子郵件地址
 faq-question-acceptable-use-answer-measure-account-v2 = 必須使用已驗證過的電子郵件地址所註冊的帳號
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = 要求使用者付款才可以建立超過五組轉寄信箱
 faq-question-acceptable-use-answer-measure-rate-limit-2 = 限制一天內可產生的轉寄信箱數量
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

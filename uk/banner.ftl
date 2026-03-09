@@ -97,7 +97,7 @@ holiday-promo-banner-code-usage = Скористайтеся кодом <coupon>
 holiday-promo-banner-cta-button = Отримайте 1 рік { -brand-name-premium }
 holiday-promo-banner-promo-expiry = пропозиція діє до 31 грудня 2023 року
 
-## 4-mask upsell banner
+## Mask limit upsell banner
 
 upsell-banner-4-masks-button-close-label = Закрити
 upsell-banner-4-masks-us-heading = Отримайте максимальний захист електронної пошти та телефону

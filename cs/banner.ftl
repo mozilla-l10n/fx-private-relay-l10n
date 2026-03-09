@@ -93,7 +93,7 @@ holiday-promo-banner-code-usage = Při placení použijte kód <coupon>{ $coupon
 holiday-promo-banner-cta-button = Získat { -brand-name-premium } na 1 rok
 holiday-promo-banner-promo-expiry = nabídka končí 31. prosince 2023
 
-## 4-mask upsell banner
+## Mask limit upsell banner
 
 upsell-banner-4-masks-button-close-label = Zavřít
 upsell-banner-4-masks-us-heading = Získejte maximální ochranu e-mailu a telefonu

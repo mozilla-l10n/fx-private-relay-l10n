@@ -55,7 +55,6 @@ faq-question-mozmail-answer-2 = Rydym wedi newid o “relay.firefox.com” i “
 faq-question-attachments-question = A fydd { -brand-name-firefox-relay } yn anfon ymlaen e-byst gydag atodiadau?
 faq-question-attachments-answer-v2 = Rydym nawr yn cefnogi anfon atodiadau. Fodd bynnag, mae yna derfyn o { email-size-limit } ar anfon e-bost gan ddefnyddio { -brand-name-relay }. Ni fydd unrhyw e-byst sy'n fwy na { email-size-limit } yn cael eu hanfon ymlaen.
 faq-question-unsubscribe-domain-question-2 = Beth sy'n digwydd i'm is-barth personol os byddaf yn dad-danysgrifio o { -brand-name-relay-premium }?
-faq-question-unsubscribe-domain-answer-2 = Os ydych chi'n israddio o { -brand-name-relay-premium }, byddwch chi'n dal i dderbyn e-byst sy'n cael eu hanfon ymlaen trwy'ch e-bost arallenw personol, ond ni fyddwch yn gallu creu arallenwau newydd gan ddefnyddio'r is-barth hwnnw mwyach. Os oes gennych fwy na phum arallenw i gyd, ni fydd modd i chi greu rhagor. Byddwch hefyd yn colli'r gallu i ateb i negeseuon a fydd yn cael eu hanfon ymlaen. Gallwch ail-danysgrifio i { -brand-name-relay-premium } ac adennill mynediad i'r nodweddion hyn.
 faq-question-8-question = Pa ddata mae { -brand-name-firefox-relay } yn ei gasglu?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -70,7 +69,6 @@ faq-question-acceptable-use-answer-a-html = Mae gan { -brand-name-firefox-relay 
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Mae angen { -brand-name-firefox-account(capitalization: "uppercase") } gyda chyfeiriad e-bost wedi'i ddilysu
 faq-question-acceptable-use-answer-measure-account-v2 = Angen cyfrif gyda chyfeiriad e-bost wedi'i ddilysu
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Mae angen taliad gan ddefnyddiwr i greu mwy na phum arallenw
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Cyfyngu ar gyfraddau'r nifer yr arallenwau y mae modd eu cynhyrchu mewn un diwrnod
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
