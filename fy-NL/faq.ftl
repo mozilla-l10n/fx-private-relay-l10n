@@ -55,6 +55,8 @@ faq-question-mozmail-answer-2 = Wy binne oerstapt fan ‘relay.firefox.com’ ne
 faq-question-attachments-question = Stjoert { -brand-name-firefox-relay } e-mailberjochten mei bylagen troch?
 faq-question-attachments-answer-v2 = Wy stypje no it trochstjoeren fan bylagen. Der is echter in limyt fan { email-size-limit } foar it trochstjoeren fan e-mailberjochten mei { -brand-name-relay }. E-mailberjochten dy’t grutter binne as { email-size-limit } wurde net trochstjoerd.
 faq-question-unsubscribe-domain-question-2 = Wat bart der mei myn oanpaste subdomein as ik myn abonnemint by { -brand-name-relay-premium } opsis?
+#   $mask_limit (number) - Number of free email masks allowed
+faq-question-unsubscribe-domain-answer-3 = As jo delwurdearje fan { -brand-name-relay-premium }, ûntfange jo noch hieltyd e-mailberjochten dy’t trochstjoerd wurde fia jo oanpaste subdomein, mar kinne jo gjin nije e-mailmaskers mear meitsje mei dat domein. As jo yn totaal mear as { $mask_limit } maskers hawwe, kinne jo der net mear meitsje. Jo ferlieze ek de mooglikheid om trochstjoerde berjochten te beäntwurdzjen. Jo kinne jo opnij abonnearje op { -brand-name-relay-premium } en wer tagong krije ta dizze funksjes.
 faq-question-8-question = Hokker gegevens sammelet { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -69,6 +71,7 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } hat de
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = In { -brand-name-firefox-account } mei in ferifiearre e-mailadres te fereaskjen
 faq-question-acceptable-use-answer-measure-account-v2 = In account mei in ferifiearre e-mailadres fereaskje
+faq-question-acceptable-use-answer-measure-unlimited-payment-3 = Betelling te freegjen as in brûker mear as { $mask_limit } maskers oanmeitsje wol
 faq-question-acceptable-use-answer-measure-rate-limit-2 = It oantal maskers dat op ien dei oanmakke wurde kin te beheinen
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
