@@ -56,7 +56,7 @@ faq-question-attachments-question = { -brand-name-firefox-relay } ekleri olan e-
 faq-question-attachments-answer-v2 = Ek dosyaları iletmeyi artık destekliyoruz. Ancak { -brand-name-relay } ile yönlendirilen e-postaların { email-size-limit } boyutu sınırı vardır. { email-size-limit } boyutundan büyük e-postalar yönlendirilmeyecektir.
 faq-question-unsubscribe-domain-question-2 = { -brand-name-relay-premium } aboneliğimi iptal edersem özel alt alan adıma ne olacak?
 #   $mask_limit (number) - Number of free email masks allowed
-faq-question-unsubscribe-domain-answer-3 = { -brand-name-relay-premium } olan eski sürüme geçseniz bile özel e-posta maskeleriniz üzerinden yönlendirilen e-postaları almaya devam edeceksiniz ama artık bu alt alan adıyla yeni maskeler oluşturamazsınız. Toplamda { $mask_limit } adetten fazla maskeniz varsa artık yeni maske oluşturamazsınız. Ayrıca yönlendirilen iletilere cevap veremeyeceksiniz. { -brand-name-relay-premium } ürününe yeniden abone olarak bu özelliklere tekrar erişebilirsiniz.
+faq-question-unsubscribe-domain-answer-3 = { -brand-name-relay-premium }’dan ücretsiz pakete geçerseniz özel e-posta maskelerinize gelen e-postaları almaya devam edersiniz ama artık bu alt alan adını kullanarak yeni maske oluşturamazsınız. Toplam { $mask_limit } adetten fazla maskeniz varsa başka maske de oluşturamazsınız. Ayrıca iletilen mesajları yanıtlama özelliğini artık kullanamazsınız. İstediğiniz zaman { -brand-name-relay-premium }’a tekrar abone olarak bu özelliklere yeniden erişebilirsiniz.
 faq-question-8-question = { -brand-name-firefox-relay } hangi verileri topluyor?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
