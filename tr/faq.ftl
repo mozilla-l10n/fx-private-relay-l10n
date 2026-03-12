@@ -71,7 +71,7 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay }, <a hr
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Doğrulanmış bir e-posta adresine sahip bir { -brand-name-firefox-account(capitalization: "uppercase") } gereklidir
 faq-question-acceptable-use-answer-measure-account-v2 = Hesapların asıl e-posta adresinin doğrulanmasını zorunlu tutuyoruz
-faq-question-acceptable-use-answer-measure-unlimited-payment-3 = Bir kullanıcının { $mask_limit } taneden fazla maske oluşturması için ödeme yapılması zorunludur
+faq-question-acceptable-use-answer-measure-unlimited-payment-3 = Bir kullanıcının { $mask_limit } adetten fazla maske oluşturması için ödeme yapması gerekir
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Bir günde üretilebilecek maske sayısını kısıtlıyoruz
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
