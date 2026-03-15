@@ -56,7 +56,7 @@ faq-question-attachments-question = A { -brand-name-firefox-relay } továbbítja
 faq-question-attachments-answer-v2 = Most már támogatjuk a mellékletek továbbítását. Azonban van egy { email-size-limit }-os korlát az e-mailek a { -brand-name-relay } használatával történő továbbításakor. Az { email-size-limit }-nál nagyobb e-mailek nem lesznek továbbítva.
 faq-question-unsubscribe-domain-question-2 = Mi történik az egyéni aldomainemmel, ha lemondom a { -brand-name-relay-premium } szolgáltatást?
 #   $mask_limit (number) - Number of free email masks allowed
-faq-question-unsubscribe-domain-answer-3 = Ha visszalép erről: { -brand-name-relay-premium }, akkor továbbra is meg fogja kapni az egyéni e-mail-maszkokon keresztül továbbított e-maileket, de már nem fog tudni új maszkokat létrehozni azzal az aldomainnel. Ha összesen több mint { $mask_limit } maszkja van, akkor többet nem fog tudni létrehozni. Elveszti azt a lehetőséget is, hogy a továbbított üzenetekre válaszoljon. Újra előfizethet a(z) { -brand-name-relay-premium } szolgáltatásra, és újra hozzáférést biztosít ezekhez a funkciókhoz.
+faq-question-unsubscribe-domain-answer-3 = Ha visszavált a { -brand-name-relay-premium }ról, akkor továbbra is meg fogja kapni az egyéni domainról továbbított leveleit, de új maszkokat már nem fog tudni felvenni annál az aldomainnál. Ha összesen több mint { $mask_limit } maszkja van, akkor többet már nem fog tudni létrehozni. Elveszti azt a lehetőséget is, hogy válaszoljon a továbbított levelekre. Újra előfizethet a { -brand-name-relay-premium }ra, hogy visszakapja ezeket a funkciókat.
 faq-question-8-question = Milyen adatokat gyűjt a { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -71,7 +71,7 @@ faq-question-acceptable-use-answer-a-html = A { -brand-name-firefox-relay } <a h
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Megköveteljük, hogy ellenőrzött e-mail-címmel használja a { -brand-name-firefox-account }ját
 faq-question-acceptable-use-answer-measure-account-v2 = Ellenőrzött e-mail-címmel rendelkező fiók megkövetelése
-faq-question-acceptable-use-answer-measure-unlimited-payment-3 = Fizetés szükséges ahhoz, hogy a felhasználók { $mask_limit }-nál több maszkot hozzanak létre
+faq-question-acceptable-use-answer-measure-unlimited-payment-3 = Fizetés szükséges ahhoz, hogy a felhasználók { $mask_limit } maszknál többet hozzanak létre
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Korlátozzuk az egy nap alatt létrehozható maszkok számát
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
