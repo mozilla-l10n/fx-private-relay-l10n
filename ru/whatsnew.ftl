@@ -89,3 +89,6 @@ whatsnew-holiday-promo-2023-news-heading = Получите скидку 20 % н
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = В этот праздничный сезон получите скидку 20 % на 1 год подписки { -brand-name-relay-premium }. Просто введите промокод «HOLIDAY20» при оформлении заказа. Предложение заканчивается 31 декабря 2023 г.
 whatsnew-holiday-promo-2023-cta = Получите 1 год подписки { -brand-name-relay-premium }
+whatsnew-feature-mask-expansion-heading = 50 псевдонимов электронной почты на нас
+whatsnew-feature-mask-expansion-snippet = Теперь вы получаете 50 бесплатных псевдонимов (было 5). Используйте по одному для каждой учётной записи, чтобы сохранить приватность вашей настоящей электронной почты.
+whatsnew-feature-mask-expansion-cta = Получить псевдонимы электронной почты
