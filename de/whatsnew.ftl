@@ -88,3 +88,6 @@ whatsnew-holiday-promo-2023-news-heading = Erhalten Sie 20% auf { -brand-name-re
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = Erhalten Sie in dieser Weihnachtszeit 20% auf den Preis von { -brand-name-relay-premium } für ein Jahr. Geben Sie beim Bezahlen einfach den Aktionscode „HOLIDAY20“ ein. Das Angebot endet am 31. Dezember 2023.
 whatsnew-holiday-promo-2023-cta = Holen Sie sich ein Jahr { -brand-name-relay-premium }
+whatsnew-feature-mask-expansion-heading = 50 E-Mail-Masken gehen aufs Haus
+whatsnew-feature-mask-expansion-snippet = Jetzt erhalten Sie 50 kostenlose Masken (bislang 5). Verwenden Sie eine für jedes Konto, um Ihre echten E-Mail-Adressen privat zu halten.
+whatsnew-feature-mask-expansion-cta = E-Mail-Masken erhalten
