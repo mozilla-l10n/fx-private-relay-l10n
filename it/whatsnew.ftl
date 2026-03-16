@@ -84,3 +84,6 @@ whatsnew-holiday-promo-2023-news-heading = Ottieni uno sconto del 20% su { -bran
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = Per questo periodo di feste, ricevi uno sconto del 20% sul prezzo di 1 anno di { -brand-name-relay-premium }. Inserisci il codice promozionale “HOLIDAY20” al momento del pagamento. L’offerta scade il 31 dicembre 2023.
 whatsnew-holiday-promo-2023-cta = Ottieni 1 anno di { -brand-name-relay-premium }
+whatsnew-feature-mask-expansion-heading = 50 alias di posta elettronica, offerte da noi
+whatsnew-feature-mask-expansion-snippet = Adesso hai a disposizione 50 alias gratuiti invece di 5. Usane uno diverso per ciascun account così da proteggere il tuo indirizzo email reale.
+whatsnew-feature-mask-expansion-cta = Ottieni alias di posta elettronica
