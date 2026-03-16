@@ -88,3 +88,6 @@ whatsnew-holiday-promo-2023-news-heading = Få 20% rabatt på { -brand-name-rela
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = Denna semesterperiod får du 20% rabatt på priset för ett års { -brand-name-relay-premium }. Ange bara kampanjkoden "HOLIDAY20" i kassan. Erbjudandet upphör 31 december 2023.
 whatsnew-holiday-promo-2023-cta = Få 1 års { -brand-name-relay-premium }
+whatsnew-feature-mask-expansion-heading = 50 e-postalias gratis
+whatsnew-feature-mask-expansion-snippet = Nu får du 50 alias gratis (från tidigare 5). Använd en för varje konto för att hålla din riktiga e-post privat.
+whatsnew-feature-mask-expansion-cta = Få e-postalias
