@@ -87,3 +87,6 @@ whatsnew-holiday-promo-2023-news-heading = Dapatkan diskon 20% { -brand-name-rel
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = Musim liburan ini, dapatkan diskon 20% dari harga { -brand-name-relay-premium } selama 1 tahun. Cukup masukkan kode promo “HOLIDAY20” saat checkout. Penawaran berakhir pada 31 Des 2023.
 whatsnew-holiday-promo-2023-cta = Dapatkan { -brand-name-relay-premium } selama 1 tahun
+whatsnew-feature-mask-expansion-heading = 50 topeng surel, gratis dari kami
+whatsnew-feature-mask-expansion-snippet = Sekarang Anda mendapatkan 50 topeng gratis (naik dari 5). Gunakan satu untuk setiap akun agar surel asli Anda tetap pribadi.
+whatsnew-feature-mask-expansion-cta = Dapatkan topeng surel

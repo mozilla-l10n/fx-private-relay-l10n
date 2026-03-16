@@ -88,3 +88,6 @@ whatsnew-holiday-promo-2023-news-heading = Kapjon 20% kedvezményt a { -brand-na
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = Ebben az ünnepi időszakban 20% kedvezményt kaphat az 1 évnyi { -brand-name-relay-premium } árából. Csak írja be a „HOLIDAY20” promóciós kódot vásárláskor. Az ajánlat 2023. december 31-ig érvényes.
 whatsnew-holiday-promo-2023-cta = Kapjon 1 évnyi { -brand-name-relay-premium }ot
+whatsnew-feature-mask-expansion-heading = 50 e-mail-maszk, amit mi állunk
+whatsnew-feature-mask-expansion-snippet = Most 50 ingyenes maszkot kap (az eddigi 5 helyett). Használjon egyet minden fiókhoz, hogy a valódi e-mail-címe bizalmasan maradjon.
+whatsnew-feature-mask-expansion-cta = Szerezzen e-mail-maszkokat

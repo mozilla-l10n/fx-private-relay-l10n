@@ -88,3 +88,6 @@ whatsnew-holiday-promo-2023-news-heading = { -brand-name-relay-premium }’da %2
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = Bu yılbaşı döneminde 1 yıllık { -brand-name-relay-premium } %20 indirimli. Ödeme sırasında “HOLIDAY20” promosyon kodunu girmeniz yeterli. Teklif 31 Aralık 2023’te sona erecektir.
 whatsnew-holiday-promo-2023-cta = 1 yıllık { -brand-name-relay-premium } alın
+whatsnew-feature-mask-expansion-heading = 50 e-posta maskesi, bizden
+whatsnew-feature-mask-expansion-snippet = Artık 50 ücretsiz maskeye (5’e yükseltildi.) Gerçek e-posta adresinizi gizli tutmak üzere her hesap için bu e-postayı kullanın.
+whatsnew-feature-mask-expansion-cta = E-posta maskeleri edinin
