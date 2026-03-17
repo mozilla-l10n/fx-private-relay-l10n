@@ -89,5 +89,5 @@ whatsnew-holiday-promo-2023-news-heading = Obtenez 20 % de réduction sur { -br
 whatsnew-holiday-promo-2023-news-content-description = En cette période de fêtes, bénéficiez de 20 % de réduction sur le prix d’un an d’abonnement { -brand-name-relay-premium }. Saisissez simplement le code promotionnel « HOLIDAY20 » lors du règlement. L’offre se termine le 31 décembre 2023.
 whatsnew-holiday-promo-2023-cta = Bénéficiez d’un an de { -brand-name-relay-premium }
 whatsnew-feature-mask-expansion-heading = 50 alias de messagerie gratuits
-whatsnew-feature-mask-expansion-snippet = Vous obtenez désormais 50 alias gratuits (au lieu de 5). Utilisez-en un pour chaque compte afin de garder votre véritable adresse e-mail privée.
-whatsnew-feature-mask-expansion-cta = Obtenir des alias de messagerie
+whatsnew-feature-mask-expansion-snippet = Vous bénéficiez désormais de 50 alias gratuits (au lieu de 5). Utilisez-en un pour chaque compte afin de garder votre véritable adresse e-mail privée.
+whatsnew-feature-mask-expansion-cta = Obtenir les alias de messagerie
