@@ -88,3 +88,6 @@ whatsnew-holiday-promo-2023-news-heading = Sparnia le 20% sur { -brand-name-rela
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = Iste saison de vacantia, sparnia le 20% del precio de 1 anno de { -brand-name-relay-premium }. Justo insere le codice de promotion “HOLIDAY20” al momento del pagamento. Le offerta expira le 31 decembre 2023.
 whatsnew-holiday-promo-2023-cta = Obtene 1 anno de { -brand-name-relay-premium }
+whatsnew-feature-mask-expansion-heading = 50 maskas e-mail, sur nos
+whatsnew-feature-mask-expansion-snippet = Ora tu pote reciper gratis 50 mascas (in vice que 5). Usa un pro cata conto pro mantenter private tu e-mail real.
+whatsnew-feature-mask-expansion-cta = Recipe mascas de e-mail
