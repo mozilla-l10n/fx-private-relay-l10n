@@ -55,6 +55,8 @@ faq-question-mozmail-answer-2 = Prešli sme z “relay.firefox.com“ na “mozm
 faq-question-attachments-question = Bude { -brand-name-firefox-relay } preposielať e‑maily s prílohami?
 faq-question-attachments-answer-v2 = Presmerovanie príloh je podporované. Avšak, pre presmerovanie e‑mailov pomocou služby { -brand-name-relay } existuje veľkostný limit { email-size-limit }. E‑maily väčšie ako { email-size-limit } nebudú presmerované.
 faq-question-unsubscribe-domain-question-2 = Čo sa stane s mojou vlastnou subdoménou, ak zruším službu { -brand-name-relay-premium }?
+#   $mask_limit (number) - Number of free email masks allowed
+faq-question-unsubscribe-domain-answer-3 = Ak prejdete na nižšiu verziu z { -brand-name-relay-premium }, budete stále dostávať e‑maily preposielané prostredníctvom vlastných e‑mailových masiek, ale pomocou tejto subdomény už nebudete môcť vytvárať nové masky. Ak máte celkovo viac ako { $mask_limit } masiek, ďalšie už nebudete môcť vytvoriť. Stratíte tiež možnosť odpovedať na preposlané správy. Ak znova prejdete na { -brand-name-relay-premium }, opätovne získate prístup k týmto funkciám.
 faq-question-8-question = Aké údaje služba { -brand-name-firefox-relay } zhromažďuje?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -69,6 +71,7 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } má ro
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Vyžaduje sa { -brand-name-firefox-account(capitalization: "lowercase") } s overenou e‑mailovou adresou
 faq-question-acceptable-use-answer-measure-account-v2 = Vyžaduje sa účet s overenou e‑mailovou adresou
+faq-question-acceptable-use-answer-measure-unlimited-payment-3 = Vyžaduje platbu od používateľa za vytvorenie viac ako { $mask_limit } masiek
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Obmedzuje sa počet masiek, ktoré je možné vygenerovať za jeden deň
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
