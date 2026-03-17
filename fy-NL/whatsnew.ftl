@@ -88,3 +88,6 @@ whatsnew-holiday-promo-2023-news-heading = Untfang 20% koarting op { -brand-name
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = Untfang dizze feestdagen 20% koarting op de priis fan 1 jier { -brand-name-relay-premium }. Fier gewoan de promoasjekoade ‘HOLIDAY20’ yn by it ôfrekkenjen. Oanbieding einiget op 31 desimber 2023.
 whatsnew-holiday-promo-2023-cta = Untfang 1 jier { -brand-name-relay-premium }
+whatsnew-feature-mask-expansion-heading = 50 e-mailmaskers, op ús kosten
+whatsnew-feature-mask-expansion-snippet = Jo ûntfange no 50 fergeze maskers (dat wiene der 5). Brûk der ien foar elke account om jo echte e-mailadres privee te hâlden.
+whatsnew-feature-mask-expansion-cta = E-mailmaskers ûntfange
