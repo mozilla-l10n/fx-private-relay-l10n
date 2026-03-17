@@ -128,9 +128,6 @@ highlighted-features-section-unlimited-masks-body-2 = 人人皆可免费获得 {
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = 随时随地创建马甲
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body-2 = 订阅 { -brand-name-relay-premium } 后，您可以使用专属的 { -brand-name-relay } 邮箱域名来随时创建新马甲。只需在 @ 符号前添加字符就能生成马甲。要预订餐厅？可以用 canting@<你的域名>.{ $mozmail }。要购物？那就用 shop@<你的域名>.{ $mozmail }。
 
 # Item 3
 
