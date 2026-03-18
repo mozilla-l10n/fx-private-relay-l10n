@@ -92,3 +92,5 @@ whatsnew-holiday-promo-2023-news-heading = Cael 20% oddi ar bris { -brand-name-r
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = Y tymor gwyliau hwn, cewch ostyngiad o 20% ar bris 1 flwyddyn o { -brand-name-relay-premium }. Rhowch y cod hyrwyddo “HOLIDAY20” wrth y ddesg dalu. Daw’r cynnig i ben ar 31 Rhagfyr, 2023.
 whatsnew-holiday-promo-2023-cta = Cael 1 flwyddyn o { -brand-name-relay-premium }
+whatsnew-feature-mask-expansion-snippet = Nawr rydych chi'n cael 50 o arallenwau am ddim (hyd at 5). Defnyddiwch un ar gyfer pob cyfrif i gadw'ch e-bost go iawn yn breifat.
+whatsnew-feature-mask-expansion-cta = Cael arallenwau
