@@ -267,6 +267,13 @@ first-time-user-email-footer-text-2-text = For more information, please visit { 
 first-time-user-email-footer-text-legal = Legal
 first-time-user-email-footer-text-privacy = Terms & Privacy
 
+## Updated first-time user welcome email (MPP-4613)
+
+first-time-user-email-welcome-subhead-2 = Mask your email. Control your inbox.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = You have { $mask_limit } free email masks ready to go. Use one when you shop online or sign up for a new account or app.
+
 ## API error messages
 
 # Variables:
