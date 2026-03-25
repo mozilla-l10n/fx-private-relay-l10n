@@ -264,6 +264,24 @@ first-time-user-email-footer-text-2-text = Pour davantage d’informations, veui
 first-time-user-email-footer-text-legal = Mentions légales
 first-time-user-email-footer-text-privacy = Confidentialité et conditions d’utilisation
 
+## Updated first-time user welcome email (MPP-4613)
+
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = Vous disposez de { $mask_limit } alias de messagerie gratuits. Utilisez-en un lorsque vous achetez en ligne ou lorsque vous créez un nouveau compte ou vous connectez à une nouvelle application.
+first-time-user-email-how-item-1-header-2 = Créez un alias en quelques secondes
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-html-2 = Créez des alias directement depuis { -brand-name-firefox }, avec le <a href="{ $url }" { $attrs }>module complémentaire de { -brand-name-relay }</a>, ou depuis votre tableau de bord.
+first-time-user-email-how-item-1-subhead-text-2 = Créez des alias directement depuis { -brand-name-firefox }, avec le module complémentaire de { -brand-name-relay }, ou depuis votre tableau de bord.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-html-2 = Consultez notre <a href="{ $url }" { $attrs }>centre d’assistance</a> pour obtenir de l’aide
+first-time-user-email-questions-subhead-text-2 = Consultez notre centre d’assistance pour obtenir de l’aide
+first-time-user-email-footer-text-1-2 = Vous recevez cet e-mail automatique en tant qu’abonné·e de { -brand-name-firefox-relay }. Si vous l’avez reçu par erreur, aucune action n’est requise.
+
 ## API error messages
 
 # Variables:
