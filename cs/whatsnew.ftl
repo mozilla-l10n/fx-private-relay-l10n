@@ -95,6 +95,6 @@ whatsnew-holiday-promo-2023-news-heading = Získejte slevu 20 % na { -brand-name
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = O těchto svátcích získejte slevu 20 % z ceny ročního předplatného služby { -brand-name-relay-premium }. Stačí při placení zadat promo kód “HOLIDAY20”. Nabídka končí 31. prosince 2023.
 whatsnew-holiday-promo-2023-cta = Získat { -brand-name-relay-premium } na 1 rok
-whatsnew-feature-mask-expansion-heading = 50 e-mailových masek na nás
-whatsnew-feature-mask-expansion-snippet = Nyní máte 50 masek zdarma (nárůst z 5). Aby váš e-mail zůstal soukromý, použijte jeden pro každý účet.
-whatsnew-feature-mask-expansion-cta = Získejte e-mailové masky
+whatsnew-feature-mask-expansion-heading = 50 e-mailových masek, od nás
+whatsnew-feature-mask-expansion-snippet = Nyní získáte 50 masek zdarma (namísto původních 5). Použijte jednu pro každý účet, abyste uchovali svou skutečnou e-mailovou adresu v tajnosti.
+whatsnew-feature-mask-expansion-cta = Získat e-mailové masky

@@ -62,7 +62,7 @@ faq-question-attachments-question = Bude { -brand-name-firefox-relay } přeposí
 faq-question-attachments-answer-v2 = Nyní podporujeme přeposílání příloh. Pro přeposílání e-mailů pomocí { -brand-name-relay(case: "gen") } je však stanoven limit { email-size-limit }. E-maily s velikostí větší než { email-size-limit } nebudou přeposlány.
 faq-question-unsubscribe-domain-question-2 = Co se stane s mou vlastní subdoménou, když se odhlásím z { -brand-name-relay-premium(case: "gen") }?
 #   $mask_limit (number) - Number of free email masks allowed
-faq-question-unsubscribe-domain-answer-3 = Pokud přejdete na nižší verzi z { -brand-name-relay-premium }, budete stále dostávat e-maily přeposílané přes své vlastní e-mailové masky, ale nebudete si moci pomocí této subdomény vytvářet nové masky. Pokud máte celkem více než { $mask_limit } masek, nebudete moci vytvořit další. Ztratíte také možnost odpovídat na přeposlané zprávy. Můžete se znovu přihlásit k předplatnému { -brand-name-relay-premium } a získat tak přístup k těmto funkcím.
+faq-question-unsubscribe-domain-answer-3 = Pokud přejdete z tarifu { -brand-name-relay-premium } na nižší tarif, budete i nadále dostávat e-maily přeposílané prostřednictvím vašich vlastních e-mailových masek, ale již nebudete moci vytvářet nové masky pomocí této subdomény. Pokud máte celkem více než { $mask_limit } masek, nebudete moci vytvářet žádné další. Ztratíte také možnost odpovídat na přeposlané zprávy. Můžete se znovu přihlásit k odběru služby { -brand-name-relay-premium } a znovu získat přístup k těmto funkcím.
 faq-question-8-question = Jaké údaje { -brand-name-firefox-relay } shromažďuje?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/

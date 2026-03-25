@@ -123,7 +123,10 @@ plan-matrix-your-plan = Váš plán
 highlighted-features-section-unlimited-masks-headline = Vytvářejte neomezený počet e-mailových masek
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body-2 = Každý dostane { $mask_limit } e-mailových masek zdarma.  Ale s aplikací { -brand-name-relay-premium } si můžete vygenerovat tolik masek, kolik potřebujete, abyste ochránili své e-maily před spammery, hackery, úniky dat a online sledovacími prvky.
+highlighted-features-section-unlimited-masks-body-2 =
+    Každý dostane zdarma { $mask_limit } e-mailových masek.
+    S { -brand-name-relay-premium } však můžete vygenerovat tolik masek, kolik potřebujete, abyste ochránili svůj e-mail
+    před spammery, hackery, úniky dat a online sledovacími nástroji.
 
 # Item 2
 
@@ -140,12 +143,16 @@ highlighted-features-section-replying-body-2 = Služba { -brand-name-relay-premi
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blokování reklamních e-mailů
-highlighted-features-section-block-promotions-body-2 = Se službou { -brand-name-relay-premium } můžete blokovat doručování reklamních e-mailů do vaší e-mailové schránky, přičemž ostatní e-maily jako třeba pokladní doklady nebo informace o doručení zásilky stále dostanete.
+highlighted-features-section-block-promotions-body-2 =
+    Díky službě { -brand-name-relay-premium } můžete zabránit tomu, aby se vám do
+    schránky dostávaly reklamní e-maily, a přitom i nadále dostávat e-maily, jako jsou potvrzení o platbě nebo informace o zásilce.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Odstraňování sledovacích prvků z e-mailů
-highlighted-features-section-remove-trackers-body-2 = { -brand-name-relay } umí z přeposlaných e-mailů odstranit běžné sledovací prvky, díky čemuž zůstanete pro inzerenty neviditelní.
+highlighted-features-section-remove-trackers-body-2 =
+    { -brand-name-relay } dokáže odstranit běžné sledovací prvky z jakýchkoli e-mailů, které vám jsou přeposílány, a pomůže vám tak
+    zůstat pro sledovací nástroje a inzerenty neviditelnými.
 
 ## REVIEWS SECTION
 
