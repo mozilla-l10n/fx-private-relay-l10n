@@ -273,6 +273,7 @@ first-time-user-email-footer-text-privacy = Terminos & confidentialitate
 #   $mask_limit (number) - the number of free email masks available
 first-time-user-email-hero-primary-text-2 = Tu ha { $mask_limit } mascas de e-mail gratuite disponibile. Usa un quando tu compra online o tu te registra pro un nove conto o application.
 first-time-user-email-cta-dashboard-button-2 = Acceder a { -brand-name-firefox-relay }
+first-time-user-email-how-item-1-header-2 = Crea un masca in secundas
 
 ## API error messages
 
