@@ -267,6 +267,13 @@ first-time-user-email-footer-text-2-text = Pro altere informationes, visita le a
 first-time-user-email-footer-text-legal = Legal
 first-time-user-email-footer-text-privacy = Terminos & confidentialitate
 
+## Updated first-time user welcome email (MPP-4613)
+
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = Tu ha { $mask_limit } mascas de e-mail gratuite disponibile. Usa un quando tu compra online o tu te registra pro un nove conto o application.
+first-time-user-email-cta-dashboard-button-2 = Acceder a { -brand-name-firefox-relay }
+
 ## API error messages
 
 # Variables:
