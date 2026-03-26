@@ -281,6 +281,7 @@ first-time-user-email-how-item-1-header-2 = Crea un masca in secundas
 first-time-user-email-how-item-1-subhead-html-2 = Directemente in { -brand-name-firefox }, con le <a href="{ $url }" { $attrs }>additivo { -brand-name-relay }</a>, o ab tu pannello de controlo.
 first-time-user-email-how-item-1-subhead-text-2 = Directemente in { -brand-name-firefox }, con le additivo { -brand-name-relay }, o ab tu pannello de controlo.
 first-time-user-email-how-item-2-header-2 = Face proceder le emails que tu vole
+first-time-user-email-how-item-2-subhead-2 = Le expeditores jammais vide tu adresse real. Continua a usar un masca pro celar tu real adresse de e-mail o a blocar le e-mails que tu recipe.
 first-time-user-email-how-item-3-header-2 = Tu es al commando
 # Variables
 #   $url (string) - link to sign in
