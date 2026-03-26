@@ -286,6 +286,13 @@ first-time-user-email-how-item-3-header-2 = Jo hawwe de kontrôle
 #   $url (string) - link to sign in
 #   $attrs (string) - link attributes
 first-time-user-email-how-item-3-subhead-html-2 = <a href="{ $url }" { $attrs }>Meld jo oan</a> om op elk winske momint maskers oan te meitsjen, te labeljen of fuort te smiten.
+first-time-user-email-how-item-3-subhead-text-2 = Meld jo oan om op elk winske momint maskers te meitsjen, te labeljen of fuort te smiten.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-html-2 = Besykje ús <a href="{ $url }" { $attrs }>Stipesintrum</a> foar help
+first-time-user-email-questions-subhead-text-2 = Besykje ús Stipesintrum foar help
+first-time-user-email-footer-text-1-2 = Jo ûntfange dit automatyske e-mailberjocht as abonnee fan { -brand-name-firefox-relay }. As jo it mei fersin ûntfongen hawwe, hoege jo gjin aksje te ûndernimmen.
 
 ## API error messages
 
