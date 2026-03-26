@@ -282,6 +282,17 @@ first-time-user-email-how-item-1-subhead-html-2 = Directemente in { -brand-name-
 first-time-user-email-how-item-1-subhead-text-2 = Directemente in { -brand-name-firefox }, con le additivo { -brand-name-relay }, o ab tu pannello de controlo.
 first-time-user-email-how-item-2-header-2 = Face proceder le emails que tu vole
 first-time-user-email-how-item-3-header-2 = Tu es al commando
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-html-2 = <a href="{ $url }" { $attrs }>Accede</a> pro crear, etiquettar, o deler mascas quandocunque.
+first-time-user-email-how-item-3-subhead-text-2 = Accede pro crear, etiquettar, o deler mascas quandocunque.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-html-2 = Visita nostre <a href="{ $url }" { $attrs }>Centro de assistentia</a> pro adjuta
+first-time-user-email-questions-subhead-text-2 = Visita nostre Centro de assistentia pro adjuta
+first-time-user-email-footer-text-1-2 = Tu recipe iste e-mail automatisate como abonato de { -brand-name-firefox-relay }. Si tu ha recipite illo per error, nulle action es necesse.
 
 ## API error messages
 
