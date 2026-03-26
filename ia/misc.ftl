@@ -274,6 +274,11 @@ first-time-user-email-footer-text-privacy = Terminos & confidentialitate
 first-time-user-email-hero-primary-text-2 = Tu ha { $mask_limit } mascas de e-mail gratuite disponibile. Usa un quando tu compra online o tu te registra pro un nove conto o application.
 first-time-user-email-cta-dashboard-button-2 = Acceder a { -brand-name-firefox-relay }
 first-time-user-email-how-item-1-header-2 = Crea un masca in secundas
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-html-2 = Directemente in { -brand-name-firefox }, con le <a href="{ $url }" { $attrs }>additivo { -brand-name-relay }</a>, o ab tu pannello de controlo.
+first-time-user-email-how-item-1-subhead-text-2 = Directemente in { -brand-name-firefox }, con le additivo { -brand-name-relay }, o ab tu pannello de controlo.
 
 ## API error messages
 

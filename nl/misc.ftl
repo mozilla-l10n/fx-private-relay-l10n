@@ -266,6 +266,34 @@ first-time-user-email-footer-text-2-text = Bezoek voor meer informatie { -brand-
 first-time-user-email-footer-text-legal = Juridisch
 first-time-user-email-footer-text-privacy = Voorwaarden en privacy
 
+## Updated first-time user welcome email (MPP-4613)
+
+first-time-user-email-welcome-subhead-2 = Maskeer uw e-mailadres. Beheer uw Postvak IN.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = U kunt nog  { $mask_limit } gratis e-mailmaskers gebruiken. Gebruik er een wanneer u online winkelt of zich aanmeldt voor een nieuwe account of app.
+first-time-user-email-cta-dashboard-button-2 = Naar { -brand-name-firefox-relay }
+first-time-user-email-how-item-1-header-2 = Maak een masker in seconden
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-html-2 = Rechtstreeks in { -brand-name-firefox }, met de <a href="{ $url }" { $attrs }>{ -brand-name-relay }-add-on</a>, of vanuit uw dashboard.
+first-time-user-email-how-item-1-subhead-text-2 = Rechtstreeks in { -brand-name-firefox }, met de { -brand-name-relay }-add-on, of vanuit uw dashboard.
+first-time-user-email-how-item-2-header-2 = Stuur de gewenste e-mailberichten door
+first-time-user-email-how-item-2-subhead-2 = Afzenders zien nooit uw echte adres. Blijf een masker gebruiken om uw echte e-mailadres te verbergen of ontvangen e-mailberichten te blokkeren.
+first-time-user-email-how-item-3-header-2 = U hebt de controle
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-html-2 = <a href="{ $url }" { $attrs }>Meld u aan</a> om op elk gewenst moment maskers aan te maken, te labelen of te verwijderen.
+first-time-user-email-how-item-3-subhead-text-2 = Meld u aan om op elk gewenst moment maskers aan te maken, te labelen of te verwijderen.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-html-2 = Bezoek ons <a href="{ $url }" { $attrs }>Ondersteuningscentrum</a> voor hulp
+first-time-user-email-questions-subhead-text-2 = Bezoek ons Ondersteuningscentrum voor hulp
+first-time-user-email-footer-text-1-2 = U ontvangt dit geautomatiseerde e-mailbericht als abonnee van { -brand-name-firefox-relay }. Als u dit ten onrechte hebt ontvangen, hoeft u niets te doen.
+
 ## API error messages
 
 # Variables:

@@ -266,6 +266,27 @@ first-time-user-email-footer-text-2-text = Besykje foar mear ynformaasje { -bran
 first-time-user-email-footer-text-legal = Juridysk
 first-time-user-email-footer-text-privacy = Betingsten en privacy
 
+## Updated first-time user welcome email (MPP-4613)
+
+first-time-user-email-welcome-subhead-2 = Maskearje jo e-mailadres. Behear jo Postfek YN.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = Jo kinne noch  { $mask_limit } fergeze e-mailmaskers brûke. Brûk ien as jo online winkelje of jo oanmelde foar in nije account of app.
+first-time-user-email-cta-dashboard-button-2 = Nei { -brand-name-firefox-relay }
+first-time-user-email-how-item-1-header-2 = Meitsje in masker yn sekonden
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-html-2 = Streekrjocht yn { -brand-name-firefox }, mei de <a href="{ $url }" { $attrs }>{ -brand-name-relay }-add-on</a>, of fan jo dashboerd út.
+first-time-user-email-how-item-1-subhead-text-2 = Streekrjocht yn { -brand-name-firefox }, mei de { -brand-name-relay }-add-on, of fan jo dashboerd út.
+first-time-user-email-how-item-2-header-2 = Stjoer de winske e-mailberjochten troch
+first-time-user-email-how-item-2-subhead-2 = Ofstjoerders sjogge nea jo echte adres. Bliuw in masker brûke om jo echte e-mailadres te ferstopjen of ûntfongen e-mailberjochten te blokkearjen.
+first-time-user-email-how-item-3-header-2 = Jo hawwe de kontrôle
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-html-2 = <a href="{ $url }" { $attrs }>Meld jo oan</a> om op elk winske momint maskers oan te meitsjen, te labeljen of fuort te smiten.
+
 ## API error messages
 
 # Variables:
