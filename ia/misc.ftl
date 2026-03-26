@@ -269,6 +269,7 @@ first-time-user-email-footer-text-privacy = Terminos & confidentialitate
 
 ## Updated first-time user welcome email (MPP-4613)
 
+first-time-user-email-welcome-subhead-2 = Masca tu e-mail. Controla tu cassa de entrata.
 # Variables
 #   $mask_limit (number) - the number of free email masks available
 first-time-user-email-hero-primary-text-2 = Tu ha { $mask_limit } mascas de e-mail gratuite disponibile. Usa un quando tu compra online o tu te registra pro un nove conto o application.
@@ -279,6 +280,8 @@ first-time-user-email-how-item-1-header-2 = Crea un masca in secundas
 #   $attrs (string) - link attributes
 first-time-user-email-how-item-1-subhead-html-2 = Directemente in { -brand-name-firefox }, con le <a href="{ $url }" { $attrs }>additivo { -brand-name-relay }</a>, o ab tu pannello de controlo.
 first-time-user-email-how-item-1-subhead-text-2 = Directemente in { -brand-name-firefox }, con le additivo { -brand-name-relay }, o ab tu pannello de controlo.
+first-time-user-email-how-item-2-header-2 = Face proceder le emails que tu vole
+first-time-user-email-how-item-3-header-2 = Tu es al commando
 
 ## API error messages
 
