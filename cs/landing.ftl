@@ -138,7 +138,7 @@ highlighted-features-section-masks-on-the-go-body-2 = Služba { -brand-name-rela
 # Item 3
 
 highlighted-features-section-replying-headline = Odpovídejte na e-maily a textové zprávy anonymně
-highlighted-features-section-replying-body-2 = Služba { -brand-name-relay-premium } umožňuje odpovídat na e-maily pocházející od vašeho
+highlighted-features-section-replying-body-2 = Služba { -brand-name-relay-premium } vám umožňuje odpovídat na e-maily z maskovaného e-mailového účtu, takže odesílatelé nikdy nezjistí vaši skutečnou e-mailovou adresu. Díky maskování telefonního čísla můžete odpovídat na SMS zprávy z maskovaného telefonního čísla a chránit tak své skutečné číslo.
 
 # Item 4
 
