@@ -275,11 +275,23 @@ first-time-user-email-welcome-subhead-2 = Dölj din e-post. Styr din inkorg.
 first-time-user-email-hero-primary-text-2 = Du har { $mask_limit } gratis e-postalias redo att börja användas. Använd en när du handlar online eller registrerar dig för ett nytt konto eller app.
 first-time-user-email-cta-dashboard-button-2 = Gå till { -brand-name-firefox-relay }
 first-time-user-email-how-item-1-header-2 = Skapa ett alias på några sekunder
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-2-html = Direkt i { -brand-name-firefox }, med <a href="{ $url }" { $attrs }>tillägget { -brand-name-relay }</a> eller från din översikt.
 first-time-user-email-how-item-1-subhead-text-2 = Direkt i { -brand-name-firefox }, med tillägget { -brand-name-relay } eller från din översikt.
 first-time-user-email-how-item-2-header-2 = Vidarebefordra de mejl du vill ha
 first-time-user-email-how-item-2-subhead-2 = Avsändare ser aldrig din riktiga adress. Fortsätt använda ett alias för att dölja din riktiga e-postadress eller blockera e-postmeddelanden du får.
 first-time-user-email-how-item-3-header-2 = Du har kontrollen
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>Logga in</a> för att skapa, namnge eller ta bort alias när som helst.
 first-time-user-email-how-item-3-subhead-text-2 = Logga in för att skapa, namnge eller ta bort alias när som helst.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-2-html = Besök vårt <a href="{ $url }" { $attrs }>Supportcenter</a> för hjälp
 first-time-user-email-questions-subhead-text-2 = Besök vårt Supportcenter för hjälp
 first-time-user-email-footer-text-1-2 = Du får detta automatiska e-postmeddelande som prenumerant på { -brand-name-firefox-relay }. Om du fick den av misstag krävs ingen åtgärd.
 
