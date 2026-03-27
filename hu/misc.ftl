@@ -272,23 +272,11 @@ first-time-user-email-welcome-subhead-2 = Maszkolja az e-mail-címét. Irányít
 first-time-user-email-hero-primary-text-2 = { $mask_limit } ingyenes e-mail-maszkja van, melyek használatra készek. Használjon egyet online vásárláskor, vagy regisztráljon egy új fiókot vagy alkalmazást.
 first-time-user-email-cta-dashboard-button-2 = Ugrás ide: { -brand-name-firefox-relay }
 first-time-user-email-how-item-1-header-2 = Maszk készítése másodpercek alatt
-# Variables
-#   $url (string) - link to the Relay add-on
-#   $attrs (string) - link attributes
-first-time-user-email-how-item-1-subhead-html-2 = Közvetlenül a { -brand-name-firefox }ban, a <a href="{ $url }" { $attrs }>{ -brand-name-relay } kiegészítővel</a>, vagy a vezérlőpultjáról.
 first-time-user-email-how-item-1-subhead-text-2 = Közvetlenül a { -brand-name-firefox }ban, a { -brand-name-relay } kiegészítővel, vagy a vezérlőpultjáról.
 first-time-user-email-how-item-2-header-2 = Továbbítsa a kívánt leveleket
 first-time-user-email-how-item-2-subhead-2 = A feladók sosem látják a valódi címét. Használjon maszkot a valódi e-mail-címe elrejtéséhez, vagy a kapott levelek blokkolásához.
 first-time-user-email-how-item-3-header-2 = Ön irányít
-# Variables
-#   $url (string) - link to sign in
-#   $attrs (string) - link attributes
-first-time-user-email-how-item-3-subhead-html-2 = <a href="{ $url }" { $attrs }>Jelentkezzen be</a>, hogy bármikor létrehozza, címkézze vagy törölje a maszkokat.
 first-time-user-email-how-item-3-subhead-text-2 = Jelentkezzen be, hogy bármikor létrehozza, címkézze vagy törölje a maszkokat.
-# Variables
-#   $url (string) - link to support center
-#   $attrs (string) - link attributes
-first-time-user-email-questions-subhead-html-2 = Segítségért keresse fel a <a href="{ $url }" { $attrs }>Támogatási központunkat</a>
 first-time-user-email-questions-subhead-text-2 = Segítségért keresse fel a Támogatási központunkat
 first-time-user-email-footer-text-1-2 = Ezt az automatikus e-mailt a { -brand-name-firefox-relay } előfizetőjeként kapja. Ha tévedésből kapta, nincs teendője.
 
