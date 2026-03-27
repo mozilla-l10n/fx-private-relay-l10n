@@ -266,15 +266,25 @@ first-time-user-email-footer-text-privacy = Confidentialité et conditions d’u
 
 ## Updated first-time user welcome email (MPP-4613)
 
+first-time-user-email-welcome-subhead-2 = Masquez votre adresse e-mail. Contrôlez votre boîte de réception.
 # Variables
 #   $mask_limit (number) - the number of free email masks available
 first-time-user-email-hero-primary-text-2 = Vous disposez de { $mask_limit } alias de messagerie gratuits. Utilisez-en un lorsque vous achetez en ligne ou lorsque vous créez un nouveau compte ou vous connectez à une nouvelle application.
+first-time-user-email-cta-dashboard-button-2 = Accéder à { -brand-name-firefox-relay }
 first-time-user-email-how-item-1-header-2 = Créez un alias en quelques secondes
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
 first-time-user-email-how-item-1-subhead-html-2 = Créez des alias directement depuis { -brand-name-firefox }, avec le <a href="{ $url }" { $attrs }>module complémentaire de { -brand-name-relay }</a>, ou depuis votre tableau de bord.
 first-time-user-email-how-item-1-subhead-text-2 = Créez des alias directement depuis { -brand-name-firefox }, avec le module complémentaire de { -brand-name-relay }, ou depuis votre tableau de bord.
+first-time-user-email-how-item-2-header-2 = Transférez les e-mails qui vous intéressent
+first-time-user-email-how-item-2-subhead-2 = Les expéditeurs ne voient jamais votre véritable adresse. Continuez à utiliser un alias pour masquer votre véritable adresse e-mail ou bloquer les e-mails que vous recevez.
+first-time-user-email-how-item-3-header-2 = Vous avez le contrôle
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-html-2 = <a href="{ $url }" { $attrs }>Connectez-vous</a> pour créer, étiqueter ou supprimer des alias à tout moment.
+first-time-user-email-how-item-3-subhead-text-2 = Connectez-vous pour créer, étiqueter ou supprimer des alias à tout moment.
 # Variables
 #   $url (string) - link to support center
 #   $attrs (string) - link attributes
