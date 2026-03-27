@@ -259,6 +259,34 @@ first-time-user-email-footer-text-2-text = 如需更多信息，请访问 { -bra
 first-time-user-email-footer-text-legal = 法律条款
 first-time-user-email-footer-text-privacy = 条款和隐私
 
+## Updated first-time user welcome email (MPP-4613)
+
+first-time-user-email-welcome-subhead-2 = 隐藏邮箱地址。掌控您的收件箱。
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = 您已准备好使用 { $mask_limit } 个免费马甲邮箱。在您网购、注册新账户、注册应用时使用
+first-time-user-email-cta-dashboard-button-2 = 前往 { -brand-name-firefox-relay }
+first-time-user-email-how-item-1-header-2 = 快速创建马甲
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-2-html = 就在 { -brand-name-firefox }使用 <a href="{ $url }" { $attrs }>{ -brand-name-relay } 附加组件</a>或从您的面板。
+first-time-user-email-how-item-1-subhead-text-2 = 使用 { -brand-name-firefox } 中的附加组件 { -brand-name-relay } 或从您的面板即可。
+first-time-user-email-how-item-2-header-2 = 转发您需要的邮件
+first-time-user-email-how-item-2-subhead-2 = 发件人看不到您的真实地址。继续使用马甲邮箱来隐藏您的真实电子邮件地址或屏蔽您收到的电子邮件。
+first-time-user-email-how-item-3-header-2 = 您的隐私您做主
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-2-html = 随时<a href="{ $url }" { $attrs }>登录</a>以创建、添加标签或删除马甲。
+first-time-user-email-how-item-3-subhead-text-2 = 登录以随时创建、添加标签或删除马甲。
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-2-html = 访问我们的<a href="{ $url }" { $attrs }>支持中心</a>寻求帮助
+first-time-user-email-questions-subhead-text-2 = 请访问我们的支持中心寻求帮助
+first-time-user-email-footer-text-1-2 = 您会收到这封自动发送的电子邮件是作为 { -brand-name-firefox-relay } 的订阅者。若您并未收到邮件则无需进行任何操作。
+
 ## API error messages
 
 # Variables:

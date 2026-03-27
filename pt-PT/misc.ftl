@@ -274,6 +274,34 @@ first-time-user-email-footer-text-2-text = Para mais informação, visite o Apoi
 first-time-user-email-footer-text-legal = Informação jurídica
 first-time-user-email-footer-text-privacy = Termos e privacidade
 
+## Updated first-time user welcome email (MPP-4613)
+
+first-time-user-email-welcome-subhead-2 = Mascare o seu e-mail. Controle a sua caixa de entrada.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = Tem { $mask_limit } máscaras de e-mail gratuitas prontas a utilizar. Utilize um ao fazer compras online ou ao registar-se para uma nova conta ou aplicação.
+first-time-user-email-cta-dashboard-button-2 = Ir para { -brand-name-firefox-relay }
+first-time-user-email-how-item-1-header-2 = Crie uma máscara em segundos
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-2-html = Direitamente em { -brand-name-firefox }, com o <a href="{ $url }" { $attrs }>{ -brand-name-relay } extras</a>, ou a partir do seu painel.
+first-time-user-email-how-item-1-subhead-text-2 = diretamente em { -brand-name-firefox }, com o extra { -brand-name-relay }, ou a partir do seu painel.
+first-time-user-email-how-item-2-header-2 = Reencaminhar as mensagens que deseja
+first-time-user-email-how-item-2-subhead-2 = Os remetentes nunca vê o seu endereço real. Continue a utilizar uma máscara para ocultar o seu e-mail real ou bloquear as mensagens que receber.
+first-time-user-email-how-item-3-header-2 = Você tem o controlo
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>Inicie sessão</a> para criar, etiquetar ou eliminar máscaras a qualquer momento.
+first-time-user-email-how-item-3-subhead-text-2 = Inicie sessão para criar, etiquetar ou eliminar máscaras a qualquer momento.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-2-html = Visite o nosso <a href="{ $url }" { $attrs }>Centro de Apoio</a> para ajuda
+first-time-user-email-questions-subhead-text-2 = Visite o nosso Centro de Apoio para obter ajuda
+first-time-user-email-footer-text-1-2 = Está a receber este e-mail automático como subscritor de { -brand-name-firefox-relay }. Se o recebeu por erro, nenhuma ação é necessária.
+
 ## API error messages
 
 # Variables:

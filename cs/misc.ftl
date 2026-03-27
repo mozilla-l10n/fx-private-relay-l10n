@@ -310,6 +310,34 @@ first-time-user-email-footer-text-2-text = Pro více informací navštivte podpo
 first-time-user-email-footer-text-legal = Právní informace
 first-time-user-email-footer-text-privacy = Podmínky a ochrana soukromí
 
+## Updated first-time user welcome email (MPP-4613)
+
+first-time-user-email-welcome-subhead-2 = Zamaskujte svůj e-mail. Mějte svou doručenou poštu pod kontrolou.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = Máte { $mask_limit } bezplatných e-mailových masek, které jsou připraveny. Použijte jej při nakupování online, registraci nového účtu či aplikace.
+first-time-user-email-cta-dashboard-button-2 = Přejít na { -brand-name-firefox-relay }
+first-time-user-email-how-item-1-header-2 = Vytvořte masku během několika sekund
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-2-html = Přímo v aplikaci { -brand-name-firefox }, s doplňkem <a href="{ $url }" { $attrs }>{ -brand-name-relay }</a> nebo z vaší nástěnky.
+first-time-user-email-how-item-1-subhead-text-2 = Přímo v aplikaci { -brand-name-firefox }, s doplňkem { -brand-name-relay } nebo z vaší nástěnky.
+first-time-user-email-how-item-2-header-2 = Přepošlete požadované e-maily
+first-time-user-email-how-item-2-subhead-2 = Odesílatelé nikdy neuvidí vaši skutečnou adresu. I nadále používejte masku, která skryje své skutečné e-maily, nebo blokuje všechny příchozí e-maily.
+first-time-user-email-how-item-3-header-2 = Vše máte pod kontrolou
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-2-html = Pro vytvoření, označení nebo smazání masek se kdykoliv <a href="{ $url }" { $attrs }>přihlaste</a>.
+first-time-user-email-how-item-3-subhead-text-2 = Pro vytvoření, označení nebo smazání masek se kdykoliv přihlaste.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-2-html = Pro pomoc navštivte naše <a href="{ $url }" { $attrs }>Centrum podpory</a>
+first-time-user-email-questions-subhead-text-2 = Pro pomoc navštivte naše centrum podpory
+first-time-user-email-footer-text-1-2 = Tento automatický e-mail dostáváte jako odběratel { -brand-name-firefox-relay }. Pokud jste zprávu obdrželi omylem, není vyžadována žádná akce.
+
 ## API error messages
 
 # Variables:

@@ -274,11 +274,23 @@ first-time-user-email-welcome-subhead-2 = Verbergen Sie Ihre E-Mail-Adresse. Kon
 first-time-user-email-hero-primary-text-2 = Für Sie stehen { $mask_limit } kostenlose E-Mail-Masken bereit, die Sie verwenden können. Verwenden Sie eine, wenn Sie online einkaufen oder sich für ein neues Konto oder eine App registrieren.
 first-time-user-email-cta-dashboard-button-2 = { -brand-name-firefox-relay } aufrufen
 first-time-user-email-how-item-1-header-2 = Erstellen Sie in Sekunden eine Maske
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-2-html = Direkt in { -brand-name-firefox }, mit dem <a href="{ $url }" { $attrs }>{ -brand-name-relay }-Add-on</a> oder auf Ihrer { -brand-name-relay }-Übersicht.
 first-time-user-email-how-item-1-subhead-text-2 = Direkt in { -brand-name-firefox }, mit dem { -brand-name-relay }-Add-on oder auf Ihrer Übersicht.
 first-time-user-email-how-item-2-header-2 = Die gewünschten E-Mails weiterleiten
 first-time-user-email-how-item-2-subhead-2 = Absender sehen nie Ihre echte Adresse. Verwenden Sie weiterhin eine Maske, um Ihre echte E-Mail-Adresse zu verbergen oder E-Mails zu blockieren, die Sie erhalten.
 first-time-user-email-how-item-3-header-2 = Sie haben die Kontrolle
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>Melden Sie sich an</a>, um jederzeit Masken zu erstellen, zu beschriften oder zu löschen.
 first-time-user-email-how-item-3-subhead-text-2 = Melden Sie sich an, um jederzeit Masken zu erstellen, zu beschriften oder zu löschen.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-2-html = Besuchen Sie unser <a href="{ $url }" { $attrs }>Hilfe-Center</a>, um Unterstützung zu erhalten
 first-time-user-email-questions-subhead-text-2 = Besuchen Sie unser Hilfe-Center, um Unterstützung zu erhalten
 first-time-user-email-footer-text-1-2 = Sie erhalten diese automatische E-Mail als Abonnent von { -brand-name-firefox-relay }. Wenn Sie diese irrtümlich erhalten haben, müssen Sie nichts tun.
 

@@ -261,6 +261,34 @@ first-time-user-email-footer-text-2-text = Untuk informasi lebih lanjut, kunjung
 first-time-user-email-footer-text-legal = Pernyataan Hukum
 first-time-user-email-footer-text-privacy = Ketentuan dan Privasi
 
+## Updated first-time user welcome email (MPP-4613)
+
+first-time-user-email-welcome-subhead-2 = Tutupi surel Anda. Kendalikan kotak masuk Anda.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = Anda memiliki { $mask_limit } topeng surel gratis yang siap digunakan. Gunakan satu saat Anda berbelanja daring atau mendaftar untuk akun atau aplikasi baru.
+first-time-user-email-cta-dashboard-button-2 = Buka { -brand-name-firefox-relay }
+first-time-user-email-how-item-1-header-2 = Buat topeng dalam hitungan detik
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-2-html = Tepat di { -brand-name-firefox }, dengan pengaya <a href="{ $url }" { $attrs }>{ -brand-name-relay }</a>, atau dari dasbor Anda.
+first-time-user-email-how-item-1-subhead-text-2 = Tepat di { -brand-name-firefox }, dengan pengaya { -brand-name-relay }, atau dari dasbor Anda.
+first-time-user-email-how-item-2-header-2 = Teruskan surel yang Anda inginkan
+first-time-user-email-how-item-2-subhead-2 = Pengirim tidak pernah melihat alamat asli Anda. Tetap gunakan topeng untuk menyembunyikan surel asli Anda atau memblokir surel yang Anda dapatkan.
+first-time-user-email-how-item-3-header-2 = Anda memegang kendali
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>Masuk</a> untuk membuat, memberi label, atau menghapus topeng kapan saja.
+first-time-user-email-how-item-3-subhead-text-2 = Masuk untuk membuat, memberi label, atau menghapus topeng kapan saja.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-2-html = Kunjungi <a href="{ $url }" { $attrs }>Pusat Dukungan</a> kami untuk mendapatkan bantuan
+first-time-user-email-questions-subhead-text-2 = Kunjungi Pusat Dukungan kami untuk mendapatkan bantuan
+first-time-user-email-footer-text-1-2 = Anda menerima surel otomatis ini sebagai pelanggan { -brand-name-firefox-relay }. Jika Anda menerimanya karena kesalahan, tidak ada tindakan yang diperlukan.
+
 ## API error messages
 
 # Variables:
