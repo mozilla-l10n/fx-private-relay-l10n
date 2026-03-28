@@ -270,11 +270,11 @@ first-time-user-email-footer-text-privacy = Koşullar ve Gizlilik
 
 ## Updated first-time user welcome email (MPP-4613)
 
-first-time-user-email-welcome-subhead-2 = E-postanızı maskeleyin. Gelen kutunuzu yönetin.
+first-time-user-email-welcome-subhead-2 = E-postanızı maskeleyin. Gelen kutunuzu kontrol altında tutun.
 # Variables
 #   $mask_limit (number) - the number of free email masks available
 first-time-user-email-hero-primary-text-2 = { $mask_limit } ücretsiz e-posta maskeniz hazır. Çevrimiçi alışveriş yaparken veya yeni bir hesap ya da uygulamaya kaydolurken bu tarayıcıyı kullanın.
-first-time-user-email-cta-dashboard-button-2 = { -brand-name-firefox-relay } marketine git
+first-time-user-email-cta-dashboard-button-2 = { -brand-name-firefox-relay }’e git
 first-time-user-email-how-item-1-header-2 = Saniyeler içinde maske oluşturun
 # Variables
 #   $url (string) - link to the Relay add-on
