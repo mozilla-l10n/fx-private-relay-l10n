@@ -272,6 +272,10 @@ first-time-user-email-welcome-subhead-2 = Nascondi il tuo indirizzo email. Manti
 first-time-user-email-hero-primary-text-2 = Hai { $mask_limit } alias gratuiti pronti per l’uso. Utilizzane uno per gli acquisti online oppure per registrarti a un nuovo account o a un’app.
 first-time-user-email-cta-dashboard-button-2 = Accedi a { -brand-name-firefox-relay }
 first-time-user-email-how-item-1-header-2 = Crea un alias in pochi secondi
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-2-html = Direttamente in { -brand-name-firefox }, con il <a href="{ $url }" { $attrs }>componente aggiuntivo { -brand-name-relay }</a> o dalla dashboard.
 first-time-user-email-how-item-1-subhead-text-2 = Direttamente in { -brand-name-firefox } con il componente aggiuntivo { -brand-name-relay } o dalla dashboard.
 first-time-user-email-how-item-2-header-2 = Inoltra solo le email che vuoi
 first-time-user-email-how-item-2-subhead-2 = I mittenti non vedono mai il tuo indirizzo reale. Continua a utilizzare un alias per nasconderlo o per bloccare le email che ricevi.
@@ -285,6 +289,7 @@ first-time-user-email-how-item-3-subhead-text-2 = Accedi per creare, contrassegn
 #   $attrs (string) - link attributes
 first-time-user-email-questions-subhead-2-html = Visita il nostro <a href="{ $url }" { $attrs }>centro assistenza</a>
 first-time-user-email-questions-subhead-text-2 = Visita il nostro centro assistenza
+first-time-user-email-footer-text-1-2 = Hai ricevuto questa email automatica perché sei abbonato a { -brand-name-firefox-relay }. Se l’hai ricevuta per errore, non è richiesta alcuna azione.
 
 ## API error messages
 
