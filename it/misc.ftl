@@ -264,6 +264,28 @@ first-time-user-email-footer-text-2-text = Per ulteriori informazioni, visita il
 first-time-user-email-footer-text-legal = Note legali
 first-time-user-email-footer-text-privacy = Condizioni di utilizzo e privacy
 
+## Updated first-time user welcome email (MPP-4613)
+
+first-time-user-email-welcome-subhead-2 = Nascondi il tuo indirizzo email. Mantieni il controllo della tua casella di posta.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = Hai { $mask_limit } alias gratuiti pronti per l’uso. Utilizzane uno per gli acquisti online oppure per registrarti a un nuovo account o a un’app.
+first-time-user-email-cta-dashboard-button-2 = Accedi a { -brand-name-firefox-relay }
+first-time-user-email-how-item-1-header-2 = Crea un alias in pochi secondi
+first-time-user-email-how-item-1-subhead-text-2 = Direttamente in { -brand-name-firefox } con il componente aggiuntivo { -brand-name-relay } o dalla dashboard.
+first-time-user-email-how-item-2-header-2 = Inoltra solo le email che vuoi
+first-time-user-email-how-item-2-subhead-2 = I mittenti non vedono mai il tuo indirizzo reale. Continua a utilizzare un alias per nasconderlo o per bloccare le email che ricevi.
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>Accedi</a> per creare, contrassegnare o eliminare gli alias quando vuoi.
+first-time-user-email-how-item-3-subhead-text-2 = Accedi per creare, contrassegnare o eliminare gli alias quando vuoi.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-2-html = Visita il nostro <a href="{ $url }" { $attrs }>centro assistenza</a>
+first-time-user-email-questions-subhead-text-2 = Visita il nostro centro assistenza
+
 ## API error messages
 
 # Variables:
