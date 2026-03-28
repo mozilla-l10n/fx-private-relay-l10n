@@ -263,31 +263,31 @@ first-time-user-email-footer-text-privacy = 使用條款及隱私權
 
 ## Updated first-time user welcome email (MPP-4613)
 
-first-time-user-email-welcome-subhead-2 = 隱藏您的電子郵件地址。自行控制收件匣。
+first-time-user-email-welcome-subhead-2 = 隱藏您的信箱，自行管控收件匣。
 # Variables
 #   $mask_limit (number) - the number of free email masks available
-first-time-user-email-hero-primary-text-2 = 您已有 { $mask_limit } 個免費的轉寄信箱準備好了當您在網路購物或註冊新帳號或應用程式時使用憑證。
+first-time-user-email-hero-primary-text-2 = 您有 { $mask_limit } 個免費轉寄信箱，在線上購物或註冊帳號時可以使用。
 first-time-user-email-cta-dashboard-button-2 = 前往 { -brand-name-firefox-relay }
-first-time-user-email-how-item-1-header-2 = 在幾秒鐘內建立轉寄信箱
+first-time-user-email-how-item-1-header-2 = 只需幾秒鐘就能建立轉寄信箱
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
-first-time-user-email-how-item-1-subhead-2-html = 可以在 { -brand-name-firefox } 中直接使用 <a href="{ $url }" { $attrs }>{ -brand-name-relay } 附加元件</a>或是在儀表板中下載。
-first-time-user-email-how-item-1-subhead-text-2 = 直接在 { -brand-name-firefox }、使用 { -brand-name-relay } 附加元件或在儀表板開啟。
+first-time-user-email-how-item-1-subhead-2-html = 可以在 { -brand-name-firefox } 中直接使用 <a href="{ $url }" { $attrs }>{ -brand-name-relay } 附加元件</a>，或從儀表板中使用。
+first-time-user-email-how-item-1-subhead-text-2 = 可以在 { -brand-name-firefox } 中直接使用 { -brand-name-relay } 附加元件，或從儀表板中使用。
 first-time-user-email-how-item-2-header-2 = 轉寄您想要轉寄的郵件
-first-time-user-email-how-item-2-subhead-2 = 寄件者永遠不會看到您的實際地址。繼續使用轉寄信箱來隱藏您實際的電子郵件信箱或封鎖您實際收到的信箱。
+first-time-user-email-how-item-2-subhead-2 = 寄件者永遠不會看到您的實際信箱。繼續使用轉寄信箱來隱藏您實際的電子郵件信箱或封鎖您收到的郵件。
 first-time-user-email-how-item-3-header-2 = 一切由您掌控
 # Variables
 #   $url (string) - link to sign in
 #   $attrs (string) - link attributes
-first-time-user-email-how-item-3-subhead-2-html = 隨時<a href="{ $url }" { $attrs }>登入</a>來建立、標示或刪除轉寄信箱。
-first-time-user-email-how-item-3-subhead-text-2 = 登入後即可隨時建立、標籤或刪除轉寄信箱。
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>登入</a>後即可隨時建立、標記或刪除轉寄信箱。
+first-time-user-email-how-item-3-subhead-text-2 = 登入後即可隨時建立、標記或刪除轉寄信箱。
 # Variables
 #   $url (string) - link to support center
 #   $attrs (string) - link attributes
-first-time-user-email-questions-subhead-2-html = 若需協助請前往我們的<a href="{ $url }" { $attrs }>技術支援中心</a>
-first-time-user-email-questions-subhead-text-2 = 前往我們的支援中心尋求協助
-first-time-user-email-footer-text-1-2 = 您將會收到這封自動寄發的郵件是因為您是 { -brand-name-firefox-relay } 的訂閱者。若您錯誤地收到此金鑰不必做任何事。
+first-time-user-email-questions-subhead-2-html = 若需協助，請前往我們的<a href="{ $url }" { $attrs }>技術支援中心</a>
+first-time-user-email-questions-subhead-text-2 = 若需協助，請前往我們的技術支援中心
+first-time-user-email-footer-text-1-2 = 您會收到這封自動寄發的郵件，是因為您是 { -brand-name-firefox-relay } 的訂閱者。若您錯誤地收到這封郵件，不必做任何事。
 
 ## API error messages
 
