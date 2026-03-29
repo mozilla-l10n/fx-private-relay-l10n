@@ -280,10 +280,6 @@ first-time-user-email-how-item-3-header-2 = 您的隐私您做主
 #   $attrs (string) - link attributes
 first-time-user-email-how-item-3-subhead-2-html = 随时<a href="{ $url }" { $attrs }>登录</a>以创建、添加标签或删除马甲。
 first-time-user-email-how-item-3-subhead-text-2 = 登录以随时创建、添加标签或删除马甲。
-# Variables
-#   $url (string) - link to support center
-#   $attrs (string) - link attributes
-first-time-user-email-questions-subhead-2-html = 访问我们的<a href="{ $url }" { $attrs }>支持中心</a>寻求帮助
 first-time-user-email-questions-subhead-text-2 = 请访问我们的支持中心寻求帮助
 first-time-user-email-footer-text-1-2 = 您会收到这封自动发送的电子邮件是作为 { -brand-name-firefox-relay } 的订阅者。若您并未收到邮件则无需进行任何操作。
 
