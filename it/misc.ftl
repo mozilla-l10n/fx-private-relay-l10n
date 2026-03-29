@@ -279,7 +279,7 @@ first-time-user-email-how-item-1-subhead-2-html = Direttamente in { -brand-name-
 first-time-user-email-how-item-1-subhead-text-2 = Direttamente in { -brand-name-firefox } con il componente aggiuntivo { -brand-name-relay } o dalla dashboard.
 first-time-user-email-how-item-2-header-2 = Inoltra solo le email che vuoi
 first-time-user-email-how-item-2-subhead-2 = I mittenti non vedono mai il tuo indirizzo reale. Continua a utilizzare un alias per nasconderlo o per bloccare le email che ricevi.
-first-time-user-email-how-item-3-header-2 = RImani in controllo
+first-time-user-email-how-item-3-header-2 = Rimani in controllo
 # Variables
 #   $url (string) - link to sign in
 #   $attrs (string) - link attributes
