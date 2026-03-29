@@ -329,14 +329,14 @@ first-time-user-email-how-item-3-header-2 = Máte vše pod kontrolou
 # Variables
 #   $url (string) - link to sign in
 #   $attrs (string) - link attributes
-first-time-user-email-how-item-3-subhead-2-html = Pro vytvoření, označení nebo smazání masek se kdykoliv <a href="{ $url }" { $attrs }>přihlaste</a>.
-first-time-user-email-how-item-3-subhead-text-2 = Pro vytvoření, označení nebo smazání masek se kdykoliv přihlaste.
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>Přihlaste se</a>, abyste mohli kdykoli vytvářet, pojmenovávat nebo mazat masky.
+first-time-user-email-how-item-3-subhead-text-2 = Přihlaste se a můžete kdykoli vytvářet, označovat nebo mazat masky.
 # Variables
 #   $url (string) - link to support center
 #   $attrs (string) - link attributes
-first-time-user-email-questions-subhead-2-html = Pro pomoc navštivte naše <a href="{ $url }" { $attrs }>Centrum podpory</a>
-first-time-user-email-questions-subhead-text-2 = Pro pomoc navštivte naše centrum podpory
-first-time-user-email-footer-text-1-2 = Tento automatický e-mail dostáváte jako odběratel { -brand-name-firefox-relay }. Pokud jste zprávu obdrželi omylem, není vyžadována žádná akce.
+first-time-user-email-questions-subhead-2-html = Navštivte naše <a href="{ $url }" { $attrs }>Centrum podpory</a>, kde vám rádi pomůžeme
+first-time-user-email-questions-subhead-text-2 = Navštivte naše centrum podpory, kde vám rádi pomůžeme
+first-time-user-email-footer-text-1-2 = Tento automatický e-mail jste obdrželi jako odběratel služby { -brand-name-firefox-relay }. Pokud vám byl doručen omylem, nemusíte nic dělat.
 
 ## API error messages
 
