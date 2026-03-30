@@ -260,6 +260,27 @@ first-time-user-email-footer-text-2-text = Am ragor o wybodaeth, ewch i Cymorth 
 first-time-user-email-footer-text-legal = Cyfreithiol
 first-time-user-email-footer-text-privacy = Amodau a Phreifatrwydd
 
+## Updated first-time user welcome email (MPP-4613)
+
+first-time-user-email-welcome-subhead-2 = Cuddio'ch e-bost. Rheoli'ch blwch derbyn.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = Mae gennych { $mask_limit } arallenw e-bost am ddim yn barod i fynd. Defnyddiwch un pan fyddwch chi'n siopa ar-lein neu'n cofrestru ar gyfer cyfrif neu ap newydd.
+first-time-user-email-cta-dashboard-button-2 = Ewch i { -brand-name-firefox-relay }
+first-time-user-email-how-item-1-header-2 = Creu arallenw mewn eiliadau
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-2-html = O fewn { -brand-name-firefox } , gyda'r ychwanegyn <a href="{ $url }" { $attrs }>{ -brand-name-relay }</a>, neu o'ch bwrdd dangos.
+first-time-user-email-how-item-1-subhead-text-2 = O fewn { -brand-name-firefox } , gyda'r ychwanegyn { -brand-name-relay }, neu o'ch bwrdd dangos.
+first-time-user-email-how-item-2-header-2 = Anfonwch ymlaen eich dewis o e-byst
+first-time-user-email-how-item-2-subhead-2 = Fydd anfonwyr byth yn gweld eich cyfeiriad go iawn. Gallwch barhau i ddefnyddio arallenw i guddio'ch e-bost go iawn neu rwystro'r e-byst sy'n cyrraedd.
+first-time-user-email-how-item-3-header-2 = Chi sy'n rheoli
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-2-html = <a href = " { $url } " { $attrs }>Mewngofnodi</a> i greu, labelu neu ddileu arallenwau unrhyw bryd.
+
 ## API error messages
 
 # Variables:
