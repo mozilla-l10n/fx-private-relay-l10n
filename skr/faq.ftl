@@ -55,6 +55,8 @@ faq-question-mozmail-answer-2 = اساں "relay.firefox.com" کنوں "mozmail.c
 faq-question-attachments-question = بھلا { -brand-name-firefox-relay } نتھیاں نال ای میلاں اڳوں تے پٹھیسی؟
 faq-question-attachments-answer-v2 = ہݨ اساں اٹیچمنٹ فارورڈنگ کوں سپورٹ کریندے ہیں۔ بھل جو، { -brand-name-relay } دا استعمال کریندے ہوئے ای میل فارورڈنگ کیتے ہک { email-size-limit } دی حد ہے۔ { email-size-limit } کنوں وݙی کوئی وی ای میل اڳوں تے نہ بھیڄیاں ویسن۔
 faq-question-unsubscribe-domain-question-2 = جے میں { -brand-name-relay-premium } کنوں اݨ سبسکرائب تھینداں تاں میݙی کسٹم  سب ڈومین نال کیا تھیسی؟
+#   $mask_limit (number) - Number of free email masks allowed
+faq-question-unsubscribe-domain-answer-3 = جے تہاکوں { -brand-name-relay-premium } کنوں ڈاؤن گریڈ کریندے ہن، تݙاں وی تہاکوں اپݨے حسب ضرورت ای میل ماسک دے ذریعے اڳوں تے بھیڄیاں ڳئیاں ای میلز وصول تھیسن، لیکن تساں ایں ذیلی ڈومین دا استعمال کریندے ہوئے ودھیک نویں ماسک نہ بݨا سڳسو۔ جے تہاݙے کول کل { $mask_limit }کنوں زیادہ ماسک ہن تاں تساں ودھیک ماسک نہ بݨا سڳسو۔ تساں اڳوں تے بھیڄے ڳئے سنیہاں دا جواب ݙیوݨ دی اہلیت کنوں وی محروم تھی ویسو۔ تساں { -brand-name-relay-premium } کوں دوبارہ سبسکرائب کر سڳدے او تے انہاں خصوصیات تائیں ولدا رسائی حاصل کر سڳدے او۔
 faq-question-8-question = { -brand-name-firefox-relay } کہڑا ڈیٹا کٹھا کریندے؟
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -69,6 +71,7 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } وِچ
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = تصدیق تھئے ای میل پتے نال { -brand-name-firefox-account(capitalization: "uppercase") } دی لوڑ ہے
 faq-question-acceptable-use-answer-measure-account-v2 = ہک تصدیق شدہ ای میل ایڈریس دے نال کھاتے دی لوڑ ہے
+faq-question-acceptable-use-answer-measure-unlimited-payment-3 = کہیں ورتݨ آلے کیتے { $mask_limit } کنوں ودھ ماسک بݨاوݨ کیتے ضروری رقم
 faq-question-acceptable-use-answer-measure-rate-limit-2 = ہک ݙین٘ہ وچ جنریٹ تھئے ماسکاں دی تعداد دی شرح کوں محدود کرݨ
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
