@@ -278,7 +278,15 @@ first-time-user-email-how-item-1-subhead-text-2 = Streekrjocht yn { -brand-name-
 first-time-user-email-how-item-2-header-2 = Stjoer de winske e-mailberjochten troch
 first-time-user-email-how-item-2-subhead-2 = Ofstjoerders sjogge nea jo echte adres. Bliuw in masker brûke om jo echte e-mailadres te ferstopjen of ûntfongen e-mailberjochten te blokkearjen.
 first-time-user-email-how-item-3-header-2 = Jo hawwe de kontrôle
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>Meld jo oan</a> om op elk winske momint maskers oan te meitsjen, te labeljen of fuort te smiten.
 first-time-user-email-how-item-3-subhead-text-2 = Meld jo oan om op elk winske momint maskers te meitsjen, te labeljen of fuort te smiten.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-2-html = Besykje ús <a href="{ $url }" { $attrs }>Stipesintrum</a> foar help
 first-time-user-email-questions-subhead-text-2 = Besykje ús Stipesintrum foar help
 first-time-user-email-footer-text-1-2 = Jo ûntfange dit automatyske e-mailberjocht as abonnee fan { -brand-name-firefox-relay }. As jo it mei fersin ûntfongen hawwe, hoege jo gjin aksje te ûndernimmen.
 
