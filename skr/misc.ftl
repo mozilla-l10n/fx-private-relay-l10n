@@ -265,6 +265,10 @@ first-time-user-email-footer-text-2-text = ٻیاں معلومات کیتے سو
 first-time-user-email-footer-text-legal = قنونی
 first-time-user-email-footer-text-privacy = شرطاں تے رازداری
 
+## Updated first-time user welcome email (MPP-4613)
+
+first-time-user-email-cta-dashboard-button-2 = { -brand-name-firefox-relay } تے ون٘ڄو
+
 ## API error messages
 
 # Variables:

@@ -88,3 +88,4 @@ whatsnew-holiday-promo-2023-news-heading = { -brand-name-relay-premium } تے 20
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = اِیں ناغیاں دے موسم وِچ، { -brand-name-relay-premium } دی 1 ورین٘ہ دے مُل تے 20٪ رعائت حاصل کرو۔ چیک آؤٹ تے صرف پرموکوڈ "HOLIDAY20" درج کرو۔ پیشکش 31 دسمبر، 2023 کوں مُکدی پئی ہِے۔
 whatsnew-holiday-promo-2023-cta = { -brand-name-relay-premium } دا 1 سال گھنو
+whatsnew-feature-mask-expansion-cta = ای میل ماسک گھنو
