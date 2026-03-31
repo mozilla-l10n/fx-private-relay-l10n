@@ -279,7 +279,7 @@ first-time-user-email-how-item-3-header-2 = Chi sy'n rheoli
 # Variables
 #   $url (string) - link to sign in
 #   $attrs (string) - link attributes
-first-time-user-email-how-item-3-subhead-2-html = <a href = " { $url } " { $attrs }>Mewngofnodwch</a> i greu, labelu neu ddileu arallenwau unrhyw bryd.
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>Mewngofnodwch</a> i greu, labelu neu ddileu arallenwau unrhyw bryd.
 first-time-user-email-how-item-3-subhead-text-2 = Mewngofnodwch i greu, labelu, neu ddileu masgiau unrhyw bryd.
 # Variables
 #   $url (string) - link to support center
