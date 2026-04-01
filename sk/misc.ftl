@@ -278,6 +278,21 @@ first-time-user-email-footer-text-2-text = Ďalšie informácie nájdete na str�
 first-time-user-email-footer-text-legal = Právne informácie
 first-time-user-email-footer-text-privacy = Podmienky a ochrana osobných údajov
 
+## Updated first-time user welcome email (MPP-4613)
+
+first-time-user-email-welcome-subhead-2 = Zamaskujte svoju e‑mailovú adresu. Majte svoju schránku pod kontrolou.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = Máte pripravených { $mask_limit } bezplatných e‑mailových masiek. Použite ich pri nakupovaní online alebo pri registrácii nového účtu či aplikácie.
+first-time-user-email-cta-dashboard-button-2 = Prejsť na { -brand-name-firefox-relay }
+first-time-user-email-how-item-1-header-2 = Vytvorte si masku za pár sekúnd
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-2-html = Priamo vo { -brand-name-firefox(case: "loc") }, pomocou <a href="{ $url }" { $attrs }>doplnku { -brand-name-relay }</a> alebo z vášho ovládacieho panela.
+first-time-user-email-how-item-1-subhead-text-2 = Priamo vo { -brand-name-firefox(case: "loc") }, pomocou doplnku { -brand-name-relay } alebo z vášho ovládacieho panela.
+first-time-user-email-how-item-2-header-2 = Preposielajte si e‑maily, ktoré naozaj chcete
+
 ## API error messages
 
 # Variables:
