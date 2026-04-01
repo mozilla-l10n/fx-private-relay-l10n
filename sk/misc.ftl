@@ -292,6 +292,19 @@ first-time-user-email-how-item-1-header-2 = Vytvorte si masku za pár sekúnd
 first-time-user-email-how-item-1-subhead-2-html = Priamo vo { -brand-name-firefox(case: "loc") }, pomocou <a href="{ $url }" { $attrs }>doplnku { -brand-name-relay }</a> alebo z vášho ovládacieho panela.
 first-time-user-email-how-item-1-subhead-text-2 = Priamo vo { -brand-name-firefox(case: "loc") }, pomocou doplnku { -brand-name-relay } alebo z vášho ovládacieho panela.
 first-time-user-email-how-item-2-header-2 = Preposielajte si e‑maily, ktoré naozaj chcete
+first-time-user-email-how-item-2-subhead-2 = Odosielatelia nikdy neuvidia vašu skutočnú adresu. Používajte masku, aby ste skryli svoju skutočnú e‑mailovú adresu alebo zablokovali e‑maily, ktoré dostávate.
+first-time-user-email-how-item-3-header-2 = Máte to pod kontrolou
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>Prihláste sa</a> a kedykoľvek môžete vytvárať, označovať alebo odstraňovať masky.
+first-time-user-email-how-item-3-subhead-text-2 = Prihláste sa a kedykoľvek môžete vytvárať, označovať alebo odstraňovať masky.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-2-html = Navštívte naše <a href="{ $url }" { $attrs }>Centrum podpory</a>, kde vám radi pomôžeme
+first-time-user-email-questions-subhead-text-2 = Navštívte naše Centrum podpory, kde vám radi pomôžeme
+first-time-user-email-footer-text-1-2 = Tento automatický e‑mail dostávate ako odberateľ { -brand-name-firefox-relay }. Ak ste ho dostali omylom, nie je potrebné podniknúť žiadne kroky.
 
 ## API error messages
 
