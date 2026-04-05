@@ -269,6 +269,11 @@ first-time-user-email-footer-text-privacy = Όροι και απόρρητο
 
 ## Updated first-time user welcome email (MPP-4613)
 
+first-time-user-email-how-item-1-header-2 = Δημιουργήστε μια μάσκα σε δευτερόλεπτα
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-2-html = Απευθείας από το { -brand-name-firefox }, με το <a href="{ $url }" { $attrs }>πρόσθετο του { -brand-name-relay }</a> ή από τον πίνακα ελέγχου σας.
 first-time-user-email-how-item-2-header-2 = Προωθήστε τα email που θέλετε
 first-time-user-email-how-item-3-header-2 = Εσείς έχετε τον έλεγχο
 
