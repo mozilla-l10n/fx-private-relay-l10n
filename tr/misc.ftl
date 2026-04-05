@@ -273,28 +273,28 @@ first-time-user-email-footer-text-privacy = Koşullar ve Gizlilik
 first-time-user-email-welcome-subhead-2 = E-postanızı maskeleyin. Gelen kutunuzu kontrol altında tutun.
 # Variables
 #   $mask_limit (number) - the number of free email masks available
-first-time-user-email-hero-primary-text-2 = { $mask_limit } ücretsiz e-posta maskeniz hazır. Çevrimiçi alışveriş yaparken veya yeni bir hesap ya da uygulamaya kaydolurken bu tarayıcıyı kullanın.
+first-time-user-email-hero-primary-text-2 = { $mask_limit } ücretsiz e-posta maskeniz hazır. Çevrimiçi alışveriş yaparken veya yeni bir hesaba ya da uygulamaya kaydolurken bunları kullanabilirsiniz.
 first-time-user-email-cta-dashboard-button-2 = { -brand-name-firefox-relay }’e git
 first-time-user-email-how-item-1-header-2 = Saniyeler içinde maske oluşturun
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
-first-time-user-email-how-item-1-subhead-2-html = Hemen <a href="{ $url }" { $attrs }>{ -brand-name-relay } eklentisi</a> ile veya kontrol panelinizden { -brand-name-firefox } tarihine kadar.
-first-time-user-email-how-item-1-subhead-text-2 = { -brand-name-firefox } eklentiyle, { -brand-name-relay } eklentiyle veya kontrol panelinizden.
-first-time-user-email-how-item-2-header-2 = İstediğiniz e-postaları yönlendirin
-first-time-user-email-how-item-2-subhead-2 = Gönderenler gerçek adresinizi asla görmez. Gerçek e-posta adresinizi gizlemek veya aldığınız e-postaları engellemek için maske kullanmaya devam edin.
+first-time-user-email-how-item-1-subhead-2-html = İster <a href="{ $url }" { $attrs }>{ -brand-name-relay } eklentisiyle</a> doğrudan { -brand-name-firefox }’tan, ister kontrol panelinizden.
+first-time-user-email-how-item-1-subhead-text-2 = İster { -brand-name-relay } eklentisiyle doğrudan { -brand-name-firefox }’tan, ister kontrol panelinizden.
+first-time-user-email-how-item-2-header-2 = İstediğiniz e-postaları iletin
+first-time-user-email-how-item-2-subhead-2 = Göndericiler gerçek adresinizi asla görmez. Gerçek e-posta adresinizi gizlemek veya istediğiniz zaman e-postaları engellemek için maske kullanmaya devam edin.
 first-time-user-email-how-item-3-header-2 = Kontrol sizde
 # Variables
 #   $url (string) - link to sign in
 #   $attrs (string) - link attributes
 first-time-user-email-how-item-3-subhead-2-html = İstediğiniz zaman maske oluşturmak, etiketlemek ve silmek için <a href="{ $url }" { $attrs }>giriş yapın</a>.
-first-time-user-email-how-item-3-subhead-text-2 = Maske oluşturmak, etiketlemek ve silmek için istediğiniz zaman giriş yapabilirsiniz.
+first-time-user-email-how-item-3-subhead-text-2 = Maske oluşturmak, etiketlemek veya silmek için giriş yapın.
 # Variables
 #   $url (string) - link to support center
 #   $attrs (string) - link attributes
 first-time-user-email-questions-subhead-2-html = Yardım için <a href="{ $url }" { $attrs }>Destek Merkezimizi</a> ziyaret edin
 first-time-user-email-questions-subhead-text-2 = Yardım için Destek Merkezimizi ziyaret edin
-first-time-user-email-footer-text-1-2 = { -brand-name-firefox-relay } abone olarak bu otomatik e-postayı aldınız. Hatalı olarak aldıysanız herhangi bir işlem yapmanız gerekmez.
+first-time-user-email-footer-text-1-2 = Bu otomatik e-postayı { -brand-name-firefox-relay } abonesi olduğunuz için aldınız. Hatalı olarak aldıysanız herhangi bir işlem yapmanız gerekmez.
 
 ## API error messages
 
