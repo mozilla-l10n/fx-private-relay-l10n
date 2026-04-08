@@ -135,17 +135,17 @@ highlighted-features-section-masks-on-the-go-body-2 = 订阅 { -brand-name-relay
 # Item 3
 
 highlighted-features-section-replying-headline = 匿名回复邮件和短信
-highlighted-features-section-replying-body-2 = { -brand-name-relay-premium } 可让您使用马甲邮箱账户来回复邮件，
+highlighted-features-section-replying-body-2 = { -brand-name-relay-premium } 可让您使用马甲邮箱账户来回复邮件，这样邮件的发送者就无法得知您的真实邮件地址。配合虚拟手机号，您还可以回复短信而不泄露真实电话号码。
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = 屏蔽营销邮件
-highlighted-features-section-block-promotions-body-2 = 使用 { -brand-name-relay-premium } 可屏蔽营销邮件，
+highlighted-features-section-block-promotions-body-2 = 使用 { -brand-name-relay-premium } 可屏蔽营销邮件，同时仍能收到收据和物流信息等邮件。
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = 移除邮件跟踪器
-highlighted-features-section-remove-trackers-body-2 = 现在 { -brand-name-relay } 可以从转发给您的电子邮件中去除常见的跟踪器，
+highlighted-features-section-remove-trackers-body-2 = { -brand-name-relay } 可以从转发给您的邮件中去除常见的跟踪器，帮助您免受跟踪器和广告商窥视。
 
 ## REVIEWS SECTION
 

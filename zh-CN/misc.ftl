@@ -264,7 +264,7 @@ first-time-user-email-footer-text-privacy = 条款和隐私
 first-time-user-email-welcome-subhead-2 = 隐藏邮箱地址。掌控您的收件箱。
 # Variables
 #   $mask_limit (number) - the number of free email masks available
-first-time-user-email-hero-primary-text-2 = 您已准备好使用 { $mask_limit } 个免费马甲邮箱。在您网购、注册新账户、注册应用时使用
+first-time-user-email-hero-primary-text-2 = 您已有 { $mask_limit } 个免费马甲邮箱待命，可在网购、注册新账户或应用时使用。
 first-time-user-email-cta-dashboard-button-2 = 前往 { -brand-name-firefox-relay }
 first-time-user-email-how-item-1-header-2 = 快速创建马甲
 # Variables
@@ -279,7 +279,11 @@ first-time-user-email-how-item-3-header-2 = 您的隐私您做主
 #   $url (string) - link to sign in
 #   $attrs (string) - link attributes
 first-time-user-email-how-item-3-subhead-2-html = 随时<a href="{ $url }" { $attrs }>登录</a>以创建、添加标签或删除马甲。
-first-time-user-email-how-item-3-subhead-text-2 = 登录以随时创建、添加标签或删除马甲。
+first-time-user-email-how-item-3-subhead-text-2 = 登录后即可随时创建、删除马甲，以及为马甲添加标签。
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-2-html = 如需帮助，请访问我们的<a href="{ $url }" { $attrs }>支持中心</a>
 first-time-user-email-questions-subhead-text-2 = 请访问我们的支持中心寻求帮助
 first-time-user-email-footer-text-1-2 = 您会收到这封自动发送的电子邮件是作为 { -brand-name-firefox-relay } 的订阅者。若您并未收到邮件则无需进行任何操作。
 
