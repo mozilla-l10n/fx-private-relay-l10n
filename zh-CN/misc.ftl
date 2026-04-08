@@ -270,16 +270,16 @@ first-time-user-email-how-item-1-header-2 = 快速创建马甲
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
-first-time-user-email-how-item-1-subhead-2-html = 就在 { -brand-name-firefox }使用 <a href="{ $url }" { $attrs }>{ -brand-name-relay } 附加组件</a>或从您的面板。
-first-time-user-email-how-item-1-subhead-text-2 = 使用 { -brand-name-firefox } 中的附加组件 { -brand-name-relay } 或从您的面板即可。
+first-time-user-email-how-item-1-subhead-2-html = 可通过 <a href="{ $url }" { $attrs }>{ -brand-name-relay } 附加组件</a>或 { -brand-name-relay } 面板，直接在 { -brand-name-firefox } 中使用。
+first-time-user-email-how-item-1-subhead-text-2 = 可通过 { -brand-name-relay } 附加组件或 { -brand-name-relay } 面板，直接在 { -brand-name-firefox } 中使用。
 first-time-user-email-how-item-2-header-2 = 转发您需要的邮件
 first-time-user-email-how-item-2-subhead-2 = 发件人永远看不到您的真实地址。您可以继续使用马甲来隐藏真实邮箱，或屏蔽收到的邮件。
 first-time-user-email-how-item-3-header-2 = 您的隐私您做主
 # Variables
 #   $url (string) - link to sign in
 #   $attrs (string) - link attributes
-first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>登录</a>后即可创建、删除马甲，或为马甲添加标签。
-first-time-user-email-how-item-3-subhead-text-2 = 登录后即可随时创建、删除马甲，以及为马甲添加标签。
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>登录</a>即可创建、删除马甲，或为马甲添加标签。
+first-time-user-email-how-item-3-subhead-text-2 = 登录即可随时创建、删除马甲，以及为马甲添加标签。
 # Variables
 #   $url (string) - link to support center
 #   $attrs (string) - link attributes
