@@ -123,11 +123,14 @@ plan-matrix-your-plan = 您的方案
 highlighted-features-section-unlimited-masks-headline = 创建无限数量马甲
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body-2 = 人人皆可免费获得 { $mask_limit } 个马甲邮箱。  但使用 { -brand-name-relay-premium } 可以根据需要生成任意数量的马甲保护您的电子邮件免受垃圾邮件、黑客、数据外泄者和在线跟踪器的侵扰。
+highlighted-features-section-unlimited-masks-body-2 = 所有人都可免费获得 { $mask_limit } 个马甲邮箱。不过订阅 { -brand-name-relay-premium } 后，更可根据需要生成无限量的马甲来保护您的邮箱免受垃圾邮件、不法分子、数据外泄事件和网络跟踪器的侵扰。
 
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = 随时随地创建马甲
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body-2 = 订阅 { -brand-name-relay-premium } 后，您可以使用专属的 { -brand-name-relay } 邮箱域名来随时创建新马甲。只需在 @ 符号前添加字符就能生成马甲。要预订餐厅？可以用 canting@<你的域名>.{ $mozmail }。要购物？那就用 shop@<你的域名>.{ $mozmail }。
 
 # Item 3
 
