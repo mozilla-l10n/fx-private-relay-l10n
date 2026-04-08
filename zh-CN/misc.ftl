@@ -285,7 +285,7 @@ first-time-user-email-how-item-3-subhead-text-2 = 登录后即可随时创建、
 #   $attrs (string) - link attributes
 first-time-user-email-questions-subhead-2-html = 如需帮助，请访问我们的<a href="{ $url }" { $attrs }>支持中心</a>
 first-time-user-email-questions-subhead-text-2 = 请访问我们的支持中心寻求帮助
-first-time-user-email-footer-text-1-2 = 您会收到这封自动发送的电子邮件是作为 { -brand-name-firefox-relay } 的订阅者。若您并未收到邮件则无需进行任何操作。
+first-time-user-email-footer-text-1-2 = 您是 { -brand-name-firefox-relay } 的订阅用户，因此收到这封自动发送的邮件。如果您是误收到此邮件，则无需进行任何操作。
 
 ## API error messages
 
