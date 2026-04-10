@@ -276,6 +276,7 @@ first-time-user-email-how-item-1-header-2 = Δημιουργήστε μια μά
 first-time-user-email-how-item-1-subhead-2-html = Απευθείας από το { -brand-name-firefox }, με το <a href="{ $url }" { $attrs }>πρόσθετο του { -brand-name-relay }</a> ή από τον πίνακα ελέγχου σας.
 first-time-user-email-how-item-2-header-2 = Προωθήστε τα email που θέλετε
 first-time-user-email-how-item-3-header-2 = Εσείς έχετε τον έλεγχο
+first-time-user-email-how-item-3-subhead-text-2 = Συνδεθείτε για να δημιουργείτε, ονομάζετε ή διαγράφετε μάσκες ανά πάσα στιγμή.
 
 ## API error messages
 
