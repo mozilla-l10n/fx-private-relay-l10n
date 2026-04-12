@@ -321,8 +321,8 @@ first-time-user-email-how-item-1-header-2 = Vytvořte masku během několika vte
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
-first-time-user-email-how-item-1-subhead-2-html = Přímo v aplikaci { -brand-name-firefox }, s doplňkem <a href="{ $url }" { $attrs }>{ -brand-name-relay }</a> nebo z vaší nástěnky.
-first-time-user-email-how-item-1-subhead-text-2 = Přímo v aplikaci { -brand-name-firefox }, s doplňkem { -brand-name-relay } nebo z vaší nástěnky.
+first-time-user-email-how-item-1-subhead-2-html = Přímo ve { -brand-name-firefox(case: "loc") }, pomocí doplňku <a href="{ $url }" { $attrs }>{ -brand-name-relay }</a> nebo z vašeho ovládacího panelu.
+first-time-user-email-how-item-1-subhead-text-2 = Přímo ve { -brand-name-firefox(case: "loc") }, pomocí doplňku { -brand-name-relay } nebo z vašeho ovládacího panelu.
 first-time-user-email-how-item-2-header-2 = Přeposílejte e-maily, které chcete
 first-time-user-email-how-item-2-subhead-2 = Odesílatelé nikdy neuvidí vaši skutečnou adresu. Používejte masku, abyste skryli svou skutečnou e-mailovou adresu, nebo blokujte e-maily, které dostáváte.
 first-time-user-email-how-item-3-header-2 = Máte vše pod kontrolou

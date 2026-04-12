@@ -133,7 +133,10 @@ highlighted-features-section-unlimited-masks-body-2 =
 highlighted-features-section-masks-on-the-go-headline = Okamžitě vytváření masek ať jste kdekoliv
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body-2 = Služba { -brand-name-relay-premium } vám poskytne jedinečnou e-mailovou doménu { -brand-name-relay }, takže můžete okamžitě vytvářet nové masky, ať jste kdekoli. Stačí přidat libovolné slovo nebo frázi před symbol @. Jste v restauraci? Použijte restaurace@vasedomena.{ $mozmail }.
+highlighted-features-section-masks-on-the-go-body-2 =
+    Služba { -brand-name-relay-premium } vám poskytuje jedinečnou e-mailovou doménu { -brand-name-relay }, díky níž můžete okamžitě
+    vytvářet nové e-mailové adresy, ať jste kdekoli. Stačí před znak @ přidat libovolné slovo nebo frázi. Jste v restauraci? Použijte restaurant@vaše-doména.{ $mozmail }.
+    Jste na nákupech? Zkuste shop@vaše-doména.{ $mozmail }.
 
 # Item 3
 
