@@ -277,6 +277,12 @@ first-time-user-email-how-item-1-header-2 = Erstellen Sie in Sekunden eine Maske
 
 ## Updated first-time user welcome email (v3)
 
+first-time-user-email-welcome-subhead-3 = Ihre E-Mail-Adresse kann dazu verwendet werden, Sie im Internet zu verfolgen – wir helfen Ihnen dabei, dem Problem ein Ende zu setzen.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = Als { -brand-name-firefox }-Nutzer erhalten Sie { $mask_limit } E-Mail-Masken kostenlos. Verwenden Sie sie, um Ihre echte E-Mail-Adresse zu verbergen, Ihre Identität zu schützen und nur die gewünschten E-Mails an Ihren Posteingang weiterzuleiten.
+first-time-user-email-hero-secondary-text-3 = Verwalten Sie alle Ihre Masken über Ihre { -brand-name-relay }-Übersicht.
+first-time-user-email-cta-dashboard-button-3 = Lernen Sie, E-Mail-Masken zu verwenden
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
