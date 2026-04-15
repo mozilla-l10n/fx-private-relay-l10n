@@ -270,6 +270,12 @@ first-time-user-email-how-item-1-header-2 = 快速创建马甲
 
 ## Updated first-time user welcome email (v3)
 
+first-time-user-email-welcome-subhead-3 = 您的电子邮件地址可能会被用于在线跟踪您——我们帮您杜绝这种情况。
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = 作为 { -brand-name-firefox } 用户您可以免费获得 { $mask_limit } 个马甲邮箱。使用它们来隐藏您的真实邮箱地址、保护您的身份并只转发您需要的邮件。
+first-time-user-email-hero-secondary-text-3 = 在 { -brand-name-relay } 面板管理您的所有马甲。
+first-time-user-email-cta-dashboard-button-3 = 了解使用马甲邮箱
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes

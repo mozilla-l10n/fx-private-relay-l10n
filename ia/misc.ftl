@@ -278,6 +278,12 @@ first-time-user-email-how-item-1-header-2 = Crea un masca in secundas
 
 ## Updated first-time user welcome email (v3)
 
+first-time-user-email-welcome-subhead-3 = Tu adresse email pote esser usate pro traciar te online, nos es ci pro adjutar a poner fin a illo.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = Como usator de { -brand-name-firefox }, tu recipe { $mask_limit } mascas de e-mail gratuite. Usa los pro celar tu adresse de e-mail real, proteger tu identitate, e reexpedir solmente le messages que tu vole a tu cassa de entrata.
+first-time-user-email-hero-secondary-text-3 = Gere tote tu mascas ab le pannello de controlo de tu { -brand-name-relay }
+first-time-user-email-cta-dashboard-button-3 = Apprende a usar le mascas de e-mail
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes

@@ -272,6 +272,12 @@ first-time-user-email-how-item-1-header-2 = Buat topeng dalam hitungan detik
 
 ## Updated first-time user welcome email (v3)
 
+first-time-user-email-welcome-subhead-3 = Alamat surel Anda dapat digunakan untuk melacak Anda secara daring — kami hadir untuk membantu mengakhirinya.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = Sebagai pengguna { -brand-name-firefox }, Anda mendapatkan { $mask_limit } topeng surel gratis. Gunakan mereka untuk menyembunyikan alamat surel asli Anda, melindungi identitas Anda, dan hanya meneruskan surel yang Anda inginkan ke kotak masuk Anda.
+first-time-user-email-hero-secondary-text-3 = Kelola semua topeng Anda dari dasbor { -brand-name-relay } Anda.
+first-time-user-email-cta-dashboard-button-3 = Belajar menggunakan topeng surel
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes

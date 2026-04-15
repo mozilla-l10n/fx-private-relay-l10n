@@ -321,6 +321,12 @@ first-time-user-email-how-item-1-header-2 = Vytvořte masku během několika vte
 
 ## Updated first-time user welcome email (v3)
 
+first-time-user-email-welcome-subhead-3 = Vaši e-mailovou adresu lze použít ke sledování online – jsme tu, abychom vám pomohli s tím skoncovat.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = Jako uživatel služby { -brand-name-firefox } získáte { $mask_limit } e-mailových masek zdarma. Použijte je ke skrytí své skutečné e-mailové adresy, ochraně své identity a přeposílání pouze e-mailů, které chcete, do vaší e-mailové schránky.
+first-time-user-email-hero-secondary-text-3 = Spravujte všechny své masky z nástěnky { -brand-name-relay }
+first-time-user-email-cta-dashboard-button-3 = Naučte se používat e-mailové masky
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes

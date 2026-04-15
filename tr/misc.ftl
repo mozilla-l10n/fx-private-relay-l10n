@@ -279,6 +279,12 @@ first-time-user-email-how-item-1-header-2 = Saniyeler içinde maske oluşturun
 
 ## Updated first-time user welcome email (v3)
 
+first-time-user-email-welcome-subhead-3 = E-posta adresiniz sizi internette takip etmek için kullanılabilir. Buna bir son vermenin vakti geldi.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = { -brand-name-firefox } kullanıcı olarak ücretsiz { $mask_limit } e-posta maskesi alacaksınız. Gerçek e-posta adresinizi gizlemek, kimliğinizi korumak ve yalnızca istediğiniz e-postaları gelen kutunuza iletmek için kullanın.
+first-time-user-email-hero-secondary-text-3 = Tüm maskelerinizi { -brand-name-relay } kontrol panelinizden yönetebilirsiniz.
+first-time-user-email-cta-dashboard-button-3 = E-posta maskelerini kullanmayı öğrenin
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
