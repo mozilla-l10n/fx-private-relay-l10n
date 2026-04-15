@@ -278,6 +278,12 @@ first-time-user-email-how-item-1-header-2 = Skapa ett alias på några sekunder
 
 ## Updated first-time user welcome email (v3)
 
+first-time-user-email-welcome-subhead-3 = Din e-postadress kan användas för att spåra dig online — vi finns här för att hjälpa till att sätta stopp för det.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = Som användare av { -brand-name-firefox } får du { $mask_limit } e-postalias gratis. Använd dem för att dölja din riktiga e-postadress, skydda din identitet och vidarebefordra endast de e-postmeddelanden du vill till din inkorg.
+first-time-user-email-hero-secondary-text-3 = Hantera alla dina alias från översikten i { -brand-name-relay }.
+first-time-user-email-cta-dashboard-button-3 = Lär dig att använda e-postalias
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
