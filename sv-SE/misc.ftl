@@ -275,6 +275,9 @@ first-time-user-email-welcome-subhead-2 = Dölj din e-post. Styr din inkorg.
 first-time-user-email-hero-primary-text-2 = Du har { $mask_limit } gratis e-postalias redo att börja användas. Använd en när du handlar online eller registrerar dig för ett nytt konto eller app.
 first-time-user-email-cta-dashboard-button-2 = Gå till { -brand-name-firefox-relay }
 first-time-user-email-how-item-1-header-2 = Skapa ett alias på några sekunder
+
+## Updated first-time user welcome email (v3)
+
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes

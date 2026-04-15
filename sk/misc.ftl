@@ -286,6 +286,9 @@ first-time-user-email-welcome-subhead-2 = Zamaskujte svoju e‑mailovú adresu. 
 first-time-user-email-hero-primary-text-2 = Máte pripravených { $mask_limit } bezplatných e‑mailových masiek. Použite ich pri nakupovaní online alebo pri registrácii nového účtu či aplikácie.
 first-time-user-email-cta-dashboard-button-2 = Prejsť na { -brand-name-firefox-relay }
 first-time-user-email-how-item-1-header-2 = Vytvorte si masku za pár sekúnd
+
+## Updated first-time user welcome email (v3)
+
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes

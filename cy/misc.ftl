@@ -268,6 +268,9 @@ first-time-user-email-welcome-subhead-2 = Cuddio'ch e-bost. Rheoli'ch blwch derb
 first-time-user-email-hero-primary-text-2 = Mae gennych { $mask_limit } arallenw e-bost am ddim sy'n barod i fynd. Defnyddiwch un pan fyddwch chi'n siopa ar-lein neu'n cofrestru ar gyfer cyfrif neu ap newydd.
 first-time-user-email-cta-dashboard-button-2 = Ewch i { -brand-name-firefox-relay }
 first-time-user-email-how-item-1-header-2 = Creu arallenw mewn eiliadau
+
+## Updated first-time user welcome email (v3)
+
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes

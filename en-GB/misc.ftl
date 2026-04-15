@@ -275,6 +275,9 @@ first-time-user-email-welcome-subhead-2 = Mask your email. Control your inbox.
 first-time-user-email-hero-primary-text-2 = You have { $mask_limit } free email masks ready to go. Use one when you shop online or sign up for a new account or app.
 first-time-user-email-cta-dashboard-button-2 = Go to { -brand-name-firefox-relay }
 first-time-user-email-how-item-1-header-2 = Create a mask in seconds
+
+## Updated first-time user welcome email (v3)
+
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes

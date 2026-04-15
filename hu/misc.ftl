@@ -272,6 +272,9 @@ first-time-user-email-welcome-subhead-2 = Maszkolja az e-mail-címét. Irányít
 first-time-user-email-hero-primary-text-2 = { $mask_limit } ingyenes e-mail-maszkja van, melyek használatra készek. Használjon egyet online vásárláskor, vagy regisztráljon egy új fiókot vagy alkalmazást.
 first-time-user-email-cta-dashboard-button-2 = Ugrás ide: { -brand-name-firefox-relay }
 first-time-user-email-how-item-1-header-2 = Maszk készítése másodpercek alatt
+
+## Updated first-time user welcome email (v3)
+
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes

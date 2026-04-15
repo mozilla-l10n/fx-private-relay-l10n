@@ -272,6 +272,9 @@ first-time-user-email-welcome-subhead-2 = Masquez votre adresse e-mail. Contrôl
 first-time-user-email-hero-primary-text-2 = Vous disposez de { $mask_limit } alias de messagerie gratuits. Utilisez-en un lorsque vous achetez en ligne ou lorsque vous créez un nouveau compte ou vous connectez à une nouvelle application.
 first-time-user-email-cta-dashboard-button-2 = Accéder à { -brand-name-firefox-relay }
 first-time-user-email-how-item-1-header-2 = Créez un alias en quelques secondes
+
+## Updated first-time user welcome email (v3)
+
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes

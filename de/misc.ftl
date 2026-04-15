@@ -274,6 +274,9 @@ first-time-user-email-welcome-subhead-2 = Verbergen Sie Ihre E-Mail-Adresse. Kon
 first-time-user-email-hero-primary-text-2 = Für Sie stehen { $mask_limit } kostenlose E-Mail-Masken bereit, die Sie verwenden können. Verwenden Sie eine, wenn Sie online einkaufen oder sich für ein neues Konto oder eine App registrieren.
 first-time-user-email-cta-dashboard-button-2 = { -brand-name-firefox-relay } aufrufen
 first-time-user-email-how-item-1-header-2 = Erstellen Sie in Sekunden eine Maske
+
+## Updated first-time user welcome email (v3)
+
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes

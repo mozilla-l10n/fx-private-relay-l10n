@@ -269,6 +269,9 @@ first-time-user-email-welcome-subhead-2 = Tutupi surel Anda. Kendalikan kotak ma
 first-time-user-email-hero-primary-text-2 = Anda memiliki { $mask_limit } topeng surel gratis yang siap digunakan. Gunakan satu saat Anda berbelanja daring atau mendaftar untuk akun atau aplikasi baru.
 first-time-user-email-cta-dashboard-button-2 = Buka { -brand-name-firefox-relay }
 first-time-user-email-how-item-1-header-2 = Buat topeng dalam hitungan detik
+
+## Updated first-time user welcome email (v3)
+
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes

@@ -274,6 +274,9 @@ first-time-user-email-welcome-subhead-2 = Maskeer uw e-mailadres. Beheer uw Post
 first-time-user-email-hero-primary-text-2 = U kunt nog  { $mask_limit } gratis e-mailmaskers gebruiken. Gebruik er een wanneer u online winkelt of zich aanmeldt voor een nieuwe account of app.
 first-time-user-email-cta-dashboard-button-2 = Naar { -brand-name-firefox-relay }
 first-time-user-email-how-item-1-header-2 = Maak een masker in seconden
+
+## Updated first-time user welcome email (v3)
+
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
