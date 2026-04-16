@@ -278,7 +278,7 @@ first-time-user-email-how-item-1-header-2 = Maszk készítése másodpercek alat
 first-time-user-email-welcome-subhead-3 = Az e-mail-címe felhasználható arra, hogy kövessék online – azért vagyunk itt, hogy segítsünk véget vetni ennek.
 # Variables
 #   $mask_limit (number) - the number of free email masks available
-first-time-user-email-hero-primary-text-3 = { -brand-name-firefox } felhasználóként ingyenes { $mask_limit } e-mail-maszkot kap. Használja őket a valódi e-mail-címének elrejtésére, személyazonosságának védelmére, és csak a kívánt levelek továbbítására a postaládájába.
+first-time-user-email-hero-primary-text-3 = { -brand-name-firefox } felhasználóként { $mask_limit } e-mail-maszkot kap ingyenesen. Használja őket a valódi e-mail-címének elrejtésére, személyazonosságának védelmére, és csak a kívánt levelek továbbítására a postaládájába.
 first-time-user-email-hero-secondary-text-3 = Kezelje az összes maszkját a { -brand-name-relay } irányítópultjáról.
 first-time-user-email-cta-dashboard-button-3 = Ismerje meg az e-mail-maszkok használatát
 # Variables
