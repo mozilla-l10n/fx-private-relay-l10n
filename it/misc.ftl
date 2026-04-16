@@ -275,6 +275,12 @@ first-time-user-email-how-item-1-header-2 = Crea un alias in pochi secondi
 
 ## Updated first-time user welcome email (v3)
 
+first-time-user-email-welcome-subhead-3 = Il tuo indirizzo email può essere utilizzato per tracciarti online: siamo qui per aiutarti a risolvere questo problema.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = Come utente di { -brand-name-firefox }, ricevi gratuitamente { $mask_limit } alias di posta elettronica. Usali per nascondere il tuo indirizzo reale, proteggere la tua identità e inoltrare alla tua casella di posta solo le email che desideri.
+first-time-user-email-hero-secondary-text-3 = Gestisci tutti i tuoi alias dalla dashboard di { -brand-name-relay }
+first-time-user-email-cta-dashboard-button-3 = Scopri come utilizzare gli alias di posta elettronica
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
