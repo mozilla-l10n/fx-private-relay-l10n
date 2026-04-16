@@ -275,9 +275,9 @@ first-time-user-email-how-item-1-header-2 = 只需幾秒鐘就能建立轉寄信
 first-time-user-email-welcome-subhead-3 = 您的電子郵件地址可能會被用來在網路上追蹤您 — 我們可協助您避免此類行為。
 # Variables
 #   $mask_limit (number) - the number of free email masks available
-first-time-user-email-hero-primary-text-3 = { -brand-name-firefox } 使用者將免費獲得 { $mask_limit } 組轉寄信箱。使用它們來隱藏您實際的電子郵件地址、保護您的身分並只把想要轉寄的郵件轉寄給您的收件匣。
+first-time-user-email-hero-primary-text-3 = { -brand-name-firefox } 使用者將免費獲得 { $mask_limit } 組轉寄信箱。使用它們來隱藏您實際的電子郵件地址、保護身分並只把想要轉寄的郵件轉寄給您的收件匣。
 first-time-user-email-hero-secondary-text-3 = 在 { -brand-name-relay } 儀表板管理您的所有轉寄信箱。
-first-time-user-email-cta-dashboard-button-3 = 了解使用轉寄信箱
+first-time-user-email-cta-dashboard-button-3 = 了解如何使用轉寄信箱
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
