@@ -273,6 +273,10 @@ first-time-user-email-how-item-1-header-2 = Δημιουργήστε μια μά
 
 ## Updated first-time user welcome email (v3)
 
+first-time-user-email-welcome-subhead-3 = Η διεύθυνση email σας μπορεί να χρησιμοποιηθεί για την παρακολούθηση σας στο διαδίκτυο. Είμαστε εδώ για να σας βοηθήσουμε να θέσετε ένα τέλος σε αυτό.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = Ως χρήστης του { -brand-name-firefox }, λαμβάνετε δωρεάν { $mask_limit } μάσκες email. Χρησιμοποιήστε τις για να αποκρύψετε την πραγματική σας διεύθυνση email, να προστατέψετε την ταυτότητά σας και να προωθήσετε μόνο τα email που θέλετε στα εισερχόμενα σας.
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
