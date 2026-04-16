@@ -277,6 +277,12 @@ first-time-user-email-how-item-1-header-2 = Meitsje in masker yn sekonden
 
 ## Updated first-time user welcome email (v3)
 
+first-time-user-email-welcome-subhead-3 = Jo e-mailadres kin brûkt wurde om jo online te folgjen – wy binne hjir om der in ein oan te meitsjen.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = As brûker fan { -brand-name-firefox } krije jo { $mask_limit } e-mailmaskers fergees. Brûk se om jo echte e-mailadres te ferbergjen, jo identiteit te beskermjen en allinnich jo winske e-mailberjochten nei jo Postfek YN troch te stjoeren.
+first-time-user-email-hero-secondary-text-3 = Behear al jo maskers fan jo { -brand-name-relay }-dashboerd ôf
+first-time-user-email-cta-dashboard-button-3 = Lear e-mailmaskers te brûken
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
