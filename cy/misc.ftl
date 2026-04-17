@@ -271,6 +271,12 @@ first-time-user-email-how-item-1-header-2 = Creu arallenw mewn eiliadau
 
 ## Updated first-time user welcome email (v3)
 
+first-time-user-email-welcome-subhead-3 = Mae modd defnyddio'ch cyfeiriad e-bost i'ch tracio ar-lein - rydyn ni yma i helpu i roi diwedd ar hyn.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = Fel defnyddiwr { -brand-name-firefox }, byddwch yn cael { $mask_limit } arallenw e-bost am ddim. Defnyddiwch nhw i guddio'ch cyfeiriad e-bost go iawn, diogelu eich hunaniaeth, ac anfon yr e-byst rydych chi eu heisiau dim ond i'ch blwch derbyn.
+first-time-user-email-hero-secondary-text-3 = Rheolwch eich holl arallenwau o'ch bwrdd rheoli { -brand-name-relay }.
+first-time-user-email-cta-dashboard-button-3 = Dysgu sut i ddefnyddio arallenwau e-bost
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
