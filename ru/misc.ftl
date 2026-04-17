@@ -284,6 +284,12 @@ first-time-user-email-how-item-1-header-2 = Создайте псевдоним 
 
 ## Updated first-time user welcome email (v3)
 
+first-time-user-email-welcome-subhead-3 = Ваш адрес электронной почты может использоваться для отслеживания вас в интернете — мы здесь, чтобы помочь это прекратить.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = Как пользователь { -brand-name-firefox }, вы получаете { $mask_limit } псевдонимов электронной почты бесплатно. Используйте их, чтобы скрыть свой настоящий адрес электронной почты, защитить свою личность и пересылать в свой ящик только те электронные письма, которые вы хотите.
+first-time-user-email-hero-secondary-text-3 = Управляйте всеми своими псевдонимами с панели управления { -brand-name-relay }.
+first-time-user-email-cta-dashboard-button-3 = Научитесь использовать псевдонимы электронной почты
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
