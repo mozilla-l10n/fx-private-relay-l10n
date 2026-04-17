@@ -282,7 +282,7 @@ first-time-user-email-how-item-1-header-2 = Saniyeler içinde maske oluşturun
 first-time-user-email-welcome-subhead-3 = E-posta adresiniz sizi internette takip etmek için kullanılabilir. Buna bir son vermenin vakti geldi.
 # Variables
 #   $mask_limit (number) - the number of free email masks available
-first-time-user-email-hero-primary-text-3 = { -brand-name-firefox } kullanıcı olarak ücretsiz { $mask_limit } e-posta maskesi alacaksınız. Gerçek e-posta adresinizi gizlemek, kimliğinizi korumak ve yalnızca istediğiniz e-postaları gelen kutunuza iletmek için kullanın.
+first-time-user-email-hero-primary-text-3 = Her { -brand-name-firefox } kullanıcısı { $mask_limit } adet ücretsiz maske oluşturabilir. Gerçek e-posta adresinizi gizlemek, kimliğinizi korumak ve yalnızca istediğiniz e-postaların size ulaşmasını sağlamak için bu maskeleri kullanabilirsiniz.
 first-time-user-email-hero-secondary-text-3 = Tüm maskelerinizi { -brand-name-relay } kontrol panelinizden yönetebilirsiniz.
 first-time-user-email-cta-dashboard-button-3 = E-posta maskelerini kullanmayı öğrenin
 # Variables
