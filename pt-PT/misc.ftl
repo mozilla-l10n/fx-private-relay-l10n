@@ -246,7 +246,7 @@ first-time-user-email-how-item-1-header = Utilize uma máscara do { -brand-name-
 # Variables
 #   $url (string) - URL of add-on
 #   $attrs (string) - Inline attributes for the link
-first-time-user-email-how-item-1-subhead-html = Crie máscaras diretamente no { -brand-name-firefox }, com o <a href="{ $url }" { $attrs }>extra do { -brand-name-relay }</a> ou no seu painel do { -brand-name-relay }.
+first-time-user-email-how-item-1-subhead-html = Crie máscaras diretamente no { -brand-name-firefox }, com o <a href="{ $url }" { $attrs }>complemento do { -brand-name-relay }</a> ou no seu painel do { -brand-name-relay }.
 first-time-user-email-how-item-1-subhead-text = Crie máscaras diretamente no { -brand-name-firefox }, com o extra fo { -brand-name-relay }, ou no seu painel do { -brand-name-relay }.
 first-time-user-email-how-item-2-header = Reencaminharemos todos os emails para a sua caixa de entrada
 first-time-user-email-how-item-2-subhead = Os remetentes nunca irão ver o seu endereço real e pode bloquear as mensagens a qualquer momento.
@@ -294,8 +294,8 @@ first-time-user-email-cta-dashboard-button-3 = Aprenda a utilizar máscaras de e
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
-first-time-user-email-how-item-1-subhead-2-html = Direitamente em { -brand-name-firefox }, com o <a href="{ $url }" { $attrs }>{ -brand-name-relay } extras</a>, ou a partir do seu painel.
-first-time-user-email-how-item-1-subhead-text-2 = diretamente em { -brand-name-firefox }, com o extra { -brand-name-relay }, ou a partir do seu painel.
+first-time-user-email-how-item-1-subhead-2-html = Diretamente no { -brand-name-firefox }, com o <a href="{ $url }" { $attrs }>complemento { -brand-name-relay }</a> ou através do seu painel.
+first-time-user-email-how-item-1-subhead-text-2 = Diretamente no { -brand-name-firefox }, com o complemento { -brand-name-relay }, ou através do seu painel.
 first-time-user-email-how-item-2-header-2 = Reencaminhar as mensagens que deseja
 first-time-user-email-how-item-2-subhead-2 = Os remetentes nunca vê o seu endereço real. Continue a utilizar uma máscara para ocultar o seu e-mail real ou bloquear as mensagens que receber.
 first-time-user-email-how-item-3-header-2 = Você tem o controlo

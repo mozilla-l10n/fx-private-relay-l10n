@@ -149,7 +149,7 @@ highlighted-features-section-remove-trackers-body-2 = O { -brand-name-relay } po
 
 ## REVIEWS SECTION
 
-landing-reviews-add-ons = Extras
+landing-reviews-add-ons = Complementos
 landing-reviews-logo-title = { -brand-name-firefox-browser }
 # Do not localize addons.mozilla.org
 landing-reviews-details-source = Fonte: addons.mozilla.org
