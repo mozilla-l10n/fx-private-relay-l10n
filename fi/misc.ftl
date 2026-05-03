@@ -27,6 +27,7 @@ error-mask-update-failed = Maskitietoja ei voitu päivittää. Yritä uudelleen.
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = Maskia { $mask } ei voitu poistaa. Yritä uudelleen.
+error-general = Jokin meni pieleen. Yritä uudelleen myöhemmin.
 
 ## Notifications component
 
@@ -174,6 +175,7 @@ manage-your-masks = Hallitse maskeja
 ## Email sent to first time free users
 
 first-time-user-email-welcome = Tervetuloa { -brand-name-firefox-relay } -palveluun
+first-time-user-email-preheader = Sähköpostin peittäminen henkilöytesi suojaamiseksi
 first-time-user-email-welcome-subhead = Sähköpostiosoitettasi voidaan käyttää seuraamiseesi verkossa – autamme sinua laittamaan pisteen sille.
 first-time-user-email-hero-primary-text = { -brand-name-firefox }-käyttäjänä saat viisi sähköpostimaskia ilmaiseksi. Niiden avulla voit piilottaa oikean sähköpostiosoitteesi, suojata henkilöyttäsi ja välittääksesi vain haluamasi sähköpostit postilaatikkoosi.
 first-time-user-email-hero-secondary-text = Hallitse kaikkia maskejasi { -brand-name-relay }-hallintapaneelista.
@@ -185,6 +187,8 @@ first-time-user-email-cta-dashboard-button = Opettele { -brand-name-relay }n kä
 our-promise-header = Lupauksemme sinulle
 what-can-you-do-with-relay-title = Mitä { -brand-name-firefox-relay } -palvelulla voi tehdä?
 what-can-you-do-with-relay-point-one = Vastaanota sähköpostia paljastamatta oikeaa sähköpostiosoitettasi lähettäjille
+what-can-you-do-with-relay-point-two = Estä verkkosivustoja ja roskapostittajia seuraamasta sinua helposti
+what-can-you-do-with-relay-point-two-subpoint = Sähköpostiseuraimia on nykyään kaikkialla. { -brand-name-relay }-sähköpostimaskit auttavat pitämään seuraimet arvailemassa.
 forwarded-email-hero-header = Sait ensimmäisen edelleenlähetetyn sähköpostisi!
 forwarded-email-hero-desc = Näetkö otsakkeen? Se näkyy kaikissa { -brand-name-relay }-maskien välittämissä sähköpostiviesteissä.
 first-time-user-email-how-title = Miten { -brand-name-relay } toimii
@@ -219,6 +223,20 @@ first-time-user-email-footer-text-2-html = Lisätietoja saat <a href="{ $url }" 
 first-time-user-email-footer-text-2-text = Lisätietoja saat { -brand-name-mozilla }-tuesta.
 first-time-user-email-footer-text-legal = Juridiset asiat
 first-time-user-email-footer-text-privacy = Ehdot ja tietosuoja
+
+## Updated first-time user welcome email (MPP-4613)
+
+first-time-user-email-how-item-1-header-2 = Luo maski sekunneissa
+
+## Updated first-time user welcome email (v3)
+
+first-time-user-email-cta-dashboard-button-3 = Opi käyttämään sähköpostimaskeja
+first-time-user-email-how-item-3-subhead-text-2 = Kirjaudu sisään luodaksesi, nimetäksesi tai poistaaksesi maskeja milloin tahansa.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-2-html = Käy <a href="{ $url }" { $attrs }>tukikeskuksessa</a> saadaksesi apua
+first-time-user-email-questions-subhead-text-2 = Käy tukikeskuksessa saadaksesi apua
 
 ## API error messages
 

@@ -68,6 +68,7 @@ fx-makes-tech = { -brand-name-firefox } on teknologia, joka taistelee yksityisyy
 made-by-mozilla = { -brand-name-mozilla }lta
 fx-desktop = { -brand-name-firefox-browser } tietokoneille
 fx-mobile = { -brand-name-firefox-browser } mobiililaitteille
+fx-solo-ai = { -brand-name-solo-ai }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
