@@ -88,3 +88,6 @@ whatsnew-holiday-promo-2023-news-heading = Oten un scont dal 20% su { -brand-nam
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = Par chest periodi di fiestis, ricêf un scont dal 20% sul presit di 1 an di { -brand-name-relay-premium }. Inserìs il codiç promozionâl “HOLIDAY20” ae casse. La ufierte e finìs ai 31 di Dicembar dal 2023.
 whatsnew-holiday-promo-2023-cta = Oten 1 an di { -brand-name-relay-premium }
+whatsnew-feature-mask-expansion-heading = 50 mascaris di e-mail, ufiertis di noaltris
+whatsnew-feature-mask-expansion-snippet = Cumò tu âs a disposizion 50 mascaris gratuitis invezit che 5. Dopre une par ogni account in mût di protezi la tô vere direzion e-mail.
+whatsnew-feature-mask-expansion-cta = Oten mascaris di e-mail

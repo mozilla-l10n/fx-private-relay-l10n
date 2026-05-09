@@ -69,6 +69,7 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } al à 
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Al covente doprâ un { -brand-name-firefox-account } cuntune direzion e-mail verificade
 faq-question-acceptable-use-answer-measure-account-v2 = Al è obligatori doprâ un account cuntune direzion e-mail verificade
+faq-question-acceptable-use-answer-measure-unlimited-payment-3 = La creazion di plui di { $mask_limit } mascaris al è un servizi a paiament
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Il numar di mascaris che tu puedis gjenerâ in une zornade al è limitât
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
