@@ -268,6 +268,23 @@ first-time-user-email-footer-text-2-text = Par vê altris informazions, visite i
 first-time-user-email-footer-text-legal = Notis legâls
 first-time-user-email-footer-text-privacy = Cundizions di utilizazion e riservatece
 
+## Updated first-time user welcome email (MPP-4613)
+
+first-time-user-email-welcome-subhead-2 = Plate la tô direzion e-mail. Manten il control de tô casele di pueste.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = Tu âs { $mask_limit } mascaris gratuitis prontis di doprâ. Dopre une pes compris in rêt opûr par regjistrâti a un gnûf account o a une aplicazion.
+first-time-user-email-cta-dashboard-button-2 = Jentre su { -brand-name-firefox-relay }
+first-time-user-email-how-item-1-header-2 = Cree une mascare in tic e tac
+
+## Updated first-time user welcome email (v3)
+
+first-time-user-email-welcome-subhead-3 = La tô direzion e-mail e pues vignî doprade par stâti daûr in rêt — o sin chi par judâti a risolvi chest probleme.
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-2-html = Dret di { -brand-name-firefox }, cul <a href="{ $url }" { $attrs }>component adizionâl { -brand-name-relay }</a> o dal cruscot.
+
 ## API error messages
 
 # Variables:
