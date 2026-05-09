@@ -68,6 +68,7 @@ fx-makes-tech = { -brand-name-firefox } e je une tecnologjie che si bat pe tô r
 made-by-mozilla = Fat di { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser(capitalization: "uppercase") } par scritori
 fx-mobile = { -brand-name-firefox-browser(capitalization: "uppercase") } par dispositîfs mobii
+fx-solo-ai = { -brand-name-solo-ai }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }

@@ -281,9 +281,29 @@ first-time-user-email-how-item-1-header-2 = Cree une mascare in tic e tac
 
 first-time-user-email-welcome-subhead-3 = La tô direzion e-mail e pues vignî doprade par stâti daûr in rêt — o sin chi par judâti a risolvi chest probleme.
 # Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = Tant che utent di { -brand-name-firefox }, tu ricevis a gratis { $mask_limit } mascaris di e-mail. Doprilis par platâ la tô vere direzion, protêç la tô identitât e mandâ indevant te tô casele di pueste nome lis e-mails che tu desideris.
+first-time-user-email-hero-secondary-text-3 = Gjestìs dutis lis tôs masaris dal cruscot di { -brand-name-relay }.
+first-time-user-email-cta-dashboard-button-3 = Impare a doprâ lis mascaris di e-mail
+# Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
 first-time-user-email-how-item-1-subhead-2-html = Dret di { -brand-name-firefox }, cul <a href="{ $url }" { $attrs }>component adizionâl { -brand-name-relay }</a> o dal cruscot.
+first-time-user-email-how-item-1-subhead-text-2 = Dret di { -brand-name-firefox } cul component adizionâl { -brand-name-relay } o dal cruscot.
+first-time-user-email-how-item-2-header-2 = Mande indevant nome lis e-mails che tu desideris
+first-time-user-email-how-item-2-subhead-2 = I mitents no viodaran mai la tô vere direzion. Continue a doprâ une mascare par platâle o par blocâ lis e-mails che tu ricevis.
+first-time-user-email-how-item-3-header-2 = Tu comandis tu
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>Jentre</a> par creâ, segnâ o eliminâ lis mascaris, cuant che tu vûs.
+first-time-user-email-how-item-3-subhead-text-2 = Jentre par creâ, segnâ o eliminâ lis mascaris in ogni moment.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-2-html = Visite il nestri <a href="{ $url }" { $attrs }>centri assistence</a>
+first-time-user-email-questions-subhead-text-2 = Visite il nestri centri di assistence
+first-time-user-email-footer-text-1-2 = Tu âs ricevude cheste e-mail automatiche parcè che tu âs un abonament a { -brand-name-firefox-relay }. Se tu le âs ricevude par erôr, nol covente fâ nuie.
 
 ## API error messages
 
