@@ -55,6 +55,8 @@ faq-question-mozmail-answer-2 = O vin fat il passaç di “relay.firefox.com” 
 faq-question-attachments-question = { -brand-name-firefox-relay } mandaraial indenant e-mails cun zontis?
 faq-question-attachments-answer-v2 = Cumò o supuartìn il mandâ indevant lis zontis. Dut câs, o vin un limit aes dimensions: { -brand-name-relay } nol mandarà indenant i messaçs plui grancj di { email-size-limit }.
 faq-question-unsubscribe-domain-question-2 = Ce sucedial al gno sot-domini personalizât se o disdeti l’abonament a { -brand-name-relay-premium }?
+#   $mask_limit (number) - Number of free email masks allowed
+faq-question-unsubscribe-domain-answer-3 = Se tu tornis indaûr di { -brand-name-relay-premium }, tu continuarâs a ricevi e-mails mandadis indevant cu lis tôs mascaris personalizadis, ma no tu podarâs plui creânt altris doprant chel sot-domini. Se tu âs in dut plui di { $mask_limit } mascaris, no tu podarâs creânt altris. Tu pierdarâs ancje la pussibilitât di rispuindi ai messaçs mandâts indevant. Tu puedis tornâ a iscriviti a { -brand-name-relay-premium } e tornâ a otignî l’acès a chestis funzions.
 faq-question-8-question = Ce dâts vegnino tirâts sù di { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
