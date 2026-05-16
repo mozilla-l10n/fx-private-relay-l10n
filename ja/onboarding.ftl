@@ -7,15 +7,6 @@
 
 multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium } へようこそ
 
-## Step 2 Set Custom Domain
-
-
-## Step 3 Add Relay Extension
-
-
-## Step 3 Relay Extension Added
-
-
 ## Step 3 Mobile Reply to Emails
 
 multi-part-onboarding-step-counter = ステップ { $step } / { $max }

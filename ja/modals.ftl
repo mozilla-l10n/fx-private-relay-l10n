@@ -13,6 +13,3 @@ modal-delete-warning-recovery-2-html =
     { -brand-name-firefox-relay } は、パスワードを忘れた際にリセットできるメッセージを含め、<strong>{ $email }</strong> に送信されたメッセージを転送しなくなります。
 modal-delete-warning-upgrade-2 = このメールマスクを使用して気になるサイトにログインしている場合、このメールアドレスを削除する前に、別のメールアドレスを使ってログイン情報を更新する必要があります。
 modal-delete-confirmation-2 = はい、このマスクを削除します。
-
-## Updated mask deletion modal strings
-
