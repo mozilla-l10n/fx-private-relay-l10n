@@ -24,3 +24,15 @@
 -brand-name-firefox-monitor = Firefox Monitor
 -brand-name-mozilla-monitor = Mozilla Monitor
 -brand-name-pocket = Pocket
+# Deprecated
+-brand-name-firefox-account =
+    { $capitalization ->
+        [uppercase] Firefox налог
+       *[lowercase] Firefox налог
+    }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
+-brand-name-monitor = Monitor
+-brand-name-monitor-plus = Monitor Plus
+-brand-name-solo = Solo
+-brand-name-solo-ai = Solo AI
