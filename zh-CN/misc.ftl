@@ -206,7 +206,7 @@ manage-your-masks = 管理马甲
 first-time-user-email-welcome = 欢迎来到 { -brand-name-firefox-relay }
 first-time-user-email-preheader = 使用邮箱马甲以保护您的身份
 first-time-user-email-welcome-subhead = 您的电子邮件地址可能会被用于在线跟踪您——我们帮您杜绝这种情况。
-first-time-user-email-hero-primary-text = 作为 { -brand-name-firefox } 用户，您可以免费获得 5 个邮箱马甲。请使用它们来隐藏您的真实电子邮件地址，保护您的身份，并仅将您需要的电子邮件转发到您的收件箱。
+first-time-user-email-hero-primary-text = 您是 { -brand-name-firefox } 用户，可免费获得 5 个马甲邮箱。您可以使用它们来隐藏自己的真实邮箱地址、保护真实身份，并只接收需要的邮件。
 first-time-user-email-hero-secondary-text = 在 { -brand-name-relay } 面板管理您的所有马甲。
 first-time-user-email-hero-cta = 查看您的控制面板
 first-time-user-email-cta-dashboard-button = 了解 { -brand-name-relay } 的使用方法
@@ -273,9 +273,9 @@ first-time-user-email-how-item-1-header-2 = 快速创建马甲
 first-time-user-email-welcome-subhead-3 = 您的电子邮件地址可能会被用于在线跟踪您——我们帮您杜绝这种情况。
 # Variables
 #   $mask_limit (number) - the number of free email masks available
-first-time-user-email-hero-primary-text-3 = 作为 { -brand-name-firefox } 用户您可以免费获得 { $mask_limit } 个马甲邮箱。使用它们来隐藏您的真实邮箱地址、保护您的身份并只转发您需要的邮件。
+first-time-user-email-hero-primary-text-3 = 您是 { -brand-name-firefox } 用户，可免费获得 { $mask_limit } 个马甲邮箱。您可以使用它们来隐藏自己的真实邮箱地址、保护真实身份，并只接收需要的邮件。
 first-time-user-email-hero-secondary-text-3 = 在 { -brand-name-relay } 面板管理您的所有马甲。
-first-time-user-email-cta-dashboard-button-3 = 了解使用马甲邮箱
+first-time-user-email-cta-dashboard-button-3 = 了解马甲邮箱用法
 # Variables
 #   $url (string) - link to the Relay add-on
 #   $attrs (string) - link attributes
