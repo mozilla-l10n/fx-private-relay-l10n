@@ -78,6 +78,7 @@ modal-email-domain-success-headline-any-word = خالىغان سۆز ياكى ئ
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = سودا قىلامسىز؟ دۇكان{ $custom_domain_full } نى ئىشلىتىڭ.
 tooltip-email-domain-explanation-title = بىردىنبىر { -brand-name-relay } ئېلخەت تور دائىرە ئىسمى ھەققىدە
+tooltip-email-domain-explanation-title-free = ئۆزىڭىزگە خاس { -brand-name-relay } ئېلخەت تور دائىرە ئىسمىغا ئېرىشىڭ
 
 ## 2023 Holiday promo
 

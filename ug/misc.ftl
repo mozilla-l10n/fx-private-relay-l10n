@@ -112,6 +112,7 @@ survey-option-dismiss = بولدىلا
 
 ## CSAT survey
 
+survey-csat-question = سىزنىڭ { -brand-name-firefox-relay } ئىشلىتىشتىكى مەمنۇنلۇق تەسىراتىڭىز قانداق؟
 survey-csat-answer-very-dissatisfied = بەك نارازى بولدۇم
 survey-csat-answer-dissatisfied = نارازى
 survey-csat-answer-neutral = بىتەرەپ
@@ -160,3 +161,4 @@ first-time-user-email-footer-text-privacy = شەرت ۋە شەخسىيەت
 ## API error messages
 
 api-error-account-is-paused = ھېساباتىڭىز ۋاقىتلىق توختىتىلدى.
+api-error-account-is-inactive = ھېساباتىڭىز ئاكتىپلانمىغان.

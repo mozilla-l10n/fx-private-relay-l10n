@@ -13,6 +13,9 @@ profile-details-collapse = نىقاب تەپسىلاتىنى يوشۇر
 profile-label-click-to-copy-alt = چېكىلسە { $address } نىقاب ئادرېسى كۆچۈرۈلىدۇ.
 profile-label-saved = بەلگە ساقلاندى!
 profile-label-generate-new-alias-2 = يېڭى نىقاب ھاسىللاش
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } نىقابى
 profile-label-delete = ئۆچۈر
 profile-label-reset = ئەسلىگە قايتۇر
 profile-label-continue = داۋاملاشتۇر
@@ -28,6 +31,7 @@ profile-filter-search-placeholder-2 = نىقاب ئىزدە
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = قايسى ئېلخەتلەرنى توسىماقچى؟
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = ھەممىسى
 # Block promotional emails sent to a speciic mask
