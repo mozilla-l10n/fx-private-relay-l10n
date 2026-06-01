@@ -4,6 +4,8 @@
 
 vpn-relay-welcome-headline = Bienvenido a tu nuevo plan de protección
 vpn-relay-welcome-subheadline = { -brand-name-firefox-relay } + { -brand-name-mozilla-vpn }
+vpn-relay-go-relay-body-3 = Mantén la privacidad de tu identidad.
+vpn-relay-go-vpn-body-2 = Protege tu actividad en línea.
 vpn-relay-go-relay-cta = Ir a { -brand-name-relay }
 vpn-relay-go-vpn-cta = Descarga { -brand-name-mozilla-vpn }
 
@@ -45,3 +47,10 @@ bundle-banner-dashboard-header = Presentamos: plan de suscripción { -brand-name
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 bundle-banner-dashboard-body = Actualiza tu suscripción para obtener { -brand-name-relay-premium } Enmascaramiento de teléfono + { -brand-name-mozilla-vpn } por { $monthly_price }. ¡Actualiza ahora para obtener { $savings } de { -brand-name-mozilla-vpn }!
 bundle-banner-dashboard-upgrade-cta = Actualiza ahora
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+megabundle-banner-header = Protege tu privacidad en línea por { $monthly_price } al mes
+megabundle-banner-header-tools = Obtén 3 herramientas por un precio inigualable
+megabundle-banner-plan-modules-vpn = { -brand-name-vpn }
+megabundle-banner-plan-modules-monitor = { -brand-name-monitor }
+megabundle-banner-plan-modules-relay = { -brand-name-relay }
+megabundle-banner-plan-body = El plan incluye { -brand-name-vpn }, protección contra intermediarios de datos y máscaras de correo ilimitadas para evitar el correo no deseado.
