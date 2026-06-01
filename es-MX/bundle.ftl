@@ -54,3 +54,11 @@ megabundle-banner-plan-modules-vpn = { -brand-name-vpn }
 megabundle-banner-plan-modules-monitor = { -brand-name-monitor }
 megabundle-banner-plan-modules-relay = { -brand-name-relay }
 megabundle-banner-plan-body = El plan incluye { -brand-name-vpn }, protección contra intermediarios de datos y máscaras de correo ilimitadas para evitar el correo no deseado.
+megabundle-banner-cta = Obtén protección durante todo el año
+#   $days_guarantee (string) - the number of days for a money back guarantee. Example: 30
+megabundle-banner-money-back-guarantee = Garantía de devolución de dinero de { $days_guarantee } días.
+#   $billed (string) - the yearly cost (including currency symbol) for a given plan. Examples: $99, 99 €
+megabundle-banner-billed-annually = { $billed } al año con facturación anual.
+plan-grid-title = Elige tu nivel de protección
+plan-grid-body = Garantía de devolución de dinero de 30 días (exclusivo para clientes de primera vez)
+plan-grid-free-title = { -brand-name-relay }
