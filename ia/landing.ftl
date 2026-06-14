@@ -155,7 +155,7 @@ highlighted-features-section-replying-body-2 =
 highlighted-features-section-block-promotions-headline = Blocar e-mails promotional
 highlighted-features-section-block-promotions-body-2 =
     Con { -brand-name-relay-premium }, tu pote impedir al e-mails promotional de attinger tu 
-    cassa de ingresso, dum ancora tu recipe e-mails como quitantias o informationes de expedition.
+    cassa de entrata, durante que tu continua a reciper messages como quitantias o informationes de expedition.
 
 # Item 5
 
