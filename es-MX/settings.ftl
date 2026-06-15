@@ -12,9 +12,11 @@ settings-meta-help-tooltip = Obtener ayuda para usar { -brand-name-relay }
 settings-meta-status-label = Estado del servicio
 settings-meta-status-tooltip = Comprueba si todos los sistemas de { -brand-name-relay } están actualmente operativos.
 settings-warning-collection-off-heading-3 = Tus nombres de cuenta de máscara de correo electrónico están desactivados
+settings-warning-collection-off-description-3 = { -brand-name-relay } no tiene permiso actualmente para etiquetar tus máscaras de correo con los sitios web donde las has usado. Para cambiar esto, activa los nombres de cuenta para las máscaras de correo en la sección “Privacidad”.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidad
 setting-label-collection-description-3 = Habilitar nombres de cuenta para máscaras de correo electrónico
+setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } guardará los sitios web donde has usado tus máscaras de correo y las etiquetará con esos sitios para que puedas identificarlas fácilmente. Desactivar esto significa que no podrás ver dónde has usado cada máscara y tus nombres de cuenta ya no se sincronizarán entre dispositivos.
 settings-button-save-label = Guardar
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = Llave API

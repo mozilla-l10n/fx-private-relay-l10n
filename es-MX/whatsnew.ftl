@@ -75,6 +75,10 @@ whatsnew-feature-mailing-list-heading = Obtén ayuda para proteger tu privacidad
 whatsnew-feature-mailing-list-snippet = No es fácil mantenerse al día con los últimos consejos de privacidad y seguridad…
 whatsnew-feature-mailing-list-description = No es fácil mantenerse al día con los últimos consejos y hábitos de privacidad y seguridad. Así que comenzamos un boletín para ayudarte a que tu vida en línea sea más segura.
 whatsnew-feature-mailing-list-cta = Suscríbete al boletín
+whatsnew-feature-premium-expansion-eu-heading = Máscaras ilimitadas ya disponibles
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } ya está disponible en tu país…
 whatsnew-feature-premium-expansion-eu-cta = Obtener { -brand-name-relay-premium }
 whatsnew-holiday-promo-2023-news-heading = Obtenga un 20% de descuento en { -brand-name-relay-premium }
 # DO NOT translate the promo code "HOLIDAY20" in this string.
