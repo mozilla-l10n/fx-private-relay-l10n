@@ -79,3 +79,32 @@ plan-grid-card-phone-plus = Todo lo incluido en { -brand-name-relay-premium }
 plan-grid-card-phone-item-one = Máscara de teléfono para <b>proteger tu número de teléfono real</b>
 plan-grid-megabundle-title = Plan de protección de privacidad
 plan-grid-megabundle-title-2 = { -brand-name-relay-premium } + { -brand-name-vpn }
+#   $discountPercentage (number) megabundle discount savings value. Example: 45
+plan-grid-megabundle-label = Mejor precio: ahorra { $discountPercentage }%
+plan-grid-megabundle-subtitle = 3 herramientas de privacidad por 1 solo precio
+plan-grid-megabundle-subtitle-2 = Protección de correo, número de teléfono y dispositivos
+plan-grid-megabundle-card-plus = Todo lo incluido en tu plan actual
+plan-grid-card-megabundle-item-two = <b>Responder mensajes de texto</b> con tu máscara de teléfono
+plan-grid-card-megabundle-item-three = Protección de { -brand-name-vpn } para hasta 5 dispositivos
+#   $items (string) - number of devices for vpn protection
+plan-grid-card-megabundle-item-three-2 = Protección de { -brand-name-vpn } hasta para { $items } dispositivos
+plan-grid-megabundle-vpn-title = { -brand-name-mozilla-vpn }
+plan-grid-megabundle-vpn-description = Protección de actividad en línea
+plan-grid-megabundle-monitor-title = { -brand-name-monitor-plus }
+plan-grid-megabundle-monitor-description = Protección contra recopiladores de datos
+plan-grid-megabundle-relay-title = { -brand-name-relay-premium }
+plan-grid-megabundle-relay-description = Máscaras de correo ilimitadas para protección contra el spam
+plan-grid-billed-monthly = Facturado mensualmente
+#   $yearly_price (string) - the yearly cost (including currency symbol) for a given plan. Examples: $99, 99 €
+plan-matrix-price-yearly-calculated = { $yearly_price } facturado anualmente
+#   $price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-grid-megabundle-monthly = { $price }/mes
+plan-grid-megabundle-yearly = { $yearly_price } facturado anualmente
+whatsnew-megabundle-heading = Privacidad y seguridad en un plan potenciado
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+whatsnew-megabundle-snippet = Por { $monthly_price } al mes, ahorra en { -brand-name-vpn }, la protección contra recopiladores de datos de { -brand-name-monitor } y las máscaras de correo ilimitadas de { -brand-name-relay }…
+whatsnew-megabundle-description = Por { $monthly_price } al mes, ahorra en { -brand-name-vpn }, la protección contra recopiladores de datos de { -brand-name-monitor } y las máscaras de correo ilimitadas de { -brand-name-relay }.
+whatsnew-megabundle-cta = Obtén protección durante todo el año
+whatsnew-megabundle-premium-snippet = Por { $monthly_price } al mes, combina { -brand-name-relay } con la protección de la actividad en línea de { -brand-name-vpn } y los datos de { -brand-name-monitor }…
+whatsnew-megabundle-premium-description = Por { $monthly_price } al mes, combina { -brand-name-relay } con la protección de la actividad en línea de { -brand-name-vpn } y la protección de { -brand-name-monitor } contra los recopiladores de datos que venden tu información en línea.
+whatsnew-megabundle-premium-cta = Mejorar mi protección
