@@ -85,9 +85,9 @@ plan-grid-megabundle-subtitle = 3 herramientas de privacidad por 1 solo precio
 plan-grid-megabundle-subtitle-2 = Protección de correo, número de teléfono y dispositivos
 plan-grid-megabundle-card-plus = Todo lo incluido en tu plan actual
 plan-grid-card-megabundle-item-two = <b>Responder mensajes de texto</b> con tu máscara de teléfono
-plan-grid-card-megabundle-item-three = Protección de { -brand-name-vpn } para hasta 5 dispositivos
+plan-grid-card-megabundle-item-three = <b>Protección de { -brand-name-vpn } </b>para hasta 5 dispositivos
 #   $items (string) - number of devices for vpn protection
-plan-grid-card-megabundle-item-three-2 = Protección de { -brand-name-vpn } hasta para { $items } dispositivos
+plan-grid-card-megabundle-item-three-2 = <b>Protección de { -brand-name-vpn }</b> hasta para { $items } dispositivos
 plan-grid-megabundle-vpn-title = { -brand-name-mozilla-vpn }
 plan-grid-megabundle-vpn-description = Protección de actividad en línea
 plan-grid-megabundle-monitor-title = { -brand-name-monitor-plus }
