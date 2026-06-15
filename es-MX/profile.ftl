@@ -120,4 +120,7 @@ profile-promo-email-blocking-description-promotionals-locked-close = Cerrar
 profile-maxed-aliases-tooltip = Has utilizado todas las máscaras { $limit }. Puedes reutilizarlas, pero utilizar una máscara única para cada cuenta es la opción más segura.
 profile-maxed-aliases-with-phone-header = Maximiza la protección de tu correo electrónico y teléfono
 profile-maxed-aliases-without-phone-header = Maximiza la protección de tu correo electrónico { -brand-name-relay }
+profile-maxed-aliases-with-phone-description = Alcanzaste tu límite de { $limit } máscaras en tu cuenta gratuita de { -brand-name-relay }. Mejora tu plan a { -brand-name-relay-premium } para obtener máscaras de correo ilimitadas, además de la posibilidad de proteger tu número de teléfono.
+profile-maxed-aliases-without-phone-description = Alcanzaste tu límite de { $limit } máscaras en tu cuenta gratuita de { -brand-name-relay }. Mejora tu plan a { -brand-name-relay-premium } para obtener máscaras de correo ilimitadas.
 profile-maxed-aliases-cta = Cambiate a { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Obtén tu propio dominio de correo con { -brand-name-premium }
