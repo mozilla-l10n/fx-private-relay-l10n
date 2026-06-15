@@ -58,6 +58,10 @@ faq-question-unsubscribe-domain-question-2 = ¿Qué pasa con mi subdominio perso
 #   $mask_limit (number) - Number of free email masks allowed
 faq-question-unsubscribe-domain-answer-3 = Si cancelas tu suscripción a { -brand-name-relay-premium }, seguirás recibiendo los correos reenviados a través de tus máscaras de correo personalizadas, pero ya no podrás crear nuevas máscaras con ese subdominio. Si tienes más de { $mask_limit } máscaras en total, no podrás crear ninguna más. También perderás la posibilidad de responder a los mensajes reenviados. Puedes volver a suscribirte a { -brand-name-relay-premium } en cualquier momento para recuperar el acceso a estas funciones.
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-3-html = { -brand-name-firefox-relay } recopila los sitios web donde has usado tus máscaras de correo y las etiqueta con esos sitios para que puedas identificarlas fácilmente. Puedes desactivar esta opción en la página de Configuración, dentro de Privacidad. Ten en cuenta que si desactivas este ajuste, no podrás ver dónde usaste cada máscara y los nombres de tus cuentas dejará de sincronizarse entre tus dispositivos. Conoce más sobre los datos que recopila { -brand-name-firefox-relay } en nuestro <a href="{ $url }" { $attrs }>Aviso de privacidad</a>.
 faq-question-email-storage-question = ¿{ -brand-name-relay } almacena mis correos electrónicos?
 faq-question-email-storage-answer = En las raras circunstancias en las que el servicio no funcione, podemos almacenar temporalmente tus correos electrónicos hasta que podamos enviarlos. Nunca almacenaremos tus correos electrónicos por más de tres días.
 faq-question-acceptable-use-question = ¿Cuáles son los usos aceptables de { -brand-name-relay }?
@@ -67,6 +71,7 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } tiene 
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Se requiere una { -brand-name-firefox-account } con una dirección de correo verificado
 faq-question-acceptable-use-answer-measure-account-v2 = Requerir una cuenta con una dirección de correo electrónico verificada
+faq-question-acceptable-use-answer-measure-unlimited-payment-3 = Se requiere un pago para que el usuario pueda crear más de { $mask_limit } máscaras
 faq-question-acceptable-use-answer-measure-rate-limit-2 = La tasa de limite de la cantidad de máscaras que se pueden generar en un día
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -83,3 +88,4 @@ faq-question-trackerremoval-breakage-question = ¿Por qué mis correos electrón
 faq-question-trackerremoval-breakage-answer-2 = A veces, la eliminación de rastreadores puede hacer que tu correo se vea dañado porque los rastreadores a menudo se encuentran dentro de imágenes y enlaces. Cuando se elimina el rastreador, parece que el correo electrónico tiene un formato incorrecto porque faltan imágenes. Esto no se puede arreglar para los correos electrónicos que ya recibiste. Si esto le impide leer tus correos electrónicos correctamente, desactiva la eliminación del rastreador.
 faq-question-define-tracker-question = ¿Qué son los rastreadores de correo electrónico?
 faq-question-define-tracker-answer-partone = Los rastreadores en el correo electrónico son una herramienta común de vigilancia y publicidad que se ha apoderado de muchas bandejas de entrada. Estos rastreadores se pueden usar para comprender más sobre tu comportamiento en línea, tus intereses y tu actividad de correo electrónico.
+faq-question-define-tracker-answer-parttwo = Las empresas u organizaciones suelen incluir un rastreador en los correos que te envían, por lo general oculto en una imagen o un enlace. Al abrir el correo, el código del rastreador envía los datos de vuelta a la empresa.

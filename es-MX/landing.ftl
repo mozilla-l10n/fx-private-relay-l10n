@@ -6,6 +6,7 @@
 ## HERO SECTION
 
 hero-section-title = Protege tu identidad con enmascaramiento seguro de correo electrónico y teléfono
+hero-section-body = Nuestras máscaras de correo y de teléfono, seguras y fáciles de usar, te ayudan a mantener tu identidad privada para que puedas registrarte en cuentas nuevas de forma anónima, detener los mensajes de texto con spam y las llamadas no deseadas, y recibir solo los correos que quieres en tu bandeja de entrada.
 hero-section-cta = Comenzar
 # Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
 # Example: "As seen in FORBES magainze and LifeHacker website"
@@ -16,6 +17,9 @@ hero-section-social-proof = Como se ve en
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-banner-header-2 = Por tiempo limitado: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } por { $monthly_price } al mes
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-3 = { -brand-name-mozilla-vpn } te protege del rastreo y la vigilancia mientras juegas, realizas operaciones bancarias en línea o trabajas. Agrégalo a { -brand-name-firefox-relay } con un descuento de { $savings }.
 bundle-banner-plan-header-2 = Tu plan de 1 año incluye:
 bundle-banner-plan-modules-email-masking = Enmascaramiento de correo electrónico
 bundle-banner-plan-modules-phone-masking = Enmascaramiento de teléfono
@@ -36,13 +40,16 @@ how-it-works-section-title = Cómo funciona el enmascaramiento de correo electr�
 # Item 1
 
 how-it-works-section-extension-headline = Utiliza máscaras de correos electrónicos y máscaras telefónicas de { -brand-name-relay } en cualquier lugar
+how-it-works-section-extension-body = Obtén máscaras de correo seguras y aleatorias, además de un número de teléfono enmascarado único para usar cada vez que un sitio web, aplicación, tienda o restaurante te pida tu información.
 
 # Item 2
 
 how-it-works-section-forward-headline = Te reenviaremos correos electrónicos, llamadas telefónicas y mensajes de texto
+how-it-works-section-forward-body = Ten la seguridad de que quienes te envíen mensajes nunca sabrán tu dirección de correo real ni tu número real. Incluso puedes responder a mensajes de texto y correos sin compartir tu identidad real.
 
 # Item 3
 
+how-it-works-section-manage-headline = Administra tus máscaras desde el panel de { -brand-name-relay }
 
 ## PRICING MATRIX SECTION
 
