@@ -208,7 +208,7 @@ manage-your-masks = Gestisci i tuoi alias
 
 ## Email sent to first time free users
 
-first-time-user-email-welcome = Benvenuto in { -brand-name-firefox-relay }
+first-time-user-email-welcome = Ti diamo il benvenuto in { -brand-name-firefox-relay }
 first-time-user-email-preheader = Alias di posta elettronica per proteggere la tua identità
 first-time-user-email-welcome-subhead = Il tuo indirizzo email può essere utilizzato per tracciarti online: siamo qui per aiutarti a risolvere questo problema.
 first-time-user-email-hero-primary-text = Come utente di { -brand-name-firefox }, ricevi gratuitamente 5 alias di posta elettronica. Usali per nascondere il tuo indirizzo reale, proteggere la tua identità e inoltrare alla tua casella di posta solo le email che desideri.

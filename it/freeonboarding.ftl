@@ -5,7 +5,7 @@
 
 ## Step 1 Welcome to Relay
 
-profile-free-onboarding-welcome-headline = Benvenuto in { -brand-name-relay }
+profile-free-onboarding-welcome-headline = Ti diamo il benvenuto in { -brand-name-relay }
 profile-free-onboarding-welcome-description = Creiamo un nuovo alias di posta elettronica.
 profile-free-onboarding-welcome-item-headline-1 = Usa un alias per proteggere il tuo indirizzo email reale
 profile-free-onboarding-welcome-item-description-1 = Ogni volta che ti serve un indirizzo di posta elettronica, usa un alias piuttosto.
