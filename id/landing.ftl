@@ -131,9 +131,6 @@ highlighted-features-section-unlimited-masks-body-2 = Setiap orang mendapatkan {
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Buat topeng secara instan saat bepergian
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body-2 = { -brand-name-relay-premium } memberi Anda domain email unik { -brand-name-relay } sehingga Anda dapat langsung
 
 # Item 3
 
