@@ -8,7 +8,7 @@
 hero-section-title = Protege tu identidad con enmascaramiento seguro de correo electrónico y teléfono
 hero-section-body = Nuestras máscaras de correo y de teléfono, seguras y fáciles de usar, te ayudan a mantener tu identidad privada para que puedas registrarte en cuentas nuevas de forma anónima, detener los mensajes de texto con spam y las llamadas no deseadas, y recibir solo los correos que quieres en tu bandeja de entrada.
 hero-section-cta = Comenzar
-# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay.
 # Example: "As seen in FORBES magainze and LifeHacker website"
 hero-section-social-proof = Como se ve en
 
@@ -172,7 +172,7 @@ premium-promo-hero-cta = Actualizar ahora
 ## The Premium waitlist page
 
 waitlist-heading-2 = Únete a la lista de espera de { -brand-name-relay-premium }
-waitlist-heading-phone = Únete a la lista de espera de enmascaramiento de teléfonos de { -brand-name-relay }{ " " }
+waitlist-heading-phone = Únete a la lista de espera de enmascaramiento de teléfonos de { -brand-name-relay }
 waitlist-heading-bundle = Únete a la lista de espera para el paquete { -brand-name-relay } + { -brand-name-vpn }
 waitlist-lead-2 = Te informaremos cuando { -brand-name-relay-premium } esté disponible en tu área.
 waitlist-lead-phone = Te informaremos cuando el enmascaramiento de teléfonos esté disponible en tu área.

@@ -7,11 +7,11 @@
 
 hero-section-title = Protect your identity with secure phone and email masking
 hero-section-body =
-    Our secure, easy-to-use email and phone masks help keep your identity 
-    private so you can sign up for new accounts anonymously, stop spam texts and junk calls, and 
+    Our secure, easy-to-use email and phone masks help keep your identity
+    private so you can sign up for new accounts anonymously, stop spam texts and junk calls, and
     get only the emails you want in your inbox.
 hero-section-cta = Get started
-# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay.
 # Example: "As seen in FORBES magainze and LifeHacker website"
 hero-section-social-proof = As seen in
 
@@ -127,8 +127,8 @@ highlighted-features-section-unlimited-masks-headline = Create unlimited email m
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 highlighted-features-section-unlimited-masks-body-2 =
-    Everyone gets { $mask_limit } email masks for free. 
-    But with { -brand-name-relay-premium }, you can generate as many masks as you need to help protect your email 
+    Everyone gets { $mask_limit } email masks for free.
+    But with { -brand-name-relay-premium }, you can generate as many masks as you need to help protect your email
     from spammers, hackers, data breaches and online trackers.
 
 # Item 2
@@ -137,8 +137,8 @@ highlighted-features-section-masks-on-the-go-headline = Instantly create masks o
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 highlighted-features-section-masks-on-the-go-body-2 =
-    { -brand-name-relay-premium } gives you a unique { -brand-name-relay } email domain so you can instantly 
-    create new masks anywhere you are. Simply add any word or phrase before the @ symbol. At a restaurant? Use restaurant@yourdomain.{ $mozmail }. 
+    { -brand-name-relay-premium } gives you a unique { -brand-name-relay } email domain so you can instantly
+    create new masks anywhere you are. Simply add any word or phrase before the @ symbol. At a restaurant? Use restaurant@yourdomain.{ $mozmail }.
     Shopping? Try shop@yourdomain.{ $mozmail }.
 
 # Item 3
@@ -146,21 +146,21 @@ highlighted-features-section-masks-on-the-go-body-2 =
 highlighted-features-section-replying-headline = Reply to emails & texts anonymously
 highlighted-features-section-replying-body-2 =
     { -brand-name-relay-premium } lets you respond to emails from your
-    masked email account, so senders will never know your real email address. With phone masking, you can reply 
+    masked email account, so senders will never know your real email address. With phone masking, you can reply
     to texts from your masked phone number to protect your real number.
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Block promotional emails
 highlighted-features-section-block-promotions-body-2 =
-    With { -brand-name-relay-premium }, you can block promotional emails from reaching your 
+    With { -brand-name-relay-premium }, you can block promotional emails from reaching your
     inbox while still receiving emails like receipts or shipping information.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Remove email trackers
 highlighted-features-section-remove-trackers-body-2 =
-    { -brand-name-relay } can remove common email trackers from any emails forwarded to you, helping 
+    { -brand-name-relay } can remove common email trackers from any emails forwarded to you, helping
     you stay invisible to trackers and advertisers.
 
 ## REVIEWS SECTION
@@ -205,7 +205,7 @@ premium-promo-availability-warning-4 = { -brand-name-relay-premium } is availabl
 ## The Premium waitlist page
 
 waitlist-heading-2 = Join the { -brand-name-relay-premium } waiting list
-waitlist-heading-phone = Join the { -brand-name-relay } phone masking waitlist{ " " }
+waitlist-heading-phone = Join the { -brand-name-relay } phone masking waitlist
 waitlist-heading-bundle = Join the waitlist for the { -brand-name-relay } + { -brand-name-vpn } bundle
 waitlist-lead-2 = We’ll let you know when { -brand-name-relay-premium } is available in your area.
 waitlist-lead-phone = We’ll let you know when phone masking is available in your area.

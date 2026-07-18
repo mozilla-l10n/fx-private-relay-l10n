@@ -11,7 +11,7 @@ hero-section-body =
     para que puedas registrarte en nuevas cuentas de forma anónima, detener las llamadas y mensajes de texto no deseados, y
     recibe solo los correos electrónicos que deseas en tu bandeja de entrada.
 hero-section-cta = Comenzar
-# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay.
 # Example: "As seen in FORBES magainze and LifeHacker website"
 hero-section-social-proof = Como se vio en
 
@@ -160,7 +160,7 @@ highlighted-features-section-block-promotions-body-2 =
 
 highlighted-features-section-remove-trackers-headline = Eliminar rastreadores de correo electrónico
 highlighted-features-section-remove-trackers-body-2 =
-    { -brand-name-relay } puede eliminar rastreadores comunes del correo electrónico de los mensajes de correo electrónico que se te reenvían, ayudando 
+    { -brand-name-relay } puede eliminar rastreadores comunes del correo electrónico de los mensajes de correo electrónico que se te reenvían, ayudando
     a mantenerte invisible para rastreadores y anunciantes.
 
 ## REVIEWS SECTION
@@ -205,7 +205,7 @@ premium-promo-availability-warning-4 = { -brand-name-relay-premium } está dispo
 ## The Premium waitlist page
 
 waitlist-heading-2 = Únete a la lista de espera de { -brand-name-relay-premium }
-waitlist-heading-phone = Únete a la lista de espera de enmascaramiento de teléfonos de { -brand-name-relay }{ " " }
+waitlist-heading-phone = Únete a la lista de espera de enmascaramiento de teléfonos de { -brand-name-relay }
 waitlist-heading-bundle = Únete a la lista de espera para el paquete { -brand-name-relay } + { -brand-name-vpn }
 waitlist-lead-2 = Te informaremos cuando { -brand-name-relay-premium } esté disponible en tu área.
 waitlist-lead-phone = Te avisaremos cuando el enmascaramiento de teléfonos esté disponible en tu área.

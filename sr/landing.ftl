@@ -11,7 +11,7 @@ hero-section-body =
     остане приватан, тако да се можете анонимно регистровати за нове налоге, зауставити непожељне поруке и позиве, и
     у свом пријемном сандучету добијати само ону е-пошту које желите.
 hero-section-cta = Започните
-# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay.
 # Example: "As seen in FORBES magainze and LifeHacker website"
 hero-section-social-proof = Као што други кажу
 
@@ -198,7 +198,7 @@ premium-promo-availability-warning-4 = { -brand-name-relay-premium } је дос
 ## The Premium waitlist page
 
 waitlist-heading-2 = Придружите се листи чекања за { -brand-name-relay-premium }
-waitlist-heading-phone = Придружите се листи чекања за маскирање телефонског броја за { -brand-name-relay }{ " " }
+waitlist-heading-phone = Придружите се листи чекања за маскирање телефонског броја за { -brand-name-relay }
 waitlist-heading-bundle = Придружите се листи чекања за пакет { -brand-name-relay } + { -brand-name-vpn }
 waitlist-lead-2 = Обавестићемо вас када { -brand-name-relay-premium } буде доступан у вашем подручју.
 waitlist-lead-phone = Обавестићемо вас када маскирање телефонског броја буде доступно у вашем подручју.
