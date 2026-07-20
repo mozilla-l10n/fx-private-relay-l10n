@@ -8,7 +8,7 @@
 hero-section-title = Protégez votre identité avec des alias de messagerie et de numéro de téléphone sécurisés
 hero-section-body = Nos alias de messagerie et de numéro de téléphone sécurisés et faciles à utiliser vous aident à conserver votre identité privée pour que vous puissiez créer de nouveaux comptes de manière anonyme, bloquer les spams et les appels indésirables, et que vous receviez uniquement les e-mails que vous souhaitez dans votre boîte de réception.
 hero-section-cta = Démarrer
-# Context: This describes the various websites and magazines who have mentioned Firefox Relay.
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
 # Example: "As seen in FORBES magainze and LifeHacker website"
 hero-section-social-proof = Tel que vu dans
 

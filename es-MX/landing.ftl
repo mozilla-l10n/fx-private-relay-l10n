@@ -8,7 +8,7 @@
 hero-section-title = Protege tu identidad con enmascaramiento seguro de correo electrónico y teléfono
 hero-section-body = Nuestras máscaras de correo y de teléfono, seguras y fáciles de usar, te ayudan a mantener tu identidad privada para que puedas registrarte en cuentas nuevas de forma anónima, detener los mensajes de texto con spam y las llamadas no deseadas, y recibir solo los correos que quieres en tu bandeja de entrada.
 hero-section-cta = Comenzar
-# Context: This describes the various websites and magazines who have mentioned Firefox Relay.
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
 # Example: "As seen in FORBES magainze and LifeHacker website"
 hero-section-social-proof = Como se ve en
 

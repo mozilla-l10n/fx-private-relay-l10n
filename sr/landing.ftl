@@ -11,7 +11,7 @@ hero-section-body =
     остане приватан, тако да се можете анонимно регистровати за нове налоге, зауставити непожељне поруке и позиве, и
     у свом пријемном сандучету добијати само ону е-пошту које желите.
 hero-section-cta = Започните
-# Context: This describes the various websites and magazines who have mentioned Firefox Relay.
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
 # Example: "As seen in FORBES magainze and LifeHacker website"
 hero-section-social-proof = Као што други кажу
 

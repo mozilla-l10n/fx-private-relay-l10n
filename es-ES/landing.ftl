@@ -11,7 +11,7 @@ hero-section-body =
     para que puedas registrarte en nuevas cuentas de forma anónima, detener las llamadas y mensajes de texto no deseados, y
     recibe solo los correos electrónicos que deseas en tu bandeja de entrada.
 hero-section-cta = Comenzar
-# Context: This describes the various websites and magazines who have mentioned Firefox Relay.
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
 # Example: "As seen in FORBES magainze and LifeHacker website"
 hero-section-social-proof = Como se vio en
 
