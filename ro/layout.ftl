@@ -23,7 +23,7 @@ avatar-tooltip = Profil
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Întrebări frecvente
 nav-profile-sign-in = Intră în cont
-nav-profile-sign-up = Fă-ți cont
+nav-profile-sign-up = Fă-ți un cont
 nav-profile-manage-account = Gestionează-ți contul
 nav-profile-sign-out = Ieși din cont
 nav-profile-sign-out-confirm = Sigur vrei să ieși din cont?

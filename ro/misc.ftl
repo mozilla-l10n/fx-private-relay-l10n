@@ -61,3 +61,9 @@ survey-option-dismiss = Închide
 ## Email sent to first time free users
 
 first-time-user-email-welcome = Bun venit la { -brand-name-firefox-relay }
+
+## Updated first-time user welcome email (MPP-4613)
+
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = Ai { $mask_limit } măști de e-mail gratuite gata de utilizare. Folosește una când faci cumpărături online sau când îți creezi un cont nou sau te conectezi la o aplicație nouă.

@@ -15,6 +15,7 @@ profile-free-onboarding-close-modal = Închide fereastra de dialog
 ## Step 2 How to Use a Mask
 
 profile-free-onboarding-copy-mask-headline = Copiază-ți masca pentru a o folosi
+profile-free-onboarding-copy-mask-item-headline-1 = Înscrie-mă pentru buletine de știri
 profile-free-onboarding-copy-mask-send-email = Trimite un e-mail
 profile-free-onboarding-copy-mask-continue = Continuă
 profile-free-onboarding-copy-mask-placeholder-relay-email-mask = Mască de e-mail { -brand-name-relay }
