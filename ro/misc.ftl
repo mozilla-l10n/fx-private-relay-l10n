@@ -35,21 +35,38 @@ toast-button-close-label = Închide notificarea
 
 ## Tips and tricks at the bottom of the page
 
+tips-header-title = Ajutor și sfaturi
 tips-header-button-close-label = Închide
 tips-footer-link-faq-label = Întrebări frecvente
 tips-footer-link-faq-tooltip = Întrebări frecvente
 tips-footer-link-support-label = Asistență
 tips-footer-link-support-tooltip = Contactează serviciul de asistență
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Sfatul { $nr }
 tips-toast-button-expand-label = Află mai multe
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blochează e-mailurile promoționale
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Activează blocarea e-mailurilor promoționale pe o mască pentru a opri mesajele de marketing să nu ajungă în căsuța ta de poștă electronică.
 popover-custom-alias-explainer-promotional-block-tooltip-trigger = Mai multe informații
+
+## Tip about using custom masks
+
+tips-custom-alias-heading-2 = Crearea de măști folosind subdomeniul tău personalizat
+tips-custom-alias-content-2 = Tot ce trebuie să faci este să creezi și să partajezi o mască unică folosind subdomeniul tău personalizat — masca va fi generată automat. Încearcă „magazin@domeniupersonalizat.mozmail.com”, de exemplu, data viitoare când faci cumpărături online.
 
 ## Report of trackers removed from an email
 
+trackerreport-title = Raport { -brand-name-relay }privind eliminarea elementelor de  urmărire
 trackerreport-meta-from-heading = De la
 trackerreport-meta-receivedat-heading = Primit de
+trackerreport-meta-count-heading = Total elemente de urmărire
 trackerreport-trackers-heading = Elemente de urmărire detectate
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Domeniu element de urmărire
+trackerreport-trackers-count-heading = Număr de elemente de urmărire
+trackerreport-trackers-none = Nu am detectat elemente de urmărire în acest mesaj.
 # Variables:
 #   $count (number) - Total number of trackers found in an email
 trackerreport-trackers-value =
@@ -58,6 +75,17 @@ trackerreport-trackers-value =
         [few] { $count } elemente de urmărire
        *[other] { $count }  de elemente de urmărire
     }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 element de urmărire
+        [few] { $count } elemente de urmărire
+       *[other] { $count } (de) elemente de urmărire
+    }
+trackerreport-confidentiality-notice = Informațiile despre elementele de urmărire și de la adresa care apare în aceste rapoarte nu sunt stocate de { -brand-name-firefox-relay } și apar numai în URL-urile raportului. Nu îți păstrăm e-mailurile.
+trackerreport-removal-explainer-heading = Cum funcționează eliminarea elementelor de urmărire
+trackerreport-removal-explainer-content = { -brand-name-firefox-relay } poate elimina acum elemente de urmărire frecvente din e-mailuri redirecționate prin măștile de e-mail. Vei primi în continuare mesajele pe e-mail, dar elementele de urmărire din mesajele redirecționate vor fi îndepărtate, ca să primești mesaje fără să fii urmărit(ă). Pentru activarea eliminării elementelor de urmărire pe toate măștile simultan, activează eliminarea elementelor de urmărire în setări, nu pentru fiecare mască individual.
 trackerreport-trackers-explainer-heading = Despre elemente de urmărire pe e-mail
 trackerreport-faq-cta = Vezi mai multe întrebări frecvente despre { -brand-name-firefox-relay }
 
