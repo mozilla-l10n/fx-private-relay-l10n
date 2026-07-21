@@ -81,7 +81,29 @@ tooltip-email-domain-explanation-title = Despre domeniul tău unic de e-mail { -
 tooltip-email-domain-explanation-part-one = Această funcționalitate valoroasă a contului tău { -brand-name-relay-premium } îți permite să alegi un domeniu de e-mail { -brand-name-relay } unic, pe care îl poți folosi să creezi din mers un număr nelimitat de măști { -brand-name-relay } personalizate.
 tooltip-email-domain-explanation-part-two = Nu trebuie să te autentifici în { -brand-name-relay } ca să generezi o mască nouă; Pur și simplu adaugi orice cuvânt sau frază înaintea simbolului @ din domeniul tău de e-mail { -brand-name-relay } și creezi instant o mască nouă indiferent unde te afli.
 tooltip-email-domain-explanation-title-free = Ia-ți propriul domeniu de e-mail { -brand-name-relay }
+tooltip-email-domain-explanation-part-one-free = Cu { -brand-name-premium }, poți crea din mers un număr nelimitat de măști { -brand-name-relay } personalizate folosind un domeniu de e-mail { -brand-name-relay } unic — nici măcar nu va trebui să le generezi aici mai întâi.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = La restaurant? Folosește restaurant@domeniultău.{ $mozmail }. <p>La cumpărături? Încearcă magazin@domeniultău.{ $mozmail }</p>
+
+## 2023 Holiday promo
+
+holiday-promo-banner-protect-inbox = Protejează-ți căsuța poștală pentru mai puțin
+holiday-promo-banner-code-desc = Obține o reducere de 20% la { -brand-name-relay-premium }
+# Variables:
+# 	$couponCode (string) - the coupon code.
+holiday-promo-banner-code-usage = Folosește codul <coupon>{ $couponCode }</coupon> la finalizarea comenzii
+holiday-promo-banner-cta-button = Obține 1 an de abonament { -brand-name-premium }
+holiday-promo-banner-promo-expiry = oferta se încheie pe 31 dec. 2023
 
 ## Mask limit upsell banner
 
 upsell-banner-4-masks-button-close-label = Închide
+upsell-banner-4-masks-us-heading = Obține protecție maximă pentru e-mail și telefon
+upsell-banner-4-masks-us-heading-2 = Obține protecție maximă pentru e-mail
+upsell-banner-4-masks-non-us-heading = Obține protecție maximă pentru e-mail
+upsell-banner-4-masks-us-description = { -brand-name-relay-premium } îți dă o mască de telefon ca să-ți protejezi numărul real, plus un număr nelimitat de măști de e-mail și posibilitatea de a bloca e-mailuri promoționale.
+upsell-banner-4-masks-us-description-2 = Deblochează un număr nelimitat de măști de e-mail, răspunzi direct din ele și creezi altele noi instant, cu propriul tău subdomeniu { -brand-name-relay } — oriunde, oricând.
+upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } îți dă un număr nelimitat de măști de e-mail, blocarea mesajelor spam, un domeniu de e-mail { -brand-name-relay } personalizat și posibilitatea de a răspunde la mesaje redirecționate.
+upsell-banner-4-masks-us-cta = Treci la { -brand-name-relay-premium }
