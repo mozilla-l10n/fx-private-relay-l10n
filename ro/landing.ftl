@@ -19,6 +19,7 @@ hero-section-social-proof = Cum se vede în
 
 # Feature Breakdowns
 
+plan-matrix-feature-phone-mask = Mască de telefon pentru a-ți proteja numărul real
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
