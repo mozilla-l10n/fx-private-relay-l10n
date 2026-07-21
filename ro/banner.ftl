@@ -25,6 +25,13 @@ banner-download-install-chrome-extension-headline = Încearcă { -brand-name-rel
 banner-download-install-chrome-extension-copy-2 = Extensia { -brand-name-firefox-relay } pentru { -brand-name-chrome } face și mai ușoară crearea și folosirea de măști.
 banner-download-install-chrome-extension-cta = Obține extensia { -brand-name-relay }
 banner-upgrade-cta = Treci la { -brand-name-relay-premium }
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+banner-register-subdomain-copy-2 =
+    Cu un subdomeniu personalizat, poți partaja măști care nu trebuie să fie generate
+    înainte să le utilizezi. Ai nevoie una pentru o rezervare? Dă adresa
+    „restaurant@domeniultău.{ $mozmail }” restaurantului. Orice mască care îți folosește
+    subdomeniul personalizat va redirecționa către tine.
 banner-pack-upgrade-cta = Actualizează acum
 # Data Notification Banner:
 banner-label-data-notification-body-cta = Află mai multe
@@ -35,12 +42,27 @@ banner-label-data-notification-body-cta = Află mai multe
 ## Set domain banner
 
 banner-set-email-domain-headline-action-needed = Acțiune necesară
+banner-set-email-domain-headline = Setează-ți un domeniu de e-mail { -brand-name-relay } unic
+banner-set-email-domain-step-one-headline = Selectează-ți domeniul de e-mail { -brand-name-relay } preferat
+banner-set-email-domain-step-one-body = Face parte din adresa ta de e-mail, după simbolul @.
+banner-set-email-domain-step-two-headline = Folosește-l pentru a crea instant măști { -brand-name-relay } personalizate
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Pur și simplu adaugi un cuvânt sau o expresie înaintea simbolului @. Faci cumpărături? Folosește magazin@domeniultău.{ $mozmail }.
+banner-set-email-domain-input-placeholder-label = Caută un domeniu de e-mail
+banner-set-email-domain-input-placeholder = Caută un cuvânt sau o frază
 banner-set-email-domain-input-search = Caută
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = domeniultău
 banner-set-email-domain-learn-more = Află mai multe
 modal-email-domain-good-news = Vești bune!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
 modal-email-domain-available = <p>{ $custom_domain_full }</p> este disponibil
+modal-email-domain-available-body = Poți înregistra doar un singur domeniu de e-mail { -brand-name-relay } unic. <p>Nu poate fi modificat mai târziu.</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Da, vreau să înregistrez @{ $subdomain }
@@ -49,6 +71,16 @@ modal-email-domain-register = Înregistrează
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> este acum domeniul tău de e-mail { -brand-name-relay }!
+modal-email-domain-success-headline-on-the-go = Folosește-l ca să generezi din mers măști { -brand-name-relay }
+modal-email-domain-success-body-on-the-go = Nu trebuie să te autentifici în { -brand-name-relay } ca să creezi o mască nouă.
+modal-email-domain-success-headline-any-word = Creează un număr nelimitat de măști adăugând un cuvânt sau o frază
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Faci cumpărături? Folosește magazin{ $custom_domain_full }.
+tooltip-email-domain-explanation-title = Despre domeniul tău unic de e-mail { -brand-name-relay }
+tooltip-email-domain-explanation-part-one = Această funcționalitate valoroasă a contului tău { -brand-name-relay-premium } îți permite să alegi un domeniu de e-mail { -brand-name-relay } unic, pe care îl poți folosi să creezi din mers un număr nelimitat de măști { -brand-name-relay } personalizate.
+tooltip-email-domain-explanation-part-two = Nu trebuie să te autentifici în { -brand-name-relay } ca să generezi o mască nouă; Pur și simplu adaugi orice cuvânt sau frază înaintea simbolului @ din domeniul tău de e-mail { -brand-name-relay } și creezi instant o mască nouă indiferent unde te afli.
+tooltip-email-domain-explanation-title-free = Ia-ți propriul domeniu de e-mail { -brand-name-relay }
 
 ## Mask limit upsell banner
 
