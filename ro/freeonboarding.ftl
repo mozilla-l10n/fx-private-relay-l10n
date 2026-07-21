@@ -43,3 +43,6 @@ profile-free-onboarding-addon-finish = Termină
 profile-free-onboarding-addon-headline = Folosește-ți măștile peste tot
 profile-free-onboarding-addon-subheadline = Încearcă să folosești măștile oriunde ai nevoie de o adresă de e-mail
 profile-free-onboarding-addon-item-headline-1 = Funcționează oriunde ai nevoie de o adresă de e-mail
+profile-free-onboarding-addon-item-description-1 = Oriunde trebuie să introduci o adresă de e-mail, poți folosi masca de e-mail { -brand-name-relay }. Poți chiar genera măști noi direct din managerul de parole { -brand-name-firefox }.
+profile-free-onboarding-addon-item-headline-2 = Extensia { -brand-name-relay } face totul mai ușor
+profile-free-onboarding-addon-item-description-2 = Oriunde vezi un câmp pentru adresa de e-mail, extensia de browser { -brand-name-firefox-relay } va completa cu orice mască de e-mail vrei să folosești. Nu trebuie să ții minte fiecare mască!

@@ -6,6 +6,28 @@
 ## Success Messages
 
 success-settings-update = Setările au fost actualizate.
+success-signed-out-message = Ai ieșit din cont.
+# Variables:
+#   $username (url) - Username of the current user
+success-signed-in-message = Te-ai conectat ca { $username }.
+
+## Error Messages
+
+error-premium-cannot-change-subdomain = Nu poți modifica subdomeniul
+error-premium-set-subdomain = Trebuie să fii abonat premium ca să setezi un subdomeniu
+error-premium-check-subdomain = Trebuie să fii abonat premium ca să poți verifica un subdomeniu
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = Subdomeniul @{ $unavailable_subdomain } nu este disponibil. Te rugăm să încerci unul diferit.
+error-settings-update = A apărut o eroare la actualizarea setărilor. Te rugăm să încerci din nou
+error-mask-create-failed = Nu s-a putut crea masca. Te rugăm să încerci din nou.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Nu s-au putut actualiza datele măștii. Te rugăm să încerci din nou.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = Nu s-a putut șterge masca { $mask }. Te rugăm să încerci din nou.
+error-general = Ceva nu a funcționat. Te rugăm să încerci din nou mai târziu.
 
 ## Notifications component
 
