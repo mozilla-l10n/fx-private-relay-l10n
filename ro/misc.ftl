@@ -145,6 +145,30 @@ survey-csat-followup = Îți mulțumim pentru feedback. Am vrea să aflăm mai m
 
 relay-email-upgrade-for-more-protection = Treci la versiunea superioară pentru mai multă protecție
 relay-email-manage-this-mask = Gestionează masca
+relay-email-your-dashboard = Tabloul tău de bord
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = de la <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = de la <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = Redirecționat de la <a href="{ $url }" { $attrs }>{ $email_address }</a>
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] 1 element de urmărire înlăturat
+        [few] { $number } elemente de urmărire înlăturate
+       *[other] { $number } (de) elemente de urmărire înlăturate
+    }
 
 ## Email sent to first time free users
 
