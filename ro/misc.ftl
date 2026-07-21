@@ -87,10 +87,28 @@ trackerreport-confidentiality-notice = Informațiile despre elementele de urmăr
 trackerreport-removal-explainer-heading = Cum funcționează eliminarea elementelor de urmărire
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } poate elimina acum elemente de urmărire frecvente din e-mailuri redirecționate prin măștile de e-mail. Vei primi în continuare mesajele pe e-mail, dar elementele de urmărire din mesajele redirecționate vor fi îndepărtate, ca să primești mesaje fără să fii urmărit(ă). Pentru activarea eliminării elementelor de urmărire pe toate măștile simultan, activează eliminarea elementelor de urmărire în setări, nu pentru fiecare mască individual.
 trackerreport-trackers-explainer-heading = Despre elemente de urmărire pe e-mail
+trackerreport-trackers-explainer-content-part1 = Urmărirea prin e-mail este un instrument frecvent de supraveghere și publicitate care „a pus mâna” pe multe căsuțe poștale. Elementele de urmărire pot fi folosite pentru a afla mai multe despre comportamentul tău online, ce interese ai și care e activitatea ta pe e-mail.
+trackerreport-trackers-explainer-content-part2 = O companie sau organizație va îngloba un element de urmărire în mesajele pe care ți le trimite pe e-mail, de obicei ascuns într-o imagine sau un link. Când deschizi mesajul pe e-mail, codul din elementul de urmărire trimite date înapoi către companie/organizație.
+trackerreport-breakage-warning-2 = Important: Eliminarea elementelor de urmărire poate duce la impresia că e-mailul are probleme de afișare pentru că elementele de urmărire vin adesea înglobate în imagini și linkuri. Orice mesaje primești așa pe e-mail nu pot fi reparate sau recuperate.
+trackerreport-faq-heading = Cele mai frecvente întrebări despre elementele de urmărire pe e-mail
 trackerreport-faq-cta = Vezi mai multe întrebări frecvente despre { -brand-name-firefox-relay }
+trackerreport-loading = Se încarcă raportul privind eliminarea elementelor de urmărire…
+trackerreport-load-error = A apărut o eroare la generarea raportului privind eliminarea elementelor de urmărire. Te rugăm să reîmprospătezi pagina și să încerci din nou.
 
 ## Tracker warning page
 
+contains-tracker-title = Linkul sau imaginea conține un element de urmărire
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description =
+    Elementele de urmărire sunt instrumente de urmărire pe care companiile le înglobează în mesaje pe e-mail ca să îți urmărească
+    comportamentul online. Pentru a-ți proteja confidențialitatea, am eliminat acest element de urmărire din mesajul trimis
+    de <u>{ $sender }</u> la data de { $datetime }.
+contains-tracker-warning-title = Vrei oricum să fie afișat linkul?
+contains-tracker-warning-description = Avertisment: Dacă dai clic pe link, va trimite informații despre tine înapoi către expeditor
+contains-tracker-warning-view-link-cta = Da, afișează linkul
+contains-tracker-faq-section-title = Întrebări frecvente despre elementele de urmărire pe e-mail
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = Zile
@@ -106,7 +124,27 @@ offer-countdown-timer-seconds = Sec.
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = De la o scară de la 1 la 10, care e probabilitatea să recomanzi { -brand-name-relay } unui prieten sau coleg?
+survey-option-very-likely = Foarte probabil
+survey-option-not-likely = Puțin probabil
 survey-option-dismiss = Închide
+
+## CSAT survey
+
+survey-csat-answer-very-dissatisfied = Foarte nemulțumit(ă)
+survey-csat-answer-dissatisfied = Nemulţumit(ă)
+survey-csat-answer-neutral = Neutru(ă)
+survey-csat-answer-satisfied = Mulțumit(ă)
+survey-csat-answer-very-satisfied = Foarte mulțumit(ă)
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Îți mulțumim pentru feedback. Am vrea să aflăm mai multe despre cum putem îmbunătăți { -brand-name-relay } pentru tine. Ai fi dispus(ă) să completezi un sondaj de două minute?
+
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+relay-email-upgrade-for-more-protection = Treci la versiunea superioară pentru mai multă protecție
+relay-email-manage-this-mask = Gestionează masca
 
 ## Email sent to first time free users
 
