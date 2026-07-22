@@ -170,6 +170,20 @@ relay-email-trackers-removed =
        *[other] { $number } (de) elemente de urmărire înlăturate
     }
 
+## Email sent to free users who try to reply
+
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Am trimis răspunsul către { $sender }. De acum înainte, răspunsurile tale nu vor mai fi trimise.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded-2 = Răspunsul nu a fost trimis către { $sender }.
+replies-only-available-with-premium = Răspunsurile la mesaje redirecționate de la adresa de e-mail mascată sunt disponibile numai cu { -brand-name-firefox-relay-premium }.
+replies-not-included-in-free-account-header = Răspunsurile nu sunt incluse în contul gratuit
+reply-not-sent-header = Răspunsul nu a fost trimis
+upgrade-to-reply-to-future-emails = Treci acum la versiunea superioară ca să poți trimite răspunsuri
+upgrade-for-more-protection = Treci la versiunea superioară pentru mai multă protecție
+
 ## Email sent to first time free users
 
 first-time-user-email-welcome = Bun venit la { -brand-name-firefox-relay }
