@@ -131,6 +131,7 @@ survey-option-dismiss = Închide
 
 ## CSAT survey
 
+survey-csat-question = Cât de mulțumit(ă) ești de experiența { -brand-name-firefox-relay }?
 survey-csat-answer-very-dissatisfied = Foarte nemulțumit(ă)
 survey-csat-answer-dissatisfied = Nemulţumit(ă)
 survey-csat-answer-neutral = Neutru(ă)
@@ -183,13 +184,25 @@ replies-not-included-in-free-account-header = Răspunsurile nu sunt incluse în 
 reply-not-sent-header = Răspunsul nu a fost trimis
 upgrade-to-reply-to-future-emails = Treci acum la versiunea superioară ca să poți trimite răspunsuri
 upgrade-for-more-protection = Treci la versiunea superioară pentru mai multă protecție
+upgrade-to-premium = Treci la { -brand-name-firefox-relay-premium }
+manage-your-masks = Gestionează măștile
 
 ## Email sent to first time free users
 
 first-time-user-email-welcome = Bun venit la { -brand-name-firefox-relay }
+first-time-user-email-preheader = Mascarea adresei de e-mail pentru a-ți proteja identitatea
+first-time-user-email-welcome-subhead = Adresa de e-mail poate fi folosită pentru a te urmări online — suntem aici să pui capăt acestui lucru.
+first-time-user-email-hero-primary-text = Ca utilizator { -brand-name-firefox }, primești 5 măști gratuite de e-mail. Folosește-le ca să îți ascunzi adresa reală de e-mail, pentru a-ți proteja identitatea, și ca să redirecționezi numai mesajele pe care le vrei în căsuța poștală.
+first-time-user-email-hero-secondary-text = Gestionează-ți toate măștile din tabloul de bord { -brand-name-relay }.
+first-time-user-email-hero-cta = Vezi tabloul de bord
+first-time-user-email-cta-dashboard-button = Află cum să folosești { -brand-name-relay }
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
+our-promise-header = Promisiunea noastră
+our-promise-content = Măștile de e-mail { -brand-name-relay } îți trimit în căsuța poștală a adresei de e-mail orice mesaje trimise către masca respectivă de e-mail — fără a-i divulga expeditorului ce adresă reală de e-mail ai.
+what-can-you-do-with-relay-title = Ce poți face cu { -brand-name-firefox-relay }?
+what-can-you-do-with-relay-point-one = Primești mesaje pe e-mail fără a divulga expeditorilor ce adresă reală de e-mail ai
 first-time-user-email-extra-protection-inbox-phone-subhead = Treci la { -brand-name-relay-premium } pentru un număr nelimitat de măști de e-mail — plus o mască de telefon ca să îți protejezi numărul real.
 first-time-user-email-footer-text-privacy = Condiții de utilizare și confidențialitate
 
