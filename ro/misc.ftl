@@ -191,6 +191,7 @@ first-time-user-email-welcome = Bun venit la { -brand-name-firefox-relay }
 ## Email sent to people onboarding that receive their first forwarded email.
 
 first-time-user-email-extra-protection-inbox-phone-subhead = Treci la { -brand-name-relay-premium } pentru un număr nelimitat de măști de e-mail — plus o mască de telefon ca să îți protejezi numărul real.
+first-time-user-email-footer-text-privacy = Condiții de utilizare și confidențialitate
 
 ## Updated first-time user welcome email (MPP-4613)
 
