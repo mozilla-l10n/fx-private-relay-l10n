@@ -43,7 +43,7 @@ modal-delete-domain-address-warning-upgrade-2 =
 modal-delete-confirmation-2 = Ναι, θέλω να διαγράψω αυτήν τη μάσκα.
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
-modal-domain-register-confirmation-checkbox-2 = Ναι, θέλω να καταχωρήσω το <subdomain>{ $subdomain }</subdomain>
+modal-domain-register-confirmation-checkbox-2 = Ναι, θέλω να καταχωρίσω το <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Επιτυχία!
 
 ## Updated mask deletion modal strings
