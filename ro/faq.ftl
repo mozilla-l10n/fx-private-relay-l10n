@@ -12,6 +12,8 @@ faq-headline = Întrebări frecvente
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question-2 = Ce este o mască de e-mail { -brand-name-relay }?
+faq-question-what-is-answer-2 = Măștile de e-mail sunt adrese de e-mail mascate sau private, care redirecționează mesaje către adresa ta de e-mail reală. Măștile îți permit să le dai terților o adresă care îți va masca adresa de e-mail reală și ei îți vor trimite mesaje pe adresa pe care le-o dai (masca).
+faq-question-missing-emails-question-2 = Nu primesc mesaje de la măștile de e-mail
 faq-question-missing-emails-answer-reason-not-accepted-2 = Site-ul nu acceptă măști de e-mail
 faq-question-availability-question = Unde este disponibil { -brand-name-relay }?
 faq-question-availability-answer-v4 = Versiunea gratuită { -brand-name-relay } este disponibilă în majoritatea țărilor. { -brand-name-relay-premium } este disponibil în Austria, Bulgaria, Belgia, Canada, Croația, Cipru, Republica Cehă, Danemarca, Estonia, Finlanda, Franța, Germania, Grecia, Ungaria, Irlanda, Italia, Letonia, Lituania, Luxemburg, Malaezia, Malta, Olanda, Noua Zeelandă, Polonia, Portugalia, România, Singapore, Slovacia, Slovenia, Spania, Suedia, Elveția, Regatul Unit și Statele Unite.
