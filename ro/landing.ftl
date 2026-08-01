@@ -121,6 +121,12 @@ plan-matrix-your-plan = Planul tău
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Creează un număr nelimitat de măști de e-mail
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body-2 =
+    Toată lumea primește măști de e-mail { $mask_limit } gratuite. 
+    Dar, cu { -brand-name-relay-premium }, poți genera oricâte măști ai nevoie ca să îți protejezi adresa de e-mail 
+    de mesaje nedorite, hackeri, încălcări ale securității datelor și elemente de urmărire online.
 
 # Item 2
 
