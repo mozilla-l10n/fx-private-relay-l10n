@@ -51,3 +51,20 @@ faq-question-browser-support-answer-2 = Da, poți genera măști { -brand-name-r
 faq-question-longevity-question = Ce se întâmplă dacă Mozilla închide serviciul { -brand-name-firefox-relay }?
 faq-question-longevity-answer-2 = Te vom anunța din timp când trebuie să îți schimbi adresa de e-mail pentru orice conturi care folosesc măști de e-mail { -brand-name-relay }.
 faq-question-mozmail-question-2 = De ce au început măștile mele de e-mail să folosească domeniul „mozmail.com”?
+faq-question-mozmail-answer-2 = Am trecut noi de la „relay.firefox.com” la „mozmail.com” ca să facem posibilă obținerea unui subdomeniu personalizat de e-mail, cum ar fi mască@domeniultău.mozmail.com. Subdomeniile personalizate de e-mail, disponibile abonaților { -brand-name-relay-premium }, îți permit să generezi măști de e-mail mai ușor de reținut.
+faq-question-attachments-question = { -brand-name-firefox-relay } va redirecționa mesaje cu atașamente?
+faq-question-attachments-answer-v2 = Avem acum suport pentru redirecționarea atașamentelor. Dar există o limită de { email-size-limit } pentru redirecționarea mesajelor de e-mail folosind { -brand-name-relay }. Orice mesaje mai mari de { email-size-limit } nu vor fi redirecționate.
+faq-question-unsubscribe-domain-question-2 = Ce se întâmplă cu subdomeniul meu personalizat dacă mă dezabonez de la{ -brand-name-relay-premium }?
+#   $mask_limit (number) - Number of free email masks allowed
+faq-question-unsubscribe-domain-answer-3 = Dacă treci de la { -brand-name-relay-premium } la versiunea inferioară, vei primi în continuare mesaje pe e-mail redirecționate prin măștile tale de e-mail personalizate, dar nu vei mai putea crea măști noi cu subdomeniul respectiv. Dacă ai mai mult de { $mask_limit } (de) măști în total, nu vei mai putea crea altele noi. Vei pierde și posibilitatea de a răspunde la mesajele redirecționate. Te poți abona din nou la { -brand-name-relay-premium } ca să redobândești accesul la aceste funcționalități.
+faq-question-8-question = Ce date colectează { -brand-name-firefox-relay }?
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-3-html = { -brand-name-firefox-relay } colectează site-urile web pe care ți-ai folosit măștile de e-mail și îți etichetează măștile cu site-urile respective ca să le poți identifica ușor. Poți opta să nu se întâmple așa, în pagina de Setări, la Confidențialitate. Dar, reține că, dezactivarea setării respective înseamnă că nu vei mai putea vedea unde ai folosit fiecare mască, iar denumirile conturilor tale nu se vor mai sincroniza între dispozitive. Poți afla mai multe despre datele pe care le colectează { -brand-name-firefox-relay } în <a href="{ $url }" { $attrs }>Notificarea noastră privind confidențialitatea</a>.
+faq-question-email-storage-question = { -brand-name-relay } îmi stochează e-mailurile?
+faq-question-email-storage-answer = În circumstanțe rare în care serviciul este indisponibil, este posibil să îți stocăm temporar e-mailurile până ce reușim să le trimitem. Nu le vom stoca niciodată mai mult de trei zile.
+faq-question-acceptable-use-question = Care este utilizarea acceptabilă a { -brand-name-relay }?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } are aceleași <a href="{ $url }" { $attrs }>condiții de utilizare ca toate produsele { -brand-name-mozilla }</a>. Avem o politică de toleranță zero în ceea ce privește folosirea { -brand-name-relay } în scopuri rău intenționate, cum ar fi trimiterea de mesaje nedorite, ceea ce se va solda cu închiderea contului de utilizator. Luăm măsuri pentru a împiedica utilizatorii să ne încalce condițiile prin:
