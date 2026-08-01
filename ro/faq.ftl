@@ -68,3 +68,24 @@ faq-question-acceptable-use-question = Care este utilizarea acceptabilă a { -br
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } are aceleași <a href="{ $url }" { $attrs }>condiții de utilizare ca toate produsele { -brand-name-mozilla }</a>. Avem o politică de toleranță zero în ceea ce privește folosirea { -brand-name-relay } în scopuri rău intenționate, cum ar fi trimiterea de mesaje nedorite, ceea ce se va solda cu închiderea contului de utilizator. Luăm măsuri pentru a împiedica utilizatorii să ne încalce condițiile prin:
+# Deprecated
+faq-question-acceptable-use-answer-measure-account = Impunerea existenței unui { -brand-name-firefox-account(capitalization: "uppercase") } cu o adresă de e-mail verificată
+faq-question-acceptable-use-answer-measure-account-v2 = Impunerea existenței unui cont cu o adresă de e-mail verificată
+faq-question-acceptable-use-answer-measure-unlimited-payment-3 = Obligația de plată a unui utilizator pentru crearea a mai mult de { $mask_limit } (de) măști
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Limitarea numărului de măști care pot fi generate într-o zi
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Te rugăm să analizezi <a href="{ $url }" { $attrs }>Condițiile de utilizare</a> pentru mai multe informații.
+faq-question-promotional-email-blocking-question = Ce este blocarea e-mailurilor promoționale?
+faq-question-promotional-email-blocking-answer = Abonații { -brand-name-relay-premium } pot activa blocarea e-mailurilor promoționale. Funcționalitatea îți va trimite mesaje importante pe e-mail, cum ar fi chitanțe, resetări de parole și confirmări, dar va bloca în continuare mesajele de marketing. Există un risc mic să fie blocate în continuare și mesaje importante, așa că îți recomandăm să nu folosești funcționalitatea pentru locuri foarte importante, cum ar fi în relațiile cu banca. Mesajele blocate nu pot fi recuperate.
+faq-question-detect-promotional-question = Cum depistează { -brand-name-relay } dacă un mesaj este promoțional sau nu?
+faq-question-detect-promotional-answer = Multe mesaje pe e-mail sunt trimise cu metadate de „antet” care să indice că sunt de la instrumente automate pe bază de liste. { -brand-name-firefox-relay } depistează datele acestui antet și le poate bloca.
+faq-question-disable-trackerremoval-question = Pot opri eliminarea elementelor de urmărire pe e-mail?
+faq-question-disable-trackerremoval-answer = Da. Dacă întâmpini probleme la vizualizarea mesajelor pe e-mail sau vrei să oprești eliminarea elementelor de urmărire, poți dezactiva funcționalitatea din setări.
+faq-question-bulk-trackerremoval-question = Pot elimina elemente de urmărire numai pe unele dintre măștile mele de e-mail?
+faq-question-bulk-trackerremoval-answer = Poți activa eliminarea elementelor de urmărire numai la nivel de cont — ori elimină elemente de urmărire din toate mesajele pe e-mail, ori nu elimină niciunul.
+faq-question-trackerremoval-breakage-question = De ce par corupte mesajele mele pe e-mail?
+faq-question-trackerremoval-breakage-answer-2 = Uneori, eliminarea elementelor de urmărire poate face mesajele să pară corupte pentru că elementele de urmărire sunt de obicei înglobate în imagini și linkuri. La eliminarea elementului de urmărire, mesajul pare că e formatat greșit pentru că lipsesc imaginile. Nu se poate rezolva pentru mesajele pe care le-ai primit deja. Dacă te încurcă și nu poți citi ca lumea mesajele pe e-mail, dezactivează eliminarea elementelor de urmărire.
+faq-question-define-tracker-question = Ce sunt elementele de urmărire pe e-mail?
+faq-question-define-tracker-answer-partone = Urmărirea pe e-mail este un instrument frecvent de supraveghere și publicitate care a pus mâna pe multe căsuțe poștale. Elementele de urmărire pot fi folosite pentru a înțelege mai bine comportamentul tău online, ce te interesează și ce activitate ai pe e-mail.
+faq-question-define-tracker-answer-parttwo = O companie sau organizație va încorpora un element de urmărire în mesajele pe care ți le trimite pe e-mail, de obicei ascuns într-o imagine sau într-un link. Când deschizi mesajul, codul din interiorul elementului de urmărire trimite date înapoi către compania respectivă.

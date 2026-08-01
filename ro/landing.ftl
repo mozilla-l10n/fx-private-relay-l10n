@@ -5,6 +5,7 @@
 
 ## HERO SECTION
 
+hero-section-title = Îți protejezi identitatea cu mascarea securizată a numărului de telefon și a adresei de e-mail
 hero-section-body = Măștile noastre securizate și ușor de utilizat pentru e-mail și numărul de telefon te ajută să îți păstrezi identitatea privată, astfel încât să poți crea conturi noi în mod anonim, să oprești mesajele text spam și apelurile nedorite și să primești doar e-mailuri dorite în căsuța poștală.
 hero-section-cta = Începe
 # Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
