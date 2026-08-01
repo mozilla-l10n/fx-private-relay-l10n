@@ -49,3 +49,5 @@ faq-question-subdomain-characters-answer-v2 = Poți folosi numai litere latine m
 faq-question-browser-support-question = Pot folosi { -brand-name-relay } în alte browsere sau pe dispozitivul meu mobil?
 faq-question-browser-support-answer-2 = Da, poți genera măști { -brand-name-relay } pe alte browsere sau dispozitive mobile pur și simplu intrând în tabloul tău de bord { -brand-name-relay }.
 faq-question-longevity-question = Ce se întâmplă dacă Mozilla închide serviciul { -brand-name-firefox-relay }?
+faq-question-longevity-answer-2 = Te vom anunța din timp când trebuie să îți schimbi adresa de e-mail pentru orice conturi care folosesc măști de e-mail { -brand-name-relay }.
+faq-question-mozmail-question-2 = De ce au început măștile mele de e-mail să folosească domeniul „mozmail.com”?
