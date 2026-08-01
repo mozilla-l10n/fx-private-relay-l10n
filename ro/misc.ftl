@@ -203,7 +203,10 @@ our-promise-header = Promisiunea noastră
 our-promise-content = Măștile de e-mail { -brand-name-relay } îți trimit în căsuța poștală a adresei de e-mail orice mesaje trimise către masca respectivă de e-mail — fără a-i divulga expeditorului ce adresă reală de e-mail ai.
 what-can-you-do-with-relay-title = Ce poți face cu { -brand-name-firefox-relay }?
 what-can-you-do-with-relay-point-one = Primești mesaje pe e-mail fără a divulga expeditorilor ce adresă reală de e-mail ai
+first-time-user-email-how-title = Cum funcționează { -brand-name-relay }
 first-time-user-email-extra-protection-inbox-phone-subhead = Treci la { -brand-name-relay-premium } pentru un număr nelimitat de măști de e-mail — plus o mască de telefon ca să îți protejezi numărul real.
+first-time-user-email-extra-protection-cta = Instalează { -brand-name-relay-premium }
+first-time-user-email-questions-title = Întrebări despre { -brand-name-firefox-relay }?
 first-time-user-email-footer-text-privacy = Condiții de utilizare și confidențialitate
 
 ## Updated first-time user welcome email (MPP-4613)
@@ -211,3 +214,7 @@ first-time-user-email-footer-text-privacy = Condiții de utilizare și confiden�
 # Variables
 #   $mask_limit (number) - the number of free email masks available
 first-time-user-email-hero-primary-text-2 = Ai { $mask_limit } măști de e-mail gratuite gata de utilizare. Folosește una când faci cumpărături online sau când îți creezi un cont nou sau te conectezi la o aplicație nouă.
+
+## Updated first-time user welcome email (v3)
+
+first-time-user-email-how-item-3-header-2 = Tu deții controlul

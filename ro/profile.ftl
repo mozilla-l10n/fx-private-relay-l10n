@@ -5,11 +5,24 @@
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>Bun venit,</span> { $email }!
+# On the user's profile page, this text appears for a mask when it doesn't have a label.
+profile-label-placeholder = Adaugă numele contului
 profile-label-saved = Etichetă salvată!
+profile-label-generate-new-alias-2 = Generează o mască nouă
+profile-label-generate-new-alias-menu-random-2 = Mască de e-mail aleatorie
 profile-label-delete = Șterge
 profile-label-reset = Resetează
 profile-label-apply = Aplică
 profile-label-continue = Continuă
+# This string is followed by an email address
+profile-label-forward-emails = Redirecționează e-mailurile către:
+# This string is followed by date:
+profile-label-created = Data creării:
+# This string is a label for a toggle (on/off) switch
+profile-label-click-to-copy = Dă clic pentru copiere
 profile-label-copied = Copiat!
 profile-label-blocked = Blocat
 profile-label-forwarded = Redirecționat
@@ -17,6 +30,7 @@ profile-label-replies = Răspunsuri
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Elemente de urmărire eliminate
 profile-label-cancel = Anulează
+profile-forwarded-note = Notă:
 profile-stat-learn-more = Află mai multe
 profile-stat-learn-more-close = Închide
 profile-stat-label-blocked = Mesaje blocate

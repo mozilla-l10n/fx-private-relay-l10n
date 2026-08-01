@@ -48,3 +48,4 @@ faq-question-subdomain-characters-question = Ce caractere pot folosi pentru crea
 faq-question-subdomain-characters-answer-v2 = Poți folosi numai litere latine mici, cifre și cratime pentru crearea unui subdomeniu.
 faq-question-browser-support-question = Pot folosi { -brand-name-relay } în alte browsere sau pe dispozitivul meu mobil?
 faq-question-browser-support-answer-2 = Da, poți genera măști { -brand-name-relay } pe alte browsere sau dispozitive mobile pur și simplu intrând în tabloul tău de bord { -brand-name-relay }.
+faq-question-longevity-question = Ce se întâmplă dacă Mozilla închide serviciul { -brand-name-firefox-relay }?
