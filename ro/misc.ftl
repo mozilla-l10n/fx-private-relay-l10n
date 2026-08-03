@@ -203,6 +203,7 @@ our-promise-header = Promisiunea noastră
 our-promise-content = Măștile de e-mail { -brand-name-relay } îți trimit în căsuța poștală a adresei de e-mail orice mesaje trimise către masca respectivă de e-mail — fără a-i divulga expeditorului ce adresă reală de e-mail ai.
 what-can-you-do-with-relay-title = Ce poți face cu { -brand-name-firefox-relay }?
 what-can-you-do-with-relay-point-one = Primești mesaje pe e-mail fără a divulga expeditorilor ce adresă reală de e-mail ai
+what-can-you-do-with-relay-point-two = Împiedică site-urile și expeditorii de mesaje nedorite să afle ușor cine ești
 first-time-user-email-how-title = Cum funcționează { -brand-name-relay }
 first-time-user-email-extra-protection-inbox-phone-subhead = Treci la { -brand-name-relay-premium } pentru un număr nelimitat de măști de e-mail — plus o mască de telefon ca să îți protejezi numărul real.
 first-time-user-email-extra-protection-cta = Instalează { -brand-name-relay-premium }
