@@ -141,14 +141,24 @@ highlighted-features-section-masks-on-the-go-body-2 =
 # Item 3
 
 highlighted-features-section-replying-headline = Răspunde anonim la e-mailuri și texte
+highlighted-features-section-replying-body-2 =
+    { -brand-name-relay-premium } îți permite să răspunzi la mesaje pe e-mail din
+    contul tău mascat, astfel încât expeditorii să nu îți știe niciodată adresa de e-mail reală. Cu mascarea numărului de telefon, poți răspunde 
+    la SMS-uri de pe numărul de telefon mascat ca să îți protejezi numărul real.
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blochează e-mailurile promoționale
+highlighted-features-section-block-promotions-body-2 =
+    Cu { -brand-name-relay-premium }, poți bloca e-mailurile promoționale, ca să nu ajungă în 
+    căsuța ta poștală, primind în continuare mesaje precum chitanțe sau informații despre livrări.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Elimină elementele de urmărire din e-mailuri
+highlighted-features-section-remove-trackers-body-2 =
+    { -brand-name-relay } poate elimina elementele de urmărire frecvente de pe e-mail din orice mesaje care îți sunt redirecționate, ajutându-te
+    să rămâi invizibil(ă) pentru elementele de urmărire și agenții de publicitate.
 
 ## REVIEWS SECTION
 
@@ -156,24 +166,47 @@ landing-reviews-add-ons = Suplimente
 landing-reviews-logo-title = { -brand-name-firefox-browser }
 # Do not localize addons.mozilla.org
 landing-reviews-details-source = Sursă: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = din 5 ({ $review_count } recenzii)
+landing-reviews-show-next-button = arată recenzia următoare
+landing-reviews-show-previous-button = arată recenzia anterioară
 landing-review-anonymous-user = Utilizator { -brand-name-firefox } { $user_id }
+landing-review-user-one-review = Apreciez foarte mult echipa { -brand-name-mozilla } pentru că sunt atât de creativi și simplifică anonimizarea adresei mele de e-mail. Este o extensie grozavă, o recomand cu căldură pentru cei conștienți de confidențialitate!
+landing-review-user-two-review = Instrument simplu pentru a scăpa sau a evita mesajele nedorite din adresa de e-mail.
+landing-review-user-three-review = Îmi place foarte mult extensia! E foarte simplă, dar puternică, iar integrarea cu browserul merge strună.
+landing-review-user-four-review-list-1 = Îmi dă liniște și pace când merg pe internet.
+landing-review-user-four-review-list-2 = Îți protejează identitatea de elemente de urmărire prin generarea de aliasuri atunci când nu vrei să îți partajezi adresa de e-mail reală din varii motive.
+landing-review-user-four-review-list-3 = Datele din căsuța de poștă electronică sunt în siguranță cu { -brand-name-firefox-relay }.
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } face minuni. Încearcă-l!!!
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = Funcționalități simple și sigure care te ajută să îți protejezi identitatea
+highlighted-features-section-bottom-title = Protejează-ți identitatea și (căsuța de poștă electronică) cu { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Începe
 highlighted-features-section-new-item = Nou!
 
 ## FAQ SECTION
 
+landing-faq-headline = Întrebări frecvente despre { -brand-name-firefox-relay }
 landing-faq-cta = Vezi mai multe întrebări frecvente despre { -brand-name-firefox-relay }
 
 ## Premium promo page
 
+premium-promo-hero-headline = Protejează-ți căsuța de poștă electronică mai ușor cu { -brand-name-firefox-relay-premium }
+premium-promo-hero-body-3 = Cu { -brand-name-firefox-relay-premium }, ai un număr nelimitat de măști de e-mail personalizate, care îți redirecționează numai mesajele pe care le vrei pe adresa reală de e-mail.
+premium-promo-hero-cta = Treci acum la versiunea superioară
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } este disponibil în Austria, Bulgaria, Belgia, Canada, Croația, Cipru, Republica Cehă, Danemarca, Estonia, Finlanda, Franța, Germania, Grecia, Ungaria, Irlanda, Italia, Letonia, Lituania, Luxemburg, Malaezia, Malta, Olanda, Noua Zeelandă, Polonia, Portugalia, România, Singapore, Slovacia, Slovenia, Spania, Suedia, Elveția, Regatul Unit și Statele Unite.
 
 ## The Premium waitlist page
 
 waitlist-heading-2 = Înscrie-te pe lista de așteptare { -brand-name-relay-premium }
+waitlist-heading-phone = Înscrie-te pe lista de așteptare pentru mascarea numărului de telefon { -brand-name-relay }
+waitlist-heading-bundle = Înscrie-te pe lista de așteptare pentru pachetul { -brand-name-relay } + { -brand-name-vpn }
+waitlist-lead-2 = Te anunțăm noi când este disponibil { -brand-name-relay-premium } în zona ta.
+waitlist-lead-phone = Te anunțăm noi când este disponibilă mascarea numărului de telefon în zona ta.
+waitlist-lead-bundle = Te anunțăm noi când poți obține { -brand-name-relay-premium } și { -brand-name-mozilla-vpn } la reducere în zona ta.
 waitlist-control-required = Necesar
 waitlist-control-email-label = Ce adresă de e-mail ai?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
