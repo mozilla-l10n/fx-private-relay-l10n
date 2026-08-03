@@ -214,4 +214,5 @@ waitlist-control-email-placeholder = numeletău@example.com
 waitlist-control-country-label-2 = În ce țară sau regiune locuiești?
 waitlist-control-locale-label = Selectează limba preferată.
 waitlist-submit-label-2 = Înscrie-te pe lista de așteptare
+waitlist-privacy-policy-agree-2 = Prin clic pe „{ waitlist-submit-label-2 }”, ești de acord cu <a>Politica de confidențialitate</a>.
 waitlist-subscribe-error-unknown = A apărut o eroare la adăugarea ta pe lista de așteptare. Te rugăm să încerci din nou.
