@@ -131,9 +131,16 @@ highlighted-features-section-unlimited-masks-body-2 =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Creează instant măști din mers
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body-2 =
+    { -brand-name-relay-premium } îți dă un domeniu de e-mail unic { -brand-name-relay } ca să poți crea
+    instant măști noi de e-mail oriunde ai fi. Pur și simplu adaugi orice cuvânt sau frază înainte de simbolul. Ești la un restaurant? Folosește restaurant@domeniultău.{ $mozmail }. 
+    La cumpărături? Încearcă magazin@domeniultău.{ $mozmail }.
 
 # Item 3
 
+highlighted-features-section-replying-headline = Răspunde anonim la e-mailuri și texte
 
 # Item 4
 
