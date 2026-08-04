@@ -203,8 +203,17 @@ our-promise-header = Promisiunea noastră
 our-promise-content = Măștile de e-mail { -brand-name-relay } îți trimit în căsuța poștală a adresei de e-mail orice mesaje trimise către masca respectivă de e-mail — fără a-i divulga expeditorului ce adresă reală de e-mail ai.
 what-can-you-do-with-relay-title = Ce poți face cu { -brand-name-firefox-relay }?
 what-can-you-do-with-relay-point-one = Primești mesaje pe e-mail fără a divulga expeditorilor ce adresă reală de e-mail ai
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Pur și simplu partajezi în schimb o mască de e-mail. Măștile de e-mail vor redirecționa e-mailurile către căsuța ta poștală. Poți crea măști direct pe { -brand-name-firefox }, cu extensia <a { $attrs }>{ -brand-name-relay }</a> sau în tabloul de bord { -brand-name-relay }.
 what-can-you-do-with-relay-point-two = Împiedică site-urile și expeditorii de mesaje nedorite să afle ușor cine ești
+what-can-you-do-with-relay-point-two-subpoint = Elementele de urmărire din e-mailuri sunt peste tot astăzi. Măștile de e-mail { -brand-name-relay } te ajută să le ții în suspans.
+what-can-you-do-with-relay-point-three = Blochezi mesajele nedorite ca să nu îți intre în căsuța poștală și chiar dezactivezi complet măștile
+what-can-you-do-with-relay-point-three-subpoint = În tabloul de bord { -brand-name-relay }, poți crea măști, le poți eticheta ca să îți notezi unde le folosești, activezi blocarea mesajelor nedorite și ștergi orice nu mai îți e de folos.
+forwarded-email-hero-header = Ai primit primul mesaj pe e-mail redirecționat!
+forwarded-email-hero-desc = Vezi antetul? Va apărea pe toate mesajele redirecționate de măștile { -brand-name-relay }.
 first-time-user-email-how-title = Cum funcționează { -brand-name-relay }
+first-time-user-email-how-item-1-header = Folosești o mască { -brand-name-relay } în locul adresei reale de e-mail, oriunde
 first-time-user-email-extra-protection-inbox-phone-subhead = Treci la { -brand-name-relay-premium } pentru un număr nelimitat de măști de e-mail — plus o mască de telefon ca să îți protejezi numărul real.
 first-time-user-email-extra-protection-cta = Instalează { -brand-name-relay-premium }
 first-time-user-email-questions-title = Întrebări despre { -brand-name-firefox-relay }?
