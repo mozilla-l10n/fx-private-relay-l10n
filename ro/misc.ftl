@@ -214,6 +214,14 @@ forwarded-email-hero-header = Ai primit primul mesaj pe e-mail redirecționat!
 forwarded-email-hero-desc = Vezi antetul? Va apărea pe toate mesajele redirecționate de măștile { -brand-name-relay }.
 first-time-user-email-how-title = Cum funcționează { -brand-name-relay }
 first-time-user-email-how-item-1-header = Folosești o mască { -brand-name-relay } în locul adresei reale de e-mail, oriunde
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = Creezi măști direct în { -brand-name-firefox }, cu suplimentul <a href="{ $url }" { $attrs }>{ -brand-name-relay }</a>, sau în tabloul de bord { -brand-name-relay }.
+first-time-user-email-how-item-1-subhead-text = Creezi măști direct în { -brand-name-firefox }, cu suplimentul { -brand-name-relay }, sau în tabloul de bord { -brand-name-relay }.
+first-time-user-email-how-item-2-header = Îți vom trimite toate mesajele e-mail în căsuța poștală
+first-time-user-email-how-item-2-subhead = Expeditorii nu îți vor vedea niciodată adresa de e-mail reală și poți bloca mesaje în orice moment.
+first-time-user-email-how-item-3-header = Gestionează-ți măștile din tabloul de bord { -brand-name-relay }
 first-time-user-email-extra-protection-inbox-phone-subhead = Treci la { -brand-name-relay-premium } pentru un număr nelimitat de măști de e-mail — plus o mască de telefon ca să îți protejezi numărul real.
 first-time-user-email-extra-protection-cta = Instalează { -brand-name-relay-premium }
 first-time-user-email-questions-title = Întrebări despre { -brand-name-firefox-relay }?
