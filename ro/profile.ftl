@@ -14,6 +14,9 @@ profile-label-saved = Etichetă salvată!
 profile-label-generate-new-alias-2 = Generează o mască nouă
 profile-label-generate-new-alias-menu-random-2 = Mască de e-mail aleatorie
 profile-label-delete = Șterge
+profile-label-upgrade-2 = Obține un număr nelimitat de măști de e-mail
+profile-label-custom-domain = Domeniul tău de e-mail { -brand-name-relay }:
+profile-label-set-your-custom-domain = Setează-ți un domeniu de e-mail { -brand-name-relay } unic
 profile-label-reset = Resetează
 profile-label-apply = Aplică
 profile-label-continue = Continuă
@@ -45,6 +48,8 @@ profile-stat-label-aliases-used-2 = Măști de e-mail utilizate
 profile-stat-label-trackers-removed = Elemente de urmărire eliminate
 profile-stat-label-trackers-learn-more-part1 = Activarea eliminării elementelor de urmărire va elimina elementele de urmărire frecvente din e-mailurile redirecționate.
 profile-stat-label-trackers-learn-more-part2-2 = Important: Eliminarea elementelor de urmărire poate duce la impresia că e-mailul are probleme de afișare pentru că elementele de urmărire sunt adesea înglobate în imagini și linkuri.
+profile-filter-search-placeholder-2 = Căută măști
+profile-filter-category-button-label = Filtrează măștile vizibile
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -61,7 +66,9 @@ profile-promo-email-blocking-label-none = Blochează tot
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-forwarding-2 = Redirecționarea tuturor mesajelor
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (Doar pe { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Disponibil pentru abonații { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-cta = Treci acum la versiunea superioară
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Înscrie-te pe lista de așteptare { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Închide
 

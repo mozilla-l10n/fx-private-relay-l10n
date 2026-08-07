@@ -275,6 +275,12 @@ first-time-user-email-how-item-3-header-2 = Tu deții controlul
 #   $attrs (string) - link attributes
 first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>Intră în cont</a> ca să creezi, să etichetezi sau să ștergi măști oricând.
 first-time-user-email-how-item-3-subhead-text-2 = Intră în cont ca să creezi, să etichetezi sau să ștergi măști oricând.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-2-html = Intră în <a href="{ $url }" { $attrs }>Centrul de asistență</a> pentru ajutor
+first-time-user-email-questions-subhead-text-2 = Intră în Centrul de asistență pentru ajutor
+first-time-user-email-footer-text-1-2 = Primești acest mesaj automat pe e-mail pentru că ești abonat(ă) la { -brand-name-firefox-relay }. Dacă l-ai primit din greșeală, nu trebuie să faci nimic.
 
 ## API error messages
 
