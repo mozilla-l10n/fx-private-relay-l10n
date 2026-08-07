@@ -222,9 +222,27 @@ first-time-user-email-how-item-1-subhead-text = Creezi măști direct în { -bra
 first-time-user-email-how-item-2-header = Îți vom trimite toate mesajele e-mail în căsuța poștală
 first-time-user-email-how-item-2-subhead = Expeditorii nu îți vor vedea niciodată adresa de e-mail reală și poți bloca mesaje în orice moment.
 first-time-user-email-how-item-3-header = Gestionează-ți măștile din tabloul de bord { -brand-name-relay }
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Intră în cont</a> ca să creezi măști noi, să îți etichetezi măștile și să ștergi măștile pe care vin mesaje nedorite.
+first-time-user-email-how-item-3-subhead-text = Intră în cont ca să creezi măști noi, să îți etichetezi măștile și să ștergi măștile pe care vin mesaje nedorite.
+first-time-user-email-extra-protection-inbox-phone-title = Protecție suplimentară pentru poștă electronică și număr de telefon
 first-time-user-email-extra-protection-inbox-phone-subhead = Treci la { -brand-name-relay-premium } pentru un număr nelimitat de măști de e-mail — plus o mască de telefon ca să îți protejezi numărul real.
 first-time-user-email-extra-protection-cta = Instalează { -brand-name-relay-premium }
 first-time-user-email-questions-title = Întrebări despre { -brand-name-firefox-relay }?
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = <a href="{ $url }" { $attrs }>Echipa noastră de asistență</a> este aici ca să te ajute.
+first-time-user-email-questions-subhead-text = Echipa noastră de asistență este aici ca să te ajute.
+first-time-user-email-footer-text-1 = Primești acest mesaj automat pe e-mail pentru că ești abonat(ă) la { -brand-name-firefox-relay } care a folosit { -brand-name-relay } pentru prima dată. Dacă l-ai primit din greșeală, nu trebuie să faci nimic.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = Pentru mai multe informații, intră pe <a href="{ $url }" { $attrs }>{ -brand-name-mozilla } Asistență</a>.
+first-time-user-email-footer-text-2-text = Pentru mai multe informații, intră pe { -brand-name-mozilla } Asistență.
+first-time-user-email-footer-text-legal = Mențiuni legale
 first-time-user-email-footer-text-privacy = Condiții de utilizare și confidențialitate
 
 ## Updated first-time user welcome email (MPP-4613)

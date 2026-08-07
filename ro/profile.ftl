@@ -30,7 +30,11 @@ profile-label-replies = Răspunsuri
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Elemente de urmărire eliminate
 profile-label-cancel = Anulează
+profile-blocked-copy-2 = { -brand-name-firefox-relay } va șterge mesajele înainte să ajungă în căsuța ța poștală când selectezi blocarea pentru această mască.
+profile-forwarded-copy-2 = { -brand-name-firefox-relay } va trimite mesaje către căsuța ta poștală când selectezi redirecționarea pentru această mască.
 profile-forwarded-note = Notă:
+profile-forwarded-note-copy = Mesajele (inclusiv atașamente) mai mari de { email-size-limit } nu sunt acceptate acum și nu vor fi redirecționate.
+profile-replies-tooltip = Poți răspunde la mesajele primite prin această mască și { -brand-name-firefox-relay } va continua să îți protejeze adresa de e-mail reală.
 profile-stat-learn-more = Află mai multe
 profile-stat-learn-more-close = Închide
 profile-stat-label-blocked = Mesaje blocate
@@ -38,6 +42,8 @@ profile-stat-label-forwarded = Mesaje redirecționate
 profile-stat-label-aliases-used-2 = Măști de e-mail utilizate
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Elemente de urmărire eliminate
+profile-stat-label-trackers-learn-more-part1 = Activarea eliminării elementelor de urmărire va elimina elementele de urmărire frecvente din e-mailurile redirecționate.
+profile-stat-label-trackers-learn-more-part2-2 = Important: Eliminarea elementelor de urmărire poate duce la impresia că e-mailul are probleme de afișare pentru că elementele de urmărire sunt adesea înglobate în imagini și linkuri.
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
