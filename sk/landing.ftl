@@ -124,8 +124,8 @@ highlighted-features-section-unlimited-masks-headline = Vytvárajte neobmedzený
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 highlighted-features-section-unlimited-masks-body-2 =
-    Každý dostane niekoľko e-mailových masiek zadarmo (celkom { $mask_limit }). 
-    Avšak, vďaka { -brand-name-relay-premium } si môžete vygenerovať toľko masiek, koľko potrebujete na ochranu svojich e-mailov pred spammermi, hackermi, únikmi údajov a online sledovačmi.
+    Každý dostane niekoľko e‑mailových masiek zadarmo (celkom { $mask_limit }). 
+    Avšak, vďaka { -brand-name-relay-premium } si môžete vygenerovať toľko masiek, koľko potrebujete na ochranu svojich e‑mailov pred spammermi, hackermi, únikmi údajov a online sledovačmi.
 
 # Item 2
 
@@ -144,7 +144,7 @@ highlighted-features-section-replying-body-2 = { -brand-name-relay-premium } vá
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Blokovanie marketingových e‑mailov
-highlighted-features-section-block-promotions-body-2 = So službou { -brand-name-relay-premium } môžete blokovať doručovanie marketingových e-mailov do vašej schránky a zároveň stále prijímať e-maily, ako sú potvrdenia alebo informácie o dodaní vašich objednávok.
+highlighted-features-section-block-promotions-body-2 = So službou { -brand-name-relay-premium } môžete blokovať doručovanie marketingových e‑mailov do vašej schránky a zároveň stále prijímať e‑maily, ako sú potvrdenia alebo informácie o dodaní vašich objednávok.
 
 # Item 5
 
