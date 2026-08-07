@@ -18,3 +18,4 @@ setting-label-api-key = Cheie API
 settings-button-copy = Clic pentru copiere
 setting-api-key-copied = Copiat!
 setting-api-key-copied-alt = Clic pentru copiere
+setting-tracker-removal-warning-2 = Important: Eliminarea elementelor de urmărire poate duce la impresia că e-mailul are probleme de afișare pentru că elementele de urmărire vin adesea înglobate în imagini și linkuri. Orice mesaje primești așa pe e-mail nu pot fi reparate sau recuperate.

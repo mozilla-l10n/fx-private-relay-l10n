@@ -247,10 +247,48 @@ first-time-user-email-footer-text-privacy = Condiții de utilizare și confiden�
 
 ## Updated first-time user welcome email (MPP-4613)
 
+first-time-user-email-welcome-subhead-2 = Maschează-ți adresa de e-mail. Controlează-ți căsuța de poștă electronică.
 # Variables
 #   $mask_limit (number) - the number of free email masks available
 first-time-user-email-hero-primary-text-2 = Ai { $mask_limit } măști de e-mail gratuite gata de utilizare. Folosește una când faci cumpărături online sau când îți creezi un cont nou sau te conectezi la o aplicație nouă.
+first-time-user-email-cta-dashboard-button-2 = Mergi la { -brand-name-firefox-relay }
+first-time-user-email-how-item-1-header-2 = Creează o mască în câteva secunde
 
 ## Updated first-time user welcome email (v3)
 
+first-time-user-email-welcome-subhead-3 = Adresa de e-mail poate fi folosită pentru a te urmări online — suntem aici pentru a te ajuta să pui capăt acestui lucru.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = Ca utilizator { -brand-name-firefox }, primești { $mask_limit } (de) măști de e-mail gratuite. Folosește-le ca să îți ascunzi adresa de e-mail reală, pentru a-ți proteja identitatea și să îți trimiți în căsuța poștală reală numai mesajele pe care le vrei tu.
+first-time-user-email-hero-secondary-text-3 = Gestionează-ți toate măștile din tabloul de bord { -brand-name-relay }.
+first-time-user-email-cta-dashboard-button-3 = Află cum să folosești măștile de e-mail
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-2-html = Chiar în { -brand-name-firefox }, cu suplimentul <a href="{ $url }" { $attrs }>{ -brand-name-relay }</a> sau din tabloul de bord.
+first-time-user-email-how-item-1-subhead-text-2 = Chiar în { -brand-name-firefox }, cu suplimentul { -brand-name-relay } sau din tabloul de bord.
+first-time-user-email-how-item-2-header-2 = Trimiți către adresa reală numai mesajele pe care le vrei tu
+first-time-user-email-how-item-2-subhead-2 = Expeditorii nu îți văd niciodată adresa de e-mail reală. Continuă să folosești o mască ca să îți ascunzi adresa reală sau ca să blochezi mesaje primite.
 first-time-user-email-how-item-3-header-2 = Tu deții controlul
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>Intră în cont</a> ca să creezi, să etichetezi sau să ștergi măști oricând.
+first-time-user-email-how-item-3-subhead-text-2 = Intră în cont ca să creezi, să etichetezi sau să ștergi măști oricând.
+
+## API error messages
+
+# Variables:
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 50
+api-error-free-tier-limit = Ai folosit toate cele { $free_tier_limit } măști de e-mail incluse în contul tău gratuit. Poți reutiliza o mască existentă, dar utilizarea unei măști unice pentru fiecare cont este cea mai sigură opțiune.
+api-error-free-tier-no-subdomain-masks = Contul gratuit nu include subdomenii personalizate pentru măști. Pentru a crea măști personalizate, treci la { -brand-name-relay-premium }.
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = „{ $unavailable_address }” nu a putut fi creată. Te rugăm să încerci din nou cu altă denumire de mască.
+api-error-need-subdomain = Te rugăm să alegi un subdomeniu înainte de a crea o adresă de e-mail personalizată.
+api-error-account-is-paused = Contul tău este în pauză.
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = „{ $duplicate_address }” există deja. Te rugăm să încerci din nou cu altă denumire de mască.
+api-error-address-not-editable = Nu poți edita un câmp de adresă de domeniu existent.
+api-error-account-is-inactive = Contul tău nu este activ.
