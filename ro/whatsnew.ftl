@@ -17,6 +17,10 @@ whatsnew-footer-back-label = Înapoi
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliasurile sunt acum denumite măști
+whatsnew-feature-mailing-list-cta = Abonează-te la buletinul de știri
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } este acum disponibil în țara ta…
 whatsnew-feature-premium-expansion-eu-cta = Instalează { -brand-name-relay-premium }
 whatsnew-holiday-promo-2023-news-heading = Obține o reducere de 20% la { -brand-name-relay-premium }
 whatsnew-holiday-promo-2023-cta = Obține 1 an de abonament { -brand-name-relay-premium }

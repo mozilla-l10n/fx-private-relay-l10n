@@ -8,6 +8,7 @@
 settings-headline = Setări { -brand-name-relay }
 settings-meta-contact-label = Contactează-ne
 settings-meta-help-label = Ajutor și asistență
+settings-meta-help-tooltip = Obține ajutor folosind { -brand-name-relay }
 settings-meta-status-label = Starea serviciului
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Confidențialitate

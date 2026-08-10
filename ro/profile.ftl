@@ -5,9 +5,12 @@
 
 ## Profile Page (Logged In)
 
+onboarding-headline-2 = Creează-ți prima mască de e-mail
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Bun venit,</span> { $email }!
+profile-details-expand = Afișează detaliile măștii
+profile-details-collapse = Ascunde detaliile măștii
 # On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = Adaugă numele contului
 profile-label-saved = Etichetă salvată!
@@ -50,9 +53,12 @@ profile-stat-label-trackers-learn-more-part1 = Activarea eliminării elementelor
 profile-stat-label-trackers-learn-more-part2-2 = Important: Eliminarea elementelor de urmărire poate duce la impresia că e-mailul are probleme de afișare pentru că elementele de urmărire sunt adesea înglobate în imagini și linkuri.
 profile-filter-search-placeholder-2 = Căută măști
 profile-filter-category-button-label = Filtrează măștile vizibile
+# Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Măști personalizate
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = Ce e-mailuri vrei să blochezi?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Toate
 # Block promotional emails sent to a speciic mask
@@ -75,3 +81,4 @@ profile-promo-email-blocking-description-promotionals-locked-close = Închide
 ## Free Mask Limit Upsell (displayed on the profile page)
 
 profile-maxed-aliases-with-phone-description = Ai atins limita de { $limit } (de) măști pentru contul tău { -brand-name-relay } gratuit. Treci la { -brand-name-relay-premium } pentru un număr nelimitat de măști de telefon, plus posibilitatea de a-ți proteja numărul real de telefon.
+profile-maxed-aliases-cta = Treci la { -brand-name-premium }
