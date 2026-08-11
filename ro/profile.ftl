@@ -6,16 +6,28 @@
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Creează-ți prima mască de e-mail
+onboarding-alias-tip-1-2 = Selectează „Generează o mască nouă” pentru a crea prima ta mască de e-mail.
+onboarding-alias-tip-2 = Cu extensia { -brand-name-relay }, selectează pictograma { -brand-name-firefox-relay } când apare în câmpurile de e-mail.
+onboarding-alias-tip-3-2 = Cu extensia { -brand-name-relay }, dă clic dreapta în câmpurile de formulare și selectează „Generează o mască nouă.”
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Bun venit,</span> { $email }!
+profile-supports-email-forwarding = { -brand-name-firefox-relay } permite redirecționarea de mesaje e-mail (inclusiv atașamente) de până la{ email-size-limit }.
 profile-details-expand = Afișează detaliile măștii
 profile-details-collapse = Ascunde detaliile măștii
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = Dă clic pentru a copia masca { $address }.
+profile-label-edit-2 = Editează eticheta pentru această mască
 # On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = Adaugă numele contului
 profile-label-saved = Etichetă salvată!
 profile-label-generate-new-alias-2 = Generează o mască nouă
 profile-label-generate-new-alias-menu-random-2 = Mască de e-mail aleatorie
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = Mască @{ $subdomain }
 profile-label-delete = Șterge
 profile-label-upgrade-2 = Obține un număr nelimitat de măști de e-mail
 profile-label-custom-domain = Domeniul tău de e-mail { -brand-name-relay }:
