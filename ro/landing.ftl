@@ -157,7 +157,7 @@ highlighted-features-section-block-promotions-body-2 =
 
 highlighted-features-section-remove-trackers-headline = Elimină elementele de urmărire din e-mailuri
 highlighted-features-section-remove-trackers-body-2 =
-    { -brand-name-relay } poate elimina elementele de urmărire frecvente de pe e-mail din orice mesaje care îți sunt redirecționate, ajutându-te
+    { -brand-name-relay } poate elimina elementele de urmărire frecvente din e-mailuri din orice mesaje care îți sunt redirecționate, ajutându-te
     să rămâi invizibil(ă) pentru elementele de urmărire și agenții de publicitate.
 
 ## REVIEWS SECTION

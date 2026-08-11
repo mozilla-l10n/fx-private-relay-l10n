@@ -55,6 +55,26 @@ whatsnew-feature-tracker-removal-heading = Prezentare: eliminarea elementelor de
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-tracker-removal-snippet = Acum { -brand-name-relay } poate elimina elementele de urmărire frecvente din e-mailuri din mesajele redirecționate…
+whatsnew-feature-tracker-removal-description-2 = Acum { -brand-name-relay } poate elimina elementele de urmărire frecvente din e-mailuri din mesajele redirecționate către tine, ajutându-te să rămâi invizibil(ă) pentru agenții de publicitate. Activează opțiunea în „Setări”.
+whatsnew-feature-offer-countdown-heading = Oferta noastră de preț de lansare se termină în curând!
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# Try to keep this string short, not longer than the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Ia-ți { -brand-name-relay-premium } înainte de { $end_date } și bucură-te de mascare nelimitată la…
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Ia-ți { -brand-name-relay-premium } înainte de { $end_date } și bucură-te de mascare nelimitată la prețul nostru de lansare cu plată lunară.
+whatsnew-feature-firefox-integration-heading = { -brand-name-relay } este acum disponibil în managerul de parole { -brand-name-firefox }
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = Protejarea adresei de e-mail a devenit mai ușoară. Acum poți genera…
+whatsnew-feature-firefox-integration-description = Protejarea adresei de e-mail a devenit mai ușoară. Acum poți genera măști de e-mail noi { -brand-name-relay } direct din gestionarul de parole { -brand-name-firefox } de pe desktop.
+whatsnew-feature-mailing-list-heading = Obține ajutor pentru a-ți proteja confidențialitatea
+# A preview of the full content of `whatsnew-feature-mailing-list-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-mailing-list-snippet = Nu e ușor să fii la curent cu noutățile privind aspectele de confidențialitate și securitate…
+whatsnew-feature-mailing-list-description = Nu e ușor să fii la curent cu noutățile privind aspectele de confidențialitate și securitate, așa că am lansat un buletin informativ cu sfaturi și bune practici ca să vă ajute să vă faceți viața online mai sigură.
 whatsnew-feature-mailing-list-cta = Abonează-te la buletinul de știri
 whatsnew-feature-premium-expansion-eu-heading = Măști nelimitate disponibile acum
 # A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
