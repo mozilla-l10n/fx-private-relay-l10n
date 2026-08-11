@@ -80,8 +80,14 @@ whatsnew-feature-premium-expansion-eu-heading = Măști nelimitate disponibile a
 # A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } este acum disponibil în țara ta…
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } este acum disponibil și în țara ta. Protejează-ți căsuța de poștă electronică folosind un număr nelimitat de măști de e-mail și obține un domeniu de e-mail unic { -brand-name-relay } pentru creare de măști din mers, ușor și sigur.
 whatsnew-feature-premium-expansion-eu-cta = Instalează { -brand-name-relay-premium }
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = De sărbători, ai 20% reducere la prețul pe 1 an de { -brand-name-relay-premium }.
 whatsnew-holiday-promo-2023-news-heading = Obține o reducere de 20% la { -brand-name-relay-premium }
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = De sărbători, ai 20% reducere la prețul pe 1 an de { -brand-name-relay-premium }. Introdu codul promoțional „HOLIDAY20” la plasarea comenzii. Oferta expiră pe 31 dec 2023.
 whatsnew-holiday-promo-2023-cta = Obține 1 an de abonament { -brand-name-relay-premium }
 whatsnew-feature-mask-expansion-heading = 50 de măști de e-mail, din partea noastră
 whatsnew-feature-mask-expansion-snippet = Acum primești 50 de măști gratuite (în loc de 5). Folosește câte una pentru fiecare cont ca să-ți păstrezi confidențială adresa de e-mail reală.
