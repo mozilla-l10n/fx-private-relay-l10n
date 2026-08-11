@@ -53,6 +53,8 @@ profile-stat-label-trackers-learn-more-part1 = Activarea eliminării elementelor
 profile-stat-label-trackers-learn-more-part2-2 = Important: Eliminarea elementelor de urmărire poate duce la impresia că e-mailul are probleme de afișare pentru că elementele de urmărire sunt adesea înglobate în imagini și linkuri.
 profile-filter-search-placeholder-2 = Căută măști
 profile-filter-category-button-label = Filtrează măștile vizibile
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Măști aleatorii
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Măști personalizate
 

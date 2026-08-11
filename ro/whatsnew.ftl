@@ -18,6 +18,7 @@ whatsnew-footer-back-label = Înapoi
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliasurile sunt acum denumite măști
 whatsnew-feature-mailing-list-cta = Abonează-te la buletinul de știri
+whatsnew-feature-premium-expansion-eu-heading = Măști nelimitate disponibile acum
 # A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } este acum disponibil în țara ta…
