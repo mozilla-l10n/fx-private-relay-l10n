@@ -41,3 +41,7 @@ highlighted-features-section-block-promotions-headline = Liegt reklāmu e-pasta 
 
 # Item 5
 
+
+## REVIEWS SECTION
+
+landing-reviews-add-ons = Papildinājumi
