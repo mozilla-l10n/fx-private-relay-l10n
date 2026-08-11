@@ -21,8 +21,12 @@ settings-button-save-label = Salvează
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = Cheie API
 settings-api-key-description = Este cheia ta API { -brand-name-relay }. Permite altor aplicații să îți acceseze automat contul { -brand-name-relay }.
+settings-api-key-description-bolded = Folosește-o numai cu aplicații în care ai încredere să îți acceseze contul { -brand-name-relay }.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clic pentru copiere
 setting-api-key-copied = Copiat!
 setting-api-key-copied-alt = Clic pentru copiere
+setting-tracker-removal-heading = Elimină elementele de urmărire pe e-mail
+setting-tracker-removal-description = Elimină elementele de urmărire pe e-mail din toate mesajele redirecționate.
+setting-tracker-removal-note = { -brand-name-firefox-relay } poate elimina acum elemente de urmărire frecvente din e-mailurile redirecționate prin măști.
 setting-tracker-removal-warning-2 = Important: Eliminarea elementelor de urmărire poate duce la impresia că e-mailul are probleme de afișare pentru că elementele de urmărire vin adesea înglobate în imagini și linkuri. Orice mesaje primești așa pe e-mail nu pot fi reparate sau recuperate.

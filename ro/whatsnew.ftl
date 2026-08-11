@@ -14,9 +14,47 @@ whatsnew-tab-new-label = Știri
 whatsnew-tab-archive-label = Istoric
 whatsnew-footer-clear-all-label = Șterge tot
 whatsnew-footer-back-label = Înapoi
+whatsnew-empty-message = Asigură-te că revii aici — lucrăm permanent la funcționalități noi pentru a face { -brand-name-relay } și mai bun.
+whatsnew-feature-size-limit-heading = Creșterea dimensiunii atașamentelor
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } poate redirecționa acum mesaje de până la 25 MB, inclusiv…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } poate redirecționa acum mesaje de până la 25 MB, inclusiv atașamente.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } poate redirecționa acum mesaje de până la { email-size-limit }, inclusiv…
+whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } poate redirecționa acum mesaje de până la { email-size-limit }, inclusiv atașamente.
+whatsnew-feature-sign-back-in-heading = Intră din nou în cont cu aliasurile tale
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-sign-back-in-snippet = Pentru crearea unui alias nou, când ți se cere adresa de e-mail, deschide …
+whatsnew-feature-sign-back-in-description = Pentru a intra în cont cu un alias folosit anterior, deschide meniul contextual acolo unde site-ul îți cere adresa de e-mail. Vei putea selecta aliasul și completa automat câmpul pentru adresa de e-mail.
+whatsnew-feature-forward-some-heading = Blocarea e-mailurilor promoționale
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } îți permite să blochezi numai e-mailuri promoționale…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } îți permite să blochezi numai e-mailuri promoționale trimise către un alias. Vei primi în continuare mesaje despre chitanțe, de ex., dar nu vei mai primi mesaje de marketing.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliasurile sunt acum denumite măști
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# Try to keep this string short, not longer than the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-snippet = Ai observat o schimbare? Acum spunem „măști” în loc de „aliasuri” ca să facem { -brand-name-firefox-relay }…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-description = Ai observat o schimbare? Acum spunem „măști” în loc de „aliasuri” ca să facem { -brand-name-firefox-relay } mai ușor de folosit și ca să deschidem ușa pentru noi funcționalități.
+whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } disponibil în Suedia
+whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } disponibil în Finlanda
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-snippet = Treci acum la versiunea superioară pentru și mai multă protecție…
+whatsnew-feature-premium-expansion-description = Treci acum la versiunea superioară pentru și mai multă protecție — creezi un număr nelimitat de măști de e-mail, obții un subdomeniu de e-mail personalizat și multe altele!
+whatsnew-feature-tracker-removal-heading = Prezentare: eliminarea elementelor de urmărire din e-mailuri
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-tracker-removal-snippet = Acum { -brand-name-relay } poate elimina elementele de urmărire frecvente din e-mailuri din mesajele redirecționate…
 whatsnew-feature-mailing-list-cta = Abonează-te la buletinul de știri
 whatsnew-feature-premium-expansion-eu-heading = Măști nelimitate disponibile acum
 # A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
