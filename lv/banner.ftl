@@ -42,3 +42,21 @@ banner-set-email-domain-headline-action-needed = Nepieciešama rīcība
 banner-set-email-domain-headline = Iestati savu neatkārtojamo { -brand-name-relay } e-pasta domēnu
 banner-set-email-domain-step-one-headline = Atlasi savu vēlamo { -brand-name-relay } e-pasta domēnu
 banner-set-email-domain-step-one-body = Tā ir daļa e-pasta adresē, kas ir aiz @ zīmes.
+banner-set-email-domain-step-two-headline = Tā ir izmantojama, lai tūlītēji izveidotu pielāgotus { -brand-name-relay } aizsegus
+banner-set-email-domain-input-placeholder-label = Meklēt e-pasta domēnu
+banner-set-email-domain-input-placeholder = Meklēt vārdu vai vārdu salikumu
+banner-set-email-domain-input-search = Meklēt
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = tavsdomens
+banner-set-email-domain-learn-more = Uzzināt vairāk
+modal-email-domain-good-news = Labas ziņas!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> ir pieejams
+modal-email-domain-cancel = Atcelt
+
+## Mask limit upsell banner
+
+upsell-banner-4-masks-button-close-label = Aizvērt
