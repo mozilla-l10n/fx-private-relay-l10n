@@ -75,7 +75,7 @@ faq-question-acceptable-use-answer-measure-unlimited-payment-3 = Απαίτησ�
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Περιορίζοντας τον αριθμό των μασκών που μπορούν να δημιουργηθούν σε μία ημέρα
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-acceptable-use-answer-b-html = Διαβάστε τους <a href="{ $url }" { $attrs }>Όρους υπηρεσίας</a> μας για περισσότερες πληροφορίες.
+faq-question-acceptable-use-answer-b-html = Διαβάστε τους <a href="{ $url }" { $attrs }>Όρους παροχής υπηρεσιών</a> μας για περισσότερες πληροφορίες.
 faq-question-promotional-email-blocking-question = Τι είναι η φραγή διαφημιστικών email;
 faq-question-promotional-email-blocking-answer = Οι συνδρομητές του { -brand-name-relay-premium } μπορούν να ενεργοποιήσουν τη φραγή των διαφημιστικών email. Αυτή η λειτουργία θα προωθεί σε εσάς τα σημαντικά email, όπως αποδείξεις, μηνύματα για επαναφορά κωδικών πρόσβασης και επιβεβαιώσεις, ενώ θα αποκλείει τα διαφημιστικά μηνύματα. Υπάρχει ένας μικρός κίνδυνος να αποκλειστεί κάποιο σημαντικό μήνυμα, επομένως σας συνιστούμε να μην τη χρησιμοποιείτε για πολύ σημαντικά μέρη, όπως την τράπεζά σας. Εάν αποκλειστεί κάποιο email, δεν είναι δυνατή η ανάκτησή του.
 faq-question-detect-promotional-question = Πώς ανιχνεύει το { -brand-name-relay } εάν ένα email είναι διαφημιστικό;
