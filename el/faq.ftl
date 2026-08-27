@@ -61,7 +61,7 @@ faq-question-8-question = Ποια δεδομένα συλλέγει το { -bra
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-8-answer-3-html = Το { -brand-name-firefox-relay } συλλέγει τους ιστοτόπους στους οποίους έχετε χρησιμοποιήσει τις μάσκες email σας και ορίζει τα ονόματά τους ως ετικέτες των μασκών, ώστε να μπορείτε εύκολα να τις αναγνωρίζετε. Μπορείτε να απενεργοποιήσετε αυτήν τη λειτουργία στην ενότητα «Απόρρητο» της σελίδας «Ρυθμίσεις». Σημειώστε ότι αν απενεργοποιήσετε αυτήν τη ρύθμιση, δεν θα μπορείτε να δείτε πού χρησιμοποιήσατε κάθε μάσκα και τα ονόματα των λογαριασμών σας δεν θα συγχρονίζονται μεταξύ των συσκευών. Μπορείτε να μάθετε περισσότερα σχετικά με τα δεδομένα που συλλέγει το { -brand-name-firefox-relay } στη <a href="{ $url }" { $attrs }>Σημείωση απορρήτου</a>.
+faq-question-8-answer-3-html = Το { -brand-name-firefox-relay } συλλέγει τους ιστοτόπους στους οποίους έχετε χρησιμοποιήσει τις μάσκες email σας και ορίζει τα ονόματά τους ως ετικέτες των μασκών, ώστε να μπορείτε εύκολα να τις αναγνωρίζετε. Μπορείτε να απενεργοποιήσετε αυτήν τη λειτουργία στην ενότητα «Απόρρητο» της σελίδας «Ρυθμίσεις». Σημειώστε ότι αν απενεργοποιήσετε αυτήν τη ρύθμιση, δεν θα μπορείτε να δείτε πού χρησιμοποιήσατε κάθε μάσκα και τα ονόματα των λογαριασμών σας δεν θα συγχρονίζονται μεταξύ των συσκευών. Μπορείτε να μάθετε περισσότερα σχετικά με τα δεδομένα που συλλέγει το { -brand-name-firefox-relay } στη <a href="{ $url }" { $attrs }>Δήλωση απορρήτου</a>.
 faq-question-email-storage-question = Αποθηκεύει το { -brand-name-relay } τα email μου;
 faq-question-email-storage-answer = Στη σπάνια περίπτωση κατά την οποία η υπηρεσία είναι εκτός λειτουργίας, αποθηκεύουμε προσωρινά τα email σας μέχρι να μπορέσουμε να τα στείλουμε. Δεν θα τα αποθηκεύσουμε ποτέ για περισσότερο από τρεις ημέρες.
 faq-question-acceptable-use-question = Ποιες είναι οι αποδεκτές χρήσεις του { -brand-name-relay };
@@ -69,7 +69,7 @@ faq-question-acceptable-use-question = Ποιες είναι οι αποδεκτ
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = Το { -brand-name-firefox-relay } έχει τις ίδιες <a href="{ $url }" { $attrs }>προϋποθέσεις χρήσης με όλα τα προϊόντα { -brand-name-mozilla }</a>. Έχουμε μια πολιτική μηδενικής ανοχής όσον αφορά τη χρήση του { -brand-name-relay } για κακόβουλους σκοπούς, όπως ανεπιθύμητα μηνύματα, που οδηγούν σε τερματισμό ενός λογαριασμού χρήστη. Λαμβάνουμε μέτρα για την αποτροπή της παραβίασης των όρων μας:
 # Deprecated
-faq-question-acceptable-use-answer-measure-account = Απαιτώντας έναν { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } με επαληθευμένη διεύθυνση email
+faq-question-acceptable-use-answer-measure-account = Απαιτώντας έναν { -brand-name-firefox-account(capitalization: "lowercase", case: "accusative") } με επαληθευμένη διεύθυνση email
 faq-question-acceptable-use-answer-measure-account-v2 = Απαιτείται λογαριασμός με επαληθευμένη διεύθυνση email
 faq-question-acceptable-use-answer-measure-unlimited-payment-3 = Απαίτηση πληρωμής από έναν χρήστη για τη δημιουργία περισσότερων από { $mask_limit } μασκών
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Περιορίζοντας τον αριθμό των μασκών που μπορούν να δημιουργηθούν σε μία ημέρα
