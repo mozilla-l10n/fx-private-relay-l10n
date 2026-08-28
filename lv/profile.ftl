@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Profile Page (Logged In)
+
+profile-stat-learn-more = Uzzināt vairāk
+
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
 # Deprecated
