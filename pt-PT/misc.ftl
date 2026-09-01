@@ -27,7 +27,7 @@ error-mask-update-failed = Não foi possível atualizar os dados da máscara. Po
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = Não foi possível eliminar a máscara { $mask }. Por favor, tente novamente.
-error-general = Algo correu mal. Tente novamente mais tarde.
+error-general = Algo correu mal. Por favor tente novamente mais tarde.
 
 ## Notifications component
 
