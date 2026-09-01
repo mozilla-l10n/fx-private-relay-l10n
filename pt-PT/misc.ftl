@@ -279,7 +279,7 @@ first-time-user-email-footer-text-privacy = Termos e privacidade
 first-time-user-email-welcome-subhead-2 = Mascare o seu e-mail. Controle a sua caixa de entrada.
 # Variables
 #   $mask_limit (number) - the number of free email masks available
-first-time-user-email-hero-primary-text-2 = Tem { $mask_limit } máscaras de e-mail gratuitas prontas a utilizar. Utilize um ao fazer compras online ou ao registar-se para uma nova conta ou aplicação.
+first-time-user-email-hero-primary-text-2 = Tem { $mask_limit } máscaras de e-mail gratuitas prontas a usar. Use uma ao fazer compras online ou ao registar-se para uma nova conta ou aplicação.
 first-time-user-email-cta-dashboard-button-2 = Ir para { -brand-name-firefox-relay }
 first-time-user-email-how-item-1-header-2 = Crie uma máscara em segundos
 
@@ -288,7 +288,7 @@ first-time-user-email-how-item-1-header-2 = Crie uma máscara em segundos
 first-time-user-email-welcome-subhead-3 = O seu endereço de e-mail pode ser utilizado para o monitorizar na Internet – estamos aqui para ajudar a acabar com isto.
 # Variables
 #   $mask_limit (number) - the number of free email masks available
-first-time-user-email-hero-primary-text-3 = Como utilizador de { -brand-name-firefox }, obtém { $mask_limit } máscaras de correio eletrónico gratuitamente. Utilize-os para ocultar o seu endereço de e-mail real, proteger a sua identidade e reencaminhar apenas as mensagens que pretende para a sua caixa de entrada.
+first-time-user-email-hero-primary-text-3 = Como utilizador de { -brand-name-firefox }, obtém { $mask_limit } máscaras de correio eletrónico gratuitamente. Use-as para esconder o seu endereço de e-mail real, proteger a sua identidade e reencaminhar apenas as mensagens que pretende para a sua caixa de entrada.
 first-time-user-email-hero-secondary-text-3 = Faça a gestão de todas as suas máscaras a partir do seu painel do { -brand-name-relay }.
 first-time-user-email-cta-dashboard-button-3 = Aprenda a utilizar máscaras de e-mail
 # Variables
@@ -297,18 +297,18 @@ first-time-user-email-cta-dashboard-button-3 = Aprenda a utilizar máscaras de e
 first-time-user-email-how-item-1-subhead-2-html = Diretamente no { -brand-name-firefox }, com o <a href="{ $url }" { $attrs }>complemento { -brand-name-relay }</a> ou através do seu painel.
 first-time-user-email-how-item-1-subhead-text-2 = Diretamente no { -brand-name-firefox }, com o complemento { -brand-name-relay }, ou através do seu painel.
 first-time-user-email-how-item-2-header-2 = Reencaminhar as mensagens que deseja
-first-time-user-email-how-item-2-subhead-2 = Os remetentes nunca vê o seu endereço real. Continue a utilizar uma máscara para ocultar o seu e-mail real ou bloquear as mensagens que receber.
+first-time-user-email-how-item-2-subhead-2 = Os remetentes nunca veem o seu endereço real. Continue a usar uma máscara para esconder o seu e-mail real ou bloquear as mensagens que receber.
 first-time-user-email-how-item-3-header-2 = Você tem o controlo
 # Variables
 #   $url (string) - link to sign in
 #   $attrs (string) - link attributes
-first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>Inicie sessão</a> para criar, etiquetar ou eliminar máscaras a qualquer momento.
-first-time-user-email-how-item-3-subhead-text-2 = Inicie sessão para criar, etiquetar ou eliminar máscaras a qualquer momento.
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>Inicie sessão</a> para criar, etiquetar ou apagar máscaras a qualquer momento.
+first-time-user-email-how-item-3-subhead-text-2 = Inicie sessão para criar, etiquetar ou apagar máscaras a qualquer momento.
 # Variables
 #   $url (string) - link to support center
 #   $attrs (string) - link attributes
-first-time-user-email-questions-subhead-2-html = Visite o nosso <a href="{ $url }" { $attrs }>Centro de Apoio</a> para ajuda
-first-time-user-email-questions-subhead-text-2 = Visite o nosso Centro de Apoio para obter ajuda
+first-time-user-email-questions-subhead-2-html = Visite o nosso <a href="{ $url }" { $attrs }>Centro de Suporte</a> para ajuda
+first-time-user-email-questions-subhead-text-2 = Visite o nosso Centro de Suporte para obter ajuda
 first-time-user-email-footer-text-1-2 = Está a receber este e-mail automático como subscritor de { -brand-name-firefox-relay }. Se o recebeu por erro, nenhuma ação é necessária.
 
 ## API error messages
