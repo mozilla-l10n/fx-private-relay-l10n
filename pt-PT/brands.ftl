@@ -5,9 +5,6 @@
 
 ## Brands
 
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
 -brand-name-firefox = Firefox
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
@@ -35,4 +32,4 @@
 -brand-name-monitor = Monitor
 -brand-name-monitor-plus = Monitor Plus
 -brand-name-solo = Solo
--brand-name-solo-ai = Solo AI
+-brand-name-solo-ai = Solo IA
