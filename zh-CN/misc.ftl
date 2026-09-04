@@ -170,17 +170,17 @@ relay-email-your-dashboard = 你的控制面板
 # Variables:
 #   $url (string) - The URL of the Relay dashboard
 #   $attrs (string) - Inline attributes for the <a> link
-relay-email-premium-byline-html = 通过 <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+relay-email-premium-byline-html = 由 <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a> 转发
 # The byline for the email header that reads "by Firefox Relay"
 # Variables:
 #   $url (string) - The URL of the Relay dashboard
 #   $attrs (string) - Inline attributes for the <a> link
-relay-email-byline-html = 通过 <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+relay-email-byline-html = 由 <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a> 转发
 # The link to manage this Relay mask
 # Variables:
 #   $url (string) - The URL of the Relay dashboard
 #   $attrs (string) - Inline attributes for the <a> link
-relay-email-forwarded-from-html = 从 <a href="{ $url }" { $attrs }>{ $email_address }</a> 转发
+relay-email-forwarded-from-html = 发自 <a href="{ $url }" { $attrs }>{ $email_address }</a>
 # Variables:
 #   $number (number) - the number of email trackers removed
 relay-email-trackers-removed = { $number } 个电子邮件跟踪器已删除
