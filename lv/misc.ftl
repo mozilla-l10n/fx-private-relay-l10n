@@ -5,6 +5,7 @@
 
 ## Tips and tricks at the bottom of the page
 
+tips-header-title = Palīdzība un padomi
 tips-toast-button-expand-label = Uzzināt vairāk
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Liegt reklāmu e-pasta ziņojumus
