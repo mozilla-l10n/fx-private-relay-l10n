@@ -109,6 +109,41 @@ contains-tracker-warning-title = Vrei oricum să fie afișat linkul?
 contains-tracker-warning-description = Avertisment: Dacă dai clic pe link, va trimite informații despre tine înapoi către expeditor
 contains-tracker-warning-view-link-cta = Da, afișează linkul
 contains-tracker-faq-section-title = Întrebări frecvente despre elementele de urmărire pe e-mail
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [1] A mai rămas 1 oră
+                [few] Au mai rămas { $remaining_hours } ore
+               *[other] Au mai rămas { $remaining_hours } de ore
+            }
+        [1]
+            { $remaining_hours ->
+                [1] Au mai rămas 1 zi și 1 oră
+                [few] Au mai rămas 1 zi și { $remaining_hours } ore
+               *[other] Au mai rămas 1 zi și { $remaining_hours } de ore
+                [0] A mai rămas 1 zi
+            }
+        [few]
+            { $remaining_hours ->
+                [1] Au mai rămas { $remaining_days } zile și 1 oră
+                [few] Au mai rămas { $remaining_days } zile și { $remaining_hours } ore
+               *[other] Au mai rămas { $remaining_days } zile și { $remaining_hours } de ore
+                [0] Au mai rămas { $remaining_days } zile
+            }
+       *[other]
+            { $remaining_hours ->
+                [1] Au mai rămas { $remaining_days } de zile și 1 oră
+                [few] Au mai rămas { $remaining_days } de zile și { $remaining_hours } ore
+               *[other] Au mai rămas { $remaining_days } de zile și { $remaining_hours } de ore
+                [0] Au mai rămas { $remaining_days } de zile
+            }
+    }
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = Zile
