@@ -118,27 +118,27 @@ offer-countdown-timer-alt =
     { $remaining_days ->
         [0]
             { $remaining_hours ->
-                [1] A mai rămas 1 oră
+                [one] A mai rămas 1 oră
                 [few] Au mai rămas { $remaining_hours } ore
                *[other] Au mai rămas { $remaining_hours } de ore
             }
-        [1]
+        [one]
             { $remaining_hours ->
-                [1] Au mai rămas 1 zi și 1 oră
+                [one] Au mai rămas 1 zi și 1 oră
                 [few] Au mai rămas 1 zi și { $remaining_hours } ore
                *[other] Au mai rămas 1 zi și { $remaining_hours } de ore
                 [0] A mai rămas 1 zi
             }
         [few]
             { $remaining_hours ->
-                [1] Au mai rămas { $remaining_days } zile și 1 oră
+                [one] Au mai rămas { $remaining_days } zile și 1 oră
                 [few] Au mai rămas { $remaining_days } zile și { $remaining_hours } ore
                *[other] Au mai rămas { $remaining_days } zile și { $remaining_hours } de ore
                 [0] Au mai rămas { $remaining_days } zile
             }
        *[other]
             { $remaining_hours ->
-                [1] Au mai rămas { $remaining_days } de zile și 1 oră
+                [one] Au mai rămas { $remaining_days } de zile și 1 oră
                 [few] Au mai rămas { $remaining_days } de zile și { $remaining_hours } ore
                *[other] Au mai rămas { $remaining_days } de zile și { $remaining_hours } de ore
                 [0] Au mai rămas { $remaining_days } de zile
