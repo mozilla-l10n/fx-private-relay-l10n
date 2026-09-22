@@ -5,6 +5,7 @@
 
 ## Profile Page (Logged In)
 
+profile-label-continue = Turpināt
 profile-stat-learn-more = Uzzināt vairāk
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
