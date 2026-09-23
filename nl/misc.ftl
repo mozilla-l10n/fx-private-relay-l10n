@@ -250,7 +250,7 @@ first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Me
 first-time-user-email-how-item-3-subhead-text = Meld u aan om nieuwe maskers te maken, uw maskers te labelen en maskers die spam ontvangen te verwijderen.
 first-time-user-email-extra-protection-inbox-phone-title = Extra bescherming voor uw Postvak IN en telefoon
 first-time-user-email-extra-protection-inbox-phone-subhead = Upgrade naar { -brand-name-relay-premium } voor onbeperkte e-mailmaskers – plus een telefoonmasker om uw echte nummer te beschermen.
-first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } downloaden
+first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } verkrijgen
 first-time-user-email-questions-title = Vragen over { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website

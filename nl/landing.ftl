@@ -39,19 +39,10 @@ bundle-feature-three = Snel en veilig netwerk
 ## HOW IT WORKS SECTION
 
 how-it-works-section-title = Hoe e-mail- en telefoonmaskering door { -brand-name-relay } werkt
-
-# Item 1
-
 how-it-works-section-extension-headline = Gebruik e-mail- en telefoonmaskers van { -brand-name-relay } overal
 how-it-works-section-extension-body = Ontvang veilige, willekeurige e-mailmaskers en een uniek, gemaskeerd telefoonnummer dat u kunt gebruiken wanneer een website, app, winkel of restaurant om uw gegevens vraagt.
-
-# Item 2
-
 how-it-works-section-forward-headline = We sturen e-mailberichten, telefoontjes en sms’jes naar u door
 how-it-works-section-forward-body = Wees gerust, afzenders zullen nooit uw echte e-mailadres of echte nummer weten. U kunt zelfs sms’jes en e-mailberichten beantwoorden zonder uw echte identiteit te delen.
-
-# Item 3
-
 how-it-works-section-manage-headline = Beheer uw maskers vanaf uw { -brand-name-relay }-dashboard
 how-it-works-section-manage-body = Meld u aan bij uw { -brand-name-relay }-dashboard om nieuwe maskers aan te maken, bestaande maskers te labelen en oproepen, sms’jes of e-mailberichten te blokkeren van maskers die te veel spam ontvangen.
 
@@ -61,17 +52,11 @@ plan-matrix-offer-title = Kies een beschermingsniveau dat bij u past
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-offer-body = { -brand-name-firefox-relay } beschermt uw identiteit en uw Postvak IN met unieke e-mailmaskers. Voeg nog meer beveiliging toe met { -brand-name-relay }-telefoonmaskering en bespaar { $savings } door { -brand-name-vpn }-bescherming toe te voegen.
-
-# Top Row Labels
-
 plan-matrix-heading-features = Functies
 plan-matrix-heading-plan-free = Beperkte e-mailbescherming
 plan-matrix-heading-plan-premium = E-mailbescherming
 plan-matrix-heading-plan-phones = E-mail- en telefoonbescherming
 plan-matrix-heading-plan-bundle-2 = { -brand-name-vpn }-bescherming toevoegen
-
-# Feature Breakdowns
-
 plan-matrix-feature-email-masks = E-mailmaskers om uw echte e-mailadres te beschermen
 plan-matrix-feature-browser-extension = Browserextensie om { -brand-name-relay } op elke website te gebruiken
 plan-matrix-feature-email-tracker-removal = E-mailtrackers verwijderen
@@ -81,9 +66,6 @@ plan-matrix-feature-email-reply = Beantwoord e-mailberichten anoniem
 plan-matrix-feature-phone-mask = Telefoonmasker om uw echte telefoonnummer te beschermen
 plan-matrix-feature-vpn = { -brand-name-vpn }-bescherming van <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Onbeperkte e-mailmaskers
-
-# Feature Breakdowns Mobile (Shorter than desktop strings)
-
 plan-matrix-feature-mobile-email-masks = E-mailmaskers
 plan-matrix-feature-mobile-browser-extension = Browserextensie
 plan-matrix-feature-mobile-email-tracker-removal = E-mailtrackers verwijderen
@@ -92,17 +74,11 @@ plan-matrix-feature-mobile-email-subdomain = Uniek { -brand-name-relay }-e-maild
 plan-matrix-feature-mobile-email-reply = Beantwoord e-mailberichten anoniem
 plan-matrix-feature-mobile-phone-mask = Bescherm uw echte telefoonnummer
 plan-matrix-feature-mobile-vpn = Toegang tot <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-
-# Plan Details
-
 plan-matrix-heading-price = Prijs
 plan-matrix-feature-count-unlimited = Onbeperkt
 plan-matrix-feature-included = Inbegrepen
 plan-matrix-feature-not-included = Niet inbegrepen
 plan-matrix-price-free = Gratis
-
-# Plan Price
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly-calculated = { $monthly_price }/mnd.
@@ -113,16 +89,10 @@ plan-matrix-price-period-monthly-footnote-1 = Maandelijks gefactureerd
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Bespaar { $savings }</span> op de normale prijs van { -brand-name-vpn }
-
-# Plan CTAs
-
 plan-matrix-sign-up = Registreren
-plan-matrix-get-relay-cta = { -brand-name-relay } downloaden
+plan-matrix-get-relay-cta = { -brand-name-relay } verkrijgen
 plan-matrix-join-waitlist = Op de wachtlijst plaatsen
 plan-matrix-your-plan = Uw abonnement
-
-# Item 1
-
 highlighted-features-section-unlimited-masks-headline = Maak onbeperkt e-mailmaskers aan
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
@@ -130,9 +100,6 @@ highlighted-features-section-unlimited-masks-body-2 =
     Iedereen ontvangt gratis { $mask_limit } e-mailmaskers.
     Maar met { -brand-name-relay-premium } kunt u zoveel maskers aanmaken als u nodig hebt om uw e-mail te beschermen
     tegen spammers, hackers, datalekken en online trackers.
-
-# Item 2
-
 highlighted-features-section-masks-on-the-go-headline = Maak onderweg direct maskers
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -140,24 +107,15 @@ highlighted-features-section-masks-on-the-go-body-2 =
     { -brand-name-relay-premium } geeft u een uniek { -brand-name-relay }-e-maildomein, zodat u direct
     nieuwe maskers kunt aanmaken, waar u ook bent. Voeg gewoon een woord of woordgroep toe voor het @-teken. In een restaurant? Gebruik restaurant@uwdomein.{ $mozmail }.
     Aan het winkelen? Probeer winkel@uwdomein.{ $mozmail }.
-
-# Item 3
-
 highlighted-features-section-replying-headline = Beantwoord anoniem e-mailberichten en sms’jes
 highlighted-features-section-replying-body-2 =
     Met { -brand-name-relay-premium } kunt u reageren op e-mailberichten vanuit uw
     gemaskeerde e-mailaccount, zodat afzenders nooit uw echte e-mailadres zullen kennen. Met telefoonmaskering kunt u antwoorden
     op sms’jes vanaf uw gemaskeerde telefoonnummer, om uw echte nummer te beschermen.
-
-# Item 4
-
 highlighted-features-section-block-promotions-headline = Reclameberichten blokkeren
 highlighted-features-section-block-promotions-body-2 =
     Met { -brand-name-relay-premium } kunt u reclameberichten blokkeren voordat ze uw Postvak IN bereiken,
     terwijl u nog steeds e-mailberichten zoals ontvangstbewijzen of verzendinformatie kunt ontvangen.
-
-# Item 5
-
 highlighted-features-section-remove-trackers-headline = E-mailtrackers verwijderen
 highlighted-features-section-remove-trackers-body-2 =
     { -brand-name-relay } kan veelgebruikte e-mailtrackers verwijderen uit e-mailberichten die naar u zijn doorgestuurd,
