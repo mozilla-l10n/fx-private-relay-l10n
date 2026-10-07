@@ -11,7 +11,7 @@ onboarding-alias-tip-2 = Com a extensão { -brand-name-relay }, selecione o íco
 onboarding-alias-tip-3-2 = Utilizando a extensão { -brand-name-relay }, clique com o lado direito nos campos de formulário e selecione “Gerar nova máscara.”
 # Variables:
 #   $email (string) - User email address
-profile-label-welcome-html = <span>Bem-vindo(a),</span> { $email }!
+profile-label-welcome-html = <span>Boas-vindas,</span> { $email }!
 profile-supports-email-forwarding = O { -brand-name-firefox-relay } suporta o reencaminhamento de mensagens (incluindo anexos) de mensagens até { email-size-limit } de tamanho
 profile-details-expand = Mostrar detalhes da máscara
 profile-details-collapse = Ocultar detalhes da máscara

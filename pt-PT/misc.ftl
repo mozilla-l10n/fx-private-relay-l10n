@@ -218,7 +218,7 @@ manage-your-masks = Gerir as suas máscaras
 
 ## Email sent to first time free users
 
-first-time-user-email-welcome = Bem-vindo(a) ao { -brand-name-firefox-relay }
+first-time-user-email-welcome = Boas-vindas ao { -brand-name-firefox-relay }
 first-time-user-email-preheader = Máscaras de e-mail para proteger a sua identidade
 first-time-user-email-welcome-subhead = O seu endereço de e-mail pode ser utilizado para o monitorizar na Internet – estamos aqui para ajudar a acabar com isto.
 first-time-user-email-hero-primary-text = Como utilizador do { -brand-name-firefox }, tem 5 máscaras de correio eletrónico gratuitas. Utilize-as para ocultar o seu endereço de e-mail real, proteger a sua identidade e reencaminhar apenas as mensagens que quiser para a sua caixa de entrada.

@@ -5,7 +5,7 @@
 
 ## Step 1 Welcome to Relay
 
-profile-free-onboarding-welcome-headline = Bem-vindo(a) ao { -brand-name-relay }
+profile-free-onboarding-welcome-headline = Boas-vindas ao { -brand-name-relay }
 profile-free-onboarding-welcome-description = Vamos criar uma nova máscara de e-mail.
 profile-free-onboarding-welcome-item-headline-1 = Utilize máscaras de e-mail gratuitas para proteger o seu endereço real
 profile-free-onboarding-welcome-item-description-1 = Sempre que precisar de um endereço de e-mail, utilize uma máscara de e-mail.
