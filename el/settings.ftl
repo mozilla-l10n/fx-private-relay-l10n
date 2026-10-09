@@ -27,6 +27,6 @@ settings-button-copy = Κάντε κλικ για αντιγραφή
 setting-api-key-copied = Αντιγράφηκε!
 setting-api-key-copied-alt = Κάντε κλικ για αντιγραφή
 setting-tracker-removal-heading = Αφαίρεση ιχνηλατών email
-setting-tracker-removal-description = Αφαιρέστε τους ιχνηλάτες email από όλα τα προωθημένα σας email.
+setting-tracker-removal-description = Αφαίρεση ιχνηλατών email από όλα τα προωθημένα email
 setting-tracker-removal-note = Το { -brand-name-firefox-relay } μπορεί πλέον να αφαιρεί κοινούς ιχνηλάτες email από τα email που προωθούνται μέσω των μασκών σας.
 setting-tracker-removal-warning-2 = Σημαντικό: Η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες και συνδέσμους. Εάν αυτό συμβεί στα email σας, δεν υπάρχει τρόπος επιδιόρθωσης ή ανάκτησης.
