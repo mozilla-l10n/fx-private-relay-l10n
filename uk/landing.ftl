@@ -39,19 +39,10 @@ bundle-feature-three = Швидка та захищена мережа
 ## HOW IT WORKS SECTION
 
 how-it-works-section-title = Як працює маскування електронної пошти та номера телефону { -brand-name-relay }
-
-# Item 1
-
 how-it-works-section-extension-headline = Використовуйте маски адрес електронної пошти й номера телефону { -brand-name-relay } будь-де
 how-it-works-section-extension-body = Отримайте захищені випадкові маски електронної пошти та унікальний замаскований номер телефону, який використовуватиметься щоразу, коли вебсайт, застосунок, магазин чи ресторан запитуватимуть ваші дані.
-
-# Item 2
-
 how-it-works-section-forward-headline = Ми пересилатимемо вам електронні листи, телефонні виклики та текстові повідомлення
 how-it-works-section-forward-body = Будьте впевнені, відправники ніколи не дізнаються вашу справжню електронну адресу чи справжній номер. Ви навіть можете відповідати на текстові та електронні листи, не розкриваючи свою особу.
-
-# Item 3
-
 how-it-works-section-manage-headline = Керуйте своїми масками з панелі керування { -brand-name-relay }
 how-it-works-section-manage-body = Увійдіть на свою панель керування { -brand-name-relay }, щоб створювати нові маски, позначати наявні маски та блокувати виклики, текстові повідомлення чи електронні листи від масок, які отримують забагато спаму.
 
@@ -61,17 +52,11 @@ plan-matrix-offer-title = Оберіть рівень захисту, який �
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-offer-body = { -brand-name-firefox-relay } захищає вашу особу та вашу теку «Вхідні» за допомогою унікальних масок електронної пошти. Розширте безпеку за допомогою маскування номера телефону { -brand-name-relay } і заощадьте { $savings }, додавши захист { -brand-name-vpn }.
-
-# Top Row Labels
-
 plan-matrix-heading-features = Можливості
 plan-matrix-heading-plan-free = Обмежений захист електронної пошти
 plan-matrix-heading-plan-premium = Захист електронної пошти
 plan-matrix-heading-plan-phones = Захист електронної пошти та телефону
 plan-matrix-heading-plan-bundle-2 = Додайте захист { -brand-name-vpn }
-
-# Feature Breakdowns
-
 plan-matrix-feature-email-masks = Маски електронної пошти для захисту вашої справжньої електронної адреси
 plan-matrix-feature-browser-extension = Розширення браузера для користування { -brand-name-relay } на будь-якому сайті
 plan-matrix-feature-email-tracker-removal = Вилучайте елементи стеження електронної пошти
@@ -81,9 +66,6 @@ plan-matrix-feature-email-reply = Відповідайте на електрон
 plan-matrix-feature-phone-mask = Маскуйте номер телефону для захисту вашого справжнього номера телефону
 plan-matrix-feature-vpn = Захист { -brand-name-vpn } від <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Необмежена кількість масок електронної пошти
-
-# Feature Breakdowns Mobile (Shorter than desktop strings)
-
 plan-matrix-feature-mobile-email-masks = Маски електронної пошти
 plan-matrix-feature-mobile-browser-extension = Розширення для браузера
 plan-matrix-feature-mobile-email-tracker-removal = Вилучайте елементи стеження електронної пошти
@@ -92,17 +74,11 @@ plan-matrix-feature-mobile-email-subdomain = Унікальний домен е�
 plan-matrix-feature-mobile-email-reply = Відповідайте на електронні листи анонімно
 plan-matrix-feature-mobile-phone-mask = Захистіть свій справжній номер телефону
 plan-matrix-feature-mobile-vpn = Доступ до <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-
-# Plan Details
-
 plan-matrix-heading-price = Ціна
 plan-matrix-feature-count-unlimited = Необмежено
 plan-matrix-feature-included = Включено
 plan-matrix-feature-not-included = Не включено
 plan-matrix-price-free = Безплатно
-
-# Plan Price
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly-calculated = { $monthly_price }/міс.
@@ -113,33 +89,37 @@ plan-matrix-price-period-monthly-footnote-1 = Щомісячна оплата
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Заощадьте { $savings }</span> від звичайної ціни за { -brand-name-vpn }
-
-# Plan CTAs
-
 plan-matrix-sign-up = Зареєструватися
 plan-matrix-get-relay-cta = Отримати { -brand-name-relay }
 plan-matrix-join-waitlist = Долучитись до списку очікування
 plan-matrix-your-plan = Ваш план
-
-# Item 1
-
 highlighted-features-section-unlimited-masks-headline = Створюйте необмежену кількість масок адрес електронної пошти
-
-# Item 2
-
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body-2 =
+    Усі отримують { $mask_limit } масок електронної пошти безплатно.
+    Але з { -brand-name-relay-premium } ви можете згенерувати стільки масок, скільки потрібно, щоб захистити свою
+    електронну пошту від спамерів, хакерів і елементів онлайн-стеження.
 highlighted-features-section-masks-on-the-go-headline = Миттєво створюйте маски на ходу
-
-# Item 3
-
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body-2 =
+    { -brand-name-relay-premium } надає вам унікальний домен електронної пошти { -brand-name-relay }, щоб ви могли миттєво
+    створювати нові маски, де б ви не були. Просто додайте будь-яке слово чи фразу перед символом @. В ресторані? Використовуйте
+    restaurant@yourdomain.{ $mozmail }.  На шопінгу? Спробуйте shop@yourdomain.{ $mozmail }.
 highlighted-features-section-replying-headline = Відповідайте на електронні та текстові повідомлення анонімно
-
-# Item 4
-
+highlighted-features-section-replying-body-2 =
+    { -brand-name-relay-premium } дає змогу відповідати на електронні листи з вашого замаскованого облікового запису електронної
+    пошти, тому відправники ніколи не дізнаються вашу справжню адресу електронної пошти. Завдяки маскуванню номера телефону
+    ви можете відповідати на текстові повідомлення з вашого замаскованого номера телефону, щоб захистити ваш справжній номер.
 highlighted-features-section-block-promotions-headline = Блокуйте промоційні листи
-
-# Item 5
-
+highlighted-features-section-block-promotions-body-2 =
+    За допомогою { -brand-name-relay-premium } ви можете блокувати надходження рекламних листів до вашої теки «Вхідні», 
+    водночас отримуючи електронні листи, як-от квитанції чи інформацію про доставлення.
 highlighted-features-section-remove-trackers-headline = Вилучайте елементи стеження електронної пошти
+highlighted-features-section-remove-trackers-body-2 =
+    { -brand-name-relay } може вилучати поширені елементи стеження з будь-якої електронної пошти, 
+    допомагаючи вам залишатися непоміченим для елементів стеження та рекламодавців.
 
 ## REVIEWS SECTION
 

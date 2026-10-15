@@ -273,6 +273,43 @@ first-time-user-email-footer-text-2-text = Для отримання додат�
 first-time-user-email-footer-text-legal = Правові положення
 first-time-user-email-footer-text-privacy = Умови та приватність
 
+## Updated first-time user welcome email (MPP-4613)
+
+first-time-user-email-welcome-subhead-2 = Маскуйте свою електронну пошту. Контролюйте свою поштову скриньку.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = Ви маєте { $mask_limit } безплатних масок електронної пошти, готових до роботи. Використовуйте одну з них, коли робите покупки онлайн або реєструєте новий обліковий запис чи застосунок.
+first-time-user-email-cta-dashboard-button-2 = Перейти на { -brand-name-firefox-relay }
+first-time-user-email-how-item-1-header-2 = Створіть маску за лічені секунди
+
+## Updated first-time user welcome email (v3)
+
+first-time-user-email-welcome-subhead-3 = Вашу адресу електронної пошти можна використовувати для онлайн-стеження за вами — ми тут, щоб допомогти покласти цьому край.
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = Як користувач { -brand-name-firefox }, ви отримуєте { $mask_limit } електронних масок безплатно. Використовуйте їх, щоб приховати свою справжню адресу електронної пошти, захистити свою особистість і пересилати до теки «Вхідні» лише ті листи, які вам потрібні.
+first-time-user-email-hero-secondary-text-3 = Керуйте всіма своїми масками з панелі керування { -brand-name-relay }
+first-time-user-email-cta-dashboard-button-3 = Дізнайтеся, як користуватися маскамии електронної пошти
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-2-html = Прямо у { -brand-name-firefox } за допомогою <a href="{ $url }" { $attrs }>додатка { -brand-name-relay }</a> або з панелі керування.
+first-time-user-email-how-item-1-subhead-text-2 = Прямо у { -brand-name-firefox }, за допомогою додатка { -brand-name-relay } або з панелі інструментів.
+first-time-user-email-how-item-2-header-2 = Пересилайте будь-які електронні листи
+first-time-user-email-how-item-2-subhead-2 = Відправники ніколи не бачитимуть вашої справжньої адреси. Продовжуйте використовувати маску, щоб приховати свою справжню електронну пошту або заблокувати електронні листи, які ви отримуєте.
+first-time-user-email-how-item-3-header-2 = Усе під вашим контролем
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>Увійдіть</a>, щоб створювати, позначати або видаляти маски в будь-який час.
+first-time-user-email-how-item-3-subhead-text-2 = Увійдіть, щоб створювати, позначати або видаляти маски у будь-який час.
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-2-html = Отримуйте допомогу у нашому <a href="{ $url }" { $attrs }>Центрі підтримки</a>
+first-time-user-email-questions-subhead-text-2 = Отримуйте допомогу у нашому Центрі підтримки
+first-time-user-email-footer-text-1-2 = Ви отримуєте цей автоматичний електронний лист як підписник { -brand-name-firefox-relay }. Якщо ви отримали його помилково, жодних дій не потрібно.
+
 ## API error messages
 
 # Variables:

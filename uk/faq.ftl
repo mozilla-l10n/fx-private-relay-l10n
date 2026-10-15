@@ -55,6 +55,8 @@ faq-question-mozmail-answer-2 = Ми перейшли з “relay.firefox.com”
 faq-question-attachments-question = Чи буде пересилатиме { -brand-name-firefox-relay } електронні листи з вкладеннями?
 faq-question-attachments-answer-v2 = Натепер ми підтримуємо пересилання вкладених файлів. Однак існує обмеження { email-size-limit } для пересилання е-пошти за допомогою { -brand-name-relay }. Усі електронні листи розміром понад { email-size-limit } не пересилатимуться.
 faq-question-unsubscribe-domain-question-2 = Що станеться з моїм користувацьким піддоменом, якщо я скасую передплату { -brand-name-relay-premium }?
+#   $mask_limit (number) - Number of free email masks allowed
+faq-question-unsubscribe-domain-answer-3 = Якщо ви перейдете з { -brand-name-relay-premium }, ви все одно отримуватимете електронні листи, переслані через вашу власну маску електронної адреси, але ви більше не зможете створювати нові маски за допомогою цього піддомену. Якщо у вас загалом понад { $mask_limit } масок, ви більше не зможете створювати їх. Ви також втратите можливість відповідати на переслані повідомлення. Ви можете знову передплатити { -brand-name-relay-premium } і відновити доступ до цих функцій.
 faq-question-8-question = Які дані збирає { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -67,8 +69,9 @@ faq-question-acceptable-use-question = Що вважається прийнят�
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } має ті самі <a href="{ $url }" { $attrs }>умови надання послуг, що й усі продукти { -brand-name-mozilla }</a>. Ми маємо політику нетерпимості до користування { -brand-name-relay } у зловмисних цілях, як-от спам, що призводить до припинення дії облікового запису користувача. Ми вживаємо заходів, щоб запобігти порушенням користувачів наших умов такими способами:
 # Deprecated
-faq-question-acceptable-use-answer-measure-account = Необхідний { -brand-name-firefox-account(case: "nom", capitalization: "lower") } із підтвердженою адресою електронної пошти
+faq-question-acceptable-use-answer-measure-account = Необхідний { -brand-name-firefox-account(capitalization: "lower", case: "nom") } із підтвердженою адресою електронної пошти
 faq-question-acceptable-use-answer-measure-account-v2 = Потрібен обліковий запис із підтвердженою адресою електронної пошти
+faq-question-acceptable-use-answer-measure-unlimited-payment-3 = Вимагається оплата від користувачів за створення понад { $mask_limit } масок
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Обмеження кількості масок, які можна згенерувати за один день
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links

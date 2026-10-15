@@ -89,3 +89,6 @@ whatsnew-holiday-promo-2023-news-heading = Отримайте знижку 20% �
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = У цей святковий сезон отримайте знижку розміром 20% на 1 рік { -brand-name-relay-premium }. Просто введіть промокод “HOLIDAY20” під час оформлення замовлення. Пропозиція діє до 31 грудня 2023 р.
 whatsnew-holiday-promo-2023-cta = Отримайте 1 рік { -brand-name-relay-premium }
+whatsnew-feature-mask-expansion-heading = 50 масок електронної пошти безплатно
+whatsnew-feature-mask-expansion-snippet = Відепер ви отримуєте 50 безплатних масок (раніше було 5). Використовуйте по одній для кожного облікового запису, щоб захистити приватність вашої справжньої електронної пошти.
+whatsnew-feature-mask-expansion-cta = Отримати маски електронної пошти
