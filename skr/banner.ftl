@@ -36,9 +36,6 @@ banner-pack-upgrade-cta = ہݨ اپ گریڈ کرو
 # Data Notification Banner:
 banner-label-data-notification-body-cta = ٻیا سِکھو
 
-# Relay Premium Promo A/B Test
-
-
 ## Set domain banner
 
 banner-set-email-domain-headline-action-needed = عمل ضروری ہے
@@ -104,5 +101,6 @@ upsell-banner-4-masks-us-heading = ودھ کنوں ودھ ای میل تے فو�
 upsell-banner-4-masks-us-heading-2 = ودھ کنوں ودھ ای میل حفاظت گھنو
 upsell-banner-4-masks-non-us-heading = ودھ کنوں ودھ ای میل حفاظت گھنو
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } تُہاکوں تُہاݙے اصلی نمبر دی راکھی کِیتے ہِک فون ماسک، نیز لا محدود ای میل ماسک اَتے پروموشنل ای میلز کوں بلاک کرݨ دی صلاحیت فراہم کرین٘دا ہِے۔
+upsell-banner-4-masks-us-description-2 = لامحدود ای میل ماسک حاصل کرو، انہاں توں براہ راست جواب ݙیو اتے اپݨے { -brand-name-relay } سب ڈومین نال فوراً نویں بݨاؤ، جڈاں چاہوو جتھاں چاہوو۔
 upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } تُہاکوں لا محدود ای میل ماسک، سپیم بلاکنگ، ہِک لوڑ مطابق { -brand-name-relay } ای میل ڈومین، اَتے اڳّوں گَھلّے ڳئے پیغامات دا جواب ݙیوݨ دی صلاحیت فراہم کرین٘دا ہِے۔
 upsell-banner-4-masks-us-cta = { -brand-name-relay-premium } تے اپ گریڈ کرو

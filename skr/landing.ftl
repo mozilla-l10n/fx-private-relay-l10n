@@ -20,6 +20,9 @@ hero-section-social-proof = جین٘ویں جو ایندے وچ ݙٹھا ڳئے
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-banner-header-2 = محدود مدت صرف: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/month کیتے
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-3 = { -brand-name-mozilla-vpn } تہاکوں ٹریکنگ تے نگرانی توں بچیندے، جݙاں تساں گیمنگ، آن لائن بینکنگ یا کم کریندے پئے ہوو۔ ایں کوں { -brand-name-firefox-relay } وچ شامل کرو تے { $savings } چھوٹ حاصل کرو۔
 bundle-banner-plan-header-2 = تہاݙے ہک سال منصوبے وچ شامل ہن:
 bundle-banner-plan-modules-email-masking = ای میل ماسکنگ
 bundle-banner-plan-modules-phone-masking = فون ماسکنگ
@@ -36,36 +39,26 @@ bundle-feature-three = تکھا تے محفوظ نیٹ ورک
 ## HOW IT WORKS SECTION
 
 how-it-works-section-title = { -brand-name-relay } ای میل تے فون ماسک کین٘ویں کم کریندے
-
-# Item 1
-
 how-it-works-section-extension-headline = ہر جاء تے { -brand-name-relay } ای میل ماسک  تے فون ماسک ورتو
-
-# Item 2
-
+how-it-works-section-extension-body = محفوظ، بے ترتیب ای میل ماسک اتے ہک منفرد، ماسک شدہ فون نمبر ڳھنو، جڈاں وی کوئی ویب سائٹ، ایپ، سٹور یا ریستوران تہاݙی معلومات منگے۔
 how-it-works-section-forward-headline = اساں تہاکوں ای میلاں، فون کالاں تے ٹیکسٹ فارورڈ کریسوں
 how-it-works-section-forward-body =
     یقین رکھو، بھیڄݨ آلیاں کوں کݙاہیں وی تہاݙا اصلی ای میل پتہ یا اصلی نمبر دا پتہ کائناں لڳسی۔ 
      تے تساں آپݨی اصلی سن٘ڄاݨ ݙسے بغیر ٹیکسٹ تے ای میلاں دا جواب وی ݙے سڳدے ہو۔
-
-# Item 3
-
 how-it-works-section-manage-headline = آپݨے { -brand-name-relay } ڈیش بورڈ کنوں آپݨے ماسک منیج کرو
+how-it-works-section-manage-body = اپݨے { -brand-name-relay } ڈیش بورڈ وچ سائن ان تھیوو تاں جو نویں ماسک بݨاؤ، موجودہ ماسکاں کوں لیبل کرو اتے جنہاں ماسکاں تے بہوں سپام آندے انہاں دیاں کالاں، ٹیکسٹ یا ای میلز بلاک کرو۔
 
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = حفاظت دی سطح چݨو، جہڑا تہاݙا حق ہے
-
-# Top Row Labels
-
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
+plan-matrix-offer-body = { -brand-name-firefox-relay } منفرد ای میل ماسکاں نال تہاݙی شناخت تے تہاݙے ان باکس دی حفاظت کریندے۔ { -brand-name-relay } فون ماسکنگ نال ودھیک تحفظ حاصل کرو، تے { -brand-name-vpn } تحفظ شامل کرݨ نال { $savings } بچاؤ۔
 plan-matrix-heading-features = خاص
 plan-matrix-heading-plan-free = محدود ای میل حفاظت
 plan-matrix-heading-plan-premium = ای میل حفاظت
 plan-matrix-heading-plan-phones = ای میل تے فون حفاظت
 plan-matrix-heading-plan-bundle-2 = { -brand-name-vpn } حفاظت شامل کرو
-
-# Feature Breakdowns
-
 plan-matrix-feature-email-masks = آپݨے اصلی ای میل پتے دی حفاظت کیتے ای میل ماسک
 plan-matrix-feature-browser-extension = کہیں وی سائٹ تے { -brand-name-relay } ورتݨ کیتے ایکسٹنشن براؤز کرو
 plan-matrix-feature-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
@@ -75,9 +68,6 @@ plan-matrix-feature-email-reply = گمنام دے طور تے ای میلاں د
 plan-matrix-feature-phone-mask = تہاݙے اصلی فون نمبر دی حفاظت کیتے فون ماسک
 plan-matrix-feature-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> کنوں { -brand-name-vpn } حفاظت
 plan-matrix-feature-list-email-masks-unlimited = بے انت ای میل ماسک
-
-# Feature Breakdowns Mobile (Shorter than desktop strings)
-
 plan-matrix-feature-mobile-email-masks = ای میل ماسکس
 plan-matrix-feature-mobile-browser-extension = براؤزر ایکسٹنشن
 plan-matrix-feature-mobile-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
@@ -86,17 +76,11 @@ plan-matrix-feature-mobile-email-subdomain = نویکلی { -brand-name-relay } 
 plan-matrix-feature-mobile-email-reply = گمنام دے طور تے ای میلاں دا جواب ݙیوو
 plan-matrix-feature-mobile-phone-mask = آپݨے اصلی فون نمبر دی حفاظت کرو
 plan-matrix-feature-mobile-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> تے رسائی
-
-# Plan Details
-
 plan-matrix-heading-price = قیمت
 plan-matrix-feature-count-unlimited = بے انت
 plan-matrix-feature-included = سمیت
 plan-matrix-feature-not-included = بغیر
 plan-matrix-price-free = مفت
-
-# Plan Price
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly-calculated = { $monthly_price }/mo.
@@ -107,32 +91,37 @@ plan-matrix-price-period-monthly-footnote-1 = ٻل ماہانہ ہوندے
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = ریگولر { -brand-name-vpn } قیمت تے <span>{ $savings } بچت کرو</span>
-
-# Plan CTAs
-
 plan-matrix-sign-up = سائن اپ
 plan-matrix-get-relay-cta = { -brand-name-relay } گھنو
 plan-matrix-join-waitlist = تانگھ تندیر نال رلت کرو
-
-# Item 1
-
+plan-matrix-your-plan = تہاݙا پلان
 highlighted-features-section-unlimited-masks-headline = بے انت ای میل ماسک تخلیق کرو
-
-# Item 2
-
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body-2 =
+    ہر کوئی { $mask_limit } ای میل ماسک مفت ڳھندے۔
+    پر { -brand-name-relay-premium } نال تساں اوݨے ماسک بݨا سگدے او جیݨے تہاݙی ای میل کوں
+    سپامراں، ہیکراں، ڈیٹا بریچاں تے آن لائن ٹریکراں توں بچاوݨ کیتے چاہیدن۔
 highlighted-features-section-masks-on-the-go-headline = گو تے ٹھک پک ماسک تخلیق کرو
-
-# Item 3
-
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body-2 =
+    { -brand-name-relay-premium } تساں کوں ہک منفرد { -brand-name-relay } ای میل ڈومین ݙیندے تاں جو تساں فوراً
+    نویں ماسک بݨا سگو جتھاں وی ہووے۔ بس @ دی علامت توں پہلے کوئی وی لفظ یا فقرہ لاؤ۔ ریستوران وچ ہو؟ restaurant@yourdomain.{ $mozmail } ورتو۔
+    خریداری کریندے پئے ہو؟ shop@yourdomain.{ $mozmail } آزماؤ۔
 highlighted-features-section-replying-headline = گمنام دے طور تے ای میلاں تے عبارتاں دا جواب ݙیوو
-
-# Item 4
-
+highlighted-features-section-replying-body-2 =
+    { -brand-name-relay-premium } تساں کوں اپݨے
+    ماسک شدہ ای میل اکاؤنٹ توں ای میلز دا جواب ݙیوݨ دی اجازت ݙیندے، تاں جو بھیجݨ آلے تہاݙا اصل ای میل پتہ کݙاہیں نہ ڄاݨ سگن۔ فون
+    ماسکنگ نال، تساں اپݨے ماسک شدہ فون نمبر توں ٹیکسٹاں دا جواب ݙے سگو تاں جو تہاݙا اصل نمبر محفوظ رہوے۔
 highlighted-features-section-block-promotions-headline = مشہوری ای میلاں بلاک کرو
-
-# Item 5
-
+highlighted-features-section-block-promotions-body-2 =
+    { -brand-name-relay-premium } دے نال، تساں پروموشنل ای میلز کوں اپݨے ان باکس تائیں پُڄݨ کنوں روک سڳدے ہو 
+    جے تائیں رسیداں یا شپنگ دیاں معلومات جیہاں ای میل وصول تھیندیاں ہن۔
 highlighted-features-section-remove-trackers-headline = سارے ای میل ٹریکر ہٹاؤ
+highlighted-features-section-remove-trackers-body-2 =
+    { -brand-name-relay } عام ای میل ٹریکراں کوں اڳوں بھیجی ڳئی ساریاں ای میلاں وچوں مٹا سڳدا ہے، 
+    تہاکوں مشہوری کرݨ آلے لوکاں تے ٹریکراں کنوں لکاوݨ سانگے۔
 
 ## REVIEWS SECTION
 

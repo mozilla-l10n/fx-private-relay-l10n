@@ -27,6 +27,7 @@ error-mask-update-failed = ماسک ڈیٹا اپ ڈیٹ کائنی تھی سڳ�
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = ماسک { $mask } کائنی مٹ  سڳیا۔ سوہݨا، ولدا کوشش کرو۔
+error-general = کجھ غلط تھی ڳیا ہے۔ مہربانی کر تے بعد وچ دوبارہ کوشش کرو۔
 
 ## Notifications component
 
@@ -267,7 +268,40 @@ first-time-user-email-footer-text-privacy = شرطاں تے رازداری
 
 ## Updated first-time user welcome email (MPP-4613)
 
+first-time-user-email-welcome-subhead-2 = اپݨی ای میل کوں ماسک کرو۔ اپݨے ان باکس تے کنٹرول رکھو۔
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-2 = تہاݙے کول { $mask_limit } مفت ای میل ماسک تیار ہن۔ جڈاں تساں آن لائن خریداری کرو یا نویں اکاؤنٹ یا ایپ کیتے سائن اپ کرو تاں ہک ورتو۔
 first-time-user-email-cta-dashboard-button-2 = { -brand-name-firefox-relay } تے ون٘ڄو
+first-time-user-email-how-item-1-header-2 = چند سکنٹاں وچ ہک ماسک بݨاؤ
+
+## Updated first-time user welcome email (v3)
+
+first-time-user-email-welcome-subhead-3 = تُہاݙا ای میل پتہ تُہاکوں آن لائن ٹریک کرݨ کِیتے استعمال کِیتا ون٘ڄ سڳین٘دا ہِے — اَساں اِیکوں مُکاوݨ وِچ مَدَت کِیتے حاضر ہِسے۔
+# Variables
+#   $mask_limit (number) - the number of free email masks available
+first-time-user-email-hero-primary-text-3 = ہِک { -brand-name-firefox } صارف دے طور تے، تُہاکوں { $mask_limit } ای میل ماسک مُفت وِچ مِلدے ہِن۔ اپݨے اصلی ای میل پتے کوں لُکاوݨ، اپݨی سُن٘ڄاݨ دی راکھی کرݨ اَتے صرف اُنّھاں ای میلاں کوں اَڳّوں تے گَھلّݨ کِیتے اِنّھاں دا استعمال کرو جہڑیاں تُساں اپݨے اِن باکس وِچ چاہن٘دے ہِیوے۔
+first-time-user-email-hero-secondary-text-3 = اپݨے { -brand-name-relay } ڈیش بورڈ کنوں اپݨے سارے ماسک منیج کرو۔
+first-time-user-email-cta-dashboard-button-3 = ای میل ماسک ورتݨ سکھو۔
+# Variables
+#   $url (string) - link to the Relay add-on
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-1-subhead-2-html = { -brand-name-firefox } وچ سِدھا، <a href="{ $url }" { $attrs }>{ -brand-name-relay } ایڈ آن</a> نال، یا اپݨے ڈیش بورڈ توں۔
+first-time-user-email-how-item-1-subhead-text-2 = { -brand-name-firefox } وچ سِدھا، { -brand-name-relay } ایڈ آن نال، یا اپݨے ڈیش بورڈ توں۔
+first-time-user-email-how-item-2-header-2 = چاہیدیاں ای میلز اڳوں بھیجو۔
+first-time-user-email-how-item-2-subhead-2 = بھیجݨ آلے تہاݙا اصل پتہ کݙاہیں نہ ڄاݨ سگن۔ اپݨا اصل ای میل پتہ لکاوݨ یا ملݨ آلیاں ای میلز کوں بلاک کرݨ کیتے ماسک ورتیندا رہو۔
+first-time-user-email-how-item-3-header-2 = تساں کنٹرول وچ ہو۔
+# Variables
+#   $url (string) - link to sign in
+#   $attrs (string) - link attributes
+first-time-user-email-how-item-3-subhead-2-html = <a href="{ $url }" { $attrs }>سائن ان</a> تھیوو تاں جو کݙاہیں وی ماسک بݨاؤ، انہاں کوں لیبل کرو یا مٹاؤ۔
+first-time-user-email-how-item-3-subhead-text-2 = سائن ان تھیوو تاں جو کݙاہیں وی ماسک بݨاؤ، انہاں کوں لیبل کرو یا مٹاؤ۔
+# Variables
+#   $url (string) - link to support center
+#   $attrs (string) - link attributes
+first-time-user-email-questions-subhead-2-html = مدد کیتے ساݙا <a href="{ $url }" { $attrs }>سپورٹ سینٹر</a> ویکھو۔
+first-time-user-email-questions-subhead-text-2 = مدد کیتے ساݙا سپورٹ سینٹر ویکھو۔
+first-time-user-email-footer-text-1-2 = تساں کوں ایہہ خودکار ای میل { -brand-name-firefox-relay } دے سبسکرائبر دے طور تے مل رہی ہے۔ جے ایہہ تساں کوں غلطی نال ملی ہے تاں کوئی کم کرݨ دی لوڑ نہیں۔
 
 ## API error messages
 

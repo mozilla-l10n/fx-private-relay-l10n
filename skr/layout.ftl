@@ -68,6 +68,7 @@ fx-makes-tech = { -brand-name-firefox } او ٹیکنالوجی ہے جہڑی ت
 made-by-mozilla = { -brand-name-mozilla } ولوں بݨیا
 fx-desktop = ڈیسک ٹاپ کیتے { -brand-name-firefox-browser }
 fx-mobile = موبائل کیتے { -brand-name-firefox-browser }
+fx-solo-ai = { -brand-name-solo-ai }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
