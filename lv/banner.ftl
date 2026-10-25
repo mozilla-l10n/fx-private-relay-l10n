@@ -43,6 +43,10 @@ banner-set-email-domain-headline = Iestati savu neatkārtojamo { -brand-name-rel
 banner-set-email-domain-step-one-headline = Atlasi savu vēlamo { -brand-name-relay } e-pasta domēnu
 banner-set-email-domain-step-one-body = Tā ir daļa e-pasta adresē, kas ir aiz @ zīmes.
 banner-set-email-domain-step-two-headline = Tā ir izmantojama, lai tūlītēji izveidotu pielāgotus { -brand-name-relay } aizsegus
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Vienkārši pievienojiet vārdu vai frāzi pirms @ simbola. Iepērkaties? Izmantojiet shop@yourdomain.{ $mozmail }.
 banner-set-email-domain-input-placeholder-label = Meklēt e-pasta domēnu
 banner-set-email-domain-input-placeholder = Meklēt vārdu vai vārdu salikumu
 banner-set-email-domain-input-search = Meklēt
@@ -55,7 +59,12 @@ modal-email-domain-good-news = Labas ziņas!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
 modal-email-domain-available = <p>{ $custom_domain_full }</p> ir pieejams
+modal-email-domain-available-body = Jūs varat reģistrēt tikai vienu unikālu { -brand-name-relay } epasta domēnu. <p>Vēlāk to nevarēsiet mainīt.</p>
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Jā, es vēlos reģistrēties @{ $subdomain }
 modal-email-domain-cancel = Atcelt
+modal-email-domain-register = Reģistrēties
 
 ## Mask limit upsell banner
 
