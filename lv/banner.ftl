@@ -65,6 +65,16 @@ modal-email-domain-available-body = Jūs varat reģistrēt tikai vienu unikālu 
 modal-domain-register-confirmation-checkbox = Jā, es vēlos reģistrēties @{ $subdomain }
 modal-email-domain-cancel = Atcelt
 modal-email-domain-register = Reģistrēties
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full } tagad ir jūsu { -brand-name-relay } epasta domēns!
+modal-email-domain-success-headline-on-the-go = Izmantojiet šo, lai ģenerētu jaunas { -brand-name-relay } maskas garāmejot
+modal-email-domain-success-body-on-the-go = Lai izveidotu jaunu masku, nav jāpiesakās pakalpojumā { -brand-name-relay }.
+modal-email-domain-success-headline-any-word = Izveidojiet neierobežotu skaitu masku, pievienojot jebkuru vārdu vai frāzi
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Iepērkaties? Izmantojiet veikalu { $custom_domain_full }.
+tooltip-email-domain-explanation-title = Par jūsu unikālo { -brand-name-relay } epasta domēnu
 
 ## Mask limit upsell banner
 
