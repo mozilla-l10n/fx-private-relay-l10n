@@ -75,6 +75,9 @@ modal-email-domain-success-headline-any-word = Izveidojiet neierobežotu skaitu 
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Iepērkaties? Izmantojiet veikalu { $custom_domain_full }.
 tooltip-email-domain-explanation-title = Par jūsu unikālo { -brand-name-relay } epasta domēnu
+tooltip-email-domain-explanation-part-one = Šī vērtīgā jūsu { -brand-name-relay-premium } konta funkcija ļauj jums izvēlēties unikālu { -brand-name-relay } epasta domēnu, ko varat izmantot, lai izveidotu neierobežotu skaitu pielāgotu { -brand-name-relay } masku garām ejot.
+tooltip-email-domain-explanation-part-two = Lai ģenerētu jaunu masku, nav jāpiesakās pakalpojumā { -brand-name-relay }; vienkārši pievienojiet jebkuru vārdu vai frāzi pirms @ simbola savā { -brand-name-relay } epasta domēnā, lai acumirklī izveidotu jaunu masku jebkur,lai kur arī jūs neatrastos.
+tooltip-email-domain-explanation-title-free = Iegūstiet savu { -brand-name-relay } epasta domēnu
 
 ## Mask limit upsell banner
 
