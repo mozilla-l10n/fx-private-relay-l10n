@@ -67,7 +67,7 @@ modal-email-domain-cancel = Atcelt
 modal-email-domain-register = Reģistrēties
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
-modal-email-domain-success-subheadline = <p>{ $custom_domain_full } tagad ir jūsu { -brand-name-relay } epasta domēns!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> tagad ir jūsu { -brand-name-relay } epasta domēns!
 modal-email-domain-success-headline-on-the-go = Izmantojiet šo, lai ģenerētu jaunas { -brand-name-relay } maskas garāmejot
 modal-email-domain-success-body-on-the-go = Lai izveidotu jaunu masku, nav jāpiesakās pakalpojumā { -brand-name-relay }.
 modal-email-domain-success-headline-any-word = Izveidojiet neierobežotu skaitu masku, pievienojot jebkuru vārdu vai frāzi
@@ -90,7 +90,7 @@ holiday-promo-banner-protect-inbox = Aizsargājiet savu iesūtni par zemāku cen
 holiday-promo-banner-code-desc = Saņemiet 20% atlaidi { -brand-name-relay-premium }
 # Variables:
 # 	$couponCode (string) - the coupon code.
-holiday-promo-banner-code-usage = Izmantojiet kodu <kupons>{ $couponCode }</kupons> norēķinoties
+holiday-promo-banner-code-usage = Izmantojiet kodu <coupon>{ $couponCode }</coupon> norēķinoties
 holiday-promo-banner-cta-button = Saņemiet { -brand-name-premium } 1 gadu
 holiday-promo-banner-promo-expiry = Piedāvājums beidzas 2023. gada 31. decembrī
 
