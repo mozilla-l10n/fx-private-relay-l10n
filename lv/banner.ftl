@@ -77,8 +77,8 @@ modal-email-domain-success-body-any-word = Iepērkaties? Izmantojiet veikalu { $
 tooltip-email-domain-explanation-title = Par Tavu neatkārtojošos { -brand-name-relay } e-pasta domēnu
 tooltip-email-domain-explanation-part-one = Šī vērtīgā { -brand-name-relay-premium } konta iespēja ļauj izvēlēties neatkārtojošos { -brand-name-relay } e-pasta domēnu, ko var izmantot, lai pēc vajadzības izveidotu neierobežotu skaitu pielāgotu { -brand-name-relay } aizsegu.
 tooltip-email-domain-explanation-part-two = Nav nepieciešams pieteikties { -brand-name-relay }, lai izveidotu jaunu aizsegu. Vienkārši savam { -brand-name-relay } e-pasta domēnam pirms @ zīmes jāpievieno jebkurš vārds vai vārdkopa, lai uzreiz izveidotu jaunu aizsegu, lai kur arī Tu būtu.
-tooltip-email-domain-explanation-title-free = Iegūstiet savu { -brand-name-relay } epasta domēnu
-tooltip-email-domain-explanation-part-one-free = Ar { -brand-name-premium } varat izveidot neierobežotu skaitu pielāgotu { -brand-name-relay } masku, atrodoties ceļā, izmantojot unikālu { -brand-name-relay } epasta domēnu — jums tās pat nebūs vispirms jāģenerē šeit.
+tooltip-email-domain-explanation-title-free = Iegūsti savu { -brand-name-relay } e-pasta domēnu
+tooltip-email-domain-explanation-part-one-free = Ar { -brand-name-premium } var izveidot neierobežotu skaitu pielāgotu { -brand-name-relay } aizsegu, esot kustībā, ar neatkārtojošos { -brand-name-relay } e-pasta domēnu — tie pat nebūs vispirms jāizveido šeit.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
@@ -97,9 +97,9 @@ holiday-promo-banner-promo-expiry = Piedāvājums beidzas 2023. gada 31. decembr
 ## Mask limit upsell banner
 
 upsell-banner-4-masks-button-close-label = Aizvērt
-upsell-banner-4-masks-us-heading = Iegūstiet maksimālu epasta un tālruņa aizsardzību
-upsell-banner-4-masks-us-heading-2 = Iegūstiet maksimālu epasta aizsardzību
-upsell-banner-4-masks-non-us-heading = Iegūstiet maksimālu epasta aizsardzību
+upsell-banner-4-masks-us-heading = Iegūsti vislabāko e-pasta un tālruņa aizsardzību
+upsell-banner-4-masks-us-heading-2 = Iegūsti vislabāko e-pasta aizsardzību
+upsell-banner-4-masks-non-us-heading = Iegūsti vislabāko e-pasta aizsardzību
 upsell-banner-4-masks-us-description = { -brand-name-relay-premium } nodrošina tālruņa masku jūsu īstā numura aizsardzībai, kā arī neierobežotu epasta masku skaitu un iespēju bloķēt reklāmas epastus.
 upsell-banner-4-masks-us-description-2 = Atbloķējiet neierobežotas epasta maskas, atbildiet tieši no tām un izveidojiet jaunas acumirklī ar savu { -brand-name-relay } apakšdomēnu — jebkurā laikā un vietā.
 upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } nodrošina neierobežotas epasta maskas, surogātpasta bloķēšanu, pielāgotu { -brand-name-relay } epasta domēnu un iespēju atbildēt uz pārsūtītajiem ziņojumiem.
