@@ -59,7 +59,7 @@ modal-email-domain-good-news = Labas ziņas!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
 modal-email-domain-available = <p>{ $custom_domain_full }</p> ir pieejams
-modal-email-domain-available-body = Jūs varat reģistrēt tikai vienu unikālu { -brand-name-relay } epasta domēnu. <p>Vēlāk to nevarēsiet mainīt.</p>
+modal-email-domain-available-body = Tu vari reģistrēt tikai vienu neatkārtojošos { -brand-name-relay } e-pasta domēnu. <p>Vēlāk to nevarēs mainīt.</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Jā, es vēlos reģistrēties @{ $subdomain }
@@ -67,16 +67,16 @@ modal-email-domain-cancel = Atcelt
 modal-email-domain-register = Reģistrēties
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
-modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> tagad ir jūsu { -brand-name-relay } epasta domēns!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> tagad ir Tavs { -brand-name-relay } e-pasta domēns!
 modal-email-domain-success-headline-on-the-go = Izmantojiet šo, lai ģenerētu jaunas { -brand-name-relay } maskas garāmejot
 modal-email-domain-success-body-on-the-go = Lai izveidotu jaunu masku, nav jāpiesakās pakalpojumā { -brand-name-relay }.
 modal-email-domain-success-headline-any-word = Izveidojiet neierobežotu skaitu masku, pievienojot jebkuru vārdu vai frāzi
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Iepērkaties? Izmantojiet veikalu { $custom_domain_full }.
-tooltip-email-domain-explanation-title = Par jūsu unikālo { -brand-name-relay } epasta domēnu
-tooltip-email-domain-explanation-part-one = Šī vērtīgā jūsu { -brand-name-relay-premium } konta funkcija ļauj jums izvēlēties unikālu { -brand-name-relay } epasta domēnu, ko varat izmantot, lai izveidotu neierobežotu skaitu pielāgotu { -brand-name-relay } masku garām ejot.
-tooltip-email-domain-explanation-part-two = Lai ģenerētu jaunu masku, nav jāpiesakās pakalpojumā { -brand-name-relay }; vienkārši pievienojiet jebkuru vārdu vai frāzi pirms @ simbola savā { -brand-name-relay } epasta domēnā, lai acumirklī izveidotu jaunu masku jebkur,lai kur arī jūs neatrastos.
+tooltip-email-domain-explanation-title = Par Tavu neatkārtojošos { -brand-name-relay } e-pasta domēnu
+tooltip-email-domain-explanation-part-one = Šī vērtīgā { -brand-name-relay-premium } konta iespēja ļauj izvēlēties neatkārtojošos { -brand-name-relay } e-pasta domēnu, ko var izmantot, lai pēc vajadzības izveidotu neierobežotu skaitu pielāgotu { -brand-name-relay } aizsegu.
+tooltip-email-domain-explanation-part-two = Nav nepieciešams pieteikties { -brand-name-relay }, lai izveidotu jaunu aizsegu. Vienkārši savam { -brand-name-relay } e-pasta domēnam pirms @ zīmes jāpievieno jebkurš vārds vai vārdkopa, lai uzreiz izveidotu jaunu aizsegu, lai kur arī Tu būtu.
 tooltip-email-domain-explanation-title-free = Iegūstiet savu { -brand-name-relay } epasta domēnu
 tooltip-email-domain-explanation-part-one-free = Ar { -brand-name-premium } varat izveidot neierobežotu skaitu pielāgotu { -brand-name-relay } masku, atrodoties ceļā, izmantojot unikālu { -brand-name-relay } epasta domēnu — jums tās pat nebūs vispirms jāģenerē šeit.
 # Variables:
