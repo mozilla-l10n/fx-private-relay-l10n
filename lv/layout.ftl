@@ -6,3 +6,7 @@
 ## Header
 
 nav-profile-sign-out-confirm = Vai tiešām izrakstīties?
+
+## Mobile menu text
+
+nav-support = Palīdzība un atbalsts
