@@ -5,6 +5,7 @@
 
 ## Header
 
+nav-profile-sign-in = Pieteikties
 nav-profile-sign-out-confirm = Vai tiešām izrakstīties?
 
 ## Mobile menu text
