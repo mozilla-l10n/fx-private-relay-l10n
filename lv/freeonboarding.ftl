@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Step 1 Welcome to Relay
+
+profile-free-onboarding-skip-step = Izlaist
+
 ## Step 2 How to Use a Mask
 
 profile-free-onboarding-copy-mask-continue = Turpināt

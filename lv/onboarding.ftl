@@ -5,4 +5,6 @@
 
 ## Step 3 Relay Extension Added
 
+multi-part-onboarding-skip = Izlaist, vēlāk iestatīšu
+multi-part-onboarding-skip-download-extension = Izlaist, paplašinājumu lejupielādēšu vēlāk
 multi-part-onboarding-continue = Turpināt
