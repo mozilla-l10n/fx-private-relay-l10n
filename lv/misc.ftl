@@ -11,6 +11,10 @@ tips-toast-button-expand-label = Uzzināt vairāk
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Liegt reklāmu e-pasta ziņojumus
 
+## Report of trackers removed from an email
+
+trackerreport-faq-heading = Izplatītākie jautājumi par izsekotājiem e-pastā
+
 ## Tracker warning page
 
 contains-tracker-warning-description = Brīdinājums: šīs saites atvēršana nosūtīs informāciju par Tevi nosūtītājam
