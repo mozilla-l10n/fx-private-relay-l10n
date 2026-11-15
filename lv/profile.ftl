@@ -5,6 +5,7 @@
 
 ## Profile Page (Logged In)
 
+profile-label-edit-2 = Labot šī aizsega iezīmi
 profile-label-continue = Turpināt
 profile-stat-learn-more = Uzzināt vairāk
 
