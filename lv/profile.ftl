@@ -8,6 +8,7 @@
 profile-label-edit-2 = Labot šī aizsega iezīmi
 profile-label-continue = Turpināt
 profile-stat-learn-more = Uzzināt vairāk
+profile-filter-no-results = Atlasītajam neatbilst neviens aizsegs. <clear-button>Notīrīt visus atsijātājus.</clear-button>
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
