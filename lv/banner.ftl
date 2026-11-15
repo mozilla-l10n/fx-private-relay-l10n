@@ -82,7 +82,7 @@ tooltip-email-domain-explanation-part-one-free = Ar { -brand-name-premium } var 
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
-tooltip-email-domain-explanation-part-three = Restorānā? Izmantojiet restaurant@yourdomain.{ $mozmail }. <p>Iepērkaties? Izmēģiniet shop@yourdomain.{ $mozmail } </p>
+tooltip-email-domain-explanation-part-three = Restorānā? Izmanto restorans@tavsdomens.{ $mozmail }! <p>Iepērcies? Izmēģini veikals@tavsdomens.{ $mozmail }</p>
 
 ## 2023 Holiday promo
 
@@ -90,7 +90,7 @@ holiday-promo-banner-protect-inbox = Aizsargājiet savu iesūtni par zemāku cen
 holiday-promo-banner-code-desc = Saņemiet 20% atlaidi { -brand-name-relay-premium }
 # Variables:
 # 	$couponCode (string) - the coupon code.
-holiday-promo-banner-code-usage = Izmantojiet kodu <coupon>{ $couponCode }</coupon> norēķinoties
+holiday-promo-banner-code-usage = Izmanto kodu <coupon>{ $couponCode }</coupon> norēķinoties
 holiday-promo-banner-cta-button = Saņemiet { -brand-name-premium } 1 gadu
 holiday-promo-banner-promo-expiry = Piedāvājums beidzas 2023. gada 31. decembrī
 
